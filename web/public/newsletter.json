@@ -1,47 +1,47 @@
 {
   "news": [
     {
-      "title": "Goldman Sachs Partners with Anthropic to Enhance AI Compliance Efficiency",
-      "body": "Goldman Sachs is collaborating with AI company Anthropic to develop autonomous AI agents for accounting and compliance tasks, aiming to enhance operational efficiency. This partnership positions Goldman Sachs to set a new standard for AI use in compliance, compelling other financial institutions to accelerate their AI adoption. As a result, firms that fail to innovate may find themselves at a competitive disadvantage in the evolving landscape.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47306/goldman-sachs-enlists-anthropic-for-accounting-and-compliance-ai-agents?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Bank of Ireland's AI Fraud Detection Saves \u20ac9.7M, Sets New Benchmark",
-      "body": "The Bank of Ireland leveraged AI to assess 1 billion card transactions for fraud in 2025, successfully preventing \u20ac9.7 million in losses. This achievement may push other banks to adopt similar AI-driven fraud detection systems, increasing competition in security solutions. However, as AI adoption grows, so too may the sophistication of fraud attempts, necessitating continuous innovation in security measures.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47303/bank-of-ireland-saved-customers-97-million-by-using-ai-to-detect-fraud-in-card-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "SoftBank's PayPay Files for US IPO, Aiming to Disrupt Payment Apps",
-      "body": "SoftBank-backed payments app PayPay has filed paperwork for a US IPO, signaling its ambitions to enter the competitive US market. This move could intensify competition among payment apps, challenging incumbents like Venmo and Cash App. If successful, PayPay's IPO may lead to further international expansion and increased investment in payment technologies, reshaping the landscape.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47302/softbanks-paypay-files-for-us-initial-public-offering?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Crypto Advocates Push for Narrower UK FCA Regulations",
-      "body": "The DeFi Education Fund is urging the UK's FCA to limit its cryptocurrency regulations to entities with unilateral control over user funds. This narrower regulatory scope could benefit smaller DeFi platforms by reducing compliance burdens, potentially fostering innovation. However, it may also increase risks for consumers and investors, prompting a reevaluation of regulatory frameworks globally.",
+      "title": "Stronger Digital IDs Help Stop $34 Billion in Fraud Losses",
+      "body": "Financial institutions are reassessing their digital trust mechanisms to combat $34 billion in losses from identity theft fueled by AI exploitation. This means firms investing in robust digital ID systems could gain a competitive edge by significantly reducing fraud-related losses. Technology providers focusing on advanced authentication solutions stand to benefit, while those neglecting this shift may face increased scrutiny and operational risks.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/regulation/2026/crypto-advocates-urge-united-kingdom-fca-narrow-regulatory-scope/"
+        "url": "https://www.pymnts.com/authentication/2026/stronger-digital-ids-help-stop-34-billion-in-fraud-losses/"
       }
     },
     {
-      "title": "Figure Tests Blockchain Stock Launch, Challenging Traditional Exchanges",
-      "body": "Figure Technology Solutions has launched a secondary public offering of its Blockchain Common Stock, testing blockchain's role in trading. Success could disrupt traditional stock exchanges by offering a new model for trading and capital raising, potentially accelerating blockchain adoption in capital markets. However, the complexity and regulatory hurdles of blockchain may limit widespread acceptance in this sector.",
+      "title": "Firms Report Improved Financial Performance Linked to Use of Embedded Finance",
+      "body": "A recent study reveals that mid-sized and large firms leveraging embedded finance are likely to see enhanced customer relationships and improved financial performance. This indicates that companies effectively integrating these services could gain significant customer loyalty and a competitive advantage. Traditional financial institutions may face disintermediation as firms increasingly adopt embedded finance solutions.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/figure-tests-future-of-trading-with-blockchain-stock-launch/"
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/firms-report-improved-financial-performance-linked-to-use-of-embedded-finance/"
+      }
+    },
+    {
+      "title": "OpenAI and Cisco Back Standards to Scale Agentic AI",
+      "body": "OpenAI and Cisco are advocating for standards to scale agentic AI, addressing trust issues and moving from experimental phases to real-world applications. This initiative could accelerate adoption, benefiting early adopters and compliant firms in the payments landscape. However, the push for standardization may stifle innovation by imposing rigid frameworks on developers and businesses.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-and-cisco-back-standards-to-scale-agentic-ai/"
+      }
+    },
+    {
+      "title": "Stablecoin Payments Show Up at Checkout Despite Crypto Markets Slump",
+      "body": "Stablecoin payments are gaining traction at retail checkouts, driven by institutional interest in blockchain technology, despite a downturn in the crypto market. This trend suggests that stablecoins may soon become a mainstream payment method, although increased regulatory scrutiny could pose challenges. Retailers and payment processors adapting to this shift may capture a new segment of crypto-savvy consumers.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-payments-show-up-at-checkout-despite-crypto-markets-slump/"
+      }
+    },
+    {
+      "title": "Global Fintech Investment Rebounds in 2025, Supported by Stronger Exit Activity",
+      "body": "Global fintech investment surged to $116 billion in 2025, up from $95.5 billion in 2024, fueled by stronger exit activity. This rebound indicates a potential increase in innovation and competition within the fintech sector, leading to more IPOs and M&A activity. However, the rebound may be temporary if economic conditions worsen or interest rates rise, impacting future investment strategies.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47307/global-fintech-investment-rebounds-in-2025-supported-by-stronger-exit-activity?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Today's stories highlight the ongoing integration of AI and blockchain technologies in the financial landscape. Goldman Sachs and the Bank of Ireland are setting benchmarks for AI in compliance and fraud detection, respectively, while PayPay's IPO signals a competitive shift in the payments space. Meanwhile, the push for narrower regulations in the UK reflects the tension between fostering innovation and ensuring consumer protection in the crypto sector.",
+  "perspective": "Today's stories highlight a critical intersection of technology and finance, where robust digital identities and embedded finance are reshaping competitive dynamics. As firms adapt to these trends, the emphasis on regulatory compliance and innovation will be paramount. Payments professionals must navigate these evolving landscapes to maintain their competitive edge and capitalize on emerging opportunities.",
   "curiosity": {
     "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing the way consumers approached payments."
   },
@@ -50,36 +50,36 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Anthropic",
-      "description": "Raised $30 billion in Series G funding.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-anthropic-leads-ai-robotics/"
+      "description": "Raised $30B at $380B valuation, second-largest venture funding deal.",
+      "source_url": "https://news.crunchbase.com/ai/anthropic-raises-30b-second-largest-deal-all-time/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Shield AI",
-      "description": "Seeks $1 billion funding round, valuing at $11 billion.",
-      "source_url": "https://www.pymnts.com/startups/2026/shield-ai-seeks-1-billion-dollars-lead-global-defense-tech-surge/"
-    },
-    {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
-      "type": "IPO",
-      "company": "SoftBank's PayPay",
-      "description": "Filed for US initial public offering.",
-      "source_url": "https://www.finextra.com/newsarticle/47302/softbanks-paypay-files-for-us-initial-public-offering?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Inertia Enterprises",
+      "description": "Raised $450M Series A for nuclear fusion technology.",
+      "source_url": "https://news.crunchbase.com/clean-tech-and-energy/next-gen-nuclear-funding-lively-inertia-seriesa/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Figure",
-      "description": "Launched blockchain stock offering.",
-      "source_url": "https://www.pymnts.com/blockchain/2026/figure-tests-future-of-trading-with-blockchain-stock-launch/"
+      "type": "fundraising",
+      "company": "Apptronik",
+      "description": "Raised $520M Series A extension for humanoid robot production.",
+      "source_url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/"
     },
     {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "IPO",
-      "company": "Ledger",
-      "description": "Preps $4 billion IPO in the US.",
-      "source_url": "https://sifted.eu/articles/ledger-preps-4bn-ipo-us/"
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "Winn.AI",
+      "description": "Raised $18M Series A for AI-powered sales assistant.",
+      "source_url": "https://news.crunchbase.com/venture/startup-winn-ai-seriesa-real-time-assistant/"
+    },
+    {
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "expansion",
+      "company": "Animoca Brands",
+      "description": "Secured Dubai VASP license for global virtual asset services.",
+      "source_url": "https://www.theblock.co/post/389989/animoca-brands-secures-dubai-vasp-license-to-provide-broker-dealer-and-investment-services?utm_source=rss&utm_medium=rss"
     }
   ]
 }
