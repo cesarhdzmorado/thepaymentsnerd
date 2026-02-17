@@ -1,47 +1,47 @@
 {
   "news": [
     {
-      "title": "Stronger Digital IDs Help Stop $34 Billion in Fraud Losses",
-      "body": "Financial institutions are reassessing their digital trust mechanisms to combat $34 billion in losses from identity theft fueled by AI exploitation. This means firms investing in robust digital ID systems could gain a competitive edge by significantly reducing fraud-related losses. Technology providers focusing on advanced authentication solutions stand to benefit, while those neglecting this shift may face increased scrutiny and operational risks.",
+      "title": "JPMorgan and Nacha Collaborate on Blockchain Data Sharing",
+      "body": "JPMorgan and Nacha are collaborating to use blockchain technology for simplifying account verification processes for JPMorgan Chase customers, enhancing efficiency and security in data sharing. This initiative could set a new standard for data verification in banking, potentially giving JPMorgan a competitive edge in customer experience and security. Other banks may explore blockchain for similar uses, leading to industry-wide adoption and new regulatory considerations. While blockchain is touted for security, the complexity and cost of implementation may outweigh benefits in the short term.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/authentication/2026/stronger-digital-ids-help-stop-34-billion-in-fraud-losses/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/jpmorgan-nacha-share-data-via-blockchain-phixius-kinexys-liink/812106/"
       }
     },
     {
-      "title": "Firms Report Improved Financial Performance Linked to Use of Embedded Finance",
-      "body": "A recent study reveals that mid-sized and large firms leveraging embedded finance are likely to see enhanced customer relationships and improved financial performance. This indicates that companies effectively integrating these services could gain significant customer loyalty and a competitive advantage. Traditional financial institutions may face disintermediation as firms increasingly adopt embedded finance solutions.",
+      "title": "Stablecoin Use Grows as Everyday Money",
+      "body": "A global study finds that stablecoins are increasingly used for everyday spending, cross-border work, and savings, reflecting their growing mainstream adoption. Stablecoins could challenge traditional payment methods, prompting financial institutions to integrate crypto solutions. This trend may lead to evolving regulatory frameworks addressing stablecoin use in everyday transactions, impacting compliance requirements. However, stablecoin volatility and regulatory uncertainty could hinder widespread adoption in the short term.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/firms-report-improved-financial-performance-linked-to-use-of-embedded-finance/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/390057/cryptos-300-billion-stablecoin-supply-is-increasingly-used-as-everyday-money-global-study-finds?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "OpenAI and Cisco Back Standards to Scale Agentic AI",
-      "body": "OpenAI and Cisco are advocating for standards to scale agentic AI, addressing trust issues and moving from experimental phases to real-world applications. This initiative could accelerate adoption, benefiting early adopters and compliant firms in the payments landscape. However, the push for standardization may stifle innovation by imposing rigid frameworks on developers and businesses.",
+      "title": "Real-Time Payments Benefit Contractors",
+      "body": "Real-time payments are helping contractors save up to two workweeks a month by reducing payment delays and improving cash flow. Adoption of real-time payments could become a competitive differentiator for payment processors targeting the construction industry. Improved cash flow could lead to more timely project completions and increased profitability for contractors. However, the benefits may be overstated if contractors face other systemic delays unrelated to payments.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-and-cisco-back-standards-to-scale-agentic-ai/"
+        "url": "https://www.pymnts.com/disbursements/2026/real-time-payments-give-contractors-back-2-workweeks-a-month/"
       }
     },
     {
-      "title": "Stablecoin Payments Show Up at Checkout Despite Crypto Markets Slump",
-      "body": "Stablecoin payments are gaining traction at retail checkouts, driven by institutional interest in blockchain technology, despite a downturn in the crypto market. This trend suggests that stablecoins may soon become a mainstream payment method, although increased regulatory scrutiny could pose challenges. Retailers and payment processors adapting to this shift may capture a new segment of crypto-savvy consumers.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-payments-show-up-at-checkout-despite-crypto-markets-slump/"
-      }
-    },
-    {
-      "title": "Global Fintech Investment Rebounds in 2025, Supported by Stronger Exit Activity",
-      "body": "Global fintech investment surged to $116 billion in 2025, up from $95.5 billion in 2024, fueled by stronger exit activity. This rebound indicates a potential increase in innovation and competition within the fintech sector, leading to more IPOs and M&A activity. However, the rebound may be temporary if economic conditions worsen or interest rates rise, impacting future investment strategies.",
+      "title": "Global Fintech Investment Rebounds",
+      "body": "Global fintech investment rebounded in 2025, reaching $116 billion, driven by stronger exit activity and investor confidence. Increased investment could lead to more innovation and competition in the fintech space, pressuring incumbents to adapt. This rebound may pave the way for more fintech IPOs and M&A activity as companies seek to capitalize on favorable market conditions. However, the rebound might be short-lived if macroeconomic conditions worsen, impacting investor sentiment.",
       "source": {
         "name": "Finextra",
         "url": "https://www.finextra.com/newsarticle/47307/global-fintech-investment-rebounds-in-2025-supported-by-stronger-exit-activity?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
+    },
+    {
+      "title": "Wintermute Launches Institutional Tokenized Gold Trading",
+      "body": "Wintermute has launched a platform for institutional tokenized gold trading, anticipating the market to reach $15 billion in 2026. This could position Wintermute as a leader in tokenized commodities, challenging traditional gold trading platforms. Increased adoption of tokenized assets in institutional portfolios may influence commodity trading strategies. However, tokenized gold may face regulatory hurdles and skepticism from traditional investors, slowing adoption.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/390042/wintermute-launches-institutional-tokenized-gold-trading-expects-market-to-reach-15-billion-in-2026?utm_source=rss&utm_medium=rss"
+      }
     }
   ],
-  "perspective": "Today's stories highlight a critical intersection of technology and finance, where robust digital identities and embedded finance are reshaping competitive dynamics. As firms adapt to these trends, the emphasis on regulatory compliance and innovation will be paramount. Payments professionals must navigate these evolving landscapes to maintain their competitive edge and capitalize on emerging opportunities.",
+  "perspective": "Today's stories highlight a critical intersection of blockchain, stablecoins, and real-time payments, all of which are reshaping the competitive landscape in financial services. As firms like JPMorgan leverage blockchain for data sharing and stablecoins gain traction as everyday money, the pressure mounts on traditional payment methods and banking practices. The rebound in fintech investment signals a renewed confidence in innovation, but the looming regulatory challenges and market volatility remind us that the path forward is fraught with complexity.",
   "curiosity": {
     "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing the way consumers approached payments."
   },
@@ -49,37 +49,51 @@
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
+      "company": "Uptiq",
+      "description": "secures $25M for AI-driven banking solutions",
+      "source_url": "https://www.finextra.com/newsarticle/47309/production-ready-bank-ai-vendor-uptiq-secures-25-million-in-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "Wintermute",
+      "description": "launches institutional tokenized gold trading platform",
+      "source_url": "https://www.theblock.co/post/390042/wintermute-launches-institutional-tokenized-gold-trading-expects-market-to-reach-15-billion-in-2026?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "partnership",
+      "company": "Plaid",
+      "description": "partners with Backbase for faster bank onboarding",
+      "source_url": "https://www.pymnts.com/partnerships/2026/plaid-and-backbase-team-on-faster-bank-customer-onboarding/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "X",
+      "description": "plans to launch crypto and stock trading on platform",
+      "source_url": "https://www.finextra.com/newsarticle/47310/x-to-launch-crypto-and-stock-trading?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
       "company": "Anthropic",
-      "description": "Raised $30B at $380B valuation, second-largest venture funding deal.",
+      "description": "raises $30B at $380B valuation in AI funding",
       "source_url": "https://news.crunchbase.com/ai/anthropic-raises-30b-second-largest-deal-all-time/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Inertia Enterprises",
-      "description": "Raised $450M Series A for nuclear fusion technology.",
-      "source_url": "https://news.crunchbase.com/clean-tech-and-energy/next-gen-nuclear-funding-lively-inertia-seriesa/"
+      "type": "partnership",
+      "company": "JPMorgan",
+      "description": "collaborates with Nacha on blockchain data sharing",
+      "source_url": "https://www.bankingdive.com/news/jpmorgan-nacha-share-data-via-blockchain-phixius-kinexys-liink/812106/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Apptronik",
-      "description": "Raised $520M Series A extension for humanoid robot production.",
-      "source_url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "type": "fundraising",
-      "company": "Winn.AI",
-      "description": "Raised $18M Series A for AI-powered sales assistant.",
-      "source_url": "https://news.crunchbase.com/venture/startup-winn-ai-seriesa-real-time-assistant/"
-    },
-    {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "expansion",
-      "company": "Animoca Brands",
-      "description": "Secured Dubai VASP license for global virtual asset services.",
-      "source_url": "https://www.theblock.co/post/389989/animoca-brands-secures-dubai-vasp-license-to-provide-broker-dealer-and-investment-services?utm_source=rss&utm_medium=rss"
+      "type": "closure",
+      "company": "ZeroLend",
+      "description": "shuts down after 98% TVL drop",
+      "source_url": "https://www.theblock.co/post/390119/zerolend-to-shut-down?utm_source=rss&utm_medium=rss"
     }
   ]
 }
