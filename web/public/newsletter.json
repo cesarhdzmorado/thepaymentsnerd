@@ -1,99 +1,85 @@
 {
   "news": [
     {
-      "title": "JPMorgan and Nacha Collaborate on Blockchain Data Sharing",
-      "body": "JPMorgan and Nacha are collaborating to use blockchain technology for simplifying account verification processes for JPMorgan Chase customers, enhancing efficiency and security in data sharing. This initiative could set a new standard for data verification in banking, potentially giving JPMorgan a competitive edge in customer experience and security. Other banks may explore blockchain for similar uses, leading to industry-wide adoption and new regulatory considerations. While blockchain is touted for security, the complexity and cost of implementation may outweigh benefits in the short term.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/jpmorgan-nacha-share-data-via-blockchain-phixius-kinexys-liink/812106/"
-      }
-    },
-    {
-      "title": "Stablecoin Use Grows as Everyday Money",
-      "body": "A global study finds that stablecoins are increasingly used for everyday spending, cross-border work, and savings, reflecting their growing mainstream adoption. Stablecoins could challenge traditional payment methods, prompting financial institutions to integrate crypto solutions. This trend may lead to evolving regulatory frameworks addressing stablecoin use in everyday transactions, impacting compliance requirements. However, stablecoin volatility and regulatory uncertainty could hinder widespread adoption in the short term.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/390057/cryptos-300-billion-stablecoin-supply-is-increasingly-used-as-everyday-money-global-study-finds?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Real-Time Payments Benefit Contractors",
-      "body": "Real-time payments are helping contractors save up to two workweeks a month by reducing payment delays and improving cash flow. Adoption of real-time payments could become a competitive differentiator for payment processors targeting the construction industry. Improved cash flow could lead to more timely project completions and increased profitability for contractors. However, the benefits may be overstated if contractors face other systemic delays unrelated to payments.",
+      "title": "Stripe-Owned Bridge Clears OCC Hurdle for Federal Bank Charter",
+      "body": "Stripe-owned Bridge received conditional approval from the OCC to operate as a federally chartered national trust bank, allowing it to offer stablecoin products under federal oversight. This strengthens Stripe's position in the stablecoin market, potentially challenging existing players. Expect increased competition in the sector as more fintechs seek similar approvals.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/disbursements/2026/real-time-payments-give-contractors-back-2-workweeks-a-month/"
+        "url": "https://www.pymnts.com/bank-regulation/2026/stripe-owned-bridge-clears-occ-hurdle-for-federal-bank-charter/"
       }
     },
     {
-      "title": "Global Fintech Investment Rebounds",
-      "body": "Global fintech investment rebounded in 2025, reaching $116 billion, driven by stronger exit activity and investor confidence. Increased investment could lead to more innovation and competition in the fintech space, pressuring incumbents to adapt. This rebound may pave the way for more fintech IPOs and M&A activity as companies seek to capitalize on favorable market conditions. However, the rebound might be short-lived if macroeconomic conditions worsen, impacting investor sentiment.",
+      "title": "Fed Flags Structural Weak Spots in Stablecoins and Digital Money Funds",
+      "body": "The Federal Reserve Bank of Boston has identified potential vulnerabilities in stablecoins and digital money funds, drawing parallels to past financial crises. This increased scrutiny may lead to tighter regulations, impacting the growth and operation of these financial instruments. Potential regulatory changes could reshape the stablecoin landscape, affecting adoption and innovation.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/economy/2026/fed-flags-structural-weak-spots-in-stablecoins-and-digital-money-funds/"
+      }
+    },
+    {
+      "title": "Mastercard and Visa Enlist Banks for Agentic Payment Pilots",
+      "body": "DBS and Westpac are partnering with Visa and Mastercard to pilot agentic payments, which enable autonomous payment decisions by AI agents. This positions Visa and Mastercard as leaders in this emerging technology, potentially setting new industry standards. Successful pilots could reshape consumer payment experiences and lead to broader adoption.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47307/global-fintech-investment-rebounds-in-2025-supported-by-stronger-exit-activity?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47316/mastercard-and-visa-enlist-banks-for-agentic-payment-pilots?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Wintermute Launches Institutional Tokenized Gold Trading",
-      "body": "Wintermute has launched a platform for institutional tokenized gold trading, anticipating the market to reach $15 billion in 2026. This could position Wintermute as a leader in tokenized commodities, challenging traditional gold trading platforms. Increased adoption of tokenized assets in institutional portfolios may influence commodity trading strategies. However, tokenized gold may face regulatory hurdles and skepticism from traditional investors, slowing adoption.",
+      "title": "Payoneer Taps Bridge for Stablecoin Roll Out",
+      "body": "Payoneer has announced plans to launch stablecoin capabilities using Bridge's platform, enhancing its cross-border payment services. This positions Payoneer as a leader in integrating stablecoins for cross-border transactions, challenging traditional banking models. This move could accelerate stablecoin adoption in cross-border payments, influencing regulatory approaches.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/390042/wintermute-launches-institutional-tokenized-gold-trading-expects-market-to-reach-15-billion-in-2026?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/108873/payoneer-taps-bridge-for-stablecoin-roll-out?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "UK Banks Seek Alternative to Visa and Mastercard Amid Trump Fears",
+      "body": "UK banks are exploring the creation of a new payment company to reduce reliance on Visa and Mastercard, driven by geopolitical concerns. This move could disrupt the dominance of these US card schemes and offer banks more control over payment infrastructure. Increased innovation in UK payments may follow, influencing other regions to consider similar alternatives.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47314/uk-banks-seek-alternative-to-visa-and-mastercard-amid-trump-fears?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Today's stories highlight a critical intersection of blockchain, stablecoins, and real-time payments, all of which are reshaping the competitive landscape in financial services. As firms like JPMorgan leverage blockchain for data sharing and stablecoins gain traction as everyday money, the pressure mounts on traditional payment methods and banking practices. The rebound in fintech investment signals a renewed confidence in innovation, but the looming regulatory challenges and market volatility remind us that the path forward is fraught with complexity.",
+  "perspective": "Today's stories underscore a pivotal moment for stablecoins and agentic payments, as regulatory scrutiny intensifies alongside innovation. Stripe's regulatory win with Bridge and Payoneer's stablecoin rollout signal a competitive surge in the stablecoin sector, while the Fed's warnings highlight the fragility of these financial instruments. As UK banks seek alternatives to Visa and Mastercard, the landscape is ripe for disruption, compelling payments professionals to adapt swiftly to these evolving dynamics.",
   "curiosity": {
-    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing the way consumers approached payments."
+    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing how people approached payments."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Emirates NBD",
+      "description": "Leads $31M round in real estate platform Stake",
+      "source_url": "https://www.finextra.com/newsarticle/47313/emirates-nbd-leads-31-million-round-in-real-estate-investment-platform-stake?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Uptiq",
-      "description": "secures $25M for AI-driven banking solutions",
+      "description": "Secures $25M for bank AI platform",
       "source_url": "https://www.finextra.com/newsarticle/47309/production-ready-bank-ai-vendor-uptiq-secures-25-million-in-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Wintermute",
-      "description": "launches institutional tokenized gold trading platform",
-      "source_url": "https://www.theblock.co/post/390042/wintermute-launches-institutional-tokenized-gold-trading-expects-market-to-reach-15-billion-in-2026?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "Plaid",
-      "description": "partners with Backbase for faster bank onboarding",
-      "source_url": "https://www.pymnts.com/partnerships/2026/plaid-and-backbase-team-on-faster-bank-customer-onboarding/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "X",
-      "description": "plans to launch crypto and stock trading on platform",
-      "source_url": "https://www.finextra.com/newsarticle/47310/x-to-launch-crypto-and-stock-trading?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Anthropic",
-      "description": "raises $30B at $380B valuation in AI funding",
-      "source_url": "https://news.crunchbase.com/ai/anthropic-raises-30b-second-largest-deal-all-time/"
+      "company": "Sphinx",
+      "description": "Raises $7.1M for compliance agent",
+      "source_url": "https://www.finextra.com/pressarticle/108856/sphinx-raises-71m-for-complaince-agent?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "JPMorgan",
-      "description": "collaborates with Nacha on blockchain data sharing",
-      "source_url": "https://www.bankingdive.com/news/jpmorgan-nacha-share-data-via-blockchain-phixius-kinexys-liink/812106/"
+      "type": "fundraising",
+      "company": "Dragonfly",
+      "description": "Closes $650M crypto venture fund",
+      "source_url": "https://www.theblock.co/post/390188/dragonfly-closes-650-million-for-fourth-crypto-venture-fund-amid-bear-market-gloom?utm_source=rss&utm_medium=rss"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "closure",
-      "company": "ZeroLend",
-      "description": "shuts down after 98% TVL drop",
-      "source_url": "https://www.theblock.co/post/390119/zerolend-to-shut-down?utm_source=rss&utm_medium=rss"
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "type": "product",
+      "company": "Hoxton Wealth",
+      "description": "Wealth app hits $10B in assets tracked",
+      "source_url": "https://www.finextra.com/pressarticle/108878/dubai-built-hoxton-wealth-app-hits-10-billion-in-assets-tracked-worldwide?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
