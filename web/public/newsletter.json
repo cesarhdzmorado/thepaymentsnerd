@@ -1,85 +1,99 @@
 {
   "news": [
     {
-      "title": "Stripe-Owned Bridge Clears OCC Hurdle for Federal Bank Charter",
-      "body": "Stripe-owned Bridge received conditional approval from the OCC to operate as a federally chartered national trust bank, allowing it to offer stablecoin products under federal oversight. This strengthens Stripe's position in the stablecoin market, potentially challenging existing players. Expect increased competition in the sector as more fintechs seek similar approvals.",
+      "title": "Modern Treasury Launches Integrated PSP for Fiat and Stablecoins",
+      "body": "Modern Treasury has launched a new integrated payment service provider (PSP) that allows companies to embed both fiat and stablecoin payments into their products. This move positions Modern Treasury as a key player in bridging traditional and digital currencies, potentially challenging established PSPs. For payments teams, this means a more competitive landscape as businesses seek seamless transaction solutions across both fiat and stablecoins. Expect increased adoption of stablecoins in mainstream commerce, but watch for potential regulatory scrutiny as these integrations deepen.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47321/modern-treasury-launches-integrated-psp-for-fiat-and-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Stripe-Owned Bridge Wins Approval for National Trust Bank",
+      "body": "Bridge, a subsidiary of Stripe, has received conditional approval from the OCC to organize a federally chartered national trust bank, marking a significant step in Stripe's expansion into traditional banking. This move could disrupt traditional banking by offering more tech-savvy and integrated financial services. For payments professionals, this means heightened competition as fintechs leverage bank charters to innovate. Expect increased competition in the banking sector as more fintechs pursue similar charters, leading to a wave of new financial products and services.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47319/stripe-owned-bridge-wins-approval-for-national-trust-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Data Aggregators Push Secure Access as Rule 1033 Rewrite Looms",
+      "body": "Data aggregators are advocating for secure access to financial data as the CFPB's Rule 1033 rewrite approaches, aiming to standardize open banking practices in the U.S. This initiative could level the playing field for fintechs by providing easier access to consumer financial data, fostering innovation and competition. For payments teams, this means new opportunities to leverage consumer data for tailored financial products. However, the complexity and cost of compliance could burden smaller fintechs, limiting their ability to compete effectively.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/bank-regulation/2026/stripe-owned-bridge-clears-occ-hurdle-for-federal-bank-charter/"
+        "url": "https://www.pymnts.com/bank-regulation/2026/data-aggregators-push-secure-access-as-rule-1033-rewrite-looms/"
       }
     },
     {
-      "title": "Fed Flags Structural Weak Spots in Stablecoins and Digital Money Funds",
-      "body": "The Federal Reserve Bank of Boston has identified potential vulnerabilities in stablecoins and digital money funds, drawing parallels to past financial crises. This increased scrutiny may lead to tighter regulations, impacting the growth and operation of these financial instruments. Potential regulatory changes could reshape the stablecoin landscape, affecting adoption and innovation.",
+      "title": "Banks Target Q4 Launch for Tokenized Deposit Network",
+      "body": "A consortium of banks plans to launch a tokenized deposit network by Q4 2026, following a successful pilot program. This initiative could redefine banking operations by integrating blockchain technology, potentially reducing costs and increasing transaction speed. For payments professionals, this means a shift towards more efficient banking systems that leverage blockchain. Expect wider adoption of blockchain in banking, which could influence global banking standards and operational practices.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/economy/2026/fed-flags-structural-weak-spots-in-stablecoins-and-digital-money-funds/"
+        "url": "https://www.pymnts.com/blockchain/2026/banks-target-q4-launch-for-tokenized-deposit-network/"
       }
     },
     {
-      "title": "Mastercard and Visa Enlist Banks for Agentic Payment Pilots",
-      "body": "DBS and Westpac are partnering with Visa and Mastercard to pilot agentic payments, which enable autonomous payment decisions by AI agents. This positions Visa and Mastercard as leaders in this emerging technology, potentially setting new industry standards. Successful pilots could reshape consumer payment experiences and lead to broader adoption.",
+      "title": "Grab to Acquire US Fintech Stash for $425 Million",
+      "body": "Singapore-based super-app Grab is set to acquire U.S. fintech Stash for $425 million, expanding its financial services offerings and presence in the U.S. market. This acquisition strengthens Grab's position in financial services, potentially challenging U.S. fintechs and super-apps. For payments teams, this signals intensified competition in the U.S. fintech market as super-apps expand their capabilities. Expect strategic partnerships or acquisitions from other super-apps as they seek to enhance their offerings in response.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47316/mastercard-and-visa-enlist-banks-for-agentic-payment-pilots?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Payoneer Taps Bridge for Stablecoin Roll Out",
-      "body": "Payoneer has announced plans to launch stablecoin capabilities using Bridge's platform, enhancing its cross-border payment services. This positions Payoneer as a leader in integrating stablecoins for cross-border transactions, challenging traditional banking models. This move could accelerate stablecoin adoption in cross-border payments, influencing regulatory approaches.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/108873/payoneer-taps-bridge-for-stablecoin-roll-out?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "UK Banks Seek Alternative to Visa and Mastercard Amid Trump Fears",
-      "body": "UK banks are exploring the creation of a new payment company to reduce reliance on Visa and Mastercard, driven by geopolitical concerns. This move could disrupt the dominance of these US card schemes and offer banks more control over payment infrastructure. Increased innovation in UK payments may follow, influencing other regions to consider similar alternatives.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47314/uk-banks-seek-alternative-to-visa-and-mastercard-amid-trump-fears?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/grab-singapore-app-acquire-stash-fintech-ai-investing-banking/812490/"
       }
     }
   ],
-  "perspective": "Today's stories underscore a pivotal moment for stablecoins and agentic payments, as regulatory scrutiny intensifies alongside innovation. Stripe's regulatory win with Bridge and Payoneer's stablecoin rollout signal a competitive surge in the stablecoin sector, while the Fed's warnings highlight the fragility of these financial instruments. As UK banks seek alternatives to Visa and Mastercard, the landscape is ripe for disruption, compelling payments professionals to adapt swiftly to these evolving dynamics.",
+  "perspective": "Today's stories highlight a pivotal moment for fintechs and banks as they navigate the evolving landscape of integrated services and regulatory frameworks. The push for stablecoin integration, bank charters, and open banking practices signals a competitive surge that payments professionals must adapt to. As these trends converge, the implications for operational resilience and compliance will be critical for success in 2026.",
   "curiosity": {
-    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing how people approached payments."
+    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing how consumers approached payments."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Vestwell",
+      "description": "Raised $385M in Series E, doubling valuation.",
+      "source_url": "https://news.crunchbase.com/fintech/digital-savings-startup-vestwell-seriese-doubles-valuation/"
+    },
     {
       "flag": "\ud83c\udde6\ud83c\uddea",
       "type": "fundraising",
       "company": "Emirates NBD",
-      "description": "Leads $31M round in real estate platform Stake",
+      "description": "Led $31M round in real estate platform Stake.",
       "source_url": "https://www.finextra.com/newsarticle/47313/emirates-nbd-leads-31-million-round-in-real-estate-investment-platform-stake?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Uptiq",
-      "description": "Secures $25M for bank AI platform",
-      "source_url": "https://www.finextra.com/newsarticle/47309/production-ready-bank-ai-vendor-uptiq-secures-25-million-in-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "M&A",
+      "company": "Kraken",
+      "description": "Acquired token vesting platform Magna.",
+      "source_url": "https://www.theblock.co/post/390358/kraken-buys-token-vesting-platform-magna-hit-peak-tvl-60-billion-in-2025?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "M&A",
+      "company": "Grab",
+      "description": "Acquiring US fintech Stash for $425M.",
+      "source_url": "https://www.bankingdive.com/news/grab-singapore-app-acquire-stash-fintech-ai-investing-banking/812490/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Sphinx",
-      "description": "Raises $7.1M for compliance agent",
+      "description": "Raised $7.1M for compliance agent development.",
       "source_url": "https://www.finextra.com/pressarticle/108856/sphinx-raises-71m-for-complaince-agent?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Dragonfly",
-      "description": "Closes $650M crypto venture fund",
-      "source_url": "https://www.theblock.co/post/390188/dragonfly-closes-650-million-for-fourth-crypto-venture-fund-amid-bear-market-gloom?utm_source=rss&utm_medium=rss"
+      "company": "Monark",
+      "description": "Raised $8.1M for private markets platform.",
+      "source_url": "https://www.finextra.com/pressarticle/108896/private-markets-platform-monark-raises-81-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddea",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Hoxton Wealth",
-      "description": "Wealth app hits $10B in assets tracked",
-      "source_url": "https://www.finextra.com/pressarticle/108878/dubai-built-hoxton-wealth-app-hits-10-billion-in-assets-tracked-worldwide?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Fluz",
+      "description": "Launched embedded payments platform.",
+      "source_url": "https://www.finextra.com/pressarticle/108894/fluz-unveils-embedded-payments-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
