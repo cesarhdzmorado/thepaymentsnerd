@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Anchorage Digital Enables Stablecoin Rails for Banks",
-      "body": "Anchorage Digital has launched a service that allows licensed international banks to access stablecoin rails for USD cross-border transfers. This positions Anchorage as a key player in integrating stablecoins into traditional banking, potentially challenging existing payment solutions. The impact: banks may accelerate their digital transformation efforts to remain competitive in the evolving landscape. As a result, traditional payment providers could face pressure to innovate or risk losing market share.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/anchorage-digital-links-global-banks-to-stablecoin-rails/"
-      }
-    },
-    {
-      "title": "Discover Network's Data-Sharing Initiative to Combat Fraud",
-      "body": "Discover Network is implementing a data-sharing initiative to combat fraud across eCommerce and digital payments. This strategy could enhance Discover's value proposition, attracting more merchants and consumers concerned about fraud. The initiative underscores the growing importance of data collaboration in fraud prevention, which could set a new standard in the industry. Other payment networks may follow suit, leading to a more robust collective defense against fraud.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/security-and-risk/2026/discover-network-shows-how-sharing-data-can-turn-tide-fraud/"
-      }
-    },
-    {
-      "title": "Bank of Ireland UK Fined for Anti-Fraud Tool Delay",
-      "body": "The Payment Systems Regulator has fined Bank of Ireland UK \u00a33.7 million for failing to implement the Confirmation of Payee tool on time. This highlights the importance of regulatory compliance and operational resilience in the banking sector. The fine serves as a wake-up call for other banks to prioritize compliance, potentially leading to increased investment in regulatory technologies. Failure to adapt could result in similar penalties and reputational damage.",
+      "title": "Visa Acquires Prisma Medios de Pago and Newpay in Argentina",
+      "body": "Visa has acquired Argentinian payments firms Prisma Medios de Pago and Newpay from Advent International, strengthening its position in the Latin American payments market. This acquisition impacts Visa, Prisma, Newpay, and the local payments landscape, potentially increasing competition for both local and international players. This could lead to further consolidation in the region and encourage other global payment firms to expand their presence in Latin America.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47326/bank-of-ireland-uk-fined-37-million-for-implementing-anti-fraud-tool-14-months-too-late"
+        "url": "https://www.finextra.com/newsarticle/47328/visa-buys-argentinas-prisma-medios-de-pago-and-newpay?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Modern Treasury Launches Integrated PSP for Fiat and Stablecoins",
-      "body": "Modern Treasury has launched a payment service provider that integrates fiat and stablecoin payments. This move enhances its competitive edge by catering to businesses seeking to adopt stablecoin transactions. The integration of stablecoins into mainstream payment solutions could drive broader adoption among businesses, prompting competitors to innovate their offerings. As stablecoins gain traction, traditional payment methods may face increased pressure to evolve.",
+      "title": "Klarna Faces Financial Struggles with Q4 Loss",
+      "body": "Klarna's shares fell over 25% after reporting a net loss in Q4 and increasing credit loss provisions, affecting its investors and the broader BNPL market. This financial struggle may open opportunities for competitors to capture market share. This could lead to increased regulatory scrutiny and changes in BNPL business models.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47321/modern-treasury-launches-integrated-psp-for-fiat-and-stablecoins"
+        "url": "https://www.finextra.com/newsarticle/47335/klarna-stock-tumbles-on-q4-results?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Klarna Reports Q4 Results, Shows Momentum as Digital Bank",
-      "body": "Klarna has reported its Q4 2025 results, showcasing its evolution into a global digital bank. This transition could challenge traditional banks and fintechs, leveraging its established user base. Klarna's success as a digital bank may hinge on regulatory compliance and customer trust in its new banking services. As Klarna expands, traditional banks must enhance their digital offerings to compete effectively in this rapidly changing landscape.",
+      "title": "ProShares\u2019 Stablecoin-Ready ETF Sets Trading Record",
+      "body": "ProShares launched a money market ETF designed for stablecoin reserves, generating $17 billion in day-one trading volume, impacting ProShares and stablecoin issuers. This ETF could attract more institutional investors to stablecoins, enhancing their legitimacy in the market. This may lead to more financial products designed around stablecoins and digital assets.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/390674/proshares-stablecoin-ready-etf-generates-record-17-billion-in-day-one-trading-volume?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Bank of Ireland Fined for Anti-Fraud Tool Delay",
+      "body": "The Payment Systems Regulator fined Bank of Ireland UK \u00a33.7 million for delaying the implementation of an anti-fraud tool, impacting the bank and its customers. This highlights the importance of timely compliance in maintaining customer trust and market position. This may prompt other banks to prioritize compliance and fraud prevention measures.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/108919/klarna-posts-q4-results"
+        "url": "https://www.finextra.com/newsarticle/47326/bank-of-ireland-uk-fined-37-million-for-implementing-anti-fraud-tool-14-months-too-late?utm_medium=rss&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "BNP Paribas Pilots Ethereum-Based Tokenization",
+      "body": "BNP Paribas launched a tokenization pilot using Ethereum for money market funds, leveraging its AssetFoundryTM platform. This positions BNP Paribas as a leader in financial innovation, potentially influencing other banks to explore tokenization. This could accelerate the adoption of blockchain in traditional finance, impacting asset management practices.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/390686/bnp-paribas-taps-ethereum-new-money-market-fund-tokenization-pilot?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "Today's stories reveal a critical intersection of stablecoin integration and regulatory compliance shaping the payments landscape. Anchorage Digital's stablecoin rails for banks and Modern Treasury's integrated PSP highlight the accelerating trend of stablecoins entering mainstream finance. Meanwhile, regulatory scrutiny, as seen with the Bank of Ireland's fine, emphasizes the need for operational resilience and compliance as key differentiators in a competitive market.",
+  "perspective": "Today's stories reveal a dynamic interplay between regulatory pressures and innovation in the payments landscape. Visa's acquisition in Argentina underscores the aggressive expansion strategies of global players, while Klarna's struggles highlight the vulnerabilities within the BNPL sector. Meanwhile, the record trading volume of ProShares' stablecoin ETF signals a growing institutional interest in stablecoins, reinforcing their mainstream adoption amidst regulatory scrutiny.",
   "curiosity": {
-    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, marking the beginning of a revolution in consumer credit."
+    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing the way consumers approached payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
+      "company": "Inscope",
+      "description": "Raised $14.5M for AI-powered financial reporting platform",
+      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-financial-reporting-platform-inscope-raises-14-5-million/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
       "company": "Jump",
       "description": "Raised $80M for AI operating system for financial advisors",
-      "source_url": "https://www.finextra.com/newsarticle/47329/jump-raises-80m-for-ai-operating-system-for-financial-advisors"
+      "source_url": "https://www.finextra.com/newsarticle/47329/jump-raises-80m-for-ai-operating-system-for-financial-advisors?utm_medium=rss&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Vestwell",
-      "description": "Secured $385M in Series E, doubling valuation",
-      "source_url": "https://news.crunchbase.com/fintech/digital-savings-startup-vestwell-seriese-doubles-valuation/"
+      "company": "World Labs",
+      "description": "Secured $1B for AI models interacting with 3D world",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cloud-energy-ai-world-labs/"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "product",
+      "company": "BNP Paribas",
+      "description": "Launched Ethereum-based tokenization pilot for money market funds",
+      "source_url": "https://www.theblock.co/post/390686/bnp-paribas-taps-ethereum-new-money-market-fund-tokenization-pilot?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Newity",
-      "description": "Raised $11M to bring small business loans onchain",
-      "source_url": "https://www.theblock.co/post/390561/fintech-firm-newity-raises-11-million-to-bring-small-business-loans-onchain"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Ownwell",
-      "description": "Secured $30M to help homeowners lower property tax bills",
-      "source_url": "https://news.crunchbase.com/venture/ownwell-raise-lower-homeowner-property-tax/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Polymarket",
-      "description": "Acquired prediction market API startup Dome",
-      "source_url": "https://www.theblock.co/post/390546/polymarket-buys-fresh-prediction-market-api-startup-dome-marking-second-official-acquisition"
+      "type": "product",
+      "company": "ProShares",
+      "description": "Launched stablecoin-ready ETF with $17B day-one volume",
+      "source_url": "https://www.theblock.co/post/390674/proshares-stablecoin-ready-etf-generates-record-17-billion-in-day-one-trading-volume?utm_source=rss&utm_medium=rss"
     }
   ]
 }
