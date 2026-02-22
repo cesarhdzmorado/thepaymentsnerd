@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Visa Acquires Prisma Medios de Pago and Newpay in Argentina",
-      "body": "Visa has acquired Argentinian payments firms Prisma Medios de Pago and Newpay from Advent International, strengthening its position in the Latin American payments market. This acquisition impacts Visa, Prisma, Newpay, and the local payments landscape, potentially increasing competition for both local and international players. This could lead to further consolidation in the region and encourage other global payment firms to expand their presence in Latin America.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47328/visa-buys-argentinas-prisma-medios-de-pago-and-newpay?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Klarna Faces Financial Struggles with Q4 Loss",
-      "body": "Klarna's shares fell over 25% after reporting a net loss in Q4 and increasing credit loss provisions, affecting its investors and the broader BNPL market. This financial struggle may open opportunities for competitors to capture market share. This could lead to increased regulatory scrutiny and changes in BNPL business models.",
+      "title": "Klarna's 25% Stock Drop Signals BNPL Sector Vulnerabilities",
+      "body": "Klarna's shares plummeted over 25% following a Q4 report revealing a net loss and increased credit loss provisions, impacting investor confidence and the broader BNPL market. This downturn highlights the growing challenges within the BNPL sector, particularly as regulatory scrutiny intensifies. Competitors may seize this opportunity to capture market share, potentially reshaping the competitive landscape. Watch for increased regulatory focus on BNPL providers, which could further complicate their growth strategies.",
       "source": {
         "name": "Finextra",
         "url": "https://www.finextra.com/newsarticle/47335/klarna-stock-tumbles-on-q4-results?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "ProShares\u2019 Stablecoin-Ready ETF Sets Trading Record",
-      "body": "ProShares launched a money market ETF designed for stablecoin reserves, generating $17 billion in day-one trading volume, impacting ProShares and stablecoin issuers. This ETF could attract more institutional investors to stablecoins, enhancing their legitimacy in the market. This may lead to more financial products designed around stablecoins and digital assets.",
+      "title": "FBI Reports 700 ATM Jackpotting Incidents, Urges Enhanced Security",
+      "body": "The FBI documented over 700 ATM jackpotting incidents last year, resulting in $20 million in losses, prompting banks and ATM operators to reconsider their security measures. This surge in attacks underscores the increasing sophistication of cyber threats in the financial sector, pushing institutions to invest in advanced security solutions. As banks ramp up their cybersecurity efforts, firms specializing in ATM security may see significant growth opportunities. Expect a wave of innovation in ATM security technologies as banks respond to these threats.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47332/fbi-warns-of-surge-in-atm-jackpotting-attacks?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "ProShares' Stablecoin ETF Achieves $17 Billion in Day-One Volume",
+      "body": "ProShares launched a money market ETF designed for stablecoin reserves, achieving a staggering $17 billion in trading volume on its first day. This remarkable success signals a significant step toward mainstream adoption of stablecoins in traditional financial products, potentially reshaping investment strategies. The implications for stablecoin issuers and investors are profound, as this ETF could pave the way for more stablecoin-related financial products. Watch for other asset managers to follow suit, exploring similar offerings in the coming months.",
       "source": {
         "name": "The Block",
         "url": "https://www.theblock.co/post/390674/proshares-stablecoin-ready-etf-generates-record-17-billion-in-day-one-trading-volume?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Bank of Ireland Fined for Anti-Fraud Tool Delay",
-      "body": "The Payment Systems Regulator fined Bank of Ireland UK \u00a33.7 million for delaying the implementation of an anti-fraud tool, impacting the bank and its customers. This highlights the importance of timely compliance in maintaining customer trust and market position. This may prompt other banks to prioritize compliance and fraud prevention measures.",
+      "title": "Bluefin and Basis Theory Partner for Unified Tokenization Solutions",
+      "body": "Bluefin and Basis Theory announced a strategic partnership to provide unified tokenization and vaulting solutions, aiming to enhance payment security for merchants and consumers. This collaboration could set a new standard in payment security, challenging existing tokenization providers and reshaping the competitive landscape. As the emphasis on data protection intensifies, expect broader adoption of tokenization across industries, which may lead to improved security measures in payment processing. However, integration challenges with legacy systems could pose hurdles.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47326/bank-of-ireland-uk-fined-37-million-for-implementing-anti-fraud-tool-14-months-too-late?utm_medium=rss&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/108926/bluefin-and-basis-theory-team-on-unified-tokenisation?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "BNP Paribas Pilots Ethereum-Based Tokenization",
-      "body": "BNP Paribas launched a tokenization pilot using Ethereum for money market funds, leveraging its AssetFoundryTM platform. This positions BNP Paribas as a leader in financial innovation, potentially influencing other banks to explore tokenization. This could accelerate the adoption of blockchain in traditional finance, impacting asset management practices.",
+      "title": "Invest Bank Partners with AUTON8 to Enhance Regulatory Resilience",
+      "body": "Invest Bank has partnered with AUTON8 to bolster its regulatory resilience through intelligent automation, a move that could drive competition in the regulatory technology space. This partnership highlights the growing trend of leveraging technology to meet regulatory demands efficiently, potentially reducing operational costs for financial institutions. As automation becomes more prevalent in compliance, expect increased adoption across the industry, although concerns over job displacement may arise. This shift could redefine how banks approach regulatory compliance in the future.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/390686/bnp-paribas-taps-ethereum-new-money-market-fund-tokenization-pilot?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/108927/invest-bank-partners-auton8-for-regulatory-resilience?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Today's stories reveal a dynamic interplay between regulatory pressures and innovation in the payments landscape. Visa's acquisition in Argentina underscores the aggressive expansion strategies of global players, while Klarna's struggles highlight the vulnerabilities within the BNPL sector. Meanwhile, the record trading volume of ProShares' stablecoin ETF signals a growing institutional interest in stablecoins, reinforcing their mainstream adoption amidst regulatory scrutiny.",
+  "perspective": "Today's stories reveal a critical intersection of regulatory pressures and technological innovation shaping the payments landscape. Klarna's struggles in the BNPL sector and the FBI's warning on ATM jackpotting highlight vulnerabilities that could drive increased regulatory scrutiny. Meanwhile, ProShares' record-breaking stablecoin ETF launch signals a growing institutional interest in stablecoins, reinforcing their mainstream adoption amidst these challenges.",
   "curiosity": {
-    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing the way consumers approached payments."
+    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing how consumers approached payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Inscope",
-      "description": "Raised $14.5M for AI-powered financial reporting platform",
+      "description": "Raised $14.5M for AI-powered financial reporting.",
       "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-financial-reporting-platform-inscope-raises-14-5-million/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Jump",
-      "description": "Raised $80M for AI operating system for financial advisors",
-      "source_url": "https://www.finextra.com/newsarticle/47329/jump-raises-80m-for-ai-operating-system-for-financial-advisors?utm_medium=rss&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
       "company": "World Labs",
-      "description": "Secured $1B for AI models interacting with 3D world",
+      "description": "Secured $1B for AI models interacting with 3D world.",
       "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cloud-energy-ai-world-labs/"
-    },
-    {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "product",
-      "company": "BNP Paribas",
-      "description": "Launched Ethereum-based tokenization pilot for money market funds",
-      "source_url": "https://www.theblock.co/post/390686/bnp-paribas-taps-ethereum-new-money-market-fund-tokenization-pilot?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
       "company": "ProShares",
-      "description": "Launched stablecoin-ready ETF with $17B day-one volume",
+      "description": "Launched stablecoin-ready ETF with record trading volume.",
       "source_url": "https://www.theblock.co/post/390674/proshares-stablecoin-ready-etf-generates-record-17-billion-in-day-one-trading-volume?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "product",
+      "company": "BNP Paribas",
+      "description": "Initiated money market fund tokenization pilot on Ethereum.",
+      "source_url": "https://www.theblock.co/post/390686/bnp-paribas-taps-ethereum-new-money-market-fund-tokenization-pilot?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "partnership",
+      "company": "Bluefin",
+      "description": "Partnered with Basis Theory for unified tokenization.",
+      "source_url": "https://www.finextra.com/pressarticle/108926/bluefin-and-basis-theory-team-on-unified-tokenisation?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
