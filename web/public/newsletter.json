@@ -1,47 +1,47 @@
 {
   "news": [
     {
-      "title": "Klarna's 25% Stock Drop Signals BNPL Sector Vulnerabilities",
-      "body": "Klarna's shares plummeted over 25% following a Q4 report revealing a net loss and increased credit loss provisions, impacting investor confidence and the broader BNPL market. This downturn highlights the growing challenges within the BNPL sector, particularly as regulatory scrutiny intensifies. Competitors may seize this opportunity to capture market share, potentially reshaping the competitive landscape. Watch for increased regulatory focus on BNPL providers, which could further complicate their growth strategies.",
+      "title": "Paysafe Calls Digital Wallets the New Hub for Payments and Commerce",
+      "body": "Paysafe's Chief Product Officer emphasized the central role of digital wallets in future payments, reducing friction and integrating financial services. This shift affects digital wallet providers and merchants globally, as they adapt to a payments ecosystem increasingly dominated by these technologies. As digital wallets evolve into identity and control hubs, expect increased partnerships between providers and merchants, driving further innovation in wallet features. However, reliance on legacy payment rails could slow their full potential realization.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47335/klarna-stock-tumbles-on-q4-results?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payment-methods/2026/paysafe-calls-digital-wallets-the-new-hub-for-payments-and-commerce/"
       }
     },
     {
-      "title": "FBI Reports 700 ATM Jackpotting Incidents, Urges Enhanced Security",
-      "body": "The FBI documented over 700 ATM jackpotting incidents last year, resulting in $20 million in losses, prompting banks and ATM operators to reconsider their security measures. This surge in attacks underscores the increasing sophistication of cyber threats in the financial sector, pushing institutions to invest in advanced security solutions. As banks ramp up their cybersecurity efforts, firms specializing in ATM security may see significant growth opportunities. Expect a wave of innovation in ATM security technologies as banks respond to these threats.",
+      "title": "Banks Race to Close Real-Time Payment Gaps",
+      "body": "Banks are accelerating efforts to enhance real-time payment systems due to evolving regulatory standards and technological advancements. This race affects banks and fintechs globally, particularly those lagging in real-time capabilities, as they strive to attract customers seeking faster transactions. The push for real-time payments as default infrastructure increases pressure on lagging institutions to upgrade, potentially leading to more partnerships with fintechs. However, this focus might divert resources from critical areas like cybersecurity and fraud prevention.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47332/fbi-warns-of-surge-in-atm-jackpotting-attacks?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/real-time-payments/2026/banks-race-to-close-real-time-payment-gaps/"
       }
     },
     {
-      "title": "ProShares' Stablecoin ETF Achieves $17 Billion in Day-One Volume",
-      "body": "ProShares launched a money market ETF designed for stablecoin reserves, achieving a staggering $17 billion in trading volume on its first day. This remarkable success signals a significant step toward mainstream adoption of stablecoins in traditional financial products, potentially reshaping investment strategies. The implications for stablecoin issuers and investors are profound, as this ETF could pave the way for more stablecoin-related financial products. Watch for other asset managers to follow suit, exploring similar offerings in the coming months.",
+      "title": "Badge Raises $17.1 Million for Wallet Infrastructure",
+      "body": "Badge secured $17.1 million in funding to enhance wallet infrastructure, aiming to scale wallet integration for businesses. This funding affects wallet providers and businesses seeking to integrate wallet solutions, strengthening Badge's position in the market. As digital wallets evolve into identity and control hubs, this investment could lead to increased adoption by businesses, enhancing customer experience and streamlining payments. Yet, the focus on infrastructure might overlook the need for consumer-facing innovations that drive wallet adoption.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/390674/proshares-stablecoin-ready-etf-generates-record-17-billion-in-day-one-trading-volume?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/108930/wallet-infrastructure-platform-badge-raises-171-million?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Bluefin and Basis Theory Partner for Unified Tokenization Solutions",
-      "body": "Bluefin and Basis Theory announced a strategic partnership to provide unified tokenization and vaulting solutions, aiming to enhance payment security for merchants and consumers. This collaboration could set a new standard in payment security, challenging existing tokenization providers and reshaping the competitive landscape. As the emphasis on data protection intensifies, expect broader adoption of tokenization across industries, which may lead to improved security measures in payment processing. However, integration challenges with legacy systems could pose hurdles.",
+      "title": "Open-Loop Systems Help Modernize Transit Payments",
+      "body": "Transit systems globally are adopting open-loop payment systems, enhancing convenience and efficiency through contactless cards and digital payments. This shift affects transit authorities and commuters, challenging traditional payment methods. The trend towards embedded finance and invisible payments emphasizes seamless user experiences, potentially expanding open-loop systems to other sectors. However, this focus might overlook cybersecurity and privacy concerns associated with digital payments.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/108926/bluefin-and-basis-theory-team-on-unified-tokenisation?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/transportation/2026/open-loop-systems-help-modernize-transit-payments/"
       }
     },
     {
-      "title": "Invest Bank Partners with AUTON8 to Enhance Regulatory Resilience",
-      "body": "Invest Bank has partnered with AUTON8 to bolster its regulatory resilience through intelligent automation, a move that could drive competition in the regulatory technology space. This partnership highlights the growing trend of leveraging technology to meet regulatory demands efficiently, potentially reducing operational costs for financial institutions. As automation becomes more prevalent in compliance, expect increased adoption across the industry, although concerns over job displacement may arise. This shift could redefine how banks approach regulatory compliance in the future.",
+      "title": "Remitly Hires Santander Alum as Its Next CEO",
+      "body": "Remitly appointed Sebastian Gunningham as CEO, succeeding co-founder Matt Oppenheimer, who becomes board chair. This leadership change could drive strategic shifts at Remitly, affecting its market position and competitive strategies. The appointment reflects the trend of fintech consolidation and lean-scale operating models, emphasizing leadership and strategic shifts. However, leadership changes might face challenges in maintaining company culture and strategic continuity.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/108927/invest-bank-partners-auton8-for-regulatory-resilience?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/remitly-hires-santander-openbank-gunningham-ceo-oppenheimer-chair/812570/"
       }
     }
   ],
-  "perspective": "Today's stories reveal a critical intersection of regulatory pressures and technological innovation shaping the payments landscape. Klarna's struggles in the BNPL sector and the FBI's warning on ATM jackpotting highlight vulnerabilities that could drive increased regulatory scrutiny. Meanwhile, ProShares' record-breaking stablecoin ETF launch signals a growing institutional interest in stablecoins, reinforcing their mainstream adoption amidst these challenges.",
+  "perspective": "Today's stories underscore the accelerating evolution of payment infrastructures, particularly through digital wallets and real-time systems. As banks race to enhance their capabilities, the focus on seamless user experiences in transit and wallet integration highlights a broader trend towards embedded finance. However, the challenge remains: balancing innovation with the need for robust security measures.",
   "curiosity": {
     "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing how consumers approached payments."
   },
@@ -49,37 +49,37 @@
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Inscope",
-      "description": "Raised $14.5M for AI-powered financial reporting.",
-      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-financial-reporting-platform-inscope-raises-14-5-million/"
+      "company": "Badge",
+      "description": "Raised $17.1M for wallet infrastructure development.",
+      "source_url": "https://www.finextra.com/pressarticle/108930/wallet-infrastructure-platform-badge-raises-171-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "World Labs",
-      "description": "Secured $1B for AI models interacting with 3D world.",
+      "description": "Secured $1B for AI model development.",
       "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cloud-energy-ai-world-labs/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "ProShares",
-      "description": "Launched stablecoin-ready ETF with record trading volume.",
-      "source_url": "https://www.theblock.co/post/390674/proshares-stablecoin-ready-etf-generates-record-17-billion-in-day-one-trading-volume?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "product",
-      "company": "BNP Paribas",
-      "description": "Initiated money market fund tokenization pilot on Ethereum.",
-      "source_url": "https://www.theblock.co/post/390686/bnp-paribas-taps-ethereum-new-money-market-fund-tokenization-pilot?utm_source=rss&utm_medium=rss"
+      "type": "fundraising",
+      "company": "Vestwell",
+      "description": "Raised $385M in Series E, doubling valuation.",
+      "source_url": "https://news.crunchbase.com/fintech/digital-savings-startup-vestwell-seriese-doubles-valuation/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "Bluefin",
-      "description": "Partnered with Basis Theory for unified tokenization.",
-      "source_url": "https://www.finextra.com/pressarticle/108926/bluefin-and-basis-theory-team-on-unified-tokenisation?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "fundraising",
+      "company": "Ownwell",
+      "description": "Secured $50M to appeal property taxes for homeowners.",
+      "source_url": "https://news.crunchbase.com/venture/ownwell-raise-lower-homeowner-property-tax/"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "M&A",
+      "company": "Grab",
+      "description": "Acquiring US fintech Stash for $425M.",
+      "source_url": "https://www.bankingdive.com/news/grab-singapore-app-acquire-stash-fintech-ai-investing-banking/812490/"
     }
   ]
 }
