@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Paysafe Calls Digital Wallets the New Hub for Payments and Commerce",
-      "body": "Paysafe's Chief Product Officer emphasized the central role of digital wallets in future payments, reducing friction and integrating financial services. This shift affects digital wallet providers and merchants globally, as they adapt to a payments ecosystem increasingly dominated by these technologies. As digital wallets evolve into identity and control hubs, expect increased partnerships between providers and merchants, driving further innovation in wallet features. However, reliance on legacy payment rails could slow their full potential realization.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payment-methods/2026/paysafe-calls-digital-wallets-the-new-hub-for-payments-and-commerce/"
-      }
-    },
-    {
-      "title": "Banks Race to Close Real-Time Payment Gaps",
-      "body": "Banks are accelerating efforts to enhance real-time payment systems due to evolving regulatory standards and technological advancements. This race affects banks and fintechs globally, particularly those lagging in real-time capabilities, as they strive to attract customers seeking faster transactions. The push for real-time payments as default infrastructure increases pressure on lagging institutions to upgrade, potentially leading to more partnerships with fintechs. However, this focus might divert resources from critical areas like cybersecurity and fraud prevention.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/real-time-payments/2026/banks-race-to-close-real-time-payment-gaps/"
-      }
-    },
-    {
-      "title": "Badge Raises $17.1 Million for Wallet Infrastructure",
-      "body": "Badge secured $17.1 million in funding to enhance wallet infrastructure, aiming to scale wallet integration for businesses. This funding affects wallet providers and businesses seeking to integrate wallet solutions, strengthening Badge's position in the market. As digital wallets evolve into identity and control hubs, this investment could lead to increased adoption by businesses, enhancing customer experience and streamlining payments. Yet, the focus on infrastructure might overlook the need for consumer-facing innovations that drive wallet adoption.",
+      "title": "PayPal's Coding Bug Exposes Business Accounts, Raising Security Concerns",
+      "body": "A coding bug in PayPal's system led to unauthorized access to business accounts, compromising sensitive customer information and resulting in unauthorized transactions. This breach raises significant security concerns for PayPal and its business account holders, highlighting vulnerabilities in digital payment systems. The incident may prompt PayPal to innovate and enhance its security infrastructure, setting new industry standards for cybersecurity. As a result, PayPal faces potential regulatory fines and increased scrutiny, while competitors may leverage this opportunity to strengthen their own security measures.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/108930/wallet-infrastructure-platform-badge-raises-171-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47336/paypal-coding-bug-led-to-unauthorised-access-to-business-accounts"
       }
     },
     {
-      "title": "Open-Loop Systems Help Modernize Transit Payments",
-      "body": "Transit systems globally are adopting open-loop payment systems, enhancing convenience and efficiency through contactless cards and digital payments. This shift affects transit authorities and commuters, challenging traditional payment methods. The trend towards embedded finance and invisible payments emphasizes seamless user experiences, potentially expanding open-loop systems to other sectors. However, this focus might overlook cybersecurity and privacy concerns associated with digital payments.",
+      "title": "Crypto.com Gains Conditional Approval for National Trust Bank Charter",
+      "body": "Crypto.com has received conditional approval from US regulators for a national trust bank charter, marking a significant step in its expansion into traditional banking. This development positions Crypto.com to compete more directly with established banks, potentially reshaping the competitive landscape. However, regulatory hurdles could delay or complicate the full realization of the charter's benefits, prompting Crypto.com to navigate a complex compliance environment. As traditional banks watch closely, this move may lead to increased partnerships and innovations in crypto-based financial products.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/transportation/2026/open-loop-systems-help-modernize-transit-payments/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47340/cryptocom-wins-conditional-approval-for-national-trust-bank-charter"
       }
     },
     {
-      "title": "Remitly Hires Santander Alum as Its Next CEO",
-      "body": "Remitly appointed Sebastian Gunningham as CEO, succeeding co-founder Matt Oppenheimer, who becomes board chair. This leadership change could drive strategic shifts at Remitly, affecting its market position and competitive strategies. The appointment reflects the trend of fintech consolidation and lean-scale operating models, emphasizing leadership and strategic shifts. However, leadership changes might face challenges in maintaining company culture and strategic continuity.",
+      "title": "Experian Acquires AtData to Boost Identity Verification Capabilities",
+      "body": "Experian has acquired AtData to enhance its identity and fraud prevention capabilities, leveraging AtData's email insights technology. This acquisition strengthens Experian's position in the identity verification space, allowing it to offer more robust fraud prevention measures across financial services. However, integration challenges could delay the realization of synergies from the acquisition, impacting the speed of innovation. As the identity verification sector heats up, competitors may respond with their own strategic partnerships or acquisitions to enhance their offerings.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/remitly-hires-santander-openbank-gunningham-ceo-oppenheimer-chair/812570/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47342/experian-buys-email-identity-specialist-atdata"
+      }
+    },
+    {
+      "title": "JPMorgan Fined \u20ac12.18 Million for Risk Reporting Negligence",
+      "body": "The European Central Bank has fined JPMorgan \u20ac12.18 million for serious negligence in calculating risk-bearing assets, underscoring the heightened regulatory scrutiny on risk management practices. This fine not only impacts JPMorgan's financial performance but also serves as a warning to other financial institutions under ECB supervision. The incident may prompt JPMorgan to enhance its risk management systems, potentially leading to long-term operational improvements. As a result, we can expect a tightening of risk management practices across the industry, with increased regulatory audits and fines for non-compliance.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47337/jpmorgan-fined-1218-million-by-ecb-for-gross-neglience-in-risk-reporting"
+      }
+    },
+    {
+      "title": "Badge Raises $17.1 Million to Expand Wallet Infrastructure",
+      "body": "Badge, a platform for Apple and Google Wallets, has raised $17.1 million to enhance its wallet infrastructure, enabling businesses to integrate at scale. This funding positions Badge to capitalize on the growing trend of digital wallets evolving into comprehensive financial hubs. However, the success of this initiative depends on Badge's ability to differentiate its offerings in a competitive market. As businesses increasingly adopt digital wallets, we may see potential partnerships with major tech companies and innovation in wallet-based financial services.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/108930/wallet-infrastructure-platform-badge-raises-171-million"
       }
     }
   ],
-  "perspective": "Today's stories underscore the accelerating evolution of payment infrastructures, particularly through digital wallets and real-time systems. As banks race to enhance their capabilities, the focus on seamless user experiences in transit and wallet integration highlights a broader trend towards embedded finance. However, the challenge remains: balancing innovation with the need for robust security measures.",
+  "perspective": "Today's stories highlight the ongoing tension between innovation and regulatory scrutiny in the payments landscape. PayPal's security breach and JPMorgan's hefty fine underscore the critical need for robust risk management and cybersecurity measures. Meanwhile, Crypto.com's charter approval and Badge's funding signal a shift towards integrating traditional banking with digital finance, emphasizing the importance of adaptability in a rapidly evolving market.",
   "curiosity": {
-    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing how consumers approached payments."
+    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing the way consumers approached payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Badge",
-      "description": "Raised $17.1M for wallet infrastructure development.",
-      "source_url": "https://www.finextra.com/pressarticle/108930/wallet-infrastructure-platform-badge-raises-171-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "raises $17.1 million for digital wallet infrastructure.",
+      "source_url": "https://www.finextra.com/pressarticle/108930/wallet-infrastructure-platform-badge-raises-171-million"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "World Labs",
-      "description": "Secured $1B for AI model development.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cloud-energy-ai-world-labs/"
+      "type": "product",
+      "company": "NEAR Protocol",
+      "description": "launched super app for centralized crypto activities.",
+      "source_url": "https://www.pymnts.com/blockchain/2026/near-unveils-super-app-to-centralize-crypto-activities/"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "expansion",
+      "company": "TerraPay",
+      "description": "partnered with Banco Ganadero for cross-border payments in Bolivia.",
+      "source_url": "https://www.finextra.com/pressarticle/108932/bolivias-banco-ganadero-turns-to-terrapay-for-cross-border-transactions"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Vestwell",
-      "description": "Raised $385M in Series E, doubling valuation.",
-      "source_url": "https://news.crunchbase.com/fintech/digital-savings-startup-vestwell-seriese-doubles-valuation/"
+      "type": "partnership",
+      "company": "Huntington National Bank",
+      "description": "partnered with Payabli for seamless online banking payments.",
+      "source_url": "https://www.finextra.com/pressarticle/108939/huntington-national-bank-partners-payabli-to-bring-seamless-payments-to-online-banking"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Ownwell",
-      "description": "Secured $50M to appeal property taxes for homeowners.",
-      "source_url": "https://news.crunchbase.com/venture/ownwell-raise-lower-homeowner-property-tax/"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "M&A",
-      "company": "Grab",
-      "description": "Acquiring US fintech Stash for $425M.",
-      "source_url": "https://www.bankingdive.com/news/grab-singapore-app-acquire-stash-fintech-ai-investing-banking/812490/"
+      "company": "Experian",
+      "description": "acquired AtData to boost identity and fraud capabilities.",
+      "source_url": "https://www.finextra.com/newsarticle/47342/experian-buys-email-identity-specialist-atdata"
     }
   ]
 }
