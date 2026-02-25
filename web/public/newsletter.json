@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "PayPal's Coding Bug Exposes Business Accounts, Raising Security Concerns",
-      "body": "A coding bug in PayPal's system led to unauthorized access to business accounts, compromising sensitive customer information and resulting in unauthorized transactions. This breach raises significant security concerns for PayPal and its business account holders, highlighting vulnerabilities in digital payment systems. The incident may prompt PayPal to innovate and enhance its security infrastructure, setting new industry standards for cybersecurity. As a result, PayPal faces potential regulatory fines and increased scrutiny, while competitors may leverage this opportunity to strengthen their own security measures.",
+      "title": "Payoneer Applies for US National Trust Bank Charter to Boost Stablecoin Business",
+      "body": "Payoneer has applied for a US national trust bank charter to enhance its stablecoin business, aiming to bolster its position in the cross-border payments market. This move could challenge traditional banks and accelerate stablecoin adoption, impacting regulatory frameworks and payment solutions. If approved, Payoneer may set a precedent for other fintechs seeking similar charters, intensifying competition in the cross-border payments landscape.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47336/paypal-coding-bug-led-to-unauthorised-access-to-business-accounts"
+        "url": "https://www.finextra.com/newsarticle/47350/payoneer-applies-for-us-national-trust-bank-charter"
       }
     },
     {
-      "title": "Crypto.com Gains Conditional Approval for National Trust Bank Charter",
-      "body": "Crypto.com has received conditional approval from US regulators for a national trust bank charter, marking a significant step in its expansion into traditional banking. This development positions Crypto.com to compete more directly with established banks, potentially reshaping the competitive landscape. However, regulatory hurdles could delay or complicate the full realization of the charter's benefits, prompting Crypto.com to navigate a complex compliance environment. As traditional banks watch closely, this move may lead to increased partnerships and innovations in crypto-based financial products.",
+      "title": "Hong Kong to Issue First Stablecoin Issuer Licenses, Paving Regulatory Path",
+      "body": "Hong Kong plans to issue its first stablecoin issuer licenses in March, signaling regulatory progress in the digital asset space. This initiative positions Hong Kong as a regulatory leader and could enhance stablecoin adoption among financial institutions. As stablecoin issuers navigate compliance challenges, expect increased innovation and potential implications for cross-border payments and financial inclusion.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47340/cryptocom-wins-conditional-approval-for-national-trust-bank-charter"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/391172/hong-kong-first-stablecoin-license"
       }
     },
     {
-      "title": "Experian Acquires AtData to Boost Identity Verification Capabilities",
-      "body": "Experian has acquired AtData to enhance its identity and fraud prevention capabilities, leveraging AtData's email insights technology. This acquisition strengthens Experian's position in the identity verification space, allowing it to offer more robust fraud prevention measures across financial services. However, integration challenges could delay the realization of synergies from the acquisition, impacting the speed of innovation. As the identity verification sector heats up, competitors may respond with their own strategic partnerships or acquisitions to enhance their offerings.",
+      "title": "Marqeta Earnings Highlight BNPL Growth and Embedded Finance Demand",
+      "body": "Marqeta's earnings report reveals significant growth in Buy Now, Pay Later (BNPL) and embedded finance demand, with processing volume reaching $109 billion. This growth challenges traditional credit models and underscores the increasing integration of finance into consumer experiences. As competition intensifies, expect regulatory scrutiny on lending practices and innovation in BNPL offerings.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47342/experian-buys-email-identity-specialist-atdata"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/earnings/2026/marqeta-earnings-point-to-bnpl-growth-and-embedded-finance-demand/"
       }
     },
     {
-      "title": "JPMorgan Fined \u20ac12.18 Million for Risk Reporting Negligence",
-      "body": "The European Central Bank has fined JPMorgan \u20ac12.18 million for serious negligence in calculating risk-bearing assets, underscoring the heightened regulatory scrutiny on risk management practices. This fine not only impacts JPMorgan's financial performance but also serves as a warning to other financial institutions under ECB supervision. The incident may prompt JPMorgan to enhance its risk management systems, potentially leading to long-term operational improvements. As a result, we can expect a tightening of risk management practices across the industry, with increased regulatory audits and fines for non-compliance.",
+      "title": "AI Becomes the Gatekeeper in Payments, Redefining Competitive Dynamics",
+      "body": "AI is transitioning from a tool to a gatekeeper in the payments industry, as highlighted in the February 2026 edition of 'The Agentic AI Report.' This shift could redefine competitive dynamics, impacting AI developers, payment processors, and consumers. As reliance on AI systems grows, expect increased investment in AI-driven solutions and potential regulatory focus on ethics and transparency.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47337/jpmorgan-fined-1218-million-by-ecb-for-gross-neglience-in-risk-reporting"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-isnt-a-tool-anymore-its-becoming-the-gatekeeper/"
       }
     },
     {
-      "title": "Badge Raises $17.1 Million to Expand Wallet Infrastructure",
-      "body": "Badge, a platform for Apple and Google Wallets, has raised $17.1 million to enhance its wallet infrastructure, enabling businesses to integrate at scale. This funding positions Badge to capitalize on the growing trend of digital wallets evolving into comprehensive financial hubs. However, the success of this initiative depends on Badge's ability to differentiate its offerings in a competitive market. As businesses increasingly adopt digital wallets, we may see potential partnerships with major tech companies and innovation in wallet-based financial services.",
+      "title": "Banks Rethink Fraud Controls Amid Rising False Declines in Transactions",
+      "body": "Banks are reevaluating fraud controls as false declines increase, driven by the push for faster payment processes. This trend challenges banks to balance speed and security, impacting payment processors and consumers alike. As banks innovate in fraud detection technologies, expect potential regulatory guidance on best practices to maintain trust and security in the payments ecosystem.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/108930/wallet-infrastructure-platform-badge-raises-171-million"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/fraud-prevention/2026/banks-rethink-fraud-controls-as-false-declines-rise/"
       }
     }
   ],
-  "perspective": "Today's stories highlight the ongoing tension between innovation and regulatory scrutiny in the payments landscape. PayPal's security breach and JPMorgan's hefty fine underscore the critical need for robust risk management and cybersecurity measures. Meanwhile, Crypto.com's charter approval and Badge's funding signal a shift towards integrating traditional banking with digital finance, emphasizing the importance of adaptability in a rapidly evolving market.",
+  "perspective": "Today's stories highlight the accelerating integration of stablecoins and AI into the payments landscape. Payoneer's charter application and Hong Kong's licensing initiative signal a pivotal moment for stablecoins, while Marqeta's earnings underscore the growing demand for BNPL and embedded finance. Meanwhile, the shift of AI to a gatekeeper role raises critical questions about ethics and transparency in payment processes, compelling industry players to adapt swiftly.",
   "curiosity": {
-    "text": "Did you know that the first credit card was made of cardboard? Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant, revolutionizing the way consumers approached payments."
+    "text": "Did you know that the first electronic funds transfer (EFT) system was developed in the 1970s? It allowed banks to transfer money electronically, paving the way for today's digital payment systems and revolutionizing how we handle transactions."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Badge",
-      "description": "raises $17.1 million for digital wallet infrastructure.",
-      "source_url": "https://www.finextra.com/pressarticle/108930/wallet-infrastructure-platform-badge-raises-171-million"
+      "company": "Allica Bank",
+      "description": "Hits unicorn status with $155 million Series D.",
+      "source_url": "https://www.finextra.com/newsarticle/47354/allica-bank-hits-unicorn-status-on-155-million-series-d"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "type": "fundraising",
+      "company": "Xflow",
+      "description": "Raises $16.6 million backed by Stripe and PayPal Ventures.",
+      "source_url": "https://www.finextra.com/newsarticle/47344/stripe-and-paypal-ventures-back-indias-xflow"
+    },
+    {
+      "flag": "\ud83c\uddff\ud83c\udde6",
+      "type": "M&A",
+      "company": "Araxi",
+      "description": "Acquires controlling stake in Pay@ Group for $62.3 million.",
+      "source_url": "https://www.finextra.com/pressarticle/108958/araxi-to-acquire-the-controlling-stake-in-pay-group-for-623-million"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "NEAR Protocol",
-      "description": "launched super app for centralized crypto activities.",
-      "source_url": "https://www.pymnts.com/blockchain/2026/near-unveils-super-app-to-centralize-crypto-activities/"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "expansion",
-      "company": "TerraPay",
-      "description": "partnered with Banco Ganadero for cross-border payments in Bolivia.",
-      "source_url": "https://www.finextra.com/pressarticle/108932/bolivias-banco-ganadero-turns-to-terrapay-for-cross-border-transactions"
+      "company": "TruStage",
+      "description": "Pilots stablecoin geared for credit unions.",
+      "source_url": "https://www.theblock.co/post/391106/fintech-and-insurance-giant-trustage-pilots-stablecoin-geared-for-credit-unions"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "Huntington National Bank",
-      "description": "partnered with Payabli for seamless online banking payments.",
-      "source_url": "https://www.finextra.com/pressarticle/108939/huntington-national-bank-partners-payabli-to-bring-seamless-payments-to-online-banking"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "M&A",
-      "company": "Experian",
-      "description": "acquired AtData to boost identity and fraud capabilities.",
-      "source_url": "https://www.finextra.com/newsarticle/47342/experian-buys-email-identity-specialist-atdata"
+      "type": "expansion",
+      "company": "Payoneer",
+      "description": "Applies for US national trust bank charter.",
+      "source_url": "https://www.finextra.com/newsarticle/47350/payoneer-applies-for-us-national-trust-bank-charter"
     }
   ]
 }
