@@ -18,6 +18,49 @@ from supabase import create_client
 # Import our custom tools
 from .tools import search_tool, scrape_tool, rss_tool, deduplicate_stories, filter_against_history
 
+
+def normalize_text(text: str) -> str:
+    """Normalize text for lightweight similarity checks."""
+    if not text:
+        return ""
+    cleaned = ''.join(ch.lower() if ch.isalnum() or ch.isspace() else ' ' for ch in text)
+    return ' '.join(cleaned.split())
+
+
+def token_set(text: str):
+    """Return a token set excluding very short words for comparison."""
+    return {w for w in normalize_text(text).split() if len(w) > 3}
+
+
+def curiosity_too_similar(candidate: str, historical_curiosities, threshold: float = 0.55) -> bool:
+    """Check if a curiosity fact is too similar to recent facts."""
+    candidate_norm = normalize_text(candidate)
+    candidate_tokens = token_set(candidate)
+
+    if not candidate_norm or not candidate_tokens:
+        return True
+
+    for item in historical_curiosities:
+        text = item.get('text', '') if isinstance(item, dict) else str(item)
+        previous_norm = normalize_text(text)
+        previous_tokens = token_set(text)
+
+        # Hard checks for near-duplicate phrasing
+        if candidate_norm == previous_norm:
+            return True
+        if candidate_norm in previous_norm or previous_norm in candidate_norm:
+            return True
+
+        # Jaccard token overlap catches paraphrases of same fact
+        union = candidate_tokens | previous_tokens
+        if not union:
+            continue
+        overlap = len(candidate_tokens & previous_tokens) / len(union)
+        if overlap >= threshold:
+            return True
+
+    return False
+
 def get_recent_stories(days_back: int = 2):
     """
     Fetch stories and editorial context from recent newsletters.
@@ -26,7 +69,7 @@ def get_recent_stories(days_back: int = 2):
         days_back: Number of days to look back for previous stories
 
     Returns:
-        Dict with 'stories' (list), 'perspectives' (list), 'intros' (list), and 'themes' (list)
+        Dict with 'stories' (list), 'perspectives' (list), 'themes' (list), and 'curiosities' (list)
     """
     try:
         # Initialize Supabase client
@@ -35,7 +78,7 @@ def get_recent_stories(days_back: int = 2):
 
         if not supabase_url or not supabase_key:
             print("⚠️ Supabase credentials not found, skipping historical deduplication")
-            return {'stories': [], 'perspectives': [], 'themes': []}
+            return {'stories': [], 'perspectives': [], 'themes': [], 'curiosities': []}
 
         supabase = create_client(supabase_url, supabase_key)
 
@@ -49,10 +92,11 @@ def get_recent_stories(days_back: int = 2):
             .order("publication_date", desc=True) \
             .execute()
 
-        # Extract stories, perspectives, and themes from newsletters
+        # Extract stories, perspectives, themes, and curiosity facts from newsletters
         previous_stories = []
         perspectives = []
         themes = []
+        curiosities = []
 
         for newsletter in response.data:
             content = newsletter.get("content", {})
@@ -75,6 +119,14 @@ def get_recent_stories(days_back: int = 2):
                     "text": perspective
                 })
 
+            curiosity = content.get("curiosity", {})
+            curiosity_text = curiosity.get("text", "") if isinstance(curiosity, dict) else ""
+            if curiosity_text:
+                curiosities.append({
+                    "date": pub_date,
+                    "text": curiosity_text
+                })
+
             # Extract key themes from story titles (simple keyword extraction)
             for story in news:
                 title = story.get("title", "").lower()
@@ -90,12 +142,29 @@ def get_recent_stories(days_back: int = 2):
         return {
             'stories': previous_stories,
             'perspectives': perspectives,
-            'themes': themes[:5]  # Top 5 recurring themes
+            'themes': themes[:5],  # Top 5 recurring themes
+            'curiosities': curiosities
         }
 
     except Exception as e:
         print(f"⚠️ Error fetching recent stories: {e}")
-        return {'stories': [], 'perspectives': [], 'intros': [], 'themes': []}
+        return {'stories': [], 'perspectives': [], 'themes': [], 'curiosities': []}
+
+
+def format_recent_curiosities(recent_data, limit: int = 7):
+    """Format recent curiosity facts so the Curiosity agent avoids repeats."""
+    if not isinstance(recent_data, dict):
+        return "No recent curiosity history available."
+
+    curiosities = recent_data.get('curiosities', [])
+    if not curiosities:
+        return "No recent curiosity history available."
+
+    lines = ["RECENT CURIOSITY FACTS (DO NOT REPEAT OR PARAPHRASE):"]
+    for item in curiosities[:limit]:
+        lines.append(f"- [{item.get('date', 'Unknown date')}] {item.get('text', '')}")
+
+    return "\n".join(lines)
 
 def format_trends_for_prompt(trends):
     """
@@ -189,6 +258,8 @@ def main():
     recent_data = get_recent_stories(days_back=3)  # Extended to 3 days for better narrative context
     recent_stories = recent_data.get('stories', [])  # Extract stories list for deduplication
     narrative_context = format_narrative_context(recent_data)
+    recent_curiosities = recent_data.get('curiosities', [])
+    recent_curiosities_context = format_recent_curiosities(recent_data, limit=10)
 
     # Create a string of news sources for the prompt
     news_sources_str = "\n".join([f"- {s['url']} ({s['topic']})" for s in config['newsletters']])
@@ -577,43 +648,7 @@ EDITORIAL PROCESS:
    Write in first-person ("I'm watching...", "What stands out...", "The real question is...")
    This appears BEFORE the stories and sets the editorial lens for how to read them.
 
-4. **Daily Curiosity** (Generate 1 - INDEPENDENT from today's news):
-
-   IMPORTANT: This section should NOT be drawn from today's researched stories. Instead, generate
-   an interesting, educational fact about payments, fintech, banking, or crypto from your knowledge.
-
-   The goal is to educate and delight readers with surprising insights they won't find in the news.
-
-   TOPICS TO DRAW FROM (rotate daily for variety):
-   - Payment history milestones (first credit card, origin of checks, telegraph transfers, etc.)
-   - Surprising statistics about global payment volumes or adoption
-   - How different countries/cultures handle money differently
-   - Technical facts about payment rails (ACH, SWIFT, card networks, etc.)
-   - Famous fintech origin stories or pivotal moments
-   - Counterintuitive economics of payments (interchange, float, etc.)
-   - Crypto/blockchain historical moments or technical curiosities
-   - Banking history and evolution
-   - Fun facts about currency, cash, or digital money adoption
-
-   EXAMPLES OF GREAT CURIOSITY FACTS:
-   - "The first credit card was made of cardboard. Diners Club introduced it in 1950 after founder Frank McNamara forgot his wallet at a restaurant."
-   - "SWIFT messages travel through just 11,000 banks but move over $5 trillion daily—more than the entire US stock market trades in a week."
-   - "Kenya's M-Pesa processes more transactions than Western Union does globally, yet most Kenyans have never set foot in a bank."
-   - "The 'float' on uncleared checks was so valuable that banks used to fly paper checks across the country by private jet."
-   - "Visa's network can handle 65,000 transactions per second—Bitcoin can handle about 7."
-   - "The first ATM required a radioactive Carbon-14 chip in each check to verify authenticity."
-   - "Japan still uses personal seals (hanko) instead of signatures for major financial transactions, though this is finally changing."
-
-   Requirements:
-   - Must be genuinely surprising, counterintuitive, or educational
-   - Must be a verifiable fact (historical or current), NOT a future projection
-   - Must be DIFFERENT from any of today's news stories
-   - Write in conversational "Did you know?" style
-   - 1-2 sentences maximum
-   - Include context that makes the fact meaningful (comparisons, implications)
-   - No source required since this comes from general industry knowledge
-
-5. **Quality Checklist** (Every newsletter must pass):
+4. **Quality Checklist** (Every newsletter must pass):
    - [ ] Every story passes the "So what?" test with clear implications
    - [ ] At least 3 stories include specific data/metrics
    - [ ] At least 2 stories have contrarian or non-obvious angles
@@ -635,10 +670,7 @@ OUTPUT FORMAT (MUST BE VALID JSON):
       }}}}
     }}}}
   ],
-  "perspective": "...",
-  "curiosity": {{{{
-    "text": "..."
-  }}}}
+  "perspective": "..."
 }}}}
 
 CRITICAL RULES:
@@ -646,7 +678,6 @@ CRITICAL RULES:
 - Escape all quotes and special characters properly
 - Ensure exactly 5 news items (no more, no less)
 - The "perspective" field is your editorial synthesis (2-3 sentences, ALWAYS required)
-- The "curiosity" field must have a "text" field with an interesting fact (source is NOT required)
 - **CRITICAL: For NEWS items, the "source" field must be an object with "name" and "url" properties**
 - Extract the publication name and URL from the research source (if research shows "Source: Payments Dive - https://example.com", use {{{{"name": "Payments Dive", "url": "https://example.com"}}}}"""),
         ("user", "Here are the stories to select from (pre-filtered for duplicates):\n\n{input}"),
@@ -657,6 +688,37 @@ CRITICAL RULES:
     # Using latest gpt-4o-mini for improved reasoning and structured output
     writer_llm = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0.1)
     writer_chain = writer_prompt_template | writer_llm
+
+
+    # 4.25. Create a dedicated Curiosity Agent so this section can be independently refreshed daily
+    curiosity_prompt_template = ChatPromptTemplate.from_messages([
+        ("system", f"""You are the Curiosity Agent for /thepaymentsnerd.
+
+Your ONLY job is to generate one daily curiosity fact about payments/fintech that is fresh and non-repetitive.
+
+IMPORTANT CONTEXT:
+- Today's date is: {current_date}
+- Generate ONE curiosity fact in 1-2 sentences
+- The fact must be independent from today's news stories
+- The fact must be historical or currently true (no future projections)
+
+{recent_curiosities_context}
+
+HARD CONSTRAINTS:
+- DO NOT repeat or paraphrase any recent curiosity fact listed above
+- Use a different angle, era, geography, rail, or mechanism than recent examples
+- Prefer specific years, metrics, and concrete details
+- Keep it surprising and educational
+
+Return ONLY valid JSON in this exact shape:
+{{
+  "text": "..."
+}}
+"""),
+        ("user", "Today's selected newsletter stories (context only):\n\n{input}"),
+    ])
+    curiosity_llm = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0.8)
+    curiosity_chain = curiosity_prompt_template | curiosity_llm
 
     # 4.5. Create the Parser chain to structure Researcher output for deduplication
     # This parser now extracts BOTH news stories AND What's Hot items from the unified researcher output
@@ -885,9 +947,52 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
     print("\n--- Starting Writer Agent ---")
     final_result_chain = writer_chain.invoke({"input": writer_input})
 
-    # 7. Run the Editor Agent for quality control
+    # 7. Parse writer output and independently generate curiosity
+    try:
+        output_text = final_result_chain.content.strip().replace("```json", "").replace("```", "").strip()
+        output_json = json.loads(output_text)
+    except (json.JSONDecodeError, AttributeError, KeyError) as e:
+        print("\n--- FAILED to parse writer JSON output. ---")
+        print(f"Error: {e}")
+        print("Raw Writer Output:")
+        print(final_result_chain.content if hasattr(final_result_chain, 'content') else final_result_chain)
+        return
+
+    print("\n--- Starting Curiosity Agent ---")
+    curiosity_payload = json.dumps(output_json.get('news', []), indent=2)
+
+    curiosity_obj = None
+    max_attempts = 3
+    for attempt in range(1, max_attempts + 1):
+        curiosity_result = curiosity_chain.invoke({"input": curiosity_payload})
+        try:
+            curiosity_text = curiosity_result.content.strip().replace("```json", "").replace("```", "").strip()
+            candidate = json.loads(curiosity_text)
+            candidate_text = candidate.get('text', '').strip() if isinstance(candidate, dict) else ''
+
+            if not candidate_text:
+                print(f"⚠️ Curiosity attempt {attempt}/{max_attempts} returned empty text")
+                continue
+
+            if curiosity_too_similar(candidate_text, recent_curiosities):
+                print(f"⚠️ Curiosity attempt {attempt}/{max_attempts} too similar to recent days; retrying")
+                continue
+
+            curiosity_obj = {"text": candidate_text}
+            break
+        except (json.JSONDecodeError, AttributeError, KeyError):
+            print(f"⚠️ Curiosity attempt {attempt}/{max_attempts} produced invalid JSON")
+
+    if not curiosity_obj:
+        fallback_text = "Did you know ACH began as a way to replace paper checks in the 1970s, and now it moves trillions electronically each year?"
+        curiosity_obj = {"text": fallback_text}
+        print("⚠️ Using fallback curiosity fact after repeated invalid/similar attempts")
+
+    output_json['curiosity'] = curiosity_obj
+
+    # 8. Run the Editor Agent for quality control
     print("\n--- Starting Editor Review ---")
-    editor_result = editor_chain.invoke({"input": final_result_chain.content})
+    editor_result = editor_chain.invoke({"input": json.dumps(output_json, indent=2)})
     print(f"Editor verdict: {editor_result.content}")
 
     # If editor suggests revisions, we'll still proceed but log the feedback
@@ -895,13 +1000,8 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
         print("\n⚠️ Editor flagged issues but proceeding with publication:")
         print(editor_result.content)
 
-    # 8. Save the final output to a file
+    # 9. Save the final output to a file
     try:
-        # MODIFIED: The output from a simple chain is in the 'content' attribute.
-        # We also clean up potential markdown formatting from the AI's response.
-        output_text = final_result_chain.content.strip().replace("```json", "").replace("```", "").strip()
-        output_json = json.loads(output_text)
-
         # Safety net: Within-day deduplication only
         # Historical dedup is now handled BEFORE the Writer (see step 6.6)
         # This catches only nearly identical copies that might slip through
