@@ -964,8 +964,8 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
     curiosity_obj = None
     max_attempts = 3
     for attempt in range(1, max_attempts + 1):
-        curiosity_result = curiosity_chain.invoke({"input": curiosity_payload})
         try:
+            curiosity_result = curiosity_chain.invoke({"input": curiosity_payload})
             curiosity_text = curiosity_result.content.strip().replace("```json", "").replace("```", "").strip()
             candidate = json.loads(curiosity_text)
             candidate_text = candidate.get('text', '').strip() if isinstance(candidate, dict) else ''
@@ -980,8 +980,8 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
 
             curiosity_obj = {"text": candidate_text}
             break
-        except (json.JSONDecodeError, AttributeError, KeyError):
-            print(f"⚠️ Curiosity attempt {attempt}/{max_attempts} produced invalid JSON")
+        except Exception as e:
+            print(f"⚠️ Curiosity attempt {attempt}/{max_attempts} failed: {e}")
 
     if not curiosity_obj:
         fallback_text = "Did you know ACH began as a way to replace paper checks in the 1970s, and now it moves trillions electronically each year?"
