@@ -1,85 +1,99 @@
 {
   "news": [
     {
-      "title": "Payoneer Applies for US National Trust Bank Charter to Boost Stablecoin Business",
-      "body": "Payoneer has applied for a US national trust bank charter to enhance its stablecoin business, aiming to bolster its position in the cross-border payments market. This move could challenge traditional banks and accelerate stablecoin adoption, impacting regulatory frameworks and payment solutions. If approved, Payoneer may set a precedent for other fintechs seeking similar charters, intensifying competition in the cross-border payments landscape.",
+      "title": "Stripe Considers PayPal Acquisition, Threatening Traditional Card Networks",
+      "body": "Stripe is exploring a potential acquisition of PayPal, which could reshape the payments landscape significantly. This move follows Stripe's valuation of $159 billion, far exceeding PayPal's $43 billion market cap, and may impact competitors like Visa and Mastercard. A successful acquisition could consolidate Stripe's dominance, shifting market power away from traditional card networks.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47350/payoneer-applies-for-us-national-trust-bank-charter"
+        "url": "https://www.finextra.com/newsarticle/47358/stripe-considers-paypal-acquisition---bloomberg"
       }
     },
     {
-      "title": "Hong Kong to Issue First Stablecoin Issuer Licenses, Paving Regulatory Path",
-      "body": "Hong Kong plans to issue its first stablecoin issuer licenses in March, signaling regulatory progress in the digital asset space. This initiative positions Hong Kong as a regulatory leader and could enhance stablecoin adoption among financial institutions. As stablecoin issuers navigate compliance challenges, expect increased innovation and potential implications for cross-border payments and financial inclusion.",
+      "title": "Revolut Tests Stablecoin Innovations in FCA Regulatory Sandbox",
+      "body": "Revolut is testing stablecoin innovations in the UK's regulatory sandbox, indicating a move towards mainstream adoption of stablecoins. This initiative involves other firms like Monee Financial Technologies and ReStabilise, potentially impacting the broader financial services sector. Successful tests may lead to greater regulatory acceptance and integration of stablecoins into mainstream finance.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/391172/hong-kong-first-stablecoin-license"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47359/revolut-among-cohort-testing-stablecoin-plans-with-the-fca"
       }
     },
     {
-      "title": "Marqeta Earnings Highlight BNPL Growth and Embedded Finance Demand",
-      "body": "Marqeta's earnings report reveals significant growth in Buy Now, Pay Later (BNPL) and embedded finance demand, with processing volume reaching $109 billion. This growth challenges traditional credit models and underscores the increasing integration of finance into consumer experiences. As competition intensifies, expect regulatory scrutiny on lending practices and innovation in BNPL offerings.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/marqeta-earnings-point-to-bnpl-growth-and-embedded-finance-demand/"
-      }
-    },
-    {
-      "title": "AI Becomes the Gatekeeper in Payments, Redefining Competitive Dynamics",
-      "body": "AI is transitioning from a tool to a gatekeeper in the payments industry, as highlighted in the February 2026 edition of 'The Agentic AI Report.' This shift could redefine competitive dynamics, impacting AI developers, payment processors, and consumers. As reliance on AI systems grows, expect increased investment in AI-driven solutions and potential regulatory focus on ethics and transparency.",
+      "title": "AI Agents Revolutionize Shopping, Payments Firms Must Adapt",
+      "body": "AI agents are increasingly managing shopping and payment tasks autonomously, prompting payments firms to adapt their strategies. This shift affects payments firms, retailers, and consumers, who may benefit from enhanced shopping experiences. Firms that quickly adapt to AI-driven commerce could gain a competitive advantage, while those that lag risk losing market share.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-isnt-a-tool-anymore-its-becoming-the-gatekeeper/"
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-start-shopping-and-payments-firms-adapt/"
       }
     },
     {
-      "title": "Banks Rethink Fraud Controls Amid Rising False Declines in Transactions",
-      "body": "Banks are reevaluating fraud controls as false declines increase, driven by the push for faster payment processes. This trend challenges banks to balance speed and security, impacting payment processors and consumers alike. As banks innovate in fraud detection technologies, expect potential regulatory guidance on best practices to maintain trust and security in the payments ecosystem.",
+      "title": "New York Proposes BNPL Regulations, Standardizing Practices Across States",
+      "body": "New York State has proposed new rules for Buy Now, Pay Later (BNPL) services, establishing a licensing and supervision framework that affects BNPL providers, consumers, and financial regulators. Regulated BNPL services may gain consumer trust, potentially increasing adoption and market share. This could lead to similar regulatory actions in other states, standardizing BNPL practices across the US.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/fraud-prevention/2026/banks-rethink-fraud-controls-as-false-declines-rise/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47362/new-york-preps-bnpl-rules"
+      }
+    },
+    {
+      "title": "Payoneer Applies for US National Trust Bank Charter to Expand Stablecoin Business",
+      "body": "Payoneer has applied for a US national trust bank charter to expand its stablecoin business, affecting Payoneer and its competitors in the stablecoin market. A successful charter could enhance Payoneer's credibility and service offerings, challenging traditional banks. This move may encourage other fintechs to pursue similar charters, increasing competition in the stablecoin space.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/payoneer-applies-occ-national-trust-bank-charter-bridge/813092/"
       }
     }
   ],
-  "perspective": "Today's stories highlight the accelerating integration of stablecoins and AI into the payments landscape. Payoneer's charter application and Hong Kong's licensing initiative signal a pivotal moment for stablecoins, while Marqeta's earnings underscore the growing demand for BNPL and embedded finance. Meanwhile, the shift of AI to a gatekeeper role raises critical questions about ethics and transparency in payment processes, compelling industry players to adapt swiftly.",
+  "perspective": "The payments landscape is undergoing a seismic shift as major players like Stripe and Payoneer pursue aggressive strategies to consolidate their positions. With Revolut testing stablecoin innovations and New York proposing BNPL regulations, the regulatory environment is evolving rapidly, potentially paving the way for mainstream adoption of new financial technologies. As AI agents begin to redefine shopping experiences, firms must adapt or risk losing market share in this increasingly competitive arena.",
   "curiosity": {
-    "text": "Did you know that the first electronic funds transfer (EFT) system was developed in the 1970s? It allowed banks to transfer money electronically, paving the way for today's digital payment systems and revolutionizing how we handle transactions."
+    "text": "Did you know ACH began as a way to replace paper checks in the 1970s, and now it moves trillions electronically each year?"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Allica Bank",
-      "description": "Hits unicorn status with $155 million Series D.",
-      "source_url": "https://www.finextra.com/newsarticle/47354/allica-bank-hits-unicorn-status-on-155-million-series-d"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "fundraising",
-      "company": "Xflow",
-      "description": "Raises $16.6 million backed by Stripe and PayPal Ventures.",
-      "source_url": "https://www.finextra.com/newsarticle/47344/stripe-and-paypal-ventures-back-indias-xflow"
-    },
-    {
-      "flag": "\ud83c\uddff\ud83c\udde6",
-      "type": "M&A",
-      "company": "Araxi",
-      "description": "Acquires controlling stake in Pay@ Group for $62.3 million.",
-      "source_url": "https://www.finextra.com/pressarticle/108958/araxi-to-acquire-the-controlling-stake-in-pay-group-for-623-million"
+      "description": "Raised $155M Series D, achieving unicorn status.",
+      "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "TruStage",
-      "description": "Pilots stablecoin geared for credit unions.",
-      "source_url": "https://www.theblock.co/post/391106/fintech-and-insurance-giant-trustage-pilots-stablecoin-geared-for-credit-unions"
+      "type": "fundraising",
+      "company": "T54 Labs",
+      "description": "Raised $5M seed round for AI agent trust startup.",
+      "source_url": "https://www.finextra.com/pressarticle/108985/t54-labs-raises-5-million-to-build-trust-layer-for-the-autonomous-economy"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "expansion",
       "company": "Payoneer",
-      "description": "Applies for US national trust bank charter.",
-      "source_url": "https://www.finextra.com/newsarticle/47350/payoneer-applies-for-us-national-trust-bank-charter"
+      "description": "Applied for US national trust bank charter.",
+      "source_url": "https://www.bankingdive.com/news/payoneer-applies-occ-national-trust-bank-charter-bridge/813092/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Stripe",
+      "description": "Valuation soars to $159B in latest secondary stock sale.",
+      "source_url": "https://news.crunchbase.com/fintech/unicorn-stripe-secondary-sale-valuation/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Revolut",
+      "description": "Eyes $100B valuation with fresh share sale.",
+      "source_url": "https://sifted.eu/articles/revolut-share-sale-2025/"
+    },
+    {
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "product",
+      "company": "Currenxie",
+      "description": "Launched cross-border payments account for SMEs in the UK.",
+      "source_url": "https://www.finextra.com/newsarticle/47352/currrenxie-launches-cross-border-payments-account-for-smes-in-the-uk"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "Revolut",
+      "description": "Testing stablecoin plans with the FCA.",
+      "source_url": "https://www.finextra.com/newsarticle/47359/revolut-among-cohort-testing-stablecoin-plans-with-the-fca"
     }
   ]
 }
