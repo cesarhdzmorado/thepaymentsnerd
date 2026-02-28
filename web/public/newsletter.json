@@ -1,51 +1,58 @@
 {
   "news": [
     {
-      "title": "Revolut Joins FCA's Stablecoin Testing Cohort, Paving Way for Regulatory Clarity",
-      "body": "The FCA has selected Revolut, Monee Financial Technologies, ReStabilise, and VVTX to test stablecoin innovations in its regulatory sandbox. This means that successful tests could position these companies as leaders in the stablecoin space, influencing future regulatory frameworks. As a result, fintechs involved may gain a competitive edge in the evolving stablecoin market. Expect increased regulatory clarity and potential mainstream adoption of stablecoins in the UK.",
+      "title": "Visa Expands in Argentina with Prisma and Newpay Acquisition",
+      "body": "Visa has completed the acquisition of Argentina-based companies Prisma and Newpay to expand its footprint in Latin America. This move strengthens Visa's position in the payments market, increasing competition with other processors and fintechs in the region. This means Visa is positioning itself to capture a growing digital payments market in Argentina, which has seen a surge in fintech innovation. Visa's expansion could lead to increased adoption of digital payments in Argentina, influencing local fintech innovation and partnerships.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47359/revolut-among-cohort-testing-stablecoin-plans-with-the-fca"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/acquisitions/2026/visa-closes-prisma-and-newpay-acquisition-to-expand-in-argentina/"
       }
     },
     {
-      "title": "Visa's AI Integration Strategy Sets New Industry Benchmark",
-      "body": "Visa is reportedly leading the payments industry's race to integrate AI, with Mastercard and PayPal close behind, according to a new global benchmark. This integration could enhance fraud detection and operational efficiency, giving Visa a competitive edge in the market. Smaller players may struggle to keep pace with this rapid adoption of AI technologies. Expect accelerated AI adoption across the industry, reshaping competitive dynamics.",
+      "title": "Jack Dorsey's Block to Lay Off 4,000 Employees Amid AI Shift",
+      "body": "Block plans to lay off 40% of its workforce, equating to 4,000 employees, as it pivots towards AI-driven efficiencies. This shift could enhance operational efficiency, setting a precedent for other fintechs to follow, potentially reshaping the competitive landscape. The layoffs may lead to a talent influx in the fintech job market, while other companies may accelerate AI adoption to remain competitive. However, the aggressive AI shift could risk short-term operational disruptions and morale issues within Block.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47361/visa-leads-payment-industrys-three-horse-race-for-ai-supremacy"
+        "url": "https://www.finextra.com/newsarticle/47372/jack-dorseys-block-to-lay-off-4000-employees-as-the-ai-era-arrives"
       }
     },
     {
-      "title": "US Regional Banks Collaborate on Blockchain-Based Tokenised Deposit Network",
-      "body": "Five regional US banks have collaborated to create a blockchain-based platform for tokenised deposits. This move could enhance operational efficiency and attract tech-savvy customers, challenging traditional banking models. As these banks innovate, they may set a precedent for others in the industry to follow. Expect increased interest in blockchain solutions from other banks and potential regulatory scrutiny.",
+      "title": "Meta Explores Stablecoin Payments in App Ecosystem",
+      "body": "Meta is exploring the integration of stablecoin payments within its app ecosystem, revisiting its digital currency ambitions after the Diem project. This move could disrupt the digital payments landscape, leveraging its vast user base to drive stablecoin adoption. Successful implementation may lead to increased regulatory scrutiny and influence other tech giants to explore similar integrations. However, Meta's past challenges with Diem may hinder regulatory approval and user trust.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/meta-stablecoin-crypto-social-media-whatsapp-diem-stripe/813390/"
+      }
+    },
+    {
+      "title": "US Regional Banks Build Tokenised Deposit Network",
+      "body": "Five regional US banks have collaborated to create a blockchain-based platform for tokenised deposits, aiming to modernize banking infrastructure. This initiative could drive innovation in deposit management, challenging larger banks to adopt similar technologies. Successful implementation may lead to wider adoption of tokenized banking solutions, influencing regulatory approaches. However, tokenization's complexity and regulatory challenges could slow adoption.",
       "source": {
         "name": "Finextra",
         "url": "https://www.finextra.com/newsarticle/47366/us-regional-banks-build-tokenised-deposit-network"
       }
     },
     {
-      "title": "Payoneer Seeks National Trust Bank Charter to Expand Services",
-      "body": "Payoneer has applied for a national trust bank charter with the OCC, joining other fintechs seeking banking licenses to issue and custody stablecoins. This move could enhance Payoneer's credibility and expand its service offerings in a competitive landscape. However, regulatory hurdles and compliance costs could outweigh the benefits of obtaining a charter. Expect more fintechs to pursue banking licenses, potentially blurring the lines between fintech and traditional banking.",
+      "title": "Tether Blocks $3.5 Billion in Crime-Linked Stablecoins",
+      "body": "Tether has frozen $3.5 billion of its stablecoins linked to illicit activities since 2023, highlighting its commitment to compliance and security. This proactive measure may enhance Tether's reputation, setting a standard for compliance in the stablecoin market. Increased regulatory scrutiny on stablecoins could lead to stricter compliance requirements across the crypto industry. While positive for compliance, these actions may impact Tether's user base and liquidity.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/payoneer-applies-occ-national-trust-bank-charter-bridge/813092/"
-      }
-    },
-    {
-      "title": "New York Proposes BNPL Regulations, Impacting Providers and Consumers",
-      "body": "New York state has proposed new rules for buy now, pay later (BNPL) providers, establishing a licensing and supervision framework. This regulation could level the playing field but may also increase compliance costs for BNPL providers. As a result, some providers may struggle to adapt to the new landscape. Expect other states to follow suit, potentially leading to a patchwork of regulations across the US.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47362/new-york-preps-bnpl-rules"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/tether-has-blocked-3-5-billion-in-crime-linked-stablecoins-since-2023/"
       }
     }
   ],
-  "perspective": "Today's stories underscore the accelerating convergence of regulation and innovation in the payments landscape. As fintechs like Revolut and Payoneer navigate regulatory frameworks, the push for stablecoins and AI integration is reshaping competitive dynamics. The implications for compliance and operational resilience are profound, signaling a critical juncture for industry players to adapt or risk obsolescence.",
+  "perspective": "Today's stories reveal a critical intersection of compliance, innovation, and operational efficiency in the payments landscape. Visa's expansion into Argentina and Meta's stablecoin ambitions highlight the ongoing push for digital payment adoption, while Block's workforce reduction underscores the urgency of AI integration. As regulatory scrutiny intensifies, particularly around stablecoins, companies must navigate these challenges to remain competitive and relevant in an evolving market.",
   "curiosity": {
     "text": "Did you know ACH began as a way to replace paper checks in the 1970s, and now it moves trillions electronically each year?"
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "OpenAI",
+      "description": "Raised $110B at $840B valuation, largest venture deal ever",
+      "source_url": "https://news.crunchbase.com/venture/openai-raise-largest-ai-venture-deal-ever/"
+    },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
@@ -54,32 +61,32 @@
       "source_url": "https://news.crunchbase.com/fintech/plaid-completes-tender-offer-8b-valuation/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Einride",
-      "description": "Secures $113 million for autonomous freight expansion",
-      "source_url": "https://www.pymnts.com/transportation/2026/einride-secures-113-million-to-scale-autonomous-freight-global-expansion/"
-    },
-    {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Allica Bank",
-      "description": "Becomes Europe\u2019s newest unicorn with $155m Series D",
+      "description": "Becomes unicorn with $155M Series D",
       "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "T54 Labs",
-      "description": "Raises $5 million to build trust layer for autonomous economy",
-      "source_url": "https://www.finextra.com/pressarticle/108985/t54-labs-raises-5-million-to-build-trust-layer-for-the-autonomous-economy?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "M&A",
       "company": "Augmentum Fintech",
-      "description": "Accepts \u00a3186m cash takeover offer",
-      "source_url": "https://www.finextra.com/newsarticle/47369/augmentum-fintech-accepts-186m-cash-takeover-offer?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Accepts \u00a3186M cash takeover offer from Verdane",
+      "source_url": "https://www.finextra.com/newsarticle/47369/augmentum-fintech-accepts-186m-cash-takeover-offer"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Confido",
+      "description": "Raises $9M for embedded financial infrastructure",
+      "source_url": "https://www.finextra.com/pressarticle/109005/confido-raises-9m"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "T54 Labs",
+      "description": "Raises $5M to build trust layer for autonomous economy",
+      "source_url": "https://www.finextra.com/pressarticle/108985/t54-labs-raises-5-million-to-build-trust-layer-for-the-autonomous-economy"
     }
   ]
 }
