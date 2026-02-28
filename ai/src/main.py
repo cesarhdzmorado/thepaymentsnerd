@@ -151,12 +151,47 @@ def get_recent_stories(days_back: int = 2):
         return {'stories': [], 'perspectives': [], 'themes': [], 'curiosities': []}
 
 
-def format_recent_curiosities(recent_data, limit: int = 7):
-    """Format recent curiosity facts so the Curiosity agent avoids repeats."""
-    if not isinstance(recent_data, dict):
-        return "No recent curiosity history available."
+def get_curiosity_history(days_back: int = 120):
+    """
+    Fetch curiosity facts from newsletters over a long lookback window.
+    Used exclusively for curiosity deduplication — separate from story dedup.
+    """
+    try:
+        supabase_url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL")
+        supabase_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
 
-    curiosities = recent_data.get('curiosities', [])
+        if not supabase_url or not supabase_key:
+            print("⚠️ Supabase credentials not found, skipping curiosity history fetch")
+            return []
+
+        supabase = create_client(supabase_url, supabase_key)
+        cutoff_date = (datetime.now() - timedelta(days=days_back)).strftime("%Y-%m-%d")
+
+        response = supabase.table("newsletters") \
+            .select("publication_date,content") \
+            .gte("publication_date", cutoff_date) \
+            .order("publication_date", desc=True) \
+            .execute()
+
+        curiosities = []
+        for newsletter in response.data:
+            pub_date = newsletter.get("publication_date", "")
+            content = newsletter.get("content", {})
+            curiosity = content.get("curiosity", {})
+            curiosity_text = curiosity.get("text", "") if isinstance(curiosity, dict) else ""
+            if curiosity_text:
+                curiosities.append({"date": pub_date, "text": curiosity_text})
+
+        print(f"✅ Loaded {len(curiosities)} curiosity facts from last {days_back} days")
+        return curiosities
+
+    except Exception as e:
+        print(f"⚠️ Error fetching curiosity history: {e}")
+        return []
+
+
+def format_recent_curiosities(curiosities: list, limit: int = 60):
+    """Format recent curiosity facts so the Curiosity agent avoids repeats."""
     if not curiosities:
         return "No recent curiosity history available."
 
@@ -258,8 +293,9 @@ def main():
     recent_data = get_recent_stories(days_back=3)  # Extended to 3 days for better narrative context
     recent_stories = recent_data.get('stories', [])  # Extract stories list for deduplication
     narrative_context = format_narrative_context(recent_data)
-    recent_curiosities = recent_data.get('curiosities', [])
-    recent_curiosities_context = format_recent_curiosities(recent_data, limit=10)
+    curiosity_history = get_curiosity_history(days_back=120)
+    recent_curiosities = curiosity_history
+    recent_curiosities_context = format_recent_curiosities(curiosity_history)
 
     # Create a string of news sources for the prompt
     news_sources_str = "\n".join([f"- {s['url']} ({s['topic']})" for s in config['newsletters']])
