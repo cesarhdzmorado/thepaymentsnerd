@@ -9,6 +9,7 @@ import yaml
 import json
 import os
 from datetime import datetime, timedelta
+from pathlib import Path
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_openai_functions_agent, AgentExecutor
@@ -60,6 +61,113 @@ def curiosity_too_similar(candidate: str, historical_curiosities, threshold: flo
             return True
 
     return False
+
+
+def curiosity_novelty_score(candidate: str, historical_curiosities, lookback: int = 120) -> float:
+    """Higher is better. Measures novelty versus the most recent historical curiosities."""
+    candidate_tokens = token_set(candidate)
+    if not candidate_tokens:
+        return 0.0
+
+    max_overlap = 0.0
+    for item in historical_curiosities[:lookback]:
+        text = item.get('text', '') if isinstance(item, dict) else str(item)
+        previous_tokens = token_set(text)
+        union = candidate_tokens | previous_tokens
+        if not union:
+            continue
+        overlap = len(candidate_tokens & previous_tokens) / len(union)
+        max_overlap = max(max_overlap, overlap)
+
+    return 1.0 - max_overlap
+
+
+LOCAL_CURIOSITY_HISTORY_PATH = Path("ai/data/curiosity_history.json")
+
+
+def load_local_curiosity_history(limit: int = 240):
+    """Load curiosity history from local disk for environments without Supabase."""
+    if not LOCAL_CURIOSITY_HISTORY_PATH.exists():
+        return []
+
+    try:
+        with LOCAL_CURIOSITY_HISTORY_PATH.open("r", encoding="utf-8") as f:
+            rows = json.load(f)
+        if not isinstance(rows, list):
+            return []
+        cleaned = [r for r in rows if isinstance(r, dict) and r.get("text")]
+        return cleaned[:limit]
+    except Exception as e:
+        print(f"⚠️ Failed to load local curiosity history: {e}")
+        return []
+
+
+def save_local_curiosity_history(curiosities: list, limit: int = 365):
+    """Persist curiosity history to local disk for robust deduplication across runs."""
+    try:
+        LOCAL_CURIOSITY_HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+        deduped = []
+        seen = set()
+        for item in curiosities:
+            text = (item.get("text", "") if isinstance(item, dict) else str(item)).strip()
+            if not text:
+                continue
+            key = normalize_text(text)
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append({
+                "date": item.get("date", datetime.now().strftime("%Y-%m-%d")) if isinstance(item, dict) else datetime.now().strftime("%Y-%m-%d"),
+                "text": text,
+            })
+
+        with LOCAL_CURIOSITY_HISTORY_PATH.open("w", encoding="utf-8") as f:
+            json.dump(deduped[:limit], f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"⚠️ Failed to save local curiosity history: {e}")
+
+
+def merge_curiosity_histories(*history_sets):
+    """Merge multiple history sources while keeping newest-first unique entries."""
+    merged = []
+    seen = set()
+
+    for history in history_sets:
+        for item in history or []:
+            text = item.get("text", "") if isinstance(item, dict) else str(item)
+            text = text.strip()
+            if not text:
+                continue
+            key = normalize_text(text)
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append({
+                "date": item.get("date", "") if isinstance(item, dict) else "",
+                "text": text,
+            })
+
+    return merged
+
+
+CURATED_CURIOSITY_FALLBACKS = [
+    "In 1958, Bank of America mailed 60,000 unsolicited credit cards in Fresno in the first large card drop, kickstarting modern revolving credit and also one of the earliest fraud waves in card history.",
+    "M-Pesa launched in Kenya in 2007 for microloan repayments, but users quickly turned it into a person-to-person wallet, and that behavior shift helped mobile money scale into a national payments rail.",
+    "When the UK introduced Faster Payments in 2008, real-time credit transfers initially had low limits and selective access, showing that governance and risk controls—not just speed—determine instant rail adoption.",
+    "The first EMV chip cards reduced counterfeit fraud at physical points of sale, but many markets then saw card-not-present fraud rise—an early lesson in fraud displacement across channels.",
+    "ACH traces back to US bank automation efforts in the early 1970s to replace paper checks, and decades later it still underpins payroll and bill flows worth trillions each year.",
+    "Brazil's PIX reached mass consumer use in just a few years by combining instant settlement with free person-to-person transfers and ubiquitous QR acceptance for merchants.",
+    "Before contactless became mainstream in Europe and North America, transport systems in cities like Hong Kong and London normalized tap behavior and trained consumers to trust low-friction payments.",
+    "Card tokenization can lift authorization rates because network tokens update credentials automatically after card reissues, reducing avoidable declines from stale PAN data.",
+]
+
+
+def select_fallback_curiosity(curiosity_history: list):
+    """Pick the most novel fallback curiosity if generation repeatedly fails."""
+    available = [fact for fact in CURATED_CURIOSITY_FALLBACKS if not curiosity_too_similar(fact, curiosity_history, threshold=0.45)]
+    if not available:
+        available = CURATED_CURIOSITY_FALLBACKS
+    return max(available, key=lambda text: curiosity_novelty_score(text, curiosity_history))
 
 def get_recent_stories(days_back: int = 2):
     """
@@ -293,7 +401,9 @@ def main():
     recent_data = get_recent_stories(days_back=3)  # Extended to 3 days for better narrative context
     recent_stories = recent_data.get('stories', [])  # Extract stories list for deduplication
     narrative_context = format_narrative_context(recent_data)
-    curiosity_history = get_curiosity_history(days_back=120)
+    remote_curiosity_history = get_curiosity_history(days_back=120)
+    local_curiosity_history = load_local_curiosity_history(limit=240)
+    curiosity_history = merge_curiosity_histories(remote_curiosity_history, local_curiosity_history)
     recent_curiosities = curiosity_history
     recent_curiosities_context = format_recent_curiosities(curiosity_history)
 
@@ -742,9 +852,11 @@ IMPORTANT CONTEXT:
 
 HARD CONSTRAINTS:
 - DO NOT repeat or paraphrase any recent curiosity fact listed above
-- Use a different angle, era, geography, rail, or mechanism than recent examples
+- Avoid repeating the same core entities, countries, rails, products, eras, or mechanisms used recently
+- If recent curiosities are mostly modern card stories, pivot to instant payments, ACH history, wallet identity, remittances, settlement, fraud, tokenization, or regulation history
 - Prefer specific years, metrics, and concrete details
 - Keep it surprising and educational
+- Focus strictly on fintech/payments relevance; never output a generic trivia fact
 
 Return ONLY valid JSON in this exact shape:
 {{
@@ -998,7 +1110,8 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
     curiosity_payload = json.dumps(output_json.get('news', []), indent=2)
 
     curiosity_obj = None
-    max_attempts = 3
+    max_attempts = 6
+    min_novelty_threshold = 0.70
     for attempt in range(1, max_attempts + 1):
         try:
             curiosity_result = curiosity_chain.invoke({"input": curiosity_payload})
@@ -1010,19 +1123,25 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
                 print(f"⚠️ Curiosity attempt {attempt}/{max_attempts} returned empty text")
                 continue
 
-            if curiosity_too_similar(candidate_text, recent_curiosities):
-                print(f"⚠️ Curiosity attempt {attempt}/{max_attempts} too similar to recent days; retrying")
+            novelty = curiosity_novelty_score(candidate_text, recent_curiosities)
+            too_similar = curiosity_too_similar(candidate_text, recent_curiosities)
+            if too_similar or novelty < min_novelty_threshold:
+                print(
+                    f"⚠️ Curiosity attempt {attempt}/{max_attempts} rejected "
+                    f"(too_similar={too_similar}, novelty={novelty:.2f}); retrying"
+                )
                 continue
 
             curiosity_obj = {"text": candidate_text}
+            print(f"✅ Curiosity accepted on attempt {attempt} with novelty score {novelty:.2f}")
             break
         except Exception as e:
             print(f"⚠️ Curiosity attempt {attempt}/{max_attempts} failed: {e}")
 
     if not curiosity_obj:
-        fallback_text = "Did you know ACH began as a way to replace paper checks in the 1970s, and now it moves trillions electronically each year?"
+        fallback_text = select_fallback_curiosity(recent_curiosities)
         curiosity_obj = {"text": fallback_text}
-        print("⚠️ Using fallback curiosity fact after repeated invalid/similar attempts")
+        print("⚠️ Using curated fallback curiosity fact after repeated invalid/similar attempts")
 
     output_json['curiosity'] = curiosity_obj
 
@@ -1060,6 +1179,12 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
         output_path = "web/public/newsletter.json"
         with open(output_path, 'w') as f:
             json.dump(output_json, f, indent=2)
+
+        updated_curiosity_history = merge_curiosity_histories(
+            [{"date": datetime.now().strftime("%Y-%m-%d"), "text": output_json['curiosity'].get('text', '')}],
+            curiosity_history,
+        )
+        save_local_curiosity_history(updated_curiosity_history, limit=365)
 
         print(f"\n--- Newsletter successfully saved to {output_path} ---")
         print("Final JSON output:")
