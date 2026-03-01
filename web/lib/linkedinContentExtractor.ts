@@ -5,7 +5,7 @@
  * Handles character limits (3000 max), hashtag generation, and multiple posting strategies.
  */
 
-import type { NewsletterContent, NewsItem, WhatsHotItem } from "@/components/home/HomeSections";
+import type { NewsletterContent, WhatsHotItem } from "@/components/home/HomeSections";
 
 const LINKEDIN_CHAR_LIMIT = 3000;
 const NEWSLETTER_URL = "https://thepaymentsnerd.co";
@@ -237,7 +237,7 @@ function generateMultiPost(content: NewsletterContent, topics: string[]): MultiP
 /**
  * Generate deals roundup format (What's Hot focused)
  */
-function generateDealsRoundup(content: NewsletterContent, topics: string[]): LinkedInFormat | null {
+function generateDealsRoundup(content: NewsletterContent): LinkedInFormat | null {
   if (!content.whats_hot || content.whats_hot.length === 0) {
     return null;
   }
@@ -350,7 +350,7 @@ export function extractLinkedInContent(content: NewsletterContent): LinkedInCont
   };
 
   // Only include deals roundup if What's Hot exists
-  const dealsRoundup = generateDealsRoundup(content, topics);
+  const dealsRoundup = generateDealsRoundup(content);
   if (dealsRoundup) {
     formats.deals_roundup = dealsRoundup;
   }
