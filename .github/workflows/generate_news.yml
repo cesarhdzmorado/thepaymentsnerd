@@ -145,6 +145,84 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
       # =======================================================
+      # STEP 3.5: NOTIFY OPENCLAW VIA WEBHOOK
+      # =======================================================
+      - name: Notify OpenClaw of new newsletter
+        if: steps.commit_step.outputs.changes_committed == 'true' && steps.sync_step.outcome == 'success'
+        continue-on-error: true # Don't fail workflow if webhook fails
+        run: |
+          echo "================================================"
+          echo "🔔 WEBHOOK NOTIFICATION STEP"
+          echo "================================================"
+
+          # Check if webhook URL is configured
+          if [ -z "${{ secrets.OPENCLAW_WEBHOOK_URL }}" ]; then
+            echo "⚠️  OpenClaw webhook URL not configured - skipping notification"
+            exit 0
+          fi
+
+          WEBHOOK_URL="${{ secrets.OPENCLAW_WEBHOOK_URL }}"
+          WEBHOOK_SECRET="${{ secrets.LINKEDIN_WEBHOOK_SECRET }}"
+          SITE_URL="${{ secrets.NEXT_PUBLIC_SITE_URL }}"
+          NEWSLETTER_DATE=$(date +%F)
+
+          echo "Target URL: $WEBHOOK_URL"
+          echo "Newsletter date: $NEWSLETTER_DATE"
+          echo ""
+
+          # Retry logic: 3 attempts with exponential backoff
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          SUCCESS=false
+
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = false ]; do
+            RETRY_COUNT=$((RETRY_COUNT + 1))
+            echo "Attempt $RETRY_COUNT of $MAX_RETRIES..."
+
+            # Calculate backoff delay (1s, 2s, 4s)
+            if [ $RETRY_COUNT -gt 1 ]; then
+              DELAY=$((2 ** (RETRY_COUNT - 2)))
+              echo "Waiting ${DELAY}s before retry..."
+              sleep $DELAY
+            fi
+
+            # Make webhook POST request with timeout
+            response=$(curl -s -w "\n%{http_code}" -X POST \
+              --max-time 10 \
+              -H "Content-Type: application/json" \
+              -d "{\"date\":\"$NEWSLETTER_DATE\",\"secret\":\"$WEBHOOK_SECRET\",\"url\":\"${SITE_URL}/api/linkedin-content?date=${NEWSLETTER_DATE}&secret=${WEBHOOK_SECRET}\"}" \
+              "$WEBHOOK_URL" 2>&1)
+
+            curl_exit_code=$?
+
+            if [ $curl_exit_code -ne 0 ]; then
+              echo "❌ curl failed with exit code: $curl_exit_code"
+              echo "Response: $response"
+              continue
+            fi
+
+            http_code=$(echo "$response" | tail -n1)
+            body=$(echo "$response" | sed '$d')
+
+            echo "HTTP Status: $http_code"
+            echo "Response: $body"
+
+            if [ "$http_code" -ge 200 ] && [ "$http_code" -lt 300 ]; then
+              echo "✅ Webhook delivered successfully!"
+              SUCCESS=true
+            else
+              echo "❌ Webhook failed with HTTP $http_code"
+            fi
+          done
+
+          if [ "$SUCCESS" = false ]; then
+            echo "⚠️  All webhook attempts failed - continuing workflow"
+            echo "OpenClaw will receive notification via fallback polling mechanism"
+          fi
+
+          echo "================================================"
+
+      # =======================================================
       # STEP 4: DEPLOY TO VERCEL VIA DEPLOY HOOK
       # =======================================================
       - name: Trigger Vercel Deployment
