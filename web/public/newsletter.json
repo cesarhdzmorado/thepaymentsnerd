@@ -1,92 +1,99 @@
 {
   "news": [
     {
-      "title": "Visa Expands in Argentina with Prisma and Newpay Acquisition",
-      "body": "Visa has completed the acquisition of Argentina-based companies Prisma and Newpay to expand its footprint in Latin America. This move strengthens Visa's position in the payments market, increasing competition with other processors and fintechs in the region. This means Visa is positioning itself to capture a growing digital payments market in Argentina, which has seen a surge in fintech innovation. Visa's expansion could lead to increased adoption of digital payments in Argentina, influencing local fintech innovation and partnerships.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/acquisitions/2026/visa-closes-prisma-and-newpay-acquisition-to-expand-in-argentina/"
-      }
-    },
-    {
-      "title": "Jack Dorsey's Block to Lay Off 4,000 Employees Amid AI Shift",
-      "body": "Block plans to lay off 40% of its workforce, equating to 4,000 employees, as it pivots towards AI-driven efficiencies. This shift could enhance operational efficiency, setting a precedent for other fintechs to follow, potentially reshaping the competitive landscape. The layoffs may lead to a talent influx in the fintech job market, while other companies may accelerate AI adoption to remain competitive. However, the aggressive AI shift could risk short-term operational disruptions and morale issues within Block.",
+      "title": "Santander and Mastercard Complete Europe's First Live Agentic AI Transaction",
+      "body": "Banco Santander and Mastercard have successfully completed Europe's first live end-to-end payment executed by an AI agent, marking a significant advancement in agentic commerce. This development positions both companies as leaders in AI-driven payments, potentially challenging other financial institutions to adopt similar technologies. Expect increased investment in AI payment technologies and potential regulatory scrutiny as AI-driven transactions become more prevalent. While AI transactions promise efficiency, they may also introduce complexities in fraud detection and consumer trust.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47372/jack-dorseys-block-to-lay-off-4000-employees-as-the-ai-era-arrives"
+        "url": "https://www.finextra.com/newsarticle/47371/santander-and-mastercard-complete-europes-first-live-agentic-ai-transaction?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Meta Explores Stablecoin Payments in App Ecosystem",
-      "body": "Meta is exploring the integration of stablecoin payments within its app ecosystem, revisiting its digital currency ambitions after the Diem project. This move could disrupt the digital payments landscape, leveraging its vast user base to drive stablecoin adoption. Successful implementation may lead to increased regulatory scrutiny and influence other tech giants to explore similar integrations. However, Meta's past challenges with Diem may hinder regulatory approval and user trust.",
+      "title": "Meta Dips a Toe Back into Crypto with Stablecoin Payments",
+      "body": "Meta is revisiting the crypto space by exploring stablecoin payments within its app ecosystem, following the shelving of its Diem project. This re-entry could reignite interest in stablecoins and challenge existing crypto payment solutions. Potential partnerships with crypto firms and regulatory scrutiny over stablecoin use loom as Meta attempts to navigate this complex landscape. Meta's previous crypto ventures faced significant challenges; this attempt may encounter similar resistance.",
       "source": {
         "name": "Banking Dive",
         "url": "https://www.bankingdive.com/news/meta-stablecoin-crypto-social-media-whatsapp-diem-stripe/813390/"
       }
     },
     {
-      "title": "US Regional Banks Build Tokenised Deposit Network",
-      "body": "Five regional US banks have collaborated to create a blockchain-based platform for tokenised deposits, aiming to modernize banking infrastructure. This initiative could drive innovation in deposit management, challenging larger banks to adopt similar technologies. Successful implementation may lead to wider adoption of tokenized banking solutions, influencing regulatory approaches. However, tokenization's complexity and regulatory challenges could slow adoption.",
+      "title": "Block Swaps 4,000 Workers for AI to Drive Operational Efficiencies",
+      "body": "Block, under CEO Jack Dorsey, plans to reduce its workforce by 40% and leverage AI for operational efficiencies. This strategic shift positions Block as a leader in AI-driven fintech operations, potentially setting a precedent for other companies in the industry. Increased focus on AI development and potential regulatory concerns over job displacement will be critical to watch as this trend unfolds. While AI offers efficiencies, the loss of human oversight could lead to unforeseen operational risks.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47366/us-regional-banks-build-tokenised-deposit-network"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/block-swaps-4000-workers-for-ai/813389/"
       }
     },
     {
-      "title": "Tether Blocks $3.5 Billion in Crime-Linked Stablecoins",
-      "body": "Tether has frozen $3.5 billion of its stablecoins linked to illicit activities since 2023, highlighting its commitment to compliance and security. This proactive measure may enhance Tether's reputation, setting a standard for compliance in the stablecoin market. Increased regulatory scrutiny on stablecoins could lead to stricter compliance requirements across the crypto industry. While positive for compliance, these actions may impact Tether's user base and liquidity.",
+      "title": "Payoneer Applies for OCC\u2019s National Trust Bank Charter to Issue Stablecoins",
+      "body": "Payoneer has applied for a national trust bank charter from the OCC, aiming to issue and custody stablecoins. Securing this charter could enhance Payoneer's credibility and expand its service offerings in the fintech space. This move may prompt other fintechs to seek banking licenses, increasing regulatory scrutiny on stablecoin issuance. The regulatory landscape for fintechs remains uncertain, posing risks to Payoneer's plans.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/tether-has-blocked-3-5-billion-in-crime-linked-stablecoins-since-2023/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/payoneer-applies-occ-national-trust-bank-charter-bridge/813092/"
+      }
+    },
+    {
+      "title": "HSBC Names Generative AI a Leading Investment Area for Enhanced Operations",
+      "body": "HSBC is set to invest heavily in generative AI to enhance employee assistance, process reengineering, and customer experience. This investment could improve HSBC's operational efficiency and customer service, challenging other banks to follow suit. Potential partnerships with AI firms and increased focus on AI-driven banking solutions will shape the competitive landscape. While AI offers potential, its implementation may face challenges in integration and data privacy.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/hsbc-generative-ai-leading-investment-elhedery/813353/"
       }
     }
   ],
-  "perspective": "Today's stories reveal a critical intersection of compliance, innovation, and operational efficiency in the payments landscape. Visa's expansion into Argentina and Meta's stablecoin ambitions highlight the ongoing push for digital payment adoption, while Block's workforce reduction underscores the urgency of AI integration. As regulatory scrutiny intensifies, particularly around stablecoins, companies must navigate these challenges to remain competitive and relevant in an evolving market.",
+  "perspective": "Today's stories highlight the accelerating integration of AI and stablecoins in the payments landscape. The completion of Europe's first AI-driven transaction by Santander and Mastercard underscores the urgency for financial institutions to adopt these technologies, while Meta's renewed interest in stablecoins signals a potential resurgence in crypto payments. As fintechs like Payoneer seek banking charters to issue stablecoins, the regulatory landscape will become increasingly critical, shaping the future of digital finance.",
   "curiosity": {
-    "text": "Did you know ACH began as a way to replace paper checks in the 1970s, and now it moves trillions electronically each year?"
+    "text": "Before contactless became mainstream in Europe and North America, transport systems in cities like Hong Kong and London normalized tap behavior and trained consumers to trust low-friction payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "OpenAI",
-      "description": "Raised $110B at $840B valuation, largest venture deal ever",
+      "description": "Raised $110 billion at an $840 billion valuation.",
       "source_url": "https://news.crunchbase.com/venture/openai-raise-largest-ai-venture-deal-ever/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Plaid",
-      "description": "Completes tender offer at $8B valuation",
+      "description": "Completed tender offer at $8 billion valuation.",
       "source_url": "https://news.crunchbase.com/fintech/plaid-completes-tender-offer-8b-valuation/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Allica Bank",
-      "description": "Becomes unicorn with $155M Series D",
-      "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "M&A",
-      "company": "Augmentum Fintech",
-      "description": "Accepts \u00a3186M cash takeover offer from Verdane",
-      "source_url": "https://www.finextra.com/newsarticle/47369/augmentum-fintech-accepts-186m-cash-takeover-offer"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Payoneer",
+      "description": "Applied for OCC\u2019s national trust bank charter.",
+      "source_url": "https://www.bankingdive.com/news/payoneer-applies-occ-national-trust-bank-charter-bridge/813092/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Confido",
-      "description": "Raises $9M for embedded financial infrastructure",
-      "source_url": "https://www.finextra.com/pressarticle/109005/confido-raises-9m"
+      "type": "product",
+      "company": "Meta",
+      "description": "Exploring stablecoin payments in app ecosystem.",
+      "source_url": "https://www.bankingdive.com/news/meta-stablecoin-crypto-social-media-whatsapp-diem-stripe/813390/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "T54 Labs",
-      "description": "Raises $5M to build trust layer for autonomous economy",
-      "source_url": "https://www.finextra.com/pressarticle/108985/t54-labs-raises-5-million-to-build-trust-layer-for-the-autonomous-economy"
+      "type": "product",
+      "company": "Block",
+      "description": "Swaps 4,000 workers for AI efficiencies.",
+      "source_url": "https://www.bankingdive.com/news/block-swaps-4000-workers-for-ai/813389/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "HSBC",
+      "description": "Names generative AI a leading investment area.",
+      "source_url": "https://www.bankingdive.com/news/hsbc-generative-ai-leading-investment-elhedery/813353/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Apple",
+      "description": "Plans to launch Apple Pay in India.",
+      "source_url": "https://www.finextra.com/newsarticle/47374/apple-looks-to-bring-apple-pay-to-india?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
