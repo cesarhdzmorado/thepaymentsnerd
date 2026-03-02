@@ -859,9 +859,9 @@ HARD CONSTRAINTS:
 - Focus strictly on fintech/payments relevance; never output a generic trivia fact
 
 Return ONLY valid JSON in this exact shape:
-{{
+{{{{
   "text": "..."
-}}
+}}}}
 """),
         ("user", "Today's selected newsletter stories (context only):\n\n{input}"),
     ])
@@ -1031,6 +1031,42 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
 
     editor_chain = editor_prompt_template | editor_llm
 
+    revision_prompt_template = ChatPromptTemplate.from_messages([
+        ("system", """You are revising a /thepaymentsnerd newsletter draft after editor feedback.
+
+Task:
+- Return ONLY valid JSON in this exact shape:
+{
+  "news": [
+    {
+      "title": "...",
+      "body": "...",
+      "source": {
+        "name": "Publication Name",
+        "url": "https://example.com/article"
+      }
+    }
+  ],
+  "perspective": "...",
+  "curiosity": {
+    "text": "..."
+  }
+}
+
+Revision rules:
+- Resolve each editor issue explicitly.
+- Keep exactly 5 news stories.
+- Keep the perspective thematic (not a list of stories) and specific about WHAT is shifting, WHY now, and WHO is affected.
+- Improve theme diversity: avoid over-indexing on one theme unless unavoidable from input.
+- Use active voice and concrete implications.
+- For superlative factual claims (e.g., "first", "largest", "only"), either confirm from provided story context or hedge with attribution (e.g., "reported as").
+- Preserve source name and URL fields for each story.
+- Curiosity must remain independent from the news section.
+"""),
+        ("user", "Editor feedback:\n\n{feedback}\n\nCurrent draft JSON:\n\n{draft}"),
+    ])
+    revision_chain = revision_prompt_template | writer_llm
+
     # 6. Run the agents in a chain
     print("--- Starting Researcher Agent ---")
     # The unified researcher now finds BOTH main stories AND What's Hot items in a single pass
@@ -1154,6 +1190,23 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
     if "NEEDS_REVISION" in editor_result.content:
         print("\n⚠️ Editor flagged issues but proceeding with publication:")
         print(editor_result.content)
+
+        # Single revision pass using the editor's exact feedback.
+        try:
+            revised_result = revision_chain.invoke({
+                "feedback": editor_result.content,
+                "draft": json.dumps(output_json, indent=2),
+            })
+            revised_text = revised_result.content.strip().replace("```json", "").replace("```", "").strip()
+            revised_json = json.loads(revised_text)
+
+            if isinstance(revised_json, dict) and isinstance(revised_json.get('news'), list) and len(revised_json['news']) == 5:
+                output_json = revised_json
+                print("✅ Applied one revision pass based on editor feedback")
+            else:
+                print("⚠️ Revision pass returned invalid shape/count; keeping original writer output")
+        except Exception as e:
+            print(f"⚠️ Revision pass failed: {e}")
 
     # 9. Save the final output to a file
     try:
