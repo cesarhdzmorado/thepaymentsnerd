@@ -251,9 +251,12 @@ def _entities_overlap(entities1: Dict[str, Set[str]], entities2: Dict[str, Set[s
     if len(common_companies) >= 2 and common_events.intersection(high_confidence_events):
         return True, f"Same companies ({common_companies}) + high-confidence event ({common_events.intersection(high_confidence_events)})", True
 
-    # Rule: If 2+ companies overlap AND any event -> needs similarity check
-    if len(common_companies) >= 2 and common_events:
-        return True, f"Same companies ({common_companies}) + same event ({common_events})", False
+    # Rule: If 2+ companies overlap -> needs similarity check (with or without a recognized event type)
+    # This catches stories where the verb isn't in our event patterns, e.g. "Santander and Mastercard
+    # Complete Europe's First Live Agentic AI Transaction" — "complete" isn't acquisition/merger/etc.
+    if len(common_companies) >= 2:
+        event_note = f"+ same event ({common_events})" if common_events else "(no recognized event type)"
+        return True, f"Same companies ({common_companies}) {event_note}", False
 
     # Rule: If 1 company + specific event -> needs similarity check
     specific_events = {"acquisition", "merger", "ipo", "funding"}
