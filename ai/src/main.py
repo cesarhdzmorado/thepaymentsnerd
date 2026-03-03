@@ -741,6 +741,14 @@ EDITORIAL PROCESS:
 
    CRITICAL: Write this as a THEMATIC INSIGHT, not a story summary.
 
+   **VOICE LOCK (NON-NEGOTIABLE):**
+   - Sound like a trusted operator writing to another operator, not a corporate analyst memo
+   - Write in first-person singular ("I'm watching...", "I think...", "I'd pay attention to...")
+   - Address the reader directly once ("If you're...", "If your team...")
+   - Include at least TWO concrete anchors from today's stories (company, regulator, rail, market, or metric)
+   - Open with a memorable hook in the first sentence (short, sharp, and specific)
+   - End with a decision implication: what a payments team should reconsider, accelerate, or hedge
+
    **THE TECHNIQUE:**
    Identify the single unifying thread or tension that connects today's most important stories,
    then explore that theme. Your job is to REFRAME what happened, not enumerate what happened.
@@ -781,11 +789,15 @@ EDITORIAL PROCESS:
    - DO NOT list stories: "Today's stories about X, Y, and Z..."
    - DO NOT enumerate: "First, we saw... Second, there was... Third..."
    - DO NOT use generic framing: "signals a shift" / "marks a pivot" (without specifying WHAT)
+   - DO NOT open with bland filler: "Today's stories underscore..." / "This marks a pivotal moment..."
+   - DO NOT write in passive third-person analyst voice
    - DO NOT summarize — your reader will read the stories; your job is to REFRAME them
 
    **QUALITY TEST:**
    Before finalizing, ask: "Could this perspective have been written without reading today's specific stories?"
    If yes, it's too generic. Rewrite with specific details that prove you digested the content.
+   Also ask: "Does this sound like something a real person would remember and quote back?"
+   If not, tighten the language and increase specificity.
 
    **NARRATIVE CONTINUITY:**
    If today's themes connect to previous days (see NARRATIVE CONTINUITY section above), weave that context
@@ -802,6 +814,8 @@ EDITORIAL PROCESS:
    - [ ] Every story identifies winners/losers or strategic impact
    - [ ] Language is active, specific, and punchy (no generic business jargon)
    - [ ] "What Matters Today" (perspective) provides synthesis and forward-looking view
+   - [ ] Perspective has a distinct human voice (first-person + direct reader context)
+   - [ ] Perspective includes at least 2 concrete anchors from today's reporting
 
 OUTPUT FORMAT (MUST BE VALID JSON):
 
@@ -987,6 +1001,9 @@ QUALITY CHECKS:
    - Does the "perspective" field provide a THEMATIC INSIGHT rather than a story summary?
    - Is it reframing the news through a conceptual lens, not just listing what happened?
    - Does it identify a unifying thread, tension, or pattern across stories?
+   - Does it have a distinct human voice (first-person stance + direct reader context)?
+   - Does it include at least 2 concrete anchors from today's stories (specific company/regulator/rail/metric)?
+   - Does the opening line feel memorable, or could it appear in any generic newsletter?
    - WRONG: "Stablecoins continue to be important" (generic, no insight)
    - WRONG: "Today's stories about Circle, Paxos, and Visa show..." (mechanical enumeration)
    - RIGHT: "Everything is an acquiring play now. Whether it's Apple or Stripe, the real prize isn't transactions—it's owning the merchant relationship." (thematic lens)
@@ -1057,6 +1074,11 @@ Revision rules:
 - Resolve each editor issue explicitly.
 - Keep exactly 5 news stories.
 - Keep the perspective thematic (not a list of stories) and specific about WHAT is shifting, WHY now, and WHO is affected.
+- Keep the perspective personable and memorable:
+  * first-person singular voice
+  * direct reader context ("if you're..." / "if your team...")
+  * at least 2 concrete anchors from today's stories
+  * no generic opener like "Today's stories underscore..."
 - Improve theme diversity: avoid over-indexing on one theme unless unavoidable from input.
 - Use active voice and concrete implications.
 - For superlative factual claims (e.g., "first", "largest", "only"), either confirm from provided story context or hedge with attribution (e.g., "reported as").
