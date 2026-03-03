@@ -32,9 +32,15 @@ export async function POST(req: Request) {
     // If already active and confirmed, don't reset their status
     const isAlreadyActive = existingSubscriber?.status === "active" && existingSubscriber?.confirmed_at;
 
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL!;
+
     if (isAlreadyActive) {
       // User is already subscribed - just return success without sending another confirmation email
-      return NextResponse.json({ ok: true });
+      const existingReferralUrl = existingSubscriber?.referral_code
+        ? `${siteUrl}?ref=${existingSubscriber.referral_code}`
+        : siteUrl;
+
+      return NextResponse.json({ ok: true, referralUrl: existingReferralUrl });
     }
 
     // Generate unique referral code for new subscribers
@@ -64,7 +70,6 @@ export async function POST(req: Request) {
 
     const resend = new Resend(process.env.RESEND_API_KEY!);
     const secret = process.env.SUBSCRIBE_TOKEN_SECRET!;
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL!;
     const from = process.env.EMAIL_FROM!;
 
     const confirmToken = makeToken(cleanEmail, "confirm", secret, 48);
@@ -87,7 +92,7 @@ export async function POST(req: Request) {
       `,
     });
 
-    return NextResponse.json({ ok: true });
+    return NextResponse.json({ ok: true, referralUrl: `${siteUrl}?ref=${newReferralCode}` });
   } catch (e: any) {
     console.error("Subscribe route error:", e?.message || e);
     return NextResponse.json({ ok: false, message: "Something went wrong." }, { status: 500 });
