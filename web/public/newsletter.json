@@ -2,98 +2,84 @@
   "news": [
     {
       "title": "Santander and Mastercard Complete Europe's First Live Agentic AI Transaction",
-      "body": "Banco Santander and Mastercard have successfully completed Europe's first live end-to-end payment executed by an AI agent, marking a significant advancement in agentic commerce. This development positions both companies as leaders in AI-driven payments, potentially challenging other financial institutions to adopt similar technologies. Expect increased investment in AI payment technologies and potential regulatory scrutiny as AI-driven transactions become more prevalent. While AI transactions promise efficiency, they may also introduce complexities in fraud detection and consumer trust.",
+      "body": "Banco Santander and Mastercard have completed Europe's first live end-to-end payment executed by an AI agent, marking a significant milestone in the adoption of agentic AI in the financial sector. This development primarily impacts European financial institutions and technology providers involved in AI and payments, positioning Santander and Mastercard as leaders in this innovation. The move strengthens their positions as innovators in AI-driven payments, potentially challenging competitors to accelerate their AI initiatives.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47371/santander-and-mastercard-complete-europes-first-live-agentic-ai-transaction?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47371/santander-and-mastercard-complete-europes-first-live-agentic-ai-transaction"
       }
     },
     {
-      "title": "Meta Dips a Toe Back into Crypto with Stablecoin Payments",
-      "body": "Meta is revisiting the crypto space by exploring stablecoin payments within its app ecosystem, following the shelving of its Diem project. This re-entry could reignite interest in stablecoins and challenge existing crypto payment solutions. Potential partnerships with crypto firms and regulatory scrutiny over stablecoin use loom as Meta attempts to navigate this complex landscape. Meta's previous crypto ventures faced significant challenges; this attempt may encounter similar resistance.",
+      "title": "MoonPay Builds Infrastructure for PYUSD-Backed Stablecoins",
+      "body": "MoonPay has launched PYUSDx, an infrastructure platform for creating application-specific stablecoins backed by PayPal USD (PYUSD). This development directly impacts developers, fintechs, and businesses interested in stablecoin applications, potentially driving innovation in stablecoin use cases. MoonPay's platform could challenge traditional payment methods and encourage new entrants into the market.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/meta-stablecoin-crypto-social-media-whatsapp-diem-stripe/813390/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109021/moonpay-builds-infrastructure-platform-for-pyusd-backed-stablecoins"
       }
     },
     {
-      "title": "Block Swaps 4,000 Workers for AI to Drive Operational Efficiencies",
-      "body": "Block, under CEO Jack Dorsey, plans to reduce its workforce by 40% and leverage AI for operational efficiencies. This strategic shift positions Block as a leader in AI-driven fintech operations, potentially setting a precedent for other companies in the industry. Increased focus on AI development and potential regulatory concerns over job displacement will be critical to watch as this trend unfolds. While AI offers efficiencies, the loss of human oversight could lead to unforeseen operational risks.",
+      "title": "Northern Trust Launches Tokenised Money Market Share Class",
+      "body": "Northern Trust Asset Management has launched a tokenised money market share class, marking its entry into the digital assets market. This initiative directly impacts investors and financial institutions interested in digital assets and tokenization, potentially reshaping the asset management industry. Northern Trust's move could pressure other asset managers to explore tokenization, leading to increased liquidity and new investment opportunities.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/block-swaps-4000-workers-for-ai/813389/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47380/northern-trust-asset-management-launches-tokenised-money-market-share-class"
       }
     },
     {
-      "title": "Payoneer Applies for OCC\u2019s National Trust Bank Charter to Issue Stablecoins",
-      "body": "Payoneer has applied for a national trust bank charter from the OCC, aiming to issue and custody stablecoins. Securing this charter could enhance Payoneer's credibility and expand its service offerings in the fintech space. This move may prompt other fintechs to seek banking licenses, increasing regulatory scrutiny on stablecoin issuance. The regulatory landscape for fintechs remains uncertain, posing risks to Payoneer's plans.",
+      "title": "Visa to Anchor PayPay IPO with $200M Investment",
+      "body": "Visa is set to invest over $200 million as an anchor investor in the upcoming US IPO of Softbank's PayPay, alongside Qatar Holding and the Abu Dhabi Investment Authority. This move directly impacts PayPay, Visa, and potential investors in the IPO, and could influence other fintech IPOs. Visa's investment signals confidence in PayPay's growth potential, possibly increasing competition in the digital payments space.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/payoneer-applies-occ-national-trust-bank-charter-bridge/813092/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47377/visa-to-be-anchor-investor-in-paypay-ipo"
       }
     },
     {
-      "title": "HSBC Names Generative AI a Leading Investment Area for Enhanced Operations",
-      "body": "HSBC is set to invest heavily in generative AI to enhance employee assistance, process reengineering, and customer experience. This investment could improve HSBC's operational efficiency and customer service, challenging other banks to follow suit. Potential partnerships with AI firms and increased focus on AI-driven banking solutions will shape the competitive landscape. While AI offers potential, its implementation may face challenges in integration and data privacy.",
+      "title": "Apple Plans to Launch Apple Pay in India",
+      "body": "Apple is in discussions with Indian banks to launch Apple Pay in India later this year, expanding its digital wallet services to a new market. This development will affect Indian consumers, banks, and competing digital payment providers, as Apple's entry could disrupt the Indian digital payments landscape. The move challenges local players like Paytm and PhonePe, potentially leading to increased competition and innovation in India's digital payments sector.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/hsbc-generative-ai-leading-investment-elhedery/813353/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47374/apple-looks-to-bring-apple-pay-to-india"
       }
     }
   ],
-  "perspective": "Today's stories highlight the accelerating integration of AI and stablecoins in the payments landscape. The completion of Europe's first AI-driven transaction by Santander and Mastercard underscores the urgency for financial institutions to adopt these technologies, while Meta's renewed interest in stablecoins signals a potential resurgence in crypto payments. As fintechs like Payoneer seek banking charters to issue stablecoins, the regulatory landscape will become increasingly critical, shaping the future of digital finance.",
+  "perspective": "Today's stories underscore a pivotal moment in the payments landscape, where the integration of AI and stablecoins is reshaping competitive dynamics. The completion of Europe's first AI-driven transaction by Santander and Mastercard highlights the urgency for financial institutions to innovate, while MoonPay's stablecoin infrastructure signals a growing acceptance of digital currencies in mainstream finance. As major players like Visa and Apple make strategic moves, the pressure mounts on traditional providers to adapt or risk obsolescence.",
   "curiosity": {
-    "text": "Before contactless became mainstream in Europe and North America, transport systems in cities like Hong Kong and London normalized tap behavior and trained consumers to trust low-friction payments."
+    "text": "Did you know that in the early 1980s, the first electronic payment networks were established, allowing for the electronic transmission of transaction data? This innovation laid the groundwork for the credit and debit card systems we rely on today."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "OpenAI",
-      "description": "Raised $110 billion at an $840 billion valuation.",
-      "source_url": "https://news.crunchbase.com/venture/openai-raise-largest-ai-venture-deal-ever/"
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "type": "IPO",
+      "company": "PayPay",
+      "description": "SoftBank's PayPay files for US IPO with Visa as anchor investor.",
+      "source_url": "https://www.finextra.com/newsarticle/47302/softbanks-paypay-files-for-us-initial-public-offering"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "type": "Partnership",
+      "company": "Aryze",
+      "description": "Aryze partners with Muinmos to enhance compliance globally.",
+      "source_url": "https://www.finextra.com/pressarticle/109026/aryze-strengthens-compliance-with-muinmos"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Plaid",
-      "description": "Completed tender offer at $8 billion valuation.",
-      "source_url": "https://news.crunchbase.com/fintech/plaid-completes-tender-offer-8b-valuation/"
+      "type": "Product Launch",
+      "company": "MoonPay",
+      "description": "Launches PYUSDx platform for PayPal USD-backed stablecoins.",
+      "source_url": "https://www.finextra.com/pressarticle/109021/moonpay-builds-infrastructure-platform-for-pyusd-backed-stablecoins"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Payoneer",
-      "description": "Applied for OCC\u2019s national trust bank charter.",
-      "source_url": "https://www.bankingdive.com/news/payoneer-applies-occ-national-trust-bank-charter-bridge/813092/"
+      "type": "Regulatory Approval",
+      "company": "Edward Jones",
+      "description": "Receives FDIC approval for Industrial Loan Company charter.",
+      "source_url": "https://www.bankingdive.com/news/edward-jones-ilc-charter-fdic-approve-industrial-bank-utah/813515/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Meta",
-      "description": "Exploring stablecoin payments in app ecosystem.",
-      "source_url": "https://www.bankingdive.com/news/meta-stablecoin-crypto-social-media-whatsapp-diem-stripe/813390/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Block",
-      "description": "Swaps 4,000 workers for AI efficiencies.",
-      "source_url": "https://www.bankingdive.com/news/block-swaps-4000-workers-for-ai/813389/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "HSBC",
-      "description": "Names generative AI a leading investment area.",
-      "source_url": "https://www.bankingdive.com/news/hsbc-generative-ai-leading-investment-elhedery/813353/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Apple",
-      "description": "Plans to launch Apple Pay in India.",
-      "source_url": "https://www.finextra.com/newsarticle/47374/apple-looks-to-bring-apple-pay-to-india?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "Revenue Report",
+      "company": "Riot Platforms",
+      "description": "Reports record revenue of $647 million amid AI and HPC focus.",
+      "source_url": "https://www.theblock.co/post/391871/riot-platforms-reports-record-annual-revenue-of-647-million-amid-ai-and-hpc-push"
     }
   ]
 }
