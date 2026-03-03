@@ -267,10 +267,13 @@ Sentence 7-8: THE NEXT (Forward Looking)
 - Questions to consider
 
 **PERSPECTIVE (Required, 3-4 sentences):**
-- "This week in payments..."
+- Use first-person singular voice with editorial conviction ("I'm watching...", "I think...")
+- Address the reader directly once ("If you're..." / "If your team...")
+- Include at least 2 concrete anchors from this week's stories (company, regulator, rail, metric, or market)
+- Open with a memorable hook, not generic filler
 - Connect the stories to larger trends
 - Forward-looking view on next week
-- Call to action or question to ponder
+- End with a practical implication or question to ponder
 
 **CURIOSITY (Same as daily):**
 - Interesting fact, payments or general
@@ -347,6 +350,12 @@ WEEKLY RECAP QUALITY CHECKS:
    - 3-5 stories (quality over quantity for slow weeks)
    - All required fields present
    - Proper JSON formatting
+
+6. **Perspective Voice & Memorability:**
+   - Uses first-person singular voice (not generic third-person analyst language)
+   - Includes direct reader context ("if you're..." / "if your team...")
+   - References at least 2 concrete anchors from the week's reporting
+   - Opening line is specific and memorable, not boilerplate
 
 RETURN FORMAT:
 
