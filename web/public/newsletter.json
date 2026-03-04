@@ -1,85 +1,99 @@
 {
   "news": [
     {
-      "title": "Santander and Mastercard Complete Europe's First Live Agentic AI Transaction",
-      "body": "Banco Santander and Mastercard have completed Europe's first live end-to-end payment executed by an AI agent, marking a significant milestone in the adoption of agentic AI in the financial sector. This development primarily impacts European financial institutions and technology providers involved in AI and payments, positioning Santander and Mastercard as leaders in this innovation. The move strengthens their positions as innovators in AI-driven payments, potentially challenging competitors to accelerate their AI initiatives.",
+      "title": "Mastercard and Visa Extend Support for Stablecoin Settlement",
+      "body": "Mastercard and Visa are expanding their support for stablecoin settlements, with SoFi Technologies enabling its stablecoin, SoFiUSD, across global payment networks. This strengthens stablecoins' position in finance, challenging traditional banking systems and encouraging more financial institutions to adopt stablecoin technology. Increased stablecoin adoption could lead to regulatory developments and influence central bank digital currency (CBDC) strategies. As traditional banks face pressure to innovate, they must adapt or risk losing relevance in a rapidly evolving landscape.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47371/santander-and-mastercard-complete-europes-first-live-agentic-ai-transaction"
+        "url": "https://www.finextra.com/newsarticle/47383/mastercard-and-visa-extend-support-for-stablecoin-settlement"
       }
     },
     {
-      "title": "MoonPay Builds Infrastructure for PYUSD-Backed Stablecoins",
-      "body": "MoonPay has launched PYUSDx, an infrastructure platform for creating application-specific stablecoins backed by PayPal USD (PYUSD). This development directly impacts developers, fintechs, and businesses interested in stablecoin applications, potentially driving innovation in stablecoin use cases. MoonPay's platform could challenge traditional payment methods and encourage new entrants into the market.",
+      "title": "Klarna and Stripe Team Up to Bring BNPL Payments to AI Agents",
+      "body": "Klarna and Stripe have partnered to integrate Buy Now, Pay Later (BNPL) options into AI agent-driven shopping experiences, enhancing consumer shopping. This affects AI-driven e-commerce platforms and consumers using BNPL services, potentially shifting market power towards companies leveraging AI. Expect increased adoption of AI in commerce, potentially leading to more partnerships between AI and payment companies. As reliance on AI grows, companies must balance innovation with consumer control over financial decisions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109021/moonpay-builds-infrastructure-platform-for-pyusd-backed-stablecoins"
+        "url": "https://www.finextra.com/newsarticle/47387/klarna-and-stripe-team-up-to-bring-bnpl-payments-to-ai-agents"
       }
     },
     {
-      "title": "Northern Trust Launches Tokenised Money Market Share Class",
-      "body": "Northern Trust Asset Management has launched a tokenised money market share class, marking its entry into the digital assets market. This initiative directly impacts investors and financial institutions interested in digital assets and tokenization, potentially reshaping the asset management industry. Northern Trust's move could pressure other asset managers to explore tokenization, leading to increased liquidity and new investment opportunities.",
+      "title": "Nexi Signs MoU with Google Cloud to Drive Agentic Payments Across Europe",
+      "body": "Nexi and Google Cloud have signed a Memorandum of Understanding to develop infrastructure for autonomous agentic transactions in Europe, enhancing payment processing efficiency. This partnership could position them as leaders in agentic payments, potentially disrupting traditional payment processors. Expect increased investment in AI-driven payment solutions and potential regulatory interest in agentic transactions. As the market evolves, traditional players must innovate or risk being sidelined by these emerging technologies.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47380/northern-trust-asset-management-launches-tokenised-money-market-share-class"
+        "url": "https://www.finextra.com/newsarticle/47382/nexi-signs-mou-with-google-cloud-to-drive-agentic-payments-across-europe"
       }
     },
     {
-      "title": "Visa to Anchor PayPay IPO with $200M Investment",
-      "body": "Visa is set to invest over $200 million as an anchor investor in the upcoming US IPO of Softbank's PayPay, alongside Qatar Holding and the Abu Dhabi Investment Authority. This move directly impacts PayPay, Visa, and potential investors in the IPO, and could influence other fintech IPOs. Visa's investment signals confidence in PayPay's growth potential, possibly increasing competition in the digital payments space.",
+      "title": "Ripple Signals Major Expansion of Payments Platform",
+      "body": "Ripple announced a significant expansion of its payments platform, enhancing capabilities for moving money across traditional and digital rails. This could challenge traditional cross-border payment systems, offering faster and more cost-effective solutions. Increased adoption of blockchain-based payment solutions and potential regulatory scrutiny on digital asset transactions are likely outcomes. As Ripple expands, traditional banks must reassess their strategies to remain competitive in the cross-border payments arena.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47377/visa-to-be-anchor-investor-in-paypay-ipo"
+        "url": "https://www.finextra.com/pressarticle/109034/ripple-signals-major-expansion-of-payments-platform"
       }
     },
     {
-      "title": "Apple Plans to Launch Apple Pay in India",
-      "body": "Apple is in discussions with Indian banks to launch Apple Pay in India later this year, expanding its digital wallet services to a new market. This development will affect Indian consumers, banks, and competing digital payment providers, as Apple's entry could disrupt the Indian digital payments landscape. The move challenges local players like Paytm and PhonePe, potentially leading to increased competition and innovation in India's digital payments sector.",
+      "title": "Revolut Takes on Amex with Ultra-Premium Business Card",
+      "body": "Revolut has launched an ultra-premium corporate card, directly challenging American Express in the high-end business card market. This could disrupt traditional players like Amex, leading to competitive pricing and service enhancements. Expect increased competition in the premium card segment, possibly leading to more innovative offerings and partnerships. As Revolut pushes into this space, established players must enhance their value propositions to retain loyal customers.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47374/apple-looks-to-bring-apple-pay-to-india"
+        "url": "https://www.finextra.com/newsarticle/47381/revolut-takes-on-amex-with-ultra-premium-business-card"
       }
     }
   ],
-  "perspective": "Today's stories underscore a pivotal moment in the payments landscape, where the integration of AI and stablecoins is reshaping competitive dynamics. The completion of Europe's first AI-driven transaction by Santander and Mastercard highlights the urgency for financial institutions to innovate, while MoonPay's stablecoin infrastructure signals a growing acceptance of digital currencies in mainstream finance. As major players like Visa and Apple make strategic moves, the pressure mounts on traditional providers to adapt or risk obsolescence.",
+  "perspective": "I'm watching the convergence of stablecoins and AI-driven payments as they reshape the competitive landscape. Mastercard and Visa's support for stablecoin settlements signals a critical shift towards mainstream adoption, while Klarna and Stripe's BNPL integration into AI commerce highlights the growing reliance on technology in consumer finance. If your team is still hesitant about these trends, it's time to reconsider your strategy\u2014innovation is no longer optional.",
   "curiosity": {
-    "text": "Did you know that in the early 1980s, the first electronic payment networks were established, allowing for the electronic transmission of transaction data? This innovation laid the groundwork for the credit and debit card systems we rely on today."
+    "text": "Did you know that the first recorded use of a debit card occurred in 1966 when the Bank of Delaware introduced the 'BankAmericard,' allowing customers to withdraw cash directly from their bank accounts? This innovation paved the way for the widespread adoption of debit cards we see today."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "M&A",
+      "company": "Augmentum Fintech",
+      "description": "accepts \u00a3186m cash takeover offer from Verdane.",
+      "source_url": "https://www.finextra.com/newsarticle/47369/augmentum-fintech-accepts-186m-cash-takeover-offer"
+    },
+    {
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "fundraising",
+      "company": "Duna",
+      "description": "raises \u20ac30m in Series A for business identity solutions.",
+      "source_url": "https://www.finextra.com/newsarticle/47260/business-identity-startup-duna-raises-30m"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Incard",
+      "description": "raises \u00a310m to build 'financial OS' for digital entrepreneurs.",
+      "source_url": "https://www.finextra.com/newsarticle/47239/incard-raises-10m-to-build-financial-os-for-digital-entrepreneurs"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "T54 Labs",
+      "description": "raises $5m to build trust layer for the autonomous economy.",
+      "source_url": "https://www.finextra.com/pressarticle/108985/t54-labs-raises-5-million-to-build-trust-layer-for-the-autonomous-economy"
+    },
     {
       "flag": "\ud83c\uddef\ud83c\uddf5",
       "type": "IPO",
       "company": "PayPay",
-      "description": "SoftBank's PayPay files for US IPO with Visa as anchor investor.",
+      "description": "files for US initial public offering.",
       "source_url": "https://www.finextra.com/newsarticle/47302/softbanks-paypay-files-for-us-initial-public-offering"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
-      "type": "Partnership",
-      "company": "Aryze",
-      "description": "Aryze partners with Muinmos to enhance compliance globally.",
-      "source_url": "https://www.finextra.com/pressarticle/109026/aryze-strengthens-compliance-with-muinmos"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Bracket",
+      "description": "raises $7m for FX and treasury management platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47293/london-fintech-bracket-raises-7-million"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Product Launch",
-      "company": "MoonPay",
-      "description": "Launches PYUSDx platform for PayPal USD-backed stablecoins.",
-      "source_url": "https://www.finextra.com/pressarticle/109021/moonpay-builds-infrastructure-platform-for-pyusd-backed-stablecoins"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Regulatory Approval",
-      "company": "Edward Jones",
-      "description": "Receives FDIC approval for Industrial Loan Company charter.",
-      "source_url": "https://www.bankingdive.com/news/edward-jones-ilc-charter-fdic-approve-industrial-bank-utah/813515/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Revenue Report",
-      "company": "Riot Platforms",
-      "description": "Reports record revenue of $647 million amid AI and HPC focus.",
-      "source_url": "https://www.theblock.co/post/391871/riot-platforms-reports-record-annual-revenue-of-647-million-amid-ai-and-hpc-push"
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "fundraising",
+      "company": "Porters",
+      "description": "raises \u20ac2.7m to build AI-native backoffice solutions.",
+      "source_url": "https://www.finextra.com/newsarticle/47254/porters-raises-27m-to-build-ai-native-backoffice"
     }
   ]
 }
