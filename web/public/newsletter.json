@@ -1,99 +1,85 @@
 {
   "news": [
     {
-      "title": "Mastercard and Visa Extend Support for Stablecoin Settlement",
-      "body": "Mastercard and Visa are expanding their support for stablecoin settlements, with SoFi Technologies enabling its stablecoin, SoFiUSD, across global payment networks. This strengthens stablecoins' position in finance, challenging traditional banking systems and encouraging more financial institutions to adopt stablecoin technology. Increased stablecoin adoption could lead to regulatory developments and influence central bank digital currency (CBDC) strategies. As traditional banks face pressure to innovate, they must adapt or risk losing relevance in a rapidly evolving landscape.",
+      "title": "Kraken Becomes First Crypto Firm to Get Fed Master Account",
+      "body": "Kraken Financial has achieved a significant milestone by becoming the first digital asset bank to receive a Federal Reserve master account, allowing it direct access to the Fed's payment infrastructure. This development could empower other crypto firms to seek similar access, potentially disrupting traditional banking models and increasing competition. Expect more crypto firms to pursue Fed master accounts, potentially leading to regulatory scrutiny and traditional banks lobbying for restrictions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47383/mastercard-and-visa-extend-support-for-stablecoin-settlement"
+        "url": "https://www.finextra.com/newsarticle/47394/kraken-becomes-first-crypto-firm-to-get-fed-master-account"
       }
     },
     {
-      "title": "Klarna and Stripe Team Up to Bring BNPL Payments to AI Agents",
-      "body": "Klarna and Stripe have partnered to integrate Buy Now, Pay Later (BNPL) options into AI agent-driven shopping experiences, enhancing consumer shopping. This affects AI-driven e-commerce platforms and consumers using BNPL services, potentially shifting market power towards companies leveraging AI. Expect increased adoption of AI in commerce, potentially leading to more partnerships between AI and payment companies. As reliance on AI grows, companies must balance innovation with consumer control over financial decisions.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47387/klarna-and-stripe-team-up-to-bring-bnpl-payments-to-ai-agents"
-      }
-    },
-    {
-      "title": "Nexi Signs MoU with Google Cloud to Drive Agentic Payments Across Europe",
-      "body": "Nexi and Google Cloud have signed a Memorandum of Understanding to develop infrastructure for autonomous agentic transactions in Europe, enhancing payment processing efficiency. This partnership could position them as leaders in agentic payments, potentially disrupting traditional payment processors. Expect increased investment in AI-driven payment solutions and potential regulatory interest in agentic transactions. As the market evolves, traditional players must innovate or risk being sidelined by these emerging technologies.",
+      "title": "Nexi and Google Cloud Partner to Drive Agentic Payments in Europe",
+      "body": "Nexi has formed a partnership with Google Cloud to develop infrastructure for agentic payments in Europe, aiming to support autonomous transactions. This collaboration could challenge traditional payment models and enhance transaction efficiency, benefiting early adopters of agentic payments. Expect increased investment in agentic payment infrastructure and potential regulatory scrutiny of autonomous transaction models.",
       "source": {
         "name": "Finextra",
         "url": "https://www.finextra.com/newsarticle/47382/nexi-signs-mou-with-google-cloud-to-drive-agentic-payments-across-europe"
       }
     },
     {
-      "title": "Ripple Signals Major Expansion of Payments Platform",
-      "body": "Ripple announced a significant expansion of its payments platform, enhancing capabilities for moving money across traditional and digital rails. This could challenge traditional cross-border payment systems, offering faster and more cost-effective solutions. Increased adoption of blockchain-based payment solutions and potential regulatory scrutiny on digital asset transactions are likely outcomes. As Ripple expands, traditional banks must reassess their strategies to remain competitive in the cross-border payments arena.",
+      "title": "Citi Pushes Client Co-Creation in E-Commerce",
+      "body": "Citi is collaborating with fintechs to co-create e-commerce solutions that integrate agentic AI and digital assets. This strategy could enhance Citi's competitive position by leveraging fintech innovation and expanding its e-commerce footprint. Expect more banks to adopt similar co-creation strategies, fostering fintech partnerships and innovation in digital commerce.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109034/ripple-signals-major-expansion-of-payments-platform"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/citi-digital-assets-payments-fintechs-ecommerce-agentic-ai/813701/"
       }
     },
     {
-      "title": "Revolut Takes on Amex with Ultra-Premium Business Card",
-      "body": "Revolut has launched an ultra-premium corporate card, directly challenging American Express in the high-end business card market. This could disrupt traditional players like Amex, leading to competitive pricing and service enhancements. Expect increased competition in the premium card segment, possibly leading to more innovative offerings and partnerships. As Revolut pushes into this space, established players must enhance their value propositions to retain loyal customers.",
+      "title": "Capital One Shifts to Discover Network, Ignites Competition",
+      "body": "Capital One has begun originating some credit card accounts on the Discover Network, following its acquisition of the network. This shift could increase competition in the credit card space, challenging Visa and Mastercard's dominance. Expect strategic responses from competing networks and potential shifts in consumer loyalty and card preferences.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/credit-cards/2026/capital-one-ignites-competition-with-shift-to-discover-network/"
+      }
+    },
+    {
+      "title": "Swedish Central Bank Urges Cash Hoarding Amid Payment Disruption Fears",
+      "body": "The Swedish central bank has advised citizens to keep cash reserves due to concerns over potential disruptions to electronic payment systems. This advisory could undermine confidence in digital payments and challenge digital-first payment strategies. Expect increased focus on enhancing payment infrastructure resilience and potential regulatory mandates for backup systems.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47381/revolut-takes-on-amex-with-ultra-premium-business-card"
+        "url": "https://www.finextra.com/newsarticle/47390/swedish-central-bank-urges-public-to-horde-cash-in-case-of-payments-disruption"
       }
     }
   ],
-  "perspective": "I'm watching the convergence of stablecoins and AI-driven payments as they reshape the competitive landscape. Mastercard and Visa's support for stablecoin settlements signals a critical shift towards mainstream adoption, while Klarna and Stripe's BNPL integration into AI commerce highlights the growing reliance on technology in consumer finance. If your team is still hesitant about these trends, it's time to reconsider your strategy\u2014innovation is no longer optional.",
+  "perspective": "I'm watching the growing tension between innovation and regulation in the payments landscape. Kraken's Fed master account signals a pivotal moment for crypto firms, while Nexi's partnership with Google Cloud accelerates the shift towards agentic payments. If your team is still viewing regulatory proposals as mere hurdles, it's time to rethink\u2014these developments could reshape competitive dynamics and consumer trust in digital finance.",
   "curiosity": {
-    "text": "Did you know that the first recorded use of a debit card occurred in 1966 when the Bank of Delaware introduced the 'BankAmericard,' allowing customers to withdraw cash directly from their bank accounts? This innovation paved the way for the widespread adoption of debit cards we see today."
+    "text": "Did you know that the term 'fintech' was first coined in the 1980s but gained widespread popularity in the 21st century, particularly after the 2008 financial crisis, when innovative technologies began transforming traditional financial services at an unprecedented rate?"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "M&A",
-      "company": "Augmentum Fintech",
-      "description": "accepts \u00a3186m cash takeover offer from Verdane.",
-      "source_url": "https://www.finextra.com/newsarticle/47369/augmentum-fintech-accepts-186m-cash-takeover-offer"
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "Silverflow",
+      "description": "raised $40M Series B for cloud-native payment processing.",
+      "source_url": "https://www.finextra.com/newsarticle/47396/payment-processor-silverflow-raises-40m"
     },
     {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "flag": "\ud83c\udde6\ud83c\uddf7",
       "type": "fundraising",
-      "company": "Duna",
-      "description": "raises \u20ac30m in Series A for business identity solutions.",
-      "source_url": "https://www.finextra.com/newsarticle/47260/business-identity-startup-duna-raises-30m"
+      "company": "Ual\u00e1",
+      "description": "raised $195M at $3.2B valuation for Latin American neobank.",
+      "source_url": "https://www.finextra.com/newsarticle/47393/latin-american-neobank-ual-raises-195-million-at-32-billion-valuation"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Kraken",
+      "description": "first crypto firm to receive Fed master account.",
+      "source_url": "https://www.finextra.com/newsarticle/47394/kraken-becomes-first-crypto-firm-to-get-fed-master-account"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Incard",
-      "description": "raises \u00a310m to build 'financial OS' for digital entrepreneurs.",
-      "source_url": "https://www.finextra.com/newsarticle/47239/incard-raises-10m-to-build-financial-os-for-digital-entrepreneurs"
+      "company": "Vivox AI",
+      "description": "raised \u00a31.3M to scale atomic agents for financial compliance.",
+      "source_url": "https://www.finextra.com/newsarticle/47392/vivox-ai-raises-13m-to-scale-atomic-agents-for-financial-crime-compliance"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "T54 Labs",
-      "description": "raises $5m to build trust layer for the autonomous economy.",
-      "source_url": "https://www.finextra.com/pressarticle/108985/t54-labs-raises-5-million-to-build-trust-layer-for-the-autonomous-economy"
-    },
-    {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
-      "type": "IPO",
-      "company": "PayPay",
-      "description": "files for US initial public offering.",
-      "source_url": "https://www.finextra.com/newsarticle/47302/softbanks-paypay-files-for-us-initial-public-offering"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Bracket",
-      "description": "raises $7m for FX and treasury management platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47293/london-fintech-bracket-raises-7-million"
-    },
-    {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "Porters",
-      "description": "raises \u20ac2.7m to build AI-native backoffice solutions.",
-      "source_url": "https://www.finextra.com/newsarticle/47254/porters-raises-27m-to-build-ai-native-backoffice"
+      "company": "Cyclops",
+      "description": "raised $8M to offer stablecoin settlement to merchants.",
+      "source_url": "https://www.theblock.co/post/392233/stablecoin-payments-startup-cyclops-raises-8-million"
     }
   ]
 }
