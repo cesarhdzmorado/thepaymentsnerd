@@ -444,6 +444,43 @@ def deduplicate_stories(stories: list, similarity_threshold: float = 0.4) -> lis
     return deduplicated
 
 
+def _normalize_url(url: str) -> str:
+    """Normalize a URL for comparison by stripping protocol, www, trailing slashes, and query params."""
+    if not url:
+        return ""
+    url = url.strip().lower()
+    # Strip protocol
+    for prefix in ("https://", "http://"):
+        if url.startswith(prefix):
+            url = url[len(prefix):]
+    # Strip www.
+    if url.startswith("www."):
+        url = url[4:]
+    # Strip trailing slash
+    url = url.rstrip("/")
+    # Strip query params and fragments
+    url = url.split("?")[0].split("#")[0]
+    return url
+
+
+def _title_similarity(title1: str, title2: str) -> float:
+    """
+    Calculate similarity between two titles using word overlap.
+    Titles are short, so word overlap is more reliable than on full-body text.
+    """
+    words1 = set(title1.lower().split())
+    words2 = set(title2.lower().split())
+    # Remove very short filler words for better signal
+    stopwords = {"a", "an", "the", "to", "in", "of", "and", "for", "is", "on", "at", "by", "or", "its"}
+    words1 = words1 - stopwords
+    words2 = words2 - stopwords
+    if not words1 or not words2:
+        return 0.0
+    intersection = words1.intersection(words2)
+    union = words1.union(words2)
+    return len(intersection) / len(union) if union else 0.0
+
+
 def filter_against_history(
     new_stories: list,
     historical_stories: list,
@@ -455,9 +492,10 @@ def filter_against_history(
     """
     Filter out stories that are too similar to historical coverage.
 
-    Uses hybrid detection by default: combines entity extraction, word similarity,
-    and semantic embeddings to catch duplicates that word-only matching misses
-    (e.g., "Capital One acquires Brex" written differently by two sources).
+    Detection layers (checked in order):
+    1. URL match - same source article URL = instant duplicate
+    2. Title similarity - high title overlap (>50%) = duplicate
+    3. Hybrid detection - entity extraction + word similarity + embeddings
 
     Args:
         new_stories: List of story dicts to filter (today's stories)
@@ -479,11 +517,22 @@ def filter_against_history(
     if not historical_stories:
         return new_stories, []
 
-    # Pre-compute text representations for historical stories
+    # Pre-compute historical data for matching
     historical_texts = []
+    historical_urls = set()
+    historical_url_to_title = {}  # For logging which story matched
     for story in historical_stories:
         text = story.get('title', '') + ' ' + story.get('body', story.get('summary', ''))
         historical_texts.append(text)
+        # Collect normalized URLs from historical stories
+        source_url = story.get('source_url', '')
+        if not source_url:
+            source = story.get('source', {})
+            source_url = source.get('url', '') if isinstance(source, dict) else ''
+        norm_url = _normalize_url(source_url)
+        if norm_url:
+            historical_urls.add(norm_url)
+            historical_url_to_title[norm_url] = story.get('title', 'Unknown')
 
     filtered = []
     removed = []
@@ -495,34 +544,63 @@ def filter_against_history(
         is_duplicate = False
         duplicate_reason = ""
 
-        for i, historical_text in enumerate(historical_texts):
-            if use_hybrid:
-                # Use hybrid detection
-                is_dup, debug_info = is_duplicate_hybrid(
-                    story_text,
-                    historical_text,
-                    word_threshold=0.3,
-                    embedding_threshold=0.8,
-                    use_embeddings=use_embeddings
-                )
-                if is_dup:
+        # Layer 1: URL-based deduplication (most reliable)
+        story_url = story.get('source_url', '')
+        if not story_url:
+            source = story.get('source', {})
+            story_url = source.get('url', '') if isinstance(source, dict) else ''
+        norm_story_url = _normalize_url(story_url)
+
+        if norm_story_url and norm_story_url in historical_urls:
+            is_duplicate = True
+            matched_title = historical_url_to_title.get(norm_story_url, 'Unknown')
+            duplicate_reason = f"Same source URL as '{matched_title[:50]}...' ({norm_story_url})"
+            if verbose:
+                print(f"  🔴 DUPLICATE (URL): {story_title[:40]}...")
+                print(f"     Matched URL: {norm_story_url}")
+
+        # Layer 2: Title similarity (catches same story from different sources or rewrites)
+        if not is_duplicate:
+            for i, hist_story in enumerate(historical_stories):
+                hist_title = hist_story.get('title', '')
+                title_sim = _title_similarity(story_title, hist_title)
+                if title_sim > 0.5:
                     is_duplicate = True
-                    historical_title = historical_stories[i].get('title', 'Unknown')
-                    duplicate_reason = f"Matched '{historical_title[:50]}...' - {debug_info['decision_reason']}"
+                    duplicate_reason = f"Title similarity {title_sim:.0%} with '{hist_title[:50]}...'"
                     if verbose:
-                        print(f"  🔴 DUPLICATE: {story_title[:40]}...")
-                        print(f"     Matched: {historical_title[:40]}...")
-                        print(f"     Reason: {debug_info['decision_reason']}")
-                        print(f"     Entities: {debug_info['entities1']} vs {debug_info['entities2']}")
+                        print(f"  🔴 DUPLICATE (TITLE): {story_title[:40]}...")
+                        print(f"     Matched: {hist_title[:40]}...")
+                        print(f"     Title similarity: {title_sim:.0%}")
                     break
-            else:
-                # Original word-only detection
-                similarity = _calculate_similarity(story_text, historical_text)
-                if similarity > similarity_threshold:
-                    is_duplicate = True
-                    historical_title = historical_stories[i].get('title', 'Unknown')
-                    duplicate_reason = f"Word similarity {similarity:.1%} with '{historical_title[:50]}...'"
-                    break
+
+        # Layer 3: Hybrid detection (entity + word + embedding similarity)
+        if not is_duplicate:
+            for i, historical_text in enumerate(historical_texts):
+                if use_hybrid:
+                    is_dup, debug_info = is_duplicate_hybrid(
+                        story_text,
+                        historical_text,
+                        word_threshold=0.3,
+                        embedding_threshold=0.8,
+                        use_embeddings=use_embeddings
+                    )
+                    if is_dup:
+                        is_duplicate = True
+                        historical_title = historical_stories[i].get('title', 'Unknown')
+                        duplicate_reason = f"Matched '{historical_title[:50]}...' - {debug_info['decision_reason']}"
+                        if verbose:
+                            print(f"  🔴 DUPLICATE: {story_title[:40]}...")
+                            print(f"     Matched: {historical_title[:40]}...")
+                            print(f"     Reason: {debug_info['decision_reason']}")
+                            print(f"     Entities: {debug_info['entities1']} vs {debug_info['entities2']}")
+                        break
+                else:
+                    similarity = _calculate_similarity(story_text, historical_text)
+                    if similarity > similarity_threshold:
+                        is_duplicate = True
+                        historical_title = historical_stories[i].get('title', 'Unknown')
+                        duplicate_reason = f"Word similarity {similarity:.1%} with '{historical_title[:50]}...'"
+                        break
 
         if is_duplicate:
             removed.append({"story": story, "reason": duplicate_reason})
