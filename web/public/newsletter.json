@@ -2,84 +2,84 @@
   "news": [
     {
       "title": "Kraken Becomes First Crypto Firm to Get Fed Master Account",
-      "body": "Kraken Financial has achieved a significant milestone by becoming the first digital asset bank to receive a Federal Reserve master account, allowing it direct access to the Fed's payment infrastructure. This development could empower other crypto firms to seek similar access, potentially disrupting traditional banking models and increasing competition. Expect more crypto firms to pursue Fed master accounts, potentially leading to regulatory scrutiny and traditional banks lobbying for restrictions.",
+      "body": "Kraken Financial has secured a Federal Reserve master account, becoming the first digital asset bank with direct access to the Fed's payment infrastructure. This positions Kraken ahead of its competitors in terms of regulatory acceptance and operational capabilities. The impact: this move could accelerate the integration of crypto firms into mainstream financial systems, compelling traditional banks to adapt or risk losing market share. Other crypto firms will feel the pressure to secure similar access, potentially reshaping the competitive landscape.",
       "source": {
         "name": "Finextra",
         "url": "https://www.finextra.com/newsarticle/47394/kraken-becomes-first-crypto-firm-to-get-fed-master-account"
       }
     },
     {
-      "title": "Nexi and Google Cloud Partner to Drive Agentic Payments in Europe",
-      "body": "Nexi has formed a partnership with Google Cloud to develop infrastructure for agentic payments in Europe, aiming to support autonomous transactions. This collaboration could challenge traditional payment models and enhance transaction efficiency, benefiting early adopters of agentic payments. Expect increased investment in agentic payment infrastructure and potential regulatory scrutiny of autonomous transaction models.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47382/nexi-signs-mou-with-google-cloud-to-drive-agentic-payments-across-europe"
-      }
-    },
-    {
-      "title": "Citi Pushes Client Co-Creation in E-Commerce",
-      "body": "Citi is collaborating with fintechs to co-create e-commerce solutions that integrate agentic AI and digital assets. This strategy could enhance Citi's competitive position by leveraging fintech innovation and expanding its e-commerce footprint. Expect more banks to adopt similar co-creation strategies, fostering fintech partnerships and innovation in digital commerce.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/citi-digital-assets-payments-fintechs-ecommerce-agentic-ai/813701/"
-      }
-    },
-    {
-      "title": "Capital One Shifts to Discover Network, Ignites Competition",
-      "body": "Capital One has begun originating some credit card accounts on the Discover Network, following its acquisition of the network. This shift could increase competition in the credit card space, challenging Visa and Mastercard's dominance. Expect strategic responses from competing networks and potential shifts in consumer loyalty and card preferences.",
+      "title": "FedNow Pushes FEMA Disaster Aid From Days to Seconds",
+      "body": "FedNow's real-time payment system has significantly accelerated FEMA disaster aid distribution, reducing wait times from days to seconds. This enhancement could increase FedNow's adoption among financial institutions, as it demonstrates the practical benefits of real-time payments in urgent scenarios. The shift towards real-time payments as the default infrastructure is gaining momentum, prompting other government agencies to consider similar systems for aid distribution. Watch for increased pressure on traditional payment systems to keep pace.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/credit-cards/2026/capital-one-ignites-competition-with-shift-to-discover-network/"
+        "url": "https://www.pymnts.com/real-time-payments/2026/fednow-pushes-fema-disaster-aid-from-days-to-seconds/"
       }
     },
     {
-      "title": "Swedish Central Bank Urges Cash Hoarding Amid Payment Disruption Fears",
-      "body": "The Swedish central bank has advised citizens to keep cash reserves due to concerns over potential disruptions to electronic payment systems. This advisory could undermine confidence in digital payments and challenge digital-first payment strategies. Expect increased focus on enhancing payment infrastructure resilience and potential regulatory mandates for backup systems.",
+      "title": "Mastercard Unveils Trust Layer for Agentic Commerce",
+      "body": "Mastercard has introduced a new open, standards-based trust layer for agentic commerce, addressing emerging issues in this rapidly growing sector. This move enhances Mastercard's leadership position and could attract more partners and users, as trust becomes a critical factor in agentic AI transactions. The introduction of this trust layer could accelerate adoption of agentic commerce, but smaller players may struggle with the complexity of implementation. Expect to see increased competition as firms seek to integrate these standards.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47390/swedish-central-bank-urges-public-to-horde-cash-in-case-of-payments-disruption"
+        "url": "https://www.finextra.com/newsarticle/47397/mastercard-unveils-trust-layer-for-agentic-commerce"
+      }
+    },
+    {
+      "title": "Revolut Files for US Bank Charter, Names Duransoy as US CEO",
+      "body": "Revolut has filed for a national bank charter in the U.S., appointing Cetin Duransoy as its U.S. CEO, marking a significant entry into the American market. This move could intensify competition in the U.S. fintech space, challenging existing players with its comprehensive services. As Revolut integrates into the U.S. banking system, it may face increased regulatory scrutiny, prompting potential partnerships or acquisitions to strengthen its presence. This aggressive expansion strategy may also strain resources in other markets.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/financial-apps/2026/revolut-files-for-us-bank-charter-names-duransoy-as-us-ceo/"
+      }
+    },
+    {
+      "title": "Innovate Finance Criticizes BoE's Stablecoin Proposals",
+      "body": "Innovate Finance has criticized the Bank of England's stablecoin proposals, arguing they could hinder UK challenger banks and payments firms. This criticism could limit innovation and competitiveness in the UK fintech space, as regulatory clarity is essential for stablecoins to gain mainstream traction. Stricter regulations might enhance consumer trust and stability in the long term, but they could also prompt fintechs to seek more favorable jurisdictions. Watch for potential lobbying efforts aimed at regulatory adjustments.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47389/innovate-finance-says-bofe-stablecoin-proposals-will-have-a-chilling-effect-on-uk-market"
       }
     }
   ],
-  "perspective": "I'm watching the growing tension between innovation and regulation in the payments landscape. Kraken's Fed master account signals a pivotal moment for crypto firms, while Nexi's partnership with Google Cloud accelerates the shift towards agentic payments. If your team is still viewing regulatory proposals as mere hurdles, it's time to rethink\u2014these developments could reshape competitive dynamics and consumer trust in digital finance.",
+  "perspective": "I'm watching the growing intersection of regulation and innovation in payments. Kraken's Fed master account acquisition highlights the urgency for crypto firms to secure regulatory acceptance, while Revolut's U.S. bank charter application signals intensified competition in the fintech space. If your team is still viewing regulatory proposals as mere hurdles, it's time to rethink\u2014these developments could reshape competitive dynamics and consumer trust in digital finance.",
   "curiosity": {
-    "text": "Did you know that the term 'fintech' was first coined in the 1980s but gained widespread popularity in the 21st century, particularly after the 2008 financial crisis, when innovative technologies began transforming traditional financial services at an unprecedented rate?"
+    "text": "Did you know that in 1999, the first e-commerce transaction using encrypted online payments occurred when a CD was sold on the website NetMarket? This marked a pivotal moment in the evolution of digital payments, laying the groundwork for the secure online transactions we rely on today."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "fundraising",
       "company": "Silverflow",
-      "description": "raised $40M Series B for cloud-native payment processing.",
-      "source_url": "https://www.finextra.com/newsarticle/47396/payment-processor-silverflow-raises-40m"
+      "description": "Secured $40 million to enhance cloud-native payment solutions.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/silverflow-nets-40-million-to-simplify-global-payment-processing/"
     },
     {
       "flag": "\ud83c\udde6\ud83c\uddf7",
       "type": "fundraising",
       "company": "Ual\u00e1",
-      "description": "raised $195M at $3.2B valuation for Latin American neobank.",
+      "description": "Raised $195 million at $3.2 billion valuation.",
       "source_url": "https://www.finextra.com/newsarticle/47393/latin-american-neobank-ual-raises-195-million-at-32-billion-valuation"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Kraken",
-      "description": "first crypto firm to receive Fed master account.",
-      "source_url": "https://www.finextra.com/newsarticle/47394/kraken-becomes-first-crypto-firm-to-get-fed-master-account"
+      "type": "fundraising",
+      "company": "Science Corp.",
+      "description": "Raised $230 million Series C for brain-computer interface tech.",
+      "source_url": "https://news.crunchbase.com/venture/braintech-ai-startup-science-neuralink-alums-seriesc/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Eight Sleep",
+      "description": "Raised $50 million at $1.5 billion valuation for AI-driven health.",
+      "source_url": "https://news.crunchbase.com/venture/unicorn-eight-sleep-funding-ai-driven-health/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Vivox AI",
-      "description": "raised \u00a31.3M to scale atomic agents for financial compliance.",
+      "description": "Raised \u00a31.3 million for atomic AI agents in financial compliance.",
       "source_url": "https://www.finextra.com/newsarticle/47392/vivox-ai-raises-13m-to-scale-atomic-agents-for-financial-crime-compliance"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Cyclops",
-      "description": "raised $8M to offer stablecoin settlement to merchants.",
-      "source_url": "https://www.theblock.co/post/392233/stablecoin-payments-startup-cyclops-raises-8-million"
     }
   ]
 }
