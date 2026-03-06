@@ -211,11 +211,14 @@ def get_recent_stories(days_back: int = 2):
             pub_date = newsletter.get("publication_date", "Unknown date")
             news = content.get("news", [])
 
-            # Collect stories
+            # Collect stories (including source URLs for deduplication)
             for story in news:
+                source = story.get("source", {})
+                source_url = source.get("url", "") if isinstance(source, dict) else ""
                 previous_stories.append({
                     "title": story.get("title", ""),
                     "body": story.get("body", ""),
+                    "source_url": source_url,
                     "date": pub_date
                 })
 
