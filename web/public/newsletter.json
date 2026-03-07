@@ -1,85 +1,99 @@
 {
   "news": [
     {
-      "title": "Kraken Becomes First Crypto Firm to Get Fed Master Account",
-      "body": "Kraken Financial has secured a Federal Reserve master account, becoming the first digital asset bank with direct access to the Fed's payment infrastructure. This positions Kraken ahead of its competitors in terms of regulatory acceptance and operational capabilities. The impact: this move could accelerate the integration of crypto firms into mainstream financial systems, compelling traditional banks to adapt or risk losing market share. Other crypto firms will feel the pressure to secure similar access, potentially reshaping the competitive landscape.",
+      "title": "Revolut Files for US Banking License, Intensifying Fintech Competition",
+      "body": "Revolut has applied for a US banking license, appointing a former Visa executive as its US CEO, which is part of its strategy to expand financial services in the US market. This move could disrupt traditional banks and fintechs, intensifying competition in the US fintech landscape. Revolut's aggressive expansion may strain resources and divert focus from other markets, while potential regulatory challenges loom as it navigates the US financial landscape.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47394/kraken-becomes-first-crypto-firm-to-get-fed-master-account"
+        "url": "https://www.finextra.com/newsarticle/47398/revolut-files-for-us-banking-licence"
       }
     },
     {
-      "title": "FedNow Pushes FEMA Disaster Aid From Days to Seconds",
-      "body": "FedNow's real-time payment system has significantly accelerated FEMA disaster aid distribution, reducing wait times from days to seconds. This enhancement could increase FedNow's adoption among financial institutions, as it demonstrates the practical benefits of real-time payments in urgent scenarios. The shift towards real-time payments as the default infrastructure is gaining momentum, prompting other government agencies to consider similar systems for aid distribution. Watch for increased pressure on traditional payment systems to keep pace.",
+      "title": "Mastercard Pilots Agentic Transactions in Malaysia, Leading AI Commerce Innovation",
+      "body": "Mastercard completed a pilot for authenticated agentic transactions in Malaysia, marking a significant advancement in AI-powered commerce. This positions Mastercard as a leader in agentic commerce innovation, potentially setting a precedent for global adoption. However, cultural and regulatory differences may pose challenges to scaling agentic transactions globally, influencing regional and global payment ecosystems.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109083/mastercard-pilots-agentic-transactions-in-malaysia"
+      }
+    },
+    {
+      "title": "Florida Passes First State-Level Stablecoin Bill, Setting Regulatory Precedent",
+      "body": "Florida passed Senate Bill 314, providing a framework for payment stablecoin issuers, aligning with federal GENIUS Act standards. This sets a precedent for state-level stablecoin regulation, potentially influencing other states to follow suit. While this regulatory clarity may boost stablecoin adoption and innovation within the state, it could also create a fragmented regulatory landscape, complicating compliance for issuers.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/392733/first-us-state-level-stablecoin-bill-passes-in-florida"
+      }
+    },
+    {
+      "title": "Alchemy Pay Secures 15th Money Transmitter License, Strengthening Crypto-Fiat Operations",
+      "body": "Alchemy Pay obtained a Money Transmitter License in Delaware, marking its 15th license in the US, which enhances its ability to operate cryptocurrency and fiat payment services across multiple states. This positions Alchemy Pay as a reliable player in the crypto-fiat payment space, strengthening its regulatory compliance. However, regulatory hurdles in other states may slow down further expansion, impacting its growth trajectory.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/real-time-payments/2026/fednow-pushes-fema-disaster-aid-from-days-to-seconds/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/alchemy-pay-hits-15-money-transmitter-licenses-with-delaware-win/"
       }
     },
     {
-      "title": "Mastercard Unveils Trust Layer for Agentic Commerce",
-      "body": "Mastercard has introduced a new open, standards-based trust layer for agentic commerce, addressing emerging issues in this rapidly growing sector. This move enhances Mastercard's leadership position and could attract more partners and users, as trust becomes a critical factor in agentic AI transactions. The introduction of this trust layer could accelerate adoption of agentic commerce, but smaller players may struggle with the complexity of implementation. Expect to see increased competition as firms seek to integrate these standards.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47397/mastercard-unveils-trust-layer-for-agentic-commerce"
-      }
-    },
-    {
-      "title": "Revolut Files for US Bank Charter, Names Duransoy as US CEO",
-      "body": "Revolut has filed for a national bank charter in the U.S., appointing Cetin Duransoy as its U.S. CEO, marking a significant entry into the American market. This move could intensify competition in the U.S. fintech space, challenging existing players with its comprehensive services. As Revolut integrates into the U.S. banking system, it may face increased regulatory scrutiny, prompting potential partnerships or acquisitions to strengthen its presence. This aggressive expansion strategy may also strain resources in other markets.",
+      "title": "FinTech and Big Finance Fight to Own the Stablecoin Stack, Intensifying Competition",
+      "body": "Stablecoins are evolving into a multi-layered infrastructure system, with Visa and Bridge expanding cross-border stablecoin capabilities, while BitGo and SoFi announced new initiatives. This competitive landscape is becoming a battleground for fintechs and traditional finance, each vying for dominance. The rapid evolution of stablecoins may outpace regulatory frameworks, leading to potential compliance challenges and increased regulatory attention.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/financial-apps/2026/revolut-files-for-us-bank-charter-names-duransoy-as-us-ceo/"
-      }
-    },
-    {
-      "title": "Innovate Finance Criticizes BoE's Stablecoin Proposals",
-      "body": "Innovate Finance has criticized the Bank of England's stablecoin proposals, arguing they could hinder UK challenger banks and payments firms. This criticism could limit innovation and competitiveness in the UK fintech space, as regulatory clarity is essential for stablecoins to gain mainstream traction. Stricter regulations might enhance consumer trust and stability in the long term, but they could also prompt fintechs to seek more favorable jurisdictions. Watch for potential lobbying efforts aimed at regulatory adjustments.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47389/innovate-finance-says-bofe-stablecoin-proposals-will-have-a-chilling-effect-on-uk-market"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/fintech-and-big-finance-fight-to-own-the-stablecoin-stack/"
       }
     }
   ],
-  "perspective": "I'm watching the growing intersection of regulation and innovation in payments. Kraken's Fed master account acquisition highlights the urgency for crypto firms to secure regulatory acceptance, while Revolut's U.S. bank charter application signals intensified competition in the fintech space. If your team is still viewing regulatory proposals as mere hurdles, it's time to rethink\u2014these developments could reshape competitive dynamics and consumer trust in digital finance.",
+  "perspective": "I'm watching the escalating competition in the fintech landscape, particularly as Revolut's US banking license application and Florida's stablecoin bill signal a shift towards regulatory acceptance and innovation. With Mastercard's advancements in agentic transactions and Alchemy Pay's licensing success, the race for dominance in crypto and stablecoin infrastructure is heating up. If your team is still viewing regulatory developments as mere hurdles, it's time to pivot\u2014these changes are reshaping the competitive dynamics in digital finance.",
   "curiosity": {
-    "text": "Did you know that in 1999, the first e-commerce transaction using encrypted online payments occurred when a CD was sold on the website NetMarket? This marked a pivotal moment in the evolution of digital payments, laying the groundwork for the secure online transactions we rely on today."
+    "text": "Did you know that in 1973, the Society for Worldwide Interbank Financial Telecommunication (SWIFT) was founded, revolutionizing international payments by providing a standardized platform for financial institutions to securely exchange electronic messages about financial transactions? This innovation significantly enhanced the efficiency and security of cross-border payments globally."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "flag": "\ud83c\uddee\ud83c\uddea",
       "type": "fundraising",
-      "company": "Silverflow",
-      "description": "Secured $40 million to enhance cloud-native payment solutions.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/silverflow-nets-40-million-to-simplify-global-payment-processing/"
-    },
-    {
-      "flag": "\ud83c\udde6\ud83c\uddf7",
-      "type": "fundraising",
-      "company": "Ual\u00e1",
-      "description": "Raised $195 million at $3.2 billion valuation.",
-      "source_url": "https://www.finextra.com/newsarticle/47393/latin-american-neobank-ual-raises-195-million-at-32-billion-valuation"
+      "company": "Evervault",
+      "description": "Raised $25M to enhance data encryption platform.",
+      "source_url": "https://www.finextra.com/pressarticle/109054/evervault-raises-25m-to-deliver-end-to-end-encryption-for-sensitive-data"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Science Corp.",
-      "description": "Raised $230 million Series C for brain-computer interface tech.",
+      "description": "Raised $230M Series C for brain-computer interface tech.",
       "source_url": "https://news.crunchbase.com/venture/braintech-ai-startup-science-neuralink-alums-seriesc/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Eight Sleep",
-      "description": "Raised $50 million at $1.5 billion valuation for AI-driven health.",
-      "source_url": "https://news.crunchbase.com/venture/unicorn-eight-sleep-funding-ai-driven-health/"
+      "company": "Denki",
+      "description": "Raised $4.1M to automate financial audits with AI.",
+      "source_url": "https://news.crunchbase.com/venture/yc-backed-denki-raise-financial-audit-automation-ai/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Vivox AI",
-      "description": "Raised \u00a31.3 million for atomic AI agents in financial compliance.",
-      "source_url": "https://www.finextra.com/newsarticle/47392/vivox-ai-raises-13m-to-scale-atomic-agents-for-financial-crime-compliance"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "BitGo",
+      "description": "Provides infrastructure for SoFi stablecoin distribution.",
+      "source_url": "https://www.finextra.com/pressarticle/109067/bitgo-to-provide-infrastructure-and-support-distribution-for-sofi-stablecoin"
+    },
+    {
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "investment",
+      "company": "Tether",
+      "description": "Invested in Utexo for USDT settlement on Bitcoin.",
+      "source_url": "https://www.theblock.co/post/392669/tether-invests-in-utexo-a-startup-enabling-usdt-settlement-on-bitcoin"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "type": "IPO",
+      "company": "Pine Labs",
+      "description": "Raised $440M in IPO, backed by PayPal and Mastercard.",
+      "source_url": "https://techcrunch.com/2025/11/14/pine-labs-gets-warm-market-welcome-on-440m-india-ipo-despite-a-valuation-trim"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Jack Mallers\u2019 Strike",
+      "description": "Obtained BitLicense to offer Bitcoin services in New York.",
+      "source_url": "https://www.theblock.co/post/392650/jack-mallers-strike-scores-bitlicense-to-offer-new-yorkers-bitcoin-services"
     }
   ]
 }
