@@ -144,9 +144,8 @@ def _calculate_similarity(text1: str, text2: str) -> float:
     Calculate similarity between two texts using a simple word overlap metric.
     Returns a score between 0 (completely different) and 1 (identical).
     """
-    # Simple word-based similarity
-    words1 = set(text1.lower().split())
-    words2 = set(text2.lower().split())
+    words1 = _tokenize_words(text1)
+    words2 = _tokenize_words(text2)
 
     if not words1 or not words2:
         return 0.0
@@ -155,6 +154,13 @@ def _calculate_similarity(text1: str, text2: str) -> float:
     union = words1.union(words2)
 
     return len(intersection) / len(union) if union else 0.0
+
+
+def _tokenize_words(text: str) -> Set[str]:
+    """Tokenize text into lowercase alphanumeric words for robust similarity checks."""
+    if not text:
+        return set()
+    return set(re.findall(r"\b[a-z0-9]+\b", text.lower()))
 
 
 # =============================================================================
@@ -423,23 +429,22 @@ def deduplicate_stories(stories: list, similarity_threshold: float = 0.4) -> lis
         return []
 
     deduplicated = []
-    seen_content = []
+    seen_story_texts = []
 
     for story in stories:
-        # Combine title and body/summary for comparison
-        story_text = story.get('title', '') + ' ' + story.get('body', story.get('summary', ''))
+        story_text = _story_text(story)
 
         # Check against already seen stories
         is_duplicate = False
-        for seen in seen_content:
-            similarity = _calculate_similarity(story_text, seen)
+        for seen_text in seen_story_texts:
+            similarity = _calculate_similarity(story_text, seen_text)
             if similarity > similarity_threshold:
                 is_duplicate = True
                 break
 
         if not is_duplicate:
             deduplicated.append(story)
-            seen_content.append(story_text)
+            seen_story_texts.append(story_text)
 
     return deduplicated
 
@@ -456,11 +461,44 @@ def _normalize_url(url: str) -> str:
     # Strip www.
     if url.startswith("www."):
         url = url[4:]
-    # Strip trailing slash
-    url = url.rstrip("/")
     # Strip query params and fragments
     url = url.split("?")[0].split("#")[0]
+    # Strip trailing slash
+    url = url.rstrip("/")
     return url
+
+
+def _story_text(story: dict) -> str:
+    """Build canonical text used by deduplication from story title and body/summary."""
+    return f"{story.get('title', '')} {story.get('body', story.get('summary', ''))}".strip()
+
+
+def _story_source_url(story: dict) -> str:
+    """Extract source URL from story from either top-level or nested source object."""
+    source_url = story.get('source_url', '')
+    if source_url:
+        return source_url
+    source = story.get('source', {})
+    return source.get('url', '') if isinstance(source, dict) else ''
+
+
+def _build_historical_index(historical_stories: list) -> Tuple[list, list, Set[str], Dict[str, str]]:
+    """Pre-compute reusable historical structures for deduplication checks."""
+    historical_texts = []
+    historical_titles = []
+    historical_urls = set()
+    historical_url_to_title = {}
+
+    for story in historical_stories:
+        historical_texts.append(_story_text(story))
+        historical_titles.append(story.get('title', ''))
+
+        norm_url = _normalize_url(_story_source_url(story))
+        if norm_url:
+            historical_urls.add(norm_url)
+            historical_url_to_title[norm_url] = story.get('title', 'Unknown')
+
+    return historical_texts, historical_titles, historical_urls, historical_url_to_title
 
 
 def _title_similarity(title1: str, title2: str) -> float:
@@ -468,8 +506,8 @@ def _title_similarity(title1: str, title2: str) -> float:
     Calculate similarity between two titles using word overlap.
     Titles are short, so word overlap is more reliable than on full-body text.
     """
-    words1 = set(title1.lower().split())
-    words2 = set(title2.lower().split())
+    words1 = _tokenize_words(title1)
+    words2 = _tokenize_words(title2)
     # Remove very short filler words for better signal
     stopwords = {"a", "an", "the", "to", "in", "of", "and", "for", "is", "on", "at", "by", "or", "its"}
     words1 = words1 - stopwords
@@ -517,39 +555,20 @@ def filter_against_history(
     if not historical_stories:
         return new_stories, []
 
-    # Pre-compute historical data for matching
-    historical_texts = []
-    historical_urls = set()
-    historical_url_to_title = {}  # For logging which story matched
-    for story in historical_stories:
-        text = story.get('title', '') + ' ' + story.get('body', story.get('summary', ''))
-        historical_texts.append(text)
-        # Collect normalized URLs from historical stories
-        source_url = story.get('source_url', '')
-        if not source_url:
-            source = story.get('source', {})
-            source_url = source.get('url', '') if isinstance(source, dict) else ''
-        norm_url = _normalize_url(source_url)
-        if norm_url:
-            historical_urls.add(norm_url)
-            historical_url_to_title[norm_url] = story.get('title', 'Unknown')
+    historical_texts, historical_titles, historical_urls, historical_url_to_title = _build_historical_index(historical_stories)
 
     filtered = []
     removed = []
 
     for story in new_stories:
-        story_text = story.get('title', '') + ' ' + story.get('body', story.get('summary', ''))
+        story_text = _story_text(story)
         story_title = story.get('title', 'Untitled')
 
         is_duplicate = False
         duplicate_reason = ""
 
         # Layer 1: URL-based deduplication (most reliable)
-        story_url = story.get('source_url', '')
-        if not story_url:
-            source = story.get('source', {})
-            story_url = source.get('url', '') if isinstance(source, dict) else ''
-        norm_story_url = _normalize_url(story_url)
+        norm_story_url = _normalize_url(_story_source_url(story))
 
         if norm_story_url and norm_story_url in historical_urls:
             is_duplicate = True
@@ -561,8 +580,7 @@ def filter_against_history(
 
         # Layer 2: Title similarity (catches same story from different sources or rewrites)
         if not is_duplicate:
-            for i, hist_story in enumerate(historical_stories):
-                hist_title = hist_story.get('title', '')
+            for hist_title in historical_titles:
                 title_sim = _title_similarity(story_title, hist_title)
                 if title_sim > 0.5:
                     is_duplicate = True
