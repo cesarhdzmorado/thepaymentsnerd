@@ -19,6 +19,7 @@ export interface LinkedInTokens {
   refresh_token: string;
   expires_at: number; // Unix timestamp (ms)
   person_id: string;
+  organization_id?: string; // For company page posting
 }
 
 export interface LinkedInPostResult {
@@ -174,12 +175,34 @@ export async function getPersonId(accessToken: string): Promise<string> {
  *
  * On 401, attempts one token refresh and retries.
  */
-export async function createPost(text: string): Promise<LinkedInPostResult> {
+/**
+ * Create a post on LinkedIn.
+ *
+ * If asOrganization is true (default when organization_id exists), posts as the company page.
+ * Otherwise posts as the personal profile.
+ *
+ * On 401, attempts one token refresh and retries.
+ */
+export async function createPost(text: string, asOrganization?: boolean): Promise<LinkedInPostResult> {
   let tokens = await getValidTokens();
 
+  // Default to organization posting if org ID exists
+  const useOrg = asOrganization ?? !!tokens.organization_id;
+
+  if (useOrg && !tokens.organization_id) {
+    return {
+      success: false,
+      error: "No organization_id in tokens. Re-run auth with an app that has Community Management product.",
+    };
+  }
+
   const doPost = async (accessToken: string, personId: string): Promise<Response> => {
+    const author = useOrg
+      ? `urn:li:organization:${tokens.organization_id}`
+      : `urn:li:person:${personId}`;
+
     const body = {
-      author: `urn:li:person:${personId}`,
+      author,
       lifecycleState: "PUBLISHED",
       visibility: {
         "com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC",

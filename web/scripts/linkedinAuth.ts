@@ -33,7 +33,7 @@ const REDIRECT_URI = `http://localhost:${PORT}/callback`;
 const AUTH_URL = "https://www.linkedin.com/oauth/v2/authorization";
 const TOKEN_URL = "https://www.linkedin.com/oauth/v2/accessToken";
 const USERINFO_URL = "https://api.linkedin.com/v2/userinfo";
-const SCOPES = "openid profile w_member_social";
+const SCOPES = "w_organization_social r_organization_social";
 const TOKEN_FILE = path.resolve(__dirname, "../../.linkedin-tokens.json");
 
 // ---------------------------------------------------------------------------
@@ -95,17 +95,50 @@ async function main() {
   // Fetch person ID
   const personId = await fetchPersonId(tokenData.access_token);
 
+  // Fetch organization IDs (companies the user administers)
+  console.log("✅ Fetching organization admin roles...");
+  let organizationId: string | undefined;
+  try {
+    const orgRes = await fetch(
+      `https://api.linkedin.com/v2/organizationalEntityAcls?q=roleAssignee&role=ADMINISTRATOR&projection=(elements*(organizationalTarget))`,
+      { headers: { Authorization: `Bearer ${tokenData.access_token}` } }
+    );
+    if (orgRes.ok) {
+      const orgData = await orgRes.json();
+      const elements = orgData.elements || [];
+      if (elements.length > 0) {
+        // Extract org ID from URN like "urn:li:organization:12345"
+        const orgUrn = elements[0].organizationalTarget;
+        organizationId = orgUrn.replace("urn:li:organization:", "");
+        console.log(`✅ Found organization: ${orgUrn}`);
+        if (elements.length > 1) {
+          console.log(`   (${elements.length} orgs found — using the first one. Edit .linkedin-tokens.json to change.)`);
+          elements.forEach((el: { organizationalTarget: string }, i: number) => {
+            console.log(`   [${i}] ${el.organizationalTarget}`);
+          });
+        }
+      } else {
+        console.log("⚠️  No organizations found. You may not be an admin of any LinkedIn page.");
+      }
+    } else {
+      console.log(`⚠️  Could not fetch organizations (${orgRes.status}). Continuing without org ID.`);
+    }
+  } catch (err) {
+    console.log("⚠️  Could not fetch organizations. Continuing without org ID.");
+  }
+
   // Save tokens
-  const tokens: LinkedInTokens = {
+  const tokens: Record<string, unknown> = {
     access_token: tokenData.access_token,
     refresh_token: tokenData.refresh_token,
     expires_at: Date.now() + tokenData.expires_in * 1000,
     person_id: personId,
+    ...(organizationId ? { organization_id: organizationId } : {}),
   };
 
   fs.writeFileSync(TOKEN_FILE, JSON.stringify(tokens, null, 2), "utf-8");
 
-  const expiryDate = new Date(tokens.expires_at).toLocaleDateString("en-GB", {
+  const expiryDate = new Date(tokens.expires_at as number).toLocaleDateString("en-GB", {
     day: "numeric",
     month: "long",
     year: "numeric",
@@ -115,9 +148,10 @@ async function main() {
   console.log("=".repeat(60));
   console.log("✅ LinkedIn authorization complete!");
   console.log("");
-  console.log(`   Person ID:    ${personId}`);
-  console.log(`   Token expiry: ${expiryDate}`);
-  console.log(`   Saved to:     ${TOKEN_FILE}`);
+  console.log(`   Person ID:      ${personId}`);
+  if (organizationId) console.log(`   Organization ID: ${organizationId}`);
+  console.log(`   Token expiry:   ${expiryDate}`);
+  console.log(`   Saved to:       ${TOKEN_FILE}`);
   console.log("");
   console.log("You can now run the posting script:");
   console.log("   cd web && npx tsx scripts/linkedinPost.ts --dry-run");
