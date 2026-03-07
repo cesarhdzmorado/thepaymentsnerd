@@ -3,9 +3,20 @@
  *
  * Transforms newsletter.json into LinkedIn-ready formats.
  * Handles character limits (3000 max), hashtag generation, and multiple posting strategies.
+ *
+ * Phase 2: Integrates template library and strategy engine for varied,
+ * content-aware posts.
  */
 
 import type { NewsletterContent, WhatsHotItem } from "@/components/home/HomeSections";
+import {
+  detectVibe,
+  getDigestHook,
+  getTopStoryHook,
+  getCTA,
+  generateTrailerPost,
+} from "./linkedinPostTemplates";
+import { selectStrategy, type Strategy } from "./linkedinStrategy";
 
 const LINKEDIN_CHAR_LIMIT = 3000;
 const NEWSLETTER_URL = "https://thepaymentsnerd.co";
@@ -24,12 +35,13 @@ interface MultiPostFormat {
 }
 
 export interface LinkedInContent {
-  recommended_strategy: "daily_digest" | "top_story" | "multi_post" | "deals_roundup";
+  recommended_strategy: "daily_digest" | "top_story" | "multi_post" | "deals_roundup" | "trailer";
   formats: {
     daily_digest?: LinkedInFormat;
     top_story?: LinkedInFormat;
     multi_post?: MultiPostFormat[];
     deals_roundup?: LinkedInFormat;
+    trailer?: LinkedInFormat;
   };
 }
 
@@ -40,13 +52,16 @@ export interface LinkedInMetadata {
   primary_topics: string[];
 }
 
+// ---------------------------------------------------------------------------
+// Topic & Hashtag Extraction
+// ---------------------------------------------------------------------------
+
 /**
  * Extract primary topics from newsletter stories for hashtag generation
  */
 function extractTopics(content: NewsletterContent): string[] {
   const topics = new Set<string>();
 
-  // Common fintech/payments keywords to extract
   const keywords = [
     "AI", "Fintech", "Payments", "Blockchain", "Crypto", "Stablecoin", "M&A",
     "Funding", "RegTech", "Open Banking", "Digital Wallet", "BNPL", "Embedded Finance",
@@ -63,48 +78,37 @@ function extractTopics(content: NewsletterContent): string[] {
   ].join(" ");
 
   keywords.forEach(keyword => {
-    // Case-insensitive matching
     const regex = new RegExp(`\\b${keyword}\\b`, "i");
     if (regex.test(allText)) {
-      // Normalize to title case for hashtags
       topics.add(keyword.replace(/\s+/g, ""));
     }
   });
 
-  // Always include core topics
   topics.add("Payments");
   topics.add("Fintech");
 
-  return Array.from(topics).slice(0, 8); // Limit to 8 hashtags
+  return Array.from(topics).slice(0, 8);
 }
 
-/**
- * Generate hashtags from topics
- */
 function generateHashtags(topics: string[]): string[] {
   return topics.map(topic => `#${topic}`);
 }
 
-/**
- * Estimate read time based on word count
- */
 function estimateReadTime(text: string): string {
   const wordCount = text.split(/\s+/).length;
-  const minutes = Math.ceil(wordCount / 200); // Average reading speed
+  const minutes = Math.ceil(wordCount / 200);
   return `${minutes} min`;
 }
 
-/**
- * Truncate text to fit character limit with ellipsis
- */
 function truncateText(text: string, limit: number): string {
   if (text.length <= limit) return text;
   return text.substring(0, limit - 3) + "...";
 }
 
-/**
- * Format "What's Hot" section for LinkedIn
- */
+// ---------------------------------------------------------------------------
+// What's Hot Formatting
+// ---------------------------------------------------------------------------
+
 function formatWhatsHot(whatsHot: WhatsHotItem[]): string {
   if (whatsHot.length === 0) return "";
 
@@ -122,19 +126,36 @@ function formatWhatsHot(whatsHot: WhatsHotItem[]): string {
   return `\n\n🔥 What's Hot:\n${lines.join("\n")}`;
 }
 
+// ---------------------------------------------------------------------------
+// Format Generators
+// ---------------------------------------------------------------------------
+
 /**
- * Generate daily digest format (single post with all 5 stories)
+ * Generate daily digest format (single post with all stories)
  */
-function generateDailyDigest(content: NewsletterContent, topics: string[]): LinkedInFormat {
+function generateDailyDigest(content: NewsletterContent, topics: string[], seed?: string): LinkedInFormat {
   const hashtags = generateHashtags(topics);
+  const vibe = detectVibe(content);
+  const hook = getDigestHook(vibe, seed);
+  const cta = getCTA(seed);
+
   const today = new Date().toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric"
   });
 
-  let post = `🚀 Today in Payments — ${today}\n\n`;
-  post += `Five critical insights shaping the industry:\n\n`;
+  let post = `${hook} — ${today}\n\n`;
+
+  // Vibe-aware intro line
+  const introLines: Record<string, string> = {
+    breaking: "Major developments hitting the wire:\n\n",
+    deals_heavy: "The money is talking today:\n\n",
+    regulatory: "Regulators made moves — here's the breakdown:\n\n",
+    normal: "Five critical insights shaping the industry:\n\n",
+    light: "A quick look at what matters today:\n\n",
+  };
+  post += introLines[vibe] ?? introLines.normal;
 
   // Add numbered stories
   content.news.forEach((story, index) => {
@@ -144,9 +165,7 @@ function generateDailyDigest(content: NewsletterContent, topics: string[]): Link
 
   // Add perspective if it fits
   if (content.perspective) {
-    const perspectiveHeader = `💡 The Bottom Line:\n`;
-    const perspectiveText = `${perspectiveHeader}${content.perspective}\n\n`;
-
+    const perspectiveText = `💡 The Bottom Line:\n${content.perspective}\n\n`;
     if ((post + perspectiveText).length < LINKEDIN_CHAR_LIMIT - 200) {
       post += perspectiveText;
     }
@@ -160,11 +179,9 @@ function generateDailyDigest(content: NewsletterContent, topics: string[]): Link
     }
   }
 
-  // Add CTA and hashtags
-  post += `\n\n📬 Get the full analysis in your inbox daily: ${NEWSLETTER_URL}\n\n`;
+  post += `\n\n${cta}\n\n`;
   post += hashtags.join(" ");
 
-  // Truncate if needed
   post = truncateText(post, LINKEDIN_CHAR_LIMIT);
 
   return {
@@ -178,28 +195,29 @@ function generateDailyDigest(content: NewsletterContent, topics: string[]): Link
 /**
  * Generate top story format (lead story only with CTA)
  */
-function generateTopStory(content: NewsletterContent, topics: string[]): LinkedInFormat {
+function generateTopStory(content: NewsletterContent, topics: string[], seed?: string): LinkedInFormat {
   const hashtags = generateHashtags(topics);
+  const vibe = detectVibe(content);
+  const hook = getTopStoryHook(vibe, seed);
+  const cta = getCTA((seed ?? "") + "-top");
   const leadStory = content.news[0];
 
   if (!leadStory) {
     throw new Error("No lead story found in newsletter");
   }
 
-  let post = `📰 ${leadStory.title}\n\n`;
+  let post = `${hook}\n\n`;
+  post += `📰 ${leadStory.title}\n\n`;
   post += `${leadStory.body}\n\n`;
 
-  // Add perspective if relevant
   if (content.perspective) {
     post += `💡 Why it matters:\n${content.perspective}\n\n`;
   }
 
-  // Add source
   post += `🔗 Source: ${leadStory.source.name}\n`;
   post += `${leadStory.source.url}\n\n`;
 
-  // Add CTA
-  post += `📬 Want 4 more stories like this daily? Subscribe at ${NEWSLETTER_URL}\n\n`;
+  post += `${cta}\n\n`;
   post += hashtags.join(" ");
 
   post = truncateText(post, LINKEDIN_CHAR_LIMIT);
@@ -222,9 +240,7 @@ function generateMultiPost(content: NewsletterContent, topics: string[]): MultiP
     let post = `${index + 1}/${content.news.length} — ${story.title}\n\n`;
     post += `${story.body}\n\n`;
     post += `🔗 ${story.source.name}: ${story.source.url}\n\n`;
-
-    // Add hashtags to each post
-    post += hashtags.slice(0, 5).join(" "); // Fewer hashtags per post
+    post += hashtags.slice(0, 5).join(" ");
 
     return {
       post_text: truncateText(post, LINKEDIN_CHAR_LIMIT),
@@ -250,7 +266,6 @@ function generateDealsRoundup(content: NewsletterContent): LinkedInFormat | null
 
   let post = `💰 Fintech Deals Roundup — ${today}\n\n`;
 
-  // Group by type
   const byType = content.whats_hot.reduce((acc, item) => {
     const type = item.type;
     if (!acc[type]) acc[type] = [];
@@ -286,32 +301,9 @@ function generateDealsRoundup(content: NewsletterContent): LinkedInFormat | null
   };
 }
 
-/**
- * Determine recommended strategy based on content analysis
- */
-function determineStrategy(content: NewsletterContent): "daily_digest" | "top_story" | "multi_post" | "deals_roundup" {
-  const storyCount = content.news.length;
-  const whatsHotCount = content.whats_hot?.length || 0;
-
-  // If lots of What's Hot items, focus on deals
-  if (whatsHotCount >= 5) {
-    return "deals_roundup";
-  }
-
-  // If only 1-2 stories, do top story
-  if (storyCount <= 2) {
-    return "top_story";
-  }
-
-  // Check if stories are short enough for single digest
-  const totalBodyLength = content.news.reduce((sum, story) => sum + story.body.length, 0);
-  if (totalBodyLength < 1500) {
-    return "daily_digest";
-  }
-
-  // Default to daily digest for typical newsletters
-  return "daily_digest";
-}
+// ---------------------------------------------------------------------------
+// Metadata
+// ---------------------------------------------------------------------------
 
 /**
  * Generate metadata for content analysis
@@ -319,7 +311,6 @@ function determineStrategy(content: NewsletterContent): "daily_digest" | "top_st
 export function generateMetadata(content: NewsletterContent): LinkedInMetadata {
   const topics = extractTopics(content);
 
-  // Simple heuristic for "breaking news" - check for urgent keywords
   const urgentKeywords = ["breaking", "exclusive", "urgent", "alert", "just in", "announced today"];
   const hasBreakingNews = content.news.some(story =>
     urgentKeywords.some(keyword =>
@@ -336,27 +327,53 @@ export function generateMetadata(content: NewsletterContent): LinkedInMetadata {
   };
 }
 
+// ---------------------------------------------------------------------------
+// Main Extractor
+// ---------------------------------------------------------------------------
+
 /**
- * Main function to extract and format LinkedIn content from newsletter
+ * Main function to extract and format LinkedIn content from newsletter.
+ *
+ * Uses the strategy engine for recommendations and the template library
+ * for varied, content-aware formatting. Backward compatible — the response
+ * shape is the same as Phase 1 with `trailer` added to `formats`.
+ *
+ * @param content - Newsletter content
+ * @param strategyOverride - Force a specific strategy
  */
-export function extractLinkedInContent(content: NewsletterContent): LinkedInContent {
+export function extractLinkedInContent(
+  content: NewsletterContent,
+  strategyOverride?: Strategy
+): LinkedInContent {
   const topics = extractTopics(content);
-  const recommendedStrategy = determineStrategy(content);
+  const vibe = detectVibe(content);
+  const seed = new Date().toISOString().slice(0, 10);
+
+  // Use the strategy engine for recommendation
+  const strategyResult = selectStrategy(content, strategyOverride);
 
   const formats: LinkedInContent["formats"] = {
-    daily_digest: generateDailyDigest(content, topics),
-    top_story: generateTopStory(content, topics),
+    daily_digest: generateDailyDigest(content, topics, seed),
+    top_story: generateTopStory(content, topics, seed),
     multi_post: generateMultiPost(content, topics),
   };
 
-  // Only include deals roundup if What's Hot exists
+  // Deals roundup — only if What's Hot exists
   const dealsRoundup = generateDealsRoundup(content);
   if (dealsRoundup) {
     formats.deals_roundup = dealsRoundup;
   }
 
+  // Trailer post — always generate
+  const hashtags = generateHashtags(topics);
+  const trailer = generateTrailerPost(content, vibe, hashtags, seed);
+  formats.trailer = {
+    ...trailer,
+    estimated_read_time: estimateReadTime(trailer.post_text),
+  };
+
   return {
-    recommended_strategy: recommendedStrategy,
+    recommended_strategy: strategyResult.recommended,
     formats
   };
 }
