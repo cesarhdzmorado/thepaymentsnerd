@@ -32,8 +32,7 @@ export interface LinkedInPostResult {
 // Config
 // ---------------------------------------------------------------------------
 
-const LINKEDIN_API_VERSION = "202401";
-const POSTS_ENDPOINT = "https://api.linkedin.com/rest/posts";
+const POSTS_ENDPOINT = "https://api.linkedin.com/v2/ugcPosts";
 const USERINFO_ENDPOINT = "https://api.linkedin.com/v2/userinfo";
 const TOKEN_ENDPOINT = "https://www.linkedin.com/oauth/v2/accessToken";
 
@@ -182,12 +181,16 @@ export async function createPost(text: string): Promise<LinkedInPostResult> {
     const body = {
       author: `urn:li:person:${personId}`,
       lifecycleState: "PUBLISHED",
-      visibility: "PUBLIC",
-      commentary: text,
-      distribution: {
-        feedDistribution: "MAIN_FEED",
-        targetEntities: [],
-        thirdPartyDistributionChannels: [],
+      visibility: {
+        "com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC",
+      },
+      specificContent: {
+        "com.linkedin.ugc.ShareContent": {
+          shareCommentary: {
+            text,
+          },
+          shareMediaCategory: "NONE",
+        },
       },
     };
 
@@ -195,7 +198,6 @@ export async function createPost(text: string): Promise<LinkedInPostResult> {
       method: "POST",
       headers: {
         Authorization: `Bearer ${accessToken}`,
-        "LinkedIn-Version": LINKEDIN_API_VERSION,
         "X-Restli-Protocol-Version": "2.0.0",
         "Content-Type": "application/json",
       },
