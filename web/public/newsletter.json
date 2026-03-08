@@ -1,98 +1,84 @@
 {
   "news": [
     {
-      "title": "Revolut Files for US Banking License, Intensifying Fintech Competition",
-      "body": "Revolut has applied for a US banking license, appointing a former Visa executive as its US CEO, which is part of its strategy to expand financial services in the US market. This move could disrupt traditional banks and fintechs, intensifying competition in the US fintech landscape. Revolut's aggressive expansion may strain resources and divert focus from other markets, while potential regulatory challenges loom as it navigates the US financial landscape.",
+      "title": "Stripe Introduces AI Billing Tools for Real-Time AI Consumption Charges",
+      "body": "Stripe launched AI-focused metering and billing capabilities, allowing software companies to charge for AI consumption in real-time. This impacts Stripe, software developers, and businesses using AI services, potentially disrupting traditional billing models. Increased adoption of AI services is expected as billing becomes more transparent and aligned with usage.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47398/revolut-files-for-us-banking-licence"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/stripe-introduces-billing-tools-to-meter-and-charge-ai-usage/"
       }
     },
     {
-      "title": "Mastercard Pilots Agentic Transactions in Malaysia, Leading AI Commerce Innovation",
-      "body": "Mastercard completed a pilot for authenticated agentic transactions in Malaysia, marking a significant advancement in AI-powered commerce. This positions Mastercard as a leader in agentic commerce innovation, potentially setting a precedent for global adoption. However, cultural and regulatory differences may pose challenges to scaling agentic transactions globally, influencing regional and global payment ecosystems.",
+      "title": "Absa and Thunes Launch Digital Remittances to Enhance Cross-Border Payments",
+      "body": "Absa Group partnered with Thunes to launch Absa Global Pay, a digital remittance solution for faster and more affordable cross-border payments in Africa. This partnership strengthens Absa's position in digital payments and affects African consumers and businesses relying on remittances. Increased competition and innovation in Africa's remittance market could result from this partnership.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109083/mastercard-pilots-agentic-transactions-in-malaysia"
+        "url": "https://www.finextra.com/pressarticle/109081/absa-and-thunes-team-on-digital-remittances"
       }
     },
     {
-      "title": "Florida Passes First State-Level Stablecoin Bill, Setting Regulatory Precedent",
-      "body": "Florida passed Senate Bill 314, providing a framework for payment stablecoin issuers, aligning with federal GENIUS Act standards. This sets a precedent for state-level stablecoin regulation, potentially influencing other states to follow suit. While this regulatory clarity may boost stablecoin adoption and innovation within the state, it could also create a fragmented regulatory landscape, complicating compliance for issuers.",
+      "title": "TransUnion Partners with Google Cloud to Enhance AI Credit Intelligence",
+      "body": "TransUnion launched its AI Analytics Orchestrator Agent, leveraging Google's Gemini models to enhance credit intelligence. This affects TransUnion, Google Cloud, financial institutions, and consumers relying on credit services, strengthening TransUnion's credit analytics capabilities. AI-driven credit intelligence could improve credit scoring accuracy and financial inclusion.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109084/transunion-targets-ai-driven-credit-intelligence-with-google-cloud"
+      }
+    },
+    {
+      "title": "Lloyds Bank Plans to Sell Customer Data, Aiming for Fintech Dominance",
+      "body": "Lloyds Bank plans to sell customer data and cut IT costs by 35% to become the UK's biggest fintech. This strategy could disrupt the UK fintech landscape and raise potential regulatory scrutiny over data privacy and consumer protection. The move may erode customer trust if not managed transparently.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47402/lloyds-to-sell-customer-data-cut-it-costs-to-become-the-uks-biggest-fintech---ft"
+      }
+    },
+    {
+      "title": "Binance Lawsuit Dismissed, But Regulatory Scrutiny on Crypto Intensifies",
+      "body": "A lawsuit against Binance for alleged terrorist financing was dismissed, but the judge indicated plaintiffs could refile with stronger allegations. This affects Binance, cryptocurrency users, and regulators monitoring crypto exchanges, as legal challenges could impact Binance's operations and reputation. Increased regulatory scrutiny on crypto exchanges and potential legal reforms could follow.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/392733/first-us-state-level-stablecoin-bill-passes-in-florida"
-      }
-    },
-    {
-      "title": "Alchemy Pay Secures 15th Money Transmitter License, Strengthening Crypto-Fiat Operations",
-      "body": "Alchemy Pay obtained a Money Transmitter License in Delaware, marking its 15th license in the US, which enhances its ability to operate cryptocurrency and fiat payment services across multiple states. This positions Alchemy Pay as a reliable player in the crypto-fiat payment space, strengthening its regulatory compliance. However, regulatory hurdles in other states may slow down further expansion, impacting its growth trajectory.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/alchemy-pay-hits-15-money-transmitter-licenses-with-delaware-win/"
-      }
-    },
-    {
-      "title": "FinTech and Big Finance Fight to Own the Stablecoin Stack, Intensifying Competition",
-      "body": "Stablecoins are evolving into a multi-layered infrastructure system, with Visa and Bridge expanding cross-border stablecoin capabilities, while BitGo and SoFi announced new initiatives. This competitive landscape is becoming a battleground for fintechs and traditional finance, each vying for dominance. The rapid evolution of stablecoins may outpace regulatory frameworks, leading to potential compliance challenges and increased regulatory attention.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/fintech-and-big-finance-fight-to-own-the-stablecoin-stack/"
+        "url": "https://www.theblock.co/post/392761/binance-terrorism-lawsuit-dismissed-but-judge-signals-plaintiffs-could-refile-with-sharper-allegations"
       }
     }
   ],
-  "perspective": "I'm watching the escalating competition in the fintech landscape, particularly as Revolut's US banking license application and Florida's stablecoin bill signal a shift towards regulatory acceptance and innovation. With Mastercard's advancements in agentic transactions and Alchemy Pay's licensing success, the race for dominance in crypto and stablecoin infrastructure is heating up. If your team is still viewing regulatory developments as mere hurdles, it's time to pivot\u2014these changes are reshaping the competitive dynamics in digital finance.",
+  "perspective": "I'm watching the convergence of AI and payments as Stripe's new billing tools signal a shift towards real-time consumption models. This aligns with the broader trend of AI integration in financial services, as seen in TransUnion's partnership with Google Cloud. If your team is still viewing AI as a future consideration, it's time to accelerate your strategy\u2014these developments are reshaping competitive dynamics and consumer expectations in the payments landscape.",
   "curiosity": {
-    "text": "Did you know that in 1973, the Society for Worldwide Interbank Financial Telecommunication (SWIFT) was founded, revolutionizing international payments by providing a standardized platform for financial institutions to securely exchange electronic messages about financial transactions? This innovation significantly enhanced the efficiency and security of cross-border payments globally."
+    "text": "Did you know that in 2001, the first cross-border payment using the SWIFT gpi (Global Payments Innovation) was executed? This advancement allowed for real-time tracking of international payments, significantly improving transparency and speed in the global payments landscape."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddee\ud83c\uddea",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Evervault",
-      "description": "Raised $25M to enhance data encryption platform.",
-      "source_url": "https://www.finextra.com/pressarticle/109054/evervault-raises-25m-to-deliver-end-to-end-encryption-for-sensitive-data"
+      "company": "Allica Bank",
+      "description": "Becomes Europe\u2019s newest unicorn with $155m Series D",
+      "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Science Corp.",
-      "description": "Raised $230M Series C for brain-computer interface tech.",
-      "source_url": "https://news.crunchbase.com/venture/braintech-ai-startup-science-neuralink-alums-seriesc/"
+      "company": "Kalshi",
+      "description": "Exploring $20 billion valuation amid regulatory challenges",
+      "source_url": "https://www.theblock.co/post/392755/kalshi-and-polymarket-each-exploring-fundraising-at-20-billion-valuations-double-previous-rounds-wsj"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Denki",
-      "description": "Raised $4.1M to automate financial audits with AI.",
-      "source_url": "https://news.crunchbase.com/venture/yc-backed-denki-raise-financial-audit-automation-ai/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "BitGo",
-      "description": "Provides infrastructure for SoFi stablecoin distribution.",
-      "source_url": "https://www.finextra.com/pressarticle/109067/bitgo-to-provide-infrastructure-and-support-distribution-for-sofi-stablecoin"
+      "company": "Polymarket",
+      "description": "Exploring $20 billion valuation amid regulatory challenges",
+      "source_url": "https://www.theblock.co/post/392755/kalshi-and-polymarket-each-exploring-fundraising-at-20-billion-valuations-double-previous-rounds-wsj"
     },
     {
       "flag": "\ud83c\udded\ud83c\uddf0",
       "type": "investment",
       "company": "Tether",
-      "description": "Invested in Utexo for USDT settlement on Bitcoin.",
+      "description": "Invests in Utexo for USDT settlement on Bitcoin",
       "source_url": "https://www.theblock.co/post/392669/tether-invests-in-utexo-a-startup-enabling-usdt-settlement-on-bitcoin"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "IPO",
-      "company": "Pine Labs",
-      "description": "Raised $440M in IPO, backed by PayPal and Mastercard.",
-      "source_url": "https://techcrunch.com/2025/11/14/pine-labs-gets-warm-market-welcome-on-440m-india-ipo-despite-a-valuation-trim"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "expansion",
-      "company": "Jack Mallers\u2019 Strike",
-      "description": "Obtained BitLicense to offer Bitcoin services in New York.",
+      "company": "Strike",
+      "description": "Scores BitLicense to offer New Yorkers bitcoin services",
       "source_url": "https://www.theblock.co/post/392650/jack-mallers-strike-scores-bitlicense-to-offer-new-yorkers-bitcoin-services"
     }
   ]
