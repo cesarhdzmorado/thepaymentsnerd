@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Stripe Introduces AI Billing Tools for Real-Time AI Consumption Charges",
-      "body": "Stripe launched AI-focused metering and billing capabilities, allowing software companies to charge for AI consumption in real-time. This impacts Stripe, software developers, and businesses using AI services, potentially disrupting traditional billing models. Increased adoption of AI services is expected as billing becomes more transparent and aligned with usage.",
+      "title": "Irish Banks Launch Zippay to Challenge Revolut's Dominance in P2P Payments",
+      "body": "Ireland's top three retail banks have launched Zippay, an in-app mobile payment service developed by Nexi, to compete with fintech giant Revolut. This intensifies competition in the Irish fintech space, potentially driving innovation and better services for consumers. Traditional banks are enhancing their digital offerings to reclaim market share from fintechs, which could lead to increased partnerships and innovations in the sector.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47406/irish-banks-launch-p2p-payments-service?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Real-Time Payments in North America Transition from Expansion to Execution",
+      "body": "Real-time payments in North America are moving from expansion to execution, with the U.S., Canada, and Mexico modernizing their systems. This shift could redefine competitive dynamics, as institutions that adapt quickly will gain a significant advantage in transaction speed and customer satisfaction. The demand for real-time payment solutions is expected to rise, prompting potential regulatory updates to accommodate these new technologies.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/stripe-introduces-billing-tools-to-meter-and-charge-ai-usage/"
+        "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-reach-a-turning-point-in-north-america/"
       }
     },
     {
-      "title": "Absa and Thunes Launch Digital Remittances to Enhance Cross-Border Payments",
-      "body": "Absa Group partnered with Thunes to launch Absa Global Pay, a digital remittance solution for faster and more affordable cross-border payments in Africa. This partnership strengthens Absa's position in digital payments and affects African consumers and businesses relying on remittances. Increased competition and innovation in Africa's remittance market could result from this partnership.",
+      "title": "Visa Reports 75% of Singapore Consumers Use AI for Shopping",
+      "body": "Visa reports that over 75% of consumers in Singapore utilize AI for shopping, indicating a significant shift towards intelligent commerce in the Asia Pacific region. Companies integrating AI into their commerce platforms may gain a competitive edge in consumer engagement and operational efficiency. This trend reflects the growing importance of AI in commerce, which could lead to new business models and regulatory considerations around data privacy.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/visa-sees-asia-pacific-leading-global-shift-to-intelligent-commerce/"
+      }
+    },
+    {
+      "title": "Revolut Applies for OCC Charter to Expand U.S. Operations",
+      "body": "Revolut has applied for an OCC charter, aiming to enhance its regulatory standing and broaden its U.S. operations. Securing this charter could provide Revolut with a competitive edge, allowing it to offer more comprehensive banking services. This move aligns with the trend of fintechs seeking regulatory approval to expand, which may prompt traditional banks to innovate in response to increased competition.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/revolut-applies-for-occ-charter/813922/"
+      }
+    },
+    {
+      "title": "Bank of Canada Completes Experiment with Tokenized Bonds Using DLT",
+      "body": "The Bank of Canada has successfully completed an experiment issuing tokenized bonds using distributed ledger technology, settling payments in wholesale central bank deposits. This initiative could pave the way for more efficient bond markets and inspire similar projects globally, challenging traditional bond issuance methods. Increased DLT adoption in financial markets may influence regulatory frameworks and cross-border collaborations.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109081/absa-and-thunes-team-on-digital-remittances"
-      }
-    },
-    {
-      "title": "TransUnion Partners with Google Cloud to Enhance AI Credit Intelligence",
-      "body": "TransUnion launched its AI Analytics Orchestrator Agent, leveraging Google's Gemini models to enhance credit intelligence. This affects TransUnion, Google Cloud, financial institutions, and consumers relying on credit services, strengthening TransUnion's credit analytics capabilities. AI-driven credit intelligence could improve credit scoring accuracy and financial inclusion.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109084/transunion-targets-ai-driven-credit-intelligence-with-google-cloud"
-      }
-    },
-    {
-      "title": "Lloyds Bank Plans to Sell Customer Data, Aiming for Fintech Dominance",
-      "body": "Lloyds Bank plans to sell customer data and cut IT costs by 35% to become the UK's biggest fintech. This strategy could disrupt the UK fintech landscape and raise potential regulatory scrutiny over data privacy and consumer protection. The move may erode customer trust if not managed transparently.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47402/lloyds-to-sell-customer-data-cut-it-costs-to-become-the-uks-biggest-fintech---ft"
-      }
-    },
-    {
-      "title": "Binance Lawsuit Dismissed, But Regulatory Scrutiny on Crypto Intensifies",
-      "body": "A lawsuit against Binance for alleged terrorist financing was dismissed, but the judge indicated plaintiffs could refile with stronger allegations. This affects Binance, cryptocurrency users, and regulators monitoring crypto exchanges, as legal challenges could impact Binance's operations and reputation. Increased regulatory scrutiny on crypto exchanges and potential legal reforms could follow.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/392761/binance-terrorism-lawsuit-dismissed-but-judge-signals-plaintiffs-could-refile-with-sharper-allegations"
+        "url": "https://www.finextra.com/newsarticle/47405/bank-of-canada-completes-dlt-based-bond-issuance-experiment?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "I'm watching the convergence of AI and payments as Stripe's new billing tools signal a shift towards real-time consumption models. This aligns with the broader trend of AI integration in financial services, as seen in TransUnion's partnership with Google Cloud. If your team is still viewing AI as a future consideration, it's time to accelerate your strategy\u2014these developments are reshaping competitive dynamics and consumer expectations in the payments landscape.",
+  "perspective": "I'm watching the intensifying competition between traditional banks and fintechs, as seen in the launch of Zippay and Revolut's OCC charter application. These moves signal a critical moment for innovation in the payments landscape, particularly as real-time payments gain traction across North America. If your team is still viewing fintechs as niche players, it's time to recalibrate\u2014traditional banks are stepping up their game, and the competitive dynamics are shifting rapidly.",
   "curiosity": {
-    "text": "Did you know that in 2001, the first cross-border payment using the SWIFT gpi (Global Payments Innovation) was executed? This advancement allowed for real-time tracking of international payments, significantly improving transparency and speed in the global payments landscape."
+    "text": "Did you know that the first payment processing system for credit cards was created in 1950 by Ralph Schneider and matriarchal entrepreneur Frank McNamara, who utilized a 5% fee model to establish a platform for secure transactions? This innovation marked the beginning of what would evolve into the complex payment processing systems we use today."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "fundraising",
+      "company": "Nscale",
+      "description": "Raises $2bn for data center expansion amid AI sector growth.",
+      "source_url": "https://www.ft.com/content/531f7512-94aa-4e97-b986-2dcd8e8cb4c0?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Science Corp.",
+      "description": "Secures $230M Series C for brain-computer interface tech.",
+      "source_url": "https://news.crunchbase.com/venture/braintech-ai-startup-science-neuralink-alums-seriesc/"
+    },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Allica Bank",
-      "description": "Becomes Europe\u2019s newest unicorn with $155m Series D",
+      "description": "Becomes unicorn with $155m Series D funding.",
       "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Kalshi",
-      "description": "Exploring $20 billion valuation amid regulatory challenges",
-      "source_url": "https://www.theblock.co/post/392755/kalshi-and-polymarket-each-exploring-fundraising-at-20-billion-valuations-double-previous-rounds-wsj"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Polymarket",
-      "description": "Exploring $20 billion valuation amid regulatory challenges",
-      "source_url": "https://www.theblock.co/post/392755/kalshi-and-polymarket-each-exploring-fundraising-at-20-billion-valuations-double-previous-rounds-wsj"
+      "company": "Eight Sleep",
+      "description": "Raises $50M at $1.5B valuation for AI-driven health expansion.",
+      "source_url": "https://news.crunchbase.com/venture/unicorn-eight-sleep-funding-ai-driven-health/"
     },
     {
       "flag": "\ud83c\udded\ud83c\uddf0",
       "type": "investment",
-      "company": "Tether",
-      "description": "Invests in Utexo for USDT settlement on Bitcoin",
-      "source_url": "https://www.theblock.co/post/392669/tether-invests-in-utexo-a-startup-enabling-usdt-settlement-on-bitcoin"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Strike",
-      "description": "Scores BitLicense to offer New Yorkers bitcoin services",
-      "source_url": "https://www.theblock.co/post/392650/jack-mallers-strike-scores-bitlicense-to-offer-new-yorkers-bitcoin-services"
+      "company": "OKX",
+      "description": "NYSE parent ICE invests $200M at $25B valuation.",
+      "source_url": "https://www.theblock.co/post/392772/why-nyse-parent-ice-okx-reported-200-million-investment-25-billion-valuation?utm_source=rss&utm_medium=rss"
     }
   ]
 }
