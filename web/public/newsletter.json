@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Irish Banks Launch Zippay to Challenge Revolut's Dominance in P2P Payments",
-      "body": "Ireland's top three retail banks have launched Zippay, an in-app mobile payment service developed by Nexi, to compete with fintech giant Revolut. This intensifies competition in the Irish fintech space, potentially driving innovation and better services for consumers. Traditional banks are enhancing their digital offerings to reclaim market share from fintechs, which could lead to increased partnerships and innovations in the sector.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47406/irish-banks-launch-p2p-payments-service?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Real-Time Payments in North America Transition from Expansion to Execution",
-      "body": "Real-time payments in North America are moving from expansion to execution, with the U.S., Canada, and Mexico modernizing their systems. This shift could redefine competitive dynamics, as institutions that adapt quickly will gain a significant advantage in transaction speed and customer satisfaction. The demand for real-time payment solutions is expected to rise, prompting potential regulatory updates to accommodate these new technologies.",
+      "title": "Kraken's Fed Approval: A Game Changer for SPDI Banks",
+      "body": "The Federal Reserve Bank of Kansas City granted Kraken a master payment account, allowing it to connect directly to U.S. core settlement systems. This approval not only benefits Kraken but also other SPDI banks and fintechs seeking similar access, potentially challenging traditional banks' market positions. Expect increased interest from other fintechs in obtaining similar approvals, potentially leading to regulatory adjustments.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-reach-a-turning-point-in-north-america/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/kraken-fed-approval-is-spdi-bank-models-biggest-test-yet/"
       }
     },
     {
-      "title": "Visa Reports 75% of Singapore Consumers Use AI for Shopping",
-      "body": "Visa reports that over 75% of consumers in Singapore utilize AI for shopping, indicating a significant shift towards intelligent commerce in the Asia Pacific region. Companies integrating AI into their commerce platforms may gain a competitive edge in consumer engagement and operational efficiency. This trend reflects the growing importance of AI in commerce, which could lead to new business models and regulatory considerations around data privacy.",
+      "title": "Visa's AI Reduces Cash Flow Uncertainty",
+      "body": "Visa's AI solutions have significantly reduced cash flow uncertainty for CFOs from 68% to 17%, showcasing the technology's impact on financial management. This advancement could attract more corporate clients to Visa, enhancing its market share against competitors. Other payment processors may invest in AI to remain competitive, leading to an industry-wide shift towards AI-driven financial management.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/visa-sees-asia-pacific-leading-global-shift-to-intelligent-commerce/"
+        "url": "https://www.pymnts.com/working-capital/2026/visa-says-ai-cuts-cfo-cash-flow-uncertainty-from-68-to-17/"
       }
     },
     {
-      "title": "Revolut Applies for OCC Charter to Expand U.S. Operations",
-      "body": "Revolut has applied for an OCC charter, aiming to enhance its regulatory standing and broaden its U.S. operations. Securing this charter could provide Revolut with a competitive edge, allowing it to offer more comprehensive banking services. This move aligns with the trend of fintechs seeking regulatory approval to expand, which may prompt traditional banks to innovate in response to increased competition.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/revolut-applies-for-occ-charter/813922/"
-      }
-    },
-    {
-      "title": "Bank of Canada Completes Experiment with Tokenized Bonds Using DLT",
-      "body": "The Bank of Canada has successfully completed an experiment issuing tokenized bonds using distributed ledger technology, settling payments in wholesale central bank deposits. This initiative could pave the way for more efficient bond markets and inspire similar projects globally, challenging traditional bond issuance methods. Increased DLT adoption in financial markets may influence regulatory frameworks and cross-border collaborations.",
+      "title": "Stablecoin Startup Kast Raises $80 Million",
+      "body": "Kast, a stablecoin platform founded by a former Circle executive, raised $80 million in a Series A round led by QED Investors and Left Lane Capital. This significant funding positions Kast to compete with established players like Circle and Tether in the stablecoin market. Increased competition could drive innovation and regulatory scrutiny in the stablecoin market.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47405/bank-of-canada-completes-dlt-based-bond-issuance-experiment?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Aon Uses Stablecoins for Insurance Premium Payments",
+      "body": "Aon collaborated with Coinbase and Paxos to settle insurance premium payments using stablecoins, marking a significant step in digital asset adoption. This move could encourage other insurers to adopt stablecoins, enhancing payment efficiency and transparency. Wider adoption of stablecoins in insurance could lead to regulatory adjustments and increased scrutiny.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/aon-says-stablecoins-speed-insurance-premium-payments/"
+      }
+    },
+    {
+      "title": "Nasdaq Partners with Boerse Stuttgart for Tokenized Settlement",
+      "body": "Nasdaq is partnering with Boerse Stuttgart's Seturion platform to advance tokenized settlement in Europe, aiming to transform the fragmented settlement landscape. This partnership could position Nasdaq as a leader in tokenized settlements, attracting more trading volume. Success may prompt other exchanges to explore similar partnerships, accelerating the shift to tokenized financial systems.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/392931/nasdaq-boerse-stuttgarts-tokenized-settlement-europe?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "I'm watching the intensifying competition between traditional banks and fintechs, as seen in the launch of Zippay and Revolut's OCC charter application. These moves signal a critical moment for innovation in the payments landscape, particularly as real-time payments gain traction across North America. If your team is still viewing fintechs as niche players, it's time to recalibrate\u2014traditional banks are stepping up their game, and the competitive dynamics are shifting rapidly.",
+  "perspective": "I'm watching the rapid evolution of stablecoins and AI in payments, as evidenced by Aon's adoption of stablecoins for insurance and Visa's AI-driven cash flow solutions. These developments highlight a critical shift towards integrating digital assets and advanced technologies into mainstream financial operations. If your team is still viewing these trends as peripheral, it's time to reassess\u2014embracing these innovations is becoming essential for competitive positioning in 2026.",
   "curiosity": {
-    "text": "Did you know that the first payment processing system for credit cards was created in 1950 by Ralph Schneider and matriarchal entrepreneur Frank McNamara, who utilized a 5% fee model to establish a platform for secure transactions? This innovation marked the beginning of what would evolve into the complex payment processing systems we use today."
+    "text": "Did you know that the first international money transfer system, Western Union, was founded in 1851? Originally a telegraph company, it revolutionized remittances by allowing people to send money across long distances, paving the way for today's instant cross-border payment solutions."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "Nscale",
-      "description": "Raises $2bn for data center expansion amid AI sector growth.",
-      "source_url": "https://www.ft.com/content/531f7512-94aa-4e97-b986-2dcd8e8cb4c0?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Science Corp.",
-      "description": "Secures $230M Series C for brain-computer interface tech.",
-      "source_url": "https://news.crunchbase.com/venture/braintech-ai-startup-science-neuralink-alums-seriesc/"
+      "company": "Kast",
+      "description": "Stablecoin startup Kast raises $80 million in Series A.",
+      "source_url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "NjiaPay",
+      "description": "Payment fintech NjiaPay closes $2.1 million seed investment.",
+      "source_url": "https://www.finextra.com/pressarticle/109092/payment-fintech-njiapay-closes-21-million-seed-investment?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddff",
+      "type": "fundraising",
+      "company": "Uzum",
+      "description": "Uzum secures over $130 million in strategic investment.",
+      "source_url": "https://www.finextra.com/pressarticle/109104/uzum-secures-over-130-million-in-strategic-investmen?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Allica Bank",
-      "description": "Becomes unicorn with $155m Series D funding.",
-      "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "Revolut files for US banking license, hires ex-Visa exec.",
+      "source_url": "https://sifted.eu/articles/revolut-us-banking-licence/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Eight Sleep",
-      "description": "Raises $50M at $1.5B valuation for AI-driven health expansion.",
-      "source_url": "https://news.crunchbase.com/venture/unicorn-eight-sleep-funding-ai-driven-health/"
-    },
-    {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "investment",
-      "company": "OKX",
-      "description": "NYSE parent ICE invests $200M at $25B valuation.",
-      "source_url": "https://www.theblock.co/post/392772/why-nyse-parent-ice-okx-reported-200-million-investment-25-billion-valuation?utm_source=rss&utm_medium=rss"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Blockchain.com",
+      "description": "Blockchain.com expands operations to Ghana.",
+      "source_url": "https://www.theblock.co/post/392919/blockchain-com-ghana?utm_source=rss&utm_medium=rss"
     }
   ]
 }
