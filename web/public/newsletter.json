@@ -1,85 +1,99 @@
 {
   "news": [
     {
-      "title": "Kraken's Fed Approval: A Game Changer for SPDI Banks",
-      "body": "The Federal Reserve Bank of Kansas City granted Kraken a master payment account, allowing it to connect directly to U.S. core settlement systems. This approval not only benefits Kraken but also other SPDI banks and fintechs seeking similar access, potentially challenging traditional banks' market positions. Expect increased interest from other fintechs in obtaining similar approvals, potentially leading to regulatory adjustments.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/kraken-fed-approval-is-spdi-bank-models-biggest-test-yet/"
-      }
-    },
-    {
-      "title": "Visa's AI Reduces Cash Flow Uncertainty",
-      "body": "Visa's AI solutions have significantly reduced cash flow uncertainty for CFOs from 68% to 17%, showcasing the technology's impact on financial management. This advancement could attract more corporate clients to Visa, enhancing its market share against competitors. Other payment processors may invest in AI to remain competitive, leading to an industry-wide shift towards AI-driven financial management.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/working-capital/2026/visa-says-ai-cuts-cfo-cash-flow-uncertainty-from-68-to-17/"
-      }
-    },
-    {
-      "title": "Stablecoin Startup Kast Raises $80 Million",
-      "body": "Kast, a stablecoin platform founded by a former Circle executive, raised $80 million in a Series A round led by QED Investors and Left Lane Capital. This significant funding positions Kast to compete with established players like Circle and Tether in the stablecoin market. Increased competition could drive innovation and regulatory scrutiny in the stablecoin market.",
+      "title": "JP Morgan Partners with Mirakl to Pioneer Agentic Commerce",
+      "body": "JP Morgan Payments has teamed up with Mirakl to enhance autonomous payments through AI agents, positioning itself as a leader in agentic commerce. This initiative could disrupt traditional payment processes and accelerate the adoption of AI-driven commerce across e-commerce platforms. Competitors may need to respond quickly to avoid losing market share in this evolving landscape.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47413/jp-morgan-payments-teams-with-mirakl-to-tackle-agentic-commerce"
       }
     },
     {
-      "title": "Aon Uses Stablecoins for Insurance Premium Payments",
-      "body": "Aon collaborated with Coinbase and Paxos to settle insurance premium payments using stablecoins, marking a significant step in digital asset adoption. This move could encourage other insurers to adopt stablecoins, enhancing payment efficiency and transparency. Wider adoption of stablecoins in insurance could lead to regulatory adjustments and increased scrutiny.",
+      "title": "Volt and YouHodler Launch Real-Time Payments for Web3 Fintech",
+      "body": "Volt has partnered with YouHodler to introduce real-time payments for Web3 fintech, bridging the gap between crypto and traditional finance. This collaboration positions Volt as a frontrunner in real-time payments for the crypto sector, potentially accelerating the integration of crypto into mainstream finance. Traditional payment providers may face increased pressure to innovate in response to this development.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/aon-says-stablecoins-speed-insurance-premium-payments/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109125/volt-ushers-in-real-time-payments-for-web3-fintech-youhodler"
       }
     },
     {
-      "title": "Nasdaq Partners with Boerse Stuttgart for Tokenized Settlement",
-      "body": "Nasdaq is partnering with Boerse Stuttgart's Seturion platform to advance tokenized settlement in Europe, aiming to transform the fragmented settlement landscape. This partnership could position Nasdaq as a leader in tokenized settlements, attracting more trading volume. Success may prompt other exchanges to explore similar partnerships, accelerating the shift to tokenized financial systems.",
+      "title": "Mastercard Develops AI-Powered Virtual C-Suite for SMEs",
+      "body": "Mastercard is creating an AI-powered virtual C-suite to support SMEs, a service typically reserved for larger corporations. This initiative could enhance Mastercard's market share in the SME sector and prompt other financial service providers to adopt similar AI strategies. However, SMEs may struggle with the integration of such advanced solutions without adequate support.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47418/mastercard-builds-virtual-c-suite-of-ai-agents-for-smes"
+      }
+    },
+    {
+      "title": "Ripple Acquires BC Payments to Expand in Australia",
+      "body": "Ripple is acquiring BC Payments to secure an Australian license, enabling it to offer a comprehensive payments platform in the region. This acquisition strengthens Ripple's position in the Australian market and may drive increased competition and innovation in the payments sector. However, regulatory scrutiny could pose challenges to Ripple's operations in Australia.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/392931/nasdaq-boerse-stuttgarts-tokenized-settlement-europe?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/393127/ripple-bc-payments-australia-license"
+      }
+    },
+    {
+      "title": "Embedded Finance Faces Increased CFO Scrutiny",
+      "body": "Embedded finance is evolving into a critical operational infrastructure, prompting CFOs to assess its ROI and governance. This scrutiny could lead to consolidation in the sector, with only the most robust platforms surviving. Financial service providers demonstrating strong governance may gain a competitive edge in this maturing landscape.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payments-innovation/2026/embedded-finance-now-has-to-survive-the-cfo-audit/"
       }
     }
   ],
-  "perspective": "I'm watching the rapid evolution of stablecoins and AI in payments, as evidenced by Aon's adoption of stablecoins for insurance and Visa's AI-driven cash flow solutions. These developments highlight a critical shift towards integrating digital assets and advanced technologies into mainstream financial operations. If your team is still viewing these trends as peripheral, it's time to reassess\u2014embracing these innovations is becoming essential for competitive positioning in 2026.",
+  "perspective": "I'm watching the growing integration of AI and real-time payments as key themes shaping the payments landscape. JP Morgan's partnership with Mirakl and Volt's collaboration with YouHodler highlight a critical shift towards agentic commerce and crypto integration, respectively. If your team is still viewing these trends as peripheral, it's time to reassess\u2014embracing AI and real-time capabilities is becoming essential for competitive positioning in 2026.",
   "curiosity": {
-    "text": "Did you know that the first international money transfer system, Western Union, was founded in 1851? Originally a telegraph company, it revolutionized remittances by allowing people to send money across long distances, paving the way for today's instant cross-border payment solutions."
+    "text": "Did you know that the first recorded use of wire transfers dates back to 1872 when Western Union launched its telegraph money transfer service? This innovative method allowed for faster and more efficient monetary transactions over long distances, setting the stage for today's electronic payment systems."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Kast",
-      "description": "Stablecoin startup Kast raises $80 million in Series A.",
-      "source_url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Raised $80 million for stablecoin platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Outpost",
+      "description": "Secured $17.5 million to expand global merchant sales.",
+      "source_url": "https://www.finextra.com/newsarticle/47417/outpost-raises-175m-to-help-merchants-sell-worldwide"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Ripple",
+      "description": "Acquired BC Payments for Australian license.",
+      "source_url": "https://www.theblock.co/post/393127/ripple-bc-payments-australia-license"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "partnership",
+      "company": "Volt",
+      "description": "Partnered with YouHodler for real-time payments.",
+      "source_url": "https://www.finextra.com/pressarticle/109125/volt-ushers-in-real-time-payments-for-web3-fintech-youhodler"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "launch",
+      "company": "SquareFi",
+      "description": "Emerged from stealth to enable global business payments.",
+      "source_url": "https://www.finextra.com/pressarticle/109121/stablecoin-startup-squarefi-emerges-from-stealth"
     },
     {
       "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "fundraising",
       "company": "NjiaPay",
-      "description": "Payment fintech NjiaPay closes $2.1 million seed investment.",
-      "source_url": "https://www.finextra.com/pressarticle/109092/payment-fintech-njiapay-closes-21-million-seed-investment?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Closed $2.1 million seed round for payment solutions.",
+      "source_url": "https://www.finextra.com/pressarticle/109092/payment-fintech-njiapay-closes-21-million-seed-investment"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddff",
-      "type": "fundraising",
-      "company": "Uzum",
-      "description": "Uzum secures over $130 million in strategic investment.",
-      "source_url": "https://www.finextra.com/pressarticle/109104/uzum-secures-over-130-million-in-strategic-investmen?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\udde8\ud83c\udde6",
       "type": "expansion",
-      "company": "Revolut",
-      "description": "Revolut files for US banking license, hires ex-Visa exec.",
-      "source_url": "https://sifted.eu/articles/revolut-us-banking-licence/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Blockchain.com",
-      "description": "Blockchain.com expands operations to Ghana.",
-      "source_url": "https://www.theblock.co/post/392919/blockchain-com-ghana?utm_source=rss&utm_medium=rss"
+      "company": "LemFi",
+      "description": "Secured Bank of Canada registration as PSP.",
+      "source_url": "https://www.finextra.com/pressarticle/109082/lemfi-secures-bank-of-canada-registration"
     }
   ]
 }
