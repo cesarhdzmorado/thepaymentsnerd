@@ -1,99 +1,85 @@
 {
   "news": [
     {
-      "title": "JP Morgan Partners with Mirakl to Pioneer Agentic Commerce",
-      "body": "JP Morgan Payments has teamed up with Mirakl to enhance autonomous payments through AI agents, positioning itself as a leader in agentic commerce. This initiative could disrupt traditional payment processes and accelerate the adoption of AI-driven commerce across e-commerce platforms. Competitors may need to respond quickly to avoid losing market share in this evolving landscape.",
+      "title": "Revolut Secures Full UK Banking Licence, Pressuring Incumbents to Innovate",
+      "body": "Revolut has secured a full UK banking licence after a four-year application process, allowing it to offer a broader range of financial services, including loans, mortgages, and credit cards in the UK. This means increased competition in the UK banking sector, potentially leading to better services and lower fees for consumers. Incumbent banks must now innovate to retain their market share as fintechs like Revolut expand their offerings. Watch for how traditional banks respond to this new competitive landscape.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47413/jp-morgan-payments-teams-with-mirakl-to-tackle-agentic-commerce"
+        "url": "https://www.finextra.com/newsarticle/47424/revolut-achieves-full-uk-banking-licence"
       }
     },
     {
-      "title": "Volt and YouHodler Launch Real-Time Payments for Web3 Fintech",
-      "body": "Volt has partnered with YouHodler to introduce real-time payments for Web3 fintech, bridging the gap between crypto and traditional finance. This collaboration positions Volt as a frontrunner in real-time payments for the crypto sector, potentially accelerating the integration of crypto into mainstream finance. Traditional payment providers may face increased pressure to innovate in response to this development.",
+      "title": "Mastercard's New Crypto Partner Programme Strengthens Its Market Position",
+      "body": "Mastercard has launched a new crypto partner programme, signing up 85 partners, including PayPal, Ripple, and SoFi, to expand its footprint in the digital currency space. This initiative strengthens Mastercard's position in the crypto payments ecosystem and challenges Visa's dominance. Increased adoption of crypto payments could accelerate regulatory scrutiny and innovation in digital currency infrastructure, forcing competitors to adapt quickly. The success of this programme will hinge on regulatory environments and consumer adoption rates.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109125/volt-ushers-in-real-time-payments-for-web3-fintech-youhodler"
+        "url": "https://www.finextra.com/newsarticle/47421/mastercard-signs-big-names-to-crypto-partner-programme"
       }
     },
     {
-      "title": "Mastercard Develops AI-Powered Virtual C-Suite for SMEs",
-      "body": "Mastercard is creating an AI-powered virtual C-suite to support SMEs, a service typically reserved for larger corporations. This initiative could enhance Mastercard's market share in the SME sector and prompt other financial service providers to adopt similar AI strategies. However, SMEs may struggle with the integration of such advanced solutions without adequate support.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47418/mastercard-builds-virtual-c-suite-of-ai-agents-for-smes"
-      }
-    },
-    {
-      "title": "Ripple Acquires BC Payments to Expand in Australia",
-      "body": "Ripple is acquiring BC Payments to secure an Australian license, enabling it to offer a comprehensive payments platform in the region. This acquisition strengthens Ripple's position in the Australian market and may drive increased competition and innovation in the payments sector. However, regulatory scrutiny could pose challenges to Ripple's operations in Australia.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/393127/ripple-bc-payments-australia-license"
-      }
-    },
-    {
-      "title": "Embedded Finance Faces Increased CFO Scrutiny",
-      "body": "Embedded finance is evolving into a critical operational infrastructure, prompting CFOs to assess its ROI and governance. This scrutiny could lead to consolidation in the sector, with only the most robust platforms surviving. Financial service providers demonstrating strong governance may gain a competitive edge in this maturing landscape.",
+      "title": "Amazon Injunction Signals Challenges for AI Shopping Agents in E-Commerce",
+      "body": "A federal judge issued an injunction blocking Perplexity from using AI shopping agents to access Amazon's site, impacting the future of agentic commerce. This ruling sets a precedent for how AI agents interact with e-commerce platforms, potentially stifling innovation in this space. Companies developing AI shopping agents must now navigate increased scrutiny and potential regulation, which could slow down deployment and development efforts. Expect a push for clearer regulations and standards for AI commerce.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payments-innovation/2026/embedded-finance-now-has-to-survive-the-cfo-audit/"
+        "url": "https://www.pymnts.com/amazon/2026/amazon-injunction-could-change-the-future-of-agentic-commerce/"
+      }
+    },
+    {
+      "title": "Ontop Partners with BVNK to Integrate Stablecoins into Payroll Solutions",
+      "body": "Ontop has partnered with BVNK to launch embedded USD stablecoin accounts for international payroll customers, enhancing its global payment solutions. This positions Ontop as a leader in integrating stablecoins into payroll solutions, which could drive increased adoption of stablecoins in financial services. The success of this initiative will depend on regulatory acceptance and market demand, as businesses seek innovative payroll solutions. Watch for how this partnership influences the broader payroll and payment landscape.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109137/ontop-taps-bvnk-to-add-stablecoins-to-payrolls"
+      }
+    },
+    {
+      "title": "SEC and CFTC Collaboration on Crypto Policy Promises Regulatory Clarity",
+      "body": "The SEC and CFTC have agreed to collaborate on crypto regulation and the introduction of new digital asset products, fostering innovation in the sector. This collaboration could lead to clearer regulatory frameworks, attracting more institutional participation in the digital asset market. However, balancing innovation with effective regulation remains a challenge to protect consumers. Expect this partnership to influence the regulatory landscape significantly as it evolves.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/393317/sec-cftc-crypto-policy-mou"
       }
     }
   ],
-  "perspective": "I'm watching the growing integration of AI and real-time payments as key themes shaping the payments landscape. JP Morgan's partnership with Mirakl and Volt's collaboration with YouHodler highlight a critical shift towards agentic commerce and crypto integration, respectively. If your team is still viewing these trends as peripheral, it's time to reassess\u2014embracing AI and real-time capabilities is becoming essential for competitive positioning in 2026.",
+  "perspective": "I'm watching the evolving landscape of fintech and regulatory dynamics. Revolut's full UK banking licence and Mastercard's aggressive push into crypto partnerships highlight a critical shift towards increased competition and innovation in financial services. If your team is still viewing these developments as isolated incidents, it's time to reassess\u2014embracing these trends is essential for staying competitive in 2026.",
   "curiosity": {
-    "text": "Did you know that the first recorded use of wire transfers dates back to 1872 when Western Union launched its telegraph money transfer service? This innovative method allowed for faster and more efficient monetary transactions over long distances, setting the stage for today's electronic payment systems."
+    "text": "Did you know that the first mobile payment system was launched in 1997 in Finland? Known as 'MobilePay,' it allowed users to send money via SMS, foreshadowing the mobile payment revolution that has transformed how we conduct transactions today."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Kast",
-      "description": "Raised $80 million for stablecoin platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
       "company": "Outpost",
-      "description": "Secured $17.5 million to expand global merchant sales.",
+      "description": "Raised $17.5M Series A to expand global merchant sales platform",
       "source_url": "https://www.finextra.com/newsarticle/47417/outpost-raises-175m-to-help-merchants-sell-worldwide"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
       "company": "Ripple",
-      "description": "Acquired BC Payments for Australian license.",
-      "source_url": "https://www.theblock.co/post/393127/ripple-bc-payments-australia-license"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "partnership",
-      "company": "Volt",
-      "description": "Partnered with YouHodler for real-time payments.",
-      "source_url": "https://www.finextra.com/pressarticle/109125/volt-ushers-in-real-time-payments-for-web3-fintech-youhodler"
+      "description": "Acquiring Australia's BC Payments for AFSL licence",
+      "source_url": "https://www.finextra.com/newsarticle/47423/ripple-to-acquire-australias-bc-payments-and-afsl-licence"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "launch",
-      "company": "SquareFi",
-      "description": "Emerged from stealth to enable global business payments.",
-      "source_url": "https://www.finextra.com/pressarticle/109121/stablecoin-startup-squarefi-emerges-from-stealth"
+      "type": "product",
+      "company": "Ontop",
+      "description": "Launching stablecoin payroll accounts with BVNK",
+      "source_url": "https://www.finextra.com/pressarticle/109137/ontop-taps-bvnk-to-add-stablecoins-to-payrolls"
     },
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "fundraising",
-      "company": "NjiaPay",
-      "description": "Closed $2.1 million seed round for payment solutions.",
-      "source_url": "https://www.finextra.com/pressarticle/109092/payment-fintech-njiapay-closes-21-million-seed-investment"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "partnership",
+      "company": "Payoneer",
+      "description": "Partnering with FundPark to provide e-commerce financing in Hong Kong",
+      "source_url": "https://www.finextra.com/pressarticle/109139/payoneer-and-fundpark-partner-to-unlock-funding-for-global-sellers"
     },
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
+      "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "expansion",
-      "company": "LemFi",
-      "description": "Secured Bank of Canada registration as PSP.",
-      "source_url": "https://www.finextra.com/pressarticle/109082/lemfi-secures-bank-of-canada-registration"
+      "company": "Nubank",
+      "description": "Hires TikTok alum as CMO for U.S. banking charter pursuit",
+      "source_url": "https://www.bankingdive.com/news/nubank-hires-tiktok-alum-kim-farrell-marketing-chief-cmo-occ-bank-charter-brazil/814471/"
     }
   ]
 }
