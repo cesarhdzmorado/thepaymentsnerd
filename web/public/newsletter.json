@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Revolut Secures Full UK Banking Licence, Pressuring Incumbents to Innovate",
-      "body": "Revolut has secured a full UK banking licence after a four-year application process, allowing it to offer a broader range of financial services, including loans, mortgages, and credit cards in the UK. This means increased competition in the UK banking sector, potentially leading to better services and lower fees for consumers. Incumbent banks must now innovate to retain their market share as fintechs like Revolut expand their offerings. Watch for how traditional banks respond to this new competitive landscape.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47424/revolut-achieves-full-uk-banking-licence"
-      }
-    },
-    {
-      "title": "Mastercard's New Crypto Partner Programme Strengthens Its Market Position",
-      "body": "Mastercard has launched a new crypto partner programme, signing up 85 partners, including PayPal, Ripple, and SoFi, to expand its footprint in the digital currency space. This initiative strengthens Mastercard's position in the crypto payments ecosystem and challenges Visa's dominance. Increased adoption of crypto payments could accelerate regulatory scrutiny and innovation in digital currency infrastructure, forcing competitors to adapt quickly. The success of this programme will hinge on regulatory environments and consumer adoption rates.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47421/mastercard-signs-big-names-to-crypto-partner-programme"
-      }
-    },
-    {
-      "title": "Amazon Injunction Signals Challenges for AI Shopping Agents in E-Commerce",
-      "body": "A federal judge issued an injunction blocking Perplexity from using AI shopping agents to access Amazon's site, impacting the future of agentic commerce. This ruling sets a precedent for how AI agents interact with e-commerce platforms, potentially stifling innovation in this space. Companies developing AI shopping agents must now navigate increased scrutiny and potential regulation, which could slow down deployment and development efforts. Expect a push for clearer regulations and standards for AI commerce.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/amazon/2026/amazon-injunction-could-change-the-future-of-agentic-commerce/"
-      }
-    },
-    {
-      "title": "Ontop Partners with BVNK to Integrate Stablecoins into Payroll Solutions",
-      "body": "Ontop has partnered with BVNK to launch embedded USD stablecoin accounts for international payroll customers, enhancing its global payment solutions. This positions Ontop as a leader in integrating stablecoins into payroll solutions, which could drive increased adoption of stablecoins in financial services. The success of this initiative will depend on regulatory acceptance and market demand, as businesses seek innovative payroll solutions. Watch for how this partnership influences the broader payroll and payment landscape.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109137/ontop-taps-bvnk-to-add-stablecoins-to-payrolls"
-      }
-    },
-    {
-      "title": "SEC and CFTC Collaboration on Crypto Policy Promises Regulatory Clarity",
-      "body": "The SEC and CFTC have agreed to collaborate on crypto regulation and the introduction of new digital asset products, fostering innovation in the sector. This collaboration could lead to clearer regulatory frameworks, attracting more institutional participation in the digital asset market. However, balancing innovation with effective regulation remains a challenge to protect consumers. Expect this partnership to influence the regulatory landscape significantly as it evolves.",
+      "title": "HSBC and Standard Chartered to Receive Hong Kong Stablecoin Licenses",
+      "body": "HSBC and Standard Chartered are set to be the first recipients of Hong Kong's stablecoin licenses, as the HKMA received 36 applications under the new regulatory framework. This could give them a competitive edge in the digital currency space, enhancing their cross-border transaction capabilities. The move reflects a growing trend of stablecoins moving towards mainstream financial systems with regulatory backing, which could lead to increased stablecoin adoption in Hong Kong and potential regulatory developments in other regions.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/393317/sec-cftc-crypto-policy-mou"
+        "url": "https://www.theblock.co/post/393502/hsbc-standard-chartered-hong-kong-stablecoin?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Santander Tests Agentic Payments Across Latin America",
+      "body": "Banco Santander has conducted its first live transactions using agentic payments with Visa in multiple Latin American markets, marking a significant step in adopting AI-driven payment solutions. This positions Santander as a leader in AI-driven payments, potentially setting a precedent for other banks and fintechs in the region. Increased adoption of agentic payments in Latin America could drive innovation and competition in the region's payment landscape, although regulatory hurdles and consumer trust issues may pose challenges.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47430/santander-tests-agentic-payments-across-latin-america?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Mastercard Expands China Connectivity with Bank of Shanghai Collaboration",
+      "body": "Mastercard announced a collaboration with Bank of Shanghai to enable seamless payment flows between China and global markets, enhancing cross-border transaction capabilities. This strengthens Mastercard's position in China, potentially challenging local and international competitors in cross-border payments. The collaboration reflects the trend of expanding cross-border payment capabilities in collaboration with local partners, which could lead to increased transaction volumes and regulatory developments in China.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109146/mastercard-move-expands-china-connectivity-with-bank-of-shanghai-collaboration?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Zelle and BofA Target Faster Charitable Disbursements",
+      "body": "Zelle and Bank of America are exploring faster charitable disbursements using Donor Advised Funds (DAFs), enhancing the efficiency of charitable contributions. This initiative could position Zelle and BofA as leaders in charitable financial services, influencing other financial institutions to adopt similar solutions. Increased efficiency in charitable contributions could drive higher donation volumes and donor engagement, although the initiative's success depends on donor adoption and regulatory compliance.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47431/zelle-and-bofa-target-faster-charitable-disbursements?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Wonderful Raises $150 Million for AI Agent Deployment",
+      "body": "AI platform Wonderful raised $150 million in a Series B funding round to expand its global presence, focusing on deploying AI agents for enterprises. This positions Wonderful as a key player in the AI agent space, potentially challenging established AI companies. Increased enterprise adoption of AI agents could drive innovation and efficiency across industries, although the success of AI agents depends on integration and user acceptance.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/wonderful-raises-150-million-to-help-enterprises-deploy-ai-agents/"
       }
     }
   ],
-  "perspective": "I'm watching the evolving landscape of fintech and regulatory dynamics. Revolut's full UK banking licence and Mastercard's aggressive push into crypto partnerships highlight a critical shift towards increased competition and innovation in financial services. If your team is still viewing these developments as isolated incidents, it's time to reassess\u2014embracing these trends is essential for staying competitive in 2026.",
+  "perspective": "I'm watching the convergence of stablecoins and AI-driven payments as key themes shaping the payments landscape. HSBC and Standard Chartered's stablecoin licenses in Hong Kong signal a significant regulatory shift, while Santander's agentic payments initiative in Latin America showcases the growing integration of AI in financial services. If your team is still viewing these developments as isolated incidents, it's time to reassess\u2014embracing these trends is essential for staying competitive in 2026.",
   "curiosity": {
-    "text": "Did you know that the first mobile payment system was launched in 1997 in Finland? Known as 'MobilePay,' it allowed users to send money via SMS, foreshadowing the mobile payment revolution that has transformed how we conduct transactions today."
+    "text": "Did you know that in 1983, the first electronic wallet was introduced as a prototype called 'DigiCash'? This innovation allowed users to store digital currency securely and highlighted the potential for cashless transactions, setting the groundwork for today's digital payment solutions."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Outpost",
-      "description": "Raised $17.5M Series A to expand global merchant sales platform",
-      "source_url": "https://www.finextra.com/newsarticle/47417/outpost-raises-175m-to-help-merchants-sell-worldwide"
+      "company": "Wonderful",
+      "description": "Raised $150M Series B to expand AI agent deployment.",
+      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/wonderful-raises-150-million-to-help-enterprises-deploy-ai-agents/"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "fundraising",
+      "company": "MetaComp",
+      "description": "Raised $35M backed by Alibaba for stablecoin infrastructure.",
+      "source_url": "https://www.theblock.co/post/393509/metacomp-raises-35-million-alibaba?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
       "company": "Ripple",
-      "description": "Acquiring Australia's BC Payments for AFSL licence",
-      "source_url": "https://www.finextra.com/newsarticle/47423/ripple-to-acquire-australias-bc-payments-and-afsl-licence"
+      "description": "Acquiring Australia's BC Payments for AFSL licence.",
+      "source_url": "https://www.finextra.com/newsarticle/47423/ripple-to-acquire-australias-bc-payments-and-afsl-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Ontop",
-      "description": "Launching stablecoin payroll accounts with BVNK",
-      "source_url": "https://www.finextra.com/pressarticle/109137/ontop-taps-bvnk-to-add-stablecoins-to-payrolls"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "Payoneer",
-      "description": "Partnering with FundPark to provide e-commerce financing in Hong Kong",
-      "source_url": "https://www.finextra.com/pressarticle/109139/payoneer-and-fundpark-partner-to-unlock-funding-for-global-sellers"
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "expansion",
+      "company": "HSBC, Standard Chartered",
+      "description": "First recipients of Hong Kong stablecoin licenses.",
+      "source_url": "https://www.theblock.co/post/393502/hsbc-standard-chartered-hong-kong-stablecoin?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "expansion",
-      "company": "Nubank",
-      "description": "Hires TikTok alum as CMO for U.S. banking charter pursuit",
-      "source_url": "https://www.bankingdive.com/news/nubank-hires-tiktok-alum-kim-farrell-marketing-chief-cmo-occ-bank-charter-brazil/814471/"
+      "company": "Ebanx",
+      "description": "Shifting headquarters to Singapore for APAC growth.",
+      "source_url": "https://www.finextra.com/pressarticle/109153/ebanx-shifts-hq-to-singapore?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
