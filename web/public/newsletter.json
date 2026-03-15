@@ -1,85 +1,92 @@
 {
   "news": [
     {
-      "title": "Wizz Financial Completes First Cross-Border Stablecoin Transaction",
-      "body": "Wizz Financial, in partnership with BitGo, has completed its first stablecoin-powered cross-border transaction from the US to 80 countries. This achievement positions Wizz Financial as a pioneer in stablecoin cross-border payments, challenging traditional remittance services. The impact: increased competition in the stablecoin remittance space may lead to heightened regulatory scrutiny as the market evolves.",
+      "title": "MoonPay's AI Agent with Ledger Signer Sets New Security Standard for Crypto",
+      "body": "MoonPay launched an AI agent secured by Ledger signer support, enhancing crypto transaction security by keeping private keys on hardware. This innovation pressures competitors to elevate their security offerings, potentially reshaping the crypto transaction landscape. As user trust in crypto payments grows, traditional payment methods may face increased competition. Watch for how regulatory challenges could impact this momentum.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109163/wizz-financial-completes-first-cross-border-stablecoin-transaction-from-us?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109170/moonpay-introduces-ai-agent-secured-by-a-ledger-signer"
       }
     },
     {
-      "title": "Airwallex Invests $1 Billion in EMEA Expansion",
-      "body": "Airwallex is investing over $1 billion in the UK and EMEA to drive regional expansion by 2030. This investment could disrupt local payment providers and increase competition in the region, potentially leading to partnerships with local fintechs. However, the investment might face challenges due to regional economic instability, impacting expected returns.",
+      "title": "Revolut's New US Chief and Banking License Could Disrupt Traditional Banks",
+      "body": "Revolut appointed a former Visa executive as its US chief and filed for a US banking license, aiming to enhance its digital-first banking solutions in the US market. This move intensifies competition among fintechs and traditional banks, potentially leading to better consumer offerings. As Revolut navigates regulatory challenges, its success could redefine the US fintech landscape. Expect other fintechs to follow suit in seeking banking licenses.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109162/airwallex-invests-1-billion-in-emea-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-us-banking-licence/"
       }
     },
     {
-      "title": "Truist Taps Plaid to Expand Open Banking Offerings",
-      "body": "Truist and Plaid have announced a data-access agreement to enhance open banking capabilities for Truist customers. This partnership strengthens Truist's position in open banking, potentially attracting more tech-savvy customers. Increased competition among banks to offer open banking solutions is expected as a result, but data privacy concerns could hinder user adoption.",
+      "title": "Ethereum Foundation's $10 Million OTC Sale Signals Institutional Interest",
+      "body": "The Ethereum Foundation sold 5,000 ETH to BitMine for $10 million in an over-the-counter deal, indicating rising institutional interest in Ethereum. This sale could boost Ethereum's market value and encourage further investments in cryptocurrencies. However, large OTC transactions may raise concerns about market manipulation. Watch for how this trend influences institutional strategies in the crypto space.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47435/truist-taps-plaid-to-expand-open-banking-offerings?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/393614/ethereum-foundation-sells-5000-eth-to-tom-lees-bitmine-in-10-million-otc-deal"
       }
     },
     {
-      "title": "US Senate Passes Bill Banning Issuance of CBDCs",
-      "body": "The US Senate has voted to ban the Federal Reserve from issuing CBDCs until after 2030. This decision could slow down CBDC development in the US, affecting global CBDC competition and increasing focus on private stablecoins and alternative digital currencies. The ban might push innovation in CBDC-like solutions outside the US, reshaping the competitive landscape.",
+      "title": "FedEx's AI Agent Integration Could Transform Logistics Operations",
+      "body": "FedEx plans to integrate AI agents into over 50% of its workflows by 2028, marking a significant shift towards automation in logistics. This strategy aims to enhance operational efficiency but may lead to job displacement and a need for workforce reskilling. As other industries observe FedEx's moves, expect a broader adoption of AI in operational processes. The balance between efficiency and workforce impact will be critical.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47436/us-senate-passes-bill-banning-issuance-of-cbdcs?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/fedex-plans-agent-workforce-in-over-50percent-of-workflows-by-2028/"
       }
     },
     {
-      "title": "Currency.com Launches Crypto-Native Card",
-      "body": "Currency.com has announced a new crypto-native card product for its clients, powered by Rain\u2019s infrastructure. This launch positions Currency.com as a leader in crypto payments, challenging traditional card providers. However, regulatory challenges could limit the card's adoption and usage, leading to increased competition in the crypto payments space.",
+      "title": "Adobe's $150 Million Settlement Could Reshape Subscription Practices",
+      "body": "Adobe settled a lawsuit with the US Justice Department for $150 million, agreeing to provide $75 million in free services and pay $75 million to resolve allegations of deceptive subscription practices. This settlement may lead to stricter scrutiny of subscription models across the tech industry, impacting how companies approach consumer protection. Other tech firms might reassess their subscription strategies in light of this outcome.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109167/currencycom-launches-crypto-native-card?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/2026/adobe-ends-federal-subscription-lawsuit-with-150-million-settlement-package/"
       }
     }
   ],
-  "perspective": "I'm watching the evolving dynamics of stablecoins and regulatory frameworks as they reshape the payments landscape. Wizz Financial's cross-border stablecoin transaction underscores the mainstreaming of stablecoins, while the US Senate's CBDC ban signals a retreat from central bank digital currency initiatives. If your team is still viewing these developments as isolated incidents, it's time to reassess\u2014embracing these trends is essential for staying competitive in 2026.",
+  "perspective": "I'm watching the interplay between innovation and regulation in today's payments landscape. MoonPay's AI agent enhances crypto security, while Revolut's US expansion challenges traditional banks. As regulatory scrutiny intensifies, companies must navigate these dynamics carefully. If your team is still viewing compliance as a checkbox, it's time to rethink\u2014embracing these shifts is essential for staying competitive in 2026.",
   "curiosity": {
-    "text": "Did you know that in 1979, the first electronic payment system known as the Automated Clearing House (ACH) was established in the United States? This system revolutionized how individuals and businesses processed payments by allowing for the electronic transfer of funds, significantly enhancing efficiency in the banking and payments landscape."
+    "text": "Did you know that in 2014, the introduction of the Faster Payments Service (FPS) in the UK allowed for near-instantaneous bank transfers, transforming how payments are made? This system enables users to send and receive money within seconds, significantly improving the efficiency of electronic transactions."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Rox",
-      "description": "secures $1.2 billion valuation as AI sales agents scale",
+      "description": "secured $1.2 billion valuation for AI sales agents.",
       "source_url": "https://www.pymnts.com/news/investment-tracker/2026/rox-secures-1-2-billion-valuation-as-ai-sales-agents-scale/"
     },
     {
       "flag": "\ud83c\udde6\ud83c\uddfa",
       "type": "expansion",
       "company": "Airwallex",
-      "description": "invests $1 billion in EMEA expansion",
-      "source_url": "https://www.finextra.com/pressarticle/109162/airwallex-invests-1-billion-in-emea-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "investing $1 billion in EMEA expansion.",
+      "source_url": "https://www.finextra.com/pressarticle/109162/airwallex-invests-1-billion-in-emea-expansion"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "MetaComp",
-      "description": "raises $35 million in funding backed by Alibaba",
-      "source_url": "https://www.theblock.co/post/393509/metacomp-raises-35-million-alibaba?utm_source=rss&utm_medium=rss"
+      "company": "Allica Bank",
+      "description": "becomes unicorn with $155M Series D.",
+      "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
     },
     {
       "flag": "\ud83c\udde6\ud83c\uddea",
       "type": "product",
       "company": "Wizz Financial",
-      "description": "completes first cross-border stablecoin transaction from US",
-      "source_url": "https://www.finextra.com/pressarticle/109163/wizz-financial-completes-first-cross-border-stablecoin-transaction-from-us?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "completes first cross-border stablecoin transaction.",
+      "source_url": "https://www.finextra.com/pressarticle/109163/wizz-financial-completes-first-cross-border-stablecoin-transaction-from-us"
     },
     {
-      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "wins UK banking licence after five-year effort.",
+      "source_url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udded",
       "type": "product",
-      "company": "Currency.com",
-      "description": "launches crypto-native card",
-      "source_url": "https://www.finextra.com/pressarticle/109167/currencycom-launches-crypto-native-card?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Ethereum Foundation",
+      "description": "sells 5,000 ETH in $10M OTC deal.",
+      "source_url": "https://www.theblock.co/post/393614/ethereum-foundation-sells-5000-eth-to-tom-lees-bitmine-in-10-million-otc-deal"
     }
   ]
 }
