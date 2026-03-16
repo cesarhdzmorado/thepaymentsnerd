@@ -11,6 +11,7 @@
  *   cd web
  *   npx tsx scripts/linkedinPost.ts                          # Post today's newsletter
  *   npx tsx scripts/linkedinPost.ts --dry-run                # Preview without posting
+ *   npx tsx scripts/linkedinPost.ts --message-only           # Generate WhatsApp-ready text only
  *   npx tsx scripts/linkedinPost.ts --date 2026-03-07        # Specific date
  *   npx tsx scripts/linkedinPost.ts --strategy trailer       # Force strategy
  */
@@ -37,6 +38,7 @@ function getArg(name: string): string | undefined {
 }
 
 const flagDryRun = args.includes("--dry-run");
+const flagMessageOnly = args.includes("--message-only");
 const argDate = getArg("date");
 const argStrategy = getArg("strategy") as Strategy | undefined;
 
@@ -183,10 +185,11 @@ async function main() {
   console.log(`Date:     ${date}`);
   console.log(`Strategy: ${argStrategy || "auto (engine recommendation)"}`);
   console.log(`Dry run:  ${flagDryRun}`);
+  console.log(`Message:  ${flagMessageOnly}`);
   console.log("");
 
-  // 1. Verify tokens exist (skip actual validation in dry-run if tokens missing)
-  if (!flagDryRun) {
+  // 1. Verify tokens exist (not needed for dry-run/message-only)
+  if (!flagDryRun && !flagMessageOnly) {
     try {
       loadTokens();
       console.log("✅ LinkedIn tokens loaded.");
@@ -199,7 +202,11 @@ async function main() {
       loadTokens();
       console.log("✅ LinkedIn tokens loaded.");
     } catch {
-      console.log("ℹ️  No LinkedIn tokens found (OK for dry run).");
+      if (flagMessageOnly) {
+        console.log("ℹ️  No LinkedIn tokens found (OK for message-only mode).");
+      } else {
+        console.log("ℹ️  No LinkedIn tokens found (OK for dry run).");
+      }
     }
   }
 
@@ -251,7 +258,18 @@ async function main() {
   console.log(postText);
   console.log("-".repeat(60));
 
-  // 4. Dry run — stop here
+  // 4. Message-only / dry-run — stop here
+  if (flagMessageOnly) {
+    console.log("");
+    console.log("📲 WhatsApp message preview:");
+    console.log("-".repeat(60));
+    console.log(`LinkedIn draft for ${contentDate} (${strategy}, ${charCount} chars):\n\n${postText}`);
+    console.log("-".repeat(60));
+    console.log("");
+    console.log("🏁 Message-only complete — nothing was posted to LinkedIn.");
+    process.exit(0);
+  }
+
   if (flagDryRun) {
     console.log("");
     console.log("🏁 Dry run complete — no post was made.");
