@@ -1,92 +1,85 @@
 {
   "news": [
     {
-      "title": "MoonPay's AI Agent with Ledger Signer Sets New Security Standard for Crypto",
-      "body": "MoonPay launched an AI agent secured by Ledger signer support, enhancing crypto transaction security by keeping private keys on hardware. This innovation pressures competitors to elevate their security offerings, potentially reshaping the crypto transaction landscape. As user trust in crypto payments grows, traditional payment methods may face increased competition. Watch for how regulatory challenges could impact this momentum.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109170/moonpay-introduces-ai-agent-secured-by-a-ledger-signer"
-      }
-    },
-    {
-      "title": "Revolut's New US Chief and Banking License Could Disrupt Traditional Banks",
-      "body": "Revolut appointed a former Visa executive as its US chief and filed for a US banking license, aiming to enhance its digital-first banking solutions in the US market. This move intensifies competition among fintechs and traditional banks, potentially leading to better consumer offerings. As Revolut navigates regulatory challenges, its success could redefine the US fintech landscape. Expect other fintechs to follow suit in seeking banking licenses.",
+      "title": "Revolut Secures UK Banking License, Intensifying Competition with Traditional Banks",
+      "body": "Revolut has secured a full UK banking license after a prolonged five-year process, allowing it to expand services to include loans, mortgages, and credit cards. This move affects the UK banking sector, fintech competitors, and consumers seeking digital banking solutions, intensifying competition with established banks. Incumbents must now innovate and adjust pricing strategies to respond to Revolut's expanded offerings.",
       "source": {
         "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-us-banking-licence/"
+        "url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
       }
     },
     {
-      "title": "Ethereum Foundation's $10 Million OTC Sale Signals Institutional Interest",
-      "body": "The Ethereum Foundation sold 5,000 ETH to BitMine for $10 million in an over-the-counter deal, indicating rising institutional interest in Ethereum. This sale could boost Ethereum's market value and encourage further investments in cryptocurrencies. However, large OTC transactions may raise concerns about market manipulation. Watch for how this trend influences institutional strategies in the crypto space.",
+      "title": "Visa Reports Surge in Check Fraud Transitioning to Faster Payment Scams",
+      "body": "Visa reports an increase in check fraud transitioning into faster payment scams, exploiting vulnerabilities in the U.S. banking system's digital transformation. This trend necessitates improved security measures across financial institutions, businesses, and payment processors. Companies offering advanced fraud prevention solutions stand to benefit as regulatory scrutiny intensifies in the digital payments landscape.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/fraud-prevention/2026/visa-sees-check-fraud-spilling-into-faster-payment-scams/"
+      }
+    },
+    {
+      "title": "Australia's Senate Committee Backs Crypto Bill Mandating Licensing for Platforms",
+      "body": "Australia's Senate committee supports a bill mandating crypto platforms to obtain licenses, aligning them with traditional financial service providers. This move could enhance consumer trust and market share for licensed platforms while challenging unlicensed ones. The potential for increased regulatory clarity and consumer protection in the Australian crypto market could reshape competitive dynamics.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/393614/ethereum-foundation-sells-5000-eth-to-tom-lees-bitmine-in-10-million-otc-deal"
+        "url": "https://www.theblock.co/post/393684/australian-senate-committee-backs-crypto-bill?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "FedEx's AI Agent Integration Could Transform Logistics Operations",
-      "body": "FedEx plans to integrate AI agents into over 50% of its workflows by 2028, marking a significant shift towards automation in logistics. This strategy aims to enhance operational efficiency but may lead to job displacement and a need for workforce reskilling. As other industries observe FedEx's moves, expect a broader adoption of AI in operational processes. The balance between efficiency and workforce impact will be critical.",
+      "title": "Hana Group and Standard Chartered Collaborate on Digital Asset Initiatives",
+      "body": "Hana Financial Group and Standard Chartered are collaborating on digital asset initiatives, including stablecoins, to expand their digital finance capabilities. This partnership positions both firms as leaders in the digital asset space, potentially accelerating stablecoin adoption and challenging other financial institutions to innovate. The focus on digital assets may also expose them to regulatory and market volatility risks.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/fedex-plans-agent-workforce-in-over-50percent-of-workflows-by-2028/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/393689/hana-group-partners-standard-chartered?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Adobe's $150 Million Settlement Could Reshape Subscription Practices",
-      "body": "Adobe settled a lawsuit with the US Justice Department for $150 million, agreeing to provide $75 million in free services and pay $75 million to resolve allegations of deceptive subscription practices. This settlement may lead to stricter scrutiny of subscription models across the tech industry, impacting how companies approach consumer protection. Other tech firms might reassess their subscription strategies in light of this outcome.",
+      "title": "Chaseit.ai Launches AI Agents for Automating Loan Servicing and Customer Communications",
+      "body": "Chaseit.ai, a Lithuanian fintech, has launched AI agents for automating loan servicing and customer communications, enhancing efficiency in financial operations. This innovation could reduce operational costs for loan servicing companies while improving service efficiency. However, over-reliance on AI may lead to customer dissatisfaction if human oversight is insufficient.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/2026/adobe-ends-federal-subscription-lawsuit-with-150-million-settlement-package/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47439/fintech-startup-chaseitai-launches-ai-agents-for-call-centre-loan-servicing?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "I'm watching the interplay between innovation and regulation in today's payments landscape. MoonPay's AI agent enhances crypto security, while Revolut's US expansion challenges traditional banks. As regulatory scrutiny intensifies, companies must navigate these dynamics carefully. If your team is still viewing compliance as a checkbox, it's time to rethink\u2014embracing these shifts is essential for staying competitive in 2026.",
+  "perspective": "I'm watching the increasing regulatory scrutiny across multiple sectors, from Revolut's banking license to Australia's crypto licensing bill. These developments highlight a critical shift: as fintechs and traditional banks navigate compliance, the competitive landscape will evolve rapidly. If your team is still viewing regulation as a hurdle, it's time to pivot\u2014embracing these changes could unlock new opportunities for innovation and market leadership.",
   "curiosity": {
-    "text": "Did you know that in 2014, the introduction of the Faster Payments Service (FPS) in the UK allowed for near-instantaneous bank transfers, transforming how payments are made? This system enables users to send and receive money within seconds, significantly improving the efficiency of electronic transactions."
+    "text": "Did you know that in 1994, the first online banking service was launched by Stanford Federal Credit Union, allowing members to manage their accounts via the internet? This innovation marked the beginning of digital banking, significantly changing how consumers accessed and managed their financial services."
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Rox",
-      "description": "secured $1.2 billion valuation for AI sales agents.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/rox-secures-1-2-billion-valuation-as-ai-sales-agents-scale/"
-    },
-    {
-      "flag": "\ud83c\udde6\ud83c\uddfa",
-      "type": "expansion",
-      "company": "Airwallex",
-      "description": "investing $1 billion in EMEA expansion.",
-      "source_url": "https://www.finextra.com/pressarticle/109162/airwallex-invests-1-billion-in-emea-expansion"
-    },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Allica Bank",
-      "description": "becomes unicorn with $155M Series D.",
+      "description": "Becomes Europe\u2019s newest unicorn with $155m Series D",
       "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddea",
-      "type": "product",
-      "company": "Wizz Financial",
-      "description": "completes first cross-border stablecoin transaction.",
-      "source_url": "https://www.finextra.com/pressarticle/109163/wizz-financial-completes-first-cross-border-stablecoin-transaction-from-us"
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Legora",
+      "description": "Raises $550M Series D, triples valuation to $5.55B",
+      "source_url": "https://news.crunchbase.com/venture/unicorn-legal-tech-ai-startup-legora-triples-valuation/"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "AMI",
+      "description": "Raises $1B in Europe\u2019s largest seed round for AI lab",
+      "source_url": "https://news.crunchbase.com/venture/world-model-ai-lab-ami-raises-europes-largest-seed-round/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "type": "expansion",
+      "company": "YouLend",
+      "description": "Opens Berlin hub, recruits for 70 new positions",
+      "source_url": "https://www.finextra.com/pressarticle/109175/youlend-to-recruit-for-70-new-positions-as-it-opens-berlin-hub?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
       "company": "Revolut",
-      "description": "wins UK banking licence after five-year effort.",
-      "source_url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udded",
-      "type": "product",
-      "company": "Ethereum Foundation",
-      "description": "sells 5,000 ETH in $10M OTC deal.",
-      "source_url": "https://www.theblock.co/post/393614/ethereum-foundation-sells-5000-eth-to-tom-lees-bitmine-in-10-million-otc-deal"
+      "description": "Recruits ex-Visa exec as new US chief, files for banking licence",
+      "source_url": "https://sifted.eu/articles/revolut-us-banking-licence/"
     }
   ]
 }
