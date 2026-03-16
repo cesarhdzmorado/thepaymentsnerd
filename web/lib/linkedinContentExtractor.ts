@@ -343,11 +343,12 @@ export function generateMetadata(content: NewsletterContent): LinkedInMetadata {
  */
 export function extractLinkedInContent(
   content: NewsletterContent,
-  strategyOverride?: Strategy
+  strategyOverride?: Strategy,
+  seedOverride?: string
 ): LinkedInContent {
   const topics = extractTopics(content);
   const vibe = detectVibe(content);
-  const seed = new Date().toISOString().slice(0, 10);
+  const seed = seedOverride ?? new Date().toISOString().slice(0, 10);
 
   // Use the strategy engine for recommendation
   const strategyResult = selectStrategy(content, strategyOverride);

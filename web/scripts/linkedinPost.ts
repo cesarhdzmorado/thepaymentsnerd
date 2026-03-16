@@ -25,6 +25,31 @@ import type { NewsletterContent } from "../components/home/HomeSections";
 import type { Strategy } from "../lib/linkedinStrategy";
 import type { LinkedInContent } from "../lib/linkedinContentExtractor";
 
+interface ArchetypeState {
+  last_date?: string;
+  last_archetype?: string;
+}
+
+const ARCHETYPE_STATE_FILE = path.resolve(__dirname, "../../.linkedin-archetype-state.json");
+
+function readArchetypeState(): ArchetypeState {
+  try {
+    if (!fs.existsSync(ARCHETYPE_STATE_FILE)) return {};
+    return JSON.parse(fs.readFileSync(ARCHETYPE_STATE_FILE, "utf-8")) as ArchetypeState;
+  } catch {
+    return {};
+  }
+}
+
+function writeArchetypeState(state: ArchetypeState): void {
+  fs.writeFileSync(ARCHETYPE_STATE_FILE, JSON.stringify(state, null, 2), "utf-8");
+}
+
+function extractArchetypeLabel(postText: string): string | null {
+  const match = postText.match(/\(([^\n()]{2,60})\)\s*(?:\n#|$)/m);
+  return match?.[1]?.trim() ?? null;
+}
+
 // ---------------------------------------------------------------------------
 // Args
 // ---------------------------------------------------------------------------
@@ -215,16 +240,18 @@ async function main() {
 
   let linkedinReady: LinkedInContent;
   let contentDate = date;
+  let rawContent: NewsletterContent | null = null;
 
   const apiData = await fetchFromApi(date);
   if (apiData) {
     console.log("✅ Content fetched from API.");
     linkedinReady = apiData.linkedin_ready;
+    rawContent = apiData.raw_content;
     contentDate = apiData.date;
 
     // If strategy override, re-extract with override
     if (argStrategy) {
-      linkedinReady = extractLinkedInContent(apiData.raw_content, argStrategy);
+      linkedinReady = extractLinkedInContent(apiData.raw_content, argStrategy, contentDate);
     }
   } else {
     console.log("📂 Falling back to local newsletter.json...");
@@ -234,11 +261,31 @@ async function main() {
       process.exit(1);
     }
     console.log("✅ Content loaded from disk.");
+    rawContent = diskData.content;
     linkedinReady = diskData.linkedinReady;
   }
 
   // 3. Select strategy and get post text
   const strategy = argStrategy || linkedinReady.recommended_strategy;
+
+  // Anti-repeat rule: avoid same trailer archetype two days in a row.
+  if (strategy === "trailer" && rawContent) {
+    const state = readArchetypeState();
+    const previous = state.last_date === contentDate ? null : state.last_archetype;
+
+    for (let i = 0; i < 15; i++) {
+      const seed = i === 0 ? contentDate : `${contentDate}-alt-${i}`;
+      const candidate = extractLinkedInContent(rawContent, argStrategy, seed);
+      const candidatePost = candidate.formats.trailer?.post_text ?? "";
+      const candidateArchetype = extractArchetypeLabel(candidatePost);
+
+      if (!previous || candidateArchetype !== previous) {
+        linkedinReady = candidate;
+        break;
+      }
+    }
+  }
+
   const format = linkedinReady.formats[strategy];
 
   if (!format) {
@@ -249,6 +296,18 @@ async function main() {
   // For multi_post, use the first post (single post for now)
   const postText = Array.isArray(format) ? format[0].post_text : format.post_text;
   const charCount = Array.isArray(format) ? format[0].character_count : format.character_count;
+
+  // Persist chosen trailer archetype so tomorrow can avoid repeating it.
+  if (strategy === "trailer") {
+    const archetype = extractArchetypeLabel(postText);
+    if (archetype) {
+      writeArchetypeState({
+        last_date: contentDate,
+        last_archetype: archetype,
+      });
+      console.log(`🧠 Archetype selected: ${archetype}`);
+    }
+  }
 
   console.log("");
   console.log(`📝 Strategy: ${strategy}`);
