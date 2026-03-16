@@ -126,18 +126,40 @@ const TRAILER_HOOKS: string[] = [
   "There's a pattern forming and most people are missing it.",
 ];
 
+const POST_TYPE_LABELS = [
+  "Bold Take",
+  "Contrarian Question",
+  "Operator Lesson",
+  "Market Pulse",
+  "Founder Lens",
+  "Risk Radar",
+  "Deal Snapshot",
+  "Regulation Watch",
+  "Prediction",
+  "Playbook",
+  "One Chart Style",
+  "Quick Thread",
+  "My POV",
+  "What I'd Do",
+  "Signal vs Noise",
+] as const;
+
 /**
  * Pick a random item from an array. Uses date-based seed so the same
  * newsletter content produces the same pick within a day, but varies across days.
  */
-function pickRandom<T>(items: T[], seed?: string): T {
+function seedHash(seed?: string): number {
   const seedStr = seed ?? new Date().toISOString().slice(0, 10);
   let hash = 0;
   for (let i = 0; i < seedStr.length; i++) {
     hash = (hash << 5) - hash + seedStr.charCodeAt(i);
     hash |= 0;
   }
-  return items[Math.abs(hash) % items.length];
+  return Math.abs(hash);
+}
+
+function pickRandom<T>(items: T[], seed?: string): T {
+  return items[seedHash(seed) % items.length];
 }
 
 export function getDigestHook(vibe: ContentVibe, seed?: string): string {
@@ -232,35 +254,40 @@ export function generateTrailerPost(
   const hook = getTrailerHook(seed);
   const cta = getTrailerCTA(seed);
 
-  // Pick 2-3 stories to tease — just titles, no details
   const teaseCount = Math.min(content.news.length, 3);
   const teasers = content.news.slice(0, teaseCount).map((story) => {
-    // Strip the verbose part after the comma/period for punchier teasers
     const shortTitle = story.title.split(",")[0].split(" — ")[0].trim();
-    return `→ ${shortTitle}`;
+    return shortTitle;
   });
 
-  // Build the post
-  let post = `${hook}\n\n`;
-  post += `In today's Payments Nerd:\n\n`;
-  post += teasers.join("\n");
-  post += `\n`;
-
-  // Add a deals tease if there are deals
   const whatsHotCount = content.whats_hot?.length ?? 0;
-  if (whatsHotCount > 0) {
-    post += `\n+ ${whatsHotCount} deal${whatsHotCount > 1 ? "s" : ""} in the What's Hot section 🔥`;
-  }
+  const perspectiveTeaser = content.perspective && vibe !== "light"
+    ? `${content.perspective.split(".")[0]}.`
+    : "";
 
-  // Optional: Add a one-line perspective tease
-  if (content.perspective && vibe !== "light") {
-    const perspectiveTeaser = content.perspective.split(".")[0] + ".";
-    if (perspectiveTeaser.length < 150) {
-      post += `\n\n💡 ${perspectiveTeaser}`;
-    }
-  }
+  const typeIndex = seedHash(`${seed ?? ""}-post-type`) % POST_TYPE_LABELS.length;
+  const typeLabel = POST_TYPE_LABELS[typeIndex];
 
-  post += `\n\n${cta}`;
+  const builders: Array<() => string> = [
+    () => `${hook}\n\nHot take: ${teasers[0]} might be the most important payment signal this week.\n\nAlso watching:\n→ ${teasers.slice(1).join("\n→ ")}\n\n${cta}`,
+    () => `${hook}\n\nQuestion for operators: are we underestimating second-order effects from ${teasers[0]}?\n\nToday's other signals:\n→ ${teasers.slice(1).join("\n→ ")}\n\n${cta}`,
+    () => `${hook}\n\nOperator lesson from today: distribution and compliance are now inseparable.\n\nEvidence:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    () => `${hook}\n\nMarket pulse in 30 seconds:\n→ ${teasers.join("\n→ ")}\n${whatsHotCount > 0 ? `\n+ ${whatsHotCount} deals in the pipeline 🔥\n` : "\n"}${cta}`,
+    () => `${hook}\n\nFounder lens: the winners will be the teams that move fast without breaking trust.\n\nToday's proof:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    () => `${hook}\n\nRisk radar:\n→ ${teasers.join("\n→ ")}\n\n${perspectiveTeaser ? `💡 ${perspectiveTeaser}\n\n` : ""}${cta}`,
+    () => `${hook}\n\nDeal snapshot:\n→ ${teasers.join("\n→ ")}\n${whatsHotCount > 0 ? `\n+ ${whatsHotCount} additional moves in What's Hot` : ""}\n\n${cta}`,
+    () => `${hook}\n\nRegulation watch:\n→ ${teasers.join("\n→ ")}\n\nThe policy surface area is widening faster than most product roadmaps.\n\n${cta}`,
+    () => `${hook}\n\nPrediction: by year-end, one of these themes becomes default playbook for top fintechs.\n\nSignals:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    () => `${hook}\n\nIf I were building a payments GTM playbook today, I'd start here:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    () => `${hook}\n\nOne-chart-style summary (without the chart):\n→ ${teasers.join("\n→ ")}\n\nDirection is clear. Execution gap is the edge.\n\n${cta}`,
+    () => `${hook}\n\nMini-thread in one post:\n1) ${teasers[0]}\n2) ${teasers[1] ?? teasers[0]}\n3) ${teasers[2] ?? teasers[0]}\n\n${cta}`,
+    () => `${hook}\n\nMy POV: we're moving from feature competition to trust competition.\n\nToday's stories:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    () => `${hook}\n\nWhat I'd do this week if I ran a fintech product team:\n→ Re-check assumptions behind: ${teasers[0]}\n→ Build response plan for: ${teasers[1] ?? teasers[0]}\n\n${cta}`,
+    () => `${hook}\n\nSignal vs noise:\nSignal → ${teasers[0]}\nNoise → vanity feature wars\nAlso relevant → ${teasers[1] ?? teasers[0]}\n\n${cta}`,
+  ];
+
+  let post = builders[typeIndex]();
+  post += `\n\n(${typeLabel})`;
   post += `\n\n${hashtags.slice(0, 5).join(" ")}`;
 
   return {
