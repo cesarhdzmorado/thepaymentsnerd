@@ -126,23 +126,30 @@ const TRAILER_HOOKS: string[] = [
   "There's a pattern forming and most people are missing it.",
 ];
 
-const POST_TYPE_LABELS = [
-  "Bold Take",
-  "Contrarian Question",
-  "Operator Lesson",
-  "Market Pulse",
-  "Founder Lens",
-  "Risk Radar",
-  "Deal Snapshot",
-  "Regulation Watch",
-  "Prediction",
-  "Playbook",
-  "One Chart Style",
-  "Quick Thread",
-  "My POV",
-  "What I'd Do",
-  "Signal vs Noise",
-] as const;
+type Narrative = "general" | "deals" | "regulation" | "breaking";
+
+interface PostArchetype {
+  label: string;
+  narrative: Narrative;
+}
+
+const POST_ARCHETYPES: PostArchetype[] = [
+  { label: "Bold Take", narrative: "general" },
+  { label: "Contrarian Question", narrative: "general" },
+  { label: "Operator Lesson", narrative: "general" },
+  { label: "Market Pulse", narrative: "general" },
+  { label: "Founder Lens", narrative: "general" },
+  { label: "Risk Radar", narrative: "general" },
+  { label: "Deal Snapshot", narrative: "deals" },
+  { label: "Regulation Watch", narrative: "regulation" },
+  { label: "Prediction", narrative: "general" },
+  { label: "Playbook", narrative: "general" },
+  { label: "One Chart Style", narrative: "general" },
+  { label: "Quick Thread", narrative: "general" },
+  { label: "My POV", narrative: "general" },
+  { label: "What I'd Do", narrative: "general" },
+  { label: "Signal vs Noise", narrative: "general" },
+];
 
 /**
  * Pick a random item from an array. Uses date-based seed so the same
@@ -265,28 +272,43 @@ export function generateTrailerPost(
     ? `${content.perspective.split(".")[0]}.`
     : "";
 
-  const typeIndex = seedHash(`${seed ?? ""}-post-type`) % POST_TYPE_LABELS.length;
-  const typeLabel = POST_TYPE_LABELS[typeIndex];
+  const allText = content.news.map((s) => `${s.title} ${s.body}`).join(" ").toLowerCase();
+  const regulationHits = ["regulation", "regulatory", "bill", "license", "fca", "sec", "compliance"].filter((k) => allText.includes(k)).length;
+  const dealHits = ["funding", "raised", "series", "acquisition", "merger", "deal"].filter((k) => allText.includes(k)).length;
 
-  const builders: Array<() => string> = [
-    () => `${hook}\n\nHot take: ${teasers[0]} might be the most important payment signal this week.\n\nAlso watching:\n→ ${teasers.slice(1).join("\n→ ")}\n\n${cta}`,
-    () => `${hook}\n\nQuestion for operators: are we underestimating second-order effects from ${teasers[0]}?\n\nToday's other signals:\n→ ${teasers.slice(1).join("\n→ ")}\n\n${cta}`,
-    () => `${hook}\n\nOperator lesson from today: distribution and compliance are now inseparable.\n\nEvidence:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
-    () => `${hook}\n\nMarket pulse in 30 seconds:\n→ ${teasers.join("\n→ ")}\n${whatsHotCount > 0 ? `\n+ ${whatsHotCount} deals in the pipeline 🔥\n` : "\n"}${cta}`,
-    () => `${hook}\n\nFounder lens: the winners will be the teams that move fast without breaking trust.\n\nToday's proof:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
-    () => `${hook}\n\nRisk radar:\n→ ${teasers.join("\n→ ")}\n\n${perspectiveTeaser ? `💡 ${perspectiveTeaser}\n\n` : ""}${cta}`,
-    () => `${hook}\n\nDeal snapshot:\n→ ${teasers.join("\n→ ")}\n${whatsHotCount > 0 ? `\n+ ${whatsHotCount} additional moves in What's Hot` : ""}\n\n${cta}`,
-    () => `${hook}\n\nRegulation watch:\n→ ${teasers.join("\n→ ")}\n\nThe policy surface area is widening faster than most product roadmaps.\n\n${cta}`,
-    () => `${hook}\n\nPrediction: by year-end, one of these themes becomes default playbook for top fintechs.\n\nSignals:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
-    () => `${hook}\n\nIf I were building a payments GTM playbook today, I'd start here:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
-    () => `${hook}\n\nOne-chart-style summary (without the chart):\n→ ${teasers.join("\n→ ")}\n\nDirection is clear. Execution gap is the edge.\n\n${cta}`,
-    () => `${hook}\n\nMini-thread in one post:\n1) ${teasers[0]}\n2) ${teasers[1] ?? teasers[0]}\n3) ${teasers[2] ?? teasers[0]}\n\n${cta}`,
-    () => `${hook}\n\nMy POV: we're moving from feature competition to trust competition.\n\nToday's stories:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
-    () => `${hook}\n\nWhat I'd do this week if I ran a fintech product team:\n→ Re-check assumptions behind: ${teasers[0]}\n→ Build response plan for: ${teasers[1] ?? teasers[0]}\n\n${cta}`,
-    () => `${hook}\n\nSignal vs noise:\nSignal → ${teasers[0]}\nNoise → vanity feature wars\nAlso relevant → ${teasers[1] ?? teasers[0]}\n\n${cta}`,
-  ];
+  let targetNarrative: Narrative = "general";
+  if (vibe === "regulatory" || regulationHits >= 2) targetNarrative = "regulation";
+  else if (vibe === "deals_heavy" || whatsHotCount >= 4 || dealHits >= 3) targetNarrative = "deals";
+  else if (vibe === "breaking") targetNarrative = "breaking";
 
-  let post = builders[typeIndex]();
+  const buildersByLabel: Record<string, () => string> = {
+    "Bold Take": () => `${hook}\n\nHot take: ${teasers[0]} might be the most important payment signal this week.\n\nAlso watching:\n→ ${teasers.slice(1).join("\n→ ")}\n\n${cta}`,
+    "Contrarian Question": () => `${hook}\n\nQuestion for operators: are we underestimating second-order effects from ${teasers[0]}?\n\nToday's other signals:\n→ ${teasers.slice(1).join("\n→ ")}\n\n${cta}`,
+    "Operator Lesson": () => `${hook}\n\nOperator lesson from today: distribution and compliance are now inseparable.\n\nEvidence:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    "Market Pulse": () => `${hook}\n\nMarket pulse in 30 seconds:\n→ ${teasers.join("\n→ ")}\n${whatsHotCount > 0 ? `\n+ ${whatsHotCount} deals in the pipeline 🔥\n` : "\n"}${cta}`,
+    "Founder Lens": () => `${hook}\n\nFounder lens: the winners will be the teams that move fast without breaking trust.\n\nToday's proof:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    "Risk Radar": () => `${hook}\n\nRisk radar:\n→ ${teasers.join("\n→ ")}\n\n${perspectiveTeaser ? `💡 ${perspectiveTeaser}\n\n` : ""}${cta}`,
+    "Deal Snapshot": () => `${hook}\n\nDeal snapshot:\n→ ${teasers.join("\n→ ")}\n${whatsHotCount > 0 ? `\n+ ${whatsHotCount} additional moves in What's Hot` : ""}\n\n${cta}`,
+    "Regulation Watch": () => `${hook}\n\nRegulation watch:\n→ ${teasers.join("\n→ ")}\n\nThe policy surface area is widening faster than most product roadmaps.\n\n${cta}`,
+    "Prediction": () => `${hook}\n\nPrediction: by year-end, one of these themes becomes default playbook for top fintechs.\n\nSignals:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    "Playbook": () => `${hook}\n\nIf I were building a payments GTM playbook today, I'd start here:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    "One Chart Style": () => `${hook}\n\nOne-chart-style summary (without the chart):\n→ ${teasers.join("\n→ ")}\n\nDirection is clear. Execution gap is the edge.\n\n${cta}`,
+    "Quick Thread": () => `${hook}\n\nMini-thread in one post:\n1) ${teasers[0]}\n2) ${teasers[1] ?? teasers[0]}\n3) ${teasers[2] ?? teasers[0]}\n\n${cta}`,
+    "My POV": () => `${hook}\n\nMy POV: we're moving from feature competition to trust competition.\n\nToday's stories:\n→ ${teasers.join("\n→ ")}\n\n${cta}`,
+    "What I'd Do": () => `${hook}\n\nWhat I'd do this week if I ran a fintech product team:\n→ Re-check assumptions behind: ${teasers[0]}\n→ Build response plan for: ${teasers[1] ?? teasers[0]}\n\n${cta}`,
+    "Signal vs Noise": () => `${hook}\n\nSignal vs noise:\nSignal → ${teasers[0]}\nNoise → vanity feature wars\nAlso relevant → ${teasers[1] ?? teasers[0]}\n\n${cta}`,
+  };
+
+  const eligible = POST_ARCHETYPES.filter((a) => {
+    if (targetNarrative === "deals") return a.narrative === "deals" || a.narrative === "general";
+    if (targetNarrative === "regulation") return a.narrative === "regulation" || a.narrative === "general";
+    return a.narrative === "general";
+  });
+
+  const chosen = eligible[seedHash(`${seed ?? ""}-post-type`) % eligible.length] ?? POST_ARCHETYPES[0];
+  const typeLabel = chosen.label;
+
+  let post = (buildersByLabel[typeLabel] ?? buildersByLabel["Market Pulse"])();
   post += `\n\n(${typeLabel})`;
   post += `\n\n${hashtags.slice(0, 5).join(" ")}`;
 
