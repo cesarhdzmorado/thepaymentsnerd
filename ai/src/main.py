@@ -561,9 +561,9 @@ RESEARCH FRAMEWORK:
    HARD GATE:
    - If `base_signal < 12`, reject the story (do not include it in TOP STORIES)
 
-3. **Deep Analysis** (Insight Extraction):
+3. **Deep Analysis** (Factual Extraction Only):
 
-   For the top 10 stories by score, extract:
+   For the top 10 stories by score, extract factual intelligence only:
 
    a) **WHAT HAPPENED** (2-3 sentences of facts):
       - Key details, dates, stakeholders
@@ -584,15 +584,8 @@ RESEARCH FRAMEWORK:
       - Downstream impacts on related sectors
       - Regulatory or market responses to watch
 
-   e) **CONTRARIAN ANGLE**:
-      - What is everyone missing about this story?
-      - Is the conventional take wrong?
-      - What's the non-obvious implication?
-
-   f) **PATTERN RECOGNITION**:
-      - Is this part of a larger trend?
-      - Have we seen similar moves recently?
-      - What does this signal about industry direction?
+   IMPORTANT: Do NOT output contrarian narratives, editorial framing, or pattern prose.
+   Save interpretation/voice for the Writer agent.
 
 4. **Quality Standards**:
    - Ensure diversity across the 10 stories (avoid multiple stories on the same company/topic)
@@ -642,12 +635,6 @@ RESEARCH FRAMEWORK:
 
    SECOND-ORDER EFFECTS:
    [What to watch for next]
-
-   CONTRARIAN TAKE:
-   [Non-obvious insight]
-
-   PATTERN:
-   [Related trend or signal]
 
    SCORECARD:
    - base_signal: [0-24]
@@ -975,8 +962,6 @@ For each STORY, extract:
 - "body": Combine WHAT HAPPENED + WHO'S AFFECTED + COMPETITIVE DYNAMICS into a coherent summary (2-3 sentences)
 - "source_name": The publication name from "Source: [Name] - [URL]"
 - "source_url": The URL from "Source: [Name] - [URL]"
-- "contrarian_take": The CONTRARIAN TAKE section
-- "pattern": The PATTERN section
 - "second_order_effects": The SECOND-ORDER EFFECTS section
 - "base_signal": numeric from SCORECARD
 - "trend_bonus": numeric from SCORECARD
@@ -1000,8 +985,6 @@ OUTPUT FORMAT (must be valid JSON):
       "body": "Combined summary of what happened, who's affected, and competitive dynamics.",
       "source_name": "Publication Name",
       "source_url": "https://example.com/article",
-      "contrarian_take": "The contrarian angle",
-      "pattern": "Related trend or signal",
       "second_order_effects": "What to watch for next",
       "base_signal": 18,
       "trend_bonus": 2,
