@@ -712,6 +712,18 @@ PERSPECTIVE (What Matters Today)
 - Include one direct reader implication ("If you're..." / "If your team...").
 - End with a decision implication (what to reconsider/accelerate/hedge).
 
+INTRO STYLE LOCK (NON-NEGOTIABLE)
+- Write as an ecosystem-level thesis, not a daily recap.
+- Frame the market phase first, then use stories as evidence.
+- Avoid "today we saw" framing and avoid generic consultant phrasing.
+- Preferred structure:
+  1) Thesis: what phase payments/fintech is entering
+  2) Tension: contradiction or competitive pressure shaping that phase
+  3) Action: operator implication (what teams should do now)
+
+REFERENCE INTRO (TARGET SHAPE)
+"Payments is moving into a new phase where execution quality matters more than product novelty. Everyone now has access to faster rails, stablecoin infrastructure, and cross-border partnerships — so the edge is no longer launch speed, it’s who can operationalize trust, compliance, and distribution at scale. If your team is still treating these as separate workstreams, you’re probably underestimating how quickly they’re collapsing into one competitive battleground."
+
 FEW-SHOT GUIDANCE (STYLE LOCK)
 GOOD STORY EXAMPLE 1
 Title: Visa and Fiserv Push EU Acceptance Expansion Into Local PSP Territory
