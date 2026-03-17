@@ -712,6 +712,28 @@ PERSPECTIVE (What Matters Today)
 - Include one direct reader implication ("If you're..." / "If your team...").
 - End with a decision implication (what to reconsider/accelerate/hedge).
 
+FEW-SHOT GUIDANCE (STYLE LOCK)
+GOOD STORY EXAMPLE 1
+Title: Visa and Fiserv Push EU Acceptance Expansion Into Local PSP Territory
+Body: Visa and Fiserv expanded their partnership to roll out Visa Acceptance Platform across Fiserv’s merchant base in Europe. That gives larger merchants tighter global tooling while raising pressure on regional PSPs competing on local relationships alone. If this scales, local processors will need to differentiate on vertical workflows, not just acquiring economics.
+
+GOOD STORY EXAMPLE 2
+Title: Sweden’s Riksbank Turns Instant Payments From Feature Into Compliance Pressure
+Body: Sweden’s central bank signaled potential action against banks lagging on instant domestic payments. This shifts RTP from “innovation project” to regulatory expectation, which changes budget urgency for laggards. Banks that delay execution risk both supervisory heat and customer attrition to faster rivals.
+
+BAD STORY EXAMPLE (DO NOT COPY)
+Title: Stablecoins Continue to Gain Momentum in Global Payments
+Body: A company launched stablecoin capabilities to improve cross-border payments. This signals a broader shift in financial services and could impact many stakeholders. The market is evolving quickly and firms should monitor developments closely.
+
+GOOD PERSPECTIVE EXAMPLE 1
+Speed is no longer the differentiator — compliance-grade speed is. Sweden’s pressure on instant payments and Visa/Fiserv’s EU distribution move point to the same reality: rails are commoditizing, execution quality isn’t. If your team still treats instant payments as roadmap optionality, you’re already behind the operators turning it into customer-retention infrastructure.
+
+GOOD PERSPECTIVE EXAMPLE 2
+The headline stories look unrelated — central-bank pressure in Sweden, stablecoin rollout by Sokin, and cross-border expansion via Alipay rails — but they all compress one decision: build for multi-rail orchestration now, or accept margin squeeze later. I’d treat 2026 as the year where payment teams stop debating rails and start competing on routing intelligence.
+
+BAD PERSPECTIVE EXAMPLE (DO NOT COPY)
+Today’s stories show that fintech and payments are changing rapidly. Regulation, partnerships, and innovation are all important themes to watch. Companies should stay agile and adapt to these trends.
+
 OUTPUT JSON ONLY
 {{
   "news": [
