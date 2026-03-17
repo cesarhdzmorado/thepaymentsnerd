@@ -169,6 +169,70 @@ def select_fallback_curiosity(curiosity_history: list):
         available = CURATED_CURIOSITY_FALLBACKS
     return max(available, key=lambda text: curiosity_novelty_score(text, curiosity_history))
 
+
+def _normalize_story_url(url: str) -> str:
+    """Normalize URL for robust cross-section dedup (news vs what's hot)."""
+    if not url:
+        return ""
+    u = url.strip().lower()
+    if u.startswith("https://"):
+        u = u[len("https://"):]
+    elif u.startswith("http://"):
+        u = u[len("http://"):]
+    if u.startswith("www."):
+        u = u[len("www."):]
+    # Remove query params and fragments to compare canonical article paths
+    u = u.split("?")[0].split("#")[0]
+    return u.rstrip("/")
+
+
+def deduplicate_whats_hot_against_news(news_items: list, whats_hot_items: list):
+    """
+    Remove What's Hot entries that duplicate already selected Top News stories.
+
+    Matching strategy (in order):
+    1) Normalized source URL exact match (most reliable)
+    2) Company + title overlap fallback (when URL missing)
+
+    Returns: (filtered_whats_hot, removed_items_with_reasons)
+    """
+    if not whats_hot_items:
+        return [], []
+
+    news_urls = set()
+    news_titles = []
+    for n in news_items or []:
+        source = n.get("source", {}) if isinstance(n, dict) else {}
+        source_url = source.get("url", "") if isinstance(source, dict) else ""
+        norm = _normalize_story_url(source_url)
+        if norm:
+            news_urls.add(norm)
+        title = (n.get("title", "") if isinstance(n, dict) else "").lower().strip()
+        if title:
+            news_titles.append(title)
+
+    filtered = []
+    removed = []
+
+    for item in whats_hot_items:
+        source_url = item.get("source_url", "") if isinstance(item, dict) else ""
+        norm_hot_url = _normalize_story_url(source_url)
+        company = (item.get("company", "") if isinstance(item, dict) else "").lower().strip()
+
+        if norm_hot_url and norm_hot_url in news_urls:
+            removed.append({"item": item, "reason": "source_url already present in top news"})
+            continue
+
+        # Fallback: if company name appears in any selected news title and no URL to compare
+        if not norm_hot_url and company and any(company in t for t in news_titles):
+            removed.append({"item": item, "reason": "company overlaps with top news title (no URL)"})
+            continue
+
+        filtered.append(item)
+
+    return filtered, removed
+
+
 def get_recent_stories(days_back: int = 2):
     """
     Fetch stories and editorial context from recent newsletters.
@@ -472,29 +536,30 @@ RESEARCH FRAMEWORK:
    - If a feed fails, note it and continue with other sources
    - Aim to gather 20-30 candidate stories across all sources
 
-2. **Story Evaluation** (Strategic Scoring):
+2. **Story Evaluation** (Signal Scoring):
 
-   Score each story using this framework (0-30 points total):
+   Score each story using this framework:
 
-   IMPACT (0-10 points):
-   - Transaction volume affected (small/medium/large scale)
-   - Number of institutions or users impacted
-   - Geographic reach (regional vs global)
+   BASE SIGNAL (0-24):
+   - Specific facts & data quality (0-6)
+   - Material impact size (0-6)
+   - Novelty/timeliness (0-4)
+   - Actionability for payments operators (0-4)
+   - Source quality / verification strength (0-4)
 
-   STRATEGIC IMPORTANCE (0-10 points):
-   - Does this change competitive dynamics? (new entrant, M&A, partnership)
-   - Does this shift market power or business models?
-   - Does this create new opportunities or existential threats?
+   CONTEXT MODIFIERS:
+   - Trend bonus (0-3): strong evidence-backed alignment with current trends
+   - Operator relevance (0-3): direct relevance to payments sales/product/strategy readers
 
-   TIMELINESS (0-5 points):
-   - Breaking news (< 12 hours) = 5
-   - Very recent (12-48 hours) = 3-4
-   - Important but older = 1-2
+   PENALTIES (apply as needed):
+   - PR fluff / vague announcement / no concrete numbers: -3 to -8
+   - Weak evidence despite famous company mention: -2 to -5
 
-   ACTIONABILITY (0-5 points):
-   - Can payments professionals act on this intelligence?
-   - Does it require strategic response or present clear opportunities?
-   - Does it include specific data points or metrics?
+   FINAL SCORE (0-30):
+   - `final_score = base_signal + trend_bonus + operator_relevance - penalties`
+
+   HARD GATE:
+   - If `base_signal < 12`, reject the story (do not include it in TOP STORIES)
 
 3. **Deep Analysis** (Insight Extraction):
 
@@ -583,6 +648,14 @@ RESEARCH FRAMEWORK:
 
    PATTERN:
    [Related trend or signal]
+
+   SCORECARD:
+   - base_signal: [0-24]
+   - trend_bonus: [0-3]
+   - operator_relevance: [0-3]
+   - penalties: [0-8]
+   - final_score: [0-30]
+   - gate: [PASS/REJECT]
    ---
 
    PART 2 - WHAT'S HOT:
@@ -905,6 +978,12 @@ For each STORY, extract:
 - "contrarian_take": The CONTRARIAN TAKE section
 - "pattern": The PATTERN section
 - "second_order_effects": The SECOND-ORDER EFFECTS section
+- "base_signal": numeric from SCORECARD
+- "trend_bonus": numeric from SCORECARD
+- "operator_relevance": numeric from SCORECARD
+- "penalties": numeric from SCORECARD
+- "final_score": numeric from SCORECARD
+- "gate": PASS or REJECT from SCORECARD
 
 For each WHATS_HOT item, extract:
 - "flag": Convert the country to emoji flag (US=🇺🇸, UK=🇬🇧, Germany=🇩🇪, France=🇫🇷, Netherlands=🇳🇱, Sweden=🇸🇪, Ireland=🇮🇪, Singapore=🇸🇬, Brazil=🇧🇷, Argentina=🇦🇷, Mexico=🇲🇽, India=🇮🇳, Australia=🇦🇺, Canada=🇨🇦, Japan=🇯🇵, China=🇨🇳, Hong Kong=🇭🇰, Israel=🇮🇱, UAE=🇦🇪, Czech Republic=🇨🇿, Estonia=🇪🇪, Lithuania=🇱🇹, Nigeria=🇳🇬, Kenya=🇰🇪, South Africa=🇿🇦, Indonesia=🇮🇩, South Korea=🇰🇷, Spain=🇪🇸, Italy=🇮🇹, Switzerland=🇨🇭)
@@ -923,7 +1002,13 @@ OUTPUT FORMAT (must be valid JSON):
       "source_url": "https://example.com/article",
       "contrarian_take": "The contrarian angle",
       "pattern": "Related trend or signal",
-      "second_order_effects": "What to watch for next"
+      "second_order_effects": "What to watch for next",
+      "base_signal": 18,
+      "trend_bonus": 2,
+      "operator_relevance": 3,
+      "penalties": 1,
+      "final_score": 22,
+      "gate": "PASS"
     }}
   ],
   "whats_hot": [
@@ -940,8 +1025,9 @@ OUTPUT FORMAT (must be valid JSON):
 CRITICAL:
 - Return ONLY the JSON object, no markdown formatting, no additional text
 - Preserve all factual details, numbers, and company names exactly as written
-- If a field is missing in the input, use an empty string ""
+- If a field is missing in the input, use an empty string "" (for score fields use 0)
 - If "WHATS_HOT: None found" or no What's Hot items present, return an empty array for "whats_hot"
+- Keep only stories with gate=PASS when clearly indicated; otherwise include and set gate="UNKNOWN"
 - Ensure exactly 10 stories are extracted in the "stories" array (or fewer if the Researcher provided fewer)"""),
         ("user", "{input}"),
     ])
@@ -1110,6 +1196,19 @@ Revision rules:
         # Extract stories and whats_hot from unified parser output
         parsed_stories = parsed_data.get('stories', [])
         whats_hot_items = parsed_data.get('whats_hot', [])
+
+        # Keep only PASS-gated stories when present, and sort by final_score desc for downstream selection
+        if isinstance(parsed_stories, list) and parsed_stories:
+            pass_gated = [s for s in parsed_stories if str(s.get('gate', '')).upper() == 'PASS']
+            if pass_gated:
+                parsed_stories = pass_gated
+
+            parsed_stories = sorted(
+                parsed_stories,
+                key=lambda s: float(s.get('final_score', 0) or 0),
+                reverse=True,
+            )
+
         print(f"✅ Parsed {len(parsed_stories)} stories and {len(whats_hot_items)} What's Hot items from Researcher output")
     except (json.JSONDecodeError, AttributeError) as e:
         print(f"⚠️ Failed to parse Researcher output: {e}")
@@ -1246,10 +1345,22 @@ Revision rules:
             if original_count != final_count:
                 print(f"⚠️ Safety net: Removed {original_count - final_count} near-identical stories from final output")
 
-        # Add What's Hot section to the output
+        # Cross-section dedup: remove What's Hot items already present in Top News
         if whats_hot_items:
-            output_json['whats_hot'] = whats_hot_items
-            print(f"✅ Added {len(whats_hot_items)} items to What's Hot section")
+            filtered_hot, removed_hot = deduplicate_whats_hot_against_news(
+                news_items=output_json.get('news', []),
+                whats_hot_items=whats_hot_items,
+            )
+            output_json['whats_hot'] = filtered_hot
+
+            if removed_hot:
+                print(f"⚠️ Removed {len(removed_hot)} What's Hot items duplicated in Top News")
+                for entry in removed_hot:
+                    item = entry.get('item', {})
+                    company = item.get('company', 'Unknown company') if isinstance(item, dict) else 'Unknown company'
+                    print(f"   - {company}: {entry.get('reason', 'duplicate')}")
+
+            print(f"✅ Added {len(filtered_hot)} items to What's Hot section")
         else:
             output_json['whats_hot'] = []
             print("ℹ️ No items for What's Hot section")
