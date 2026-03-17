@@ -18,3 +18,5 @@ __pycache__/
 .env.local
 web/email-preview.html
 .linkedin-tokens.json
+
+.linkedin-archetype-state.json
