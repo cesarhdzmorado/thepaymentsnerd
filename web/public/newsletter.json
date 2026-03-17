@@ -1,85 +1,99 @@
 {
   "news": [
     {
-      "title": "Revolut Secures UK Banking License, Intensifying Competition with Traditional Banks",
-      "body": "Revolut has secured a full UK banking license after a prolonged five-year process, allowing it to expand services to include loans, mortgages, and credit cards. This move affects the UK banking sector, fintech competitors, and consumers seeking digital banking solutions, intensifying competition with established banks. Incumbents must now innovate and adjust pricing strategies to respond to Revolut's expanded offerings.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
-      }
-    },
-    {
-      "title": "Visa Reports Surge in Check Fraud Transitioning to Faster Payment Scams",
-      "body": "Visa reports an increase in check fraud transitioning into faster payment scams, exploiting vulnerabilities in the U.S. banking system's digital transformation. This trend necessitates improved security measures across financial institutions, businesses, and payment processors. Companies offering advanced fraud prevention solutions stand to benefit as regulatory scrutiny intensifies in the digital payments landscape.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/fraud-prevention/2026/visa-sees-check-fraud-spilling-into-faster-payment-scams/"
-      }
-    },
-    {
-      "title": "Australia's Senate Committee Backs Crypto Bill Mandating Licensing for Platforms",
-      "body": "Australia's Senate committee supports a bill mandating crypto platforms to obtain licenses, aligning them with traditional financial service providers. This move could enhance consumer trust and market share for licensed platforms while challenging unlicensed ones. The potential for increased regulatory clarity and consumer protection in the Australian crypto market could reshape competitive dynamics.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/393684/australian-senate-committee-backs-crypto-bill?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Hana Group and Standard Chartered Collaborate on Digital Asset Initiatives",
-      "body": "Hana Financial Group and Standard Chartered are collaborating on digital asset initiatives, including stablecoins, to expand their digital finance capabilities. This partnership positions both firms as leaders in the digital asset space, potentially accelerating stablecoin adoption and challenging other financial institutions to innovate. The focus on digital assets may also expose them to regulatory and market volatility risks.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/393689/hana-group-partners-standard-chartered?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Chaseit.ai Launches AI Agents for Automating Loan Servicing and Customer Communications",
-      "body": "Chaseit.ai, a Lithuanian fintech, has launched AI agents for automating loan servicing and customer communications, enhancing efficiency in financial operations. This innovation could reduce operational costs for loan servicing companies while improving service efficiency. However, over-reliance on AI may lead to customer dissatisfaction if human oversight is insufficient.",
+      "title": "Swedish Central Bank Pressures Banks on Instant Payments",
+      "body": "Sweden's central bank is threatening to impose new regulations on banks to accelerate the adoption of instant domestic payments, aiming to enhance payment system efficiency. This move affects Swedish banks and their customers, potentially impacting payment service providers and fintechs. Banks that adapt quickly could gain a competitive edge, while those lagging may face penalties and lose market share.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47439/fintech-startup-chaseitai-launches-ai-agents-for-call-centre-loan-servicing?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47442/swedish-central-bank-threatens-banks-with-action-over-instant-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Sokin Launches Stablecoin Capabilities",
+      "body": "Sokin has launched stablecoin capabilities, integrating traditional currency operations with stablecoin accounts and settlement rails. This development affects Sokin's clients, particularly those involved in cross-border transactions, and pressures competitors in the stablecoin and payments space. Sokin's move could reshape cross-border payment dynamics and increase adoption of stablecoins in mainstream finance.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109188/sokin-hops-on-stablecoin-rails?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Neema Partners with Alipay for Cross-Border Payments",
+      "body": "Neema has partnered with Alipay to enable cross-border payments to Alipay users in China, expanding its global payment capabilities. This partnership affects Neema, Alipay, and their clients, while also impacting competitors in the cross-border payments market. The collaboration enhances Neema's service offering and could lead to increased competition in the market.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109191/neemas-clients-can-now-send-cross-border-payments-to-chinas-alipay?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Visa and Fiserv Expand Partnership in Europe",
+      "body": "Visa and Fiserv have expanded their partnership to deliver the Visa Acceptance Platform within Fiserv\u2019s merchant solutions across Europe. This expansion affects Visa, Fiserv, European merchants, and competitors in the payment processing space. The strengthened market position could challenge local payment processors and drive competition among them.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109171/visa-and-fiserv-expand-partnership?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Mastercard Warns of Credit Gap for Gen Z SMBs",
+      "body": "Mastercard highlights a credit gap affecting Gen Z small businesses, with 52% of payments still made in cash. This situation affects Gen Z small business owners, financial institutions, and payment service providers. There is an opportunity for financial institutions to develop products targeting this demographic, potentially capturing a new market segment.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/smbs/2026/mastercard-warns-credit-gap-is-holding-back-gen-z-small-businesses/"
       }
     }
   ],
-  "perspective": "I'm watching the increasing regulatory scrutiny across multiple sectors, from Revolut's banking license to Australia's crypto licensing bill. These developments highlight a critical shift: as fintechs and traditional banks navigate compliance, the competitive landscape will evolve rapidly. If your team is still viewing regulation as a hurdle, it's time to pivot\u2014embracing these changes could unlock new opportunities for innovation and market leadership.",
+  "perspective": "I'm watching the growing regulatory pressure on banks to adopt instant payments, as seen with Sweden's central bank's recent threats. This aligns with the broader trend of real-time payments becoming the default infrastructure, pushing banks to innovate or risk losing market share. If your team is still treating compliance as a checkbox, it's time to rethink\u2014embracing these shifts is essential for staying competitive in 2026.",
   "curiosity": {
-    "text": "Did you know that in 1994, the first online banking service was launched by Stanford Federal Credit Union, allowing members to manage their accounts via the internet? This innovation marked the beginning of digital banking, significantly changing how consumers accessed and managed their financial services."
+    "text": "Did you know that in 2006, PayPal became the first company to offer a secure payment solution for eBay transactions, significantly increasing consumer confidence in online shopping? This pivotal moment helped to catalyze the growth of e-commerce by providing a trusted method for users to conduct transactions over the internet."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Allica Bank",
-      "description": "Becomes Europe\u2019s newest unicorn with $155m Series D",
-      "source_url": "https://sifted.eu/articles/allica-bank-unicorn-news/"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Legora",
-      "description": "Raises $550M Series D, triples valuation to $5.55B",
-      "source_url": "https://news.crunchbase.com/venture/unicorn-legal-tech-ai-startup-legora-triples-valuation/"
-    },
-    {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "fundraising",
-      "company": "AMI",
-      "description": "Raises $1B in Europe\u2019s largest seed round for AI lab",
-      "source_url": "https://news.crunchbase.com/venture/world-model-ai-lab-ami-raises-europes-largest-seed-round/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
-      "type": "expansion",
-      "company": "YouLend",
-      "description": "Opens Berlin hub, recruits for 70 new positions",
-      "source_url": "https://www.finextra.com/pressarticle/109175/youlend-to-recruit-for-70-new-positions-as-it-opens-berlin-hub?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Ramp",
+      "description": "Acquires Billhop to expand in EU and UK.",
+      "source_url": "https://www.finextra.com/newsarticle/47440/ramp-acquires-billhop-to-expand-across-eu-and-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Recruits ex-Visa exec as new US chief, files for banking licence",
-      "source_url": "https://sifted.eu/articles/revolut-us-banking-licence/"
+      "type": "product",
+      "company": "Sokin",
+      "description": "Launches stablecoin capabilities for payments.",
+      "source_url": "https://www.finextra.com/pressarticle/109188/sokin-hops-on-stablecoin-rails?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "type": "partnership",
+      "company": "Neema",
+      "description": "Partners with Alipay for cross-border payments.",
+      "source_url": "https://www.finextra.com/pressarticle/109191/neemas-clients-can-now-send-cross-border-payments-to-chinas-alipay?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "partnership",
+      "company": "Crypto.com",
+      "description": "Partners with South Korea\u2019s largest payment gateway.",
+      "source_url": "https://www.theblock.co/post/393848/crypto-com-partner-kg-inicis?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "partnership",
+      "company": "Visa and Fiserv",
+      "description": "Expand partnership for Visa Acceptance Platform in Europe.",
+      "source_url": "https://www.finextra.com/pressarticle/109171/visa-and-fiserv-expand-partnership?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Ironlight",
+      "description": "Raises $21M to expand tokenized securities marketplace.",
+      "source_url": "https://www.theblock.co/post/393770/ironlight-raises-21-million-expand-regulated-marketplace-tokenized-securities?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "fundraising",
+      "company": "MetaComp",
+      "description": "Raises $35M in Pre-A+ funding round.",
+      "source_url": "https://www.finextra.com/pressarticle/109182/singapores-metacomp-raises-35-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
