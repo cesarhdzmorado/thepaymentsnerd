@@ -1,99 +1,99 @@
 {
   "news": [
     {
-      "title": "Swedish Central Bank Pressures Banks on Instant Payments",
-      "body": "Sweden's central bank is threatening to impose new regulations on banks to accelerate the adoption of instant domestic payments, aiming to enhance payment system efficiency. This move affects Swedish banks and their customers, potentially impacting payment service providers and fintechs. Banks that adapt quickly could gain a competitive edge, while those lagging may face penalties and lose market share.",
+      "title": "Mastercard Agrees to Acquire BVNK, Accelerating Stablecoin Integration",
+      "body": "Mastercard has agreed to acquire BVNK, a stablecoin infrastructure platform, in a deal reported as valued at up to $1.8 billion. The acquisition aims to fast-track Mastercard\u2019s ability to embed stablecoin settlement into its global network, directly challenging fintechs and payment processors already moving into programmable money. The deal is expected to intensify regulatory scrutiny as stablecoins become more deeply embedded in mainstream payments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47442/swedish-central-bank-threatens-banks-with-action-over-instant-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47450/mastercard-agrees-18bn-deal-for-stablecoin-platform-bvnk"
       }
     },
     {
-      "title": "Sokin Launches Stablecoin Capabilities",
-      "body": "Sokin has launched stablecoin capabilities, integrating traditional currency operations with stablecoin accounts and settlement rails. This development affects Sokin's clients, particularly those involved in cross-border transactions, and pressures competitors in the stablecoin and payments space. Sokin's move could reshape cross-border payment dynamics and increase adoption of stablecoins in mainstream finance.",
+      "title": "Visa Pilots AI-Powered Agentic Payments With Dozens of European Banks",
+      "body": "Visa has launched trials for agent-initiated, AI-driven payments with banks across the UK and Europe, aiming to boost transaction efficiency and security. This marks a shift toward agentic AI as a core payments capability, forcing competitors to accelerate their own AI integration or risk falling behind. Banks and payment processors should prepare for new fraud and compliance challenges as AI agents begin to automate payment flows at scale.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109188/sokin-hops-on-stablecoin-rails?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47445/visa-recruits-scores-of-banks-in-uk-and-europe-for-ai-payments-trials"
       }
     },
     {
-      "title": "Neema Partners with Alipay for Cross-Border Payments",
-      "body": "Neema has partnered with Alipay to enable cross-border payments to Alipay users in China, expanding its global payment capabilities. This partnership affects Neema, Alipay, and their clients, while also impacting competitors in the cross-border payments market. The collaboration enhances Neema's service offering and could lead to increased competition in the market.",
+      "title": "PayPal Expands PYUSD Stablecoin to 70 Markets, Escalating Cross-Border Payments Race",
+      "body": "PayPal has rolled out its stablecoin PYUSD to 70 global markets, aiming to streamline cross-border transactions and offer merchants a stable digital currency alternative. This expansion raises the bar for other payment platforms, which now face pressure to accelerate their own stablecoin and digital asset strategies. Traditional cross-border payment providers risk margin compression as stablecoin rails gain traction.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109191/neemas-clients-can-now-send-cross-border-payments-to-chinas-alipay?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47452/paypal-brings-stablecoin-to-70-markets"
       }
     },
     {
-      "title": "Visa and Fiserv Expand Partnership in Europe",
-      "body": "Visa and Fiserv have expanded their partnership to deliver the Visa Acceptance Platform within Fiserv\u2019s merchant solutions across Europe. This expansion affects Visa, Fiserv, European merchants, and competitors in the payment processing space. The strengthened market position could challenge local payment processors and drive competition among them.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109171/visa-and-fiserv-expand-partnership?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Mastercard Warns of Credit Gap for Gen Z SMBs",
-      "body": "Mastercard highlights a credit gap affecting Gen Z small businesses, with 52% of payments still made in cash. This situation affects Gen Z small business owners, financial institutions, and payment service providers. There is an opportunity for financial institutions to develop products targeting this demographic, potentially capturing a new market segment.",
+      "title": "SEC and CFTC End Crypto Regulatory Uncertainty With Joint Guidance",
+      "body": "The SEC and CFTC have jointly clarified how federal securities laws apply to crypto assets, reducing ambiguity for market participants. This regulatory clarity is likely to unlock new institutional investment and accelerate the launch of compliant crypto payment products. Payment companies and banks that have delayed crypto integration due to legal uncertainty now face a narrower window to build competitive offerings.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/smbs/2026/mastercard-warns-credit-gap-is-holding-back-gen-z-small-businesses/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/sec-and-cftc-end-era-of-crypto-uncertainty/"
+      }
+    },
+    {
+      "title": "Stripe Launches Embedded Finance Suite for Platforms and Marketplaces",
+      "body": "Stripe has introduced a new embedded finance suite, enabling platforms and marketplaces to offer banking, lending, and card issuing directly to their users. This move intensifies competition among payment infrastructure providers and puts pressure on legacy banks and standalone fintechs to accelerate their own embedded finance strategies. Platforms that fail to offer integrated financial services risk losing merchants to more comprehensive solutions.",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2024/06/10/stripe-launches-embedded-finance-suite/"
       }
     }
   ],
-  "perspective": "I'm watching the growing regulatory pressure on banks to adopt instant payments, as seen with Sweden's central bank's recent threats. This aligns with the broader trend of real-time payments becoming the default infrastructure, pushing banks to innovate or risk losing market share. If your team is still treating compliance as a checkbox, it's time to rethink\u2014embracing these shifts is essential for staying competitive in 2026.",
+  "perspective": "If you\u2019re building payments infrastructure today, you\u2019re standing at the intersection of programmable money and intelligent automation\u2014and the traffic is only getting heavier. Mastercard\u2019s reported $1.8B move for BVNK and PayPal\u2019s global PYUSD push aren\u2019t just headline grabs; they\u2019re signals that stablecoin rails are becoming table stakes for global settlement. Meanwhile, Visa\u2019s AI-powered payment pilots with European banks show that agentic AI isn\u2019t a future bet\u2014it\u2019s a present necessity. If your team is at a traditional bank or a cross-border payments provider, the message is clear: the old playbook of siloed, legacy rails is being rewritten by those who can orchestrate compliance, speed, and intelligence across both digital assets and AI. The window to adapt is narrowing fast.",
   "curiosity": {
-    "text": "Did you know that in 2006, PayPal became the first company to offer a secure payment solution for eBay transactions, significantly increasing consumer confidence in online shopping? This pivotal moment helped to catalyze the growth of e-commerce by providing a trusted method for users to conduct transactions over the internet."
+    "text": "Ever wondered why embedded finance is suddenly everywhere? The rise of API-first platforms has made it possible for non-banks\u2014like marketplaces and SaaS providers\u2014to offer banking and lending services directly, blurring the line between tech company and financial institution."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Ramp",
-      "description": "Acquires Billhop to expand in EU and UK.",
-      "source_url": "https://www.finextra.com/newsarticle/47440/ramp-acquires-billhop-to-expand-across-eu-and-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "fundraising",
+      "company": "Candex",
+      "description": "Extended Series C to $40M for vendor onboarding solutions",
+      "source_url": "https://news.crunchbase.com/venture/fintech-startup-candex-raises-40m-seriesc-extension/"
+    },
+    {
+      "flag": "\ud83c\udf0d",
+      "type": "fundraising",
+      "company": "TransFi",
+      "description": "Raised $19M for stablecoin payments expansion in emerging markets",
+      "source_url": "https://www.theblock.co/post/394045/transfi-raises-19-million?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Upvest",
+      "description": "Secured $125M from Tencent and Sapphire Ventures",
+      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "type": "fundraising",
+      "company": "Cleafy",
+      "description": "Raised \u20ac12M for bank fraud protection technology",
+      "source_url": "https://www.finextra.com/newsarticle/47448/bank-fraud-protection-firm-cleafy-secures-12-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Fuse",
+      "description": "Raised $25M for AI-based loan origination platform",
+      "source_url": "https://www.finextra.com/newsarticle/47449/ai-based-loan-origination-platform-fuse-raises-25-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Steward",
+      "description": "Raised $5M to improve investor onboarding with AI",
+      "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Sokin",
-      "description": "Launches stablecoin capabilities for payments.",
-      "source_url": "https://www.finextra.com/pressarticle/109188/sokin-hops-on-stablecoin-rails?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "type": "partnership",
-      "company": "Neema",
-      "description": "Partners with Alipay for cross-border payments.",
-      "source_url": "https://www.finextra.com/pressarticle/109191/neemas-clients-can-now-send-cross-border-payments-to-chinas-alipay?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "partnership",
-      "company": "Crypto.com",
-      "description": "Partners with South Korea\u2019s largest payment gateway.",
-      "source_url": "https://www.theblock.co/post/393848/crypto-com-partner-kg-inicis?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "Visa and Fiserv",
-      "description": "Expand partnership for Visa Acceptance Platform in Europe.",
-      "source_url": "https://www.finextra.com/pressarticle/109171/visa-and-fiserv-expand-partnership?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Ironlight",
-      "description": "Raises $21M to expand tokenized securities marketplace.",
-      "source_url": "https://www.theblock.co/post/393770/ironlight-raises-21-million-expand-regulated-marketplace-tokenized-securities?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
-      "type": "fundraising",
-      "company": "MetaComp",
-      "description": "Raises $35M in Pre-A+ funding round.",
-      "source_url": "https://www.finextra.com/pressarticle/109182/singapores-metacomp-raises-35-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Earth Blox",
+      "description": "Secured \u00a36M to aid banks in nature-positive finance",
+      "source_url": "https://www.finextra.com/pressarticle/109212/earth-blox-secures-6m-to-help-banks-finance-the-transition-to-a-nature-positive-economy"
     }
   ]
 }
