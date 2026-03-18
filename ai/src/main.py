@@ -747,19 +747,19 @@ BAD PERSPECTIVE EXAMPLE (DO NOT COPY)
 Today’s stories show that fintech and payments are changing rapidly. Regulation, partnerships, and innovation are all important themes to watch. Companies should stay agile and adapt to these trends.
 
 OUTPUT JSON ONLY
-{{
+{{{{
   "news": [
-    {{
+    {{{{
       "title": "...",
       "body": "...",
-      "source": {{
+      "source": {{{{
         "name": "Publication Name",
         "url": "https://example.com/article"
-      }}
-    }}
+      }}}}
+    }}}}
   ],
   "perspective": "..."
-}}
+}}}}
 
 CRITICAL
 - Return only valid JSON (no markdown).
@@ -988,22 +988,22 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
 
 Task:
 - Return ONLY valid JSON in this exact shape:
-{
+{{
   "news": [
-    {
+    {{
       "title": "...",
       "body": "...",
-      "source": {
+      "source": {{
         "name": "Publication Name",
         "url": "https://example.com/article"
-      }
-    }
+      }}
+    }}
   ],
   "perspective": "...",
-  "curiosity": {
+  "curiosity": {{
     "text": "..."
-  }
-}
+  }}
+}}
 
 Revision rules:
 - Resolve each editor issue explicitly.
