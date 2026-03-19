@@ -1,99 +1,85 @@
 {
   "news": [
     {
-      "title": "Mastercard Agrees to Acquire BVNK, Accelerating Stablecoin Integration",
-      "body": "Mastercard has agreed to acquire BVNK, a stablecoin infrastructure platform, in a deal reported as valued at up to $1.8 billion. The acquisition aims to fast-track Mastercard\u2019s ability to embed stablecoin settlement into its global network, directly challenging fintechs and payment processors already moving into programmable money. The deal is expected to intensify regulatory scrutiny as stablecoins become more deeply embedded in mainstream payments.",
+      "title": "Stripe-Backed Tempo Blockchain Debuts Open Protocol for Machine-to-Machine Payments",
+      "body": "Tempo, supported by Stripe, has launched its mainnet with an open standard designed for machine payments. This move accelerates the shift toward autonomous, IoT-driven transactions, challenging legacy networks to adapt to new payment flows. Operators now face pressure to support machine-to-machine commerce or risk ceding ground to programmable, blockchain-native rails. Early adoption could unlock new business models in logistics, mobility, and industrial automation.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47450/mastercard-agrees-18bn-deal-for-stablecoin-platform-bvnk"
+        "url": "https://www.finextra.com/newsarticle/47462/stripe-backed-tempo-blockchain-goes-live-with-machine-payments-protocol"
       }
     },
     {
-      "title": "Visa Pilots AI-Powered Agentic Payments With Dozens of European Banks",
-      "body": "Visa has launched trials for agent-initiated, AI-driven payments with banks across the UK and Europe, aiming to boost transaction efficiency and security. This marks a shift toward agentic AI as a core payments capability, forcing competitors to accelerate their own AI integration or risk falling behind. Banks and payment processors should prepare for new fraud and compliance challenges as AI agents begin to automate payment flows at scale.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47445/visa-recruits-scores-of-banks-in-uk-and-europe-for-ai-payments-trials"
-      }
-    },
-    {
-      "title": "PayPal Expands PYUSD Stablecoin to 70 Markets, Escalating Cross-Border Payments Race",
-      "body": "PayPal has rolled out its stablecoin PYUSD to 70 global markets, aiming to streamline cross-border transactions and offer merchants a stable digital currency alternative. This expansion raises the bar for other payment platforms, which now face pressure to accelerate their own stablecoin and digital asset strategies. Traditional cross-border payment providers risk margin compression as stablecoin rails gain traction.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47452/paypal-brings-stablecoin-to-70-markets"
-      }
-    },
-    {
-      "title": "SEC and CFTC End Crypto Regulatory Uncertainty With Joint Guidance",
-      "body": "The SEC and CFTC have jointly clarified how federal securities laws apply to crypto assets, reducing ambiguity for market participants. This regulatory clarity is likely to unlock new institutional investment and accelerate the launch of compliant crypto payment products. Payment companies and banks that have delayed crypto integration due to legal uncertainty now face a narrower window to build competitive offerings.",
+      "title": "Coinbase Doubles Down on AI Agent Infrastructure as Crypto Payments Pivot",
+      "body": "Coinbase is building infrastructure for AI agent-driven payments, aiming to offset headwinds from the ongoing crypto market downturn. By prioritizing agentic AI, Coinbase is positioning itself to capture emerging flows where autonomous agents initiate and optimize transactions. This could give Coinbase a first-mover advantage as AI-native payment volumes scale, but also raises the bar for compliance and fraud controls in agentic ecosystems.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/sec-and-cftc-end-era-of-crypto-uncertainty/"
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/coinbase-bets-on-ai-agents-to-power-payments-growth/"
       }
     },
     {
-      "title": "Stripe Launches Embedded Finance Suite for Platforms and Marketplaces",
-      "body": "Stripe has introduced a new embedded finance suite, enabling platforms and marketplaces to offer banking, lending, and card issuing directly to their users. This move intensifies competition among payment infrastructure providers and puts pressure on legacy banks and standalone fintechs to accelerate their own embedded finance strategies. Platforms that fail to offer integrated financial services risk losing merchants to more comprehensive solutions.",
+      "title": "Klarna Surpasses One Million Merchants, Intensifying BNPL Platform Competition",
+      "body": "Klarna has grown its merchant base by 47% in the past year, now serving over one million merchants globally after adding 285,000 in 2025. This rapid expansion strengthens Klarna\u2019s network effects and puts pressure on BNPL and embedded finance rivals to accelerate distribution and value-added services. Operators must now compete on merchant economics, analytics, and loyalty integrations as scale alone is no longer a differentiator.",
       "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2024/06/10/stripe-launches-embedded-finance-suite/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47458/klarna-smashes-one-million-merchants-milestone"
+      }
+    },
+    {
+      "title": "Visa Crypto Labs Unveils Command-Line Tool for Autonomous AI Bot Payments",
+      "body": "Visa Crypto Labs has released a command-line tool enabling AI bots to execute payments without human intervention. This development pushes Visa further into the agentic payments space, where autonomous software handles transactions end-to-end. For operators, the challenge is to build trust, fraud controls, and seamless integration as agent-driven flows become a larger share of payment volume.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/394199/visa-crypto-labs-rolls-out-command-line-tool-for-ai-bot-payments"
+      }
+    },
+    {
+      "title": "HSBC Invests in Candex to Bolster Enterprise Vendor Payment Capabilities",
+      "body": "HSBC has invested in Candex, a specialist in enterprise vendor payments, to enhance its business payment offerings. This move signals intensifying competition among banks and fintechs to own the enterprise payments stack, especially as corporates demand more automation and integration. Operators in the B2B space should expect faster product cycles and rising expectations for seamless, embedded payment solutions.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47453/hsbc-invests-in-enterprise-payments-firm-candex"
       }
     }
   ],
-  "perspective": "If you\u2019re building payments infrastructure today, you\u2019re standing at the intersection of programmable money and intelligent automation\u2014and the traffic is only getting heavier. Mastercard\u2019s reported $1.8B move for BVNK and PayPal\u2019s global PYUSD push aren\u2019t just headline grabs; they\u2019re signals that stablecoin rails are becoming table stakes for global settlement. Meanwhile, Visa\u2019s AI-powered payment pilots with European banks show that agentic AI isn\u2019t a future bet\u2014it\u2019s a present necessity. If your team is at a traditional bank or a cross-border payments provider, the message is clear: the old playbook of siloed, legacy rails is being rewritten by those who can orchestrate compliance, speed, and intelligence across both digital assets and AI. The window to adapt is narrowing fast.",
+  "perspective": "Payments is entering a phase where agentic automation and programmable infrastructure are no longer experiments\u2014they\u2019re the new baseline for competitive advantage. The launch of Stripe-backed Tempo\u2019s machine payments protocol and Visa\u2019s AI bot payment tool both show that autonomous, API-driven flows are moving from pilot to production, while Coinbase\u2019s AI agent push and Klarna\u2019s merchant scale-up highlight the pressure to operationalize intelligence and distribution at once. If your team is still treating AI, embedded, and compliance as separate silos, you\u2019re missing the convergence that\u2019s reshaping the operator playbook. Now is the time to accelerate integration across agentic, embedded, and enterprise rails\u2014or risk being outpaced by those who already have.",
   "curiosity": {
-    "text": "Ever wondered why embedded finance is suddenly everywhere? The rise of API-first platforms has made it possible for non-banks\u2014like marketplaces and SaaS providers\u2014to offer banking and lending services directly, blurring the line between tech company and financial institution."
+    "text": "Did you know that in 2010, the first ever payment by NFC (Near Field Communication) technology was conducted in a pilot program by the Japanese mobile carrier NTT DoCoMo? This innovation allowed users to make contactless payments using their mobile phones, paving the way for the widespread adoption of mobile payment technologies we see today."
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Candex",
-      "description": "Extended Series C to $40M for vendor onboarding solutions",
-      "source_url": "https://news.crunchbase.com/venture/fintech-startup-candex-raises-40m-seriesc-extension/"
-    },
-    {
-      "flag": "\ud83c\udf0d",
-      "type": "fundraising",
-      "company": "TransFi",
-      "description": "Raised $19M for stablecoin payments expansion in emerging markets",
-      "source_url": "https://www.theblock.co/post/394045/transfi-raises-19-million?utm_source=rss&utm_medium=rss"
-    },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "Secured $125M from Tencent and Sapphire Ventures",
+      "description": "Raised $125M from Tencent and Sapphire Ventures.",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf9",
-      "type": "fundraising",
-      "company": "Cleafy",
-      "description": "Raised \u20ac12M for bank fraud protection technology",
-      "source_url": "https://www.finextra.com/newsarticle/47448/bank-fraud-protection-firm-cleafy-secures-12-million"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Fuse",
-      "description": "Raised $25M for AI-based loan origination platform",
-      "source_url": "https://www.finextra.com/newsarticle/47449/ai-based-loan-origination-platform-fuse-raises-25-million"
+      "company": "TransFi",
+      "description": "Closed $19.2M funding round for stablecoin infrastructure.",
+      "source_url": "https://www.finextra.com/pressarticle/109193/stablecoin-startup-transfi-closes-192-million-funding-round"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Candex",
+      "description": "Extended Series C to $40M with HSBC investment.",
+      "source_url": "https://news.crunchbase.com/venture/fintech-startup-candex-raises-40m-seriesc-extension/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Steward",
-      "description": "Raised $5M to improve investor onboarding with AI",
+      "description": "Raised $5M to enhance AI investor onboarding platform.",
       "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Earth Blox",
-      "description": "Secured \u00a36M to aid banks in nature-positive finance",
-      "source_url": "https://www.finextra.com/pressarticle/109212/earth-blox-secures-6m-to-help-banks-finance-the-transition-to-a-nature-positive-economy"
+      "company": "Obin AI",
+      "description": "Emerged from stealth with $7M seed funding.",
+      "source_url": "https://www.finextra.com/newsarticle/47459/google-and-jpmorgan-vets-build-agentic-workforce-for-financial-institutions"
     }
   ]
 }
