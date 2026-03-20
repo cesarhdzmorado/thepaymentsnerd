@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Stripe-Backed Tempo Blockchain Debuts Open Protocol for Machine-to-Machine Payments",
-      "body": "Tempo, supported by Stripe, has launched its mainnet with an open standard designed for machine payments. This move accelerates the shift toward autonomous, IoT-driven transactions, challenging legacy networks to adapt to new payment flows. Operators now face pressure to support machine-to-machine commerce or risk ceding ground to programmable, blockchain-native rails. Early adoption could unlock new business models in logistics, mobility, and industrial automation.",
+      "title": "Visa Unifies Authorization With Single API, Streamlining Transaction Routing",
+      "body": "Visa has launched a single API for intelligent authorization, enabling acquirers to optimize transaction routing and outcomes across new payment types. According to Finextra, this move consolidates legacy systems and aims to simplify integration for acquirers and merchants seeking higher approval rates and lower fraud. Payment providers with complex, outdated technology stacks may find it increasingly difficult to keep pace with Visa\u2019s streamlined approach, prompting competitors to accelerate their own API and routing strategies.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47462/stripe-backed-tempo-blockchain-goes-live-with-machine-payments-protocol"
+        "url": "https://www.finextra.com/newsarticle/47463/visa-overcomes-legacy-issues-with-single-api-for-intelligent-authorisation?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Coinbase Doubles Down on AI Agent Infrastructure as Crypto Payments Pivot",
-      "body": "Coinbase is building infrastructure for AI agent-driven payments, aiming to offset headwinds from the ongoing crypto market downturn. By prioritizing agentic AI, Coinbase is positioning itself to capture emerging flows where autonomous agents initiate and optimize transactions. This could give Coinbase a first-mover advantage as AI-native payment volumes scale, but also raises the bar for compliance and fraud controls in agentic ecosystems.",
+      "title": "Huawei and Yowpay Target Wearable Payments With Open Banking Smartwatch POS App",
+      "body": "Huawei and Yowpay have launched an open banking smartwatch POS app, letting users pay directly from their wrists and bypassing traditional card rails. This challenges Apple and Google\u2019s dominance in wearable payments and opens new distribution for fintechs leveraging open banking APIs. Device makers and POS providers now face a more complex, API-driven landscape where partnerships and open standards are as critical as brand recognition. The competition to control the wearable checkout experience is now truly multi-platform.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47467/huawei-and-yowpay-launch-open-banking-smartwatch-pos-app?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Amazon Acquires RIVR to Accelerate AI-Driven Last-Mile Delivery Automation",
+      "body": "Amazon has acquired RIVR, a robotics company specializing in AI-powered doorstep delivery, to strengthen its last-mile logistics. This move signals Amazon\u2019s intent to automate fulfillment at scale, raising the bar for delivery speed and cost efficiency in e-commerce. Retailers and logistics providers will need to invest in their own automation strategies or risk falling behind on both margin and customer experience. The automation race in delivery is now a defining battleground for payments-adjacent commerce.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/coinbase-bets-on-ai-agents-to-power-payments-growth/"
+        "url": "https://www.pymnts.com/news/delivery/2026/amazon-buys-robot-maker-rivr-to-win-last-mile-delivery-race/"
       }
     },
     {
-      "title": "Klarna Surpasses One Million Merchants, Intensifying BNPL Platform Competition",
-      "body": "Klarna has grown its merchant base by 47% in the past year, now serving over one million merchants globally after adding 285,000 in 2025. This rapid expansion strengthens Klarna\u2019s network effects and puts pressure on BNPL and embedded finance rivals to accelerate distribution and value-added services. Operators must now compete on merchant economics, analytics, and loyalty integrations as scale alone is no longer a differentiator.",
+      "title": "Revolut Secures UK Banking Licence, Forcing Incumbents to Rethink Digital Defenses",
+      "body": "Revolut has finally secured a UK banking licence after five years, unlocking the ability to offer full banking services and deposit protection to UK customers. This gives Revolut a regulatory and trust edge over fintech-only rivals and puts direct pressure on traditional banks to accelerate digital transformation. Banks and fintechs in the UK must now treat Revolut as a full-spectrum competitor, not just a payments app. Expect a renewed scramble among incumbents to upgrade digital onboarding, compliance, and product breadth.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
+      }
+    },
+    {
+      "title": "Apex Group and Coinbase Launch Tokenized Bitcoin Yield Fund for Institutional Investors",
+      "body": "Apex Group and Coinbase Asset Management have launched a tokenized Bitcoin Yield Fund, giving institutional investors on-chain access to bitcoin yield products. This move deepens the mainstreaming of tokenized assets and positions Coinbase as a bridge between crypto-native and regulated asset management. Asset servicers and fund distributors must now consider tokenization as a core product feature, not a side bet. Regulatory scrutiny will intensify as institutional flows into tokenized funds accelerate.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47458/klarna-smashes-one-million-merchants-milestone"
-      }
-    },
-    {
-      "title": "Visa Crypto Labs Unveils Command-Line Tool for Autonomous AI Bot Payments",
-      "body": "Visa Crypto Labs has released a command-line tool enabling AI bots to execute payments without human intervention. This development pushes Visa further into the agentic payments space, where autonomous software handles transactions end-to-end. For operators, the challenge is to build trust, fraud controls, and seamless integration as agent-driven flows become a larger share of payment volume.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/394199/visa-crypto-labs-rolls-out-command-line-tool-for-ai-bot-payments"
-      }
-    },
-    {
-      "title": "HSBC Invests in Candex to Bolster Enterprise Vendor Payment Capabilities",
-      "body": "HSBC has invested in Candex, a specialist in enterprise vendor payments, to enhance its business payment offerings. This move signals intensifying competition among banks and fintechs to own the enterprise payments stack, especially as corporates demand more automation and integration. Operators in the B2B space should expect faster product cycles and rising expectations for seamless, embedded payment solutions.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47453/hsbc-invests-in-enterprise-payments-firm-candex"
+        "url": "https://www.finextra.com/pressarticle/109239/apex-group-and-coinbase-asset-management-launch-tokenised-coinbase-bitcoin-yield-fund-on-base?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Payments is entering a phase where agentic automation and programmable infrastructure are no longer experiments\u2014they\u2019re the new baseline for competitive advantage. The launch of Stripe-backed Tempo\u2019s machine payments protocol and Visa\u2019s AI bot payment tool both show that autonomous, API-driven flows are moving from pilot to production, while Coinbase\u2019s AI agent push and Klarna\u2019s merchant scale-up highlight the pressure to operationalize intelligence and distribution at once. If your team is still treating AI, embedded, and compliance as separate silos, you\u2019re missing the convergence that\u2019s reshaping the operator playbook. Now is the time to accelerate integration across agentic, embedded, and enterprise rails\u2014or risk being outpaced by those who already have.",
+  "perspective": "If you\u2019re building payments or fintech infrastructure, you\u2019re now competing in a landscape where the real differentiators are seamless orchestration and regulatory credibility\u2014not just speed or flashy features. Visa\u2019s new unified API isn\u2019t just about technical consolidation; it\u2019s a signal that acquirers and merchants expect frictionless, integrated routing as the norm. Meanwhile, Revolut\u2019s UK banking licence shows how regulatory trust can instantly shift the competitive balance, forcing both fintechs and banks to rethink their digital strategies. The winners will be those who can combine robust compliance with flexible, API-driven distribution\u2014whether that\u2019s enabling wearable payments across platforms like Huawei and Yowpay, or bringing tokenized assets to institutional investors as Apex and Coinbase are doing. If your team is still patching together legacy systems or treating compliance as an afterthought, you\u2019re at risk of being left behind as the market converges on unified, trusted, and programmable infrastructure.",
   "curiosity": {
-    "text": "Did you know that in 2010, the first ever payment by NFC (Near Field Communication) technology was conducted in a pilot program by the Japanese mobile carrier NTT DoCoMo? This innovation allowed users to make contactless payments using their mobile phones, paving the way for the widespread adoption of mobile payment technologies we see today."
+    "text": "Did you know that in 1998, the Federal Reserve introduced the Check 21 Act, allowing banks to process checks electronically by using digital images instead of physical paper? This innovation significantly expedited the check clearing process and laid the groundwork for modern electronic payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "Raised $125M from Tencent and Sapphire Ventures.",
+      "description": "secures $125M from Tencent and Sapphire Ventures.",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "TransFi",
-      "description": "Closed $19.2M funding round for stablecoin infrastructure.",
-      "source_url": "https://www.finextra.com/pressarticle/109193/stablecoin-startup-transfi-closes-192-million-funding-round"
+      "company": "Bluesky",
+      "description": "discloses $100M Series B amid leadership change.",
+      "source_url": "https://www.theblock.co/post/394460/bluesky-100-million-series-b?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Candex",
-      "description": "Extended Series C to $40M with HSBC investment.",
-      "source_url": "https://news.crunchbase.com/venture/fintech-startup-candex-raises-40m-seriesc-extension/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Steward",
-      "description": "Raised $5M to enhance AI investor onboarding platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million"
+      "company": "Meadow",
+      "description": "raises $9M Series A for online funeral planning.",
+      "source_url": "https://news.crunchbase.com/venture/stripe-alum-raises-online-funeral-planning-startup-meadow/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Obin AI",
-      "description": "Emerged from stealth with $7M seed funding.",
-      "source_url": "https://www.finextra.com/newsarticle/47459/google-and-jpmorgan-vets-build-agentic-workforce-for-financial-institutions"
+      "description": "emerges from stealth with $7M seed funding.",
+      "source_url": "https://www.finextra.com/newsarticle/47459/google-and-jpmorgan-vets-build-agentic-workforce-for-financial-institutions?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "partnership",
+      "company": "Celo",
+      "description": "proposes 160M token grant to Opera for Mini App ecosystem.",
+      "source_url": "https://www.theblock.co/post/394367/celo-token-grant-opera?utm_source=rss&utm_medium=rss"
     }
   ]
 }
