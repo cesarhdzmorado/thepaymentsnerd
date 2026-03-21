@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Visa Unifies Authorization With Single API, Streamlining Transaction Routing",
-      "body": "Visa has launched a single API for intelligent authorization, enabling acquirers to optimize transaction routing and outcomes across new payment types. According to Finextra, this move consolidates legacy systems and aims to simplify integration for acquirers and merchants seeking higher approval rates and lower fraud. Payment providers with complex, outdated technology stacks may find it increasingly difficult to keep pace with Visa\u2019s streamlined approach, prompting competitors to accelerate their own API and routing strategies.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47463/visa-overcomes-legacy-issues-with-single-api-for-intelligent-authorisation?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Huawei and Yowpay Target Wearable Payments With Open Banking Smartwatch POS App",
-      "body": "Huawei and Yowpay have launched an open banking smartwatch POS app, letting users pay directly from their wrists and bypassing traditional card rails. This challenges Apple and Google\u2019s dominance in wearable payments and opens new distribution for fintechs leveraging open banking APIs. Device makers and POS providers now face a more complex, API-driven landscape where partnerships and open standards are as critical as brand recognition. The competition to control the wearable checkout experience is now truly multi-platform.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47467/huawei-and-yowpay-launch-open-banking-smartwatch-pos-app?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Amazon Acquires RIVR to Accelerate AI-Driven Last-Mile Delivery Automation",
-      "body": "Amazon has acquired RIVR, a robotics company specializing in AI-powered doorstep delivery, to strengthen its last-mile logistics. This move signals Amazon\u2019s intent to automate fulfillment at scale, raising the bar for delivery speed and cost efficiency in e-commerce. Retailers and logistics providers will need to invest in their own automation strategies or risk falling behind on both margin and customer experience. The automation race in delivery is now a defining battleground for payments-adjacent commerce.",
+      "title": "Starling Bank Rolls Out Agentic AI Assistant to UK Retail Banking Customers",
+      "body": "Starling Bank has launched an agentic AI financial assistant within its UK banking app, initially for personal accounts and with plans to expand to business and joint accounts. Starling positions itself at the forefront of AI integration in mainstream banking, raising the bar for digital engagement and operational efficiency. Competing banks now face pressure to accelerate their own AI deployments or risk losing tech-forward customers. Expect rapid follow-on moves as AI-driven customer interaction becomes table stakes for UK retail banking.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/delivery/2026/amazon-buys-robot-maker-rivr-to-win-last-mile-delivery-race/"
+        "url": "https://www.pymnts.com/news/banking/2026/starling-adds-agentic-ai-to-uk-banking-app/"
       }
     },
     {
-      "title": "Revolut Secures UK Banking Licence, Forcing Incumbents to Rethink Digital Defenses",
-      "body": "Revolut has finally secured a UK banking licence after five years, unlocking the ability to offer full banking services and deposit protection to UK customers. This gives Revolut a regulatory and trust edge over fintech-only rivals and puts direct pressure on traditional banks to accelerate digital transformation. Banks and fintechs in the UK must now treat Revolut as a full-spectrum competitor, not just a payments app. Expect a renewed scramble among incumbents to upgrade digital onboarding, compliance, and product breadth.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
-      }
-    },
-    {
-      "title": "Apex Group and Coinbase Launch Tokenized Bitcoin Yield Fund for Institutional Investors",
-      "body": "Apex Group and Coinbase Asset Management have launched a tokenized Bitcoin Yield Fund, giving institutional investors on-chain access to bitcoin yield products. This move deepens the mainstreaming of tokenized assets and positions Coinbase as a bridge between crypto-native and regulated asset management. Asset servicers and fund distributors must now consider tokenization as a core product feature, not a side bet. Regulatory scrutiny will intensify as institutional flows into tokenized funds accelerate.",
+      "title": "Nasdaq Gains SEC Approval for Trading Tokenized Securities",
+      "body": "The SEC has approved Nasdaq\u2019s proposal to list and trade shares of certain companies in tokenized form, according to Finextra. While this does not mean a full-scale launch of a tokenized stock trading platform, it marks a significant regulatory milestone for integrating digital assets into US capital markets. Nasdaq is now positioned to pilot tokenized securities within a regulated framework, and both traditional and digital asset operators should prepare for new compliance, custody, and distribution models. This move is expected to accelerate institutional interest and regulatory clarity around tokenized assets.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109239/apex-group-and-coinbase-asset-management-launch-tokenised-coinbase-bitcoin-yield-fund-on-base?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47472/nasdaq-gains-sec-approval-for-trading-tokenised-securities"
+      }
+    },
+    {
+      "title": "UBS Gains US National Bank Charter, Expanding Wealth Management Reach",
+      "body": "UBS has received approval to convert its US bank into a nationally chartered institution, unlocking the ability to offer a full suite of banking products across the United States. This strengthens UBS\u2019s competitive position in the lucrative US wealth management market and signals a renewed push by global banks to deepen US operations. Rivals will need to accelerate product innovation and regulatory readiness to defend share. Expect increased competition for high-net-worth clients and cross-border flows.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/banking/2026/ubs-expands-with-new-us-national-bank-charter/"
+      }
+    },
+    {
+      "title": "Crypto.com Cuts 12% of Staff to Double Down on AI-Driven Operations",
+      "body": "Crypto.com has laid off 12% of its workforce, citing a strategic pivot toward AI-powered automation and operational efficiency. The reduction affects around 150 employees and signals a broader trend of crypto firms using AI to streamline processes and reduce costs. For digital asset operators, this highlights the growing pressure to automate back-office and compliance functions, not just customer-facing features. Those slow to adapt risk margin compression and operational lag.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47465/citing-ai-cryptocom-axes-12-of-workforce"
+      }
+    },
+    {
+      "title": "US Lawmakers Reach Breakthrough on Stablecoin Yield Rules in Crypto Bill",
+      "body": "US lawmakers have reached an agreement in principle on how stablecoin yield will be treated in a forthcoming comprehensive crypto bill. This development brings long-awaited clarity for stablecoin issuers and institutional investors, potentially unlocking new product structures and mainstream adoption. Operators should prepare for increased regulatory oversight and standardized compliance requirements as the bill advances. The winners will be those who can rapidly align with evolving yield and disclosure frameworks.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/394554/lawmakers-breakthrough-agreement-in-principle-stablecoin-yield-sweeping-crypto-bill"
       }
     }
   ],
-  "perspective": "If you\u2019re building payments or fintech infrastructure, you\u2019re now competing in a landscape where the real differentiators are seamless orchestration and regulatory credibility\u2014not just speed or flashy features. Visa\u2019s new unified API isn\u2019t just about technical consolidation; it\u2019s a signal that acquirers and merchants expect frictionless, integrated routing as the norm. Meanwhile, Revolut\u2019s UK banking licence shows how regulatory trust can instantly shift the competitive balance, forcing both fintechs and banks to rethink their digital strategies. The winners will be those who can combine robust compliance with flexible, API-driven distribution\u2014whether that\u2019s enabling wearable payments across platforms like Huawei and Yowpay, or bringing tokenized assets to institutional investors as Apex and Coinbase are doing. If your team is still patching together legacy systems or treating compliance as an afterthought, you\u2019re at risk of being left behind as the market converges on unified, trusted, and programmable infrastructure.",
+  "perspective": "If you\u2019re still treating AI, compliance, and digital asset rails as separate priorities, you\u2019re about to get leapfrogged. Starling is actively weaving AI into the customer experience, while Crypto.com is using AI to overhaul its operations behind the scenes\u2014two very different but equally urgent signals that intelligence is becoming the connective tissue of both front- and back-office banking. Meanwhile, Nasdaq\u2019s SEC-approved tokenized securities pilot and the US stablecoin yield breakthrough show that regulatory clarity is finally catching up to programmable finance. For banks, fintechs, and asset managers, the shift isn\u2019t just about adopting new tech\u2014it\u2019s about building unified, compliant, and programmable infrastructure that can flex with the next wave of regulation and customer demand. The urgency? The first movers are already setting the new baseline.",
   "curiosity": {
-    "text": "Did you know that in 1998, the Federal Reserve introduced the Check 21 Act, allowing banks to process checks electronically by using digital images instead of physical paper? This innovation significantly expedited the check clearing process and laid the groundwork for modern electronic payments."
+    "text": "Did you know that in 2004, the first mobile payments were made in the Philippines using SMS-based technology called GCash? This innovative service allowed users to send money and pay bills directly from their mobile phones, marking a significant leap towards the mobile payment solutions we use today."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "secures $125M from Tencent and Sapphire Ventures.",
+      "description": "Raised $125 million from Tencent and Sapphire Ventures.",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
       "type": "fundraising",
-      "company": "Bluesky",
-      "description": "discloses $100M Series B amid leadership change.",
-      "source_url": "https://www.theblock.co/post/394460/bluesky-100-million-series-b?utm_source=rss&utm_medium=rss"
+      "company": "Cleavr",
+      "description": "Raised \u20ac1 million to deploy AI for accounts receivable.",
+      "source_url": "https://www.finextra.com/pressarticle/109231/fintech-startup-cleavr-raises-1-million-to-deploy-ai-for-accounts-receivable"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "expansion",
+      "company": "Ledger",
+      "description": "Opens New York office, explores potential US IPO.",
+      "source_url": "https://www.theblock.co/post/394501/ledger-appoints-former-circle-exec-cfo-new-york-office-firm-explores-us-ipo"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "Secures UK banking licence after five-year effort.",
+      "source_url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Meadow",
-      "description": "raises $9M Series A for online funeral planning.",
-      "source_url": "https://news.crunchbase.com/venture/stripe-alum-raises-online-funeral-planning-startup-meadow/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Obin AI",
-      "description": "emerges from stealth with $7M seed funding.",
-      "source_url": "https://www.finextra.com/newsarticle/47459/google-and-jpmorgan-vets-build-agentic-workforce-for-financial-institutions?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "Celo",
-      "description": "proposes 160M token grant to Opera for Mini App ecosystem.",
-      "source_url": "https://www.theblock.co/post/394367/celo-token-grant-opera?utm_source=rss&utm_medium=rss"
+      "company": "Kalshi",
+      "description": "Raises over $1 billion at $22 billion valuation.",
+      "source_url": "https://www.theblock.co/post/394498/kalshi-raises-over-1-billion-at-22-billion-valuation-in-ongoing-coatue-led-round-reports"
     }
   ]
 }
