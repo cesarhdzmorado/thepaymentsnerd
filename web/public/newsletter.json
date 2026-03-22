@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Starling Bank Rolls Out Agentic AI Assistant to UK Retail Banking Customers",
-      "body": "Starling Bank has launched an agentic AI financial assistant within its UK banking app, initially for personal accounts and with plans to expand to business and joint accounts. Starling positions itself at the forefront of AI integration in mainstream banking, raising the bar for digital engagement and operational efficiency. Competing banks now face pressure to accelerate their own AI deployments or risk losing tech-forward customers. Expect rapid follow-on moves as AI-driven customer interaction becomes table stakes for UK retail banking.",
+      "title": "OpenAI Announces Workforce Surge, Intensifying AI Arms Race for Payments Operators",
+      "body": "OpenAI plans to double its workforce to 8,000 by the end of 2026, aiming to close the gap with Anthropic and accelerate its AI product pipeline. This escalation will amplify the pace of AI-driven innovation across payments, compliance, and customer experience, raising the bar for operational intelligence. Operators relying on third-party AI or lagging in in-house capabilities will face mounting pressure as the talent and tooling gap widens. Expect the winners to be those who can rapidly integrate and operationalize next-gen AI across both front- and back-office workflows.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/starling-adds-agentic-ai-to-uk-banking-app/"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/7ffea5b4-e8bc-47cd-adb4-257f84c8028b?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
       }
     },
     {
-      "title": "Nasdaq Gains SEC Approval for Trading Tokenized Securities",
-      "body": "The SEC has approved Nasdaq\u2019s proposal to list and trade shares of certain companies in tokenized form, according to Finextra. While this does not mean a full-scale launch of a tokenized stock trading platform, it marks a significant regulatory milestone for integrating digital assets into US capital markets. Nasdaq is now positioned to pilot tokenized securities within a regulated framework, and both traditional and digital asset operators should prepare for new compliance, custody, and distribution models. This move is expected to accelerate institutional interest and regulatory clarity around tokenized assets.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47472/nasdaq-gains-sec-approval-for-trading-tokenised-securities"
-      }
-    },
-    {
-      "title": "UBS Gains US National Bank Charter, Expanding Wealth Management Reach",
-      "body": "UBS has received approval to convert its US bank into a nationally chartered institution, unlocking the ability to offer a full suite of banking products across the United States. This strengthens UBS\u2019s competitive position in the lucrative US wealth management market and signals a renewed push by global banks to deepen US operations. Rivals will need to accelerate product innovation and regulatory readiness to defend share. Expect increased competition for high-net-worth clients and cross-border flows.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/ubs-expands-with-new-us-national-bank-charter/"
-      }
-    },
-    {
-      "title": "Crypto.com Cuts 12% of Staff to Double Down on AI-Driven Operations",
-      "body": "Crypto.com has laid off 12% of its workforce, citing a strategic pivot toward AI-powered automation and operational efficiency. The reduction affects around 150 employees and signals a broader trend of crypto firms using AI to streamline processes and reduce costs. For digital asset operators, this highlights the growing pressure to automate back-office and compliance functions, not just customer-facing features. Those slow to adapt risk margin compression and operational lag.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47465/citing-ai-cryptocom-axes-12-of-workforce"
-      }
-    },
-    {
-      "title": "US Lawmakers Reach Breakthrough on Stablecoin Yield Rules in Crypto Bill",
-      "body": "US lawmakers have reached an agreement in principle on how stablecoin yield will be treated in a forthcoming comprehensive crypto bill. This development brings long-awaited clarity for stablecoin issuers and institutional investors, potentially unlocking new product structures and mainstream adoption. Operators should prepare for increased regulatory oversight and standardized compliance requirements as the bill advances. The winners will be those who can rapidly align with evolving yield and disclosure frameworks.",
+      "title": "CFTC Clarifies Crypto as Derivatives Collateral, Unlocking New Institutional Rails",
+      "body": "The CFTC released new guidance detailing how crypto firms can use digital assets as collateral for derivatives, aligning with recent SEC positions. This regulatory clarity paves the way for deeper institutional participation in crypto-backed derivatives and new financial products. Payments and treasury teams can now explore more sophisticated hedging and settlement strategies leveraging digital assets. The move accelerates the mainstreaming of programmable money and raises the stakes for operators still treating crypto as a side bet.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/394554/lawmakers-breakthrough-agreement-in-principle-stablecoin-yield-sweeping-crypto-bill"
+        "url": "https://www.theblock.co/post/394573/cftc-staff-details-how-crypto-firms-can-use-digital-assets-as-derivatives-collateral-in-new-faq?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "FDIC Allows Private Equity to Acquire Failed Banks, Forcing Banks to Rethink Capital Strategies",
+      "body": "The FDIC has announced that private equity firms can now play a significant role in acquiring failed banks, unlocking new capital pools for distressed assets. The FDIC's decision to allow private equity firms to acquire failed banks will drive a wave of M&A activity, compelling banks to rethink their capital and compliance strategies to attract or defend against private equity bids. For payments operators, the competitive landscape could shift rapidly as new owners bring different risk appetites and technology priorities. Expect increased scrutiny on operational resilience and compliance as private equity-backed banks seek to scale quickly.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/fdic-allow-private-equity-buy-failed-banks/815330/"
+      }
+    },
+    {
+      "title": "Mollie Targets UK SMEs With Tap, Intensifying In-Person Payments Competition",
+      "body": "Mollie has launched 'Tap,' an in-person payments solution aimed at UK small and medium-sized enterprises, expanding its reach beyond online payments. This move puts pressure on incumbent PSPs and acquirers to defend SME market share with differentiated value-added services and seamless onboarding. Operators serving UK merchants will need to accelerate product innovation and partnership strategies to avoid margin compression. The SME segment is becoming a battleground for embedded and invisible payments, not just price.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109241/mollie-launches-tap-payments-solution-for-uk-smes?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Bitcoin Mining Difficulty Drops as Miners Pivot to AI Compute, Redefining Infrastructure Bets",
+      "body": "Bitcoin mining difficulty fell by 7.8% as miners reallocate resources toward AI infrastructure, signaling a major shift in capital deployment. This migration could reduce competition in bitcoin mining while accelerating innovation and capacity in AI compute markets. Payments and fintech operators should watch for new AI infrastructure partnerships and potential volatility in crypto transaction costs. The winners will be those who can flex infrastructure strategies as compute demand shifts between crypto and AI.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/394579/bitcoin-mining-difficulty-drops-7-8-as-miner-exodus-accelerates-amid-ai-pivot?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "If you\u2019re still treating AI, compliance, and digital asset rails as separate priorities, you\u2019re about to get leapfrogged. Starling is actively weaving AI into the customer experience, while Crypto.com is using AI to overhaul its operations behind the scenes\u2014two very different but equally urgent signals that intelligence is becoming the connective tissue of both front- and back-office banking. Meanwhile, Nasdaq\u2019s SEC-approved tokenized securities pilot and the US stablecoin yield breakthrough show that regulatory clarity is finally catching up to programmable finance. For banks, fintechs, and asset managers, the shift isn\u2019t just about adopting new tech\u2014it\u2019s about building unified, compliant, and programmable infrastructure that can flex with the next wave of regulation and customer demand. The urgency? The first movers are already setting the new baseline.",
+  "perspective": "I'm seeing the lines blur between technology, capital, and compliance in payments\u2014and the pace is picking up fast. OpenAI's plan to double its workforce isn't just a Silicon Valley headline; if you're building payments products, expect the AI arms race to raise customer expectations and operational standards overnight. Meanwhile, the FDIC's move to let private equity acquire failed banks is already shaking up M&A strategies and forcing banks to rethink how they attract capital. If your team is still treating AI adoption or capital planning as side projects, you're likely to be outpaced by operators who are integrating these shifts into every layer of their business. The winners will be those who can adapt quickly to regulatory clarity, like the CFTC's crypto collateral guidance, and pivot infrastructure as miners are doing with AI compute. The era of siloed strategies is over\u2014it's all about orchestration now.",
   "curiosity": {
-    "text": "Did you know that in 2004, the first mobile payments were made in the Philippines using SMS-based technology called GCash? This innovative service allowed users to send money and pay bills directly from their mobile phones, marking a significant leap towards the mobile payment solutions we use today."
+    "text": "With the CFTC's new guidance, some US-based payments firms can now use digital assets as collateral for derivatives for the first time\u2014potentially opening the door to programmable settlement flows that were previously off-limits under legacy rules."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "Raised $125 million from Tencent and Sapphire Ventures.",
+      "description": "secures $125M backing from Tencent and Sapphire Ventures.",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
-    },
-    {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "fundraising",
-      "company": "Cleavr",
-      "description": "Raised \u20ac1 million to deploy AI for accounts receivable.",
-      "source_url": "https://www.finextra.com/pressarticle/109231/fintech-startup-cleavr-raises-1-million-to-deploy-ai-for-accounts-receivable"
-    },
-    {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "expansion",
-      "company": "Ledger",
-      "description": "Opens New York office, explores potential US IPO.",
-      "source_url": "https://www.theblock.co/post/394501/ledger-appoints-former-circle-exec-cfo-new-york-office-firm-explores-us-ipo"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Secures UK banking licence after five-year effort.",
-      "source_url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Kalshi",
-      "description": "Raises over $1 billion at $22 billion valuation.",
-      "source_url": "https://www.theblock.co/post/394498/kalshi-raises-over-1-billion-at-22-billion-valuation-in-ongoing-coatue-led-round-reports"
+      "description": "raises over $1 billion at $22 billion valuation.",
+      "source_url": "https://www.theblock.co/post/394498/kalshi-raises-over-1-billion-at-22-billion-valuation-in-ongoing-coatue-led-round-reports?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "expansion",
+      "company": "Ledger",
+      "description": "opens New York office, explores potential US IPO.",
+      "source_url": "https://www.theblock.co/post/394501/ledger-appoints-former-circle-exec-cfo-new-york-office-firm-explores-us-ipo?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "type": "product",
+      "company": "Pismo",
+      "description": "launches AI-native solution with Visa and Vivi Money.",
+      "source_url": "https://www.finextra.com/pressarticle/109242/pismo-and-visa-launch-ai-native-solution-with-australian-fintech-vivi-money?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
