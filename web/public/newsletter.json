@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "OpenAI Announces Workforce Surge, Intensifying AI Arms Race for Payments Operators",
-      "body": "OpenAI plans to double its workforce to 8,000 by the end of 2026, aiming to close the gap with Anthropic and accelerate its AI product pipeline. This escalation will amplify the pace of AI-driven innovation across payments, compliance, and customer experience, raising the bar for operational intelligence. Operators relying on third-party AI or lagging in in-house capabilities will face mounting pressure as the talent and tooling gap widens. Expect the winners to be those who can rapidly integrate and operationalize next-gen AI across both front- and back-office workflows.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/7ffea5b4-e8bc-47cd-adb4-257f84c8028b?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
-      }
-    },
-    {
-      "title": "CFTC Clarifies Crypto as Derivatives Collateral, Unlocking New Institutional Rails",
-      "body": "The CFTC released new guidance detailing how crypto firms can use digital assets as collateral for derivatives, aligning with recent SEC positions. This regulatory clarity paves the way for deeper institutional participation in crypto-backed derivatives and new financial products. Payments and treasury teams can now explore more sophisticated hedging and settlement strategies leveraging digital assets. The move accelerates the mainstreaming of programmable money and raises the stakes for operators still treating crypto as a side bet.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/394573/cftc-staff-details-how-crypto-firms-can-use-digital-assets-as-derivatives-collateral-in-new-faq?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "FDIC Allows Private Equity to Acquire Failed Banks, Forcing Banks to Rethink Capital Strategies",
-      "body": "The FDIC has announced that private equity firms can now play a significant role in acquiring failed banks, unlocking new capital pools for distressed assets. The FDIC's decision to allow private equity firms to acquire failed banks will drive a wave of M&A activity, compelling banks to rethink their capital and compliance strategies to attract or defend against private equity bids. For payments operators, the competitive landscape could shift rapidly as new owners bring different risk appetites and technology priorities. Expect increased scrutiny on operational resilience and compliance as private equity-backed banks seek to scale quickly.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/fdic-allow-private-equity-buy-failed-banks/815330/"
-      }
-    },
-    {
-      "title": "Mollie Targets UK SMEs With Tap, Intensifying In-Person Payments Competition",
-      "body": "Mollie has launched 'Tap,' an in-person payments solution aimed at UK small and medium-sized enterprises, expanding its reach beyond online payments. This move puts pressure on incumbent PSPs and acquirers to defend SME market share with differentiated value-added services and seamless onboarding. Operators serving UK merchants will need to accelerate product innovation and partnership strategies to avoid margin compression. The SME segment is becoming a battleground for embedded and invisible payments, not just price.",
+      "title": "Singapore\u2019s MAS Launches AI Risk Toolkit, Raising Global Compliance Bar",
+      "body": "The Monetary Authority of Singapore (MAS) released a comprehensive toolkit to help financial institutions manage AI-related risks, emphasizing operational resilience and regulatory compliance. This move sets a new benchmark for AI governance in finance, likely influencing global standards as AI adoption accelerates. Operators integrating AI into payments and risk workflows now face higher expectations for transparency and controls. Teams lagging on AI risk management will find themselves outpaced as regulators and partners demand robust frameworks.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109241/mollie-launches-tap-payments-solution-for-uk-smes?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47475/mas-develops-ai-risk-management-toolkit?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Bitcoin Mining Difficulty Drops as Miners Pivot to AI Compute, Redefining Infrastructure Bets",
-      "body": "Bitcoin mining difficulty fell by 7.8% as miners reallocate resources toward AI infrastructure, signaling a major shift in capital deployment. This migration could reduce competition in bitcoin mining while accelerating innovation and capacity in AI compute markets. Payments and fintech operators should watch for new AI infrastructure partnerships and potential volatility in crypto transaction costs. The winners will be those who can flex infrastructure strategies as compute demand shifts between crypto and AI.",
+      "title": "KAST Raises $80M to Challenge Stablecoin Leaders, Fueling Competitive Pressure",
+      "body": "Stablecoin platform KAST secured $80 million in Series A funding, co-led by QED Investors and Left Lane Capital, to expand its global footprint. This capital injection positions KAST to compete directly with incumbents like Circle and Tether, intensifying the race for stablecoin integration across financial institutions. For operators, this means a rapidly shifting vendor landscape: new entrants like KAST are likely to offer more aggressive pricing, faster onboarding, and differentiated compliance features to win deals. Incumbents may be forced to accelerate product updates or risk losing share, while smaller or slower-moving platforms could be squeezed out entirely.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Resolv\u2019s USR Stablecoin Depeg Exposes Security Gaps, Triggers $25M Loss",
+      "body": "Resolv\u2019s USR stablecoin lost its peg after an attacker minted 80 million unbacked tokens, extracting roughly $25 million. This breach highlights persistent vulnerabilities in stablecoin protocols and raises the stakes for operators relying on third-party digital assets. Regulatory scrutiny and customer due diligence on stablecoin security are set to intensify. Payment teams must prioritize transparency and robust controls or risk reputational and financial fallout.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/394579/bitcoin-mining-difficulty-drops-7-8-as-miner-exodus-accelerates-amid-ai-pivot?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/394582/resolvs-usr-stablecoin-depegs-after-attacker-mints-80-million-unbacked-tokens-extracts-roughly-25-million?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Truist Partners with Plaid to Expand Open Banking, Raising Competitive Stakes",
+      "body": "Truist has partnered with Plaid to enhance its open banking offerings, giving customers greater access to their financial data and enabling new fintech integrations. This move pressures other banks to accelerate open banking strategies or risk losing developer and customer mindshare. For operators, the bar for API quality and data portability just moved higher. Expect a wave of competitive upgrades as open banking becomes table stakes in the U.S. market.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47435/truist-taps-plaid-to-expand-open-banking-offerings?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Fidelity Pushes SEC for Clearer Crypto Rules, Signaling Institutional Demand",
+      "body": "Fidelity has urged the SEC to clarify rules for broker-dealers handling crypto assets, focusing on custody and trading requirements. This public call underscores growing institutional appetite for crypto and the operational friction caused by regulatory ambiguity. Operators serving institutional clients should anticipate new compliance requirements and prepare for a wave of regulated crypto products. The winners will be those who can pivot quickly as the regulatory landscape evolves.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/394603/fidelity-urges-sec-broker-dealers?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "I'm seeing the lines blur between technology, capital, and compliance in payments\u2014and the pace is picking up fast. OpenAI's plan to double its workforce isn't just a Silicon Valley headline; if you're building payments products, expect the AI arms race to raise customer expectations and operational standards overnight. Meanwhile, the FDIC's move to let private equity acquire failed banks is already shaking up M&A strategies and forcing banks to rethink how they attract capital. If your team is still treating AI adoption or capital planning as side projects, you're likely to be outpaced by operators who are integrating these shifts into every layer of their business. The winners will be those who can adapt quickly to regulatory clarity, like the CFTC's crypto collateral guidance, and pivot infrastructure as miners are doing with AI compute. The era of siloed strategies is over\u2014it's all about orchestration now.",
+  "perspective": "If you\u2019re feeling whiplash from the pace of change in payments, you\u2019re not alone\u2014I\u2019m seeing the ground shift under our feet. The MAS\u2019s new AI risk toolkit isn\u2019t just a compliance checklist; it\u2019s a signal that regulators expect real operational discipline, not just innovation theater. Meanwhile, KAST\u2019s $80M war chest means stablecoin vendors are about to get a lot more aggressive, with faster product launches and sharper pricing. If your team is still betting on slow-moving incumbents or treating risk frameworks as a side project, you could find yourself outpaced by nimbler rivals and under the microscope from both customers and regulators.",
   "curiosity": {
-    "text": "With the CFTC's new guidance, some US-based payments firms can now use digital assets as collateral for derivatives for the first time\u2014potentially opening the door to programmable settlement flows that were previously off-limits under legacy rules."
+    "text": "Here\u2019s a twist: In 2015, when the European Union introduced PSD2 to force banks to open up customer data to third-party providers, many predicted banks would lose their grip on payments. But several major banks actually used the regulation as a springboard to launch their own fintech products, turning a compliance headache into a competitive advantage."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "secures $125M backing from Tencent and Sapphire Ventures.",
+      "description": "Raised $125M from Tencent and Sapphire Ventures.",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Kalshi",
-      "description": "raises over $1 billion at $22 billion valuation.",
-      "source_url": "https://www.theblock.co/post/394498/kalshi-raises-over-1-billion-at-22-billion-valuation-in-ongoing-coatue-led-round-reports?utm_source=rss&utm_medium=rss"
+      "company": "Steward",
+      "description": "Raised $5M to enhance investor onboarding AI platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "expansion",
-      "company": "Ledger",
-      "description": "opens New York office, explores potential US IPO.",
-      "source_url": "https://www.theblock.co/post/394501/ledger-appoints-former-circle-exec-cfo-new-york-office-firm-explores-us-ipo?utm_source=rss&utm_medium=rss"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Candex",
+      "description": "Extended Series C to $40M for global vendor onboarding.",
+      "source_url": "https://news.crunchbase.com/venture/fintech-startup-candex-raises-40m-seriesc-extension/"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddfa",
-      "type": "product",
-      "company": "Pismo",
-      "description": "launches AI-native solution with Visa and Vivi Money.",
-      "source_url": "https://www.finextra.com/pressarticle/109242/pismo-and-visa-launch-ai-native-solution-with-australian-fintech-vivi-money?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "TransFi",
+      "description": "Closed $19.2M for stablecoin payments infrastructure.",
+      "source_url": "https://www.finextra.com/pressarticle/109193/stablecoin-startup-transfi-closes-192-million-funding-round?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Meadow",
+      "description": "Raised $9M for online funeral planning services.",
+      "source_url": "https://news.crunchbase.com/venture/stripe-alum-raises-online-funeral-planning-startup-meadow/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Vivox AI",
+      "description": "Raised \u00a31.3M to scale AI for financial crime compliance.",
+      "source_url": "https://www.finextra.com/newsarticle/47392/vivox-ai-raises-13m-to-scale-atomic-agents-for-financial-crime-compliance?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
