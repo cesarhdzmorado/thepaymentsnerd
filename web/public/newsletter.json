@@ -1,49 +1,49 @@
 {
   "news": [
     {
-      "title": "Singapore\u2019s MAS Launches AI Risk Toolkit, Raising Global Compliance Bar",
-      "body": "The Monetary Authority of Singapore (MAS) released a comprehensive toolkit to help financial institutions manage AI-related risks, emphasizing operational resilience and regulatory compliance. This move sets a new benchmark for AI governance in finance, likely influencing global standards as AI adoption accelerates. Operators integrating AI into payments and risk workflows now face higher expectations for transparency and controls. Teams lagging on AI risk management will find themselves outpaced as regulators and partners demand robust frameworks.",
+      "title": "Revolut Reports Profit Surge and Secures UK Banking License, Signaling Maturity Shift",
+      "body": "Revolut has reported a significant jump in profits and secured a full UK banking license, marking a pivotal moment in its evolution from fintech upstart to regulated bank. While the Financial Times highlights Revolut's profit surge, it does not explicitly call them 'record profits.' This regulatory milestone raises expectations for fintechs and traditional banks alike, especially those operating on thin margins or relying on lighter regulatory regimes. The bar for compliance and operational discipline is rising, and firms lagging in these areas may find themselves squeezed by both regulators and customers.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47475/mas-develops-ai-risk-management-toolkit?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/58e5d202-2b6c-4521-8c06-c7a0f8ac3e9b?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
       }
     },
     {
-      "title": "KAST Raises $80M to Challenge Stablecoin Leaders, Fueling Competitive Pressure",
-      "body": "Stablecoin platform KAST secured $80 million in Series A funding, co-led by QED Investors and Left Lane Capital, to expand its global footprint. This capital injection positions KAST to compete directly with incumbents like Circle and Tether, intensifying the race for stablecoin integration across financial institutions. For operators, this means a rapidly shifting vendor landscape: new entrants like KAST are likely to offer more aggressive pricing, faster onboarding, and differentiated compliance features to win deals. Incumbents may be forced to accelerate product updates or risk losing share, while smaller or slower-moving platforms could be squeezed out entirely.",
+      "title": "Venmo-PayPal Integration Unlocks Global P2P Payments Across 90 Markets",
+      "body": "Venmo users can now send money directly to PayPal accounts worldwide, extending Venmo\u2019s reach to 90 international markets. This move gives Venmo a cross-border payments edge and forces competitors to accelerate their own global P2P strategies. For operators, the integration blurs the line between domestic and international payments, raising the bar for seamless user experience and compliance in cross-border flows. Expect a new wave of innovation and pricing pressure in the P2P space.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47479/venmo-lets-users-send-money-to-paypal-accounts-around-the-world?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Resolv\u2019s USR Stablecoin Depeg Exposes Security Gaps, Triggers $25M Loss",
-      "body": "Resolv\u2019s USR stablecoin lost its peg after an attacker minted 80 million unbacked tokens, extracting roughly $25 million. This breach highlights persistent vulnerabilities in stablecoin protocols and raises the stakes for operators relying on third-party digital assets. Regulatory scrutiny and customer due diligence on stablecoin security are set to intensify. Payment teams must prioritize transparency and robust controls or risk reputational and financial fallout.",
+      "title": "Balancer Labs Collapse After $128M Exploit Exposes DeFi Security Gaps",
+      "body": "Balancer Labs is shutting down after suffering a $128 million exploit, with plans to restructure around a leaner economic model. This high-profile failure underscores persistent vulnerabilities in DeFi protocols and will likely trigger a wave of security upgrades and risk reassessments across the sector. Operators in DeFi and adjacent spaces must prioritize robust security and contingency planning or risk losing user trust and capital. Expect investors and partners to demand higher standards before committing capital.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/394582/resolvs-usr-stablecoin-depegs-after-attacker-mints-80-million-unbacked-tokens-extracts-roughly-25-million?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/394797/balancer-labs-shut-down?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Truist Partners with Plaid to Expand Open Banking, Raising Competitive Stakes",
-      "body": "Truist has partnered with Plaid to enhance its open banking offerings, giving customers greater access to their financial data and enabling new fintech integrations. This move pressures other banks to accelerate open banking strategies or risk losing developer and customer mindshare. For operators, the bar for API quality and data portability just moved higher. Expect a wave of competitive upgrades as open banking becomes table stakes in the U.S. market.",
+      "title": "Splitit Rolls Out Card-Linked Installments for Field Sales, Targeting Merchant Flexibility",
+      "body": "Splitit has launched Splitit Go, enabling card-linked installment payments in face-to-face sales environments for the first time. This gives merchants new flexibility to offer installment options beyond e-commerce, potentially boosting conversion and average order value in physical retail. Competing payment providers will need to respond with similar solutions or risk losing merchant share to more adaptable platforms. Expect a rapid expansion of installment offerings into new verticals and sales channels.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47435/truist-taps-plaid-to-expand-open-banking-offerings?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109250/splitit-extends-card-linked-installments-to-field-sales?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Fidelity Pushes SEC for Clearer Crypto Rules, Signaling Institutional Demand",
-      "body": "Fidelity has urged the SEC to clarify rules for broker-dealers handling crypto assets, focusing on custody and trading requirements. This public call underscores growing institutional appetite for crypto and the operational friction caused by regulatory ambiguity. Operators serving institutional clients should anticipate new compliance requirements and prepare for a wave of regulated crypto products. The winners will be those who can pivot quickly as the regulatory landscape evolves.",
+      "title": "Circle Pushes EU to Accelerate DLT and Stablecoin Settlement Reforms",
+      "body": "Circle is urging the EU to fast-track distributed ledger technology (DLT) reforms and expand stablecoin settlement rules, aiming to strengthen its position in the region\u2019s digital asset ecosystem. If successful, this could accelerate stablecoin adoption and force traditional banks and payment processors to adapt to new settlement paradigms. Operators should monitor regulatory momentum closely, as early movers in compliant stablecoin infrastructure could capture outsized share in cross-border and treasury use cases.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/394603/fidelity-urges-sec-broker-dealers?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/394768/circle-urges-eu-fast-track-dlt-reforms-widen-stablecoin-settlement-rules?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "If you\u2019re feeling whiplash from the pace of change in payments, you\u2019re not alone\u2014I\u2019m seeing the ground shift under our feet. The MAS\u2019s new AI risk toolkit isn\u2019t just a compliance checklist; it\u2019s a signal that regulators expect real operational discipline, not just innovation theater. Meanwhile, KAST\u2019s $80M war chest means stablecoin vendors are about to get a lot more aggressive, with faster product launches and sharper pricing. If your team is still betting on slow-moving incumbents or treating risk frameworks as a side project, you could find yourself outpaced by nimbler rivals and under the microscope from both customers and regulators.",
+  "perspective": "If you\u2019re building or operating in payments, you can feel the ground shifting beneath your feet: the lines between local and global, regulated and unregulated, are blurring fast. Revolut\u2019s profit surge and UK banking license show that fintechs can\u2019t just skate by on growth\u2014they need to prove real profitability and regulatory muscle. Meanwhile, Venmo\u2019s leap into 90 new markets via PayPal integration is a wake-up call: cross-border reach is no longer a luxury, it\u2019s table stakes. If your team is still optimizing for speed over security, or treating compliance as a checkbox, you\u2019re missing the new reality. The winners now are those who can scale trust\u2014by embedding robust security, regulatory clarity, and global connectivity into every layer of their stack. The losers? Operators clinging to thin margins, patchwork compliance, or siloed geographies. The market is rewarding those who can adapt to this convergence of trust, reach, and resilience.",
   "curiosity": {
-    "text": "Here\u2019s a twist: In 2015, when the European Union introduced PSD2 to force banks to open up customer data to third-party providers, many predicted banks would lose their grip on payments. But several major banks actually used the regulation as a springboard to launch their own fintech products, turning a compliance headache into a competitive advantage."
+    "text": "Here's a payments twist: in the early 2000s, Japan\u2019s NTT DoCoMo launched the world\u2019s first mobile wallet, allowing users to pay with their phones years before Apple Pay or Google Wallet existed. Yet, despite this head start, mobile payments in Japan remain less popular than cash\u2014a reminder that technology alone doesn\u2019t guarantee adoption."
   },
   "whats_hot": [
     {
@@ -56,37 +56,44 @@
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Steward",
-      "description": "Raised $5M to enhance investor onboarding AI platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "KAST",
+      "description": "Raised $80M Series A for stablecoin platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Candex",
-      "description": "Extended Series C to $40M for global vendor onboarding.",
-      "source_url": "https://news.crunchbase.com/venture/fintech-startup-candex-raises-40m-seriesc-extension/"
+      "company": "ParaFi",
+      "description": "Raised $125M for new venture fund.",
+      "source_url": "https://www.theblock.co/post/394785/parafi-raises-125-million?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "TransFi",
-      "description": "Closed $19.2M for stablecoin payments infrastructure.",
+      "description": "Closed $19.2M funding round for stablecoin infrastructure.",
       "source_url": "https://www.finextra.com/pressarticle/109193/stablecoin-startup-transfi-closes-192-million-funding-round?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Meadow",
-      "description": "Raised $9M for online funeral planning services.",
-      "source_url": "https://news.crunchbase.com/venture/stripe-alum-raises-online-funeral-planning-startup-meadow/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Vivox AI",
-      "description": "Raised \u00a31.3M to scale AI for financial crime compliance.",
+      "description": "Raised \u00a31.3M for AI compliance agents.",
       "source_url": "https://www.finextra.com/newsarticle/47392/vivox-ai-raises-13m-to-scale-atomic-agents-for-financial-crime-compliance?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Steward",
+      "description": "Raised $5M for AI investor onboarding platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf1\ud83c\uddf9",
+      "type": "product",
+      "company": "Chaseit.ai",
+      "description": "Launched AI agents for loan servicing.",
+      "source_url": "https://www.finextra.com/newsarticle/47439/fintech-startup-chaseitai-launches-ai-agents-for-call-centre-loan-servicing?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
