@@ -1,99 +1,78 @@
 {
   "news": [
     {
-      "title": "Revolut Reports Profit Surge and Secures UK Banking License, Signaling Maturity Shift",
-      "body": "Revolut has reported a significant jump in profits and secured a full UK banking license, marking a pivotal moment in its evolution from fintech upstart to regulated bank. While the Financial Times highlights Revolut's profit surge, it does not explicitly call them 'record profits.' This regulatory milestone raises expectations for fintechs and traditional banks alike, especially those operating on thin margins or relying on lighter regulatory regimes. The bar for compliance and operational discipline is rising, and firms lagging in these areas may find themselves squeezed by both regulators and customers.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/58e5d202-2b6c-4521-8c06-c7a0f8ac3e9b?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
-      }
-    },
-    {
-      "title": "Venmo-PayPal Integration Unlocks Global P2P Payments Across 90 Markets",
-      "body": "Venmo users can now send money directly to PayPal accounts worldwide, extending Venmo\u2019s reach to 90 international markets. This move gives Venmo a cross-border payments edge and forces competitors to accelerate their own global P2P strategies. For operators, the integration blurs the line between domestic and international payments, raising the bar for seamless user experience and compliance in cross-border flows. Expect a new wave of innovation and pricing pressure in the P2P space.",
+      "title": "Solana Foundation Taps Mastercard, Western Union, Worldpay for Blockchain Developer Platform",
+      "body": "The Solana Foundation has launched a new financial developer platform in partnership with Mastercard, Western Union, and Worldpay. This move aims to make it easier for developers to build financial products on Solana\u2019s blockchain, signaling a push to bring traditional payment players deeper into the blockchain ecosystem. For operators, this raises the bar for blockchain integration and could force incumbents to accelerate their own distributed ledger strategies. Expect competitive pressure on legacy rails as more mainstream partners experiment with programmable money.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47479/venmo-lets-users-send-money-to-paypal-accounts-around-the-world?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47487/solana-foundation-launches-financial-developer-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Balancer Labs Collapse After $128M Exploit Exposes DeFi Security Gaps",
-      "body": "Balancer Labs is shutting down after suffering a $128 million exploit, with plans to restructure around a leaner economic model. This high-profile failure underscores persistent vulnerabilities in DeFi protocols and will likely trigger a wave of security upgrades and risk reassessments across the sector. Operators in DeFi and adjacent spaces must prioritize robust security and contingency planning or risk losing user trust and capital. Expect investors and partners to demand higher standards before committing capital.",
+      "title": "Mastercard Rolls Out AI-Powered Virtual CFO Tool for Small Businesses",
+      "body": "Mastercard has launched an AI-driven virtual CFO designed to help SMBs manage finances, automate insights, and optimize cash flow. This product positions Mastercard as a direct competitor to fintechs and accounting platforms targeting the SMB segment. Operators serving SMBs will need to rethink their value proposition as AI-native financial management becomes a baseline expectation. The winners will be those who can embed actionable intelligence directly into payment and banking workflows.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/394797/balancer-labs-shut-down?utm_source=rss&utm_medium=rss"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/mastercard-bets-ai-can-fill-cfo-gap-small-businesses/815564/"
       }
     },
     {
-      "title": "Splitit Rolls Out Card-Linked Installments for Field Sales, Targeting Merchant Flexibility",
-      "body": "Splitit has launched Splitit Go, enabling card-linked installment payments in face-to-face sales environments for the first time. This gives merchants new flexibility to offer installment options beyond e-commerce, potentially boosting conversion and average order value in physical retail. Competing payment providers will need to respond with similar solutions or risk losing merchant share to more adaptable platforms. Expect a rapid expansion of installment offerings into new verticals and sales channels.",
+      "title": "New York Law Forces All Retailers to Accept Cash, Slowing Cashless Shift",
+      "body": "New York has enacted a law requiring all stores to accept cash payments, directly challenging the momentum behind cashless retail. This regulatory intervention could stall digital payment adoption in a major market and force operators to maintain dual infrastructure. Payment providers and merchants betting on fully digital experiences will need to hedge against similar mandates in other jurisdictions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109250/splitit-extends-card-linked-installments-to-field-sales?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47485/new-york-state-force-stores-to-accept-cash?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Circle Pushes EU to Accelerate DLT and Stablecoin Settlement Reforms",
-      "body": "Circle is urging the EU to fast-track distributed ledger technology (DLT) reforms and expand stablecoin settlement rules, aiming to strengthen its position in the region\u2019s digital asset ecosystem. If successful, this could accelerate stablecoin adoption and force traditional banks and payment processors to adapt to new settlement paradigms. Operators should monitor regulatory momentum closely, as early movers in compliant stablecoin infrastructure could capture outsized share in cross-border and treasury use cases.",
+      "title": "Circle Partners with Sasai Fintech to Drive USDC Adoption Across Africa",
+      "body": "Circle has teamed up with Sasai Fintech to expand USDC stablecoin usage and financial infrastructure throughout Africa. This partnership positions USDC as a challenger to both traditional remittance services and other stablecoins in a rapidly digitizing region. Operators in cross-border payments and remittances will face new competition from stablecoin rails, especially as regulatory clarity improves. The move could accelerate stablecoin normalization in emerging markets.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/394768/circle-urges-eu-fast-track-dlt-reforms-widen-stablecoin-settlement-rules?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109265/circle-grows-usdc-adoption-in-africa-with-sasai-fintech?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Spade Raises $40M to Advance Transaction Data Analysis for Banks and Fintechs",
+      "body": "Spade has secured $40 million in Series B funding to enhance its transaction data analysis platform, targeting banks and fintechs seeking deeper insights. This capital injection intensifies competition in the transaction analytics space, pushing incumbents to upgrade their own data capabilities. Operators relying on legacy analytics risk falling behind as precision and speed in data-driven decisioning become table stakes.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/investment-tracker/2026/spade-raises-40-million-to-drive-transaction-data-analysis/"
       }
     }
   ],
-  "perspective": "If you\u2019re building or operating in payments, you can feel the ground shifting beneath your feet: the lines between local and global, regulated and unregulated, are blurring fast. Revolut\u2019s profit surge and UK banking license show that fintechs can\u2019t just skate by on growth\u2014they need to prove real profitability and regulatory muscle. Meanwhile, Venmo\u2019s leap into 90 new markets via PayPal integration is a wake-up call: cross-border reach is no longer a luxury, it\u2019s table stakes. If your team is still optimizing for speed over security, or treating compliance as a checkbox, you\u2019re missing the new reality. The winners now are those who can scale trust\u2014by embedding robust security, regulatory clarity, and global connectivity into every layer of their stack. The losers? Operators clinging to thin margins, patchwork compliance, or siloed geographies. The market is rewarding those who can adapt to this convergence of trust, reach, and resilience.",
+  "perspective": "If you're building for the future of payments, you can't ignore how fast the ground is shifting beneath us. When I see Mastercard rolling out an AI-powered CFO for SMBs and Solana onboarding legacy giants like Western Union, it's clear that both intelligence and interoperability are becoming non-negotiable. But just as we race toward digital rails, New York's cash mandate lands like a reality check\u2014if your team is optimizing for a cashless world, you're now on the hook for dual infrastructure and compliance headaches. The winners this year will be those who can move fast on AI and blockchain, but still keep one foot firmly planted in regulatory reality.",
   "curiosity": {
-    "text": "Here's a payments twist: in the early 2000s, Japan\u2019s NTT DoCoMo launched the world\u2019s first mobile wallet, allowing users to pay with their phones years before Apple Pay or Google Wallet existed. Yet, despite this head start, mobile payments in Japan remain less popular than cash\u2014a reminder that technology alone doesn\u2019t guarantee adoption."
+    "text": "The first magnetic stripe card was introduced by IBM in the 1960s, revolutionizing how payment data could be stored and read. This innovation paved the way for modern credit and debit cards, and the technology is still in use today\u2014despite the rise of chips and contactless payments."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Upvest",
-      "description": "Raised $125M from Tencent and Sapphire Ventures.",
-      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
+      "company": "Worth",
+      "description": "Raised $30 million to streamline SMB onboarding and underwriting.",
+      "source_url": "https://www.pymnts.com/smbs/2026/worth-raises-30-million-to-streamline-small-business-onboarding-and-underwriting/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "KAST",
-      "description": "Raised $80M Series A for stablecoin platform.",
+      "description": "Raised $80 million for stablecoin-based financial platform.",
       "source_url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "ParaFi",
-      "description": "Raised $125M for new venture fund.",
-      "source_url": "https://www.theblock.co/post/394785/parafi-raises-125-million?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
       "company": "TransFi",
-      "description": "Closed $19.2M funding round for stablecoin infrastructure.",
+      "description": "Closed $19.2 million funding for stablecoin payments infrastructure.",
       "source_url": "https://www.finextra.com/pressarticle/109193/stablecoin-startup-transfi-closes-192-million-funding-round?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Vivox AI",
-      "description": "Raised \u00a31.3M for AI compliance agents.",
-      "source_url": "https://www.finextra.com/newsarticle/47392/vivox-ai-raises-13m-to-scale-atomic-agents-for-financial-crime-compliance?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Steward",
-      "description": "Raised $5M for AI investor onboarding platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddf1\ud83c\uddf9",
-      "type": "product",
-      "company": "Chaseit.ai",
-      "description": "Launched AI agents for loan servicing.",
-      "source_url": "https://www.finextra.com/newsarticle/47439/fintech-startup-chaseitai-launches-ai-agents-for-call-centre-loan-servicing?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "type": "expansion",
+      "company": "SoftBank\u2019s PayPay",
+      "description": "Filed for US initial public offering.",
+      "source_url": "https://www.finextra.com/newsarticle/47302/softbanks-paypay-files-for-us-initial-public-offering?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
