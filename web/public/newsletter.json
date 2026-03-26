@@ -1,78 +1,64 @@
 {
   "news": [
     {
-      "title": "Solana Foundation Taps Mastercard, Western Union, Worldpay for Blockchain Developer Platform",
-      "body": "The Solana Foundation has launched a new financial developer platform in partnership with Mastercard, Western Union, and Worldpay. This move aims to make it easier for developers to build financial products on Solana\u2019s blockchain, signaling a push to bring traditional payment players deeper into the blockchain ecosystem. For operators, this raises the bar for blockchain integration and could force incumbents to accelerate their own distributed ledger strategies. Expect competitive pressure on legacy rails as more mainstream partners experiment with programmable money.",
+      "title": "Visa Joins Canton Network as Validator, Deepening Blockchain Infrastructure Play",
+      "body": "Visa has joined the Canton Network as a validator, participating in a privacy-preserving blockchain platform designed for banks and financial institutions. This move signals Visa\u2019s commitment to shaping the standards for institutional blockchain infrastructure. By actively validating transactions, Visa is helping to define privacy and interoperability expectations for the sector. For competitors, this means the bar for institutional trust and technical sophistication is being set by global networks, and those relying on legacy rails may need to accelerate their blockchain strategies or risk losing relevance with large financial clients.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47487/solana-foundation-launches-financial-developer-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47494/visa-becomes-canton-network-super-validator"
       }
     },
     {
-      "title": "Mastercard Rolls Out AI-Powered Virtual CFO Tool for Small Businesses",
-      "body": "Mastercard has launched an AI-driven virtual CFO designed to help SMBs manage finances, automate insights, and optimize cash flow. This product positions Mastercard as a direct competitor to fintechs and accounting platforms targeting the SMB segment. Operators serving SMBs will need to rethink their value proposition as AI-native financial management becomes a baseline expectation. The winners will be those who can embed actionable intelligence directly into payment and banking workflows.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/mastercard-bets-ai-can-fill-cfo-gap-small-businesses/815564/"
-      }
-    },
-    {
-      "title": "New York Law Forces All Retailers to Accept Cash, Slowing Cashless Shift",
-      "body": "New York has enacted a law requiring all stores to accept cash payments, directly challenging the momentum behind cashless retail. This regulatory intervention could stall digital payment adoption in a major market and force operators to maintain dual infrastructure. Payment providers and merchants betting on fully digital experiences will need to hedge against similar mandates in other jurisdictions.",
+      "title": "Mastercard Executes Live Agentic Payments Across Latin America and Caribbean",
+      "body": "Mastercard has completed live agentic payment transactions in Latin America and the Caribbean, marking a real-world leap for AI-driven commerce. This gives Mastercard a first-mover advantage in agentic payments, which could pressure other networks and processors to accelerate their own AI-powered transaction capabilities. If your team is not already exploring agentic payment flows and AI-driven fraud controls, you risk falling behind as AI-native commerce becomes a competitive necessity.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47485/new-york-state-force-stores-to-accept-cash?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109289/mastercard-carries-out-agentic-payments-in-latin-america"
       }
     },
     {
-      "title": "Circle Partners with Sasai Fintech to Drive USDC Adoption Across Africa",
-      "body": "Circle has teamed up with Sasai Fintech to expand USDC stablecoin usage and financial infrastructure throughout Africa. This partnership positions USDC as a challenger to both traditional remittance services and other stablecoins in a rapidly digitizing region. Operators in cross-border payments and remittances will face new competition from stablecoin rails, especially as regulatory clarity improves. The move could accelerate stablecoin normalization in emerging markets.",
+      "title": "Monument Bank to Tokenize Retail Deposits for Mass Affluent Market",
+      "body": "UK-based Monument Bank plans to tokenize retail customer deposits, targeting affluent consumers with digital asset infrastructure. This move could disrupt traditional deposit models and force incumbent banks to accelerate tokenization strategies. Operators slow to experiment with tokenized liabilities may lose high-value customers to digital-first challengers. Watch for regulatory responses and copycat launches from other digital banks.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109265/circle-grows-usdc-adoption-in-africa-with-sasai-fintech?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47491/monument-bank-to-tokenise-retail-deposits"
       }
     },
     {
-      "title": "Spade Raises $40M to Advance Transaction Data Analysis for Banks and Fintechs",
-      "body": "Spade has secured $40 million in Series B funding to enhance its transaction data analysis platform, targeting banks and fintechs seeking deeper insights. This capital injection intensifies competition in the transaction analytics space, pushing incumbents to upgrade their own data capabilities. Operators relying on legacy analytics risk falling behind as precision and speed in data-driven decisioning become table stakes.",
+      "title": "Spade Raises $40M to Build AI Platform for Structured Transaction Data",
+      "body": "Spade has secured $40 million in Series B funding to expand its AI-powered platform that transforms raw transaction data into structured, actionable records. This strengthens Spade\u2019s position against legacy analytics providers and signals rising demand for real-time, AI-driven data infrastructure in payments. Operators relying on manual or batch data processes risk falling behind on speed and insight. Expect more PSPs and banks to seek partnerships or acquisitions in this space.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/investment-tracker/2026/spade-raises-40-million-to-drive-transaction-data-analysis/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47486/spade-raises-40m-to-build-data-and-ai-platform"
+      }
+    },
+    {
+      "title": "Visa and Mastercard Face New Interchange Fee Lawsuit from U.S. Merchants",
+      "body": "A coalition of U.S. merchants has filed a new lawsuit against Visa and Mastercard, alleging that the card networks conspired to inflate interchange fees. The suit claims that these fees, which merchants pay on every card transaction, are anti-competitive and harm both businesses and consumers. If your business relies on card payments, keep an eye on this case\u2014it could reshape fee structures and negotiation dynamics across the industry.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/legal/visa-mastercard-face-new-us-lawsuit-over-card-fees-2024-06-10/"
       }
     }
   ],
-  "perspective": "If you're building for the future of payments, you can't ignore how fast the ground is shifting beneath us. When I see Mastercard rolling out an AI-powered CFO for SMBs and Solana onboarding legacy giants like Western Union, it's clear that both intelligence and interoperability are becoming non-negotiable. But just as we race toward digital rails, New York's cash mandate lands like a reality check\u2014if your team is optimizing for a cashless world, you're now on the hook for dual infrastructure and compliance headaches. The winners this year will be those who can move fast on AI and blockchain, but still keep one foot firmly planted in regulatory reality.",
+  "perspective": "If you\u2019re leading payments strategy, you can\u2019t ignore how quickly the ground is shifting beneath us. Visa\u2019s validator role on Canton and Mastercard\u2019s live agentic payments aren\u2019t just technical milestones\u2014they\u2019re signals that the largest networks are actively rewriting what counts as table stakes for trust, privacy, and intelligence in payments. Meanwhile, Monument Bank\u2019s tokenized deposits and the new interchange lawsuit show that both infrastructure and economics are in flux. If your team is still debating whether to invest in AI-driven flows or blockchain rails, the window for hesitation is closing fast. The next wave of winners will be those who treat these shifts as urgent, not optional.",
   "curiosity": {
-    "text": "The first magnetic stripe card was introduced by IBM in the 1960s, revolutionizing how payment data could be stored and read. This innovation paved the way for modern credit and debit cards, and the technology is still in use today\u2014despite the rise of chips and contactless payments."
+    "text": "Did you know that Japan\u2019s Suica card system, launched in 2001, was one of the first contactless smart card payment systems for public transit\u2014and it quickly expanded to retail payments, paving the way for today\u2019s tap-to-pay experiences worldwide?"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Worth",
-      "description": "Raised $30 million to streamline SMB onboarding and underwriting.",
-      "source_url": "https://www.pymnts.com/smbs/2026/worth-raises-30-million-to-streamline-small-business-onboarding-and-underwriting/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "KAST",
-      "description": "Raised $80 million for stablecoin-based financial platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "TransFi",
-      "description": "Closed $19.2 million funding for stablecoin payments infrastructure.",
-      "source_url": "https://www.finextra.com/pressarticle/109193/stablecoin-startup-transfi-closes-192-million-funding-round?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
       "flag": "\ud83c\uddef\ud83c\uddf5",
-      "type": "expansion",
-      "company": "SoftBank\u2019s PayPay",
-      "description": "Filed for US initial public offering.",
-      "source_url": "https://www.finextra.com/newsarticle/47302/softbanks-paypay-files-for-us-initial-public-offering?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "fundraising",
+      "company": "Startale Group",
+      "description": "Closed $63M Series A for Layer 1 network Strium.",
+      "source_url": "https://www.theblock.co/post/395025/startale-group-63-million-series-a"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Eunice",
+      "description": "Raised $8M backed by Moonfire Ventures.",
+      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
     }
   ]
 }
