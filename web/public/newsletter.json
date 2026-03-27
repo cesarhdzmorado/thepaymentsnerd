@@ -1,63 +1,77 @@
 {
   "news": [
     {
-      "title": "Visa Joins Canton Network as Validator, Deepening Blockchain Infrastructure Play",
-      "body": "Visa has joined the Canton Network as a validator, participating in a privacy-preserving blockchain platform designed for banks and financial institutions. This move signals Visa\u2019s commitment to shaping the standards for institutional blockchain infrastructure. By actively validating transactions, Visa is helping to define privacy and interoperability expectations for the sector. For competitors, this means the bar for institutional trust and technical sophistication is being set by global networks, and those relying on legacy rails may need to accelerate their blockchain strategies or risk losing relevance with large financial clients.",
+      "title": "Revolut Accelerates India Hiring, Adding 400+ Fintech Roles This Year",
+      "body": "Revolut is ramping up its India operations with over 400 new hires in 2024, tapping into the country\u2019s deep fintech talent pool. This rapid expansion already accounts for a significant share of its global workforce and signals a shift in where global fintechs source operational expertise. Rivals relying on legacy hubs or slower hiring cycles are already feeling pressure to rethink their own talent strategies.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47494/visa-becomes-canton-network-super-validator"
+        "url": "https://www.finextra.com/newsarticle/47499/revolut-embarks-on-indian-hiring-spree?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Mastercard Executes Live Agentic Payments Across Latin America and Caribbean",
-      "body": "Mastercard has completed live agentic payment transactions in Latin America and the Caribbean, marking a real-world leap for AI-driven commerce. This gives Mastercard a first-mover advantage in agentic payments, which could pressure other networks and processors to accelerate their own AI-powered transaction capabilities. If your team is not already exploring agentic payment flows and AI-driven fraud controls, you risk falling behind as AI-native commerce becomes a competitive necessity.",
+      "title": "Tether\u2019s KPMG Audit Raises the Bar for Stablecoin Transparency",
+      "body": "Tether has engaged KPMG for its first full financial audit, moving beyond monthly attestations to address longstanding transparency concerns around its $184 billion stablecoin. This step could set a new industry baseline for stablecoin credibility, pressuring competitors to match audit standards. Operators relying on unaudited or lightly attested stablecoins may face increased regulatory and partner scrutiny.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109289/mastercard-carries-out-agentic-payments-in-latin-america"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/395423/tether-taps-kpmg-for-first-financial-audit?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Monument Bank to Tokenize Retail Deposits for Mass Affluent Market",
-      "body": "UK-based Monument Bank plans to tokenize retail customer deposits, targeting affluent consumers with digital asset infrastructure. This move could disrupt traditional deposit models and force incumbent banks to accelerate tokenization strategies. Operators slow to experiment with tokenized liabilities may lose high-value customers to digital-first challengers. Watch for regulatory responses and copycat launches from other digital banks.",
+      "title": "Citi Pivots Toward Real-Time, Agentic, and Stablecoin Payments",
+      "body": "Citi is actively engaging clients on real-time payments, agentic commerce, and stablecoin use cases, signaling a strategic push into next-generation payment rails. This positions Citi to capture early-mover advantage as corporates seek operational efficiency and programmable money. Operators slow to experiment with agentic or stablecoin flows risk ceding ground to banks that can deliver both speed and intelligence.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47491/monument-bank-to-tokenise-retail-deposits"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/citi-payments-advances-debopama-sen-real-time-stablecoin-fednow-agentic-ai/815851/"
       }
     },
     {
-      "title": "Spade Raises $40M to Build AI Platform for Structured Transaction Data",
-      "body": "Spade has secured $40 million in Series B funding to expand its AI-powered platform that transforms raw transaction data into structured, actionable records. This strengthens Spade\u2019s position against legacy analytics providers and signals rising demand for real-time, AI-driven data infrastructure in payments. Operators relying on manual or batch data processes risk falling behind on speed and insight. Expect more PSPs and banks to seek partnerships or acquisitions in this space.",
+      "title": "Visa Rolls Out In-App Subscription Management for Issuers",
+      "body": "Visa has launched a service enabling issuers to offer in-app subscription management, giving end users more control over recurring payments. This move could drive issuer adoption and set new consumer expectations for transparency and control. PSPs and banks without similar tooling may see increased churn as users gravitate toward platforms offering frictionless subscription oversight.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47486/spade-raises-40m-to-build-data-and-ai-platform"
+        "url": "https://www.finextra.com/newsarticle/47498/visa-rolls-out-subscription-management-service?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa and Mastercard Face New Interchange Fee Lawsuit from U.S. Merchants",
-      "body": "A coalition of U.S. merchants has filed a new lawsuit against Visa and Mastercard, alleging that the card networks conspired to inflate interchange fees. The suit claims that these fees, which merchants pay on every card transaction, are anti-competitive and harm both businesses and consumers. If your business relies on card payments, keep an eye on this case\u2014it could reshape fee structures and negotiation dynamics across the industry.",
+      "title": "Mastercard Seeks Buyer for Nets Real-Time Payments Unit",
+      "body": "Mastercard is looking to sell the real-time payments business it acquired from Nets for $3.2 billion, aiming to streamline its operations. This divestiture could open the door for new entrants or existing players to scale in the real-time payments space. Operators should watch for market consolidation and shifting partnership dynamics as the asset changes hands.",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/legal/visa-mastercard-face-new-us-lawsuit-over-card-fees-2024-06-10/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47500/mastercard-to-offload-nets-payments-unit-bought-for-32bn---ft?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "If you\u2019re leading payments strategy, you can\u2019t ignore how quickly the ground is shifting beneath us. Visa\u2019s validator role on Canton and Mastercard\u2019s live agentic payments aren\u2019t just technical milestones\u2014they\u2019re signals that the largest networks are actively rewriting what counts as table stakes for trust, privacy, and intelligence in payments. Meanwhile, Monument Bank\u2019s tokenized deposits and the new interchange lawsuit show that both infrastructure and economics are in flux. If your team is still debating whether to invest in AI-driven flows or blockchain rails, the window for hesitation is closing fast. The next wave of winners will be those who treat these shifts as urgent, not optional.",
+  "perspective": "If you think payments is still about who can launch the flashiest product, you\u2019re missing the real race: it\u2019s about who can scale operations and prove trust at every layer. Watching Tether bring in KPMG for a full audit while Citi courts corporates with real-time and agentic rails, I see a clear shift\u2014transparency and operational muscle are converging into the new competitive edge. If your team is still treating compliance, workforce strategy, and next-gen rails as separate projects, you\u2019re already behind fintechs like Revolut, who are building global teams at speed, and banks like Citi, who are making programmable money a client reality. The operators setting the pace now are those who treat transparency and scale as inseparable\u2014and if you\u2019re not moving on both fronts, expect to lose ground to those who are.",
   "curiosity": {
-    "text": "Did you know that Japan\u2019s Suica card system, launched in 2001, was one of the first contactless smart card payment systems for public transit\u2014and it quickly expanded to retail payments, paving the way for today\u2019s tap-to-pay experiences worldwide?"
+    "text": "Here\u2019s a twist: Tether\u2019s $184 billion stablecoin is now getting its first full audit\u2014despite being the largest by market cap, it operated for years without one. In contrast, some smaller stablecoins have been fully audited from day one. Sometimes, the biggest players are the last to embrace transparency."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Startale Group",
-      "description": "Closed $63M Series A for Layer 1 network Strium.",
-      "source_url": "https://www.theblock.co/post/395025/startale-group-63-million-series-a"
+      "company": "Harvey",
+      "description": "Raised $200M to equip law firms with AI agents.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/harvey-raises-200-million-to-equip-law-firms-with-ai-agents/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Home Depot",
+      "description": "Acquires HVAC distributor to expand Pro business.",
+      "source_url": "https://www.pymnts.com/news/retail/2026/home-depot-expands-pro-business-with-hvac-distributor-acquisition/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Trayd",
+      "description": "Raised $10M in Series A for construction tech.",
+      "source_url": "https://news.crunchbase.com/venture/construction-tech-automation-trayd-ai-seriesa/"
+    },
+    {
+      "flag": "\ud83c\uddea\ud83c\uddfa",
       "type": "fundraising",
       "company": "Eunice",
-      "description": "Raised $8M backed by Moonfire Ventures.",
+      "description": "Raised $8M for due diligence startup.",
       "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
     }
   ]
