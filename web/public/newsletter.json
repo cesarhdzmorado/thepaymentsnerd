@@ -1,99 +1,99 @@
 {
   "news": [
     {
-      "title": "Saudi Arabia Grants First Major Payment Institution Licence to Lean Technologies",
-      "body": "The Saudi Central Bank has issued its inaugural Major Payment Institution licence to Lean Technologies, opening the door for regulated open banking in the Kingdom. This move positions Lean as a foundational player in Saudi fintech, likely accelerating both domestic and cross-border innovation. For operators, the regulatory bar is now set higher for new entrants, and incumbents must adapt to a more competitive, API-driven landscape. Expect a wave of fintech partnerships and regulatory recalibration as the market heats up.",
+      "title": "Square Expands Lending With AI-Driven Models for Irregular Business Revenues",
+      "body": "Square has upgraded its underwriting to serve businesses with non-standard revenue patterns, broadening its lending reach beyond traditional merchant profiles. This enables Square to capture segments underserved by conventional lenders, leveraging transaction data and AI to assess risk. For operators, this raises the bar on credit innovation and could force rivals to rethink their own risk models. Expect increased competition for SMB lending as data-driven approaches become table stakes.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47504/saudi-arabia-issues-first-major-payment-institution-licence-to-lean-technologies"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/loans/2026/square-boosts-lending-by-catering-to-businesses-with-non-standard-revenue-patterns/"
       }
     },
     {
-      "title": "Lloyds App Glitch Exposes Data of 500,000 Customers, Raising Regulatory Stakes",
-      "body": "A technical failure in Lloyds Banking Group\u2019s app exposed personal data of nearly half a million customers, triggering immediate reputational and regulatory risk. This incident puts data security and operational resilience back at the top of the agenda for all retail banks. Operators should expect intensified scrutiny and potentially higher compliance costs as regulators respond. Those who can demonstrate robust controls and rapid incident response will gain trust as the standards for data protection and incident management rise.",
+      "title": "Morgan Stanley Undercuts Rivals With 0.14% Fee on Spot Bitcoin ETF",
+      "body": "Morgan Stanley has set its spot bitcoin ETF fee at just 0.14%, reported as the lowest in the market. This aggressive pricing is designed to attract institutional and retail flows, intensifying competition among ETF providers. For payments and fintech operators, lower ETF fees could accelerate mainstream crypto adoption and drive demand for integrated crypto rails. Incumbents relying on higher-fee models will need to adapt quickly or risk losing share.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47505/lloyds-confirms-app-glitch-exposed-data-of-almost-half-a-million-customers"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/395568/morgan-stanley-sets-spot-bitcoin-etf-fee-at-0-14-undercutting-every-rival-on-the-market"
       }
     },
     {
-      "title": "Visa Direct Partners With Moonrise to Challenge Nordic Payment Providers",
-      "body": "Visa Direct has teamed up with Moonrise by Lunar to expand cross-border payment capabilities across the Nordics. This partnership gives Visa a stronger foothold in a region dominated by local providers, raising the stakes for incumbents reliant on domestic rails. Nordic banks and PSPs now face direct competition from global networks offering faster, more integrated solutions. Operators should reassess their cross-border strategies as global players intensify regional competition.",
+      "title": "Ripple Posts Record Q1, Warns of Regulatory Weaponization Risks",
+      "body": "Ripple CEO Brad Garlinghouse reported a record-breaking Q1 but cautioned that regulatory policy could be weaponized to stifle innovation. Ripple\u2019s strong quarter reinforces its resilience, but the warning highlights ongoing uncertainty for crypto operators navigating shifting policy landscapes. Teams scaling in regulated markets should expect more scrutiny and prepare for abrupt compliance pivots. Those with robust policy engagement and adaptive compliance will be best positioned.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47503/visa-direct-partners-with-moonrise-by-lunar-for-nordic-expansion"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/395512/ripple-ceo-garlinghouse-touts-record-q1-cautions-against-policy-weaponization-derailing-progress"
       }
     },
     {
-      "title": "PSR Prioritizes Card Fees and Fraud Protections in Current Regulatory Agenda",
-      "body": "The UK Payment Systems Regulator has announced that tackling high card fees and strengthening fraud protections are top priorities in its current regulatory agenda, with a focus on the coming years. This signals likely pricing pressure on card issuers and could accelerate the shift toward alternative payment methods. Operators should prepare for margin compression and increased compliance requirements as regulatory scrutiny intensifies. Those investing early in alternative rails and fraud tooling will be best positioned to adapt.",
+      "title": "Nexi Partners With Danish Banks to Expand SEPA Direct Debit Across Europe",
+      "body": "Nexi has joined forces with Danish banks to extend SEPA Direct Debit services, boosting cross-border payment efficiency in Europe. This partnership strengthens Nexi\u2019s European footprint and signals growing demand for interoperable, pan-European payment solutions. Operators relying on fragmented local rails will face mounting pressure to integrate SEPA and similar standards. Expect further consolidation and collaboration as cross-border flows become a core battleground.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109309/psr-to-prioritise-tackling-high-card-fees-in-2627"
+        "url": "https://www.finextra.com/newsarticle/47506/nexi-expands-sepa-direct-debit-with-danish-banks"
       }
     },
     {
-      "title": "Solaris to Cut 20% of Staff as It Transforms Into an AI-Native Bank",
-      "body": "German fintech Solaris will reduce its workforce by 20% as it pivots to an AI-native operating model. This move aims to boost efficiency and set a new standard for lean, tech-driven banking operations. For operators, the message is clear: AI-driven transformation is no longer optional, and workforce models are being rewritten. Expect more fintechs and banks to follow suit, with regulatory attention likely to focus on both operational resilience and employment impacts.",
+      "title": "GoCardless Executes First Recurring Pay by Bank Transaction for Jellyfish Energy",
+      "body": "GoCardless has completed its first recurring Pay by Bank transaction for Jellyfish Energy, marking a milestone for open banking payments in the utility sector. This operational proof point could accelerate Pay by Bank adoption among merchants seeking lower costs and faster settlement. PSPs and banks that lag on open banking integration risk losing relevance as recurring use cases scale. Watch for increased merchant demand and competitive pressure on legacy direct debit providers.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47501/solaris-to-axe-20-of-staff-amid-ai-native-bank-transformation"
+        "url": "https://www.finextra.com/pressarticle/109306/gocardless-completes-first-pay-by-bank-transaction-for-jellyfish-energy"
       }
     }
   ],
-  "perspective": "If you\u2019re building or operating in payments right now, you\u2019re seeing the ground shift beneath your feet\u2014sometimes in ways that don\u2019t fit the old compliance-versus-innovation playbook. The Lloyds data breach is a wake-up call: regulators and customers are raising expectations for data protection and incident response, not just ticking boxes. Meanwhile, Solaris\u2019s AI-native pivot and workforce cuts show that efficiency and adaptability are becoming existential, not optional. At the same time, Visa\u2019s Nordic push and Lean\u2019s regulatory breakthrough in Saudi Arabia prove that global expansion and local compliance are colliding, forcing operators to rethink how they scale. If your team is still treating regulatory change, AI adoption, and cross-border growth as separate tracks, you\u2019ll struggle to keep up. The winners will be those who can blend trust, speed, and adaptability\u2014because the rules, the tech, and the competition are all evolving at once.",
+  "perspective": "If you think payments is just about moving money, this week\u2019s news should jolt you awake. I\u2019m struck by how Square\u2019s AI-powered lending for businesses with unpredictable revenues and GoCardless\u2019s first recurring Pay by Bank transaction both signal a new era: the lines between credit, compliance, and payment rails are blurring fast. If your team is still treating these as separate silos, you\u2019re already behind. The operators winning now are those who can adapt to regulatory curveballs (just ask Ripple) and move quickly to integrate new rails and risk models. The future belongs to those who treat adaptability\u2014not just scale\u2014as their core asset.",
   "curiosity": {
-    "text": "Surprisingly, e-money institutions in the EU are not allowed to pay interest on customer balances\u2014a rule designed to distinguish them from banks and limit systemic risk. This restriction shapes how digital wallets and prepaid cards compete with traditional accounts, and is a key reason why many e-money providers focus on payments and value-added services rather than savings products."
+    "text": "Here\u2019s a twist: SEPA Direct Debit, now a backbone for cross-border payments in Europe, was initially met with skepticism by many local banks who feared losing control over their domestic payment systems. Today, as seen with Nexi\u2019s expansion, those same banks are partnering to accelerate SEPA adoption\u2014proof that yesterday\u2019s disruptor can become tomorrow\u2019s standard."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "OpenAI",
-      "description": "Raised $10 billion for AI advancements.",
+      "description": "Raised $10 billion in latest funding round.",
       "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield/"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "Secured $125 million from Tencent and Sapphire Ventures.",
+      "description": "Secured $125 million in funding from Tencent and Sapphire Ventures.",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Eunice",
-      "description": "Raised $8 million for crypto compliance AI.",
-      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "IPO",
-      "company": "Pine Labs",
-      "description": "Achieved $440 million IPO despite valuation trim.",
-      "source_url": "https://techcrunch.com/2025/11/14/pine-labs-gets-warm-market-welcome-on-440m-india-ipo-despite-a-valuation-trim/"
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "Secured UK banking licence after a five-year process.",
+      "source_url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Numeral",
-      "description": "Raised $35 million to automate sales tax with AI.",
-      "source_url": "https://techcrunch.com/2025/09/18/numeral-raises-35m-to-automate-sales-tax-with-ai/"
+      "type": "investment",
+      "company": "Polymarket",
+      "description": "NYSE parent ICE invests $600 million in Polymarket.",
+      "source_url": "https://www.theblock.co/post/395458/nyse-parent-ice-invests-another-600-million-in-polymarket-expanding-bet-on-prediction-markets"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Froda",
-      "description": "Secured $23 million for SME debt financing platform.",
-      "source_url": "https://techcrunch.com/2025/04/23/froda-secures-23m-series-b-for-its-debt-financing-platform-for-smes/"
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "type": "regulatory",
+      "company": "Lean Technologies",
+      "description": "Received Saudi Arabia's first Major Payment Institution licence.",
+      "source_url": "https://www.finextra.com/newsarticle/47504/saudi-arabia-issues-first-major-payment-institution-licence-to-lean-technologies"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Stripe",
-      "description": "Unveiled AI foundation model for payments.",
-      "source_url": "https://techcrunch.com/2025/05/07/stripe-unveils-ai-foundation-model-for-payments-reveals-deeper-partnership-with-nvidia/"
+      "type": "data breach",
+      "company": "Figure",
+      "description": "Data breach affects close to a million customers.",
+      "source_url": "https://techcrunch.com/2026/02/18/data-breach-at-fintech-giant-figure-affects-close-to-a-million-customers/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "type": "partnership",
+      "company": "Lunar",
+      "description": "Partnered with Visa Direct for Nordic expansion.",
+      "source_url": "https://www.finextra.com/newsarticle/47503/visa-direct-partners-with-moonrise-by-lunar-for-nordic-expansion"
     }
   ]
 }
