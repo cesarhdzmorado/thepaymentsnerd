@@ -32,7 +32,11 @@ export async function POST(req: Request) {
     // If already active and confirmed, don't reset their status
     const isAlreadyActive = existingSubscriber?.status === "active" && existingSubscriber?.confirmed_at;
 
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL!;
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+    if (!siteUrl) {
+      console.error("NEXT_PUBLIC_SITE_URL is not configured");
+      return NextResponse.json({ ok: false, message: "Server configuration error." }, { status: 500 });
+    }
 
     if (isAlreadyActive) {
       // User is already subscribed - just return success without sending another confirmation email
@@ -40,7 +44,7 @@ export async function POST(req: Request) {
         ? `${siteUrl}?ref=${existingSubscriber.referral_code}`
         : siteUrl;
 
-      return NextResponse.json({ ok: true, referralUrl: existingReferralUrl });
+      return NextResponse.json({ ok: true, state: "already_active", referralUrl: existingReferralUrl });
     }
 
     // Generate unique referral code for new subscribers
@@ -58,7 +62,7 @@ export async function POST(req: Request) {
           unsubscribed_at: null,
           confirmed_at: null,
           referral_code: newReferralCode,
-          referred_by: referralCode || null, // Track who referred this person
+          ...(referralCode ? { referred_by: referralCode } : {}),
         },
         { onConflict: "email" }
       );
@@ -86,13 +90,13 @@ export async function POST(req: Request) {
         <div style="font-family:system-ui;line-height:1.4">
           <p>Quick confirm — this makes sure nobody subscribed you by mistake.</p>
           <p><a href="${confirmUrl}">Confirm subscription</a></p>
-          <p style="color:#666;font-size:12px">If you didn’t request this, ignore this email.</p>
+          <p style="color:#666;font-size:12px">If you didn't request this, ignore this email.</p>
           <p style="color:#666;font-size:12px"><a href="${unsubUrl}">Unsubscribe</a></p>
         </div>
       `,
     });
 
-    return NextResponse.json({ ok: true, referralUrl: `${siteUrl}?ref=${newReferralCode}` });
+    return NextResponse.json({ ok: true, state: "new", referralUrl: `${siteUrl}?ref=${newReferralCode}` });
   } catch (e: any) {
     console.error("Subscribe route error:", e?.message || e);
     return NextResponse.json({ ok: false, message: "Something went wrong." }, { status: 500 });
