@@ -1,4 +1,4 @@
-# LinkedIn Automation - Phase 1 Setup Checklist
+# LinkedIn Automation - Setup Checklist
 
 ## ✅ Completed (By Claude)
 
@@ -97,61 +97,97 @@ SELECT * FROM linkedin_logs LIMIT 1;
 
 Once all checkboxes above are complete, Phase 1 is done.
 
-You can now move on to Phase 2 (Content Formatting) or Phase 3 (OpenClaw Integration).
-
 ---
 
-## Quick Reference
+## Phase 3: LinkedIn Posting Setup
 
-### Environment Variables Needed
+### 1. LinkedIn App Setup (15 minutes)
+
+- [ ] Go to https://www.linkedin.com/developers/
+- [ ] Create a new app (or use existing)
+- [ ] Under **Auth** tab, add redirect URL: `http://localhost:9876/callback`
+- [ ] Note the **Client ID** and **Client Secret**
+- [ ] Under **Products** tab, request:
+  - [ ] "Share on LinkedIn" (for `w_member_social` scope)
+  - [ ] "Sign In with LinkedIn using OpenID Connect" (for `openid`, `profile` scopes)
+
+### 2. Run Database Migration (2 minutes)
+
+- [ ] Open Supabase SQL Editor
+- [ ] Copy contents of `db/migrations/add_linkedin_phase3.sql`
+- [ ] Paste and run
+- [ ] Verify: the `linkedin_config` table exists and `linkedin_posts.strategy` now allows `'trailer'`
+
+### 3. One-Time OAuth Authorization (5 minutes)
+
+- [ ] Run the auth script:
+  ```bash
+  cd web
+  LINKEDIN_CLIENT_ID=your-client-id LINKEDIN_CLIENT_SECRET=your-secret npx tsx scripts/linkedinAuth.ts
+  ```
+- [ ] Browser will open — log in and authorize the app
+- [ ] Verify `.linkedin-tokens.json` was created at repo root
+- [ ] Verify it contains `access_token`, `refresh_token`, `expires_at`, `person_id`
+
+### 4. Test Dry Run (2 minutes)
+
+- [ ] Set required env vars:
+  ```bash
+  export LINKEDIN_CONTENT_SECRET=your-secret  # or CRON_SECRET
+  ```
+- [ ] Run dry run:
+  ```bash
+  cd web && npx tsx scripts/linkedinPost.ts --dry-run
+  ```
+- [ ] Verify it shows the formatted post text and exits cleanly
+
+### 5. Test Actual Post (5 minutes)
+
+- [ ] Post to LinkedIn:
+  ```bash
+  cd web && npx tsx scripts/linkedinPost.ts
+  ```
+- [ ] Check LinkedIn for the new post
+- [ ] Check Supabase `linkedin_posts` table for the tracking record
+
+### 6. Set Up OpenClaw Cron (5 minutes)
+
+- [ ] Configure OpenClaw to run the posting script daily at ~09:15 UTC:
+  ```
+  cd /path/to/thepaymentsnerd/web && npx tsx scripts/linkedinPost.ts
+  ```
+- [ ] Ensure env vars are available to the cron job (`LINKEDIN_CONTENT_SECRET`, `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `LINKEDIN_CLIENT_ID`, `LINKEDIN_CLIENT_SECRET`)
+
+## 📋 Environment Variables Reference
 
 ```bash
-# In .env file (or GitHub Secrets)
-LINKEDIN_WEBHOOK_SECRET=your-webhook-secret-here
-LINKEDIN_CONTENT_SECRET=your-content-secret-here  # Optional
-OPENCLAW_WEBHOOK_URL=https://abc123.ngrok.io/newsletter-webhook
+# Required for posting
+LINKEDIN_CONTENT_SECRET=xxx       # or CRON_SECRET — for API auth
+
+# Required for Supabase tracking
+SUPABASE_URL=xxx
+SUPABASE_SERVICE_ROLE_KEY=xxx
+
+# Required for token refresh (set on Mac mini)
+LINKEDIN_CLIENT_ID=xxx
+LINKEDIN_CLIENT_SECRET=xxx
 ```
 
-### Test Commands
-
-```bash
-# Test API locally
-cd web
-npm run dev
-curl "http://localhost:3000/api/linkedin-content?secret=test&date=2026-02-28"
-
-# Test content extractor
-cd web
-npx tsx -e "
-  import { extractLinkedInContent } from './lib/linkedinContentExtractor';
-  import newsletter from './public/newsletter.json';
-  const result = extractLinkedInContent(newsletter as any);
-  console.log('Strategy:', result.recommended_strategy);
-  console.log('Digest length:', result.formats.daily_digest?.character_count);
-"
-```
-
-### Useful Links
+## 🔗 Useful Links
 
 - Supabase Dashboard: https://supabase.com/dashboard
 - GitHub Actions: https://github.com/cesarhdzmorado/thepaymentsnerd/actions
-- ngrok Dashboard: https://dashboard.ngrok.com
 - LinkedIn Developers: https://www.linkedin.com/developers/
-
----
+- Full docs: `docs/LINKEDIN_AUTOMATION.md`
 
 ## Troubleshooting
 
-**Issue:** Can't access Supabase
-- Check you're logged into correct account
-- Verify project isn't paused (free tier auto-pauses)
+**"LinkedIn tokens not found"** → Run `linkedinAuth.ts` first
 
-**Issue:** GitHub Actions failing
-- Check secrets are set correctly
-- Verify secret names match exactly (case-sensitive)
+**401 from LinkedIn** → Token expired. Script auto-refreshes, but if refresh token is also expired, re-run `linkedinAuth.ts`
 
-**Issue:** API returns 404
-- Newsletter might not exist for that date
-- Try: `curl "https://thepaymentsnerd.co/api/linkedin-content?secret=$SECRET"` (no date = latest)
+**API returns 404** → Newsletter not generated yet for that date. Script falls back to local `newsletter.json`.
+
+**Supabase tracking fails** → Check env vars. Ensure Phase 3 migration was run.
 
 **Need help?** Check `docs/LINKEDIN_AUTOMATION.md` for detailed troubleshooting.

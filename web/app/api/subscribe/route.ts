@@ -90,7 +90,7 @@ export async function POST(req: Request) {
         <div style="font-family:system-ui;line-height:1.4">
           <p>Quick confirm — this makes sure nobody subscribed you by mistake.</p>
           <p><a href="${confirmUrl}">Confirm subscription</a></p>
-          <p style="color:#666;font-size:12px">If you didn’t request this, ignore this email.</p>
+          <p style="color:#666;font-size:12px">If you didn't request this, ignore this email.</p>
           <p style="color:#666;font-size:12px"><a href="${unsubUrl}">Unsubscribe</a></p>
         </div>
       `,

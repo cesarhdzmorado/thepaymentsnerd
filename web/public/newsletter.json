@@ -1,85 +1,92 @@
 {
   "news": [
     {
-      "title": "Santander and Mastercard Complete Europe's First Live Agentic AI Transaction",
-      "body": "Banco Santander and Mastercard have completed Europe's first live end-to-end payment executed by an AI agent, marking a significant milestone in the adoption of agentic AI in the financial sector. This development primarily impacts European financial institutions and technology providers involved in AI and payments, positioning Santander and Mastercard as leaders in this innovation. The move strengthens their positions as innovators in AI-driven payments, potentially challenging competitors to accelerate their AI initiatives.",
+      "title": "FTC Warns Visa, Mastercard, PayPal, Stripe: Debanking Could Trigger Enforcement Action",
+      "body": "The FTC has formally warned Visa, Mastercard, PayPal, and Stripe against deplatforming customers based on political or religious grounds, threatening investigations and enforcement if such practices persist. This puts major payment processors on notice: they must now document and justify account closures with greater transparency, or risk enforcement actions and public backlash. For operators, the regulatory challenge is no longer just about compliance checklists\u2014it's about proving fairness and neutrality in every offboarding decision.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47371/santander-and-mastercard-complete-europes-first-live-agentic-ai-transaction"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/ftc-threatens-enforcement-action-debanking-visa-mastercard-paypal-stripe/815969/"
       }
     },
     {
-      "title": "MoonPay Builds Infrastructure for PYUSD-Backed Stablecoins",
-      "body": "MoonPay has launched PYUSDx, an infrastructure platform for creating application-specific stablecoins backed by PayPal USD (PYUSD). This development directly impacts developers, fintechs, and businesses interested in stablecoin applications, potentially driving innovation in stablecoin use cases. MoonPay's platform could challenge traditional payment methods and encourage new entrants into the market.",
+      "title": "MobiFone Digital Payments Launches, Intensifying Vietnam\u2019s Platform Competition",
+      "body": "MobiFone Digital Payments has gone live in Vietnam, introducing a new player to the country\u2019s rapidly evolving payments ecosystem. This move puts pressure on incumbent providers as MobiFone leverages its telecom reach to drive adoption and potentially undercut pricing. Operators in the region must now accelerate product innovation and partnership strategies to defend share. The launch signals that telco-led payments are gaining real traction in Southeast Asia\u2019s next growth markets.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109021/moonpay-builds-infrastructure-platform-for-pyusd-backed-stablecoins"
+        "url": "https://www.finextra.com/pressarticle/109313/mobifone-digital-payments-goes-live-in-vietnam?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Northern Trust Launches Tokenised Money Market Share Class",
-      "body": "Northern Trust Asset Management has launched a tokenised money market share class, marking its entry into the digital assets market. This initiative directly impacts investors and financial institutions interested in digital assets and tokenization, potentially reshaping the asset management industry. Northern Trust's move could pressure other asset managers to explore tokenization, leading to increased liquidity and new investment opportunities.",
+      "title": "Valt Bank Wins OCC Charter, Raising Stakes for Digital-Only Business Banking",
+      "body": "Valt, a digital-only business banking startup, has secured conditional approval for a national bank charter from the OCC, clearing a major regulatory hurdle. This milestone means digital banks like Valt must now meet the same rigorous standards for risk management, capital, and operational resilience as traditional banks\u2014no shortcuts allowed. For fintechs, the path to legitimacy is clearer but steeper, while incumbents face a new breed of competitors who can combine regulatory credibility with digital agility.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47380/northern-trust-asset-management-launches-tokenised-money-market-share-class"
+        "url": "https://www.finextra.com/newsarticle/47512/valt-bank-granted-de-novo-bank-charter?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa to Anchor PayPay IPO with $200M Investment",
-      "body": "Visa is set to invest over $200 million as an anchor investor in the upcoming US IPO of Softbank's PayPay, alongside Qatar Holding and the Abu Dhabi Investment Authority. This move directly impacts PayPay, Visa, and potential investors in the IPO, and could influence other fintech IPOs. Visa's investment signals confidence in PayPay's growth potential, possibly increasing competition in the digital payments space.",
+      "title": "CFOs Treat Stablecoins as ACH Alternative, Shifting Treasury Operations",
+      "body": "Corporate CFOs are increasingly using stablecoins as a direct substitute for ACH transfers, moving stablecoins from speculative assets to core treasury rails. This trend reduces reliance on traditional banks for settlement and could accelerate regulatory scrutiny of stablecoin flows in mainstream finance. Operators offering stablecoin rails now have a clear enterprise use case to target, while ACH incumbents face margin pressure and potential volume loss. The next battleground: compliance-grade stablecoin infrastructure for B2B payments.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47377/visa-to-be-anchor-investor-in-paypay-ipo"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/cfos-are-using-stablecoins-more-like-ach-than-digital-assets/"
       }
     },
     {
-      "title": "Apple Plans to Launch Apple Pay in India",
-      "body": "Apple is in discussions with Indian banks to launch Apple Pay in India later this year, expanding its digital wallet services to a new market. This development will affect Indian consumers, banks, and competing digital payment providers, as Apple's entry could disrupt the Indian digital payments landscape. The move challenges local players like Paytm and PhonePe, potentially leading to increased competition and innovation in India's digital payments sector.",
+      "title": "Gen Z Digital Wallet Adoption Surges 21% Amid Budget Pressures",
+      "body": "Gen Z\u2019s use of digital wallets has jumped 21% as tighter budgets push younger consumers toward more efficient, lower-cost payment tools. This surge is forcing wallet providers to double down on user experience and feature innovation, while traditional banks risk losing relevance with the next generation. Operators who can embed value-added services and seamless controls into wallet flows will capture loyalty as Gen Z\u2019s financial influence grows. Expect wallet-driven competition to intensify across both fintech and incumbent banks.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47374/apple-looks-to-bring-apple-pay-to-india"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/consumer-insights/2026/gen-z-digital-wallet-use-climbs-21-as-budgets-tighten/"
       }
     }
   ],
-  "perspective": "Today's stories underscore a pivotal moment in the payments landscape, where the integration of AI and stablecoins is reshaping competitive dynamics. The completion of Europe's first AI-driven transaction by Santander and Mastercard highlights the urgency for financial institutions to innovate, while MoonPay's stablecoin infrastructure signals a growing acceptance of digital currencies in mainstream finance. As major players like Visa and Apple make strategic moves, the pressure mounts on traditional providers to adapt or risk obsolescence.",
+  "perspective": "If you think you can keep regulatory and product teams in separate silos, this week\u2019s news should be a wake-up call. When I see the FTC putting Visa and PayPal on notice for debanking, and Valt Bank earning its OCC charter by meeting full-stack compliance standards, it\u2019s clear: the winners in payments will be those who can prove trustworthiness and agility at the same time. The urgency isn\u2019t theoretical\u2014if your team can\u2019t show both transparent controls (like the FTC now demands) and digital-native resilience (as Valt just demonstrated), you\u2019ll be outpaced by operators who can. The convergence of regulatory rigor and digital innovation isn\u2019t coming\u2014it\u2019s already here, and it\u2019s reshaping who gets to play in the next era of payments.",
   "curiosity": {
-    "text": "Did you know that in the early 1980s, the first electronic payment networks were established, allowing for the electronic transmission of transaction data? This innovation laid the groundwork for the credit and debit card systems we rely on today."
+    "text": "According to the World Bank, global remittance flows to low- and middle-income countries reached a record $669 billion in 2023\u2014up from $540 billion in 2020. This surge highlights how cross-border payments are not just a lifeline for families, but also a growing force in the global payments ecosystem."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "OpenAI",
+      "description": "raises $10 billion, leading the week's funding rounds.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Eunice",
+      "description": "raises $8 million for crypto compliance AI.",
+      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Upvest",
+      "description": "secured $125 million from Tencent and Sapphire Ventures.",
+      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Trayd",
+      "description": "raises $10 million in Series A for construction tech.",
+      "source_url": "https://news.crunchbase.com/venture/construction-tech-automation-trayd-ai-seriesa/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf3",
       "type": "IPO",
-      "company": "PayPay",
-      "description": "SoftBank's PayPay files for US IPO with Visa as anchor investor.",
-      "source_url": "https://www.finextra.com/newsarticle/47302/softbanks-paypay-files-for-us-initial-public-offering"
+      "company": "Pine Labs",
+      "description": "$440 million IPO, backed by PayPal and Mastercard.",
+      "source_url": "https://techcrunch.com/2025/11/14/pine-labs-gets-warm-market-welcome-on-440m-india-ipo-despite-a-valuation-trim/"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
-      "type": "Partnership",
-      "company": "Aryze",
-      "description": "Aryze partners with Muinmos to enhance compliance globally.",
-      "source_url": "https://www.finextra.com/pressarticle/109026/aryze-strengthens-compliance-with-muinmos"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Product Launch",
-      "company": "MoonPay",
-      "description": "Launches PYUSDx platform for PayPal USD-backed stablecoins.",
-      "source_url": "https://www.finextra.com/pressarticle/109021/moonpay-builds-infrastructure-platform-for-pyusd-backed-stablecoins"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Regulatory Approval",
-      "company": "Edward Jones",
-      "description": "Receives FDIC approval for Industrial Loan Company charter.",
-      "source_url": "https://www.bankingdive.com/news/edward-jones-ilc-charter-fdic-approve-industrial-bank-utah/813515/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Revenue Report",
-      "company": "Riot Platforms",
-      "description": "Reports record revenue of $647 million amid AI and HPC focus.",
-      "source_url": "https://www.theblock.co/post/391871/riot-platforms-reports-record-annual-revenue-of-647-million-amid-ai-and-hpc-push"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "granted UK banking licence after five-year effort.",
+      "source_url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
     }
   ]
 }

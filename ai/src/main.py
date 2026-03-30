@@ -169,6 +169,70 @@ def select_fallback_curiosity(curiosity_history: list):
         available = CURATED_CURIOSITY_FALLBACKS
     return max(available, key=lambda text: curiosity_novelty_score(text, curiosity_history))
 
+
+def _normalize_story_url(url: str) -> str:
+    """Normalize URL for robust cross-section dedup (news vs what's hot)."""
+    if not url:
+        return ""
+    u = url.strip().lower()
+    if u.startswith("https://"):
+        u = u[len("https://"):]
+    elif u.startswith("http://"):
+        u = u[len("http://"):]
+    if u.startswith("www."):
+        u = u[len("www."):]
+    # Remove query params and fragments to compare canonical article paths
+    u = u.split("?")[0].split("#")[0]
+    return u.rstrip("/")
+
+
+def deduplicate_whats_hot_against_news(news_items: list, whats_hot_items: list):
+    """
+    Remove What's Hot entries that duplicate already selected Top News stories.
+
+    Matching strategy (in order):
+    1) Normalized source URL exact match (most reliable)
+    2) Company + title overlap fallback (when URL missing)
+
+    Returns: (filtered_whats_hot, removed_items_with_reasons)
+    """
+    if not whats_hot_items:
+        return [], []
+
+    news_urls = set()
+    news_titles = []
+    for n in news_items or []:
+        source = n.get("source", {}) if isinstance(n, dict) else {}
+        source_url = source.get("url", "") if isinstance(source, dict) else ""
+        norm = _normalize_story_url(source_url)
+        if norm:
+            news_urls.add(norm)
+        title = (n.get("title", "") if isinstance(n, dict) else "").lower().strip()
+        if title:
+            news_titles.append(title)
+
+    filtered = []
+    removed = []
+
+    for item in whats_hot_items:
+        source_url = item.get("source_url", "") if isinstance(item, dict) else ""
+        norm_hot_url = _normalize_story_url(source_url)
+        company = (item.get("company", "") if isinstance(item, dict) else "").lower().strip()
+
+        if norm_hot_url and norm_hot_url in news_urls:
+            removed.append({"item": item, "reason": "source_url already present in top news"})
+            continue
+
+        # Fallback: if company name appears in any selected news title and no URL to compare
+        if not norm_hot_url and company and any(company in t for t in news_titles):
+            removed.append({"item": item, "reason": "company overlaps with top news title (no URL)"})
+            continue
+
+        filtered.append(item)
+
+    return filtered, removed
+
+
 def get_recent_stories(days_back: int = 2):
     """
     Fetch stories and editorial context from recent newsletters.
@@ -211,11 +275,14 @@ def get_recent_stories(days_back: int = 2):
             pub_date = newsletter.get("publication_date", "Unknown date")
             news = content.get("news", [])
 
-            # Collect stories
+            # Collect stories (including source URLs for deduplication)
             for story in news:
+                source = story.get("source", {})
+                source_url = source.get("url", "") if isinstance(source, dict) else ""
                 previous_stories.append({
                     "title": story.get("title", ""),
                     "body": story.get("body", ""),
+                    "source_url": source_url,
                     "date": pub_date
                 })
 
@@ -469,33 +536,34 @@ RESEARCH FRAMEWORK:
    - If a feed fails, note it and continue with other sources
    - Aim to gather 20-30 candidate stories across all sources
 
-2. **Story Evaluation** (Strategic Scoring):
+2. **Story Evaluation** (Signal Scoring):
 
-   Score each story using this framework (0-30 points total):
+   Score each story using this framework:
 
-   IMPACT (0-10 points):
-   - Transaction volume affected (small/medium/large scale)
-   - Number of institutions or users impacted
-   - Geographic reach (regional vs global)
+   BASE SIGNAL (0-24):
+   - Specific facts & data quality (0-6)
+   - Material impact size (0-6)
+   - Novelty/timeliness (0-4)
+   - Actionability for payments operators (0-4)
+   - Source quality / verification strength (0-4)
 
-   STRATEGIC IMPORTANCE (0-10 points):
-   - Does this change competitive dynamics? (new entrant, M&A, partnership)
-   - Does this shift market power or business models?
-   - Does this create new opportunities or existential threats?
+   CONTEXT MODIFIERS:
+   - Trend bonus (0-3): strong evidence-backed alignment with current trends
+   - Operator relevance (0-3): direct relevance to payments sales/product/strategy readers
 
-   TIMELINESS (0-5 points):
-   - Breaking news (< 12 hours) = 5
-   - Very recent (12-48 hours) = 3-4
-   - Important but older = 1-2
+   PENALTIES (apply as needed):
+   - PR fluff / vague announcement / no concrete numbers: -3 to -8
+   - Weak evidence despite famous company mention: -2 to -5
 
-   ACTIONABILITY (0-5 points):
-   - Can payments professionals act on this intelligence?
-   - Does it require strategic response or present clear opportunities?
-   - Does it include specific data points or metrics?
+   FINAL SCORE (0-30):
+   - `final_score = base_signal + trend_bonus + operator_relevance - penalties`
 
-3. **Deep Analysis** (Insight Extraction):
+   HARD GATE:
+   - If `base_signal < 12`, reject the story (do not include it in TOP STORIES)
 
-   For the top 10 stories by score, extract:
+3. **Deep Analysis** (Factual Extraction Only):
+
+   For the top 10 stories by score, extract factual intelligence only:
 
    a) **WHAT HAPPENED** (2-3 sentences of facts):
       - Key details, dates, stakeholders
@@ -516,15 +584,8 @@ RESEARCH FRAMEWORK:
       - Downstream impacts on related sectors
       - Regulatory or market responses to watch
 
-   e) **CONTRARIAN ANGLE**:
-      - What is everyone missing about this story?
-      - Is the conventional take wrong?
-      - What's the non-obvious implication?
-
-   f) **PATTERN RECOGNITION**:
-      - Is this part of a larger trend?
-      - Have we seen similar moves recently?
-      - What does this signal about industry direction?
+   IMPORTANT: Do NOT output contrarian narratives, editorial framing, or pattern prose.
+   Save interpretation/voice for the Writer agent.
 
 4. **Quality Standards**:
    - Ensure diversity across the 10 stories (avoid multiple stories on the same company/topic)
@@ -575,11 +636,13 @@ RESEARCH FRAMEWORK:
    SECOND-ORDER EFFECTS:
    [What to watch for next]
 
-   CONTRARIAN TAKE:
-   [Non-obvious insight]
-
-   PATTERN:
-   [Related trend or signal]
+   SCORECARD:
+   - base_signal: [0-24]
+   - trend_bonus: [0-3]
+   - operator_relevance: [0-3]
+   - penalties: [0-8]
+   - final_score: [0-30]
+   - gate: [PASS/REJECT]
    ---
 
    PART 2 - WHAT'S HOT:
@@ -606,219 +669,84 @@ Your final answer must include BOTH Part 1 (10 stories) and Part 2 (What's Hot i
 
     # 4. Create the Writer Agent
     writer_prompt_template = ChatPromptTemplate.from_messages([
-        ("system", f"""You are the editorial voice of "/thepaymentsnerd" - a must-read intelligence brief for payments executives, fintech founders, and banking strategists.
+        ("system", f"""You are the editorial voice of /thepaymentsnerd.
 
-Your mission: Transform raw research into actionable intelligence with a distinctive, authoritative point of view.
+MISSION
+Turn ranked research candidates into a sharp daily brief for payments operators.
 
-IMPORTANT CONTEXT:
-- Today's date is: {current_date}
-- You are writing in {current_date.split()[-1]} (current year)
-- When referencing future predictions, use "in Q1 2026" or "by end of 2026" (next year), not "in 2025"
-- Treat all dates in {current_date.split()[-1]} as present tense, not future
+SCOPE BOUNDARY
+- You own final Top-5 selection + narrative synthesis.
+- Do NOT invent new stories or re-run research.
+- Use provided score fields (`final_score`, `base_signal`, `gate`) as default ranking signal.
+- You may override ranking only to improve diversity/coherence.
+- Do NOT output a `whats_hot` field.
 
-NARRATIVE CONTINUITY (Editorial Memory):
+CONTEXT
+- Today: {current_date}
+- Write in {current_date.split()[-1]} context (current year framing).
+- Narrative continuity from recent perspectives:
 {narrative_context}
-
-**NARRATIVE CONTINUITY GUIDELINES**
-
-Use the editorial memory above to:
-
-1. **BUILD ON PREVIOUS PERSPECTIVES** - If yesterday we said "stablecoins are shifting from retail to enterprise,"
-   today's stablecoin story should acknowledge this: "Yesterday's enterprise stablecoin trend continues with..."
-   or "Counter to yesterday's enterprise focus, today's news shows retail adoption surging..."
-
-2. **AVOID REPETITIVE FRAMING** - If we've said "signals a shift" or "marks a pivot" recently, find fresh language:
-   - Instead of: "This signals a shift in the payments landscape"
-   - Try: "This accelerates the pattern we've tracked all week: [specific pattern]"
-   - Or: "After three days of stablecoin news, today's story reveals WHY: [specific insight]"
-
-3. **CONNECT RECURRING THEMES** - If the same theme (stablecoins, regulation, etc.) appears multiple days:
-   - Reference the pattern: "This is the third stablecoin partnership this week, and together they reveal..."
-   - Provide cumulative insight: "Combined with Monday's Visa move and yesterday's Stripe news, today's announcement confirms..."
-
-4. **SPECIFY THE "SO WHAT"** - Never just say "signals a shift." Always specify:
-   - WHAT is shifting (e.g., "regulatory posture", "enterprise adoption", "cross-border infrastructure")
-   - WHY it matters NOW (e.g., "positioning for Q2 compliance deadlines", "ahead of FedNow's next phase")
-   - WHO wins/loses (e.g., "traditional remittance providers face margin compression")
-
-CURRENT INDUSTRY TRENDS (Editorial Context):
-
-These are the key trends shaping the payments industry RIGHT NOW:
-
+- Trend context:
 {trends_context}
 
-Use this context to:
-- Prioritize stories that signal shifts in these trends
-- Connect individual stories to larger industry movements in your "perspective" section
-- Frame implications through the lens of these trends when relevant
+SELECTION RULES
+1) Choose exactly 5 stories.
+2) Start with highest `final_score` among `gate=PASS`.
+3) Keep at least 4/5 from top PASS-ranked stories unless diversity requires a swap.
+4) Never include `gate=REJECT` unless PASS stories are unavailable.
+5) Avoid PR-like/vague items and repetitive themes.
 
-Important: These trends inform your editorial lens but don't override your judgment. You still have full autonomy to:
-- Select stories based on strategic merit, even if not trend-aligned
-- Identify patterns and trends not listed here
-- Write perspectives that challenge these narratives
-- Focus on non-trend stories when they're more important
+WRITING RULES (PER STORY)
+- Title: 10-14 words, insight-first, specific.
+- Body: 3-4 sentences in active voice:
+  1) What happened (facts/data)
+  2) So what (operator impact)
+  3) Now what (winners/losers/strategic move)
+  4) Optional take (forward-looking)
+- Be concrete; avoid generic phrasing like "signals a shift" without specifics.
 
-CRITICAL - Company List Anti-Bias Guidelines:
-The "Key Players" under each trend are for CONTEXT ONLY to help you:
-- Understand the competitive landscape
-- Recognize when multiple players signal a trend shift
-- Identify winners/losers in your analysis
+PERSPECTIVE (What Matters Today)
+- 2-3 sentences, thematic insight (not story list).
+- First-person singular voice.
+- Include at least two concrete anchors from selected stories.
+- Include one direct reader implication ("If you're..." / "If your team...").
+- End with a decision implication (what to reconsider/accelerate/hedge).
 
-DO NOT:
-- Prioritize stories simply because they mention a listed company
-- Select stories about listed companies over more strategically important unlisted ones
-- Assume listed companies are more newsworthy
-- Ignore emerging players not on the list
+INTRO STYLE LOCK (NON-NEGOTIABLE)
+- Write as an ecosystem-level thesis, not a daily recap.
+- Frame the market phase first, then use stories as evidence.
+- Avoid "today we saw" framing and avoid generic consultant phrasing.
+- Preferred structure:
+  1) Thesis: what phase payments/fintech is entering
+  2) Tension: contradiction or competitive pressure shaping that phase
+  3) Action: operator implication (what teams should do now)
 
-Remember: A story about an unknown startup disrupting Circle or Stripe may be MORE important than
-a routine announcement from a listed company. Select stories based on STRATEGIC MERIT, not name recognition.
+REFERENCE INTRO (TARGET SHAPE)
+"Payments is moving into a new phase where execution quality matters more than product novelty. Everyone now has access to faster rails, stablecoin infrastructure, and cross-border partnerships — so the edge is no longer launch speed, it’s who can operationalize trust, compliance, and distribution at scale. If your team is still treating these as separate workstreams, you’re probably underestimating how quickly they’re collapsing into one competitive battleground."
 
-BRAND VOICE:
-- Authoritative but not academic (think Bloomberg Terminal, not journal)
-- Opinionated but evidence-based (takes a stance, backs it with data)
-- Forward-looking (tells readers what's coming, not just what happened)
-- Insider perspective (writes like a payments exec, for payments execs)
-- Contrarian when warranted (challenges conventional wisdom)
+FEW-SHOT GUIDANCE (STYLE LOCK)
+GOOD STORY EXAMPLE 1
+Title: Visa and Fiserv Push EU Acceptance Expansion Into Local PSP Territory
+Body: Visa and Fiserv expanded their partnership to roll out Visa Acceptance Platform across Fiserv’s merchant base in Europe. That gives larger merchants tighter global tooling while raising pressure on regional PSPs competing on local relationships alone. If this scales, local processors will need to differentiate on vertical workflows, not just acquiring economics.
 
-EDITORIAL PROCESS:
+GOOD STORY EXAMPLE 2
+Title: Sweden’s Riksbank Turns Instant Payments From Feature Into Compliance Pressure
+Body: Sweden’s central bank signaled potential action against banks lagging on instant domestic payments. This shifts RTP from “innovation project” to regulatory expectation, which changes budget urgency for laggards. Banks that delay execution risk both supervisory heat and customer attrition to faster rivals.
 
-1. **Story Selection** (Choose 5 from the stories provided - input has been pre-filtered for duplicates):
+BAD STORY EXAMPLE (DO NOT COPY)
+Title: Stablecoins Continue to Gain Momentum in Global Payments
+Body: A company launched stablecoin capabilities to improve cross-border payments. This signals a broader shift in financial services and could impact many stakeholders. The market is evolving quickly and firms should monitor developments closely.
 
-   Prioritize stories that:
-   - Have clear implications for payments infrastructure, business models, or strategy
-   - Include specific data points, metrics, or market sizing
-   - Affect multiple stakeholders or large market segments
-   - Present competitive dynamics or strategic shifts
-   - Offer contrarian or non-obvious insights
+GOOD PERSPECTIVE EXAMPLE 1
+Speed is no longer the differentiator — compliance-grade speed is. Sweden’s pressure on instant payments and Visa/Fiserv’s EU distribution move point to the same reality: rails are commoditizing, execution quality isn’t. If your team still treats instant payments as roadmap optionality, you’re already behind the operators turning it into customer-retention infrastructure.
 
-   Avoid stories that:
-   - Are generic product launches without strategic impact
-   - Lack specific details or actionable intelligence
-   - Are purely descriptive without implications
-   - Duplicate themes from other selected stories
+GOOD PERSPECTIVE EXAMPLE 2
+The headline stories look unrelated — central-bank pressure in Sweden, stablecoin rollout by Sokin, and cross-border expansion via Alipay rails — but they all compress one decision: build for multi-rail orchestration now, or accept margin squeeze later. I’d treat 2026 as the year where payment teams stop debating rails and start competing on routing intelligence.
 
-2. **Story Structure** (For each of the 5 stories):
+BAD PERSPECTIVE EXAMPLE (DO NOT COPY)
+Today’s stories show that fintech and payments are changing rapidly. Regulation, partnerships, and innovation are all important themes to watch. Companies should stay agile and adapt to these trends.
 
-   **TITLE** (10-14 words):
-   - Lead with the insight or implication, not just the news
-   - Make it specific and data-driven when possible
-   - Examples:
-     * BAD: "Company X Launches New Product"
-     * GOOD: "Stripe's $50B Stablecoin Push Threatens Visa's Cross-Border Dominance"
-     * GOOD: "JPMorgan Blockchain Move Signals Banks Building What They Used to Buy"
-
-   **BODY** (3-4 sentences following this structure):
-
-   CRITICAL: Use ACTIVE VOICE throughout. Lead with the actor, not the action.
-   - WRONG: "A partnership was announced between Stripe and..."
-   - RIGHT: "Stripe announced a partnership with..."
-   - WRONG: "This initiative could disrupt traditional services"
-   - RIGHT: "This initiative threatens traditional services" OR "PayPal's move directly challenges..."
-
-   Sentence 1 - THE WHAT (Facts + Data):
-   - Lead with WHO did WHAT (active voice: "Visa launched...", "Regulators approved...")
-   - Include specific metrics, dates, and stakeholders
-   - Never start with passive constructions like "It was announced..." or "A deal was made..."
-
-   Sentence 2 - THE SO WHAT (Impact):
-   - Why this matters to payments professionals specifically
-   - Use direct language: "This means...", "The impact:", "For payments teams..."
-   - Implications for business models, infrastructure, or strategy
-
-   Sentence 3 - THE NOW WHAT (Competitive/Strategic Angle):
-   - Name specific winners and losers: "X gains...", "Y loses...", "Z must respond..."
-   - What changes in the competitive landscape
-   - OR: What second-order effects to watch for
-
-   Sentence 4 (OPTIONAL) - THE TAKE:
-   - Contrarian insight or forward-looking implication
-   - Pattern recognition or trend connection
-   - Actionable intelligence ("Watch for X", "This signals Y")
-
-3. **What Matters Today** (The Nerd's Perspective - Required):
-
-   After selecting the 5 stories, synthesize the day's intelligence in 2-3 sentences.
-
-   CRITICAL: Write this as a THEMATIC INSIGHT, not a story summary.
-
-   **VOICE LOCK (NON-NEGOTIABLE):**
-   - Sound like a trusted operator writing to another operator, not a corporate analyst memo
-   - Write in first-person singular ("I'm watching...", "I think...", "I'd pay attention to...")
-   - Address the reader directly once ("If you're...", "If your team...")
-   - Include at least TWO concrete anchors from today's stories (company, regulator, rail, market, or metric)
-   - Open with a memorable hook in the first sentence (short, sharp, and specific)
-   - End with a decision implication: what a payments team should reconsider, accelerate, or hedge
-
-   **THE TECHNIQUE:**
-   Identify the single unifying thread or tension that connects today's most important stories,
-   then explore that theme. Your job is to REFRAME what happened, not enumerate what happened.
-
-   **NARRATIVE STRUCTURES (pick one):**
-
-   A) THE LENS: Apply a recurring conceptual framework
-      - "Everything is a payment rail now" — examine how a theme is showing up across stories
-      - "The compliance paradox" — when regulation produces opposite effects
-      - Pattern: "[Conceptual lens]. [How today's news fits]. [What it means]."
-      - Example: "Everything is an acquiring play now. Whether it's Apple expanding tap-to-pay or Stripe's new treasury product, the real prize isn't transactions—it's owning the merchant relationship."
-
-   B) THE REFRAME: Acknowledge the surface story, pivot to the real story
-      - "The headline is about interchange rates. The real story is about..."
-      - "Everyone's watching the IPO. I'm watching the footnote about..."
-      - Pattern: "The obvious read is X. But actually, Y."
-      - Example: "The obvious read on Visa's new fees is margin pressure. But actually, this is Visa signaling which payment flows they're willing to lose—and which ones they'll defend at all costs."
-
-   C) THE THREAD: Identify what connects disparate stories
-      - "Three different companies, three different continents, same bet"
-      - "What do [A], [B], and [C] have in common? They're all asking..."
-      - Pattern: "[Diverse elements]. [Unifying thread]. [Implication]."
-      - Example: "A Brazilian neobank, a European PSP, and a US card network all made the same move this week: betting that embedded finance beats standalone apps. The distribution wars are here."
-
-   D) THE STAKES: Connect directly to reader decisions
-      - "If you're building on card rails, this week just changed your calculus"
-      - "The window for [X strategy] is closing faster than most teams realize"
-      - Pattern: "[Reader context]. [What changed]. [Action implication]."
-      - Example: "If you're still treating instant payments as a nice-to-have, this week's Fed announcement just made it a competitive necessity. The grace period is over."
-
-   E) THE TENSION: Frame as competing forces
-      - "Two forces collided this week: [X] and [Y]. [Who's winning]."
-      - "The industry wants [A]. Regulators want [B]. This week, [B] scored."
-      - Pattern: "[Force 1] vs [Force 2]. [This week's development]. [Direction]."
-      - Example: "Speed versus safety—the eternal payments tension—tilted toward speed this week. Three central banks signaled they're willing to accept more fraud risk for faster settlement. That's a regime change."
-
-   **WHAT TO AVOID:**
-   - DO NOT list stories: "Today's stories about X, Y, and Z..."
-   - DO NOT enumerate: "First, we saw... Second, there was... Third..."
-   - DO NOT use generic framing: "signals a shift" / "marks a pivot" (without specifying WHAT)
-   - DO NOT open with bland filler: "Today's stories underscore..." / "This marks a pivotal moment..."
-   - DO NOT write in passive third-person analyst voice
-   - DO NOT summarize — your reader will read the stories; your job is to REFRAME them
-
-   **QUALITY TEST:**
-   Before finalizing, ask: "Could this perspective have been written without reading today's specific stories?"
-   If yes, it's too generic. Rewrite with specific details that prove you digested the content.
-   Also ask: "Does this sound like something a real person would remember and quote back?"
-   If not, tighten the language and increase specificity.
-
-   **NARRATIVE CONTINUITY:**
-   If today's themes connect to previous days (see NARRATIVE CONTINUITY section above), weave that context
-   naturally into your framing—don't announce it mechanically.
-
-   Write in first-person ("I'm watching...", "What stands out...", "The real question is...")
-   This appears BEFORE the stories and sets the editorial lens for how to read them.
-
-4. **Quality Checklist** (Every newsletter must pass):
-   - [ ] Every story passes the "So what?" test with clear implications
-   - [ ] At least 3 stories include specific data/metrics
-   - [ ] At least 2 stories have contrarian or non-obvious angles
-   - [ ] No repetitive themes across the 5 stories
-   - [ ] Every story identifies winners/losers or strategic impact
-   - [ ] Language is active, specific, and punchy (no generic business jargon)
-   - [ ] "What Matters Today" (perspective) provides synthesis and forward-looking view
-   - [ ] Perspective has a distinct human voice (first-person + direct reader context)
-   - [ ] Perspective includes at least 2 concrete anchors from today's reporting
-
-OUTPUT FORMAT (MUST BE VALID JSON):
-
+OUTPUT JSON ONLY
 {{{{
   "news": [
     {{{{
@@ -833,20 +761,18 @@ OUTPUT FORMAT (MUST BE VALID JSON):
   "perspective": "..."
 }}}}
 
-CRITICAL RULES:
-- Return ONLY the JSON object, no markdown formatting, no additional text
-- Escape all quotes and special characters properly
-- Ensure exactly 5 news items (no more, no less)
-- The "perspective" field is your editorial synthesis (2-3 sentences, ALWAYS required)
-- **CRITICAL: For NEWS items, the "source" field must be an object with "name" and "url" properties**
-- Extract the publication name and URL from the research source (if research shows "Source: Payments Dive - https://example.com", use {{{{"name": "Payments Dive", "url": "https://example.com"}}}}"""),
-        ("user", "Here are the stories to select from (pre-filtered for duplicates):\n\n{input}"),
+CRITICAL
+- Return only valid JSON (no markdown).
+- Exactly 5 news items.
+- Preserve source name + URL for each story.
+"""),
+        ("user", "Here are the stories to select from (pre-filtered for duplicates):\\n\\n{input}"),
     ])
     
     # MODIFIED: Create a simple 'chain' for the writer, as it doesn't need tools.
     # This avoids the "empty functions" error.
     # Using latest gpt-4o-mini for improved reasoning and structured output
-    writer_llm = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0.1)
+    writer_llm = ChatOpenAI(model="gpt-4.1", temperature=0.1)
     writer_chain = writer_prompt_template | writer_llm
 
 
@@ -899,9 +825,13 @@ For each STORY, extract:
 - "body": Combine WHAT HAPPENED + WHO'S AFFECTED + COMPETITIVE DYNAMICS into a coherent summary (2-3 sentences)
 - "source_name": The publication name from "Source: [Name] - [URL]"
 - "source_url": The URL from "Source: [Name] - [URL]"
-- "contrarian_take": The CONTRARIAN TAKE section
-- "pattern": The PATTERN section
 - "second_order_effects": The SECOND-ORDER EFFECTS section
+- "base_signal": numeric from SCORECARD
+- "trend_bonus": numeric from SCORECARD
+- "operator_relevance": numeric from SCORECARD
+- "penalties": numeric from SCORECARD
+- "final_score": numeric from SCORECARD
+- "gate": PASS or REJECT from SCORECARD
 
 For each WHATS_HOT item, extract:
 - "flag": Convert the country to emoji flag (US=🇺🇸, UK=🇬🇧, Germany=🇩🇪, France=🇫🇷, Netherlands=🇳🇱, Sweden=🇸🇪, Ireland=🇮🇪, Singapore=🇸🇬, Brazil=🇧🇷, Argentina=🇦🇷, Mexico=🇲🇽, India=🇮🇳, Australia=🇦🇺, Canada=🇨🇦, Japan=🇯🇵, China=🇨🇳, Hong Kong=🇭🇰, Israel=🇮🇱, UAE=🇦🇪, Czech Republic=🇨🇿, Estonia=🇪🇪, Lithuania=🇱🇹, Nigeria=🇳🇬, Kenya=🇰🇪, South Africa=🇿🇦, Indonesia=🇮🇩, South Korea=🇰🇷, Spain=🇪🇸, Italy=🇮🇹, Switzerland=🇨🇭)
@@ -918,9 +848,13 @@ OUTPUT FORMAT (must be valid JSON):
       "body": "Combined summary of what happened, who's affected, and competitive dynamics.",
       "source_name": "Publication Name",
       "source_url": "https://example.com/article",
-      "contrarian_take": "The contrarian angle",
-      "pattern": "Related trend or signal",
-      "second_order_effects": "What to watch for next"
+      "second_order_effects": "What to watch for next",
+      "base_signal": 18,
+      "trend_bonus": 2,
+      "operator_relevance": 3,
+      "penalties": 1,
+      "final_score": 22,
+      "gate": "PASS"
     }}
   ],
   "whats_hot": [
@@ -937,8 +871,9 @@ OUTPUT FORMAT (must be valid JSON):
 CRITICAL:
 - Return ONLY the JSON object, no markdown formatting, no additional text
 - Preserve all factual details, numbers, and company names exactly as written
-- If a field is missing in the input, use an empty string ""
+- If a field is missing in the input, use an empty string "" (for score fields use 0)
 - If "WHATS_HOT: None found" or no What's Hot items present, return an empty array for "whats_hot"
+- Keep only stories with gate=PASS when clearly indicated; otherwise include and set gate="UNKNOWN"
 - Ensure exactly 10 stories are extracted in the "stories" array (or fewer if the Researcher provided fewer)"""),
         ("user", "{input}"),
     ])
@@ -1053,22 +988,22 @@ Be thorough but fair. Minor issues are acceptable if overall quality is high."""
 
 Task:
 - Return ONLY valid JSON in this exact shape:
-{
+{{
   "news": [
-    {
+    {{
       "title": "...",
       "body": "...",
-      "source": {
+      "source": {{
         "name": "Publication Name",
         "url": "https://example.com/article"
-      }
-    }
+      }}
+    }}
   ],
   "perspective": "...",
-  "curiosity": {
+  "curiosity": {{
     "text": "..."
-  }
-}
+  }}
+}}
 
 Revision rules:
 - Resolve each editor issue explicitly.
@@ -1107,6 +1042,19 @@ Revision rules:
         # Extract stories and whats_hot from unified parser output
         parsed_stories = parsed_data.get('stories', [])
         whats_hot_items = parsed_data.get('whats_hot', [])
+
+        # Keep only PASS-gated stories when present, and sort by final_score desc for downstream selection
+        if isinstance(parsed_stories, list) and parsed_stories:
+            pass_gated = [s for s in parsed_stories if str(s.get('gate', '')).upper() == 'PASS']
+            if pass_gated:
+                parsed_stories = pass_gated
+
+            parsed_stories = sorted(
+                parsed_stories,
+                key=lambda s: float(s.get('final_score', 0) or 0),
+                reverse=True,
+            )
+
         print(f"✅ Parsed {len(parsed_stories)} stories and {len(whats_hot_items)} What's Hot items from Researcher output")
     except (json.JSONDecodeError, AttributeError) as e:
         print(f"⚠️ Failed to parse Researcher output: {e}")
@@ -1243,10 +1191,22 @@ Revision rules:
             if original_count != final_count:
                 print(f"⚠️ Safety net: Removed {original_count - final_count} near-identical stories from final output")
 
-        # Add What's Hot section to the output
+        # Cross-section dedup: remove What's Hot items already present in Top News
         if whats_hot_items:
-            output_json['whats_hot'] = whats_hot_items
-            print(f"✅ Added {len(whats_hot_items)} items to What's Hot section")
+            filtered_hot, removed_hot = deduplicate_whats_hot_against_news(
+                news_items=output_json.get('news', []),
+                whats_hot_items=whats_hot_items,
+            )
+            output_json['whats_hot'] = filtered_hot
+
+            if removed_hot:
+                print(f"⚠️ Removed {len(removed_hot)} What's Hot items duplicated in Top News")
+                for entry in removed_hot:
+                    item = entry.get('item', {})
+                    company = item.get('company', 'Unknown company') if isinstance(item, dict) else 'Unknown company'
+                    print(f"   - {company}: {entry.get('reason', 'duplicate')}")
+
+            print(f"✅ Added {len(filtered_hot)} items to What's Hot section")
         else:
             output_json['whats_hot'] = []
             print("ℹ️ No items for What's Hot section")

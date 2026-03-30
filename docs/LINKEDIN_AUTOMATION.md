@@ -1,7 +1,7 @@
 # LinkedIn Automation System
 
-**Status:** Phase 1 Complete ✅
-**Last Updated:** 2026-02-28
+**Status:** Phase 3 Complete ✅
+**Last Updated:** 2026-03-07
 
 This document describes the automated LinkedIn posting system that transforms daily newsletter content into LinkedIn posts via the OpenClaw agent running on your Mac mini.
 
@@ -16,7 +16,8 @@ This document describes the automated LinkedIn posting system that transforms da
 5. [API Reference](#api-reference)
 6. [Database Schema](#database-schema)
 7. [Testing](#testing)
-8. [Next Steps (Phase 2-4)](#next-steps-phase-2-4)
+8. [Phase 2: Enhanced Templates & Strategy Engine](#phase-2-enhanced-templates--strategy-engine-)
+9. [Next Steps (Phase 3-4)](#next-steps-phase-3-4)
 9. [Troubleshooting](#troubleshooting)
 
 ---
@@ -30,19 +31,12 @@ The LinkedIn automation system enables automatic posting of newsletter content t
 3. **OpenClaw Agent** - Receives notifications, fetches content, and posts to LinkedIn
 4. **Database Tracking** - Logs posting status and events for monitoring
 
-### Current Status (Phase 1)
+### Current Status
 
-✅ **Completed:**
-- LinkedIn content extractor utility
-- `/api/linkedin-content` API endpoint
-- GitHub Actions webhook notification step
-- Database schema for tracking
-
-🚧 **Pending (Phase 2-4):**
-- OpenClaw webhook receiver setup
-- Content formatting strategy engine
-- LinkedIn posting automation
-- Monitoring dashboard
+✅ **Phase 1:** Content extraction, API endpoint, webhook, DB schema
+✅ **Phase 2:** Post templates, strategy engine, trailer format, vibe detection
+✅ **Phase 3:** LinkedIn API client, OAuth auth flow, posting script, DB updates
+🚧 **Phase 4:** Monitoring dashboard, error notifications
 
 ---
 
@@ -445,42 +439,239 @@ HTTPServer(('', 8080), WebhookHandler).serve_forever()
 
 ---
 
-## Next Steps (Phase 2-4)
+## Phase 2: Enhanced Templates & Strategy Engine ✅
 
-### Phase 2: Content Formatting & Strategy Engine
+**Completed:** 2026-03-07
 
-**Goals:**
-- Enhance content formatting with better templates
-- Implement dynamic strategy selection
-- Add preview & approval workflow
+Phase 2 adds a template library, a scoring-based strategy engine, and the **trailer post** format — César's preferred LinkedIn strategy for driving newsletter traffic.
 
-**Tasks:**
-1. Create `web/lib/linkedinPostTemplates.ts` - Advanced post templates
-2. Create `web/lib/linkedinStrategy.ts` - Strategy decision logic
-3. Enhance API response with more format options
-4. Test formatting with last 5 newsletters
+### New Files
 
-### Phase 3: OpenClaw LinkedIn Posting
+#### 1. `web/lib/linkedinPostTemplates.ts` — Template Library
 
-**Goals:**
-- Set up OpenClaw webhook receiver
-- Implement LinkedIn API posting
-- Add status reporting back to API
+Provides varied, content-aware formatting:
 
-**Tasks:**
-1. Create OpenClaw webhook receiver script (Python/Node.js)
-2. Set up LinkedIn OAuth 2.0 app
-3. Implement LinkedIn API client
-4. Create `/api/linkedin-status` endpoint
-5. Test posting to LinkedIn test account
+- **Multiple opening hooks per format** — randomized daily (date-seeded so they're deterministic within a day but vary across days)
+- **Content vibe detection** — classifies each newsletter as `breaking`, `deals_heavy`, `regulatory`, `normal`, or `light` based on keyword analysis
+- **Vibe-aware hooks** — different hook pools for each vibe (e.g. "⚡ Big moves in payments today." for breaking news vs "☕ A quick payments check-in." for light days)
+- **Varied CTAs** — 7 CTA variants for standard formats, 5 for trailer
+- **Content-aware emoji selection** — topic-to-emoji mapping (AI → 🤖, M&A → 🤝, etc.)
+- **Trailer post generator** — short, punchy teaser that creates curiosity
 
-**LinkedIn API Setup:**
-1. Register app at https://www.linkedin.com/developers/
-2. Get OAuth 2.0 credentials (Client ID, Secret)
-3. Request `w_member_social` permission
-4. Implement OAuth flow to get access token
+#### 2. `web/lib/linkedinStrategy.ts` — Strategy Engine
 
-### Phase 4: Error Handling & Monitoring
+Scoring-based strategy selection that considers:
+
+- **Day of week** — Monday boosts trailer (drives week-start traffic), Tuesday-Thursday boosts digest (work mode), Friday boosts trailer (short and punchy)
+- **Content signals** — breaking news boosts top_story, heavy deals boost deals_roundup, rich content boosts trailer
+- **Story count** — few stories penalizes digest/multi-post
+- **What's Hot density** — 5+ items strongly boosts deals_roundup
+
+Returns ranked recommendations with scores and reasons:
+
+```typescript
+import { selectStrategy } from "./linkedinStrategy";
+
+const result = selectStrategy(content);
+// result.recommended = "trailer"
+// result.rankings = [
+//   { strategy: "trailer", score: 75, reason: "Rich content day — great for teasing." },
+//   { strategy: "deals_roundup", score: 70, reason: "Heavy deals day — this is the format." },
+//   ...
+// ]
+// result.vibe = "deals_heavy"
+```
+
+Supports manual overrides:
+
+```typescript
+const result = selectStrategy(content, "daily_digest"); // Force daily_digest
+```
+
+#### 3. Trailer Post Format
+
+The trailer is designed to be short (300-800 chars), create curiosity, and drive clicks:
+
+```
+The fintech world woke up different today.
+
+In today's Payments Nerd:
+
+→ Revolut Files for US Banking License
+→ Mastercard Pilots Agentic Transactions in Malaysia
+→ Florida Passes First State-Level Stablecoin Bill
+
++ 7 deals in the What's Hot section 🔥
+
+Link in comments 👇
+
+#AI #Fintech #Crypto #Stablecoin #Cross-Border
+```
+
+Anatomy: Hook (1 line) → Tease 2-3 story titles (no details) → Optional deals count → CTA
+
+### Updated Files
+
+- **`web/lib/linkedinContentExtractor.ts`** — Imports and uses the new template library and strategy engine. Adds `trailer` to the `formats` object. Backward compatible (same response shape + trailer).
+- **`web/scripts/testLinkedInContent.ts`** — Tests all 5 formats, shows strategy rankings, validates character limits, checks backward compatibility.
+
+### Character Counts (with sample newsletter)
+
+| Format | Characters | % of Limit |
+|--------|-----------|------------|
+| daily_digest | ~2812 | 94% |
+| top_story | ~1376 | 46% |
+| multi_post (avg) | ~684 | 23% |
+| deals_roundup | ~695 | 23% |
+| **trailer** | **~322** | **11%** |
+
+### Testing
+
+```bash
+cd web
+npx tsx scripts/testLinkedInContent.ts
+```
+
+Shows: metadata, vibe detection, strategy rankings with day-of-week variation, all format previews, character limit validation, and backward compatibility check.
+
+---
+
+## Phase 3: LinkedIn Posting Automation ✅
+
+**Completed:** 2026-03-07
+
+Phase 3 adds actual LinkedIn posting via the LinkedIn Posts API, triggered by OpenClaw cron on the Mac mini.
+
+### Architecture
+
+```
+GitHub Actions (08:30 UTC) → generates newsletter → syncs to Supabase
+OpenClaw cron (~09:15 UTC) → runs linkedinPost.ts on Mac mini
+  → fetches content from /api/linkedin-content
+  → selects strategy (trailer by default)
+  → posts to LinkedIn via API
+  → tracks status in Supabase
+  → reports result
+```
+
+No ngrok or webhooks needed. OpenClaw calls the script directly.
+
+### New Files
+
+#### 1. `web/lib/linkedinClient.ts` — LinkedIn API Client
+
+Handles all LinkedIn API interactions:
+
+- **Token management** — reads/writes `.linkedin-tokens.json` at repo root (gitignored)
+- **Auto-refresh** — detects expired access tokens and refreshes using the refresh token
+- **Post creation** — calls LinkedIn Posts API (`POST https://api.linkedin.com/rest/posts`)
+- **401 retry** — on auth failure, attempts one token refresh and retries
+- **Person ID lookup** — fetches authenticated user's LinkedIn person URN
+
+#### 2. `web/scripts/linkedinAuth.ts` — One-Time OAuth Setup
+
+Interactive script César runs once to authorize the LinkedIn app:
+
+1. Starts a local HTTP server on port 9876
+2. Opens LinkedIn OAuth URL in the browser
+3. Handles the callback, exchanges code for tokens
+4. Fetches person ID
+5. Saves everything to `.linkedin-tokens.json`
+
+```bash
+cd web
+LINKEDIN_CLIENT_ID=xxx LINKEDIN_CLIENT_SECRET=xxx npx tsx scripts/linkedinAuth.ts
+```
+
+#### 3. `web/scripts/linkedinPost.ts` — Daily Posting Script
+
+End-to-end script for daily posting:
+
+```bash
+# Preview what would be posted (no actual post)
+cd web && npx tsx scripts/linkedinPost.ts --dry-run
+
+# Post today's newsletter
+cd web && npx tsx scripts/linkedinPost.ts
+
+# Post specific date with specific strategy
+cd web && npx tsx scripts/linkedinPost.ts --date 2026-03-07 --strategy trailer
+```
+
+**Arguments:**
+- `--date YYYY-MM-DD` — target date (defaults to today)
+- `--strategy trailer|daily_digest|top_story|multi_post|deals_roundup` — override strategy
+- `--dry-run` — preview without posting
+
+**Flow:**
+1. Loads LinkedIn tokens
+2. Fetches content from API (falls back to local `newsletter.json`)
+3. Selects strategy (engine recommendation or override)
+4. Posts to LinkedIn
+5. Tracks result in Supabase (`linkedin_posts` + `linkedin_logs`)
+6. Exits with code 0 (success) or 1 (error)
+
+#### 4. `db/migrations/add_linkedin_phase3.sql` — DB Updates
+
+- Adds `'trailer'` to the `linkedin_posts.strategy` check constraint
+- Creates `linkedin_config` table for future persistent settings
+
+### LinkedIn App Setup
+
+1. Go to https://www.linkedin.com/developers/
+2. Create a new app (or use existing)
+3. Under **Auth** tab:
+   - Add `http://localhost:9876/callback` as an authorized redirect URL
+   - Note the Client ID and Client Secret
+4. Under **Products** tab:
+   - Request access to "Share on LinkedIn" (provides `w_member_social` scope)
+   - Request access to "Sign In with LinkedIn using OpenID Connect" (provides `openid`, `profile`)
+
+### Token Refresh Behavior
+
+- **Access tokens** expire after ~60 days
+- **Refresh tokens** expire after ~365 days
+- The client auto-refreshes expired access tokens before posting
+- If refresh fails (refresh token expired), re-run `linkedinAuth.ts`
+- Token refresh requires `LINKEDIN_CLIENT_ID` and `LINKEDIN_CLIENT_SECRET` env vars
+
+### Environment Variables
+
+For the posting script (set in shell or `.env`):
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `LINKEDIN_CONTENT_SECRET` or `CRON_SECRET` | Yes | API authentication |
+| `SUPABASE_URL` | For tracking | Supabase project URL |
+| `SUPABASE_SERVICE_ROLE_KEY` | For tracking | Supabase service role key |
+| `LINKEDIN_CLIENT_ID` | For refresh | LinkedIn app client ID |
+| `LINKEDIN_CLIENT_SECRET` | For refresh | LinkedIn app client secret |
+
+### Troubleshooting
+
+**401 Unauthorized from LinkedIn:**
+- Access token expired — the script auto-refreshes, but if the refresh token is also expired:
+  ```bash
+  cd web
+  LINKEDIN_CLIENT_ID=xxx LINKEDIN_CLIENT_SECRET=xxx npx tsx scripts/linkedinAuth.ts
+  ```
+
+**"LinkedIn tokens not found":**
+- Run the auth script first (one-time setup)
+
+**API returns 404 for today's date:**
+- Newsletter may not have been generated yet (GitHub Actions runs at 08:30 UTC)
+- Script falls back to local `newsletter.json` automatically
+
+**Supabase tracking fails:**
+- Check `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are set
+- Ensure the Phase 3 migration has been run (`db/migrations/add_linkedin_phase3.sql`)
+
+**LinkedIn rate limits:**
+- LinkedIn allows ~100 posts/day — we post once, so this shouldn't be an issue
+- If rate limited, wait and retry later
+
+### Next Steps (Phase 4)
 
 **Goals:**
 - Build monitoring dashboard
@@ -490,7 +681,7 @@ HTTPServer(('', 8080), WebhookHandler).serve_forever()
 **Tasks:**
 1. Create `web/app/admin/linkedin/page.tsx` - Monitoring dashboard
 2. Add Slack/email notifications for failures
-3. Implement fallback polling mechanism
+3. OpenClaw cron scheduling (daily at ~09:15 UTC)
 4. Test recovery scenarios
 
 ---
@@ -604,4 +795,4 @@ For issues or questions:
 
 **Last Updated:** 2026-02-28
 **Version:** Phase 1 Complete
-**Next Review:** After Phase 2 implementation
+**Next Review:** After Phase 3 implementation

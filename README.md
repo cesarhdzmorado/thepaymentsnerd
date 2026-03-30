@@ -34,8 +34,8 @@ The Payments Nerd is an automated newsletter platform that uses AI to discover, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/thepaymentsnerdv2.git
-cd thepaymentsnerdv2
+git clone https://github.com/yourusername/thepaymentsnerd.git
+cd thepaymentsnerd
 
 # Install web dependencies
 cd web
@@ -46,15 +46,13 @@ cd ../ai
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-
-# Set up environment variables
-cp ../.env.example ../.env
-# Edit .env with your API keys
 ```
+
+Then create a root `.env` file manually and add the required keys (see [docs/SETUP.md](docs/SETUP.md) for the full checklist).
 
 ### Environment Configuration
 
-Create a `.env` file in the root directory with the following variables:
+Create a `.env` file in the repository root with the following variables:
 
 ```bash
 # OpenAI (required for newsletter generation)
@@ -163,13 +161,12 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed system design.
 ## Project Structure
 
 ```
-thepaymentsnerdv2/
+thepaymentsnerd/
 ├── ai/                          # Python AI newsletter generator
 │   ├── config.yml               # RSS feeds, search sources, topics
 │   ├── requirements.txt         # Python dependencies
 │   └── src/
 │       ├── main.py              # AI agent orchestration
-│       ├── config.py            # Configuration loader
 │       └── tools.py             # Search, scrape, RSS tools
 │
 ├── web/                         # Next.js frontend application
@@ -193,7 +190,6 @@ thepaymentsnerdv2/
 │       └── generate_news.yml    # Automated newsletter generation
 │
 ├── docs/                        # Documentation (see below)
-├── .env.example                 # Environment variable template
 └── vercel.json                  # Vercel cron configuration
 ```
 
@@ -204,6 +200,7 @@ thepaymentsnerdv2/
 - **[EMAIL_SYSTEM.md](docs/EMAIL_SYSTEM.md)** - Email delivery, authentication, compliance
 - **[DEPLOYMENT.md](docs/DEPLOYMENT.md)** - Vercel deployment, GitHub Actions, cron setup
 - **[CONTRIBUTING.md](docs/CONTRIBUTING.md)** - Development guidelines and workflow
+- **[README.md](docs/README.md)** - Documentation index and recommended reading order
 
 ## API Endpoints
 
