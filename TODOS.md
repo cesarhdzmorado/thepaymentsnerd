@@ -2,6 +2,11 @@
 
 ## Design Debt
 
+### Create React Email templates for transactional emails
+**Why:** Confirmation and "already subscribed" emails use raw inline HTML. A React Email template would ensure brand consistency and make future email changes easier.
+**Effort:** ~30 min CC
+**Depends on:** Nothing
+
 ### Create DESIGN.md via /design-consultation
 **Why:** No design system exists. Each new feature re-invents design decisions. Both outside voices (Codex + Claude) flagged brand isn't visible in UI components.
 **Effort:** ~30 min interactive session with /design-consultation
@@ -19,10 +24,8 @@
 **Effort:** ~2 hr human / ~15 min CC. Vercel Edge Middleware or IP-based throttle.
 **Depends on:** Nothing
 
-### Fix email enumeration via subscribe endpoint
-**Why:** `POST /api/subscribe` returns `state: "already_active"` for existing subscribers, letting anyone check if an email is subscribed. Both Claude and Codex flagged this as a privacy concern under UK GDPR. An attacker can script the endpoint with email lists to learn which addresses are active.
-**Effort:** ~1 hr human / ~10 min CC. Options: always return `state: "new"` and handle "already subscribed" via email, or always send an email (even to active subs saying "you're already in").
-**Depends on:** Nothing
+### ~~Fix email enumeration via subscribe endpoint~~ DONE
+**Fixed:** API now returns uniform response for all emails. Active subscribers receive a "you're already subscribed" email with their referral link. No `state` field in response. Frontend simplified to remove `already_active` handling.
 
 ### Validate referralCode against subscribers table
 **Why:** `referralCode` from user input is written to `referred_by` with zero validation. Allows self-referral, fake codes, and referral count inflation. Both Claude and Codex confirmed. One poisoned signup through a referral link can permanently steal attribution credit.

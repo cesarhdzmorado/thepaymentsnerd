@@ -10,8 +10,6 @@ function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
-type SubscriberState = "new" | "already_active";
-
 function ShareLink({
   href,
   channel,
@@ -58,7 +56,6 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState<string>("");
   const [referralUrl, setReferralUrl] = useState<string | null>(null);
-  const [subscriberState, setSubscriberState] = useState<SubscriberState | null>(null);
   const [linkCopied, setLinkCopied] = useState(false);
   const hasFeedbackMessage = message.length > 0;
   const referralInputRef = useRef<HTMLInputElement>(null);
@@ -85,7 +82,6 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
     setStatus("loading");
     setMessage("");
     setReferralUrl(null);
-    setSubscriberState(null);
 
     try {
       const res = await fetch("/api/subscribe", {
@@ -107,15 +103,9 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
       }
 
       const nextReferralUrl = typeof data?.referralUrl === "string" ? data.referralUrl : null;
-      const nextState: SubscriberState = data?.state === "already_active" ? "already_active" : "new";
 
       setStatus("success");
-      setSubscriberState(nextState);
-      setMessage(
-        nextState === "already_active"
-          ? "Welcome back! You're already subscribed."
-          : "Check your inbox to confirm your subscription."
-      );
+      setMessage("Check your inbox to confirm your subscription.");
       setReferralUrl(nextReferralUrl);
       setEmail("");
 
@@ -261,9 +251,7 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
                 Share The Payments Nerd
               </p>
               <p className="mt-1 text-xs text-slate-600 dark:text-slate-400">
-                {subscriberState === "already_active"
-                  ? "Your referral link is ready. Share it to grow the community."
-                  : "Share your referral link to bring in your payments network."}
+                Share your referral link to bring in your payments network.
               </p>
 
               <input
