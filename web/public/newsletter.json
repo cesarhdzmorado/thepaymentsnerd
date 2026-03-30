@@ -1,99 +1,92 @@
 {
   "news": [
     {
-      "title": "Square Expands Lending With AI-Driven Models for Irregular Business Revenues",
-      "body": "Square has upgraded its underwriting to serve businesses with non-standard revenue patterns, broadening its lending reach beyond traditional merchant profiles. This enables Square to capture segments underserved by conventional lenders, leveraging transaction data and AI to assess risk. For operators, this raises the bar on credit innovation and could force rivals to rethink their own risk models. Expect increased competition for SMB lending as data-driven approaches become table stakes.",
+      "title": "FTC Warns Visa, Mastercard, PayPal, Stripe: Debanking Could Trigger Enforcement Action",
+      "body": "The FTC has formally warned Visa, Mastercard, PayPal, and Stripe against deplatforming customers based on political or religious grounds, threatening investigations and enforcement if such practices persist. This puts major payment processors on notice: they must now document and justify account closures with greater transparency, or risk enforcement actions and public backlash. For operators, the regulatory challenge is no longer just about compliance checklists\u2014it's about proving fairness and neutrality in every offboarding decision.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/ftc-threatens-enforcement-action-debanking-visa-mastercard-paypal-stripe/815969/"
+      }
+    },
+    {
+      "title": "MobiFone Digital Payments Launches, Intensifying Vietnam\u2019s Platform Competition",
+      "body": "MobiFone Digital Payments has gone live in Vietnam, introducing a new player to the country\u2019s rapidly evolving payments ecosystem. This move puts pressure on incumbent providers as MobiFone leverages its telecom reach to drive adoption and potentially undercut pricing. Operators in the region must now accelerate product innovation and partnership strategies to defend share. The launch signals that telco-led payments are gaining real traction in Southeast Asia\u2019s next growth markets.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109313/mobifone-digital-payments-goes-live-in-vietnam?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Valt Bank Wins OCC Charter, Raising Stakes for Digital-Only Business Banking",
+      "body": "Valt, a digital-only business banking startup, has secured conditional approval for a national bank charter from the OCC, clearing a major regulatory hurdle. This milestone means digital banks like Valt must now meet the same rigorous standards for risk management, capital, and operational resilience as traditional banks\u2014no shortcuts allowed. For fintechs, the path to legitimacy is clearer but steeper, while incumbents face a new breed of competitors who can combine regulatory credibility with digital agility.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47512/valt-bank-granted-de-novo-bank-charter?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "CFOs Treat Stablecoins as ACH Alternative, Shifting Treasury Operations",
+      "body": "Corporate CFOs are increasingly using stablecoins as a direct substitute for ACH transfers, moving stablecoins from speculative assets to core treasury rails. This trend reduces reliance on traditional banks for settlement and could accelerate regulatory scrutiny of stablecoin flows in mainstream finance. Operators offering stablecoin rails now have a clear enterprise use case to target, while ACH incumbents face margin pressure and potential volume loss. The next battleground: compliance-grade stablecoin infrastructure for B2B payments.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/loans/2026/square-boosts-lending-by-catering-to-businesses-with-non-standard-revenue-patterns/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/cfos-are-using-stablecoins-more-like-ach-than-digital-assets/"
       }
     },
     {
-      "title": "Morgan Stanley Undercuts Rivals With 0.14% Fee on Spot Bitcoin ETF",
-      "body": "Morgan Stanley has set its spot bitcoin ETF fee at just 0.14%, reported as the lowest in the market. This aggressive pricing is designed to attract institutional and retail flows, intensifying competition among ETF providers. For payments and fintech operators, lower ETF fees could accelerate mainstream crypto adoption and drive demand for integrated crypto rails. Incumbents relying on higher-fee models will need to adapt quickly or risk losing share.",
+      "title": "Gen Z Digital Wallet Adoption Surges 21% Amid Budget Pressures",
+      "body": "Gen Z\u2019s use of digital wallets has jumped 21% as tighter budgets push younger consumers toward more efficient, lower-cost payment tools. This surge is forcing wallet providers to double down on user experience and feature innovation, while traditional banks risk losing relevance with the next generation. Operators who can embed value-added services and seamless controls into wallet flows will capture loyalty as Gen Z\u2019s financial influence grows. Expect wallet-driven competition to intensify across both fintech and incumbent banks.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/395568/morgan-stanley-sets-spot-bitcoin-etf-fee-at-0-14-undercutting-every-rival-on-the-market"
-      }
-    },
-    {
-      "title": "Ripple Posts Record Q1, Warns of Regulatory Weaponization Risks",
-      "body": "Ripple CEO Brad Garlinghouse reported a record-breaking Q1 but cautioned that regulatory policy could be weaponized to stifle innovation. Ripple\u2019s strong quarter reinforces its resilience, but the warning highlights ongoing uncertainty for crypto operators navigating shifting policy landscapes. Teams scaling in regulated markets should expect more scrutiny and prepare for abrupt compliance pivots. Those with robust policy engagement and adaptive compliance will be best positioned.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/395512/ripple-ceo-garlinghouse-touts-record-q1-cautions-against-policy-weaponization-derailing-progress"
-      }
-    },
-    {
-      "title": "Nexi Partners With Danish Banks to Expand SEPA Direct Debit Across Europe",
-      "body": "Nexi has joined forces with Danish banks to extend SEPA Direct Debit services, boosting cross-border payment efficiency in Europe. This partnership strengthens Nexi\u2019s European footprint and signals growing demand for interoperable, pan-European payment solutions. Operators relying on fragmented local rails will face mounting pressure to integrate SEPA and similar standards. Expect further consolidation and collaboration as cross-border flows become a core battleground.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47506/nexi-expands-sepa-direct-debit-with-danish-banks"
-      }
-    },
-    {
-      "title": "GoCardless Executes First Recurring Pay by Bank Transaction for Jellyfish Energy",
-      "body": "GoCardless has completed its first recurring Pay by Bank transaction for Jellyfish Energy, marking a milestone for open banking payments in the utility sector. This operational proof point could accelerate Pay by Bank adoption among merchants seeking lower costs and faster settlement. PSPs and banks that lag on open banking integration risk losing relevance as recurring use cases scale. Watch for increased merchant demand and competitive pressure on legacy direct debit providers.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109306/gocardless-completes-first-pay-by-bank-transaction-for-jellyfish-energy"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/consumer-insights/2026/gen-z-digital-wallet-use-climbs-21-as-budgets-tighten/"
       }
     }
   ],
-  "perspective": "If you think payments is just about moving money, this week\u2019s news should jolt you awake. I\u2019m struck by how Square\u2019s AI-powered lending for businesses with unpredictable revenues and GoCardless\u2019s first recurring Pay by Bank transaction both signal a new era: the lines between credit, compliance, and payment rails are blurring fast. If your team is still treating these as separate silos, you\u2019re already behind. The operators winning now are those who can adapt to regulatory curveballs (just ask Ripple) and move quickly to integrate new rails and risk models. The future belongs to those who treat adaptability\u2014not just scale\u2014as their core asset.",
+  "perspective": "If you think you can keep regulatory and product teams in separate silos, this week\u2019s news should be a wake-up call. When I see the FTC putting Visa and PayPal on notice for debanking, and Valt Bank earning its OCC charter by meeting full-stack compliance standards, it\u2019s clear: the winners in payments will be those who can prove trustworthiness and agility at the same time. The urgency isn\u2019t theoretical\u2014if your team can\u2019t show both transparent controls (like the FTC now demands) and digital-native resilience (as Valt just demonstrated), you\u2019ll be outpaced by operators who can. The convergence of regulatory rigor and digital innovation isn\u2019t coming\u2014it\u2019s already here, and it\u2019s reshaping who gets to play in the next era of payments.",
   "curiosity": {
-    "text": "Here\u2019s a twist: SEPA Direct Debit, now a backbone for cross-border payments in Europe, was initially met with skepticism by many local banks who feared losing control over their domestic payment systems. Today, as seen with Nexi\u2019s expansion, those same banks are partnering to accelerate SEPA adoption\u2014proof that yesterday\u2019s disruptor can become tomorrow\u2019s standard."
+    "text": "According to the World Bank, global remittance flows to low- and middle-income countries reached a record $669 billion in 2023\u2014up from $540 billion in 2020. This surge highlights how cross-border payments are not just a lifeline for families, but also a growing force in the global payments ecosystem."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "OpenAI",
-      "description": "Raised $10 billion in latest funding round.",
+      "description": "raises $10 billion, leading the week's funding rounds.",
       "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Eunice",
+      "description": "raises $8 million for crypto compliance AI.",
+      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "Secured $125 million in funding from Tencent and Sapphire Ventures.",
+      "description": "secured $125 million from Tencent and Sapphire Ventures.",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Trayd",
+      "description": "raises $10 million in Series A for construction tech.",
+      "source_url": "https://news.crunchbase.com/venture/construction-tech-automation-trayd-ai-seriesa/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "type": "IPO",
+      "company": "Pine Labs",
+      "description": "$440 million IPO, backed by PayPal and Mastercard.",
+      "source_url": "https://techcrunch.com/2025/11/14/pine-labs-gets-warm-market-welcome-on-440m-india-ipo-despite-a-valuation-trim/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
       "company": "Revolut",
-      "description": "Secured UK banking licence after a five-year process.",
+      "description": "granted UK banking licence after five-year effort.",
       "source_url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "investment",
-      "company": "Polymarket",
-      "description": "NYSE parent ICE invests $600 million in Polymarket.",
-      "source_url": "https://www.theblock.co/post/395458/nyse-parent-ice-invests-another-600-million-in-polymarket-expanding-bet-on-prediction-markets"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\udde6",
-      "type": "regulatory",
-      "company": "Lean Technologies",
-      "description": "Received Saudi Arabia's first Major Payment Institution licence.",
-      "source_url": "https://www.finextra.com/newsarticle/47504/saudi-arabia-issues-first-major-payment-institution-licence-to-lean-technologies"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "data breach",
-      "company": "Figure",
-      "description": "Data breach affects close to a million customers.",
-      "source_url": "https://techcrunch.com/2026/02/18/data-breach-at-fintech-giant-figure-affects-close-to-a-million-customers/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
-      "type": "partnership",
-      "company": "Lunar",
-      "description": "Partnered with Visa Direct for Nordic expansion.",
-      "source_url": "https://www.finextra.com/newsarticle/47503/visa-direct-partners-with-moonrise-by-lunar-for-nordic-expansion"
     }
   ]
 }
