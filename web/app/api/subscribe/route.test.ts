@@ -82,27 +82,31 @@ describe("POST /api/subscribe", () => {
     expect(data.message).toBe("Enter a valid email.");
   });
 
-  it("returns already_active state for active subscribers", async () => {
+  it("sends 'already subscribed' email for active subscribers (no state leak)", async () => {
     mockSingle.mockResolvedValueOnce({
       data: { status: "active", confirmed_at: "2026-01-01", referral_code: "EXISTING" },
     });
+    mockSend.mockResolvedValueOnce({});
 
     const res = await POST(makeRequest({ email: "active@test.com" }));
     const data = await res.json();
 
     expect(res.status).toBe(200);
     expect(data.ok).toBe(true);
-    expect(data.state).toBe("already_active");
     expect(data.referralUrl).toBe(`${SITE_URL}?ref=EXISTING`);
-    // Should NOT call upsert or send email
+    // No state field in response (prevents email enumeration)
+    expect(data).not.toHaveProperty("state");
+    // Should NOT upsert, but SHOULD send email
     expect(mockUpsert).not.toHaveBeenCalled();
-    expect(mockSend).not.toHaveBeenCalled();
+    expect(mockSend).toHaveBeenCalledTimes(1);
+    expect(mockSend.mock.calls[0][0].subject).toBe("You're already subscribed");
   });
 
   it("returns site URL for active subscriber without referral_code", async () => {
     mockSingle.mockResolvedValueOnce({
       data: { status: "active", confirmed_at: "2026-01-01", referral_code: null },
     });
+    mockSend.mockResolvedValueOnce({});
 
     const res = await POST(makeRequest({ email: "active@test.com" }));
     const data = await res.json();
@@ -110,7 +114,31 @@ describe("POST /api/subscribe", () => {
     expect(data.referralUrl).toBe(SITE_URL);
   });
 
-  it("creates new subscriber with state 'new' and sends confirmation", async () => {
+  it("returns identical response shape for new and active subscribers", async () => {
+    // Active subscriber
+    mockSingle.mockResolvedValueOnce({
+      data: { status: "active", confirmed_at: "2026-01-01", referral_code: "ACTIVE_REF" },
+    });
+    mockSend.mockResolvedValueOnce({});
+    const activeRes = await POST(makeRequest({ email: "active@test.com" }));
+    const activeData = await activeRes.json();
+
+    vi.clearAllMocks();
+
+    // New subscriber
+    mockSingle.mockResolvedValueOnce({ data: null });
+    mockUpsert.mockResolvedValueOnce({ error: null });
+    mockSend.mockResolvedValueOnce({});
+    const newRes = await POST(makeRequest({ email: "new@test.com" }));
+    const newData = await newRes.json();
+
+    // Both responses have identical keys (no state field)
+    expect(Object.keys(activeData).sort()).toEqual(Object.keys(newData).sort());
+    expect(activeData).not.toHaveProperty("state");
+    expect(newData).not.toHaveProperty("state");
+  });
+
+  it("creates new subscriber and sends confirmation (no state in response)", async () => {
     mockSingle.mockResolvedValueOnce({ data: null });
     mockUpsert.mockResolvedValueOnce({ error: null });
     mockSend.mockResolvedValueOnce({});
@@ -120,7 +148,7 @@ describe("POST /api/subscribe", () => {
 
     expect(res.status).toBe(200);
     expect(data.ok).toBe(true);
-    expect(data.state).toBe("new");
+    expect(data).not.toHaveProperty("state");
     expect(data.referralUrl).toBe(`${SITE_URL}?ref=TESTCODE`);
     expect(mockUpsert).toHaveBeenCalledTimes(1);
     expect(mockSend).toHaveBeenCalledTimes(1);
