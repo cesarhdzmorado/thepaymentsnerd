@@ -1,92 +1,92 @@
 {
   "news": [
     {
-      "title": "FTC Warns Visa, Mastercard, PayPal, Stripe: Debanking Could Trigger Enforcement Action",
-      "body": "The FTC has formally warned Visa, Mastercard, PayPal, and Stripe against deplatforming customers based on political or religious grounds, threatening investigations and enforcement if such practices persist. This puts major payment processors on notice: they must now document and justify account closures with greater transparency, or risk enforcement actions and public backlash. For operators, the regulatory challenge is no longer just about compliance checklists\u2014it's about proving fairness and neutrality in every offboarding decision.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/ftc-threatens-enforcement-action-debanking-visa-mastercard-paypal-stripe/815969/"
-      }
-    },
-    {
-      "title": "MobiFone Digital Payments Launches, Intensifying Vietnam\u2019s Platform Competition",
-      "body": "MobiFone Digital Payments has gone live in Vietnam, introducing a new player to the country\u2019s rapidly evolving payments ecosystem. This move puts pressure on incumbent providers as MobiFone leverages its telecom reach to drive adoption and potentially undercut pricing. Operators in the region must now accelerate product innovation and partnership strategies to defend share. The launch signals that telco-led payments are gaining real traction in Southeast Asia\u2019s next growth markets.",
+      "title": "Swift\u2019s Blockchain Shared Ledger Set for 2026 Launch, Aiming to Reshape Cross-Border Payment Interoperability",
+      "body": "Swift will launch a blockchain-based shared ledger in 2026, enabling banks to interoperate with tokenized deposits for 24/7 cross-border payments. This move positions Swift as a direct competitor to fintechs and blockchain startups targeting the same space, raising the bar for interoperability and settlement speed. Operators relying on legacy rails will face pressure to match new standards in transparency and efficiency. Expect regulatory scrutiny to intensify as blockchain-based cross-border flows scale.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109313/mobifone-digital-payments-goes-live-in-vietnam?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47515/swift-says-blockchain-based-shared-ledger-will-go-live-with-real-transactions-this-year"
       }
     },
     {
-      "title": "Valt Bank Wins OCC Charter, Raising Stakes for Digital-Only Business Banking",
-      "body": "Valt, a digital-only business banking startup, has secured conditional approval for a national bank charter from the OCC, clearing a major regulatory hurdle. This milestone means digital banks like Valt must now meet the same rigorous standards for risk management, capital, and operational resilience as traditional banks\u2014no shortcuts allowed. For fintechs, the path to legitimacy is clearer but steeper, while incumbents face a new breed of competitors who can combine regulatory credibility with digital agility.",
+      "title": "Nium\u2019s Dual-Network Stablecoin Card Brings Digital Dollars to Mainstream Commerce",
+      "body": "Nium launched a dual-network stablecoin card issuance platform, letting businesses spend digital dollars at millions of merchant locations worldwide. This leapfrogs traditional card networks by embedding stablecoin rails directly into everyday payments, forcing incumbents to rethink their digital asset strategies. Operators slow to integrate stablecoin acceptance risk losing share to more agile, crypto-native competitors. Regulatory frameworks for stablecoin payments will become a critical battleground.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47512/valt-bank-granted-de-novo-bank-charter?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47509/nium-launches-dual-network-stablecoin-card-issuance-platform"
       }
     },
     {
-      "title": "CFOs Treat Stablecoins as ACH Alternative, Shifting Treasury Operations",
-      "body": "Corporate CFOs are increasingly using stablecoins as a direct substitute for ACH transfers, moving stablecoins from speculative assets to core treasury rails. This trend reduces reliance on traditional banks for settlement and could accelerate regulatory scrutiny of stablecoin flows in mainstream finance. Operators offering stablecoin rails now have a clear enterprise use case to target, while ACH incumbents face margin pressure and potential volume loss. The next battleground: compliance-grade stablecoin infrastructure for B2B payments.",
+      "title": "Wise Enters UK Current Account Market, Escalating Pressure on Incumbent Banks",
+      "body": "Wise is rolling out current accounts to its three million UK customers and business clients, expanding beyond cross-border payments into full-service banking. This intensifies competition for traditional banks and fintechs, as Wise leverages its digital-native infrastructure to offer broader financial services. Operators with legacy tech stacks will feel margin and retention pressure as pricing and service models shift. Expect further product expansion and accelerated digital transformation across the sector.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/cfos-are-using-stablecoins-more-like-ach-than-digital-assets/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47514/wise-launches-uk-current-accounts"
       }
     },
     {
-      "title": "Gen Z Digital Wallet Adoption Surges 21% Amid Budget Pressures",
-      "body": "Gen Z\u2019s use of digital wallets has jumped 21% as tighter budgets push younger consumers toward more efficient, lower-cost payment tools. This surge is forcing wallet providers to double down on user experience and feature innovation, while traditional banks risk losing relevance with the next generation. Operators who can embed value-added services and seamless controls into wallet flows will capture loyalty as Gen Z\u2019s financial influence grows. Expect wallet-driven competition to intensify across both fintech and incumbent banks.",
+      "title": "BMO, CME Group, and Google Cloud Launch Tokenized Cash Platform for Institutions",
+      "body": "BMO, CME Group, and Google Cloud unveiled a tokenized cash and deposit platform, enabling institutional clients to move value securely via CME\u2019s network on Google Cloud. This collaboration gives BMO a digital asset edge and signals a new phase of tokenization in institutional finance. Operators without cloud-native, tokenized infrastructure risk falling behind as demand for programmable, secure settlement grows. Expect rapid adoption among institutions seeking efficiency and compliance.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/consumer-insights/2026/gen-z-digital-wallet-use-climbs-21-as-budgets-tighten/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109324/bmo-introduces-tokenized-cash-and-deposit-platform-with-cme-group-and-google-cloud"
+      }
+    },
+    {
+      "title": "AccessPay Secures Accel-KKR Backing to Scale Payment Automation Ambitions",
+      "body": "AccessPay received a majority investment from Accel-KKR, positioning it for accelerated growth in bank integration and payment automation. This signals ongoing consolidation and capital inflows into the payment automation sector, raising the stakes for smaller players. Operators relying on manual or fragmented workflows will face increasing pressure to automate or risk obsolescence. Expect AccessPay to expand its product suite and drive further innovation in payment operations.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109322/accesspay-secures-majority-investment-from-accel-kkr"
       }
     }
   ],
-  "perspective": "If you think you can keep regulatory and product teams in separate silos, this week\u2019s news should be a wake-up call. When I see the FTC putting Visa and PayPal on notice for debanking, and Valt Bank earning its OCC charter by meeting full-stack compliance standards, it\u2019s clear: the winners in payments will be those who can prove trustworthiness and agility at the same time. The urgency isn\u2019t theoretical\u2014if your team can\u2019t show both transparent controls (like the FTC now demands) and digital-native resilience (as Valt just demonstrated), you\u2019ll be outpaced by operators who can. The convergence of regulatory rigor and digital innovation isn\u2019t coming\u2014it\u2019s already here, and it\u2019s reshaping who gets to play in the next era of payments.",
+  "perspective": "If you\u2019re still treating tokenization and automation as buzzwords, you\u2019re about to get lapped. When I see Swift setting a 2026 date for its blockchain shared ledger and Nium rolling out stablecoin cards that work at millions of merchants, it\u2019s clear the payments world is shifting from experimentation to execution. The real story isn\u2019t just about new rails\u2014it\u2019s about who can adapt their operating model fast enough to keep up with programmable money and always-on infrastructure. If your team is still debating whether to automate or integrate digital assets, you\u2019re already behind Wise, who\u2019s moving into full-service banking, and BMO, who\u2019s building tokenized cash platforms with Google Cloud. The winners now are those who collapse compliance, innovation, and distribution into a single, adaptive engine\u2014because the market is rewarding those who move, not those who watch.",
   "curiosity": {
-    "text": "According to the World Bank, global remittance flows to low- and middle-income countries reached a record $669 billion in 2023\u2014up from $540 billion in 2020. This surge highlights how cross-border payments are not just a lifeline for families, but also a growing force in the global payments ecosystem."
+    "text": "The world\u2019s first ATM was installed in London in 1967 and used paper vouchers instead of plastic cards. Customers entered a code and received a fixed amount of cash\u2014no PINs, chips, or contactless tech in sight."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\udde7\ud83c\uddea",
       "type": "fundraising",
-      "company": "OpenAI",
-      "description": "raises $10 billion, leading the week's funding rounds.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield/"
+      "company": "Keyrock",
+      "description": "Series C at $1.1 billion valuation backed by Ripple.",
+      "source_url": "https://www.theblock.co/post/395769/sc-ventures-ripple-keyrock-series-c-1-1-billion-valuation?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Eunice",
-      "description": "raises $8 million for crypto compliance AI.",
+      "description": "Raises $8m backed by Moonfire Ventures and Speedinvest.",
       "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "secured $125 million from Tencent and Sapphire Ventures.",
+      "description": "Secures $125m backing from Tencent and Sapphire Ventures.",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
     },
     {
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "product",
+      "company": "Flowdock",
+      "description": "AI back-office automation platform goes public.",
+      "source_url": "https://www.finextra.com/pressarticle/109318/ai-back-office-automation-platform-flowdock-goes-public"
+    },
+    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Trayd",
-      "description": "raises $10 million in Series A for construction tech.",
-      "source_url": "https://news.crunchbase.com/venture/construction-tech-automation-trayd-ai-seriesa/"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "IPO",
-      "company": "Pine Labs",
-      "description": "$440 million IPO, backed by PayPal and Mastercard.",
-      "source_url": "https://techcrunch.com/2025/11/14/pine-labs-gets-warm-market-welcome-on-440m-india-ipo-despite-a-valuation-trim/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
-      "company": "Revolut",
-      "description": "granted UK banking licence after five-year effort.",
-      "source_url": "https://sifted.eu/articles/revolut-uk-banking-licence-granted/"
+      "company": "Valt Bank",
+      "description": "Granted de novo bank charter by OCC.",
+      "source_url": "https://www.finextra.com/newsarticle/47512/valt-bank-granted-de-novo-bank-charter"
+    },
+    {
+      "flag": "\ud83c\uddfb\ud83c\uddf3",
+      "type": "expansion",
+      "company": "MobiFone Digital Payments",
+      "description": "Launches digital payments platform in Vietnam.",
+      "source_url": "https://www.finextra.com/pressarticle/109313/mobifone-digital-payments-goes-live-in-vietnam"
     }
   ]
 }
