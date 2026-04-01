@@ -1,92 +1,85 @@
 {
   "news": [
     {
-      "title": "Swift\u2019s Blockchain Shared Ledger Set for 2026 Launch, Aiming to Reshape Cross-Border Payment Interoperability",
-      "body": "Swift will launch a blockchain-based shared ledger in 2026, enabling banks to interoperate with tokenized deposits for 24/7 cross-border payments. This move positions Swift as a direct competitor to fintechs and blockchain startups targeting the same space, raising the bar for interoperability and settlement speed. Operators relying on legacy rails will face pressure to match new standards in transparency and efficiency. Expect regulatory scrutiny to intensify as blockchain-based cross-border flows scale.",
+      "title": "OpenAI\u2019s Latest Funding Round Signals AI\u2019s Growing Payments Ambitions",
+      "body": "OpenAI is reportedly seeking to raise new capital at a valuation as high as $852 billion, according to PYMNTS. While the exact funding amount and valuation are not confirmed, the scale of OpenAI\u2019s ambitions is clear: the company announced plans for a unified AI superapp, aiming to become a foundational layer for digital commerce. For payments and fintech operators, this means AI is moving from a supporting tool to a core infrastructure\u2014those who only make small, incremental AI improvements risk falling behind as the industry shifts toward more autonomous, AI-driven transaction flows.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47515/swift-says-blockchain-based-shared-ledger-will-go-live-with-real-transactions-this-year"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-valued-at-852-billion-in-latest-funding-round/"
       }
     },
     {
-      "title": "Nium\u2019s Dual-Network Stablecoin Card Brings Digital Dollars to Mainstream Commerce",
-      "body": "Nium launched a dual-network stablecoin card issuance platform, letting businesses spend digital dollars at millions of merchant locations worldwide. This leapfrogs traditional card networks by embedding stablecoin rails directly into everyday payments, forcing incumbents to rethink their digital asset strategies. Operators slow to integrate stablecoin acceptance risk losing share to more agile, crypto-native competitors. Regulatory frameworks for stablecoin payments will become a critical battleground.",
+      "title": "Australia Caps Interchange Fees, Forcing Merchant Acquirers to Rethink Economics",
+      "body": "The Reserve Bank of Australia imposed new caps on interchange fees and banned merchant surcharging to heighten competition in payments. This regulatory move compresses margins for acquirers and processors, making value-added services and operational efficiency non-negotiable. Operators who depend on fee-based revenue must pivot to bundled offerings or risk margin erosion. Watch for global regulators to follow suit, raising the stakes for compliance and merchant-centric innovation.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47509/nium-launches-dual-network-stablecoin-card-issuance-platform"
+        "url": "https://www.finextra.com/newsarticle/47517/reserve-bank-of-australia-to-introduce-caps-on-interchange-fees"
       }
     },
     {
-      "title": "Wise Enters UK Current Account Market, Escalating Pressure on Incumbent Banks",
-      "body": "Wise is rolling out current accounts to its three million UK customers and business clients, expanding beyond cross-border payments into full-service banking. This intensifies competition for traditional banks and fintechs, as Wise leverages its digital-native infrastructure to offer broader financial services. Operators with legacy tech stacks will feel margin and retention pressure as pricing and service models shift. Expect further product expansion and accelerated digital transformation across the sector.",
+      "title": "Convera and Ripple Launch Stablecoin Cross-Border Payments, Challenging Legacy Banks",
+      "body": "Convera partnered with Ripple to deliver stablecoin-enabled cross-border payment solutions, directly targeting inefficiencies in traditional correspondent banking. This move gives fintechs and corporates faster, lower-cost settlement options, pressuring banks to modernize their cross-border rails. Operators slow to integrate stablecoin infrastructure risk losing high-value international flows to more agile competitors. The partnership signals stablecoins\u2019 shift from crypto niche to mainstream B2B payments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47514/wise-launches-uk-current-accounts"
+        "url": "https://www.finextra.com/pressarticle/109332/convera-taps-ripple-for-stablecoin-based-cross-border-payments"
       }
     },
     {
-      "title": "BMO, CME Group, and Google Cloud Launch Tokenized Cash Platform for Institutions",
-      "body": "BMO, CME Group, and Google Cloud unveiled a tokenized cash and deposit platform, enabling institutional clients to move value securely via CME\u2019s network on Google Cloud. This collaboration gives BMO a digital asset edge and signals a new phase of tokenization in institutional finance. Operators without cloud-native, tokenized infrastructure risk falling behind as demand for programmable, secure settlement grows. Expect rapid adoption among institutions seeking efficiency and compliance.",
+      "title": "Mastercard Executes First Autonomous AI Payment, Raising Stakes for Next-Gen Commerce",
+      "body": "Mastercard completed its first autonomous AI-driven transaction in Hong Kong, where an AI agent booked and paid for a ride without human intervention. This milestone shows that what Mastercard calls 'agentic commerce'\u2014where AI agents act on behalf of users to complete purchases\u2014is moving from concept to reality. For payment networks and PSPs, this means building systems that support fully automated, end-to-end transactions. If your team is still focused on incremental AI features, it\u2019s time to prepare for a world where payments can happen entirely between machines.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109324/bmo-introduces-tokenized-cash-and-deposit-platform-with-cme-group-and-google-cloud"
+        "url": "https://www.finextra.com/newsarticle/47521/mastercard-carries-out-agentic-transaction-in-hong-kong"
       }
     },
     {
-      "title": "AccessPay Secures Accel-KKR Backing to Scale Payment Automation Ambitions",
-      "body": "AccessPay received a majority investment from Accel-KKR, positioning it for accelerated growth in bank integration and payment automation. This signals ongoing consolidation and capital inflows into the payment automation sector, raising the stakes for smaller players. Operators relying on manual or fragmented workflows will face increasing pressure to automate or risk obsolescence. Expect AccessPay to expand its product suite and drive further innovation in payment operations.",
+      "title": "Monzo Exits US Market to Double Down on European Expansion",
+      "body": "Monzo announced it will shut down US operations to focus on its core UK business and accelerate growth in Europe. This retrenchment opens space for US neobanks while intensifying competition among European challengers. Operators in Europe should expect heightened acquisition and partnership activity as Monzo reallocates resources. The move underscores the need for geographic focus and operational discipline in scaling digital banking.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109322/accesspay-secures-majority-investment-from-accel-kkr"
+        "url": "https://www.finextra.com/newsarticle/47523/monzo-to-shut-down-us-business-to-focus-on-expansion-in-europe"
       }
     }
   ],
-  "perspective": "If you\u2019re still treating tokenization and automation as buzzwords, you\u2019re about to get lapped. When I see Swift setting a 2026 date for its blockchain shared ledger and Nium rolling out stablecoin cards that work at millions of merchants, it\u2019s clear the payments world is shifting from experimentation to execution. The real story isn\u2019t just about new rails\u2014it\u2019s about who can adapt their operating model fast enough to keep up with programmable money and always-on infrastructure. If your team is still debating whether to automate or integrate digital assets, you\u2019re already behind Wise, who\u2019s moving into full-service banking, and BMO, who\u2019s building tokenized cash platforms with Google Cloud. The winners now are those who collapse compliance, innovation, and distribution into a single, adaptive engine\u2014because the market is rewarding those who move, not those who watch.",
+  "perspective": "If you\u2019re building in payments, you can feel the ground shifting beneath your feet: AI is no longer just a feature\u2014it\u2019s becoming the backbone of how transactions happen. Mastercard\u2019s autonomous AI payment in Hong Kong and OpenAI\u2019s push to become a core digital commerce platform both point to a future where payments are handled by intelligent agents, not just people. For operators, this means rethinking what it means to be 'AI-native': it\u2019s not about adding chatbots, but about enabling systems that can act, decide, and transact on their own. At the same time, Australia\u2019s interchange caps and Convera\u2019s stablecoin partnership show that regulatory and infrastructure shifts are forcing everyone to move faster. If your team is still treating AI, compliance, and cross-border as separate projects, you\u2019re missing how quickly these are merging into a single, high-stakes race for relevance.",
   "curiosity": {
-    "text": "The world\u2019s first ATM was installed in London in 1967 and used paper vouchers instead of plastic cards. Customers entered a code and received a fixed amount of cash\u2014no PINs, chips, or contactless tech in sight."
+    "text": "Here\u2019s a twist: while the ECB\u2019s TIPS system is known for enabling instant payments across Europe, it also allows non-euro area banks to participate directly\u2014meaning banks outside the Eurozone can settle euro payments in real time, a feature that quietly expands the reach and impact of European instant payments."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde7\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Keyrock",
-      "description": "Series C at $1.1 billion valuation backed by Ripple.",
-      "source_url": "https://www.theblock.co/post/395769/sc-ventures-ripple-keyrock-series-c-1-1-billion-valuation?utm_source=rss&utm_medium=rss"
-    },
-    {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Eunice",
-      "description": "Raises $8m backed by Moonfire Ventures and Speedinvest.",
-      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Upvest",
-      "description": "Secures $125m backing from Tencent and Sapphire Ventures.",
-      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
-    },
-    {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "product",
-      "company": "Flowdock",
-      "description": "AI back-office automation platform goes public.",
-      "source_url": "https://www.finextra.com/pressarticle/109318/ai-back-office-automation-platform-flowdock-goes-public"
+      "company": "OpenFX",
+      "description": "Raised $94M in Series A funding.",
+      "source_url": "https://www.finextra.com/newsarticle/47520/openfx-raises-94m"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "expansion",
       "company": "Valt Bank",
-      "description": "Granted de novo bank charter by OCC.",
+      "description": "Granted de novo bank charter.",
       "source_url": "https://www.finextra.com/newsarticle/47512/valt-bank-granted-de-novo-bank-charter"
     },
     {
-      "flag": "\ud83c\uddfb\ud83c\uddf3",
-      "type": "expansion",
-      "company": "MobiFone Digital Payments",
-      "description": "Launches digital payments platform in Vietnam.",
-      "source_url": "https://www.finextra.com/pressarticle/109313/mobifone-digital-payments-goes-live-in-vietnam"
+      "flag": "\ud83c\udde7\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Keyrock",
+      "description": "Hits $1.1B valuation with Series C funding.",
+      "source_url": "https://www.finextra.com/newsarticle/47522/crypto-investment-specialist-keyrock-hits-11bn-valuation"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "9fin",
+      "description": "Crowned unicorn with $170M raise.",
+      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Whoop",
+      "description": "Lands $575M to reach $10.1B valuation.",
+      "source_url": "https://news.crunchbase.com/venture/wearable-fitness-tech-ai-whoop-seriesg-funding/"
     }
   ]
 }
