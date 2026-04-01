@@ -16,16 +16,8 @@ The Payments Nerd is an **automated AI-powered newsletter platform** delivering 
 1. **GitHub Actions** runs daily at 08:30 UTC, executing the Python AI agent
 2. AI fetches RSS feeds, searches web, analyzes content with GPT-4o
 3. Newsletter JSON is generated, committed to repo, and synced to Supabase
-4. **🆕 Webhook notification** sent to OpenClaw for LinkedIn automation (optional)
-5. Vercel deployment is triggered, then emails are sent to subscribers via Resend
-6. Emails skip weekends (Saturday/Sunday) to avoid spam fatigue
-
-**LinkedIn Automation (Phase 1 Complete):**
-- Newsletter content automatically transformed into LinkedIn-ready formats
-- OpenClaw agent (Mac mini) receives webhook notifications
-- API endpoint provides multiple posting strategies (daily digest, top story, multi-post, deals roundup)
-- Database tracking for posting status and analytics
-- See `docs/LINKEDIN_AUTOMATION.md` for full details
+4. Vercel deployment is triggered, then emails are sent to subscribers via Resend
+5. Emails skip weekends (Saturday/Sunday) to avoid spam fatigue
 
 ## Tech Stack
 
@@ -68,7 +60,6 @@ thepaymentsnerdv2/
 │   │   │   ├── unsubscribe/     # POST - Unsubscribe handler
 │   │   │   ├── send-daily/      # POST - Daily newsletter sender (cron)
 │   │   │   ├── test-email/      # GET - Test email endpoint
-│   │   │   ├── linkedin-content/ # 🆕 GET - LinkedIn-ready content (Phase 1)
 │   │   │   └── webhooks/resend/ # POST - Resend webhook handler (bounces)
 │   │   ├── page.tsx             # Homepage with newsletter preview
 │   │   ├── layout.tsx           # Root layout
@@ -372,7 +363,6 @@ sent_at TIMESTAMP
 | `/api/unsubscribe` | POST | Token | Unsubscribe from newsletter |
 | `/api/send-daily` | GET | Bearer | Send daily newsletter (cron) |
 | `/api/test-email` | GET | Secret | Send test email |
-| `/api/linkedin-content` | GET | Secret | 🆕 Get LinkedIn-ready content (Phase 1) |
 | `/api/webhooks/resend` | POST | Signature | Handle Resend events |
 
 ## Quick Reference: Common Tasks
