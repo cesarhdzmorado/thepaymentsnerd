@@ -1,85 +1,99 @@
 {
   "news": [
     {
-      "title": "OpenAI\u2019s Latest Funding Round Signals AI\u2019s Growing Payments Ambitions",
-      "body": "OpenAI is reportedly seeking to raise new capital at a valuation as high as $852 billion, according to PYMNTS. While the exact funding amount and valuation are not confirmed, the scale of OpenAI\u2019s ambitions is clear: the company announced plans for a unified AI superapp, aiming to become a foundational layer for digital commerce. For payments and fintech operators, this means AI is moving from a supporting tool to a core infrastructure\u2014those who only make small, incremental AI improvements risk falling behind as the industry shifts toward more autonomous, AI-driven transaction flows.",
+      "title": "Visa Deploys AI Dispute Tools, Raising Bar for Merchant Fraud and Cost Control",
+      "body": "Visa has launched AI-powered dispute resolution tools designed to help merchants and financial institutions cut administrative costs and reduce fraud losses. This move embeds AI deeper into core payment operations. According to Finextra, the new tools are expected to set a higher standard for efficiency, putting pressure on operators who still rely on manual or legacy dispute processes. These operators may face increased operational costs and risk losing customers to competitors offering faster, AI-driven resolutions.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47528/visa-unveils-ai-powered-dispute-resolution-tools?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Visa and Ramp Launch AI Agents to Automate Corporate Bill Payments",
+      "body": "Visa and Ramp are rolling out AI agents to automate corporate bill pay, targeting friction in enterprise payment workflows. This partnership signals a shift toward agentic AI in B2B payments, with the potential to attract enterprise clients seeking efficiency and error reduction. Companies that continue to process bills manually may find themselves at a competitive disadvantage as AI-driven bill pay becomes a procurement expectation.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47526/visa-and-ramp-to-use-agentic-ai-to-automate-corporate-bill-pay?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Real-Time Payments Adoption Pressures Banks to Modernize or Lose Relevance",
+      "body": "Joint research from PYMNTS Intelligence and The Clearing House shows real-time payments are reshaping expectations for workers and small businesses. As fintechs capitalize on instant settlement, traditional banks face mounting pressure to upgrade legacy systems or risk customer attrition. The winners will be those who treat RTP as core infrastructure, not a side project.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-valued-at-852-billion-in-latest-funding-round/"
+        "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-ease-the-squeeze-on-workers-and-small-firms/"
       }
     },
     {
-      "title": "Australia Caps Interchange Fees, Forcing Merchant Acquirers to Rethink Economics",
-      "body": "The Reserve Bank of Australia imposed new caps on interchange fees and banned merchant surcharging to heighten competition in payments. This regulatory move compresses margins for acquirers and processors, making value-added services and operational efficiency non-negotiable. Operators who depend on fee-based revenue must pivot to bundled offerings or risk margin erosion. Watch for global regulators to follow suit, raising the stakes for compliance and merchant-centric innovation.",
+      "title": "Treasury Proposes State-Level Oversight for Smaller Stablecoin Issuers",
+      "body": "The Treasury Department has proposed regulations under the GENIUS Act to enable state-level supervision of smaller stablecoin issuers. This could lower barriers for new entrants, intensifying competition and accelerating innovation in the stablecoin sector. Operators should expect faster regulatory cycles and increased institutional adoption as clarity improves.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47517/reserve-bank-of-australia-to-introduce-caps-on-interchange-fees"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/regulation/2026/treasury-proposes-its-first-regulation-to-implement-genius-act/"
       }
     },
     {
-      "title": "Convera and Ripple Launch Stablecoin Cross-Border Payments, Challenging Legacy Banks",
-      "body": "Convera partnered with Ripple to deliver stablecoin-enabled cross-border payment solutions, directly targeting inefficiencies in traditional correspondent banking. This move gives fintechs and corporates faster, lower-cost settlement options, pressuring banks to modernize their cross-border rails. Operators slow to integrate stablecoin infrastructure risk losing high-value international flows to more agile competitors. The partnership signals stablecoins\u2019 shift from crypto niche to mainstream B2B payments.",
+      "title": "Stripe Expands Tap-to-Pay on Android to More European Markets",
+      "body": "Stripe has expanded its Tap-to-Pay on Android service to additional European countries, enabling merchants to accept contactless payments directly on their Android devices without extra hardware. This move broadens access to digital payments for small businesses and independent sellers, challenging traditional POS providers and accelerating the shift toward software-based acceptance.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109332/convera-taps-ripple-for-stablecoin-based-cross-border-payments"
-      }
-    },
-    {
-      "title": "Mastercard Executes First Autonomous AI Payment, Raising Stakes for Next-Gen Commerce",
-      "body": "Mastercard completed its first autonomous AI-driven transaction in Hong Kong, where an AI agent booked and paid for a ride without human intervention. This milestone shows that what Mastercard calls 'agentic commerce'\u2014where AI agents act on behalf of users to complete purchases\u2014is moving from concept to reality. For payment networks and PSPs, this means building systems that support fully automated, end-to-end transactions. If your team is still focused on incremental AI features, it\u2019s time to prepare for a world where payments can happen entirely between machines.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47521/mastercard-carries-out-agentic-transaction-in-hong-kong"
-      }
-    },
-    {
-      "title": "Monzo Exits US Market to Double Down on European Expansion",
-      "body": "Monzo announced it will shut down US operations to focus on its core UK business and accelerate growth in Europe. This retrenchment opens space for US neobanks while intensifying competition among European challengers. Operators in Europe should expect heightened acquisition and partnership activity as Monzo reallocates resources. The move underscores the need for geographic focus and operational discipline in scaling digital banking.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47523/monzo-to-shut-down-us-business-to-focus-on-expansion-in-europe"
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2024/06/10/stripe-tap-to-pay-android-europe/"
       }
     }
   ],
-  "perspective": "If you\u2019re building in payments, you can feel the ground shifting beneath your feet: AI is no longer just a feature\u2014it\u2019s becoming the backbone of how transactions happen. Mastercard\u2019s autonomous AI payment in Hong Kong and OpenAI\u2019s push to become a core digital commerce platform both point to a future where payments are handled by intelligent agents, not just people. For operators, this means rethinking what it means to be 'AI-native': it\u2019s not about adding chatbots, but about enabling systems that can act, decide, and transact on their own. At the same time, Australia\u2019s interchange caps and Convera\u2019s stablecoin partnership show that regulatory and infrastructure shifts are forcing everyone to move faster. If your team is still treating AI, compliance, and cross-border as separate projects, you\u2019re missing how quickly these are merging into a single, high-stakes race for relevance.",
+  "perspective": "If you\u2019re still treating AI, real-time rails, and programmable money as distant trends, you\u2019re about to get lapped. Visa\u2019s AI dispute tools are raising the bar for operational efficiency\u2014if your dispute process still involves spreadsheets and phone calls, expect higher costs and frustrated customers. Meanwhile, Stripe\u2019s Tap-to-Pay expansion shows that even hardware is going soft, letting small merchants leapfrog legacy POS. The real shift? Payments infrastructure is fragmenting and recombining at the same time: automation is becoming table stakes, and programmable value is moving from the crypto fringe to regulatory mainstream. If your team isn\u2019t collapsing silos between compliance, automation, and product, you\u2019ll be left behind as customer expectations and regulatory demands converge.",
   "curiosity": {
-    "text": "Here\u2019s a twist: while the ECB\u2019s TIPS system is known for enabling instant payments across Europe, it also allows non-euro area banks to participate directly\u2014meaning banks outside the Eurozone can settle euro payments in real time, a feature that quietly expands the reach and impact of European instant payments."
+    "text": "Did you know that in 1989, the first electronic payment system for point-of-sale transactions was developed in the United States by the company VeriFone? This groundbreaking technology allowed merchants to process credit card payments electronically at the checkout, significantly speeding up transactions and paving the way for the modern retail payment experience we know today."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Sona",
+      "description": "Raised $45 million to expand AI platform for frontline businesses",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/sona-raises-45-million-to-expand-ai-platform-for-frontline-businesses/"
+    },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "OpenFX",
-      "description": "Raised $94M in Series A funding.",
-      "source_url": "https://www.finextra.com/newsarticle/47520/openfx-raises-94m"
+      "description": "Raised $94 million for FX infrastructure expansion",
+      "source_url": "https://www.finextra.com/newsarticle/47520/openfx-raises-94m?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Kulipa",
+      "description": "Raised $6.2 million for stablecoin-native card issuing platform",
+      "source_url": "https://www.finextra.com/newsarticle/47529/kulipa-raises-62m-for-stablecoin-native-card-issuing-infrastructure-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf0\ud83c\uddea",
+      "type": "M&A",
+      "company": "Moniepoint",
+      "description": "Acquired Sumac Microfinance Bank to enter Kenyan market",
+      "source_url": "https://www.finextra.com/pressarticle/109346/moniepoint-enters-kenya-with-acquisition-of-sumac-microfinance-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "expansion",
-      "company": "Valt Bank",
-      "description": "Granted de novo bank charter.",
-      "source_url": "https://www.finextra.com/newsarticle/47512/valt-bank-granted-de-novo-bank-charter"
+      "company": "TikTok",
+      "description": "Seeks financial services licenses to operate in Brazil",
+      "source_url": "https://www.finextra.com/newsarticle/47525/tiktok-seeks-financial-services-licences-in-brazil?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\udde7\ud83c\uddea",
       "type": "fundraising",
       "company": "Keyrock",
-      "description": "Hits $1.1B valuation with Series C funding.",
-      "source_url": "https://www.finextra.com/newsarticle/47522/crypto-investment-specialist-keyrock-hits-11bn-valuation"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "9fin",
-      "description": "Crowned unicorn with $170M raise.",
-      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
+      "description": "Reached $1.1 billion valuation after Series C funding",
+      "source_url": "https://www.finextra.com/newsarticle/47522/crypto-investment-specialist-keyrock-hits-11bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Whoop",
-      "description": "Lands $575M to reach $10.1B valuation.",
-      "source_url": "https://news.crunchbase.com/venture/wearable-fitness-tech-ai-whoop-seriesg-funding/"
+      "company": "Midas",
+      "description": "Raised $50 million for onchain investment fintech platform",
+      "source_url": "https://www.finextra.com/pressarticle/109357/onchain-investment-fintech-midas-raises-50-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
