@@ -105,6 +105,50 @@ select:focus-visible,
   border-radius: 4px;
 }
 
+/* Skip-to-content link: visually hidden until focused */
+.sr-only-focusable {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sr-only-focusable:focus {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999;
+  width: auto;
+  height: auto;
+  padding: 0.75rem 1.5rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  background: var(--card-strong);
+  border: 2px solid rgba(99, 102, 241, 0.6);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-strong);
+  color: var(--foreground);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Gradient text fallback for non-WebKit browsers */
+@supports not (-webkit-background-clip: text) {
+  .bg-clip-text {
+    -webkit-text-fill-color: unset;
+    background: none !important;
+    color: var(--foreground);
+  }
+}
+
 /* Reduce motion for users who prefer it */
 @media (prefers-reduced-motion: reduce) {
   *,

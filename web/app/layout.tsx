@@ -70,10 +70,16 @@ export default function RootLayout({
           "bg-[var(--background)] text-[var(--foreground)]",
         ].join(" ")}
       >
+        <a
+          href="#main-content"
+          className="sr-only-focusable"
+        >
+          Skip to content
+        </a>
         <div className="min-h-screen">
           <NavigationBar />
 
-          <main className="relative min-h-screen pt-16">
+          <main id="main-content" className="relative min-h-screen pt-16">
             {children}
           </main>
         </div>
