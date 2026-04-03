@@ -700,10 +700,22 @@ WRITING RULES (PER STORY)
 - Title: 10-14 words, insight-first, specific.
 - Body: 3-4 sentences in active voice:
   1) What happened (facts/data)
-  2) So what (operator impact)
-  3) Now what (winners/losers/strategic move)
+  2) So what (who wins, who loses, what changes)
+  3) Now what (concrete next move or strategic implication)
   4) Optional take (forward-looking)
 - Be concrete; avoid generic phrasing like "signals a shift" without specifics.
+
+BODY ANTI-PATTERNS (DO NOT USE)
+- "operators" as a vague catch-all for "industry players" — name WHO specifically (banks, PSPs, fintechs, merchants, neobanks). Exception: "operators" is fine when it means a specific actor category (e.g., "mobile network operators", "ATM operators", "scheme operators").
+- "raises/intensifies pressure" — say what actually happens (loses margin, faces switching, gets undercut)
+- "Expect rapid/accelerated [noun]" as a closing sentence — close with a concrete implication instead
+- "will face pressure" / "will need to" / "should prepare for" — these are filler; say what the pressure IS
+- "could reshape" / "could disrupt" / "could impact" — replace with specifics about what actually changes. Keep hedging ("may", "could") when the outcome is genuinely uncertain; just add concrete detail
+- "signals a broader shift" / "marks a pivot" — name the shift, don't just announce one exists
+- "the winners will be those who..." — this adds no information; say what the winning move IS
+- "this move threatens to upend" — say what gets upended and for whom
+- Formulaic structure: fact → "this raises X for operators" → "operators will face pressure" → "Expect Z"
+  Break this pattern. Vary sentence structure across stories. Not every story needs a "winners" sentence.
 
 THEME LINE (What Matters Today)
 - Exactly 1 sentence. Maximum 25 words.
@@ -725,15 +737,23 @@ BAD THEME LINE EXAMPLES (DO NOT COPY):
 FEW-SHOT GUIDANCE (STORY QUALITY)
 GOOD STORY EXAMPLE 1
 Title: Visa and Fiserv Push EU Acceptance Expansion Into Local PSP Territory
-Body: Visa and Fiserv expanded their partnership to roll out Visa Acceptance Platform across Fiserv’s merchant base in Europe. That gives larger merchants tighter global tooling while raising pressure on regional PSPs competing on local relationships alone. If this scales, local processors will need to differentiate on vertical workflows, not just acquiring economics.
+Body: Visa and Fiserv expanded their partnership to roll out Visa Acceptance Platform across Fiserv’s merchant base in Europe. Larger merchants get tighter global tooling; regional PSPs lose their “local relationship” moat. Local processors now have to compete on vertical-specific workflows — restaurant management, healthcare billing — not just acquiring rates.
 
 GOOD STORY EXAMPLE 2
-Title: Sweden’s Riksbank Turns Instant Payments From Feature Into Compliance Pressure
-Body: Sweden’s central bank signaled potential action against banks lagging on instant domestic payments. This shifts RTP from “innovation project” to regulatory expectation, which changes budget urgency for laggards. Banks that delay execution risk both supervisory heat and customer attrition to faster rivals.
+Title: Sweden’s Riksbank Turns Instant Payments From Feature Into Compliance Mandate
+Body: Sweden’s central bank warned it may act against banks lagging on instant domestic payments. That turns real-time payments from a roadmap nice-to-have into a regulatory line item with budget consequences. Laggard banks face a double bind: supervisory scrutiny from above and customer flight to faster neobanks below.
 
-BAD STORY EXAMPLE (DO NOT COPY)
+GOOD STORY EXAMPLE 3
+Title: Cross River Raises $50M to Bundle AI and Crypto Into Embedded Finance
+Body: Cross River secured $50 million to invest in AI and crypto capabilities for its embedded finance platform. The bet: partner banks and fintechs will soon demand programmable money and AI-driven underwriting as table stakes, not add-ons. If that thesis holds, BaaS providers still offering static API integrations are selling last year’s product.
+
+BAD STORY EXAMPLE 1 (DO NOT COPY)
 Title: Stablecoins Continue to Gain Momentum in Global Payments
 Body: A company launched stablecoin capabilities to improve cross-border payments. This signals a broader shift in financial services and could impact many stakeholders. The market is evolving quickly and firms should monitor developments closely.
+
+BAD STORY EXAMPLE 2 (DO NOT COPY — formulaic “operators” pattern)
+Title: TikTok Seeks Brazil Payments License, Threatening Local Fintech and Bank Defenses
+Body: TikTok applied for financial services licenses in Brazil. This move threatens to upend the competitive landscape for incumbent banks and fintechs, as TikTok’s distribution could rapidly shift consumer payment flows. Operators in high-growth markets must prepare for platform-native entrants who can bypass traditional acquisition channels.
 
 OUTPUT JSON ONLY
 {{{{
@@ -893,7 +913,7 @@ QUALITY CHECKS:
    - Is the language clear and specific?
    - Are sentences in ACTIVE VOICE? Flag passive constructions like:
      * "A partnership was announced..." (should be "X announced a partnership...")
-     * "This could disrupt..." (should be "This threatens..." or "X's move challenges...")
+     * "This could disrupt..." (should name what changes: "X's move undercuts Y's pricing" or "This forces Z to...")
      * "It was reported that..." (should be "Source reports that X...")
    - Any jargon that needs explanation?
 
@@ -915,6 +935,9 @@ QUALITY CHECKS:
    - Does it sound authoritative but accessible?
    - Is there a clear point of view?
    - Any contrarian or forward-looking angles?
+   - Flag "operators" used as a vague catch-all — it should name WHO (banks, PSPs, fintechs, merchants). OK when it means a specific category like "mobile network operators"
+   - Flag formulaic closers: "Expect rapid/accelerated...", "will face pressure", "the winners will be those who..."
+   - Flag hedge-pileups: "could reshape", "could disrupt", "threatens to upend" without specifics
 
 7. **Story Coherence** (Critical):
    - Does each story relate to the newsletter's main themes (payments, fintech, banking)?
@@ -996,6 +1019,9 @@ Revision rules:
 - No editorializing, no "If you're..." framing, no generic phrasing.
 - Improve theme diversity: avoid over-indexing on one theme unless unavoidable from input.
 - Use active voice and concrete implications.
+- Do NOT use "operators" as a vague catch-all — name the specific actor (banks, PSPs, fintechs, merchants). Exception: "operators" is fine for specific categories like "mobile network operators".
+- Avoid formulaic closers ("Expect rapid...", "will face pressure", "the winners will be those who...").
+- Vary sentence structure across stories — not every body should follow the same fact→impact→pressure template.
 - For superlative factual claims (e.g., "first", "largest", "only"), either confirm from provided story context or hedge with attribution (e.g., "reported as").
 - Preserve source name and URL fields for each story.
 - Curiosity must remain independent from the news section.
