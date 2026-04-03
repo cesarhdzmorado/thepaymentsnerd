@@ -279,27 +279,6 @@ select:focus-visible,
   animation: shake 0.4s ease-in-out;
 }
 
-/* Staggered animation delays */
-.delay-100 {
-  animation-delay: 100ms;
-}
-
-.delay-150 {
-  animation-delay: 150ms;
-}
-
-.delay-200 {
-  animation-delay: 200ms;
-}
-
-.delay-300 {
-  animation-delay: 300ms;
-}
-
-.delay-400 {
-  animation-delay: 400ms;
-}
-
 /* --- Scroll to top button --- */
 .scroll-to-top {
   position: fixed;
