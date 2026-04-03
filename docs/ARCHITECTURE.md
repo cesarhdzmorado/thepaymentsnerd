@@ -215,7 +215,7 @@ web/
 
 | Route | Method | Auth | Description |
 |-------|--------|------|-------------|
-| `/api/subscribe` | POST | Public | Accept email, send confirmation |
+| `/api/subscribe` | POST | Public (rate-limited) | Accept email, send confirmation (5 req/15 min/IP) |
 | `/api/confirm` | GET | Token | Verify email and activate subscription |
 | `/api/unsubscribe` | POST | Token | Deactivate subscription |
 | `/api/send-daily` | POST | Bearer | Send newsletter to all active subscribers |
@@ -476,6 +476,13 @@ CRON_SECRET                 # API authentication
 - Rotate secrets periodically
 - Use strong random values (32+ bytes)
 
+### Rate Limiting
+
+**`/api/subscribe` endpoint:**
+- IP-based rate limiting: 5 requests per 15-minute window per IP address
+- Returns HTTP 429 (Too Many Requests) when limit is exceeded
+- Implemented with an in-memory store (resets on serverless cold starts)
+
 ### Input Validation
 
 **Email Validation:**
@@ -566,7 +573,7 @@ if (!emailRegex.test(email)) {
 - Upgrade Resend plan for >3,000 subscribers
 - Batch email sending if subscriber count >10,000
 - Add Supabase read replicas for high traffic
-- Implement rate limiting on API routes
+- ~~Implement rate limiting on API routes~~ (done — `/api/subscribe` has IP-based rate limiting)
 
 ## Disaster Recovery
 
