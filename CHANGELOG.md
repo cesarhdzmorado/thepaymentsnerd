@@ -1,0 +1,13 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [0.1.0.0] - 2026-04-03
+
+### Added
+- IP-based rate limiting on `/api/subscribe`: 5 requests per 15-minute window per IP, returns 429 on excess
+- Two new test cases covering rate limit enforcement and cross-IP independence
+
+### Changed
+- Weekly recap perspective format now uses 1-sentence theme line (max 25 words) matching daily newsletter voice
+- Writer and editor prompts in weekly recap pipeline updated for consistency
