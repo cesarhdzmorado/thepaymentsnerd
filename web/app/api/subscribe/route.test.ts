@@ -51,6 +51,11 @@ vi.mock("@/lib/referrals", () => ({
   generateReferralCode: () => "TESTCODE",
 }));
 
+vi.mock("@/lib/transactionalEmails", () => ({
+  renderAlreadySubscribedEmail: async () => "<html>already-subscribed</html>",
+  renderConfirmSubscriptionEmail: async () => "<html>confirm-subscription</html>",
+}));
+
 // Set env vars
 const SITE_URL = "https://thepaymentsnerd.co";
 vi.stubEnv("NEXT_PUBLIC_SITE_URL", SITE_URL);

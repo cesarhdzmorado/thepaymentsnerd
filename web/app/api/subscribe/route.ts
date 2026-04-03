@@ -5,6 +5,10 @@ import { Resend } from "resend";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import { makeToken } from "@/lib/emailTokens";
 import { generateReferralCode } from "@/lib/referrals";
+import {
+  renderAlreadySubscribedEmail,
+  renderConfirmSubscriptionEmail,
+} from "@/lib/transactionalEmails";
 
 function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -86,18 +90,16 @@ export async function POST(req: Request) {
       const unsubUrl = `${siteUrl}/api/unsubscribe?token=${encodeURIComponent(unsubToken)}`;
       const referralLink = existingRefCode ? `${siteUrl}?ref=${existingRefCode}` : siteUrl;
 
+      const alreadySubHtml = await renderAlreadySubscribedEmail({
+        referralUrl: referralLink,
+        unsubscribeUrl: unsubUrl,
+      });
+
       await resend.emails.send({
         from,
         to: cleanEmail,
         subject: "You're already subscribed",
-        html: `
-          <div style="font-family:system-ui;line-height:1.4">
-            <p>You're already subscribed to The Payments Nerd. No action needed.</p>
-            <p>Share your referral link: <a href="${referralLink}">${referralLink}</a></p>
-            <p style="color:#666;font-size:12px">If you didn't request this, you can safely ignore it.</p>
-            <p style="color:#666;font-size:12px"><a href="${unsubUrl}">Unsubscribe</a></p>
-          </div>
-        `,
+        html: alreadySubHtml,
       });
 
       const referralUrl = existingRefCode ? `${siteUrl}?ref=${existingRefCode}` : siteUrl;
@@ -149,18 +151,16 @@ export async function POST(req: Request) {
     const unsubToken = makeToken(cleanEmail, "unsubscribe", secret, 365 * 24);
     const unsubUrl = `${siteUrl}/api/unsubscribe?token=${encodeURIComponent(unsubToken)}`;
 
+    const confirmHtml = await renderConfirmSubscriptionEmail({
+      confirmUrl,
+      unsubscribeUrl: unsubUrl,
+    });
+
     await resend.emails.send({
       from,
       to: cleanEmail,
       subject: "Confirm your subscription",
-      html: `
-        <div style="font-family:system-ui;line-height:1.4">
-          <p>Quick confirm — this makes sure nobody subscribed you by mistake.</p>
-          <p><a href="${confirmUrl}">Confirm subscription</a></p>
-          <p style="color:#666;font-size:12px">If you didn't request this, ignore this email.</p>
-          <p style="color:#666;font-size:12px"><a href="${unsubUrl}">Unsubscribe</a></p>
-        </div>
-      `,
+      html: confirmHtml,
     });
 
     return NextResponse.json({ ok: true, referralUrl: `${siteUrl}?ref=${newReferralCode}` });

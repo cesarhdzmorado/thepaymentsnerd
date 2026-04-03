@@ -193,12 +193,17 @@ web/
 │   ├── Footer.tsx              # Site footer
 │   └── LegalPageLayout.tsx     # Legal page wrapper
 ├── emails/
-│   └── DailyNewsletter.tsx     # React Email template
+│   ├── DailyNewsletter.tsx     # Daily newsletter template
+│   ├── AnalysisEmail.tsx       # Weekly analysis template
+│   ├── ConfirmSubscription.tsx # Subscription confirmation template
+│   ├── AlreadySubscribed.tsx   # Already-subscribed notification template
+│   └── Welcome.tsx             # Welcome email template
 ├── lib/
 │   ├── supabaseClient.ts       # Client-side Supabase
 │   ├── supabaseAdmin.ts        # Server-side Supabase (service role)
 │   ├── emailTokens.ts          # Secure token generation/verification
-│   ├── emailTemplate.ts        # Email HTML generation
+│   ├── emailTemplate.ts        # Daily newsletter HTML generation
+│   ├── transactionalEmails.ts  # Transactional email render helpers
 │   ├── referrals.ts            # Referral tracking
 │   └── publicationNames.ts     # Publication name mappings
 ├── scripts/
