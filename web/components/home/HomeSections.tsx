@@ -134,9 +134,7 @@ export function LeadStorySection({ heroStory }: { heroStory: NewsItem | null }) 
       >
         <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-indigo-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" aria-hidden="true" />
 
-        <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-blue-600 via-indigo-600 to-purple-600 dark:from-cyan-500 dark:via-indigo-500 dark:to-purple-500" aria-hidden="true" />
-
-        <div className="relative p-6 sm:p-12 pl-8 sm:pl-14">
+        <div className="relative p-6 sm:p-12">
           <div className="flex items-start gap-4 sm:gap-8">
             <div
               className="flex-shrink-0 rounded-2xl p-4 text-white shadow-xl
