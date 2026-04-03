@@ -13,7 +13,21 @@ export async function GET(req: Request) {
   try {
     if (!token) throw new Error("Missing token");
 
-    const secret = process.env.SUBSCRIBE_TOKEN_SECRET!;
+    const secret = process.env.SUBSCRIBE_TOKEN_SECRET;
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+    const resendApiKey = process.env.RESEND_API_KEY;
+    const from = process.env.EMAIL_FROM;
+
+    if (!secret || !siteUrl || !resendApiKey || !from) {
+      console.error("Missing required env vars:", {
+        SUBSCRIBE_TOKEN_SECRET: !!secret,
+        NEXT_PUBLIC_SITE_URL: !!siteUrl,
+        RESEND_API_KEY: !!resendApiKey,
+        EMAIL_FROM: !!from,
+      });
+      return NextResponse.redirect(`${siteUrl || ""}/?subscribed=0`);
+    }
+
     const payload = verifyToken<{ email: string; purpose: string; exp: number }>(token, secret);
     if (payload.purpose !== "confirm") throw new Error("Wrong token purpose");
 
@@ -41,9 +55,7 @@ export async function GET(req: Request) {
 
     // Only send welcome email if this is the first confirmation
     if (!alreadyConfirmed) {
-      const resend = new Resend(process.env.RESEND_API_KEY!);
-      const from = process.env.EMAIL_FROM!;
-      const siteUrl = process.env.NEXT_PUBLIC_SITE_URL!;
+      const resend = new Resend(resendApiKey);
       const unsubToken = makeToken(email, "unsubscribe", secret, 365 * 24);
       const unsubUrl = `${siteUrl}/api/unsubscribe?token=${encodeURIComponent(unsubToken)}`;
 
@@ -64,9 +76,9 @@ export async function GET(req: Request) {
       });
     }
 
-    return NextResponse.redirect(`${process.env.NEXT_PUBLIC_SITE_URL}/?subscribed=1`);
+    return NextResponse.redirect(`${siteUrl}/?subscribed=1`);
   } catch (e: any) {
     console.error("Confirm route error:", e?.message || e);
-    return NextResponse.redirect(`${process.env.NEXT_PUBLIC_SITE_URL}/?subscribed=0`);
+    return NextResponse.redirect(`${process.env.NEXT_PUBLIC_SITE_URL || ""}/?subscribed=0`);
   }
 }

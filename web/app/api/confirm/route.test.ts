@@ -146,4 +146,14 @@ describe("GET /api/confirm", () => {
     const sentHtml = mockSend.mock.calls[0][0].html;
     expect(sentHtml).toContain("referralUrl=none");
   });
+
+  // Keep env var test last to avoid stub leaking to other tests
+  it("redirects to error page when env vars are missing", async () => {
+    vi.stubEnv("RESEND_API_KEY", "");
+
+    await GET(makeRequest("valid-token"));
+
+    expect(mockRedirect).toHaveBeenCalledWith(`${SITE_URL}/?subscribed=0`);
+    expect(mockSingle).not.toHaveBeenCalled();
+  });
 });
