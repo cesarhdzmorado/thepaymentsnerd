@@ -70,7 +70,7 @@ function makeRequest(body: Record<string, unknown>) {
 
 describe("POST /api/subscribe", () => {
   beforeEach(() => {
-    vi.clearAllMocks();
+    vi.resetAllMocks();
   });
 
   it("rejects invalid email with 400", async () => {
@@ -123,7 +123,7 @@ describe("POST /api/subscribe", () => {
     const activeRes = await POST(makeRequest({ email: "active@test.com" }));
     const activeData = await activeRes.json();
 
-    vi.clearAllMocks();
+    vi.resetAllMocks();
 
     // New subscriber
     mockSingle.mockResolvedValueOnce({ data: null });
@@ -165,8 +165,9 @@ describe("POST /api/subscribe", () => {
     expect(upsertData).not.toHaveProperty("referred_by");
   });
 
-  it("sets referred_by when referralCode is provided", async () => {
-    mockSingle.mockResolvedValueOnce({ data: null });
+  it("sets referred_by when referralCode is valid", async () => {
+    mockSingle.mockResolvedValueOnce({ data: null }); // subscriber check
+    mockSingle.mockResolvedValueOnce({ data: { email: "referrer@test.com" } }); // referral validation
     mockUpsert.mockResolvedValueOnce({ error: null });
     mockSend.mockResolvedValueOnce({});
 
@@ -174,6 +175,30 @@ describe("POST /api/subscribe", () => {
 
     const upsertData = mockUpsert.mock.calls[0][0];
     expect(upsertData.referred_by).toBe("FRIEND123");
+  });
+
+  it("rejects self-referral", async () => {
+    mockSingle.mockResolvedValueOnce({ data: null }); // subscriber check
+    mockSingle.mockResolvedValueOnce({ data: { email: "self@test.com" } }); // referral validation (same email)
+    mockUpsert.mockResolvedValueOnce({ error: null });
+    mockSend.mockResolvedValueOnce({});
+
+    await POST(makeRequest({ email: "self@test.com", referralCode: "MYCODE" }));
+
+    const upsertData = mockUpsert.mock.calls[0][0];
+    expect(upsertData).not.toHaveProperty("referred_by");
+  });
+
+  it("drops invalid referralCode silently", async () => {
+    mockSingle.mockResolvedValueOnce({ data: null }); // subscriber check
+    mockSingle.mockResolvedValueOnce({ data: null }); // referral validation (code not found)
+    mockUpsert.mockResolvedValueOnce({ error: null });
+    mockSend.mockResolvedValueOnce({});
+
+    await POST(makeRequest({ email: "new@test.com", referralCode: "FAKECODE" }));
+
+    const upsertData = mockUpsert.mock.calls[0][0];
+    expect(upsertData).not.toHaveProperty("referred_by");
   });
 
   it("returns 500 on Supabase upsert error", async () => {

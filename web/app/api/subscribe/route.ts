@@ -33,14 +33,21 @@ export async function POST(req: Request) {
     const isAlreadyActive = existingSubscriber?.status === "active" && existingSubscriber?.confirmed_at;
 
     const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-    if (!siteUrl) {
-      console.error("NEXT_PUBLIC_SITE_URL is not configured");
+    const resendApiKey = process.env.RESEND_API_KEY;
+    const secret = process.env.SUBSCRIBE_TOKEN_SECRET;
+    const from = process.env.EMAIL_FROM;
+
+    if (!siteUrl || !resendApiKey || !secret || !from) {
+      console.error("Missing required env vars:", {
+        NEXT_PUBLIC_SITE_URL: !!siteUrl,
+        RESEND_API_KEY: !!resendApiKey,
+        SUBSCRIBE_TOKEN_SECRET: !!secret,
+        EMAIL_FROM: !!from,
+      });
       return NextResponse.json({ ok: false, message: "Server configuration error." }, { status: 500 });
     }
 
-    const resend = new Resend(process.env.RESEND_API_KEY!);
-    const secret = process.env.SUBSCRIBE_TOKEN_SECRET!;
-    const from = process.env.EMAIL_FROM!;
+    const resend = new Resend(resendApiKey);
 
     // Uniform response for both active and new subscribers (prevents email enumeration)
     const existingRefCode = existingSubscriber?.referral_code;
@@ -74,6 +81,20 @@ export async function POST(req: Request) {
     // New or pending subscriber: upsert and send confirmation email
     const newReferralCode = existingRefCode || generateReferralCode();
 
+    // Validate referralCode if provided: must exist and not be self-referral
+    let validatedReferralCode: string | undefined;
+    if (referralCode) {
+      const { data: referrer } = await supabaseAdmin
+        .from("subscribers")
+        .select("email")
+        .eq("referral_code", referralCode)
+        .single();
+
+      if (referrer && referrer.email !== cleanEmail) {
+        validatedReferralCode = referralCode;
+      }
+    }
+
     const { error } = await supabaseAdmin
       .from("subscribers")
       .upsert(
@@ -86,7 +107,7 @@ export async function POST(req: Request) {
           unsubscribed_at: null,
           confirmed_at: null,
           referral_code: newReferralCode,
-          ...(referralCode ? { referred_by: referralCode } : {}),
+          ...(validatedReferralCode ? { referred_by: validatedReferralCode } : {}),
         },
         { onConflict: "email" }
       );
