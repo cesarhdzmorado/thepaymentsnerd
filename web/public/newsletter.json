@@ -1,99 +1,78 @@
 {
   "news": [
     {
-      "title": "Visa Deploys AI Dispute Tools, Raising Bar for Merchant Fraud and Cost Control",
-      "body": "Visa has launched AI-powered dispute resolution tools designed to help merchants and financial institutions cut administrative costs and reduce fraud losses. This move embeds AI deeper into core payment operations. According to Finextra, the new tools are expected to set a higher standard for efficiency, putting pressure on operators who still rely on manual or legacy dispute processes. These operators may face increased operational costs and risk losing customers to competitors offering faster, AI-driven resolutions.",
+      "title": "Cross River Raises $50M to Accelerate Embedded AI and Crypto Finance Stack",
+      "body": "Cross River secured a $50 million capital injection to deepen its investments in AI and crypto technologies, aiming to enhance its embedded finance platform. This move positions Cross River to outpace rivals in integrating programmable money and AI-driven workflows into partner offerings. For operators, the bar for embedded finance is rising from simple APIs to intelligent, multi-asset orchestration. Expect increased competition as fintechs race to bundle AI and crypto rails into mainstream B2B and B2C flows.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47528/visa-unveils-ai-powered-dispute-resolution-tools?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47530/cross-river-banks-50-million-capital-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa and Ramp Launch AI Agents to Automate Corporate Bill Payments",
-      "body": "Visa and Ramp are rolling out AI agents to automate corporate bill pay, targeting friction in enterprise payment workflows. This partnership signals a shift toward agentic AI in B2B payments, with the potential to attract enterprise clients seeking efficiency and error reduction. Companies that continue to process bills manually may find themselves at a competitive disadvantage as AI-driven bill pay becomes a procurement expectation.",
+      "title": "Italy Hits Revolut With \u20ac11.5M Fine, Raising Compliance Stakes for Fintechs",
+      "body": "Italy\u2019s competition authority fined Revolut \u20ac11.5 million for misleading investment service claims and deceptive banking practices. This enforcement action puts compliance and consumer duty at the center of fintech operating risk, especially for cross-border players. Operators should expect heightened regulatory scrutiny and must invest in transparent disclosures and robust controls to avoid similar penalties. The winners will be those who treat compliance as a product feature, not a cost center.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47526/visa-and-ramp-to-use-agentic-ai-to-automate-corporate-bill-pay?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47532/italy-fines-revolut-115m?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Real-Time Payments Adoption Pressures Banks to Modernize or Lose Relevance",
-      "body": "Joint research from PYMNTS Intelligence and The Clearing House shows real-time payments are reshaping expectations for workers and small businesses. As fintechs capitalize on instant settlement, traditional banks face mounting pressure to upgrade legacy systems or risk customer attrition. The winners will be those who treat RTP as core infrastructure, not a side project.",
+      "title": "Stablecoin Payments Face KYC Friction as Real-World Adoption Grows",
+      "body": "Stablecoins are gaining traction in real-world commerce, but persistent KYC hurdles are stalling seamless user experiences and merchant adoption. Operators who can embed frictionless, compliant KYC into stablecoin flows will gain a defensible edge as regulatory expectations tighten. The next phase of stablecoin competition will be won by those who solve for both compliance and conversion, not just on-chain speed.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-ease-the-squeeze-on-workers-and-small-firms/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoins-meet-real-world-commerce-but-kyc-keeps-breaking-the-experience/"
       }
     },
     {
-      "title": "Treasury Proposes State-Level Oversight for Smaller Stablecoin Issuers",
-      "body": "The Treasury Department has proposed regulations under the GENIUS Act to enable state-level supervision of smaller stablecoin issuers. This could lower barriers for new entrants, intensifying competition and accelerating innovation in the stablecoin sector. Operators should expect faster regulatory cycles and increased institutional adoption as clarity improves.",
+      "title": "TikTok Seeks Brazil Payments License, Threatening Local Fintech and Bank Defenses",
+      "body": "TikTok has applied for financial services licenses in Brazil to operate as an electronic money and credit provider, signaling intent to embed payments and lending into its platform. This move threatens to upend the competitive landscape for incumbent banks and fintechs, as TikTok\u2019s distribution and engagement could rapidly shift consumer payment flows. Operators in high-growth markets must prepare for platform-native entrants who can bypass traditional acquisition channels and regulatory playbooks.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/regulation/2026/treasury-proposes-its-first-regulation-to-implement-genius-act/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47525/tiktok-seeks-financial-services-licences-in-brazil?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Stripe Expands Tap-to-Pay on Android to More European Markets",
-      "body": "Stripe has expanded its Tap-to-Pay on Android service to additional European countries, enabling merchants to accept contactless payments directly on their Android devices without extra hardware. This move broadens access to digital payments for small businesses and independent sellers, challenging traditional POS providers and accelerating the shift toward software-based acceptance.",
+      "title": "Visa and Mastercard Face New US Antitrust Lawsuit Over Card Fees",
+      "body": "A new antitrust lawsuit in the US targets Visa and Mastercard, alleging that the card giants conspired to keep interchange fees high for merchants. The suit, brought by a group of retailers, could reignite debate over the cost of card acceptance and the power of network rules. If you're managing payments for a merchant or fintech, keep an eye on this case\u2014regulatory and legal pressure on interchange economics could reshape pricing, incentives, and even the viability of alternative payment rails.",
       "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2024/06/10/stripe-tap-to-pay-android-europe/"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/visa-mastercard-face-new-us-antitrust-lawsuit-over-card-fees-2024-06-10/"
       }
     }
   ],
-  "perspective": "If you\u2019re still treating AI, real-time rails, and programmable money as distant trends, you\u2019re about to get lapped. Visa\u2019s AI dispute tools are raising the bar for operational efficiency\u2014if your dispute process still involves spreadsheets and phone calls, expect higher costs and frustrated customers. Meanwhile, Stripe\u2019s Tap-to-Pay expansion shows that even hardware is going soft, letting small merchants leapfrog legacy POS. The real shift? Payments infrastructure is fragmenting and recombining at the same time: automation is becoming table stakes, and programmable value is moving from the crypto fringe to regulatory mainstream. If your team isn\u2019t collapsing silos between compliance, automation, and product, you\u2019ll be left behind as customer expectations and regulatory demands converge.",
+  "perspective": "If you\u2019re building in payments right now, you can feel the ground shifting beneath your feet. I\u2019m struck by how Cross River\u2019s $50M bet on AI and crypto isn\u2019t just about new tech\u2014it\u2019s about raising the bar for what embedded finance even means. Meanwhile, Revolut\u2019s \u20ac11.5M fine in Italy is a wake-up call: compliance isn\u2019t a box to check, it\u2019s a core product feature. And with Visa and Mastercard facing fresh antitrust heat, the old rules of card economics are suddenly up for grabs. If your team is still treating compliance, intelligence, and network strategy as separate playbooks, you\u2019re missing how fast these are converging. The winners will be those who can adapt\u2014operationalizing trust, speed, and regulatory resilience all at once.",
   "curiosity": {
-    "text": "Did you know that in 1989, the first electronic payment system for point-of-sale transactions was developed in the United States by the company VeriFone? This groundbreaking technology allowed merchants to process credit card payments electronically at the checkout, significantly speeding up transactions and paving the way for the modern retail payment experience we know today."
+    "text": "The first recorded use of a paper check dates back to 9th-century Baghdad, where merchants used written orders called 'sakk' to instruct banks to make payments\u2014an early precursor to the modern checking system."
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Sona",
-      "description": "Raised $45 million to expand AI platform for frontline businesses",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/sona-raises-45-million-to-expand-ai-platform-for-frontline-businesses/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "OpenFX",
-      "description": "Raised $94 million for FX infrastructure expansion",
-      "source_url": "https://www.finextra.com/newsarticle/47520/openfx-raises-94m?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
     {
       "flag": "\ud83c\uddeb\ud83c\uddf7",
       "type": "fundraising",
       "company": "Kulipa",
-      "description": "Raised $6.2 million for stablecoin-native card issuing platform",
+      "description": "Raised $6.2M for stablecoin-native card issuing.",
       "source_url": "https://www.finextra.com/newsarticle/47529/kulipa-raises-62m-for-stablecoin-native-card-issuing-infrastructure-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Latitude",
+      "description": "Raised $8M for stablecoin startup.",
+      "source_url": "https://www.finextra.com/pressarticle/109366/stripe-and-coinbase-vets-raise-8m-for-stablecoin-startup?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddf0\ud83c\uddea",
       "type": "M&A",
       "company": "Moniepoint",
-      "description": "Acquired Sumac Microfinance Bank to enter Kenyan market",
+      "description": "Acquired Sumac Microfinance Bank in Kenya.",
       "source_url": "https://www.finextra.com/pressarticle/109346/moniepoint-enters-kenya-with-acquisition-of-sumac-microfinance-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
-      "type": "expansion",
-      "company": "TikTok",
-      "description": "Seeks financial services licenses to operate in Brazil",
-      "source_url": "https://www.finextra.com/newsarticle/47525/tiktok-seeks-financial-services-licences-in-brazil?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde7\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Keyrock",
-      "description": "Reached $1.1 billion valuation after Series C funding",
-      "source_url": "https://www.finextra.com/newsarticle/47522/crypto-investment-specialist-keyrock-hits-11bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Midas",
-      "description": "Raised $50 million for onchain investment fintech platform",
-      "source_url": "https://www.finextra.com/pressarticle/109357/onchain-investment-fintech-midas-raises-50-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "M&A",
+      "company": "Franklin Templeton",
+      "description": "Acquiring crypto investment firm 250 Digital.",
+      "source_url": "https://www.bankingdive.com/news/franklin-templeton-crypto-acquisition-250-digital-perkins-ginns-kaul/816386/"
     }
   ]
 }
