@@ -706,11 +706,11 @@ WRITING RULES (PER STORY)
 - Be concrete; avoid generic phrasing like "signals a shift" without specifics.
 
 BODY ANTI-PATTERNS (DO NOT USE)
-- "operators" as a generic noun — name WHO specifically (banks, PSPs, fintechs, merchants, neobanks)
+- "operators" as a vague catch-all for "industry players" — name WHO specifically (banks, PSPs, fintechs, merchants, neobanks). Exception: "operators" is fine when it means a specific actor category (e.g., "mobile network operators", "ATM operators", "scheme operators").
 - "raises/intensifies pressure" — say what actually happens (loses margin, faces switching, gets undercut)
 - "Expect rapid/accelerated [noun]" as a closing sentence — close with a concrete implication instead
 - "will face pressure" / "will need to" / "should prepare for" — these are filler; say what the pressure IS
-- "could reshape" / "could disrupt" / "could impact" — hedge with specifics or commit to the claim
+- "could reshape" / "could disrupt" / "could impact" — replace with specifics about what actually changes. Keep hedging ("may", "could") when the outcome is genuinely uncertain; just add concrete detail
 - "signals a broader shift" / "marks a pivot" — name the shift, don't just announce one exists
 - "the winners will be those who..." — this adds no information; say what the winning move IS
 - "this move threatens to upend" — say what gets upended and for whom
@@ -913,7 +913,7 @@ QUALITY CHECKS:
    - Is the language clear and specific?
    - Are sentences in ACTIVE VOICE? Flag passive constructions like:
      * "A partnership was announced..." (should be "X announced a partnership...")
-     * "This could disrupt..." (should be "This threatens..." or "X's move challenges...")
+     * "This could disrupt..." (should name what changes: "X's move undercuts Y's pricing" or "This forces Z to...")
      * "It was reported that..." (should be "Source reports that X...")
    - Any jargon that needs explanation?
 
@@ -935,7 +935,7 @@ QUALITY CHECKS:
    - Does it sound authoritative but accessible?
    - Is there a clear point of view?
    - Any contrarian or forward-looking angles?
-   - Flag the word "operators" used as a generic noun — it should name WHO (banks, PSPs, fintechs, merchants)
+   - Flag "operators" used as a vague catch-all — it should name WHO (banks, PSPs, fintechs, merchants). OK when it means a specific category like "mobile network operators"
    - Flag formulaic closers: "Expect rapid/accelerated...", "will face pressure", "the winners will be those who..."
    - Flag hedge-pileups: "could reshape", "could disrupt", "threatens to upend" without specifics
 
@@ -1019,7 +1019,7 @@ Revision rules:
 - No editorializing, no "If you're..." framing, no generic phrasing.
 - Improve theme diversity: avoid over-indexing on one theme unless unavoidable from input.
 - Use active voice and concrete implications.
-- Do NOT use "operators" as a generic noun — name the specific actor (banks, PSPs, fintechs, merchants).
+- Do NOT use "operators" as a vague catch-all — name the specific actor (banks, PSPs, fintechs, merchants). Exception: "operators" is fine for specific categories like "mobile network operators".
 - Avoid formulaic closers ("Expect rapid...", "will face pressure", "the winners will be those who...").
 - Vary sentence structure across stories — not every body should follow the same fact→impact→pressure template.
 - For superlative factual claims (e.g., "first", "largest", "only"), either confirm from provided story context or hedge with attribution (e.g., "reported as").
