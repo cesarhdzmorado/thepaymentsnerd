@@ -62,6 +62,7 @@ There are also `send_analysis.yml` and `weekly_recap.yml` workflows.
 - **`?local=true` query param** loads homepage from `public/newsletter.json` instead of Supabase — useful for local dev.
 - **Chroma/SQLite hack**: `ai/src/main.py` replaces sqlite3 with pysqlite3 at import time. Don't remove it.
 - **Email tokens**: HMAC-SHA256 with `SUBSCRIBE_TOKEN_SECRET`. Confirmation expires in 48h, unsubscribe in 1 year.
+- **Subscribe rate limit**: `/api/subscribe` enforces 5 requests per 15 min per IP (in-memory store, resets on cold start).
 
 ## Code Conventions
 

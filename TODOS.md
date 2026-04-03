@@ -17,10 +17,8 @@
 
 ## Security Hardening
 
-### Add rate limiting to /api/subscribe
-**Why:** Public POST endpoint with no throttling. As subscriber base grows, this becomes a spam/abuse vector. Not a launch blocker but should be addressed before significant traffic.
-**Effort:** ~2 hr human / ~15 min CC. Vercel Edge Middleware or IP-based throttle.
-**Depends on:** Nothing
+### ~~Add rate limiting to /api/subscribe~~ DONE
+**Fixed:** In-memory IP-based rate limiter: 5 requests per 15-minute window per IP. Returns 429 on excess. Resets on cold start (acceptable for serverless). Two new tests cover the limit and cross-IP independence.
 
 ### ~~Fix email enumeration via subscribe endpoint~~ DONE
 **Fixed:** API now returns uniform response for all emails. Active subscribers receive a "you're already subscribed" email with their referral link. No `state` field in response. Frontend simplified to remove `already_active` handling.
@@ -36,10 +34,8 @@
 ### ~~Strip formulaic language from story bodies~~ DONE
 **Fixed:** Added BODY ANTI-PATTERNS block to writer prompt banning "operators" as generic noun, formulaic closers ("Expect rapid...", "will face pressure"), and hedge-pileups. Added bad example showing the pattern. Updated editor and revision prompts to flag violations.
 
-### Update weekly recap voice to match daily format
-**Why:** `ai/src/weekly_recap.py` has the same prescriptive perspective template that was removed from the daily newsletter. Weekly recap will feel inconsistent if not updated.
-**Effort:** ~10 min CC. Same pattern: replace perspective instructions with theme line instructions.
-**Depends on:** Daily theme line change shipped and validated.
+### ~~Update weekly recap voice to match daily format~~ DONE
+**Fixed:** Replaced prescriptive multi-sentence perspective with 1-sentence theme line format matching the daily newsletter. Updated writer prompt, JSON output spec, and editor quality checks.
 
 ## Database Hygiene
 
