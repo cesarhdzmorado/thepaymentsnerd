@@ -307,7 +307,7 @@ OUTPUT FORMAT (MUST BE VALID JSON):
 QUALITY CHECKS:
 - Each story body is 6-8 sentences (count them!)
 - Stories have clear "what's next" angle
-- Perspective includes forward-looking view
+- Perspective is a 1-sentence theme line (max 25 words)
 - All JSON properly formatted
 
 Return ONLY the JSON, no markdown formatting."""),
