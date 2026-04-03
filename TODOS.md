@@ -2,10 +2,8 @@
 
 ## Design Debt
 
-### Create React Email templates for transactional emails
-**Why:** Confirmation and "already subscribed" emails use raw inline HTML. A React Email template would ensure brand consistency and make future email changes easier.
-**Effort:** ~30 min CC
-**Depends on:** Nothing
+### ~~Create React Email templates for transactional emails~~ DONE
+**Fixed:** Three new React Email templates (ConfirmSubscription, AlreadySubscribed, Welcome) replace raw inline HTML in subscribe and confirm routes. Shared render helper in `lib/transactionalEmails.ts`. Brand-consistent styling matching DailyNewsletter template.
 
 ### Create DESIGN.md via /design-consultation
 **Why:** No design system exists. Each new feature re-invents design decisions. Both outside voices (Codex + Claude) flagged brand isn't visible in UI components.
