@@ -7,7 +7,9 @@ import {
   Flame,
   Lightbulb,
 } from "lucide-react";
+import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { Logo } from "@/components/Logo";
+import { HeroAnimations } from "@/components/home/HeroAnimations";
 import { ShareButtons } from "@/components/ShareButtons";
 import { SubscribeForm } from "@/components/SubscribeForm";
 import { Badge, cardClasses } from "@/components/ui";
@@ -61,49 +63,51 @@ export function HomeHeader({
 }) {
   return (
     <header className="relative mb-0 pb-12 text-center">
-      <div className="mb-6 animate-fade-in-up">
-        <Logo />
-      </div>
+      <HeroAnimations>
+        <div className="mb-6">
+          <Logo />
+        </div>
 
-      <p className="mx-auto mb-8 max-w-2xl text-xl sm:text-2xl font-medium text-muted leading-relaxed animate-fade-in-up delay-100">
-        Five critical payments insights. Zero noise. Daily.
-      </p>
-
-      <div className="mb-6 animate-fade-in-up delay-150">
-        <p className="text-sm font-semibold text-slate-600 dark:text-slate-400">
-          {subscriberCount > 10 ? (
-            <>
-              Join{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-blue-800 to-indigo-900 dark:from-slate-100 dark:via-cyan-200 dark:to-indigo-200">
-                {roundedCount.toLocaleString()}+
-              </span>{" "}
-              payment professionals
-            </>
-          ) : (
-            "Be among the first to join"
-          )}
+        <p className="mx-auto mb-8 max-w-2xl text-xl sm:text-2xl font-medium text-muted leading-relaxed">
+          Five critical payments insights. Zero noise. Daily.
         </p>
-      </div>
 
-      <div
-        className={cardClasses({
-          className:
-            "inline-flex items-center gap-2 rounded-full px-5 py-2.5 animate-fade-in-up delay-200",
-        })}
-      >
-        <Calendar className="h-4 w-4 text-blue-600 dark:text-cyan-300" />
-        <span className="text-sm font-semibold">{formattedDate}</span>
-      </div>
+        <div className="mb-6">
+          <p className="text-sm font-semibold text-slate-600 dark:text-slate-400">
+            {subscriberCount > 10 ? (
+              <>
+                Join{" "}
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-blue-800 to-indigo-900 dark:from-slate-100 dark:via-cyan-200 dark:to-indigo-200">
+                  {roundedCount.toLocaleString()}+
+                </span>{" "}
+                payment professionals
+              </>
+            ) : (
+              "Be among the first to join"
+            )}
+          </p>
+        </div>
 
-      <div id="subscribe" className="mx-auto mt-10 max-w-xl animate-fade-in-up delay-300 scroll-mt-24">
-        <Suspense fallback={null}>
-          <SubscribeForm source="homepage" />
-        </Suspense>
-      </div>
+        <div
+          className={cardClasses({
+            className:
+              "inline-flex items-center gap-2 rounded-full px-5 py-2.5",
+          })}
+        >
+          <Calendar className="h-4 w-4 text-blue-600 dark:text-cyan-300" />
+          <span className="text-sm font-semibold">{formattedDate}</span>
+        </div>
 
-      <div className="mx-auto mt-8 flex justify-center animate-fade-in-up delay-400">
-        <ShareButtons />
-      </div>
+        <div id="subscribe" className="mx-auto mt-10 max-w-xl scroll-mt-24">
+          <Suspense fallback={null}>
+            <SubscribeForm source="homepage" />
+          </Suspense>
+        </div>
+
+        <div className="mx-auto mt-8 flex justify-center">
+          <ShareButtons />
+        </div>
+      </HeroAnimations>
     </header>
   );
 }
@@ -112,7 +116,8 @@ export function LeadStorySection({ heroStory }: { heroStory: NewsItem | null }) 
   if (!heroStory) return null;
 
   return (
-    <section id="lead-story" className="mb-16 animate-fade-in-up" style={{ animationDelay: "400ms" }}>
+    <AnimateOnScroll>
+    <section id="lead-story" className="mb-16">
       <div className="mb-6 flex items-center gap-3">
         <div className="h-px flex-1 bg-gradient-to-r from-transparent via-blue-500/30 to-transparent dark:via-cyan-500/30" />
         <h2 className="text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">
@@ -187,6 +192,7 @@ export function LeadStorySection({ heroStory }: { heroStory: NewsItem | null }) 
         />
       </article>
     </section>
+    </AnimateOnScroll>
   );
 }
 
@@ -194,7 +200,8 @@ export function QuickHitsSection({ quickHits }: { quickHits: NewsItem[] }) {
   if (quickHits.length === 0) return null;
 
   return (
-    <section id="quick-hits" className="mb-24 animate-fade-in-up" style={{ animationDelay: "500ms" }}>
+    <AnimateOnScroll>
+    <section id="quick-hits" className="mb-24">
       <div className="mb-8 flex items-center gap-3">
         <div className="h-px flex-1 bg-gradient-to-r from-transparent via-slate-300 to-transparent dark:via-slate-700" />
         <h2 className="text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">
@@ -205,15 +212,13 @@ export function QuickHitsSection({ quickHits }: { quickHits: NewsItem[] }) {
 
       <div className="grid gap-6 sm:grid-cols-2">
         {quickHits.map((item, index) => {
-          const delay = `${600 + index * 100}ms`;
           return (
             <article
               key={index}
               className={cardClasses({
                 className:
-                  "group relative overflow-hidden transition-all duration-300 ease-out hover:shadow-lg animate-fade-in-up",
+                  "group relative overflow-hidden transition-all duration-300 ease-out hover:shadow-lg",
               })}
-              style={{ animationDelay: delay }}
             >
               <div className="absolute inset-0 bg-gradient-to-br from-slate-500/5 via-transparent to-slate-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" aria-hidden="true" />
 
@@ -263,15 +268,16 @@ export function QuickHitsSection({ quickHits }: { quickHits: NewsItem[] }) {
         })}
       </div>
     </section>
+    </AnimateOnScroll>
   );
 }
 
 export function CuriositySection({ curiosity }: { curiosity: Curiosity }) {
   return (
+    <AnimateOnScroll>
     <section
       id="curiosity"
-      className="relative animate-fade-in-up"
-      style={{ animationDelay: "1000ms" }}
+      className="relative"
     >
       <div
         className="pointer-events-none absolute inset-0 -z-10 scale-105 rounded-3xl blur-3xl
@@ -325,6 +331,7 @@ export function CuriositySection({ curiosity }: { curiosity: Curiosity }) {
         </blockquote>
       </div>
     </section>
+    </AnimateOnScroll>
   );
 }
 
@@ -332,10 +339,10 @@ export function WhatsHotSection({ whatsHot }: { whatsHot: WhatsHotItem[] }) {
   if (whatsHot.length === 0) return null;
 
   return (
+    <AnimateOnScroll>
     <section
       id="whats-hot"
-      className="mt-16 relative animate-fade-in-up"
-      style={{ animationDelay: "1100ms" }}
+      className="mt-16 relative"
     >
       <div
         className="pointer-events-none absolute inset-0 -z-10 scale-105 rounded-3xl blur-3xl
@@ -413,5 +420,6 @@ export function WhatsHotSection({ whatsHot }: { whatsHot: WhatsHotItem[] }) {
         </div>
       </div>
     </section>
+    </AnimateOnScroll>
   );
 }
