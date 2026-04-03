@@ -60,10 +60,12 @@ vi.stubEnv("EMAIL_FROM", "test@thepaymentsnerd.co");
 
 import { POST } from "./route";
 
-function makeRequest(body: Record<string, unknown>) {
+function makeRequest(body: Record<string, unknown>, ip?: string) {
+  const headers: Record<string, string> = { "Content-Type": "application/json" };
+  if (ip) headers["x-forwarded-for"] = ip;
   return new Request("https://localhost/api/subscribe", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers,
     body: JSON.stringify(body),
   });
 }
@@ -236,6 +238,46 @@ describe("POST /api/subscribe", () => {
 
     // Restore
     vi.stubEnv("NEXT_PUBLIC_SITE_URL", SITE_URL);
+  });
+
+  it("returns 429 after exceeding rate limit from same IP", async () => {
+    // Each call needs mocks for the full flow
+    for (let i = 0; i < 5; i++) {
+      mockSingle.mockResolvedValueOnce({ data: null });
+      mockUpsert.mockResolvedValueOnce({ error: null });
+      mockSend.mockResolvedValueOnce({});
+    }
+
+    const testIp = "192.168.99.99";
+    for (let i = 0; i < 5; i++) {
+      const res = await POST(makeRequest({ email: `user${i}@test.com` }, testIp));
+      expect(res.status).toBe(200);
+    }
+
+    // 6th request from same IP should be rate limited
+    const res = await POST(makeRequest({ email: "extra@test.com" }, testIp));
+    const data = await res.json();
+    expect(res.status).toBe(429);
+    expect(data.message).toContain("Too many requests");
+  });
+
+  it("allows requests from different IPs independently", async () => {
+    // Fill up one IP's limit
+    for (let i = 0; i < 5; i++) {
+      mockSingle.mockResolvedValueOnce({ data: null });
+      mockUpsert.mockResolvedValueOnce({ error: null });
+      mockSend.mockResolvedValueOnce({});
+    }
+    for (let i = 0; i < 5; i++) {
+      await POST(makeRequest({ email: `user${i}@test.com` }, "10.0.0.1"));
+    }
+
+    // Different IP should still work
+    mockSingle.mockResolvedValueOnce({ data: null });
+    mockUpsert.mockResolvedValueOnce({ error: null });
+    mockSend.mockResolvedValueOnce({});
+    const res = await POST(makeRequest({ email: "other@test.com" }, "10.0.0.2"));
+    expect(res.status).toBe(200);
   });
 
   it("preserves existing referral_code for pending re-subscribe", async () => {
