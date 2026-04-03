@@ -33,10 +33,8 @@
 
 ## Editorial Voice
 
-### Strip formulaic language from story bodies
-**Why:** Story bodies follow a rigid template: fact → "this raises/intensifies X for operators" → "operators with/without Y will face pressure" → "Expect rapid/accelerated Z." The word "operators" appears ~12 times per newsletter. Users report the text feels AI-generated.
-**Effort:** ~15 min CC. Modify writer prompt anti-examples and body writing rules in `ai/src/main.py`.
-**Depends on:** Ship the theme line change first and measure impact before stacking voice changes.
+### ~~Strip formulaic language from story bodies~~ DONE
+**Fixed:** Added BODY ANTI-PATTERNS block to writer prompt banning "operators" as generic noun, formulaic closers ("Expect rapid...", "will face pressure"), and hedge-pileups. Added bad example showing the pattern. Updated editor and revision prompts to flag violations.
 
 ### Update weekly recap voice to match daily format
 **Why:** `ai/src/weekly_recap.py` has the same prescriptive perspective template that was removed from the daily newsletter. Weekly recap will feel inconsistent if not updated.
