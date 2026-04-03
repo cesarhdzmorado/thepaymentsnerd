@@ -62,17 +62,17 @@ export function HomeHeader({
   roundedCount: number;
 }) {
   return (
-    <header className="relative mb-0 pb-12 text-center">
+    <header className="relative mb-0 py-4 sm:pb-12 text-center">
       <HeroAnimations>
-        <div className="mb-6">
-          <Logo />
+        <div className="mb-4 sm:mb-6">
+          <Logo className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl" />
         </div>
 
-        <p className="mx-auto mb-8 max-w-2xl text-xl sm:text-2xl font-medium text-muted leading-relaxed">
+        <p className="mx-auto mb-4 sm:mb-8 max-w-2xl text-lg sm:text-2xl font-medium text-muted leading-relaxed">
           Five critical payments insights. Zero noise. Daily.
         </p>
 
-        <div className="mb-6">
+        <div className="mb-4 sm:mb-6">
           <p className="text-sm font-semibold text-slate-600 dark:text-slate-400">
             {subscriberCount > 10 ? (
               <>
@@ -104,7 +104,7 @@ export function HomeHeader({
           </Suspense>
         </div>
 
-        <div className="mx-auto mt-8 flex justify-center">
+        <div className="mx-auto mt-8 hidden sm:flex justify-center">
           <ShareButtons />
         </div>
       </HeroAnimations>
