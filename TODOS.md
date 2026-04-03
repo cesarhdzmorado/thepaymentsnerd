@@ -45,7 +45,5 @@
 
 ## Database Hygiene
 
-### Add UNIQUE constraint on referral_code column
-**Why:** nanoid at 8 chars has ~1 in 2.8 trillion collision odds, but a UNIQUE constraint is cheap insurance. Without it, a collision would silently corrupt referral attribution.
-**Effort:** One Supabase migration. ~30 min human / ~5 min CC.
-**Depends on:** Nothing
+### ~~Add UNIQUE constraint on referral_code column~~ DONE
+**Fixed:** `subscribers_referral_code_unique` constraint applied via Supabase migration. No duplicate codes existed at time of migration.
