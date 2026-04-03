@@ -705,26 +705,24 @@ WRITING RULES (PER STORY)
   4) Optional take (forward-looking)
 - Be concrete; avoid generic phrasing like "signals a shift" without specifics.
 
-PERSPECTIVE (What Matters Today)
-- 2-3 sentences, thematic insight (not story list).
-- First-person singular voice.
-- Include at least two concrete anchors from selected stories.
-- Include one direct reader implication ("If you're..." / "If your team...").
-- End with a decision implication (what to reconsider/accelerate/hedge).
+THEME LINE (What Matters Today)
+- Exactly 1 sentence. Maximum 25 words.
+- Name the day’s thread: what connects the top stories today.
+- Mention 1-2 specific companies or events from the selected stories.
+- No editorializing, no “If you’re...” framing, no fake columnist voice.
+- Think of it as a subject line for the newsletter, not an opinion column.
 
-INTRO STYLE LOCK (NON-NEGOTIABLE)
-- Write as an ecosystem-level thesis, not a daily recap.
-- Frame the market phase first, then use stories as evidence.
-- Avoid "today we saw" framing and avoid generic consultant phrasing.
-- Preferred structure:
-  1) Thesis: what phase payments/fintech is entering
-  2) Tension: contradiction or competitive pressure shaping that phase
-  3) Action: operator implication (what teams should do now)
+GOOD THEME LINE EXAMPLES:
+“Today: Swift goes live on blockchain rails, Nium brings stablecoins to card networks, and Wise enters full-service banking.”
+“Tokenization moves from pilot to production as BMO, CME Group, and Google Cloud launch institutional cash platform.”
+“Regulators set the pace today: FTC warns on debanking, PSR targets card fees, Saudi Arabia licenses its first major fintech.”
 
-REFERENCE INTRO (TARGET SHAPE)
-"Payments is moving into a new phase where execution quality matters more than product novelty. Everyone now has access to faster rails, stablecoin infrastructure, and cross-border partnerships — so the edge is no longer launch speed, it’s who can operationalize trust, compliance, and distribution at scale. If your team is still treating these as separate workstreams, you’re probably underestimating how quickly they’re collapsing into one competitive battleground."
+BAD THEME LINE EXAMPLES (DO NOT COPY):
+“If you’re still treating tokenization as a buzzword, you’re about to get lapped.” (editorializing)
+“The payments landscape is shifting rapidly as companies innovate.” (generic, no specifics)
+“Today’s stories show regulation and innovation are colliding.” (vague, could be any day)
 
-FEW-SHOT GUIDANCE (STYLE LOCK)
+FEW-SHOT GUIDANCE (STORY QUALITY)
 GOOD STORY EXAMPLE 1
 Title: Visa and Fiserv Push EU Acceptance Expansion Into Local PSP Territory
 Body: Visa and Fiserv expanded their partnership to roll out Visa Acceptance Platform across Fiserv’s merchant base in Europe. That gives larger merchants tighter global tooling while raising pressure on regional PSPs competing on local relationships alone. If this scales, local processors will need to differentiate on vertical workflows, not just acquiring economics.
@@ -736,15 +734,6 @@ Body: Sweden’s central bank signaled potential action against banks lagging on
 BAD STORY EXAMPLE (DO NOT COPY)
 Title: Stablecoins Continue to Gain Momentum in Global Payments
 Body: A company launched stablecoin capabilities to improve cross-border payments. This signals a broader shift in financial services and could impact many stakeholders. The market is evolving quickly and firms should monitor developments closely.
-
-GOOD PERSPECTIVE EXAMPLE 1
-Speed is no longer the differentiator — compliance-grade speed is. Sweden’s pressure on instant payments and Visa/Fiserv’s EU distribution move point to the same reality: rails are commoditizing, execution quality isn’t. If your team still treats instant payments as roadmap optionality, you’re already behind the operators turning it into customer-retention infrastructure.
-
-GOOD PERSPECTIVE EXAMPLE 2
-The headline stories look unrelated — central-bank pressure in Sweden, stablecoin rollout by Sokin, and cross-border expansion via Alipay rails — but they all compress one decision: build for multi-rail orchestration now, or accept margin squeeze later. I’d treat 2026 as the year where payment teams stop debating rails and start competing on routing intelligence.
-
-BAD PERSPECTIVE EXAMPLE (DO NOT COPY)
-Today’s stories show that fintech and payments are changing rapidly. Regulation, partnerships, and innovation are all important themes to watch. Companies should stay agile and adapt to these trends.
 
 OUTPUT JSON ONLY
 {{{{
@@ -920,7 +909,7 @@ QUALITY CHECKS:
 5. **Completeness**:
    - Are all required fields present (news, perspective, curiosity)?
    - Is the JSON valid and properly formatted?
-   - Is the "perspective" field providing synthesis?
+   - Is the "perspective" field a concise theme line (1 sentence)?
 
 6. **Brand Voice**:
    - Does it sound authoritative but accessible?
@@ -932,17 +921,13 @@ QUALITY CHECKS:
    - Flag any story that feels disconnected from the others
    - If a story doesn't fit (e.g., general tech news unrelated to payments), recommend replacing it
 
-8. **Perspective Quality** (Critical):
-   - Does the "perspective" field provide a THEMATIC INSIGHT rather than a story summary?
-   - Is it reframing the news through a conceptual lens, not just listing what happened?
-   - Does it identify a unifying thread, tension, or pattern across stories?
-   - Does it have a distinct human voice (first-person stance + direct reader context)?
-   - Does it include at least 2 concrete anchors from today's stories (specific company/regulator/rail/metric)?
-   - Does the opening line feel memorable, or could it appear in any generic newsletter?
-   - WRONG: "Stablecoins continue to be important" (generic, no insight)
-   - WRONG: "Today's stories about Circle, Paxos, and Visa show..." (mechanical enumeration)
-   - RIGHT: "Everything is an acquiring play now. Whether it's Apple or Stripe, the real prize isn't transactions—it's owning the merchant relationship." (thematic lens)
-   - RIGHT: "The obvious read is margin pressure. But actually, this is about which payment flows they'll defend at all costs." (reframe technique)
+8. **Theme Line Quality** (Critical):
+   - Is the "perspective" field exactly 1 sentence (max 25 words)?
+   - Does it name the day's connecting thread with at least 1 specific company or event?
+   - Does it avoid editorializing ("If you're...", "you can't ignore...", "the winners will be...")?
+   - WRONG: "If you're still treating tokenization as a buzzword, you're about to get lapped." (editorial voice)
+   - WRONG: "The payments landscape is shifting rapidly." (generic, no specifics)
+   - RIGHT: "Today: Swift goes live on blockchain rails, Nium brings stablecoins to card networks, and Wise enters full-service banking." (specific, factual, concise)
 
 9. **Curiosity Fact Validity**:
     - Is the curiosity fact INDEPENDENT from today's news stories? (It should NOT be a restatement of a news story)
@@ -953,11 +938,9 @@ QUALITY CHECKS:
     - If using relative dates like "last year", ensure the actual year is specified (e.g., "in 2025" not just "last year")
 
 10. **Narrative Continuity** (Critical):
-    - Does the perspective avoid repetitive framing from previous days?
-    - Flag generic phrases like "signals a shift" or "marks a pivot" without specifics
-    - If recurring themes (stablecoins, regulation, etc.) appear multiple days, does the content BUILD on previous coverage?
-    - WRONG: "Stablecoins are reshaping the payments landscape" (could be written any day)
-    - RIGHT: "Today's Stripe announcement is the third stablecoin partnership this week, confirming enterprise adoption is accelerating"
+    - Does the theme line avoid repeating the same framing as previous days?
+    - If recurring themes (stablecoins, regulation, etc.) appear multiple days, does the theme line reference new specifics rather than rehashing the same angle?
+    - Flag if the theme line could be swapped with a previous day's without anyone noticing
 
 11. **Specificity Check** (Critical):
     - Every claim of "shift", "pivot", or "transformation" must specify:
@@ -1008,12 +991,9 @@ Task:
 Revision rules:
 - Resolve each editor issue explicitly.
 - Keep exactly 5 news stories.
-- Keep the perspective thematic (not a list of stories) and specific about WHAT is shifting, WHY now, and WHO is affected.
-- Keep the perspective personable and memorable:
-  * first-person singular voice
-  * direct reader context ("if you're..." / "if your team...")
-  * at least 2 concrete anchors from today's stories
-  * no generic opener like "Today's stories underscore..."
+- The "perspective" field must be exactly 1 sentence (max 25 words). It is a theme line, not an editorial.
+- Name the day's thread with 1-2 specific companies or events from the stories.
+- No editorializing, no "If you're..." framing, no generic phrasing.
 - Improve theme diversity: avoid over-indexing on one theme unless unavoidable from input.
 - Use active voice and concrete implications.
 - For superlative factual claims (e.g., "first", "largest", "only"), either confirm from provided story context or hedge with attribution (e.g., "reported as").
