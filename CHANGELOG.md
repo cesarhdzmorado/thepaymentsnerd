@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.1.1] - 2026-04-03
+
+### Added
+- DESIGN.md as single source of truth for the visual identity and design system — covers color palette (light/dark), typography (Archivo + Inter), spacing, border radius, shadows, card system, button variants, animations, email template tokens, accessibility, and decision log
+
+### Changed
+- All design debt TODO items now marked complete
+
 ## [0.1.1.0] - 2026-04-03
 
 ### Added
