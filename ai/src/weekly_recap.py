@@ -266,14 +266,11 @@ Sentence 7-8: THE NEXT (Forward Looking)
 - Predictions or trend signals
 - Questions to consider
 
-**PERSPECTIVE (Required, 3-4 sentences):**
-- Use first-person singular voice with editorial conviction ("I'm watching...", "I think...")
-- Address the reader directly once ("If you're..." / "If your team...")
-- Include at least 2 concrete anchors from this week's stories (company, regulator, rail, metric, or market)
-- Open with a memorable hook, not generic filler
-- Connect the stories to larger trends
-- Forward-looking view on next week
-- End with a practical implication or question to ponder
+**PERSPECTIVE (Required — theme line, exactly 1 sentence, max 25 words):**
+- Name the week's thread: what connects the top stories this week.
+- Mention 1-2 specific companies or events from the selected stories.
+- No editorializing, no "If you're..." framing, no fake columnist voice.
+- Think of it as a subject line for the recap, not an opinion column.
 
 **CURIOSITY (Same as daily):**
 - Interesting fact, payments or general
@@ -282,7 +279,7 @@ Sentence 7-8: THE NEXT (Forward Looking)
 1. Stories are LONGER (6-8 sentences vs 3-4)
 2. More analytical depth
 3. Forward-looking "what's next" angle
-4. Perspective includes "next week" preview
+4. Perspective is still a 1-sentence theme line (same as daily), but covers the whole week
 
 OUTPUT FORMAT (MUST BE VALID JSON):
 
@@ -297,7 +294,7 @@ OUTPUT FORMAT (MUST BE VALID JSON):
       }}
     }}
   ],
-  "perspective": "3-4 sentences: This week's synthesis + what to watch next week",
+  "perspective": "1 sentence theme line (max 25 words): what connected the week's stories",
   "curiosity": {{
     "text": "...",
     "source": {{
@@ -351,11 +348,10 @@ WEEKLY RECAP QUALITY CHECKS:
    - All required fields present
    - Proper JSON formatting
 
-6. **Perspective Voice & Memorability:**
-   - Uses first-person singular voice (not generic third-person analyst language)
-   - Includes direct reader context ("if you're..." / "if your team...")
-   - References at least 2 concrete anchors from the week's reporting
-   - Opening line is specific and memorable, not boilerplate
+6. **Theme Line Quality:**
+   - Is the "perspective" field exactly 1 sentence (max 25 words)?
+   - Does it name the week's connecting thread with at least 1 specific company or event?
+   - Does it avoid editorializing ("If you're...", "you can't ignore...", "the winners will be...")?
 
 RETURN FORMAT:
 
