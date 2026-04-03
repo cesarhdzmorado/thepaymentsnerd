@@ -154,7 +154,7 @@ ai/
 **Tech Stack:**
 - **Framework:** Next.js 15.3.8 (App Router)
 - **UI Library:** React 19
-- **Styling:** Tailwind CSS v4
+- **Styling:** Tailwind CSS v4 (see [`DESIGN.md`](/DESIGN.md) for the full design system)
 - **Typography:** Archivo Variable, Inter Variable (Google Fonts)
 - **Email Templates:** @react-email/components 1.0.3
 - **Email Sending:** Resend 6.6.0

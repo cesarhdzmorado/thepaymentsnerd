@@ -75,4 +75,4 @@ There are also `send_analysis.yml` and `weekly_recap.yml` workflows.
 
 ## Detailed Documentation
 
-See `docs/` for SETUP, ARCHITECTURE, EMAIL_SYSTEM, DEPLOYMENT, and CONTRIBUTING guides.
+See `docs/` for SETUP, ARCHITECTURE, EMAIL_SYSTEM, DEPLOYMENT, and CONTRIBUTING guides. See `DESIGN.md` for the visual identity and design system (colors, typography, spacing, components).
