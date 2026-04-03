@@ -46,7 +46,7 @@ Source of truth for /thepaymentsnerd visual identity. Every UI decision should t
 
 ### Glow Effects
 
-Radial gradient overlays for depth. Blue-500 at 15% opacity, indigo-500 at 12%, sky-500 at 10%. Reduce opacity in dark mode. Applied via `.glow-bg` class.
+Radial gradient overlays for depth. Two gradients using `--glow-1` and `--glow-2` CSS custom properties (blue/indigo tones). Applied via `.glow-bg` class.
 
 ## Typography
 
@@ -126,8 +126,8 @@ Defined in `components/ui.tsx`. Four variants, three sizes.
 | Variant | Light | Dark | Usage |
 |---------|-------|------|-------|
 | `primary` | Dark gradient bg, white text | Light gradient bg, dark text | Main CTAs |
-| `secondary` | Bordered, transparent bg | Bordered, transparent bg | Secondary actions |
-| `ghost` | No border, hover bg | No border, hover bg | Tertiary, navigation |
+| `secondary` | Bordered, filled slate-100 bg | Bordered, filled slate-800 bg | Secondary actions |
+| `ghost` | Bordered slate-200, slate-100 bg, hover blue | Bordered slate-700, slate-800 bg, hover blue | Tertiary, navigation |
 | `danger` | Red bg, white text | Red bg, white text | Destructive actions |
 
 | Size | Padding | Font |
@@ -168,7 +168,7 @@ Cascading entrances use delay classes: `.delay-100` through `.delay-400` in 50-1
 
 ## Backgrounds
 
-- **Grid pattern:** `.bg-grid-pattern` — 2rem repeating grid lines. Opacity 60% light, 8% dark. Adds subtle texture without distraction.
+- **Grid pattern:** `.bg-grid-pattern` — 2rem repeating grid lines. Opacity set per-consumer (typically `opacity-35 dark:opacity-20`). Adds subtle texture without distraction.
 - **Glow overlay:** `.glow-bg` — Radial gradients positioned at top. Blue/indigo tones. Creates depth behind hero content.
 
 ## Email Templates
@@ -183,7 +183,7 @@ Email templates in `web/emails/` use inline styles (required for email clients) 
 | Accent | `#2563eb` | Blue-600 |
 | Container | 600px max-width, white bg | `max-w-4xl`, card surface |
 | Font | System font stack | Same as web fallback |
-| Border radius | 8px (buttons, cards) | Simplified from web 16px for email client compat |
+| Border radius | 8px (buttons only) | Simplified from web 16px; containers have no radius |
 | Dividers | `1px solid #e5e5e5` | `--card-border` equivalent |
 
 Logo text in emails: `/thepaymentsnerd` at 26px, weight 700, color `#0a0a0a`, letter-spacing -0.5px.
