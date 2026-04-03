@@ -5,10 +5,8 @@
 ### ~~Create React Email templates for transactional emails~~ DONE
 **Fixed:** Three new React Email templates (ConfirmSubscription, AlreadySubscribed, Welcome) replace raw inline HTML in subscribe and confirm routes. Shared render helper in `lib/transactionalEmails.ts`. Brand-consistent styling matching DailyNewsletter template.
 
-### Create DESIGN.md via /design-consultation
-**Why:** No design system exists. Each new feature re-invents design decisions. Both outside voices (Codex + Claude) flagged brand isn't visible in UI components.
-**Effort:** ~30 min interactive session with /design-consultation
-**Depends on:** Nothing — can be done anytime
+### ~~Create DESIGN.md via /design-consultation~~ DONE
+**Fixed:** Comprehensive DESIGN.md created as the single source of truth for the visual identity. Covers color palette (light/dark), typography (Archivo + Inter), spacing, border radius, shadows, card system, button variants, animations, email template tokens, accessibility, and decision log. Derived from existing `globals.css`, `tailwind.config.js`, `ui.tsx`, and `brand.md`.
 
 ### ~~Add prefers-reduced-motion support to globals.css~~ DONE
 **Fixed:** `globals.css` already includes a `@media (prefers-reduced-motion: reduce)` rule that disables all animations and transitions.
