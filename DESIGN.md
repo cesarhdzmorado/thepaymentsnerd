@@ -148,19 +148,29 @@ Inline flex, `rounded-full`, small padding, subtle background. Used for dates, t
 
 ## Animation
 
-### Keyframes
+### Scroll-Triggered Transitions (IntersectionObserver)
+
+Content animates on scroll via a shared `useInView` hook (`web/hooks/useInView.ts`) and `AnimateOnScroll` wrapper (`web/components/AnimateOnScroll.tsx`). All sections render SSR-visible (opacity 1) and transition in when they enter the viewport.
+
+Timing constants live in `web/lib/animationConfig.ts`:
+
+| Token | Value | Purpose |
+|-------|-------|---------|
+| `SECTION_STAGGER_MS` | 120 | Delay between sibling sections |
+| `HERO_STAGGER_MS` | 80 | Delay between hero child elements |
+| `TRANSITION_DURATION_MS` | 600 | CSS transition duration |
+| `VIEWPORT_THRESHOLD` | 0.15 | IntersectionObserver threshold |
+
+Hero children use a staggered entrance via `HeroAnimations.tsx`, applying incremental delays of `HERO_STAGGER_MS`.
+
+### CSS Keyframes (remaining)
 
 | Name | Duration | Effect | Usage |
 |------|----------|--------|-------|
-| `fade-in-up` | 0.6s | Opacity + translateY(20px) | Content entrance |
 | `fade-in` | 0.5s | Opacity only | Subtle reveals |
 | `scale-in` | 0.3s | Opacity + scale(0.95) | Modals, success states |
 | `pulse-glow` | 8s | Opacity breathing | Background accents |
 | `shake` | 0.4s | Horizontal ±4px | Error feedback |
-
-### Stagger Pattern
-
-Cascading entrances use delay classes: `.delay-100` through `.delay-400` in 50-100ms increments. Apply to siblings with `.animate-fade-in-up` for a waterfall effect.
 
 ### Reduced Motion
 
@@ -190,8 +200,10 @@ Logo text in emails: `/thepaymentsnerd` at 26px, weight 700, color `#0a0a0a`, le
 
 ## Accessibility
 
+- Skip-to-content link: visually hidden, appears on keyboard focus, jumps to `#main-content`
 - Focus-visible rings on all interactive elements: `2px solid rgba(99,102,241,0.6)` with 2px offset
 - Color contrast: foreground/background passes WCAG AA in both modes
+- Gradient text `@supports` fallback: non-WebKit browsers get solid `text-blue-600` instead of gradient clip
 - `color-scheme: light dark` on html element for native form control theming
 - Semantic HTML throughout (proper headings, labels, ARIA attributes)
 - `prefers-reduced-motion` support
@@ -217,4 +229,8 @@ Logo text in emails: `/thepaymentsnerd` at 26px, weight 700, color `#0a0a0a`, le
 | `web/tailwind.config.js` | Font family extensions, dark mode strategy |
 | `web/app/layout.tsx` | Font loading (Archivo, Inter), metadata |
 | `web/components/ui.tsx` | Button, Input, Card, Badge component primitives |
+| `web/components/AnimateOnScroll.tsx` | Scroll-triggered animation wrapper (IntersectionObserver) |
+| `web/hooks/useInView.ts` | IntersectionObserver hook for viewport detection |
+| `web/lib/animationConfig.ts` | Shared animation timing constants |
+| `web/components/home/HeroAnimations.tsx` | Hero staggered entrance animation |
 | `docs/business-context/brand.md` | Brand colors, typography, identity summary |

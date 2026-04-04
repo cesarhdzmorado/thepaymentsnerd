@@ -36,8 +36,10 @@ web/
 │   ├── page.tsx        # Homepage
 │   └── layout.tsx      # Root layout
 ├── components/         # React components
+│   └── home/           # Homepage sections and animations
 ├── emails/             # React Email templates
-├── lib/                # Utilities (Supabase, tokens, email)
+├── hooks/              # Custom React hooks (useInView, etc.)
+├── lib/                # Utilities (Supabase, tokens, email, animationConfig)
 ├── public/             # Static assets
 └── scripts/            # Development scripts
 ```
