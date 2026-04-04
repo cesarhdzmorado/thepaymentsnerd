@@ -53,7 +53,7 @@ export function Footer() {
                 }`}
               />
               {heartClicks > 0 && (
-                <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-[10px] font-bold text-red-500 dark:text-red-400 animate-fade-in-up pointer-events-none">
+                <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-[10px] font-bold text-red-500 dark:text-red-400 animate-fade-in pointer-events-none">
                   +{heartClicks}
                 </span>
               )}

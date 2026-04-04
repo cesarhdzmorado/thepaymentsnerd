@@ -170,7 +170,7 @@ export default async function HomePage({
             </p>
             <div className="mx-auto mt-8 max-w-sm">
               <Suspense fallback={null}>
-                <SubscribeForm source="empty_state" />
+                <SubscribeForm source="empty_state" idPrefix="empty-subscribe" />
               </Suspense>
             </div>
           </div>
@@ -231,7 +231,7 @@ export default async function HomePage({
             </p>
             <div className="mx-auto mt-6 max-w-xl">
               <Suspense fallback={null}>
-                <SubscribeForm source="bottom_cta" />
+                <SubscribeForm source="bottom_cta" idPrefix="bottom-subscribe" />
               </Suspense>
             </div>
           </div>

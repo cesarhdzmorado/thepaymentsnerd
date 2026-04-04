@@ -141,7 +141,7 @@ select:focus-visible,
 }
 
 /* Gradient text fallback for non-WebKit browsers */
-@supports not (-webkit-background-clip: text) {
+@supports not (background-clip: text) {
   .bg-clip-text {
     -webkit-text-fill-color: unset;
     background: none !important;
@@ -207,17 +207,6 @@ select:focus-visible,
 }
 
 /* --- Animation utilities --- */
-@keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @keyframes fade-in {
   from {
     opacity: 0;

@@ -37,7 +37,7 @@ function ShareLink({
   );
 }
 
-export function SubscribeForm({ source = "homepage" }: { source?: string }) {
+export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: { source?: string; idPrefix?: string }) {
   const searchParams = useSearchParams();
 
   const subscribedFlag = searchParams.get("subscribed");
@@ -164,7 +164,7 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
       {/* Form */}
       <form onSubmit={onSubmit} className="w-full max-w-xl mx-auto px-4">
         <label
-          htmlFor="subscribe-email"
+          htmlFor={`${idPrefix}-email`}
           className="mb-2 block text-left text-sm font-medium text-slate-700 dark:text-slate-300"
         >
           Email address
@@ -172,7 +172,7 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
         <div className="flex flex-col sm:flex-row gap-3">
           <div className={`relative flex-1 ${status === "error" ? "animate-shake" : ""}`}>
             <Input
-              id="subscribe-email"
+              id={`${idPrefix}-email`}
               name="email"
               type="email"
               inputMode="email"
@@ -189,7 +189,7 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
               }}
               disabled={status === "loading"}
               aria-invalid={status === "error"}
-              aria-describedby={hasFeedbackMessage ? "subscribe-feedback" : undefined}
+              aria-describedby={hasFeedbackMessage ? `${idPrefix}-feedback` : undefined}
             />
             {status === "success" && (
               <CheckCircle2 className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-green-600 dark:text-green-400 animate-scale-in" />
@@ -222,7 +222,7 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
       {/* Error message */}
       {status === "error" && message && (
         <div
-          id="subscribe-feedback"
+          id={`${idPrefix}-feedback`}
           role="alert"
           aria-live="assertive"
           className={`${cardClasses()} mt-5 px-4 py-3 text-sm font-medium flex items-center justify-center gap-2 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 border-red-200 dark:border-red-800 animate-shake`}
@@ -235,10 +235,10 @@ export function SubscribeForm({ source = "homepage" }: { source?: string }) {
       {/* Unified success + referral card */}
       {status === "success" && (
         <div
-          id="subscribe-feedback"
+          id={`${idPrefix}-feedback`}
           role="status"
           aria-live="polite"
-          className={`${cardClasses()} mt-5 p-4 text-left animate-fade-in-up`}
+          className={`${cardClasses()} mt-5 p-4 text-left animate-fade-in`}
         >
           <div className="flex items-center gap-2 text-sm font-medium text-green-700 dark:text-green-300">
             <CheckCircle2 className="h-4 w-4 flex-shrink-0" />

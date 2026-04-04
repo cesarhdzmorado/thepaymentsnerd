@@ -33,6 +33,20 @@
 ### ~~Update weekly recap voice to match daily format~~ DONE
 **Fixed:** Replaced prescriptive multi-sentence perspective with 1-sentence theme line format matching the daily newsletter. Updated writer prompt, JSON output spec, and editor quality checks.
 
+## Accessibility
+
+### Add ARIA live region wrapper to SubscribeForm feedback
+**Priority:** P3
+**Why:** Screen reader users may not be notified of subscribe success/error because focus stays on the submit button. The existing `role="status"` and `role="alert"` attributes are on conditionally rendered elements, so an always-present wrapper with `aria-live="polite"` would provide more reliable announcements.
+**Where:** `web/components/SubscribeForm.tsx`
+
+## Resilience
+
+### Distinguish error vs empty in homepage data fetching
+**Priority:** P2
+**Why:** `getLatestNewsletter()` and `getNewsletterByDate()` in `web/app/page.tsx` return `null` for both "no data" and "fetch error." The empty state shows "We're brewing tomorrow's edition" which is misleading during Supabase outages. Should return `{ data, error }` and show a different UI for errors vs genuinely empty state.
+**Where:** `web/app/page.tsx` data fetching functions + empty state rendering
+
 ## Database Hygiene
 
 ### ~~Add UNIQUE constraint on referral_code column~~ DONE

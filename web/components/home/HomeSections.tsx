@@ -117,7 +117,7 @@ export function LeadStorySection({ heroStory }: { heroStory: NewsItem | null }) 
 
   return (
     <AnimateOnScroll>
-    <section id="lead-story" className="mb-16">
+      <section id="lead-story" className="mb-16">
       <div className="mb-6 flex items-center gap-3">
         <div className="h-px flex-1 bg-gradient-to-r from-transparent via-blue-500/30 to-transparent dark:via-cyan-500/30" />
         <h2 className="text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">
@@ -189,7 +189,7 @@ export function LeadStorySection({ heroStory }: { heroStory: NewsItem | null }) 
           aria-hidden="true"
         />
       </article>
-    </section>
+      </section>
     </AnimateOnScroll>
   );
 }
@@ -199,7 +199,7 @@ export function QuickHitsSection({ quickHits }: { quickHits: NewsItem[] }) {
 
   return (
     <AnimateOnScroll>
-    <section id="quick-hits" className="mb-24">
+      <section id="quick-hits" className="mb-24">
       <div className="mb-8 flex items-center gap-3">
         <div className="h-px flex-1 bg-gradient-to-r from-transparent via-slate-300 to-transparent dark:via-slate-700" />
         <h2 className="text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">
@@ -265,7 +265,7 @@ export function QuickHitsSection({ quickHits }: { quickHits: NewsItem[] }) {
           );
         })}
       </div>
-    </section>
+      </section>
     </AnimateOnScroll>
   );
 }
@@ -273,10 +273,10 @@ export function QuickHitsSection({ quickHits }: { quickHits: NewsItem[] }) {
 export function CuriositySection({ curiosity }: { curiosity: Curiosity }) {
   return (
     <AnimateOnScroll>
-    <section
-      id="curiosity"
-      className="relative"
-    >
+      <section
+        id="curiosity"
+        className="relative"
+      >
       <div
         className="pointer-events-none absolute inset-0 -z-10 scale-105 rounded-3xl blur-3xl
                    bg-gradient-to-r from-amber-400/15 via-orange-400/15 to-yellow-400/15
@@ -328,7 +328,7 @@ export function CuriositySection({ curiosity }: { curiosity: Curiosity }) {
           )}
         </blockquote>
       </div>
-    </section>
+      </section>
     </AnimateOnScroll>
   );
 }
@@ -338,10 +338,10 @@ export function WhatsHotSection({ whatsHot }: { whatsHot: WhatsHotItem[] }) {
 
   return (
     <AnimateOnScroll>
-    <section
-      id="whats-hot"
-      className="mt-16 relative"
-    >
+      <section
+        id="whats-hot"
+        className="mt-16 relative"
+      >
       <div
         className="pointer-events-none absolute inset-0 -z-10 scale-105 rounded-3xl blur-3xl
                    bg-gradient-to-r from-red-400/15 via-orange-400/15 to-rose-400/15
@@ -417,7 +417,7 @@ export function WhatsHotSection({ whatsHot }: { whatsHot: WhatsHotItem[] }) {
           ))}
         </div>
       </div>
-    </section>
+      </section>
     </AnimateOnScroll>
   );
 }

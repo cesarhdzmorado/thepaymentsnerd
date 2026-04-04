@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState, type ReactNode } from "react";
+import { Children, useEffect, useState, type ReactNode } from "react";
+import { hiddenStyle, visibleStyle, transitionString } from "@/lib/animationConfig";
 
 interface HeroItemProps {
   children: ReactNode;
@@ -24,9 +25,8 @@ function HeroItem({ children, delay }: HeroItemProps) {
   return (
     <div
       style={{
-        opacity: visible ? 1 : 0,
-        transform: visible ? "translateY(0)" : "translateY(20px)",
-        transition: "opacity 0.6s ease-out, transform 0.6s ease-out",
+        ...(visible ? visibleStyle : hiddenStyle),
+        transition: transitionString(),
       }}
     >
       {children}
@@ -35,13 +35,14 @@ function HeroItem({ children, delay }: HeroItemProps) {
 }
 
 interface HeroAnimationsProps {
-  children: ReactNode[];
+  children: ReactNode;
 }
 
 export function HeroAnimations({ children }: HeroAnimationsProps) {
+  const items = Children.toArray(children);
   return (
     <>
-      {children.map((child, i) => (
+      {items.map((child, i) => (
         <HeroItem key={i} delay={i * 80}>
           {child}
         </HeroItem>
