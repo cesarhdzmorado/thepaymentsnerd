@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.2.0] - 2026-04-04
+
+### Added
+- Skip-to-content keyboard navigation link for screen readers and keyboard users
+- Gradient text contrast fallback for non-WebKit browsers via `@supports` query
+- Scroll-triggered animations using IntersectionObserver, replacing the old CSS-only approach that left the page blank for over a second on load
+- Bottom subscribe CTA section after newsletter content
+- Warm empty state with subscribe form when no newsletter is available
+- 17 new tests covering animation logic, hero stagger behavior, and regression guards
+
+### Changed
+- Homepage content now loads visible immediately (SSR-safe), animates on scroll instead of all-at-once on page load
+- Hero section compacted on mobile: smaller logo, tighter spacing, share buttons hidden below `sm` breakpoint
+- SubscribeForm accepts `idPrefix` prop to prevent duplicate HTML IDs when rendered multiple times
+
+### Removed
+- Colored gradient left-border from lead story card (AI slop pattern)
+- `animate-fade-in-up` CSS class and `@keyframes fade-in-up` (replaced by JS-controlled transitions)
+- Staggered animation delay utility classes (`.delay-100` through `.delay-400`)
+
 ## [0.1.1.1] - 2026-04-03
 
 ### Added

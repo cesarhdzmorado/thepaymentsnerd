@@ -1,5 +1,6 @@
 export const revalidate = 900;
 
+import { Suspense } from "react";
 import { promises as fs } from "fs";
 import path from "path";
 import { Footer } from "@/components/Footer";
@@ -16,6 +17,7 @@ import type {
 } from "@/components/home/HomeSections";
 import { NewsletterNavigation } from "@/components/NewsletterNavigation";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { SubscribeForm } from "@/components/SubscribeForm";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import { supabase } from "@/lib/supabaseClient";
 
@@ -157,11 +159,21 @@ export default async function HomePage({
       <div className="relative min-h-screen">
         <HomeBackground />
         <section className="mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center px-6 text-center">
-          <h1 className="text-2xl font-bold">No Newsletter Available</h1>
-          <p className="mt-4 max-w-md text-lg text-muted">
-            We&apos;re working on bringing you the latest payment industry
-            insights. Please check back soon!
-          </p>
+          <div className="card-surface-strong p-10 sm:p-14">
+            <div className="mb-6 text-5xl" aria-hidden="true">☕</div>
+            <h1 className="text-2xl sm:text-3xl font-bold font-display">
+              We&apos;re brewing tomorrow&apos;s edition
+            </h1>
+            <p className="mt-4 max-w-md mx-auto text-lg text-muted">
+              Five critical payments insights are on the way. Subscribe now and
+              we&apos;ll deliver them straight to your inbox.
+            </p>
+            <div className="mx-auto mt-8 max-w-sm">
+              <Suspense fallback={null}>
+                <SubscribeForm source="empty_state" idPrefix="empty-subscribe" />
+              </Suspense>
+            </div>
+          </div>
         </section>
       </div>
     );
@@ -208,6 +220,22 @@ export default async function HomePage({
         <CuriositySection curiosity={newsletter.content.curiosity} />
 
         <WhatsHotSection whatsHot={newsletter.content.whats_hot ?? []} />
+
+        <section className="mt-16">
+          <div className="card-surface-strong p-8 sm:p-10 text-center">
+            <h2 className="text-2xl sm:text-3xl font-bold font-display">
+              Get tomorrow&apos;s edition
+            </h2>
+            <p className="mt-2 text-muted">
+              Five payments insights, delivered every weekday morning.
+            </p>
+            <div className="mx-auto mt-6 max-w-xl">
+              <Suspense fallback={null}>
+                <SubscribeForm source="bottom_cta" idPrefix="bottom-subscribe" />
+              </Suspense>
+            </div>
+          </div>
+        </section>
 
         <div className="mt-20">
           <NewsletterNavigation
