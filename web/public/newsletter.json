@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "Cross River Raises $50M to Accelerate Embedded AI and Crypto Finance Stack",
-      "body": "Cross River secured a $50 million capital injection to deepen its investments in AI and crypto technologies, aiming to enhance its embedded finance platform. This move positions Cross River to outpace rivals in integrating programmable money and AI-driven workflows into partner offerings. For operators, the bar for embedded finance is rising from simple APIs to intelligent, multi-asset orchestration. Expect increased competition as fintechs race to bundle AI and crypto rails into mainstream B2B and B2C flows.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47530/cross-river-banks-50-million-capital-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Italy Hits Revolut With \u20ac11.5M Fine, Raising Compliance Stakes for Fintechs",
-      "body": "Italy\u2019s competition authority fined Revolut \u20ac11.5 million for misleading investment service claims and deceptive banking practices. This enforcement action puts compliance and consumer duty at the center of fintech operating risk, especially for cross-border players. Operators should expect heightened regulatory scrutiny and must invest in transparent disclosures and robust controls to avoid similar penalties. The winners will be those who treat compliance as a product feature, not a cost center.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47532/italy-fines-revolut-115m?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Stablecoin Payments Face KYC Friction as Real-World Adoption Grows",
-      "body": "Stablecoins are gaining traction in real-world commerce, but persistent KYC hurdles are stalling seamless user experiences and merchant adoption. Operators who can embed frictionless, compliant KYC into stablecoin flows will gain a defensible edge as regulatory expectations tighten. The next phase of stablecoin competition will be won by those who solve for both compliance and conversion, not just on-chain speed.",
+      "title": "Circle Faces Criticism for Slow Response to $232M Drift Hack, Raising Stablecoin Security Stakes",
+      "body": "Circle is under scrutiny after critics say it failed to promptly freeze $232 million in USDC stolen from the Drift protocol, allowing the funds to move from Solana to Ethereum. The delayed response puts Circle\u2019s risk controls in the spotlight and gives competitors an opportunity to promote their own security and incident response capabilities. Stablecoin issuers now face heightened demands from regulators and institutional clients for real-time safeguarding and operational resilience.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoins-meet-real-world-commerce-but-kyc-keeps-breaking-the-experience/"
+        "url": "https://www.pymnts.com/cybersecurity/2026/critics-circle-failed-to-block-drift-hack-transfer/"
       }
     },
     {
-      "title": "TikTok Seeks Brazil Payments License, Threatening Local Fintech and Bank Defenses",
-      "body": "TikTok has applied for financial services licenses in Brazil to operate as an electronic money and credit provider, signaling intent to embed payments and lending into its platform. This move threatens to upend the competitive landscape for incumbent banks and fintechs, as TikTok\u2019s distribution and engagement could rapidly shift consumer payment flows. Operators in high-growth markets must prepare for platform-native entrants who can bypass traditional acquisition channels and regulatory playbooks.",
+      "title": "Shopify Opens B2B Commerce Tools to All Merchants, Escalating Platform Competition",
+      "body": "Shopify has expanded its B2B features beyond Shopify Plus, making advanced business tools available to all merchants on its platform. This move levels the playing field for smaller sellers and intensifies competition with other e-commerce and payments platforms targeting the B2B segment. Competing platforms must now accelerate their own B2B product roadmaps or risk losing merchant share to Shopify\u2019s broader ecosystem.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/shopify-expands-availability-of-b2b-tools-to-all-merchants/"
+      }
+    },
+    {
+      "title": "Cash App Debuts Installment Plans for P2P Transfers, Redefining Consumer Payment Flexibility",
+      "body": "Cash App has introduced a feature allowing users to split peer-to-peer payments into installment plans, a first among major U.S. finance apps. This move shifts consumer expectations for flexibility in everyday payments and forces rivals like Venmo and Zelle to follow suit. Fintechs now have to rethink product design as installment options become a new battleground for user engagement.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47525/tiktok-seeks-financial-services-licences-in-brazil?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109364/cash-app-adds-instalment-plans-for-p2p-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa and Mastercard Face New US Antitrust Lawsuit Over Card Fees",
-      "body": "A new antitrust lawsuit in the US targets Visa and Mastercard, alleging that the card giants conspired to keep interchange fees high for merchants. The suit, brought by a group of retailers, could reignite debate over the cost of card acceptance and the power of network rules. If you're managing payments for a merchant or fintech, keep an eye on this case\u2014regulatory and legal pressure on interchange economics could reshape pricing, incentives, and even the viability of alternative payment rails.",
+      "title": "Coinbase Secures Conditional OCC Charter, Raising Bar for Crypto Regulatory Compliance",
+      "body": "Coinbase has received conditional approval from the OCC for a national trust charter, strengthening its regulatory position in the U.S. This milestone could attract more institutional clients and sets a new compliance benchmark for crypto exchanges seeking mainstream legitimacy. Competitors now face higher expectations for regulatory clarity and operational transparency if they want to win institutional flows.",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/visa-mastercard-face-new-us-antitrust-lawsuit-over-card-fees-2024-06-10/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/coinbase-nabs-conditional-occ-charter-approval/816614/"
+      }
+    },
+    {
+      "title": "Latitude Raises $8M to Build Stablecoin Rails for Cross-Border Payments",
+      "body": "Latitude, a stablecoin startup founded by Stripe and Coinbase alumni, has raised $8 million to develop cross-border payment solutions. The funding highlights investor appetite for programmable stablecoin infrastructure and prompts banks and PSPs to reassess their cross-border strategies as new entrants challenge Circle and Tether with faster, programmable money capabilities.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109366/stripe-and-coinbase-vets-raise-8m-for-stablecoin-startup?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "If you\u2019re building in payments right now, you can feel the ground shifting beneath your feet. I\u2019m struck by how Cross River\u2019s $50M bet on AI and crypto isn\u2019t just about new tech\u2014it\u2019s about raising the bar for what embedded finance even means. Meanwhile, Revolut\u2019s \u20ac11.5M fine in Italy is a wake-up call: compliance isn\u2019t a box to check, it\u2019s a core product feature. And with Visa and Mastercard facing fresh antitrust heat, the old rules of card economics are suddenly up for grabs. If your team is still treating compliance, intelligence, and network strategy as separate playbooks, you\u2019re missing how fast these are converging. The winners will be those who can adapt\u2014operationalizing trust, speed, and regulatory resilience all at once.",
+  "perspective": "Today: Circle faces scrutiny after the Drift hack, Shopify expands B2B tools for all merchants, and Coinbase secures a conditional OCC charter.",
   "curiosity": {
-    "text": "The first recorded use of a paper check dates back to 9th-century Baghdad, where merchants used written orders called 'sakk' to instruct banks to make payments\u2014an early precursor to the modern checking system."
+    "text": "Did you know the 1978 Electronic Fund Transfer Act (EFTA) not only protected consumers from unauthorized transactions but also set standards that shaped how modern payment networks handle error resolution and liability?"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "fundraising",
-      "company": "Kulipa",
-      "description": "Raised $6.2M for stablecoin-native card issuing.",
-      "source_url": "https://www.finextra.com/newsarticle/47529/kulipa-raises-62m-for-stablecoin-native-card-issuing-infrastructure-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Latitude",
-      "description": "Raised $8M for stablecoin startup.",
-      "source_url": "https://www.finextra.com/pressarticle/109366/stripe-and-coinbase-vets-raise-8m-for-stablecoin-startup?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Cross River",
+      "description": "Raised $50M to invest in AI and crypto.",
+      "source_url": "https://www.finextra.com/newsarticle/47530/cross-river-banks-50-million-capital-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddf0\ud83c\uddea",
-      "type": "M&A",
-      "company": "Moniepoint",
-      "description": "Acquired Sumac Microfinance Bank in Kenya.",
-      "source_url": "https://www.finextra.com/pressarticle/109346/moniepoint-enters-kenya-with-acquisition-of-sumac-microfinance-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "product",
+      "company": "Bitget",
+      "description": "Launched Visa crypto card in APAC.",
+      "source_url": "https://www.finextra.com/pressarticle/109355/bitget-to-issues-visa-crypto-card-for-spending-across-apac?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Franklin Templeton",
-      "description": "Acquiring crypto investment firm 250 Digital.",
-      "source_url": "https://www.bankingdive.com/news/franklin-templeton-crypto-acquisition-250-digital-perkins-ginns-kaul/816386/"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Monzo",
+      "description": "Exiting US to focus on UK and Europe.",
+      "source_url": "https://sifted.eu/articles/monzo-us-exit-fintech/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "9fin",
+      "description": "Raised $170M, becoming a unicorn.",
+      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Upvest",
+      "description": "Raised $125M backed by Tencent and Sapphire Ventures.",
+      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddf9",
+      "type": "fundraising",
+      "company": "Eunice",
+      "description": "Raised $8M for due diligence startup.",
+      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
     }
   ]
 }
