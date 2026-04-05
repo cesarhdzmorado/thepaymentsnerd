@@ -1,92 +1,85 @@
 {
   "news": [
     {
-      "title": "Circle Faces Criticism for Slow Response to $232M Drift Hack, Raising Stablecoin Security Stakes",
-      "body": "Circle is under scrutiny after critics say it failed to promptly freeze $232 million in USDC stolen from the Drift protocol, allowing the funds to move from Solana to Ethereum. The delayed response puts Circle\u2019s risk controls in the spotlight and gives competitors an opportunity to promote their own security and incident response capabilities. Stablecoin issuers now face heightened demands from regulators and institutional clients for real-time safeguarding and operational resilience.",
+      "title": "Charles Schwab Opens Waitlist for Direct Bitcoin and Ether Trading",
+      "body": "Charles Schwab has opened a waitlist for direct Bitcoin and Ether trading, with an initial rollout expected soon. This move brings crypto access to Schwab\u2019s mainstream brokerage clients and intensifies competition with both fintechs and legacy brokers. Traditional brokerages must now accelerate crypto product development or risk losing digitally savvy investors as crypto trading becomes a baseline feature for retail investment platforms.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/critics-circle-failed-to-block-drift-hack-transfer/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/396358/charles-schwab-opens-waitlist-for-direct-bitcoin-and-ether-trading-targeting-q2-limited-launch"
       }
     },
     {
-      "title": "Shopify Opens B2B Commerce Tools to All Merchants, Escalating Platform Competition",
-      "body": "Shopify has expanded its B2B features beyond Shopify Plus, making advanced business tools available to all merchants on its platform. This move levels the playing field for smaller sellers and intensifies competition with other e-commerce and payments platforms targeting the B2B segment. Competing platforms must now accelerate their own B2B product roadmaps or risk losing merchant share to Shopify\u2019s broader ecosystem.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/shopify-expands-availability-of-b2b-tools-to-all-merchants/"
-      }
-    },
-    {
-      "title": "Cash App Debuts Installment Plans for P2P Transfers, Redefining Consumer Payment Flexibility",
-      "body": "Cash App has introduced a feature allowing users to split peer-to-peer payments into installment plans, a first among major U.S. finance apps. This move shifts consumer expectations for flexibility in everyday payments and forces rivals like Venmo and Zelle to follow suit. Fintechs now have to rethink product design as installment options become a new battleground for user engagement.",
+      "title": "Saudi Arabia Grants First Major Payment Institution Licence to Lean Technologies",
+      "body": "The Saudi Central Bank has awarded its inaugural Major Payment Institution licence to Lean Technologies, marking a milestone for open banking in the Kingdom. Lean\u2019s regulatory approval sets a precedent for fintechs seeking to operate at scale in Saudi Arabia\u2019s rapidly evolving payments sector. Early licensees gain a head start in shaping standards and capturing market share as open banking adoption accelerates.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109364/cash-app-adds-instalment-plans-for-p2p-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47504/saudi-arabia-issues-first-major-payment-institution-licence-to-lean-technologies"
       }
     },
     {
-      "title": "Coinbase Secures Conditional OCC Charter, Raising Bar for Crypto Regulatory Compliance",
-      "body": "Coinbase has received conditional approval from the OCC for a national trust charter, strengthening its regulatory position in the U.S. This milestone could attract more institutional clients and sets a new compliance benchmark for crypto exchanges seeking mainstream legitimacy. Competitors now face higher expectations for regulatory clarity and operational transparency if they want to win institutional flows.",
+      "title": "IMF Flags Tokenized Finance as Systemic Risk, Urges Central Bank Settlement",
+      "body": "The IMF has warned that tokenized finance could amplify market crises and has urged central banks to anchor settlement systems. By advocating for central bank involvement, the IMF directly challenges DeFi platforms and signals a preference for regulated digital asset infrastructure. Central banks and policymakers may accelerate work on CBDCs and regulated tokenized settlement to address these concerns, while DeFi platforms face heightened regulatory scrutiny.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/coinbase-nabs-conditional-occ-charter-approval/816614/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/396353/imf-warns-tokenized-finance-could-amplify-market-crises-urges-central-bank-anchored-settlement"
       }
     },
     {
-      "title": "Latitude Raises $8M to Build Stablecoin Rails for Cross-Border Payments",
-      "body": "Latitude, a stablecoin startup founded by Stripe and Coinbase alumni, has raised $8 million to develop cross-border payment solutions. The funding highlights investor appetite for programmable stablecoin infrastructure and prompts banks and PSPs to reassess their cross-border strategies as new entrants challenge Circle and Tether with faster, programmable money capabilities.",
+      "title": "UK FinTechs VibePay and Smartlayer Shut Down Amid Sector Headwinds",
+      "body": "VibePay and Smartlayer, two UK fintechs, have ceased operations, with VibePay entering liquidation after a failed acquisition. These closures highlight the difficulty of achieving profitability and securing funding for fintechs without scale or a unique value proposition. Smaller fintechs in the UK may now seek strategic partnerships or M&A to survive, while investors focus more on sustainable business models.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/business/2026/uk-fintechs-vibepay-and-smartlayer-close-down/"
+      }
+    },
+    {
+      "title": "Truist Partners with Plaid to Expand Open Banking Access for Customers",
+      "body": "Truist has partnered with Plaid to enhance its open banking capabilities, giving customers broader access to their financial data and third-party services. This move strengthens Truist\u2019s digital offering and positions it to compete with fintechs on user experience and data connectivity. Regional and super-regional US banks are likely to pursue similar partnerships as open banking becomes a core expectation for retail and business clients.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109366/stripe-and-coinbase-vets-raise-8m-for-stablecoin-startup?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47435/truist-taps-plaid-to-expand-open-banking-offerings"
       }
     }
   ],
-  "perspective": "Today: Circle faces scrutiny after the Drift hack, Shopify expands B2B tools for all merchants, and Coinbase secures a conditional OCC charter.",
+  "perspective": "Charles Schwab\u2019s crypto waitlist and Lean Technologies\u2019 Saudi licence highlight how incumbents and fintechs are racing to meet new digital expectations.",
   "curiosity": {
-    "text": "Did you know the 1978 Electronic Fund Transfer Act (EFTA) not only protected consumers from unauthorized transactions but also set standards that shaped how modern payment networks handle error resolution and liability?"
+    "text": "PSD2, the 2015 update to the EU\u2019s Payment Services Directive, unexpectedly accelerated the rise of open banking by requiring banks to share customer data with licensed third parties."
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Kulipa",
+      "description": "Raised $6.2M for stablecoin-native card issuing platform",
+      "source_url": "https://www.finextra.com/newsarticle/47529/kulipa-raises-62m-for-stablecoin-native-card-issuing-infrastructure-platform"
+    },
+    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Cross River",
-      "description": "Raised $50M to invest in AI and crypto.",
-      "source_url": "https://www.finextra.com/newsarticle/47530/cross-river-banks-50-million-capital-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
-      "type": "product",
-      "company": "Bitget",
-      "description": "Launched Visa crypto card in APAC.",
-      "source_url": "https://www.finextra.com/pressarticle/109355/bitget-to-issues-visa-crypto-card-for-spending-across-apac?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Monzo",
-      "description": "Exiting US to focus on UK and Europe.",
-      "source_url": "https://sifted.eu/articles/monzo-us-exit-fintech/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "9fin",
-      "description": "Raised $170M, becoming a unicorn.",
-      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
+      "company": "Latitude",
+      "description": "Raised $8M for stablecoin startup from Stripe and Coinbase vets",
+      "source_url": "https://www.finextra.com/pressarticle/109366/stripe-and-coinbase-vets-raise-8m-for-stablecoin-startup"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "Raised $125M backed by Tencent and Sapphire Ventures.",
+      "description": "Secured $125M backing from Tencent and Sapphire Ventures",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddf9",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Eunice",
-      "description": "Raised $8M for due diligence startup.",
+      "description": "Raised $8M for due diligence infrastructure",
       "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Steward",
+      "description": "Raised $5M for AI platform to fix investor onboarding",
+      "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million"
     }
   ]
 }
