@@ -1,49 +1,49 @@
 {
   "news": [
     {
-      "title": "Charles Schwab Opens Waitlist for Direct Bitcoin and Ether Trading",
-      "body": "Charles Schwab has opened a waitlist for direct Bitcoin and Ether trading, with an initial rollout expected soon. This move brings crypto access to Schwab\u2019s mainstream brokerage clients and intensifies competition with both fintechs and legacy brokers. Traditional brokerages must now accelerate crypto product development or risk losing digitally savvy investors as crypto trading becomes a baseline feature for retail investment platforms.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/396358/charles-schwab-opens-waitlist-for-direct-bitcoin-and-ether-trading-targeting-q2-limited-launch"
-      }
-    },
-    {
-      "title": "Saudi Arabia Grants First Major Payment Institution Licence to Lean Technologies",
-      "body": "The Saudi Central Bank has awarded its inaugural Major Payment Institution licence to Lean Technologies, marking a milestone for open banking in the Kingdom. Lean\u2019s regulatory approval sets a precedent for fintechs seeking to operate at scale in Saudi Arabia\u2019s rapidly evolving payments sector. Early licensees gain a head start in shaping standards and capturing market share as open banking adoption accelerates.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47504/saudi-arabia-issues-first-major-payment-institution-licence-to-lean-technologies"
-      }
-    },
-    {
-      "title": "IMF Flags Tokenized Finance as Systemic Risk, Urges Central Bank Settlement",
-      "body": "The IMF has warned that tokenized finance could amplify market crises and has urged central banks to anchor settlement systems. By advocating for central bank involvement, the IMF directly challenges DeFi platforms and signals a preference for regulated digital asset infrastructure. Central banks and policymakers may accelerate work on CBDCs and regulated tokenized settlement to address these concerns, while DeFi platforms face heightened regulatory scrutiny.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/396353/imf-warns-tokenized-finance-could-amplify-market-crises-urges-central-bank-anchored-settlement"
-      }
-    },
-    {
-      "title": "UK FinTechs VibePay and Smartlayer Shut Down Amid Sector Headwinds",
-      "body": "VibePay and Smartlayer, two UK fintechs, have ceased operations, with VibePay entering liquidation after a failed acquisition. These closures highlight the difficulty of achieving profitability and securing funding for fintechs without scale or a unique value proposition. Smaller fintechs in the UK may now seek strategic partnerships or M&A to survive, while investors focus more on sustainable business models.",
+      "title": "Ant Group Launches Platform for Autonomous AI Agent Crypto Transactions",
+      "body": "Ant Group has introduced a platform that enables AI agents to autonomously execute cryptocurrency transactions, moving agent-to-agent commerce from concept to production. The launch marks one of the first large-scale deployments of agentic AI in payments by a major financial technology firm. Crypto exchanges and payment service providers (PSPs) now face a new competitive dynamic as AI-driven flows could bypass traditional interfaces. Chinese regulators are expected to closely examine the risks and controls of autonomous transaction models, while global rivals may accelerate their own AI pilots.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/business/2026/uk-fintechs-vibepay-and-smartlayer-close-down/"
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ant-group-platform-lets-ai-agents-make-crypto-transactions/"
       }
     },
     {
-      "title": "Truist Partners with Plaid to Expand Open Banking Access for Customers",
-      "body": "Truist has partnered with Plaid to enhance its open banking capabilities, giving customers broader access to their financial data and third-party services. This move strengthens Truist\u2019s digital offering and positions it to compete with fintechs on user experience and data connectivity. Regional and super-regional US banks are likely to pursue similar partnerships as open banking becomes a core expectation for retail and business clients.",
+      "title": "42% of CFOs Signal Stablecoin Interest as Corporate Payment Use Cases Expand",
+      "body": "A new report finds that 42% of CFOs are interested in using stablecoins for payments, reflecting growing institutional appetite for digital assets. This trend puts pressure on banks and PSPs to integrate stablecoin rails or risk losing corporate treasury flows to fintechs like Circle and Fireblocks, which are gaining traction with programmable settlement and faster onboarding. Stablecoin adoption is poised to accelerate in cross-border and B2B payments, with regulatory clarity now a gating factor for mainstream uptake.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47435/truist-taps-plaid-to-expand-open-banking-offerings"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/42-percent-of-cfos-express-interest-in-stablecoins-as-payments-use-cases-grow/"
+      }
+    },
+    {
+      "title": "Visa Expands Tap-to-Phone Payments to Micro-Merchants in Africa",
+      "body": "Visa has rolled out tap-to-phone technology across several African markets, enabling micro-merchants to accept contactless payments using only a smartphone. This move lowers hardware barriers for small businesses and could accelerate digital payment adoption in cash-heavy economies. Local banks and fintechs are partnering with Visa to onboard merchants, while mobile money operators may face new competition for everyday transactions.",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/visa-tap-to-phone-africa-micro-merchants/"
+      }
+    },
+    {
+      "title": "Bolt Cuts One-Third of Staff to Double Down on AI-Driven Checkout Solutions",
+      "body": "Bolt has laid off about a third of its workforce as it pivots to prioritize AI-powered checkout and payments products. The restructuring aims to sharpen Bolt\u2019s competitive edge but may disrupt current merchant relationships and slow feature delivery in the near term. Competing payment providers could attract Bolt\u2019s displaced talent or clients, while Bolt\u2019s future now depends on rapid AI product execution and new strategic partnerships.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
+      }
+    },
+    {
+      "title": "Monzo Exits US Market, Refocuses on Europe After Securing Banking License",
+      "body": "Monzo will shutter its US operations and lay off around 50 staff, redirecting resources to Europe where it recently secured a full banking license. US neobanks and fintechs such as Chime and Varo may see reduced competition and greater customer acquisition opportunities, while European challengers face a more aggressive Monzo with fresh regulatory backing. Monzo is expected to accelerate product launches and partnerships in the UK and EU, prompting other fintechs to reassess their cross-border ambitions.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/monzo-close-us-accounts-june-operations-50-layoffs-europe-license-anil-layfield-uk-ipo/816357/"
       }
     }
   ],
-  "perspective": "Charles Schwab\u2019s crypto waitlist and Lean Technologies\u2019 Saudi licence highlight how incumbents and fintechs are racing to meet new digital expectations.",
+  "perspective": "Ant Group\u2019s AI crypto launch and Monzo\u2019s US exit signal a shift as global fintechs recalibrate strategies and banks face new digital competition.",
   "curiosity": {
-    "text": "PSD2, the 2015 update to the EU\u2019s Payment Services Directive, unexpectedly accelerated the rise of open banking by requiring banks to share customer data with licensed third parties."
+    "text": "Despite blockchain\u2019s promise, the World Bank found that in 2023, average remittance costs to Sub-Saharan Africa remained above 8%, far higher than the global average."
   },
   "whats_hot": [
     {
@@ -54,32 +54,25 @@
       "source_url": "https://www.finextra.com/newsarticle/47529/kulipa-raises-62m-for-stablecoin-native-card-issuing-infrastructure-platform"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Latitude",
-      "description": "Raised $8M for stablecoin startup from Stripe and Coinbase vets",
-      "source_url": "https://www.finextra.com/pressarticle/109366/stripe-and-coinbase-vets-raise-8m-for-stablecoin-startup"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Upvest",
-      "description": "Secured $125M backing from Tencent and Sapphire Ventures",
-      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Eunice",
-      "description": "Raised $8M for due diligence infrastructure",
-      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "type": "expansion",
+      "company": "Lean Technologies",
+      "description": "Received first Major Payment Institution license for open banking",
+      "source_url": "https://www.finextra.com/newsarticle/47504/saudi-arabia-issues-first-major-payment-institution-licence-to-lean-technologies"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Steward",
-      "description": "Raised $5M for AI platform to fix investor onboarding",
-      "source_url": "https://www.finextra.com/newsarticle/47446/investor-onboarding-startup-steward-raises-5-million"
+      "type": "product",
+      "company": "Charles Schwab",
+      "description": "Opened waitlist for direct bitcoin and ether trading",
+      "source_url": "https://www.theblock.co/post/396358/charles-schwab-opens-waitlist-for-direct-bitcoin-and-ether-trading-targeting-q2-limited-launch"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "regulatory",
+      "company": "Coinbase",
+      "description": "Received conditional OCC charter approval",
+      "source_url": "https://www.bankingdive.com/news/coinbase-nabs-conditional-occ-charter-approval/816614/"
     }
   ]
 }
