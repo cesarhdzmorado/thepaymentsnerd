@@ -1,78 +1,85 @@
 {
   "news": [
     {
-      "title": "Ant Group Launches Platform for Autonomous AI Agent Crypto Transactions",
-      "body": "Ant Group has introduced a platform that enables AI agents to autonomously execute cryptocurrency transactions, moving agent-to-agent commerce from concept to production. The launch marks one of the first large-scale deployments of agentic AI in payments by a major financial technology firm. Crypto exchanges and payment service providers (PSPs) now face a new competitive dynamic as AI-driven flows could bypass traditional interfaces. Chinese regulators are expected to closely examine the risks and controls of autonomous transaction models, while global rivals may accelerate their own AI pilots.",
+      "title": "Coinbase Secures Conditional US Trust Bank Charter, Raising Stakes for Digital Asset Firms",
+      "body": "Coinbase received conditional approval from US regulators for a national trust bank charter, enabling it to operate as a federally regulated entity and expand its financial services. This move puts Coinbase in direct competition with both traditional banks and other digital asset firms, raising the bar for regulatory compliance in crypto. Other digital asset companies are likely to pursue similar charters, intensifying the race for regulatory legitimacy and broader market access.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47534/coinbase-wins-conditional-approval-for-national-trust-bank-charter?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Mastercard Expands Financial Inclusion Efforts with Digital Economy Push",
+      "body": "Mastercard is launching new initiatives to connect hundreds of millions of underbanked people and small businesses to the digital economy, building on its previous inclusion programs. The company is partnering with local fintechs and community organizations to accelerate digital onboarding and micro-merchant solutions, prompting banks and fintechs to expand their own outreach to underserved populations.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ant-group-platform-lets-ai-agents-make-crypto-transactions/"
+        "url": "https://www.pymnts.com/mastercard/2026/mastercard-plans-to-connect-500-million-more-underbanked-people/"
       }
     },
     {
-      "title": "42% of CFOs Signal Stablecoin Interest as Corporate Payment Use Cases Expand",
-      "body": "A new report finds that 42% of CFOs are interested in using stablecoins for payments, reflecting growing institutional appetite for digital assets. This trend puts pressure on banks and PSPs to integrate stablecoin rails or risk losing corporate treasury flows to fintechs like Circle and Fireblocks, which are gaining traction with programmable settlement and faster onboarding. Stablecoin adoption is poised to accelerate in cross-border and B2B payments, with regulatory clarity now a gating factor for mainstream uptake.",
+      "title": "Visa Survey Finds US Businesses Ready for AI-to-AI Commerce, Consumers Lag Behind",
+      "body": "A Visa survey found that over half of US businesses are open to letting AI agents negotiate prices and terms directly with other agents, signaling readiness for agentic AI commerce. While businesses see efficiency gains, consumers remain cautious about autonomous transactions. Early adopters among merchants and payment providers could gain a competitive edge, but regulatory scrutiny and demand for robust AI governance frameworks are set to increase.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47533/businesses-ready-to-embrace-ai-to-ai-commerce-consumers-more-wary----visa-survey?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Trulioo Moves Identity Verification to Continuous Monitoring Model",
+      "body": "Trulioo is shifting from one-time identity checks to ongoing monitoring, aiming to address evolving risks across financial platforms. This sets a new standard for identity verification providers and pushes banks and fintechs to upgrade their compliance and fraud prevention infrastructure. Competitors will need to invest in continuous verification or risk losing ground in regulated markets.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/42-percent-of-cfos-express-interest-in-stablecoins-as-payments-use-cases-grow/"
+        "url": "https://www.pymnts.com/identity/2026/trulioo-pushes-back-beyond-one-time-identity-checks/"
       }
     },
     {
-      "title": "Visa Expands Tap-to-Phone Payments to Micro-Merchants in Africa",
-      "body": "Visa has rolled out tap-to-phone technology across several African markets, enabling micro-merchants to accept contactless payments using only a smartphone. This move lowers hardware barriers for small businesses and could accelerate digital payment adoption in cash-heavy economies. Local banks and fintechs are partnering with Visa to onboard merchants, while mobile money operators may face new competition for everyday transactions.",
-      "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/visa-tap-to-phone-africa-micro-merchants/"
-      }
-    },
-    {
-      "title": "Bolt Cuts One-Third of Staff to Double Down on AI-Driven Checkout Solutions",
-      "body": "Bolt has laid off about a third of its workforce as it pivots to prioritize AI-powered checkout and payments products. The restructuring aims to sharpen Bolt\u2019s competitive edge but may disrupt current merchant relationships and slow feature delivery in the near term. Competing payment providers could attract Bolt\u2019s displaced talent or clients, while Bolt\u2019s future now depends on rapid AI product execution and new strategic partnerships.",
+      "title": "Instant Payments Security Arms Race Intensifies as AI-Driven Fraud Rises",
+      "body": "With instant payments adoption surging, payment processors and banks are ramping up security to counter increasingly sophisticated, AI-powered fraud schemes. Providers with advanced fraud prevention tools are gaining market share, while payment processors and security firms are forming new alliances to address urgent regulatory and customer demands for stronger protections.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
-      }
-    },
-    {
-      "title": "Monzo Exits US Market, Refocuses on Europe After Securing Banking License",
-      "body": "Monzo will shutter its US operations and lay off around 50 staff, redirecting resources to Europe where it recently secured a full banking license. US neobanks and fintechs such as Chime and Varo may see reduced competition and greater customer acquisition opportunities, while European challengers face a more aggressive Monzo with fresh regulatory backing. Monzo is expected to accelerate product launches and partnerships in the UK and EU, prompting other fintechs to reassess their cross-border ambitions.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/monzo-close-us-accounts-june-operations-50-layoffs-europe-license-anil-layfield-uk-ipo/816357/"
+        "url": "https://www.pymnts.com/fraud-prevention/2026/instant-payments-security-counters-rising-fraud-concerns/"
       }
     }
   ],
-  "perspective": "Ant Group\u2019s AI crypto launch and Monzo\u2019s US exit signal a shift as global fintechs recalibrate strategies and banks face new digital competition.",
+  "perspective": "Coinbase\u2019s trust bank charter and Mastercard\u2019s inclusion drive highlight how regulatory shifts and new partnerships are reshaping digital finance and compliance expectations.",
   "curiosity": {
-    "text": "Despite blockchain\u2019s promise, the World Bank found that in 2023, average remittance costs to Sub-Saharan Africa remained above 8%, far higher than the global average."
+    "text": "Did you know that the first digital currency, eCash, was introduced in 1998 by DigiCash, enabling users to make anonymous transactions online?"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
       "type": "fundraising",
-      "company": "Kulipa",
-      "description": "Raised $6.2M for stablecoin-native card issuing platform",
-      "source_url": "https://www.finextra.com/newsarticle/47529/kulipa-raises-62m-for-stablecoin-native-card-issuing-infrastructure-platform"
+      "company": "Xccelera",
+      "description": "Raised \u20b91.2 crore for agentic AI development",
+      "source_url": "https://www.finextra.com/pressarticle/109371/agentic-ai-startup-xccelera-raises-12-crore?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "9fin",
+      "description": "Raised $170m, becoming Europe's newest unicorn",
+      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Upvest",
+      "description": "Secured $125m from Tencent and Sapphire Ventures",
+      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Eunice",
+      "description": "Raised $8m for crypto compliance AI",
+      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
-      "company": "Lean Technologies",
-      "description": "Received first Major Payment Institution license for open banking",
-      "source_url": "https://www.finextra.com/newsarticle/47504/saudi-arabia-issues-first-major-payment-institution-licence-to-lean-technologies"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Charles Schwab",
-      "description": "Opened waitlist for direct bitcoin and ether trading",
-      "source_url": "https://www.theblock.co/post/396358/charles-schwab-opens-waitlist-for-direct-bitcoin-and-ether-trading-targeting-q2-limited-launch"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "regulatory",
-      "company": "Coinbase",
-      "description": "Received conditional OCC charter approval",
-      "source_url": "https://www.bankingdive.com/news/coinbase-nabs-conditional-occ-charter-approval/816614/"
+      "company": "Monzo",
+      "description": "Exiting US to focus on UK and Europe",
+      "source_url": "https://sifted.eu/articles/monzo-us-exit-fintech/"
     }
   ]
 }
