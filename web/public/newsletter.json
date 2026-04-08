@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Coinbase Secures Conditional US Trust Bank Charter, Raising Stakes for Digital Asset Firms",
-      "body": "Coinbase received conditional approval from US regulators for a national trust bank charter, enabling it to operate as a federally regulated entity and expand its financial services. This move puts Coinbase in direct competition with both traditional banks and other digital asset firms, raising the bar for regulatory compliance in crypto. Other digital asset companies are likely to pursue similar charters, intensifying the race for regulatory legitimacy and broader market access.",
+      "title": "Stablecoins Hit $33 Trillion in Annual Volume, Reshaping B2B Payment Economics",
+      "body": "Stablecoins now facilitate $33 trillion in annual transaction volume with a market cap of $312 billion, according to new data. This surge is shifting B2B payments away from traditional banks by offering faster, lower-cost cross-border transactions. Banks face immediate pressure on fee revenue and relevance in B2B corridors as corporates adopt stablecoin rails for settlement, while regulators respond to adoption that is outpacing legacy infrastructure.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47534/coinbase-wins-conditional-approval-for-national-trust-bank-charter?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47540/stablecoins-gain-traction-in-b2b-payments"
       }
     },
     {
-      "title": "Mastercard Expands Financial Inclusion Efforts with Digital Economy Push",
-      "body": "Mastercard is launching new initiatives to connect hundreds of millions of underbanked people and small businesses to the digital economy, building on its previous inclusion programs. The company is partnering with local fintechs and community organizations to accelerate digital onboarding and micro-merchant solutions, prompting banks and fintechs to expand their own outreach to underserved populations.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/mastercard/2026/mastercard-plans-to-connect-500-million-more-underbanked-people/"
-      }
-    },
-    {
-      "title": "Visa Survey Finds US Businesses Ready for AI-to-AI Commerce, Consumers Lag Behind",
-      "body": "A Visa survey found that over half of US businesses are open to letting AI agents negotiate prices and terms directly with other agents, signaling readiness for agentic AI commerce. While businesses see efficiency gains, consumers remain cautious about autonomous transactions. Early adopters among merchants and payment providers could gain a competitive edge, but regulatory scrutiny and demand for robust AI governance frameworks are set to increase.",
+      "title": "StraitsX and KBank Launch Real-Time Payment Corridor Linking Singapore and Thailand",
+      "body": "StraitsX and KBank have enabled instant cross-border payments between Singapore and Thailand, bypassing legacy correspondent networks. Merchants and consumers benefit from faster, cheaper remittances, while incumbent banks face margin compression on traditional corridors. This move sets a template for regional payment integration, with other Southeast Asian markets likely to follow.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47533/businesses-ready-to-embrace-ai-to-ai-commerce-consumers-more-wary----visa-survey?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109389/straitsx-and-kbank-enable-real-time-payments-between-singapore-and-thailand"
       }
     },
     {
-      "title": "Trulioo Moves Identity Verification to Continuous Monitoring Model",
-      "body": "Trulioo is shifting from one-time identity checks to ongoing monitoring, aiming to address evolving risks across financial platforms. This sets a new standard for identity verification providers and pushes banks and fintechs to upgrade their compliance and fraud prevention infrastructure. Competitors will need to invest in continuous verification or risk losing ground in regulated markets.",
+      "title": "MillTech Secures $60 Million to Challenge US Risk Management and FX Providers",
+      "body": "MillTech, a UK-based risk management platform, raised $60 million to expand into the US, targeting banks and corporates with FX hedging and risk tools. US incumbents now face a new competitor leveraging European compliance and automation standards. The influx of UK fintechs could drive faster adoption of AI-powered risk solutions in the US treasury and payments space.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/identity/2026/trulioo-pushes-back-beyond-one-time-identity-checks/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47543/milltech-raises-60-million-for-expansion-into-the-us-market"
       }
     },
     {
-      "title": "Instant Payments Security Arms Race Intensifies as AI-Driven Fraud Rises",
-      "body": "With instant payments adoption surging, payment processors and banks are ramping up security to counter increasingly sophisticated, AI-powered fraud schemes. Providers with advanced fraud prevention tools are gaining market share, while payment processors and security firms are forming new alliances to address urgent regulatory and customer demands for stronger protections.",
+      "title": "Lloyds Pilots Quantum Computing to Map and Disrupt Money Mule Networks",
+      "body": "Lloyds Banking Group completed a quantum computing experiment to identify and disrupt money mule networks, which are used by fraudsters to move illicit funds through legitimate accounts. Early results suggest quantum algorithms can uncover complex fraud rings faster than conventional analytics, making it harder for criminals to hide transactions and prompting banks to rethink anti-money laundering strategies.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/fraud-prevention/2026/instant-payments-security-counters-rising-fraud-concerns/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47538/lloyds-tests-quantum-computing-to-crack-money-mule-networks"
+      }
+    },
+    {
+      "title": "UBS, Sygnum, and PostFinance Launch Swiss Franc Stablecoin Sandbox for Regulated Pilots",
+      "body": "Seven Swiss financial institutions, including UBS, Sygnum, and PostFinance, have launched a sandbox to test a regulated Swiss franc stablecoin through 2026. The initiative positions Switzerland as a proving ground for compliant stablecoin use in payments and settlement. European banks and fintechs will watch closely as new regulatory models and cross-border use cases emerge from the sandbox.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/396650/swiss-franc-stablecoin-sandbox"
       }
     }
   ],
-  "perspective": "Coinbase\u2019s trust bank charter and Mastercard\u2019s inclusion drive highlight how regulatory shifts and new partnerships are reshaping digital finance and compliance expectations.",
+  "perspective": "StraitsX, KBank, and Lloyds drive cross-border and anti-fraud innovation as stablecoins and quantum computing reshape payment infrastructure.",
   "curiosity": {
-    "text": "Did you know that the first digital currency, eCash, was introduced in 1998 by DigiCash, enabling users to make anonymous transactions online?"
+    "text": "The first cross-border real-time payment link between Singapore and Thailand, launched in 2021, enabled users to send money using just a mobile number\u2014years before many G20 corridors."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Paysend",
+      "description": "Secures $25 million follow-on investment",
+      "source_url": "https://www.finextra.com/newsarticle/47539/paysend-raises-25-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Inxy",
+      "description": "Raises $4 million for stablecoin development",
+      "source_url": "https://www.finextra.com/pressarticle/109383/stablecoin-startup-inxy-raises-4-million"
+    },
+    {
+      "flag": "\ud83c\uddf5\ud83c\udde6",
+      "type": "product",
+      "company": "Balboa Corp",
+      "description": "Launches stablecoin infrastructure for trade finance",
+      "source_url": "https://www.finextra.com/pressarticle/109387/balboa-corp-launches-in-panama-to-bring-stablecoins-to-shipping-and-trade-finance"
+    },
     {
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "type": "fundraising",
       "company": "Xccelera",
-      "description": "Raised \u20b91.2 crore for agentic AI development",
-      "source_url": "https://www.finextra.com/pressarticle/109371/agentic-ai-startup-xccelera-raises-12-crore?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "9fin",
-      "description": "Raised $170m, becoming Europe's newest unicorn",
-      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Upvest",
-      "description": "Secured $125m from Tencent and Sapphire Ventures",
-      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Eunice",
-      "description": "Raised $8m for crypto compliance AI",
-      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Monzo",
-      "description": "Exiting US to focus on UK and Europe",
-      "source_url": "https://sifted.eu/articles/monzo-us-exit-fintech/"
+      "description": "Raises \u20b91.2 crore for agentic AI development",
+      "source_url": "https://www.finextra.com/pressarticle/109371/agentic-ai-startup-xccelera-raises-12-crore"
     }
   ]
 }
