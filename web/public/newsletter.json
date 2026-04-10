@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Visa Pilots AI-Powered Agentic Commerce Tool to Compete With Stripe and Adyen",
-      "body": "Visa launches a new tool that enables merchants and payment processors to integrate AI-powered shopping experiences directly, aiming to outpace Stripe and Adyen in agentic commerce. By offering a streamlined on-ramp for autonomous, personalized shopping and payment flows, Visa seeks to attract merchants looking for advanced AI integration. Stripe and Adyen must now accelerate their own AI capabilities to maintain merchant loyalty in this evolving segment.",
+      "title": "Revolut Launches AI Assistant, Raising Expectations for Digital Banking Features",
+      "body": "Revolut has introduced an AI assistant that provides spending insights and subscription management, enabling customers to track expenses and manage recurring payments more efficiently. This advancement sets a new standard for digital banks, prompting neobanks and fintechs to accelerate their own AI-driven tools or risk losing users seeking proactive financial management.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47550/visa-unveils-tool-to-give-firms-on-ramp-to-agentic-commerce"
+        "url": "https://www.finextra.com/newsarticle/47551/revolut-introduces-ai-assistant-for-money-management"
       }
     },
     {
-      "title": "U.S. Treasury Proposes AML and Sanctions Rules for Stablecoin Issuers",
-      "body": "The U.S. Treasury\u2019s proposed rule under the GENIUS Act requires stablecoin issuers to meet anti-money laundering and sanctions standards, raising compliance costs for major players like Circle and Tether. These requirements may push smaller issuers out of the market, while Circle and Tether could strengthen their positions as compliant, trusted providers. Institutional investors may increase stablecoin adoption as regulatory clarity improves.",
+      "title": "US Treasury Expands Cybersecurity Intelligence Sharing to Crypto Firms",
+      "body": "The U.S. Treasury will now provide digital asset firms with the same cybersecurity threat intelligence as traditional banks, giving crypto platforms access to real-time threat data and best practices. This move enables crypto firms to strengthen their defenses and may encourage more institutional participation by narrowing the trust gap with regulated financial institutions.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/aml/2026/treasury-proposes-anti-money-laundering-framework-for-stablecoin-issuers/"
+        "url": "https://www.pymnts.com/cybersecurity/2026/treasury-to-give-crypto-firms-same-cybersecurity-intel-as-banks/"
       }
     },
     {
-      "title": "ClearBank Wins Approval to Offer Euro Coin and USD Coin to European Clients",
-      "body": "ClearBank secures regulatory approval to offer Euro Coin and USD Coin to clients across Europe, making it one of the first European banks to provide direct access to regulated stablecoins. European fintechs and corporates now gain new options for cross-border payments and treasury management, while incumbent banks and payment processors face fresh competition from ClearBank\u2019s digital asset services.",
+      "title": "FDIC\u2019s GENIUS Act Proposal Could Reshape Stablecoin Issuance Landscape",
+      "body": "The FDIC\u2019s proposed GENIUS Act rules would require stablecoin issuers to hold reserves at insured banks, placing banks and large fintechs at the center of stablecoin issuance. Banks with established compliance and risk management systems are positioned to capture new business, while smaller issuers may need to partner with banks or exit the market due to higher regulatory hurdles.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47552/clearbank-eu-to-offer-stablecoins-including-euro-coin-and-usd-coin"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/regulation/2026/new-stablecoin-rules-push-banks-into-the-crypto-front-line/"
       }
     },
     {
-      "title": "Bolt Lays Off One-Third of Staff as AI Automation Reshapes Fintech Workforce",
-      "body": "Bolt cuts one-third of its workforce while increasing investment in AI-driven automation, aiming to address financial pressures and boost operational efficiency. The company\u2019s decision underscores how fintechs are actively restructuring teams to prioritize automation, with employees and competitors watching closely as AI adoption reshapes job roles and cost structures.",
+      "title": "Adyen Debuts Platform Linking Payments, Liquidity, and Payouts for Businesses",
+      "body": "Adyen has launched its Intelligent Money Movement platform, allowing business clients to automate payments, manage liquidity in real time, and streamline global payouts from a single interface. This gives Adyen\u2019s customers the ability to optimize working capital and reduce manual reconciliation, prompting other payment service providers to enhance their own integrated offerings.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47547/citing-ai-bolt-lays-off-third-of-staff"
+        "url": "https://www.finextra.com/pressarticle/109414/adyen-launches-intelligent-money-movement"
       }
     },
     {
-      "title": "Swiss Banks Launch Regulated CHF Stablecoin Pilot to Advance Digital Payments",
-      "body": "Six Swiss banks jointly launch a regulated Swiss franc stablecoin pilot, giving corporate clients and financial institutions a new tool for digital settlement and domestic payments. This collaboration positions Swiss banks as early movers in regulated stablecoin infrastructure, challenging other European banks to respond as clients seek faster, programmable payment options.",
+      "title": "PayPal Integrates Payment Links into Canva for Creator Monetization",
+      "body": "PayPal is embedding payment links within Canva, enabling creators to accept payments for content and services directly through the design platform. This integration expands monetization options for Canva users and extends PayPal\u2019s reach in the creator economy, likely spurring other payment providers to pursue similar partnerships with digital platforms.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47544/swiss-banks-to-test-chf-stablecoin"
+        "url": "https://www.finextra.com/newsarticle/47554/paypal-brings-payment-links-to-canva-creators"
       }
     }
   ],
-  "perspective": "Visa\u2019s AI-commerce pilot and ClearBank\u2019s stablecoin approval show how incumbents are leveraging regulation and automation to challenge fintechs and payment processors.",
+  "perspective": "Revolut\u2019s AI assistant and the FDIC\u2019s GENIUS Act proposal highlight how digital banking and stablecoin regulation are reshaping competitive dynamics for banks and fintechs.",
   "curiosity": {
-    "text": "Despite the dominance of cards in the U.S., Japan\u2019s convenience stores process over 80% of payments in cash, reflecting unique consumer preferences and infrastructure constraints."
+    "text": "In 1950, the Diners Club card became the first widely accepted charge card, launching the era of modern payment cards and transforming how consumers paid for goods and services."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "KreditBee",
-      "description": "Raised $280 million, reaching unicorn status at $1.5 billion valuation.",
-      "source_url": "https://www.finextra.com/newsarticle/47545/kreditbee-joins-unicorn-club-on-280-million-funding-round"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Paysend",
-      "description": "Secured $25 million follow-on investment from Claret Capital Partners.",
-      "source_url": "https://www.finextra.com/newsarticle/47539/paysend-raises-25-million"
+      "company": "Juno",
+      "description": "AI tax prep startup raises $12M seed round",
+      "source_url": "https://news.crunchbase.com/fintech/cpa-founded-ai-tax-return-startup-juno-seed-funding/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Polygon Labs",
-      "description": "Seeking to raise up to $100 million for stablecoin payments business.",
-      "source_url": "https://www.theblock.co/post/396778/polygon-labs-seeking-raise-up-to-100-million-stablecoin-payments-business-report"
+      "company": "Collide Capital",
+      "description": "Raises $95M fund for fintech and future-of-work startups",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "M&A",
+      "company": "Mimir",
+      "description": "Acquires platform from Swedbank\u2019s PayEx to launch new fintech",
+      "source_url": "https://www.finextra.com/newsarticle/47546/mimir-acquires-platform-from-swedbanks-payex-to-launch-new-fintech-company"
+    },
+    {
+      "flag": "\ud83c\uddf9\ud83c\uddfc",
+      "type": "product",
+      "company": "OwlTing",
+      "description": "Expands stablecoin offerings with Visa Direct integration",
+      "source_url": "https://www.finextra.com/pressarticle/109421/owlting-integrates-visa-direct-into-owlpay-to-expand-stablecoin-offerings"
     }
   ]
 }
