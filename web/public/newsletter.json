@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "Revolut Launches AI Assistant, Raising Expectations for Digital Banking Features",
-      "body": "Revolut has introduced an AI assistant that provides spending insights and subscription management, enabling customers to track expenses and manage recurring payments more efficiently. This advancement sets a new standard for digital banks, prompting neobanks and fintechs to accelerate their own AI-driven tools or risk losing users seeking proactive financial management.",
+      "title": "HSBC Wins Hong Kong Stablecoin License, Forcing Local Banks to Rethink Digital Currency",
+      "body": "HSBC has secured a stablecoin issuer license from the Hong Kong Monetary Authority, making it the first major bank in the region to enter regulated stablecoin issuance. This positions HSBC to capture institutional and retail flows as stablecoins move into mainstream payments, putting pressure on rival banks and fintechs to accelerate their own digital asset strategies. Competing institutions in Hong Kong now face a choice: partner, build, or risk losing share in digital payments and deposits as customers seek stablecoin-enabled services.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47551/revolut-introduces-ai-assistant-for-money-management"
+        "url": "https://www.finextra.com/newsarticle/47559/hsbc-granted-hong-kong-stablecoin-issuer-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "US Treasury Expands Cybersecurity Intelligence Sharing to Crypto Firms",
-      "body": "The U.S. Treasury will now provide digital asset firms with the same cybersecurity threat intelligence as traditional banks, giving crypto platforms access to real-time threat data and best practices. This move enables crypto firms to strengthen their defenses and may encourage more institutional participation by narrowing the trust gap with regulated financial institutions.",
+      "title": "FedNow Eyes Cross-Border Payments, Challenging Legacy International Rails",
+      "body": "The Federal Reserve is evaluating whether to enable cross-border fund transfers via FedNow, expanding its reach beyond domestic instant payments. U.S. banks and global corporates stand to benefit from faster, cheaper settlement, while incumbent cross-border platforms like SWIFT and Visa B2B Connect face new competition. U.S. banks and fintechs are preparing to integrate FedNow for international treasury flows, aiming to reduce reliance on slower, costlier legacy rails.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/fed-fednow-cross-border-use/817170/"
+      }
+    },
+    {
+      "title": "CFTC Launches Task Force to Set AI and Prediction Market Rules",
+      "body": "The CFTC has formed an Innovation Task Force to develop regulatory guidelines for AI and prediction markets in derivatives trading. This move gives fintechs and trading platforms a clearer path to launch AI-driven financial products, while also signaling that regulatory scrutiny will intensify. Firms building AI-powered trading or risk tools now have a window to shape standards before enforcement ramps up.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/treasury-to-give-crypto-firms-same-cybersecurity-intel-as-banks/"
+        "url": "https://www.pymnts.com/news/regulation/2026/cftc-names-task-force-to-set-ai-and-prediction-market-rules/"
       }
     },
     {
-      "title": "FDIC\u2019s GENIUS Act Proposal Could Reshape Stablecoin Issuance Landscape",
-      "body": "The FDIC\u2019s proposed GENIUS Act rules would require stablecoin issuers to hold reserves at insured banks, placing banks and large fintechs at the center of stablecoin issuance. Banks with established compliance and risk management systems are positioned to capture new business, while smaller issuers may need to partner with banks or exit the market due to higher regulatory hurdles.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/regulation/2026/new-stablecoin-rules-push-banks-into-the-crypto-front-line/"
-      }
-    },
-    {
-      "title": "Adyen Debuts Platform Linking Payments, Liquidity, and Payouts for Businesses",
-      "body": "Adyen has launched its Intelligent Money Movement platform, allowing business clients to automate payments, manage liquidity in real time, and streamline global payouts from a single interface. This gives Adyen\u2019s customers the ability to optimize working capital and reduce manual reconciliation, prompting other payment service providers to enhance their own integrated offerings.",
+      "title": "Binance Adds Prediction Markets, Expanding Crypto Exchange Beyond Trading",
+      "body": "Binance has rolled out a prediction markets feature, letting users speculate on future events directly within its platform. This move broadens Binance\u2019s product suite and is likely to draw active crypto traders and retail speculators seeking new ways to engage, while prompting other exchanges to diversify beyond spot and derivatives trading. As user participation increases, regulators are expected to examine prediction market compliance and consumer protections.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109414/adyen-launches-intelligent-money-movement"
+        "url": "https://www.finextra.com/newsarticle/47557/binance-launches-prediction-markets-feature?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "PayPal Integrates Payment Links into Canva for Creator Monetization",
-      "body": "PayPal is embedding payment links within Canva, enabling creators to accept payments for content and services directly through the design platform. This integration expands monetization options for Canva users and extends PayPal\u2019s reach in the creator economy, likely spurring other payment providers to pursue similar partnerships with digital platforms.",
+      "title": "BPC Unveils Instant Merchant Money Movement Across Latin America",
+      "body": "BPC has launched a platform enabling merchants in Latin America to move funds instantly, bypassing traditional bank settlement cycles. This gives regional merchants faster access to working capital and could erode banks\u2019 fee income from legacy payment rails. Banks in the region now face a direct challenge to their role in merchant settlement and must respond with real-time offerings or risk being bypassed by merchants seeking speed.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47554/paypal-brings-payment-links-to-canva-creators"
+        "url": "https://www.finextra.com/pressarticle/109425/bpc-moves-to-help-merchants-move-money-instantly-across-latin-america?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Revolut\u2019s AI assistant and the FDIC\u2019s GENIUS Act proposal highlight how digital banking and stablecoin regulation are reshaping competitive dynamics for banks and fintechs.",
+  "perspective": "HSBC and FedNow moves show banks accelerating digital currency and cross-border payment strategies to compete with fintechs and new rails.",
   "curiosity": {
-    "text": "In 1950, the Diners Club card became the first widely accepted charge card, launching the era of modern payment cards and transforming how consumers paid for goods and services."
+    "text": "Despite their digital focus, over 60% of global stablecoin transactions in 2023 settled during traditional banking hours, not around the clock as often assumed."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Juno",
-      "description": "AI tax prep startup raises $12M seed round",
-      "source_url": "https://news.crunchbase.com/fintech/cpa-founded-ai-tax-return-startup-juno-seed-funding/"
+      "company": "Collide Capital",
+      "description": "Raised $95M fund for fintech and future-of-work startups",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raises $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Juno",
+      "description": "AI tax prep startup raises $12M seed investment",
+      "source_url": "https://news.crunchbase.com/fintech/cpa-founded-ai-tax-return-startup-juno-seed-funding/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "M&A",
-      "company": "Mimir",
-      "description": "Acquires platform from Swedbank\u2019s PayEx to launch new fintech",
-      "source_url": "https://www.finextra.com/newsarticle/47546/mimir-acquires-platform-from-swedbanks-payex-to-launch-new-fintech-company"
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Upvest",
+      "description": "Secured $125M funding from Tencent and Sapphire Ventures",
+      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "9fin",
+      "description": "Credit data startup raises $170M, becomes unicorn",
+      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
     },
     {
       "flag": "\ud83c\uddf9\ud83c\uddfc",
       "type": "product",
       "company": "OwlTing",
-      "description": "Expands stablecoin offerings with Visa Direct integration",
-      "source_url": "https://www.finextra.com/pressarticle/109421/owlting-integrates-visa-direct-into-owlpay-to-expand-stablecoin-offerings"
+      "description": "Integrates Visa Direct into OwlPay for stablecoin expansion",
+      "source_url": "https://www.finextra.com/pressarticle/109421/owlting-integrates-visa-direct-into-owlpay-to-expand-stablecoin-offerings?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "product",
+      "company": "Bitget",
+      "description": "Launches IPO Prime market with SpaceX pre-IPO token",
+      "source_url": "https://www.theblock.co/post/396976/bitget-debuts-ipo-prime?utm_source=rss&utm_medium=rss"
     }
   ]
 }
