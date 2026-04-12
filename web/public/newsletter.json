@@ -1,92 +1,71 @@
 {
   "news": [
     {
-      "title": "HSBC Wins Hong Kong Stablecoin License, Forcing Local Banks to Rethink Digital Currency",
-      "body": "HSBC has secured a stablecoin issuer license from the Hong Kong Monetary Authority, making it the first major bank in the region to enter regulated stablecoin issuance. This positions HSBC to capture institutional and retail flows as stablecoins move into mainstream payments, putting pressure on rival banks and fintechs to accelerate their own digital asset strategies. Competing institutions in Hong Kong now face a choice: partner, build, or risk losing share in digital payments and deposits as customers seek stablecoin-enabled services.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47559/hsbc-granted-hong-kong-stablecoin-issuer-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "FedNow Eyes Cross-Border Payments, Challenging Legacy International Rails",
-      "body": "The Federal Reserve is evaluating whether to enable cross-border fund transfers via FedNow, expanding its reach beyond domestic instant payments. U.S. banks and global corporates stand to benefit from faster, cheaper settlement, while incumbent cross-border platforms like SWIFT and Visa B2B Connect face new competition. U.S. banks and fintechs are preparing to integrate FedNow for international treasury flows, aiming to reduce reliance on slower, costlier legacy rails.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/fed-fednow-cross-border-use/817170/"
-      }
-    },
-    {
-      "title": "CFTC Launches Task Force to Set AI and Prediction Market Rules",
-      "body": "The CFTC has formed an Innovation Task Force to develop regulatory guidelines for AI and prediction markets in derivatives trading. This move gives fintechs and trading platforms a clearer path to launch AI-driven financial products, while also signaling that regulatory scrutiny will intensify. Firms building AI-powered trading or risk tools now have a window to shape standards before enforcement ramps up.",
+      "title": "Fed Study: Stablecoins Rarely Used for Real-World Payments, Mostly Circulate Within Crypto Markets",
+      "body": "The Federal Reserve\u2019s latest research finds that over 95% of stablecoin transactions occur within crypto trading platforms, with minimal use for merchant payments or remittances. This limited adoption underscores a significant gap between stablecoin narratives and their practical utility for banks, merchants, and PSPs. Stablecoin issuers now face regulatory scrutiny to demonstrate real-world payment use cases, while payment processors exploring stablecoin rails may need to reassess their product strategies.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/regulation/2026/cftc-names-task-force-to-set-ai-and-prediction-market-rules/"
+        "url": "https://www.pymnts.com/blockchain/2026/fed-finds-stablecoins-idle-confirms-pymnts-usage-gap/"
       }
     },
     {
-      "title": "Binance Adds Prediction Markets, Expanding Crypto Exchange Beyond Trading",
-      "body": "Binance has rolled out a prediction markets feature, letting users speculate on future events directly within its platform. This move broadens Binance\u2019s product suite and is likely to draw active crypto traders and retail speculators seeking new ways to engage, while prompting other exchanges to diversify beyond spot and derivatives trading. As user participation increases, regulators are expected to examine prediction market compliance and consumer protections.",
+      "title": "Adyen Unveils Centralized Treasury Solution, Challenging Legacy Banks\u2019 Corporate Cash Management",
+      "body": "Adyen launched a treasury management tool designed to help multinational enterprises centralize cash flows and automate reconciliation across markets. Large corporates can now reduce reliance on fragmented banking relationships, putting legacy banks\u2019 corporate treasury and cash management revenues at risk. Banks may need to accelerate digital treasury offerings or partner with fintechs to retain enterprise clients seeking integrated solutions.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47557/binance-launches-prediction-markets-feature?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/adyen-tool-cfo-treasury-fragmentation-fintech/817169/"
       }
     },
     {
-      "title": "BPC Unveils Instant Merchant Money Movement Across Latin America",
-      "body": "BPC has launched a platform enabling merchants in Latin America to move funds instantly, bypassing traditional bank settlement cycles. This gives regional merchants faster access to working capital and could erode banks\u2019 fee income from legacy payment rails. Banks in the region now face a direct challenge to their role in merchant settlement and must respond with real-time offerings or risk being bypassed by merchants seeking speed.",
+      "title": "Collide Capital Raises $95M Fund II to Back Fintechs Targeting Compliance and Embedded Finance",
+      "body": "Collide Capital closed a $95 million fund to invest in startups building AI-driven compliance, embedded finance, and payment automation tools. This new capital will accelerate the entry of fintechs offering specialized solutions to banks and merchants. Legacy banks should consider piloting or integrating with these startups to access next-generation compliance and payment technologies before competitors do.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109425/bpc-moves-to-help-merchants-move-money-instantly-across-latin-america?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      }
+    },
+    {
+      "title": "Visa and Mastercard Face New EU Interchange Fee Investigation",
+      "body": "The European Commission has opened a formal investigation into whether Visa and Mastercard\u2019s cross-border interchange fees violate EU competition rules. Merchants operating across borders could see lower card acceptance costs if regulators force fee reductions. Acquirers and card networks may need to adjust pricing models and prepare for potential retroactive penalties.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/eu-opens-antitrust-probe-visa-mastercard-interchange-fees-2026-04-10/"
+      }
+    },
+    {
+      "title": "Revolut Deploys AI Assistant to Automate Customer Support and Internal Workflows",
+      "body": "Revolut has introduced an AI assistant to handle customer queries and streamline back-office tasks, aiming to improve service speed and reduce operational costs. Fintechs and neobanks now face pressure to match this level of automation, while traditional banks relying on manual support risk losing ground in customer experience. Banks should evaluate AI-driven support tools to remain competitive.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-ai-assistant/"
       }
     }
   ],
-  "perspective": "HSBC and FedNow moves show banks accelerating digital currency and cross-border payment strategies to compete with fintechs and new rails.",
+  "perspective": "Adyen\u2019s treasury launch and the EU\u2019s Visa/Mastercard probe signal intensifying competition for enterprise payments and merchant cost control.",
   "curiosity": {
-    "text": "Despite their digital focus, over 60% of global stablecoin transactions in 2023 settled during traditional banking hours, not around the clock as often assumed."
+    "text": "In 1967, the world\u2019s first ATM was installed in London and used a special paper voucher, not a plastic card, to dispense cash to customers."
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raised $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Juno",
-      "description": "AI tax prep startup raises $12M seed investment",
-      "source_url": "https://news.crunchbase.com/fintech/cpa-founded-ai-tax-return-startup-juno-seed-funding/"
-    },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Upvest",
-      "description": "Secured $125M funding from Tencent and Sapphire Ventures",
+      "description": "Secures $125M from Tencent and Sapphire Ventures",
       "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "9fin",
-      "description": "Credit data startup raises $170M, becomes unicorn",
+      "description": "Raises $170M, becoming Europe\u2019s newest unicorn",
       "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
     },
     {
       "flag": "\ud83c\uddf9\ud83c\uddfc",
       "type": "product",
       "company": "OwlTing",
-      "description": "Integrates Visa Direct into OwlPay for stablecoin expansion",
+      "description": "Expands stablecoin offerings with Visa Direct integration",
       "source_url": "https://www.finextra.com/pressarticle/109421/owlting-integrates-visa-direct-into-owlpay-to-expand-stablecoin-offerings?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
-      "type": "product",
-      "company": "Bitget",
-      "description": "Launches IPO Prime market with SpaceX pre-IPO token",
-      "source_url": "https://www.theblock.co/post/396976/bitget-debuts-ipo-prime?utm_source=rss&utm_medium=rss"
     }
   ]
 }
