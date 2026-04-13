@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Fed Study: Stablecoins Rarely Used for Real-World Payments, Mostly Circulate Within Crypto Markets",
-      "body": "The Federal Reserve\u2019s latest research finds that over 95% of stablecoin transactions occur within crypto trading platforms, with minimal use for merchant payments or remittances. This limited adoption underscores a significant gap between stablecoin narratives and their practical utility for banks, merchants, and PSPs. Stablecoin issuers now face regulatory scrutiny to demonstrate real-world payment use cases, while payment processors exploring stablecoin rails may need to reassess their product strategies.",
+      "title": "Wise Moves Primary Listing to US, Shifting Fintech Gravity From London",
+      "body": "Wise will transfer its primary stock listing from London to the US next month, following strong Q4 growth in volumes, customers, and income. The move gives Wise greater access to US capital and puts pressure on London\u2019s fintech ecosystem, while intensifying competition among US-listed payment firms. UK-based shareholders may face new tax and regulatory considerations. Other UK fintechs could follow Wise\u2019s lead if US markets offer better liquidity and valuation.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47563/wise-to-shift-primary-listing-to-us-next-month"
+      }
+    },
+    {
+      "title": "FedNow Eyes Cross-Border Payments, Threatening Legacy International Rails",
+      "body": "The US Federal Reserve is consulting on enabling cross-border transfers via FedNow, its real-time payments system. If implemented, this would give US banks and fintechs a faster, more transparent alternative to SWIFT and correspondent banking for international payments. Global financial institutions relying on legacy rails could lose volume to FedNow-connected providers. Banks and PSPs should assess integration options and prepare for new compliance and FX workflows.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47561/fed-consults-on-fednow-cross-border-payments"
+      }
+    },
+    {
+      "title": "GoCardless Hits Profitability, Raising Stakes for Payment Processors",
+      "body": "GoCardless reported its first profitable quarter, driven by a 22% revenue increase. Profitability gives GoCardless more firepower to invest in product and market expansion, putting pressure on rivals still chasing scale at a loss. Payment processors competing on price alone may see margin erosion as GoCardless reinvests in value-added services. Renewed competition is expected in direct debit and account-to-account payments across Europe and North America.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47565/gocardless-posts-first-profitable-quarter"
+      }
+    },
+    {
+      "title": "Embedded Payments Speed Up Fraud, Forcing Platforms to Rethink Detection",
+      "body": "As embedded payments become standard in digital commerce, fraud is getting harder to detect and faster to execute. Payment processors, platforms, and merchants face new risks as transaction flows bypass traditional controls, making advanced fraud detection a must-have. Vendors offering AI-driven and real-time fraud tools stand to gain share as platforms upgrade defenses. Regulatory scrutiny may increase if losses spike or consumer complaints rise.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/fed-finds-stablecoins-idle-confirms-pymnts-usage-gap/"
+        "url": "https://www.pymnts.com/fraud-prevention/2026/embedded-payments-make-fraud-harder-to-see-and-faster-to-hit/"
       }
     },
     {
-      "title": "Adyen Unveils Centralized Treasury Solution, Challenging Legacy Banks\u2019 Corporate Cash Management",
-      "body": "Adyen launched a treasury management tool designed to help multinational enterprises centralize cash flows and automate reconciliation across markets. Large corporates can now reduce reliance on fragmented banking relationships, putting legacy banks\u2019 corporate treasury and cash management revenues at risk. Banks may need to accelerate digital treasury offerings or partner with fintechs to retain enterprise clients seeking integrated solutions.",
+      "title": "HSBC Completes Tokenized Deposit Pilot, Signaling Next Phase for Bank-Led Tokenization",
+      "body": "HSBC finished a pilot of its Tokenised Deposit Service on the Canton Network, simulating issuance, transfer, and atomic settlement of tokenized deposits. This positions HSBC at the forefront of regulated tokenization, prompting other global banks to accelerate similar projects. Tokenized deposits are now being tested as alternatives to stablecoins and CBDCs for institutional settlement and treasury operations, with banks seeking to leverage existing regulatory frameworks and infrastructure.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/adyen-tool-cfo-treasury-fragmentation-fintech/817169/"
-      }
-    },
-    {
-      "title": "Collide Capital Raises $95M Fund II to Back Fintechs Targeting Compliance and Embedded Finance",
-      "body": "Collide Capital closed a $95 million fund to invest in startups building AI-driven compliance, embedded finance, and payment automation tools. This new capital will accelerate the entry of fintechs offering specialized solutions to banks and merchants. Legacy banks should consider piloting or integrating with these startups to access next-generation compliance and payment technologies before competitors do.",
-      "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-      }
-    },
-    {
-      "title": "Visa and Mastercard Face New EU Interchange Fee Investigation",
-      "body": "The European Commission has opened a formal investigation into whether Visa and Mastercard\u2019s cross-border interchange fees violate EU competition rules. Merchants operating across borders could see lower card acceptance costs if regulators force fee reductions. Acquirers and card networks may need to adjust pricing models and prepare for potential retroactive penalties.",
-      "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/eu-opens-antitrust-probe-visa-mastercard-interchange-fees-2026-04-10/"
-      }
-    },
-    {
-      "title": "Revolut Deploys AI Assistant to Automate Customer Support and Internal Workflows",
-      "body": "Revolut has introduced an AI assistant to handle customer queries and streamline back-office tasks, aiming to improve service speed and reduce operational costs. Fintechs and neobanks now face pressure to match this level of automation, while traditional banks relying on manual support risk losing ground in customer experience. Banks should evaluate AI-driven support tools to remain competitive.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-ai-assistant/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109433/hsbc-completes-tokenized-deposit-pilot-on-canton"
       }
     }
   ],
-  "perspective": "Adyen\u2019s treasury launch and the EU\u2019s Visa/Mastercard probe signal intensifying competition for enterprise payments and merchant cost control.",
+  "perspective": "Wise\u2019s US listing and the FedNow cross-border initiative signal a pivotal shift in global payments infrastructure and competitive dynamics.",
   "curiosity": {
-    "text": "In 1967, the world\u2019s first ATM was installed in London and used a special paper voucher, not a plastic card, to dispense cash to customers."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, paving the way for modern electronic payment systems and card-based transactions."
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Round",
+      "description": "AI fintech startup raises $6 million in Seed funding.",
+      "source_url": "https://www.finextra.com/newsarticle/47564/ai-fintech-startup-round-raises-6-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Juno",
+      "description": "AI tax prep startup raises $12 million to aid SMBs.",
+      "source_url": "https://news.crunchbase.com/fintech/cpa-founded-ai-tax-return-startup-juno-seed-funding/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Closes $95 million fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
       "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Upvest",
-      "description": "Secures $125M from Tencent and Sapphire Ventures",
-      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
+      "type": "investment",
+      "company": "Deutsche B\u00f6rse",
+      "description": "Invests $15 million in US-based MerQube.",
+      "source_url": "https://www.finextra.com/pressarticle/109434/deutsche-brse-invests-15-million-in-merqube"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "9fin",
-      "description": "Raises $170M, becoming Europe\u2019s newest unicorn",
-      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
-    },
-    {
-      "flag": "\ud83c\uddf9\ud83c\uddfc",
-      "type": "product",
-      "company": "OwlTing",
-      "description": "Expands stablecoin offerings with Visa Direct integration",
-      "source_url": "https://www.finextra.com/pressarticle/109421/owlting-integrates-visa-direct-into-owlpay-to-expand-stablecoin-offerings?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "type": "expansion",
+      "company": "TransferMate",
+      "description": "Extends payroll offering to 70+ countries with Cadana.",
+      "source_url": "https://www.finextra.com/pressarticle/109429/transfermate-extends-payroll-offfering-to-70-counries-with-cadana-integration"
     }
   ]
 }
