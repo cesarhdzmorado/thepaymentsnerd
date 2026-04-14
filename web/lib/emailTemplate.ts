@@ -99,10 +99,10 @@ Return only the subject line text, no quotes or additional formatting.`
         }
       ],
       temperature: 0.7,
-      max_tokens: 50,
+      max_tokens: 100,
     });
 
-    const creativeTitle = completion.choices[0]?.message?.content?.trim() || leadStory.title.split(' ').slice(0, 7).join(' ');
+    const creativeTitle = completion.choices[0]?.message?.content?.trim() || leadStory.title.split(' ').slice(0, 10).join(' ');
 
     // Return with emoji only
     return `🤓 ${creativeTitle}`;
