@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "HSBC Brings Tokenized Deposit Service to US, Targeting Real-Time Cross-Border Flows",
-      "body": "HSBC launched its Tokenized Deposit Service for US firms, enabling real-time, compliant funds movement and expanding its tokenized finance footprint beyond Asia and Europe. US banks now compete directly with HSBC for cross-border settlement and treasury automation, especially as corporates demand faster, programmable money solutions. HSBC\u2019s entry prompts US banks to accelerate their own tokenized deposit strategies and increases regulatory focus on digital assets.",
+      "title": "Visa, Stripe, and Zodia Join Tempo Blockchain as Validator Nodes for Stablecoin Payments",
+      "body": "Visa has launched a validator node on the Tempo blockchain, with Stripe and Zodia Custody also reported as external validators. This step allows these firms to participate directly in stablecoin transaction validation, signaling a shift toward mainstream payment networks engaging with blockchain-based settlement. Competing payment networks and fintechs may need to accelerate their own blockchain integration strategies to keep pace.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/hsbc-extends-tokenized-deposit-service-to-us-firms/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47580/visa-launches-validator-node-on-tempo-blockchain?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Monzo Enters Ireland, Escalating Digital Bank Competition in Post-Brexit Europe",
-      "body": "Monzo launched in Ireland, marking its first European expansion since Brexit and bringing its digital-first model to a new market. Irish banks and digital challengers now face a well-capitalized UK entrant with proven customer acquisition strategies. Other UK fintechs may follow, using regulatory clarity and cross-border onboarding to expand into the EU.",
+      "title": "Amex Unveils Agentic Commerce Developer Kit to Power AI Shopping Agents",
+      "body": "American Express has released a developer kit for building AI-driven shopping agents, enabling merchants and fintechs to create automated commerce experiences. This move intensifies competition among payment networks and technology providers, as they race to offer seamless, AI-optimized checkout and payment flows for both merchants and consumers.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47573/monzo-goes-live-in-ireland"
+        "url": "https://www.finextra.com/newsarticle/47579/amex-launches-agentic-commerce-development-kit?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "OpenAI Acquihires Hiro to Build Out AI-Native Personal Finance Stack",
-      "body": "OpenAI acquired Hiro, a personal finance app, and integrated its team to accelerate AI-driven consumer finance capabilities. OpenAI now competes with established personal finance apps and neobanks by embedding agentic AI into budgeting, payments, and financial planning. Consumers can expect features like autonomous bill pay, spending optimization, and real-time financial coaching to appear in mainstream finance platforms.",
+      "title": "Revolut Business Launches Global Hiring and Payroll Platform for UK Firms",
+      "body": "Revolut Business has introduced a platform for UK companies to recruit and pay international employees, integrating cross-border payments and compliance into a single workflow. This challenges established HR tech and payroll providers, who must now respond with their own embedded finance solutions to retain globally minded clients.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47572/openai-snaps-up-financial-planning-app-hiro"
+        "url": "https://www.finextra.com/newsarticle/47583/revolut-launches-platform-for-businesses-recruitment-in-new-markets?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "AI Fintech Round Raises $6M to Automate Treasury, Payments, and Payroll",
-      "body": "Round, an AI-powered finance automation startup, raised $6 million in seed funding to expand its platform for automating treasury, payments, and payroll workflows. Vendors like SAP Concur and Oracle NetSuite now face competition from Round, which uses AI to reduce manual intervention and speed up reconciliation for mid-market and enterprise clients. The funding reflects investor demand for AI-native back-office solutions in payments and finance.",
+      "title": "Deutsche B\u00f6rse Invests $200M in Kraken, Deepening Institutional Crypto Ties",
+      "body": "Deutsche B\u00f6rse has acquired a 1.5% stake in crypto exchange Kraken for $200 million, formalizing a strategic partnership. This investment gives Kraken greater institutional credibility and signals that traditional exchanges are increasingly integrating with digital asset platforms, potentially leading to new joint products and expanded access for institutional investors.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47564/ai-fintech-startup-round-raises-6-million"
+        "url": "https://www.finextra.com/newsarticle/47574/deutsche-brse-invests-in-kraken?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Ralio Raises $2.5M to Advance Agentic AI Payments in the UK",
-      "body": "Ralio, a UK-based startup focused on agent-driven payments, raised $2.5 million in an oversubscribed pre-seed round. Ralio\u2019s platform enables AI agents to initiate and authorize transactions autonomously, requiring legacy PSPs and banks to adapt their infrastructure for agentic commerce. This funding round signals growing investor belief that agentic payments could reshape how merchants and consumers interact with embedded finance.",
+      "title": "Central Bank of the UAE Launches Nationwide e-KYC Platform for Customer Verification",
+      "body": "The Central Bank of the UAE has launched a national e-KYC platform to streamline digital customer onboarding and verification. Banks and fintechs operating in the UAE must now integrate with this infrastructure to ensure compliance and avoid onboarding delays, while other regulators may look to the UAE model for digital identity initiatives.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47569/ralio-raises-25m-for-agentic-payments-platform"
+        "url": "https://www.finextra.com/newsarticle/47581/central-bank-of-the-uae-rolls-out-e-kyc-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "HSBC\u2019s US tokenized deposit launch and OpenAI\u2019s Hiro acquisition highlight how banks and tech giants are redrawing boundaries in programmable and AI-driven finance.",
+  "perspective": "Visa, Stripe, and Amex highlight how payments, AI, and digital assets are converging across both traditional and emerging financial infrastructure.",
   "curiosity": {
-    "text": "In 2023, the Bank of England reported that over 90% of UK adults used at least one form of digital payment, a dramatic shift from just 60% a decade earlier."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how payment data could be stored and read at the point of sale."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups"
-    },
-    {
       "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Ralio",
+      "description": "Raised $2.5M for agentic payments platform",
+      "source_url": "https://www.finextra.com/newsarticle/47569/ralio-raises-25m-for-agentic-payments-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddfa",
       "type": "expansion",
-      "company": "Wise",
-      "description": "Shifting primary listing to US",
-      "source_url": "https://www.finextra.com/newsarticle/47563/wise-to-shift-primary-listing-to-us-next-month"
+      "company": "Zeller",
+      "description": "Launched in the UK with payment solutions for SMEs",
+      "source_url": "https://www.finextra.com/pressarticle/109468/australias-fastest-growing-fintech-zeller-launches-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "PayPal",
-      "description": "Added Pix option for SMBs in Brazil",
-      "source_url": "https://www.finextra.com/pressarticle/109444/paypal-adds-pix-option-for-smbs-in-brazil"
+      "type": "acquihire",
+      "company": "OpenAI",
+      "description": "Acquired financial planning app Hiro",
+      "source_url": "https://www.finextra.com/newsarticle/47572/openai-snaps-up-financial-planning-app-hiro?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "IPO",
+      "company": "Kraken",
+      "description": "Preparing for initial public offering",
+      "source_url": "https://www.pymnts.com/news/ipo/2026/crypto-exchange-kraken-prepares-for-ipo/"
     }
   ]
 }
