@@ -1,78 +1,85 @@
 {
   "news": [
     {
-      "title": "Visa, Stripe, and Zodia Join Tempo Blockchain as Validator Nodes for Stablecoin Payments",
-      "body": "Visa has launched a validator node on the Tempo blockchain, with Stripe and Zodia Custody also reported as external validators. This step allows these firms to participate directly in stablecoin transaction validation, signaling a shift toward mainstream payment networks engaging with blockchain-based settlement. Competing payment networks and fintechs may need to accelerate their own blockchain integration strategies to keep pace.",
+      "title": "Revolut Launches Global Hiring and Payroll Platform for UK Businesses",
+      "body": "Revolut Business has launched a platform enabling UK firms to hire, onboard, and pay international talent, integrating payments, HR, and compliance into a single workflow. By automating cross-border payroll and compliance, Revolut directly reduces the need for SMEs to rely on traditional HR and payroll providers, who now risk losing clients seeking seamless global operations. This development pushes established payroll and HR firms to accelerate their own digital transformation and international capabilities.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47580/visa-launches-validator-node-on-tempo-blockchain?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47583/revolut-launches-platform-for-businesses-to-hire-overseas-talent?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Amex Unveils Agentic Commerce Developer Kit to Power AI Shopping Agents",
-      "body": "American Express has released a developer kit for building AI-driven shopping agents, enabling merchants and fintechs to create automated commerce experiences. This move intensifies competition among payment networks and technology providers, as they race to offer seamless, AI-optimized checkout and payment flows for both merchants and consumers.",
+      "title": "Euronet Acquires PaynoPain to Expand European Cross-Border Payment Reach",
+      "body": "Euronet Worldwide has acquired Spanish fintech PaynoPain, gaining access to its merchant network and payment technology to boost Euronet\u2019s digital and cross-border transaction capabilities in Europe. This acquisition intensifies competition for European PSPs and banks in the SME and e-commerce sectors, as Euronet can now offer broader services and faster onboarding. The move may prompt further consolidation among payment firms seeking to expand their geographic footprint and product offerings.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47579/amex-launches-agentic-commerce-development-kit?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109491/euronet-acquires-paynopain?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Revolut Business Launches Global Hiring and Payroll Platform for UK Firms",
-      "body": "Revolut Business has introduced a platform for UK companies to recruit and pay international employees, integrating cross-border payments and compliance into a single workflow. This challenges established HR tech and payroll providers, who must now respond with their own embedded finance solutions to retain globally minded clients.",
+      "title": "Kraken Files for IPO After 2022 Valuation Drop, Eyes Public Crypto Exchange Race",
+      "body": "Kraken\u2019s co-CEO confirmed the company has filed for an IPO, following a 33.5% valuation drop to $13.3 billion in 2022 amid crypto market volatility. A public listing would position Kraken alongside Coinbase and other listed exchanges, potentially influencing investor sentiment and competitive strategies in the crypto sector. Crypto exchanges considering IPOs will closely watch Kraken\u2019s performance as an indicator of public market demand and regulatory expectations.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47583/revolut-launches-platform-for-businesses-recruitment-in-new-markets?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/kraken-co-ceo-confirms-ipo-filing-arjun-sethi/817576/"
       }
     },
     {
-      "title": "Deutsche B\u00f6rse Invests $200M in Kraken, Deepening Institutional Crypto Ties",
-      "body": "Deutsche B\u00f6rse has acquired a 1.5% stake in crypto exchange Kraken for $200 million, formalizing a strategic partnership. This investment gives Kraken greater institutional credibility and signals that traditional exchanges are increasingly integrating with digital asset platforms, potentially leading to new joint products and expanded access for institutional investors.",
+      "title": "DTCC Migrates Core Market Infrastructure to AWS and Microsoft Cloud",
+      "body": "The Depository Trust & Clearing Corporation (DTCC) is moving its core market infrastructure to the public cloud through partnerships with AWS and Microsoft. This migration demonstrates that large-scale financial market infrastructure can operate securely and efficiently in the cloud, prompting other clearinghouses and exchanges to reconsider their own IT strategies. Financial institutions and technology vendors must now adapt compliance and operational models for cloud-native environments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47574/deutsche-brse-invests-in-kraken?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47585/dtcc-makes-public-cloud-move-with-aws-and-microsoft?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Central Bank of the UAE Launches Nationwide e-KYC Platform for Customer Verification",
-      "body": "The Central Bank of the UAE has launched a national e-KYC platform to streamline digital customer onboarding and verification. Banks and fintechs operating in the UAE must now integrate with this infrastructure to ensure compliance and avoid onboarding delays, while other regulators may look to the UAE model for digital identity initiatives.",
+      "title": "South Korea Pilots Blockchain-Based Deposit Tokens for Government Spending",
+      "body": "South Korea\u2019s Ministry of Finance and Economy is piloting blockchain-based deposit tokens to replace government expense credit cards, aiming to streamline public sector payments and enhance transparency. If successful, this pilot could encourage other governments to explore digital tokens for official disbursements, accelerating the adoption of programmable money in the public sector. Banks and payment processors serving government clients may need to update integration and compliance processes to support new tokenized payment models.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47581/central-bank-of-the-uae-rolls-out-e-kyc-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/397688/south-korea-deposit-token-pilot?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "Visa, Stripe, and Amex highlight how payments, AI, and digital assets are converging across both traditional and emerging financial infrastructure.",
+  "perspective": "Revolut\u2019s global payroll push and South Korea\u2019s blockchain pilot highlight how payments innovation is reshaping both business operations and government infrastructure.",
   "curiosity": {
-    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how payment data could be stored and read at the point of sale."
+    "text": "In 1950, the first universal credit card\u2014Diners Club\u2014was launched in the US, allowing cardholders to pay multiple merchants with a single card for the first time."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\udde9\ud83c\uddf0",
       "type": "fundraising",
-      "company": "Ralio",
-      "description": "Raised $2.5M for agentic payments platform",
-      "source_url": "https://www.finextra.com/newsarticle/47569/ralio-raises-25m-for-agentic-payments-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Spektr",
+      "description": "Raised $20M in Series A for fintech compliance startup.",
+      "source_url": "https://news.crunchbase.com/venture/fintech-compliance-founders-20m-seriesa-spektr/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "type": "M&A",
+      "company": "eToro",
+      "description": "Agreed to buy crypto wallet Zengo for $70M.",
+      "source_url": "https://www.finextra.com/newsarticle/47586/etoro-to-buy-crypto-wallet-zengo?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\udde6\ud83c\uddfa",
       "type": "expansion",
       "company": "Zeller",
-      "description": "Launched in the UK with payment solutions for SMEs",
+      "description": "Launched in the UK, targeting SMEs with payment solutions.",
       "source_url": "https://www.finextra.com/pressarticle/109468/australias-fastest-growing-fintech-zeller-launches-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "acquihire",
-      "company": "OpenAI",
-      "description": "Acquired financial planning app Hiro",
-      "source_url": "https://www.finextra.com/newsarticle/47572/openai-snaps-up-financial-planning-app-hiro?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "IPO",
+      "company": "SumUp",
+      "description": "Taps banks for potential London IPO.",
+      "source_url": "https://sifted.eu/articles/sumup-potential-london-ipo/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "IPO",
-      "company": "Kraken",
-      "description": "Preparing for initial public offering",
-      "source_url": "https://www.pymnts.com/news/ipo/2026/crypto-exchange-kraken-prepares-for-ipo/"
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Raised $95M fund to back fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     }
   ]
 }
