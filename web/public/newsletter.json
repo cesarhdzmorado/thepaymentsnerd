@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Revolut Launches Global Hiring and Payroll Platform for UK Businesses",
-      "body": "Revolut Business has launched a platform enabling UK firms to hire, onboard, and pay international talent, integrating payments, HR, and compliance into a single workflow. By automating cross-border payroll and compliance, Revolut directly reduces the need for SMEs to rely on traditional HR and payroll providers, who now risk losing clients seeking seamless global operations. This development pushes established payroll and HR firms to accelerate their own digital transformation and international capabilities.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47583/revolut-launches-platform-for-businesses-to-hire-overseas-talent?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Euronet Acquires PaynoPain to Expand European Cross-Border Payment Reach",
-      "body": "Euronet Worldwide has acquired Spanish fintech PaynoPain, gaining access to its merchant network and payment technology to boost Euronet\u2019s digital and cross-border transaction capabilities in Europe. This acquisition intensifies competition for European PSPs and banks in the SME and e-commerce sectors, as Euronet can now offer broader services and faster onboarding. The move may prompt further consolidation among payment firms seeking to expand their geographic footprint and product offerings.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109491/euronet-acquires-paynopain?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Kraken Files for IPO After 2022 Valuation Drop, Eyes Public Crypto Exchange Race",
-      "body": "Kraken\u2019s co-CEO confirmed the company has filed for an IPO, following a 33.5% valuation drop to $13.3 billion in 2022 amid crypto market volatility. A public listing would position Kraken alongside Coinbase and other listed exchanges, potentially influencing investor sentiment and competitive strategies in the crypto sector. Crypto exchanges considering IPOs will closely watch Kraken\u2019s performance as an indicator of public market demand and regulatory expectations.",
+      "title": "OpenAI Acquires Hiro to Deepen AI-Driven Personal Finance Push",
+      "body": "OpenAI has acquired Hiro, marking its second recent personal finance fintech purchase after Roi in 2025. By integrating Hiro\u2019s technology, OpenAI aims to deliver AI-powered budgeting, payments, and financial advice directly to consumers. This move positions OpenAI as a direct challenger to neobanks and personal finance apps, potentially forcing incumbents to accelerate their own AI adoption or risk losing market share.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/kraken-co-ceo-confirms-ipo-filing-arjun-sethi/817576/"
+        "url": "https://www.bankingdive.com/news/openai-acquires-hiro-personal-finance-altman-digit/817718/"
       }
     },
     {
-      "title": "DTCC Migrates Core Market Infrastructure to AWS and Microsoft Cloud",
-      "body": "The Depository Trust & Clearing Corporation (DTCC) is moving its core market infrastructure to the public cloud through partnerships with AWS and Microsoft. This migration demonstrates that large-scale financial market infrastructure can operate securely and efficiently in the cloud, prompting other clearinghouses and exchanges to reconsider their own IT strategies. Financial institutions and technology vendors must now adapt compliance and operational models for cloud-native environments.",
+      "title": "AmEx Acquires Hyper to Embed AI Expense Management Across Corporate Card Platform",
+      "body": "American Express is acquiring Hyper, an AI-powered expense management startup, to integrate advanced automation into its business card ecosystem. This acquisition enables AmEx to offer real-time, AI-driven expense controls and reporting, raising the bar for corporate card competitors. Legacy T&E providers and smaller fintechs may lose share as AmEx incorporates Hyper\u2019s features into its core offering, targeting CFOs seeking end-to-end automation and compliance.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47585/dtcc-makes-public-cloud-move-with-aws-and-microsoft?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47592/amex-to-buy-ai-expense-management-startup-hyper?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "South Korea Pilots Blockchain-Based Deposit Tokens for Government Spending",
-      "body": "South Korea\u2019s Ministry of Finance and Economy is piloting blockchain-based deposit tokens to replace government expense credit cards, aiming to streamline public sector payments and enhance transparency. If successful, this pilot could encourage other governments to explore digital tokens for official disbursements, accelerating the adoption of programmable money in the public sector. Banks and payment processors serving government clients may need to update integration and compliance processes to support new tokenized payment models.",
+      "title": "Spektr Raises $20M to Scale AI Compliance Tools for Financial Institutions",
+      "body": "Danish fintech Spektr secured $20 million in Series A funding to expand its AI-driven compliance platform for banks and fintechs. The investment will accelerate development of automated AML, KYC, and risk monitoring tools, aiming to replace manual and rules-based processes. As regulatory scrutiny intensifies in 2026, financial institutions adopting AI compliance may reduce costs and avoid enforcement actions, while legacy regtech vendors face increased competition.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47590/spektr-raises-20m-for-ai-based-compliance-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "DLocal and NEC Partner to Expand Cross-Border Remittance Payouts in Emerging Markets",
+      "body": "DLocal and Italy\u2019s National Exchange Company (NEC) have partnered to enable cross-border remittance payouts across Africa, APAC, and Latin America. The collaboration extends DLocal\u2019s reach and strengthens its position against global and regional payment processors. Merchants and fintechs serving diaspora and gig economy flows gain new payout options in hard-to-reach markets, while competing providers may see margin pressure from expanded corridors and competitive pricing.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109484/dlocal-and-italys-nec-to-power-global-remittance-payouts?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Circle Faces Class Action Over $280M USDC Drift Exploit Response",
+      "body": "Circle is facing a class action lawsuit alleging it failed to freeze $280 million in USDC linked to the Drift exploit quickly enough. The case puts Circle\u2019s operational controls and crisis response under scrutiny, with potential reputational and regulatory fallout. Stablecoin issuers now face heightened expectations for real-time monitoring and intervention in fraud or exploit scenarios, increasing pressure for robust incident response protocols.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/397688/south-korea-deposit-token-pilot?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/397840/circle-class-action-lawsuit-drift-exploit?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "Revolut\u2019s global payroll push and South Korea\u2019s blockchain pilot highlight how payments innovation is reshaping both business operations and government infrastructure.",
+  "perspective": "OpenAI and AmEx acquisitions signal AI\u2019s growing role in finance, while Circle\u2019s lawsuit and DLocal\u2019s expansion highlight evolving risks and global opportunities.",
   "curiosity": {
-    "text": "In 1950, the first universal credit card\u2014Diners Club\u2014was launched in the US, allowing cardholders to pay multiple merchants with a single card for the first time."
+    "text": "In 2014, Kenya\u2019s M-Pesa processed more transactions domestically than all of the country\u2019s banks combined, illustrating the transformative power of mobile money in emerging markets."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\udde9\ud83c\uddf0",
       "type": "fundraising",
       "company": "Spektr",
-      "description": "Raised $20M in Series A for fintech compliance startup.",
+      "description": "Raised $20M for AI-based compliance platform.",
       "source_url": "https://news.crunchbase.com/venture/fintech-compliance-founders-20m-seriesa-spektr/"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "type": "M&A",
-      "company": "eToro",
-      "description": "Agreed to buy crypto wallet Zengo for $70M.",
-      "source_url": "https://www.finextra.com/newsarticle/47586/etoro-to-buy-crypto-wallet-zengo?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde6\ud83c\uddfa",
-      "type": "expansion",
-      "company": "Zeller",
-      "description": "Launched in the UK, targeting SMEs with payment solutions.",
-      "source_url": "https://www.finextra.com/pressarticle/109468/australias-fastest-growing-fintech-zeller-launches-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "IPO",
-      "company": "SumUp",
-      "description": "Taps banks for potential London IPO.",
-      "source_url": "https://sifted.eu/articles/sumup-potential-london-ipo/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raised $95M fund to back fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Slash Financial",
+      "description": "Achieved unicorn status with $100M Series C.",
+      "source_url": "https://www.finextra.com/newsarticle/47593/business-banking-fintech-slash-hits-unicorn-status?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "fundraising",
+      "company": "SolvaPay",
+      "description": "Secured \u20ac2.4M in pre-seed funding for AI payments.",
+      "source_url": "https://www.finextra.com/pressarticle/109499/agentic-payments-startup-solvapay-scores-24-million-in-pre-seed-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Euronet",
+      "description": "Acquired Spanish fintech PaynoPain.",
+      "source_url": "https://www.finextra.com/pressarticle/109491/euronet-acquires-paynopain?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
