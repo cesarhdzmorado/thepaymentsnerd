@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "OpenAI Acquires Hiro to Deepen AI-Driven Personal Finance Push",
-      "body": "OpenAI has acquired Hiro, marking its second recent personal finance fintech purchase after Roi in 2025. By integrating Hiro\u2019s technology, OpenAI aims to deliver AI-powered budgeting, payments, and financial advice directly to consumers. This move positions OpenAI as a direct challenger to neobanks and personal finance apps, potentially forcing incumbents to accelerate their own AI adoption or risk losing market share.",
+      "title": "Tether Launches Multi-Asset Stablecoin Wallet to Broaden Everyday Crypto Payments",
+      "body": "Tether has introduced a wallet supporting digital dollars, tokenized gold, and bitcoin transfers across multiple blockchains. By enabling users to manage and transact with several asset types in one app, Tether aims to drive mainstream adoption of stablecoins for daily payments. Payment processors and wallet providers must now consider adding multi-asset, cross-chain support to remain competitive as consumer expectations shift toward unified digital asset management.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47595/tether-launches-stablecoin-wallet?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Kraken Acquires Bitnomial to Expand Crypto Derivatives Reach",
+      "body": "Kraken has agreed to acquire derivatives platform Bitnomial, though the acquisition price was not disclosed in the official announcement. The deal will expand Kraken\u2019s regulated derivatives offerings in the U.S., positioning it to compete more directly with Coinbase and Binance for institutional and active trader business. Competing exchanges may respond by seeking their own acquisitions or accelerating new product launches.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/openai-acquires-hiro-personal-finance-altman-digit/817718/"
+        "url": "https://www.bankingdive.com/news/kraken-buy-derivatives-firm-bitnomial-550-million-deal/817839/"
       }
     },
     {
-      "title": "AmEx Acquires Hyper to Embed AI Expense Management Across Corporate Card Platform",
-      "body": "American Express is acquiring Hyper, an AI-powered expense management startup, to integrate advanced automation into its business card ecosystem. This acquisition enables AmEx to offer real-time, AI-driven expense controls and reporting, raising the bar for corporate card competitors. Legacy T&E providers and smaller fintechs may lose share as AmEx incorporates Hyper\u2019s features into its core offering, targeting CFOs seeking end-to-end automation and compliance.",
+      "title": "France Pushes for Euro Stablecoins to Challenge Dollar Dominance in Payments",
+      "body": "France\u2019s finance minister has called on European banks to develop euro-based stablecoins, aiming to reduce reliance on dollar-backed digital assets and non-European payment providers. This initiative could prompt a wave of euro-pegged stablecoin launches and regulatory adjustments across the Eurozone. U.S. stablecoin issuers like Tether and Circle may face increased competition from European banks and fintechs if local solutions gain traction.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47592/amex-to-buy-ai-expense-management-startup-hyper?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/france-urges-euro-stablecoins-to-break-dollar-dependency/"
       }
     },
     {
-      "title": "Spektr Raises $20M to Scale AI Compliance Tools for Financial Institutions",
-      "body": "Danish fintech Spektr secured $20 million in Series A funding to expand its AI-driven compliance platform for banks and fintechs. The investment will accelerate development of automated AML, KYC, and risk monitoring tools, aiming to replace manual and rules-based processes. As regulatory scrutiny intensifies in 2026, financial institutions adopting AI compliance may reduce costs and avoid enforcement actions, while legacy regtech vendors face increased competition.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47590/spektr-raises-20m-for-ai-based-compliance-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "DLocal and NEC Partner to Expand Cross-Border Remittance Payouts in Emerging Markets",
-      "body": "DLocal and Italy\u2019s National Exchange Company (NEC) have partnered to enable cross-border remittance payouts across Africa, APAC, and Latin America. The collaboration extends DLocal\u2019s reach and strengthens its position against global and regional payment processors. Merchants and fintechs serving diaspora and gig economy flows gain new payout options in hard-to-reach markets, while competing providers may see margin pressure from expanded corridors and competitive pricing.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109484/dlocal-and-italys-nec-to-power-global-remittance-payouts?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Circle Faces Class Action Over $280M USDC Drift Exploit Response",
-      "body": "Circle is facing a class action lawsuit alleging it failed to freeze $280 million in USDC linked to the Drift exploit quickly enough. The case puts Circle\u2019s operational controls and crisis response under scrutiny, with potential reputational and regulatory fallout. Stablecoin issuers now face heightened expectations for real-time monitoring and intervention in fraud or exploit scenarios, increasing pressure for robust incident response protocols.",
+      "title": "Circle Debuts USDC Bridge to Enable Native Cross-Chain Stablecoin Transfers",
+      "body": "Circle has launched the USDC Bridge, enabling users to transfer USDC natively across multiple blockchains without relying on third-party bridges. This development simplifies cross-chain payments and increases USDC\u2019s appeal for merchants and platforms seeking seamless stablecoin acceptance. Competing stablecoins and payment networks may need to enhance their own interoperability to keep pace with Circle\u2019s offering.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/397840/circle-class-action-lawsuit-drift-exploit?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/397907/circle-rolls-out-usdc-bridge-for-native-cross-chain-stablecoin-transfers?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Ebanx Expands Cross-Border Payments Network Into Southeast Asia and Turkey",
+      "body": "Ebanx has entered Thailand, Indonesia, Malaysia, Vietnam, and Turkey, extending its cross-border payments network beyond Latin America. This move increases competition for local payment service providers and global firms like Stripe and Adyen in high-growth markets. Merchants targeting these regions now have more options for localized payment acceptance and settlement.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109508/ebanx-expands-into-five-new-countries?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "OpenAI and AmEx acquisitions signal AI\u2019s growing role in finance, while Circle\u2019s lawsuit and DLocal\u2019s expansion highlight evolving risks and global opportunities.",
+  "perspective": "Tether and Circle\u2019s new cross-chain tools and Ebanx\u2019s regional expansion highlight how payments firms are racing to unify digital assets and global access.",
   "curiosity": {
-    "text": "In 2014, Kenya\u2019s M-Pesa processed more transactions domestically than all of the country\u2019s banks combined, illustrating the transformative power of mobile money in emerging markets."
+    "text": "In 2011, Kenya\u2019s M-Pesa processed more transactions domestically than the country\u2019s entire banking sector, illustrating the transformative impact of mobile money on financial inclusion."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
-      "type": "fundraising",
-      "company": "Spektr",
-      "description": "Raised $20M for AI-based compliance platform.",
-      "source_url": "https://news.crunchbase.com/venture/fintech-compliance-founders-20m-seriesa-spektr/"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Slash Financial",
-      "description": "Achieved unicorn status with $100M Series C.",
-      "source_url": "https://www.finextra.com/newsarticle/47593/business-banking-fintech-slash-hits-unicorn-status?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Loop",
+      "description": "Raised $95M in Series C to expand supply chain platform",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/loop-raises-95-million-to-bridge-supply-chain-data-gap/"
     },
     {
       "flag": "\ud83c\uddf8\ud83c\uddea",
       "type": "fundraising",
       "company": "SolvaPay",
-      "description": "Secured \u20ac2.4M in pre-seed funding for AI payments.",
+      "description": "Secured \u20ac2.4M in pre-seed funding for AI payments platform",
       "source_url": "https://www.finextra.com/pressarticle/109499/agentic-payments-startup-solvapay-scores-24-million-in-pre-seed-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Slash Financial",
+      "description": "Achieved unicorn status with $100M Series C round",
+      "source_url": "https://www.finextra.com/newsarticle/47593/business-banking-fintech-slash-hits-unicorn-status?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Euronet",
-      "description": "Acquired Spanish fintech PaynoPain.",
-      "source_url": "https://www.finextra.com/pressarticle/109491/euronet-acquires-paynopain?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "AmEx",
+      "description": "Acquiring AI expense management startup Hyper",
+      "source_url": "https://www.finextra.com/newsarticle/47592/amex-to-buy-ai-expense-management-startup-hyper?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
