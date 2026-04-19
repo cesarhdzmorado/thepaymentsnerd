@@ -1,92 +1,78 @@
 {
   "news": [
     {
-      "title": "Circle Faces Criticism for Slow Response to $232M Drift Hack, Raising Stablecoin Security Stakes",
-      "body": "Circle is under scrutiny after critics say it failed to promptly freeze $232 million in USDC stolen from the Drift protocol, allowing the funds to move from Solana to Ethereum. The delayed response puts Circle\u2019s risk controls in the spotlight and gives competitors an opportunity to promote their own security and incident response capabilities. Stablecoin issuers now face heightened demands from regulators and institutional clients for real-time safeguarding and operational resilience.",
+      "title": "France\u2019s CB Pushes Co-Badging to Challenge Visa and Mastercard\u2019s European Dominance",
+      "body": "France's CB is advocating for co-badging, enabling French bank cards to operate on both local and international networks, aiming to reduce dependence on Visa and Mastercard. If adopted, this move could erode the market share of global card schemes and boost local payment networks across Europe. Banks and merchants may gain more negotiating power and lower fees, while Visa and Mastercard face increased competition on their home turf.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/critics-circle-failed-to-block-drift-hack-transfer/"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/dfc4dd67-01ff-436e-bd8e-229f9fe77d6c"
       }
     },
     {
-      "title": "Shopify Opens B2B Commerce Tools to All Merchants, Escalating Platform Competition",
-      "body": "Shopify has expanded its B2B features beyond Shopify Plus, making advanced business tools available to all merchants on its platform. This move levels the playing field for smaller sellers and intensifies competition with other e-commerce and payments platforms targeting the B2B segment. Competing platforms must now accelerate their own B2B product roadmaps or risk losing merchant share to Shopify\u2019s broader ecosystem.",
+      "title": "Stripe Launches New Credit Card Issuing Platform for European Fintechs",
+      "body": "Stripe has introduced a credit card issuing platform in Europe, allowing fintechs and digital banks to create, distribute, and manage branded credit cards. This expansion gives European fintechs more flexibility to offer tailored credit products and strengthens Stripe\u2019s position as a key infrastructure provider. Traditional banks may face increased competition as fintechs accelerate card innovation and customer acquisition.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/shopify-expands-availability-of-b2b-tools-to-all-merchants/"
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2024/06/10/stripe-launches-credit-card-issuing-in-europe/"
       }
     },
     {
-      "title": "Cash App Debuts Installment Plans for P2P Transfers, Redefining Consumer Payment Flexibility",
-      "body": "Cash App has introduced a feature allowing users to split peer-to-peer payments into installment plans, a first among major U.S. finance apps. This move shifts consumer expectations for flexibility in everyday payments and forces rivals like Venmo and Zelle to follow suit. Fintechs now have to rethink product design as installment options become a new battleground for user engagement.",
+      "title": "Early Warning Services Unveils Certos to Raise Bar for Bank Fraud Prevention",
+      "body": "Early Warning Services has launched Certos, a suite of fraud and identity risk solutions designed to help financial institutions combat increasingly sophisticated fraud threats. The new portfolio could set a higher industry standard, prompting banks and credit unions to upgrade their fraud prevention capabilities. Competing fraud tech vendors will need to accelerate innovation or risk losing contracts to Certos-backed institutions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109364/cash-app-adds-instalment-plans-for-p2p-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109509/early-warning-services-launches-certos-fraud-intelligence-portfolio"
       }
     },
     {
-      "title": "Coinbase Secures Conditional OCC Charter, Raising Bar for Crypto Regulatory Compliance",
-      "body": "Coinbase has received conditional approval from the OCC for a national trust charter, strengthening its regulatory position in the U.S. This milestone could attract more institutional clients and sets a new compliance benchmark for crypto exchanges seeking mainstream legitimacy. Competitors now face higher expectations for regulatory clarity and operational transparency if they want to win institutional flows.",
+      "title": "Home Depot Acquires SIMPL Automation to Boost Same-Day Delivery With AI",
+      "body": "Home Depot has acquired SIMPL Automation to enhance its same-day and next-day delivery operations using AI-driven logistics technology. This move gives Home Depot a logistics edge, promising faster fulfillment and improved customer experience in the home improvement sector. Competing retailers may need to accelerate their own automation investments or risk losing share in the delivery race.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/coinbase-nabs-conditional-occ-charter-approval/816614/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/acquisitions/2026/home-depot-buys-simpl-automation-to-support-same-day-delivery/"
       }
     },
     {
-      "title": "Latitude Raises $8M to Build Stablecoin Rails for Cross-Border Payments",
-      "body": "Latitude, a stablecoin startup founded by Stripe and Coinbase alumni, has raised $8 million to develop cross-border payment solutions. The funding highlights investor appetite for programmable stablecoin infrastructure and prompts banks and PSPs to reassess their cross-border strategies as new entrants challenge Circle and Tether with faster, programmable money capabilities.",
+      "title": "NatWest Expands Financial Foundations Program to 50,000 With Investment Guidance Focus",
+      "body": "NatWest Group is scaling its Financial Foundations program to reach 50,000 people in UK workplaces and community groups, emphasizing investment-focused financial guidance. This expansion strengthens NatWest\u2019s position in financial wellness and could attract new clients seeking accessible investment advice. Competing banks and fintechs may respond by launching or expanding their own educational initiatives.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109366/stripe-and-coinbase-vets-raise-8m-for-stablecoin-startup?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47596/natwest-group-expands-free-investment-focused-financial-guidance-programme"
       }
     }
   ],
-  "perspective": "Today: Circle faces scrutiny after the Drift hack, Shopify expands B2B tools for all merchants, and Coinbase secures a conditional OCC charter.",
+  "perspective": "France\u2019s CB and Stripe drive European card innovation as banks and fintechs compete on payments, fraud, and financial wellness.",
   "curiosity": {
-    "text": "Did you know the 1978 Electronic Fund Transfer Act (EFTA) not only protected consumers from unauthorized transactions but also set standards that shaped how modern payment networks handle error resolution and liability?"
+    "text": "Despite Visa and Mastercard\u2019s global reach, France\u2019s CB network still processes over half of all card payments in France, making it a rare local outlier in Europe."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Cross River",
-      "description": "Raised $50M to invest in AI and crypto.",
-      "source_url": "https://www.finextra.com/newsarticle/47530/cross-river-banks-50-million-capital-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Loop",
+      "description": "Raised $95M in Series C to expand logistics platform.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/loop-raises-95-million-to-bridge-supply-chain-data-gap/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
-      "type": "product",
-      "company": "Bitget",
-      "description": "Launched Visa crypto card in APAC.",
-      "source_url": "https://www.finextra.com/pressarticle/109355/bitget-to-issues-visa-crypto-card-for-spending-across-apac?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Kraken",
+      "description": "Acquiring Bitnomial for $550M to enhance derivatives trading.",
+      "source_url": "https://www.bankingdive.com/news/kraken-buy-derivatives-firm-bitnomial-550-million-deal/817839/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "expansion",
-      "company": "Monzo",
-      "description": "Exiting US to focus on UK and Europe.",
-      "source_url": "https://sifted.eu/articles/monzo-us-exit-fintech/"
+      "company": "Ebanx",
+      "description": "Expanding into Thailand, Indonesia, Malaysia, Vietnam, and Turkey.",
+      "source_url": "https://www.finextra.com/pressarticle/109508/ebanx-expands-into-five-new-countries"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "9fin",
-      "description": "Raised $170M, becoming a unicorn.",
-      "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Upvest",
-      "description": "Raised $125M backed by Tencent and Sapphire Ventures.",
-      "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/"
-    },
-    {
-      "flag": "\ud83c\udde6\ud83c\uddf9",
-      "type": "fundraising",
-      "company": "Eunice",
-      "description": "Raised $8M for due diligence startup.",
-      "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Circle",
+      "description": "Launched USDC Bridge for cross-chain stablecoin transfers.",
+      "source_url": "https://www.theblock.co/post/397907/circle-rolls-out-usdc-bridge-for-native-cross-chain-stablecoin-transfers"
     }
   ]
 }
