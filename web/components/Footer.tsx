@@ -1,92 +1,97 @@
 // web/components/Footer.tsx
+// Swiss footer — 4-col grid on desktop, two rails on mobile.
+// Keeps the heart click easter-egg but swaps the gradient link styling
+// for straight ink + vermillion-underline-on-hover.
 "use client";
 
 import { Heart } from "lucide-react";
 import { useState } from "react";
 
-export function Footer() {
-  const [heartClicks, setHeartClicks] = useState(0);
+interface FooterLink {
+  name: string;
+  href: string;
+}
 
-  const footerLinks = [
-    { name: "Advertise", href: "mailto:cesar@thepaymentsnerd.co?subject=Sponsorship%20Inquiry%20%E2%80%94%20The%20Payments%20Nerd" },
-    { name: "Legal Terms", href: "/legal" },
-    { name: "Privacy Policy", href: "/privacy" },
-    { name: "Cookies Policy", href: "/cookies" },
-  ];
+const READ_LINKS: FooterLink[] = [
+  { name: "Latest issue", href: "/" },
+  { name: "Weekly recap", href: "/#subscribe" },
+];
 
-  const handleHeartClick = () => {
-    setHeartClicks((prev) => prev + 1);
-  };
+const COMPANY_LINKS: FooterLink[] = [
+  {
+    name: "Advertise",
+    href: "mailto:cesar@thepaymentsnerd.co?subject=Sponsorship%20Inquiry%20%E2%80%94%20The%20Payments%20Nerd",
+  },
+];
 
+const LEGAL_LINKS: FooterLink[] = [
+  { name: "Privacy", href: "/privacy" },
+  { name: "Terms", href: "/legal" },
+  { name: "Cookies", href: "/cookies" },
+];
+
+function FooterColumn({ heading, links }: { heading: string; links: FooterLink[] }) {
   return (
-    <footer
-      className="
-        mt-20 pt-10 pb-6
-        border-t border-slate-200/80
-        dark:border-slate-700/60
-        text-slate-500
-        dark:text-slate-400
-        relative
-      "
-    >
-      {/* Top gradient accent */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blue-200/60 to-transparent dark:via-cyan-700/40" />
-
-      <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
-        <div className="text-center sm:text-left">
-          <p className="text-sm flex items-center gap-1.5 justify-center sm:justify-start">
-            © {new Date().getFullYear()}{" "}
-            <span className="font-display font-semibold text-slate-700 dark:text-slate-300 bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-cyan-400 dark:to-indigo-400 bg-clip-text text-transparent transition-all duration-300 hover:scale-105 inline-block cursor-default">
-              /thepaymentsnerd
-            </span>
-          </p>
-          <p className="text-xs mt-1.5 flex items-center gap-1.5 justify-center sm:justify-start text-slate-500 dark:text-slate-400">
-            Made with{" "}
-            <button
-              onClick={handleHeartClick}
-              className="group relative focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-full p-0.5 transition-transform duration-200 hover:scale-125 active:scale-90"
-              aria-label="Show some love"
-            >
-              <Heart
-                className={`h-3 w-3 text-red-500 dark:text-red-400 fill-current transition-all duration-300 ${
-                  heartClicks > 0 ? "animate-pulse" : ""
-                }`}
-              />
-              {heartClicks > 0 && (
-                <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-[10px] font-bold text-red-500 dark:text-red-400 animate-fade-in pointer-events-none">
-                  +{heartClicks}
-                </span>
-              )}
-            </button>{" "}
-            for the payments community
-          </p>
-        </div>
-
-        <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
-          {footerLinks.map((link) => (
+    <div>
+      <h4 className="label-mono mb-4">{heading}</h4>
+      <ul className="grid gap-2 text-[13px]">
+        {links.map((link) => (
+          <li key={link.name}>
             <a
-              key={link.name}
               href={link.href}
-              className="
-                text-sm font-medium
-                text-slate-600 dark:text-slate-400
-                hover:text-blue-700 dark:hover:text-cyan-300
-                transition-all duration-300
-                hover:underline underline-offset-4
-                decoration-2 decoration-blue-600/50 dark:decoration-cyan-400/50
-                hover:scale-105 inline-block
-              "
+              className="text-[var(--ink)] transition-colors hover:text-[var(--accent)]"
             >
               {link.name}
             </a>
-          ))}
-        </nav>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export function Footer() {
+  const [heartClicks, setHeartClicks] = useState(0);
+
+  return (
+    <footer className="relative -mx-4 sm:-mx-8 lg:-mx-16 mt-16 border-t border-[var(--rule)] bg-[var(--paper-2)] px-4 sm:px-8 lg:px-16 pb-12 pt-14">
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:gap-12">
+        <div className="col-span-2 md:col-span-1">
+          <div className="text-[15px] font-extrabold tracking-[-0.01em] text-[var(--ink)]">
+            <span className="text-[var(--accent)]">/</span>thepaymentsnerd
+          </div>
+          <p className="mt-2 max-w-[30ch] text-[13px] leading-relaxed text-[var(--muted)]">
+            Five critical payments insights. Zero noise. Daily. Made for the payments
+            community.
+          </p>
+        </div>
+        <FooterColumn heading="Read" links={READ_LINKS} />
+        <FooterColumn heading="Company" links={COMPANY_LINKS} />
+        <FooterColumn heading="Legal" links={LEGAL_LINKS} />
       </div>
 
-      <div className="mt-6 text-center">
-        <p className="text-xs text-slate-400 dark:text-slate-500 hover:text-slate-500 dark:hover:text-slate-400 transition-colors duration-300">
-          Five critical payments insights. Zero noise. Daily.
-        </p>
+      <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-[var(--rule)] pt-6 sm:flex-row sm:items-center">
+        <span className="label-mono">© {new Date().getFullYear()} /thepaymentsnerd</span>
+        <span className="label-mono inline-flex items-center gap-1.5">
+          Made with
+          <button
+            onClick={() => setHeartClicks((p) => p + 1)}
+            aria-label="Show some love"
+            className="group relative rounded-full p-0.5 transition-transform duration-200 hover:scale-125 active:scale-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+          >
+            <Heart
+              className={`h-3 w-3 fill-current text-[var(--accent)] transition-all duration-300 ${
+                heartClicks > 0 ? "animate-pulse" : ""
+              }`}
+            />
+            {heartClicks > 0 && (
+              <span className="pointer-events-none absolute -top-4 left-1/2 -translate-x-1/2 text-[10px] font-bold text-[var(--accent)] animate-fade-in">
+                +{heartClicks}
+              </span>
+            )}
+          </button>
+          for payments nerds
+        </span>
       </div>
     </footer>
   );

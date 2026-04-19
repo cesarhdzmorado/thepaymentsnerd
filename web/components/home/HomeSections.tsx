@@ -1,18 +1,9 @@
 import { Suspense } from "react";
-import {
-  ArrowRight,
-  BookOpen,
-  Calendar,
-  ExternalLink,
-  Flame,
-  Lightbulb,
-} from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
-import { Logo } from "@/components/Logo";
 import { HeroAnimations } from "@/components/home/HeroAnimations";
 import { ShareButtons } from "@/components/ShareButtons";
 import { SubscribeForm } from "@/components/SubscribeForm";
-import { Badge, cardClasses } from "@/components/ui";
 import { ensureHttps } from "@/lib/publicationNames";
 import { groupWhatsHotByRegion } from "@/lib/regions";
 
@@ -52,6 +43,76 @@ export interface Newsletter {
   content: NewsletterContent;
 }
 
+/* ————————————————————————————————————————————————————————————————
+ * Small, local helpers. Kept at module scope so there's no re-create
+ * work on each render.
+ * ———————————————————————————————————————————————————————————————— */
+
+/** Color tag for the What's Hot table. */
+const TYPE_TAG_COLOR: Record<WhatsHotItem["type"], string> = {
+  fundraising: "text-[var(--accent)]",
+  product: "text-emerald-700 dark:text-emerald-400",
+  expansion: "text-amber-700 dark:text-amber-400",
+  "M&A": "text-violet-700 dark:text-violet-400",
+};
+
+const TYPE_TAG_LABEL: Record<WhatsHotItem["type"], string> = {
+  fundraising: "Fundraising",
+  product: "Product",
+  expansion: "Expansion",
+  "M&A": "M&A",
+};
+
+function SectionHeader({
+  kicker,
+  meta,
+}: {
+  kicker: string;
+  meta?: string;
+}) {
+  return (
+    <div className="mb-10 flex items-baseline justify-between gap-6 border-b-2 border-[var(--ink)] pb-4">
+      <div className="flex items-baseline gap-3">
+        <span className="inline-block h-1.5 w-1.5 translate-y-[-2px] bg-[var(--accent)]" aria-hidden="true" />
+        <span className="label-mono label-mono--ink" style={{ fontSize: 13 }}>
+          {kicker}
+        </span>
+      </div>
+      {meta && <span className="label-mono hidden sm:inline">{meta}</span>}
+    </div>
+  );
+}
+
+function SourceLink({
+  name,
+  url,
+  size = "md",
+}: {
+  name: string;
+  url: string;
+  size?: "sm" | "md";
+}) {
+  const cls =
+    size === "sm"
+      ? "label-mono label-mono--ink"
+      : "label-mono label-mono--ink";
+  return (
+    <a
+      href={ensureHttps(url)}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`${cls} inline-flex items-center gap-1.5 border-b border-[var(--ink)] pb-[2px] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors`}
+    >
+      <span>Source: {name}</span>
+      <ArrowUpRight className="h-3 w-3" />
+    </a>
+  );
+}
+
+/* ————————————————————————————————————————————————————————————————
+ * 1. Hero / masthead block
+ * ———————————————————————————————————————————————————————————————— */
+
 export function HomeHeader({
   formattedDate,
   subscriberCount,
@@ -61,50 +122,57 @@ export function HomeHeader({
   subscriberCount: number;
   roundedCount: number;
 }) {
+  const hasSocialProof = subscriberCount > 10;
+
   return (
-    <header className="relative mb-0 py-4 sm:pb-12 text-center">
+    <header className="relative border-b border-[var(--rule)] py-16 sm:py-20 lg:py-24">
       <HeroAnimations>
-        <div className="mb-4 sm:mb-6">
-          <Logo className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl" />
+        {/* 1. Live eyebrow */}
+        <div className="mb-7 flex items-center gap-3">
+          <span className="live-dot" aria-hidden="true" />
+          <span className="label-mono label-mono--ink">
+            Live · Today&apos;s Edition · {formattedDate}
+          </span>
         </div>
 
-        <p className="mx-auto mb-4 sm:mb-8 max-w-2xl text-lg sm:text-2xl font-medium text-muted leading-relaxed">
-          Five critical payments insights. Zero noise. Daily.
+        {/* 2. Display headline — the mockup's "Five critical…" at hero scale */}
+        <h1 className="mb-8 max-w-[16ch] text-[44px] sm:text-[64px] md:text-[84px] lg:text-[96px] font-extrabold leading-[0.95] tracking-[-0.035em] text-[var(--ink)]">
+          Five <span className="text-[var(--accent)]">critical</span> payments insights.
+          <br />
+          Zero noise.
+          <br />
+          Daily.
+        </h1>
+
+        {/* 3. Deck — the 5-minute briefing line */}
+        <p className="mb-10 max-w-[44ch] text-lg sm:text-xl text-[var(--muted)] leading-relaxed">
+          The 5-minute briefing for payments professionals who need to know what happened,
+          what it means, and what to do about it — before their 9am.
         </p>
 
-        <div className="mb-4 sm:mb-6">
-          <p className="text-sm font-semibold text-slate-600 dark:text-slate-400">
-            {subscriberCount > 10 ? (
-              <>
-                Join{" "}
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-blue-800 to-indigo-900 dark:from-slate-100 dark:via-cyan-200 dark:to-indigo-200">
-                  {roundedCount.toLocaleString()}+
-                </span>{" "}
-                payment professionals
-              </>
-            ) : (
-              "Be among the first to join"
-            )}
-          </p>
-        </div>
-
-        <div
-          className={cardClasses({
-            className:
-              "inline-flex items-center gap-2 rounded-full px-5 py-2.5",
-          })}
-        >
-          <Calendar className="h-4 w-4 text-blue-600 dark:text-cyan-300" />
-          <span className="text-sm font-semibold">{formattedDate}</span>
-        </div>
-
-        <div id="subscribe" className="mx-auto mt-10 max-w-xl scroll-mt-24">
+        {/* 4. Subscribe — primary CTA, above-fold on desktop */}
+        <div id="subscribe" className="mt-2 max-w-xl scroll-mt-24">
           <Suspense fallback={null}>
             <SubscribeForm source="homepage" />
           </Suspense>
         </div>
 
-        <div className="mx-auto mt-8 hidden sm:flex justify-center">
+        {/* 5. Social proof strip */}
+        {hasSocialProof && (
+          <div className="mt-10 border-t border-[var(--rule)] pt-6">
+            <p className="label-mono mb-2">Trusted by payments operators</p>
+            <p className="text-[15px] text-[var(--ink-3)]">
+              Joined by{" "}
+              <span className="font-semibold text-[var(--ink)]">
+                {roundedCount.toLocaleString()}+
+              </span>{" "}
+              product, risk, and partnerships leads at networks, issuers, acquirers, and fintechs.
+            </p>
+          </div>
+        )}
+
+        {/* 6. Share buttons — hidden on mobile, kept for invariant */}
+        <div className="mt-8 hidden sm:flex">
           <ShareButtons />
         </div>
       </HeroAnimations>
@@ -112,311 +180,220 @@ export function HomeHeader({
   );
 }
 
+/* ————————————————————————————————————————————————————————————————
+ * 2. Lead story — massive headline + drop-capped body
+ * ———————————————————————————————————————————————————————————————— */
+
 export function LeadStorySection({ heroStory }: { heroStory: NewsItem | null }) {
   if (!heroStory) return null;
 
   return (
     <AnimateOnScroll>
-      <section id="lead-story" className="mb-16">
-      <div className="mb-6 flex items-center gap-3">
-        <div className="h-px flex-1 bg-gradient-to-r from-transparent via-blue-500/30 to-transparent dark:via-cyan-500/30" />
-        <h2 className="text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">
-          Today&apos;s Lead Story
-        </h2>
-        <div className="h-px flex-1 bg-gradient-to-r from-transparent via-blue-500/30 to-transparent dark:via-cyan-500/30" />
-      </div>
+      <section id="lead-story" className="py-20 sm:py-24 border-b border-[var(--rule)]">
+        <SectionHeader kicker="The Lead" meta="01 of 05 · Today's Top Story" />
 
-      <article
-        className={cardClasses({
-          className:
-            "group relative overflow-hidden transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl",
-        })}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-indigo-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" aria-hidden="true" />
-
-        <div className="relative p-6 sm:p-12">
-          <div className="flex items-start gap-4 sm:gap-8">
-            <div
-              className="flex-shrink-0 rounded-2xl p-4 text-white shadow-xl
-                         bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600
-                         dark:from-cyan-500 dark:via-indigo-500 dark:to-purple-500
-                         transition-all duration-300
-                         group-hover:scale-105 group-hover:shadow-2xl"
-            >
-              <BookOpen className="h-8 w-8" />
+        <article className="grid gap-10 lg:grid-cols-2 lg:gap-14">
+          <div>
+            <p className="label-mono label-mono--accent mb-5">Story 01</p>
+            <h2 className="text-[32px] sm:text-[44px] lg:text-[56px] font-extrabold leading-[1.02] tracking-[-0.025em] text-[var(--ink)]">
+              {heroStory.title}
+            </h2>
+          </div>
+          <div className="lg:pt-2">
+            <div className="drop-cap text-[16px] leading-[1.7] text-[var(--ink-3)] dark:text-[var(--ink-3)]">
+              <p className="mb-4">{heroStory.body}</p>
             </div>
-
-            <div className="min-w-0 flex-1">
-              <h3
-                className="mb-4 text-2xl sm:text-4xl lg:text-5xl font-display font-bold leading-tight
-                           bg-clip-text text-transparent bg-gradient-to-r
-                           from-slate-900 via-blue-900 to-indigo-900
-                           dark:from-slate-100 dark:via-cyan-300 dark:to-indigo-300
-                           transition-all duration-300"
-              >
-                {heroStory.title}
-              </h3>
-
-              <p className="mb-5 text-base sm:text-xl leading-relaxed text-slate-700 dark:text-slate-300 transition-colors duration-300 group-hover:text-slate-900 dark:group-hover:text-slate-200">
-                {heroStory.body}
-              </p>
-
-              <div className="flex items-center gap-2 text-sm font-medium text-muted">
-                <ExternalLink className="h-4 w-4 flex-shrink-0" />
-                <span>Source:</span>
-                <a
-                  href={ensureHttps(heroStory.source.url)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 font-semibold
-                             text-blue-700 hover:underline hover:text-indigo-700
-                             dark:text-cyan-300 dark:hover:text-cyan-200
-                             transition-all duration-300 group/link"
-                >
-                  {heroStory.source.name}
-                  <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-1" />
-                </a>
-              </div>
+            <div className="mt-5">
+              <SourceLink name={heroStory.source.name} url={heroStory.source.url} />
             </div>
           </div>
-        </div>
-
-        <div
-          className="pointer-events-none absolute inset-x-0 bottom-0 h-1
-                     bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500
-                     dark:from-cyan-500 dark:via-indigo-500 dark:to-purple-500
-                     opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"
-          aria-hidden="true"
-        />
-      </article>
+        </article>
       </section>
     </AnimateOnScroll>
   );
 }
+
+/* ————————————————————————————————————————————————————————————————
+ * 3. Secondary stories — №02…№N grid, hairlines only
+ * ———————————————————————————————————————————————————————————————— */
 
 export function QuickHitsSection({ quickHits }: { quickHits: NewsItem[] }) {
   if (quickHits.length === 0) return null;
 
   return (
     <AnimateOnScroll>
-      <section id="quick-hits" className="mb-24">
-      <div className="mb-8 flex items-center gap-3">
-        <div className="h-px flex-1 bg-gradient-to-r from-transparent via-slate-300 to-transparent dark:via-slate-700" />
-        <h2 className="text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">
-          Also Worth Knowing
-        </h2>
-        <div className="h-px flex-1 bg-gradient-to-r from-transparent via-slate-300 to-transparent dark:via-slate-700" />
-      </div>
+      <section id="quick-hits" className="py-20 sm:py-24 border-b border-[var(--rule)]">
+        <SectionHeader
+          kicker="Also Worth Knowing"
+          meta={`${quickHits.length} more to take into tomorrow`}
+        />
 
-      <div className="grid gap-6 sm:grid-cols-2">
-        {quickHits.map((item, index) => {
-          return (
-            <article
-              key={index}
-              className={cardClasses({
-                className:
-                  "group relative overflow-hidden transition-all duration-300 ease-out hover:shadow-lg",
-              })}
-            >
-              <div className="absolute inset-0 bg-gradient-to-br from-slate-500/5 via-transparent to-slate-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" aria-hidden="true" />
-
-              <div className="relative p-6">
-                <Badge className="mb-3 transition-all duration-300 group-hover:bg-slate-200 dark:group-hover:bg-slate-700">
-                  #{index + 2}
-                </Badge>
-
-                <h3
-                  className="mb-3 text-lg sm:text-xl font-display font-semibold leading-tight
-                             text-slate-900 dark:text-slate-100
-                             transition-all duration-300
-                             group-hover:text-blue-700 dark:group-hover:text-cyan-300"
-                >
+        <div className="grid grid-cols-1 sm:grid-cols-2 border-t border-[var(--rule)]">
+          {quickHits.map((item, index) => {
+            const num = index + 2;
+            const isRightCol = index % 2 === 1;
+            return (
+              <article
+                key={index}
+                className={[
+                  "border-b border-[var(--rule)] py-10",
+                  isRightCol ? "sm:pl-10" : "sm:border-r sm:border-[var(--rule)] sm:pr-10",
+                ].join(" ")}
+              >
+                <div className="mb-3 flex items-baseline justify-between">
+                  <div className="font-mono text-[44px] sm:text-[48px] font-medium leading-none tracking-[-0.02em] text-[var(--ink)]">
+                    <span className="text-[var(--accent)]">№</span>
+                    {String(num).padStart(2, "0")}
+                  </div>
+                </div>
+                <h3 className="mb-3 max-w-[22ch] text-[22px] sm:text-[24px] font-bold leading-[1.15] tracking-[-0.015em] text-[var(--ink)]">
                   {item.title}
                 </h3>
-
-                <p className="mb-4 text-sm sm:text-base leading-relaxed text-slate-600 dark:text-slate-400 transition-colors duration-300 group-hover:text-slate-800 dark:group-hover:text-slate-300">
+                <p className="mb-5 max-w-[46ch] text-[15px] leading-[1.6] text-[var(--ink-3)]">
                   {item.body}
                 </p>
-
-                <div className="flex items-center gap-2 text-xs font-medium text-muted">
-                  <ExternalLink className="h-3.5 w-3.5 flex-shrink-0" />
-                  <a
-                    href={ensureHttps(item.source.url)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 font-semibold
-                               text-blue-600 hover:underline hover:text-indigo-600
-                               dark:text-cyan-400 dark:hover:text-cyan-300
-                               transition-all duration-300 group/link"
-                  >
-                    {item.source.name}
-                    <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover/link:translate-x-0.5" />
-                  </a>
-                </div>
-              </div>
-
-              <div
-                className="pointer-events-none absolute inset-x-0 bottom-0 h-0.5
-                           bg-gradient-to-r from-transparent via-slate-400/50 to-transparent
-                           dark:via-slate-600/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                aria-hidden="true"
-              />
-            </article>
-          );
-        })}
-      </div>
+                <SourceLink name={item.source.name} url={item.source.url} size="sm" />
+              </article>
+            );
+          })}
+        </div>
       </section>
     </AnimateOnScroll>
   );
 }
 
+/* ————————————————————————————————————————————————————————————————
+ * 4. Curiosity / "The Long Memory" — full-bleed ink band, oversized pull quote
+ * ———————————————————————————————————————————————————————————————— */
+
 export function CuriositySection({ curiosity }: { curiosity: Curiosity }) {
+  // Full-bleed dark band. We escape the page's horizontal padding with
+  // negative margins + calc so it stretches edge-to-edge without changing
+  // page.tsx.
   return (
     <AnimateOnScroll>
       <section
         id="curiosity"
-        className="relative"
+        className="relative -mx-4 sm:-mx-8 lg:-mx-16 my-0 bg-[var(--ink)] text-[var(--paper)] py-24 sm:py-28 lg:py-32"
       >
-      <div
-        className="pointer-events-none absolute inset-0 -z-10 scale-105 rounded-3xl blur-3xl
-                   bg-gradient-to-r from-amber-400/15 via-orange-400/15 to-yellow-400/15
-                   dark:from-amber-300/12 dark:via-orange-300/12 dark:to-yellow-300/12
-                   animate-pulse-glow"
-        aria-hidden="true"
-      />
-
-      <div className={cardClasses({ strong: true, className: "relative p-8 sm:p-12 text-center" })}>
-        <div className="mb-8 flex items-center justify-center gap-4">
-          <div
-            className="rounded-full p-4 text-white shadow-lg
-                       bg-gradient-to-br from-amber-500 to-orange-600
-                       dark:from-amber-400 dark:to-orange-500"
-          >
-            <Lightbulb className="h-7 w-7" />
+        <div className="mx-auto max-w-4xl px-4 sm:px-8 lg:px-16">
+          <div className="flex items-baseline justify-between gap-6 border-b-2 border-[rgba(250,250,247,0.2)] pb-4">
+            <div className="flex items-baseline gap-3">
+              <span className="inline-block h-1.5 w-1.5 translate-y-[-2px] bg-[var(--accent)]" aria-hidden="true" />
+              <span
+                className="label-mono"
+                style={{ color: "rgba(250,250,247,0.8)", fontSize: 13 }}
+              >
+                The Long Memory
+              </span>
+            </div>
+            <span className="label-mono hidden sm:inline" style={{ color: "rgba(250,250,247,0.55)" }}>
+              History that still rhymes
+            </span>
           </div>
 
-          <h3
-            className="text-3xl sm:text-4xl font-bold bg-clip-text text-transparent
-                       bg-gradient-to-r from-amber-700 via-orange-700 to-amber-700
-                       dark:from-amber-300 dark:via-orange-300 dark:to-amber-300"
-          >
-            Did You Know?
-          </h3>
-        </div>
-
-        <blockquote className="space-y-6 max-w-3xl mx-auto">
-          <p className="text-xl sm:text-2xl leading-relaxed font-medium italic text-slate-900 dark:text-slate-100 relative">
-            <span className="absolute -left-4 -top-6 text-6xl text-amber-200 dark:text-amber-800 opacity-50 select-none">
+          <blockquote className="mt-10 max-w-[22ch] text-[28px] sm:text-[36px] lg:text-[46px] font-semibold leading-[1.15] tracking-[-0.02em]">
+            <span className="mr-2 inline-block align-[-0.15em] text-[1.2em] font-extrabold leading-[0] text-[var(--accent)]">
               &ldquo;
             </span>
             {curiosity.text}
-          </p>
-          {curiosity.source && (
-            <cite className="inline-block text-base sm:text-lg font-semibold not-italic
-                           text-amber-800 dark:text-amber-200
-                           px-4 py-2 rounded-full bg-amber-50 dark:bg-amber-900/20">
-              —{" "}
+          </blockquote>
+
+          {curiosity.source ? (
+            <p className="mt-10">
               <a
                 href={ensureHttps(curiosity.source.url)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline transition-all duration-300"
+                className="label-mono border-b border-[rgba(250,250,247,0.4)] pb-[2px] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+                style={{ color: "rgba(250,250,247,0.8)" }}
               >
-                {curiosity.source.name}
+                Source: {curiosity.source.name} ↗
               </a>
-            </cite>
+            </p>
+          ) : (
+            <p
+              className="label-mono mt-10"
+              style={{ color: "rgba(250,250,247,0.55)" }}
+            >
+              Filed under: Payments History · The Long Memory
+            </p>
           )}
-        </blockquote>
-      </div>
+        </div>
       </section>
     </AnimateOnScroll>
   );
 }
 
+/* ————————————————————————————————————————————————————————————————
+ * 5. What's Hot — table: flag · type · company · description · source
+ * ———————————————————————————————————————————————————————————————— */
+
 export function WhatsHotSection({ whatsHot }: { whatsHot: WhatsHotItem[] }) {
   if (whatsHot.length === 0) return null;
 
+  const grouped = groupWhatsHotByRegion(whatsHot);
+
   return (
     <AnimateOnScroll>
-      <section
-        id="whats-hot"
-        className="mt-16 relative"
-      >
-      <div
-        className="pointer-events-none absolute inset-0 -z-10 scale-105 rounded-3xl blur-3xl
-                   bg-gradient-to-r from-red-400/15 via-orange-400/15 to-rose-400/15
-                   dark:from-red-300/12 dark:via-orange-300/12 dark:to-rose-300/12
-                   animate-pulse-glow"
-        aria-hidden="true"
-      />
+      <section id="whats-hot" className="py-20 sm:py-24 border-b border-[var(--rule)]">
+        <SectionHeader
+          kicker="What's Hot"
+          meta="Funding · M&A · Launches · Expansion"
+        />
 
-      <div className={cardClasses({ strong: true, className: "relative p-8 sm:p-10" })}>
-        <div className="mb-6 flex items-center gap-4">
-          <div
-            className="rounded-full p-3 text-white shadow-lg
-                       bg-gradient-to-br from-red-500 to-orange-600
-                       dark:from-red-400 dark:to-orange-500"
-          >
-            <Flame className="h-6 w-6" />
-          </div>
-
-          <div>
-            <h3
-              className="text-2xl sm:text-3xl font-bold bg-clip-text text-transparent
-                         bg-gradient-to-r from-red-700 via-orange-700 to-rose-700
-                         dark:from-red-300 dark:via-orange-300 dark:to-rose-300"
-            >
-              What&apos;s Hot
-            </h3>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
-              Funding, M&A & Product Launches
-            </p>
-          </div>
-        </div>
-
-        <div className="space-y-6">
-          {groupWhatsHotByRegion(whatsHot).map((group) => (
+        <div className="border-t-2 border-[var(--ink)]">
+          {grouped.map((group) => (
             <div key={group.region}>
-              <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3 flex items-center gap-2">
-                <span>{group.info.emoji}</span>
-                <span>{group.info.name}</span>
-              </h4>
-              <ul className="space-y-3 pl-2">
-                {group.items.map((item, index) => (
-                  <li
+              {/* Region band */}
+              <div className="flex items-center gap-3 border-b border-[var(--rule)] bg-[var(--paper-2)] px-4 py-3 sm:px-6">
+                <span className="text-lg" aria-hidden="true">{group.info.emoji}</span>
+                <span className="label-mono label-mono--ink">{group.info.name}</span>
+              </div>
+
+              {/* Rows */}
+              {group.items.map((item, index) => {
+                const hasLink = Boolean(item.source_url);
+                const RowTag = hasLink ? "a" : "div";
+                const rowProps = hasLink
+                  ? {
+                      href: ensureHttps(item.source_url!),
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                    }
+                  : {};
+                return (
+                  <RowTag
                     key={index}
-                    className="flex items-start gap-3 text-base sm:text-lg text-slate-700 dark:text-slate-300"
+                    {...rowProps}
+                    className="grid grid-cols-[40px_1fr] sm:grid-cols-[50px_140px_1.1fr_2fr_100px] items-center gap-x-6 gap-y-1 border-b border-[var(--rule)] px-4 py-4 sm:px-6 sm:py-5 transition-colors hover:bg-[rgba(229,54,28,0.04)]"
                   >
-                    <span className="text-xl flex-shrink-0">{item.flag}</span>
-                    <span>
-                      <span className="text-sm text-slate-500 dark:text-slate-400">
-                        ({item.type})
-                      </span>{" "}
-                      <span className="font-bold text-slate-900 dark:text-slate-100">
-                        {item.company}
-                      </span>{" "}
-                      {item.description}
-                      {item.source_url && (
-                        <>
-                          {"… "}
-                          <a
-                            href={ensureHttps(item.source_url)}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-sm font-medium text-blue-600 dark:text-cyan-400 hover:underline"
-                          >
-                            Read more
-                          </a>
-                        </>
-                      )}
+                    <span className="row-start-1 text-xl leading-none" aria-hidden="true">
+                      {item.flag}
                     </span>
-                  </li>
-                ))}
-              </ul>
+                    <span
+                      className={`label-mono ${TYPE_TAG_COLOR[item.type]} sm:col-start-2`}
+                      style={{ fontSize: 10 }}
+                    >
+                      {TYPE_TAG_LABEL[item.type]}
+                    </span>
+                    <span className="col-start-2 sm:col-start-3 font-semibold tracking-[-0.01em] text-[var(--ink)]">
+                      {item.company}
+                    </span>
+                    <span className="col-start-2 sm:col-start-4 text-[15px] leading-[1.5] text-[var(--ink-3)]">
+                      {item.description}
+                    </span>
+                    {hasLink && (
+                      <span className="col-start-2 sm:col-start-5 label-mono sm:text-right">
+                        Read more ↗
+                      </span>
+                    )}
+                  </RowTag>
+                );
+              })}
             </div>
           ))}
         </div>
-      </div>
       </section>
     </AnimateOnScroll>
   );

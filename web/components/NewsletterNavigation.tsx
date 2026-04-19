@@ -1,126 +1,124 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { buttonClasses, cardClasses } from './ui';
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface NewsletterNavigationProps {
   prevDate: string | null;
   nextDate: string | null;
   currentDate: string;
-  position?: 'top' | 'bottom';
+  position?: "top" | "bottom";
+}
+
+function archiveButtonClasses(extra = "") {
+  return [
+    "label-mono inline-flex items-center gap-2 border border-[var(--ink)] bg-transparent px-4 py-3 text-[var(--ink)]",
+    "transition-colors hover:bg-[var(--ink)] hover:text-[var(--paper)]",
+    "focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--paper)]",
+    extra,
+  ]
+    .filter(Boolean)
+    .join(" ");
 }
 
 export function NewsletterNavigation({
   prevDate,
   nextDate,
   currentDate,
-  position = 'bottom',
+  position = "bottom",
 }: NewsletterNavigationProps) {
   const router = useRouter();
   const [todayLocal, setTodayLocal] = useState<string | null>(null);
 
   useEffect(() => {
     const now = new Date();
-    const year = now.getFullYear();
-    const month = String(now.getMonth() + 1).padStart(2, '0');
-    const day = String(now.getDate()).padStart(2, '0');
-    setTodayLocal(`${year}-${month}-${day}`);
+    const y = now.getFullYear();
+    const m = String(now.getMonth() + 1).padStart(2, "0");
+    const d = String(now.getDate()).padStart(2, "0");
+    setTodayLocal(`${y}-${m}-${d}`);
   }, []);
 
   useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
+    const handle = (e: KeyboardEvent) => {
       if (
         e.target instanceof HTMLInputElement ||
         e.target instanceof HTMLTextAreaElement
       ) {
         return;
       }
-
-      if (e.key === 'ArrowLeft' && prevDate) {
+      if (e.key === "ArrowLeft" && prevDate) {
         router.push(`/?date=${prevDate}`);
-      } else if (e.key === 'ArrowRight' && nextDate) {
+      } else if (e.key === "ArrowRight" && nextDate) {
         router.push(`/?date=${nextDate}`);
       }
     };
-
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handle);
+    return () => window.removeEventListener("keydown", handle);
   }, [prevDate, nextDate, router]);
 
   const formatDateLabel = (date: string) => {
     const d = new Date(`${date}T00:00:00`);
-    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    return d
+      .toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })
+      .toUpperCase();
   };
 
   const showTodayButton = todayLocal !== null && currentDate !== todayLocal;
   const hasControls = Boolean(prevDate || nextDate || showTodayButton);
 
-  if (!hasControls && position === 'top') {
-    return null;
-  }
+  if (!hasControls && position === "top") return null;
 
   return (
-    <div className={position === 'top' ? 'mb-10' : 'mt-14'}>
-      {hasControls && (
-        <nav
-          className={cardClasses({
-            className:
-              'mx-auto flex w-full max-w-3xl flex-wrap items-center justify-between gap-3 p-3',
-          })}
-          aria-label="Newsletter archive navigation"
-        >
-          <div className="flex items-center gap-2">
-            {prevDate ? (
-              <button
-                onClick={() => router.push(`/?date=${prevDate}`)}
-                className={buttonClasses({ variant: 'secondary', size: 'sm' })}
-                aria-label="Previous day's newsletter"
-              >
-                <ChevronLeft className="h-4 w-4" />
-                <span>{formatDateLabel(prevDate)}</span>
-              </button>
-            ) : (
-              <span className="px-2 text-xs text-slate-400 dark:text-slate-600">
-                Start
-              </span>
-            )}
-          </div>
+    <section
+      className={`${position === "top" ? "border-b border-[var(--rule)]" : "border-y border-[var(--rule)]"} py-8`}
+      aria-label="Newsletter archive navigation"
+    >
+      <div className="grid grid-cols-[auto_1fr_auto] items-center gap-4">
+        <div>
+          {prevDate ? (
+            <button
+              onClick={() => router.push(`/?date=${prevDate}`)}
+              className={archiveButtonClasses()}
+              aria-label="Previous day's newsletter"
+            >
+              <ChevronLeft className="h-3.5 w-3.5" />
+              <span>{formatDateLabel(prevDate)}</span>
+            </button>
+          ) : (
+            <span className="label-mono">Start of archive</span>
+          )}
+        </div>
 
-          <div className="flex items-center gap-2">
-            {showTodayButton && (
-              <button
-                onClick={() => router.push('/')}
-                className={buttonClasses({ variant: 'ghost', size: 'sm' })}
-              >
-                Today
-              </button>
-            )}
+        <div className="label-mono hidden text-center sm:block">
+          {position === "bottom"
+            ? "Use ← → arrow keys to navigate the archive"
+            : ""}
+        </div>
 
-            {nextDate ? (
-              <button
-                onClick={() => router.push(`/?date=${nextDate}`)}
-                className={buttonClasses({ variant: 'secondary', size: 'sm' })}
-                aria-label="Next day's newsletter"
-              >
-                <span>{formatDateLabel(nextDate)}</span>
-                <ChevronRight className="h-4 w-4" />
-              </button>
-            ) : (
-              <span className="px-2 text-xs text-slate-400 dark:text-slate-600">
-                Latest
-              </span>
-            )}
-          </div>
-        </nav>
-      )}
-
-      {position === 'bottom' && hasControls && (
-        <p className="mt-3 text-center text-xs text-muted">
-          Tip: Use ← → arrow keys to navigate the archive
-        </p>
-      )}
-    </div>
+        <div className="flex items-center gap-2">
+          {showTodayButton && (
+            <button
+              onClick={() => router.push("/")}
+              className={archiveButtonClasses()}
+            >
+              Today
+            </button>
+          )}
+          {nextDate ? (
+            <button
+              onClick={() => router.push(`/?date=${nextDate}`)}
+              className={archiveButtonClasses()}
+              aria-label="Next day's newsletter"
+            >
+              <span>{formatDateLabel(nextDate)}</span>
+              <ChevronRight className="h-3.5 w-3.5" />
+            </button>
+          ) : (
+            <span className="label-mono">Latest</span>
+          )}
+        </div>
+      </div>
+    </section>
   );
 }
