@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
@@ -164,8 +162,9 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ ok: true, referralUrl: `${siteUrl}?ref=${newReferralCode}` });
-  } catch (e: any) {
-    console.error("Subscribe route error:", e?.message || e);
+  } catch (e) {
+    const message = e instanceof Error ? e.message : String(e);
+    console.error("Subscribe route error:", message);
     return NextResponse.json({ ok: false, message: "Something went wrong." }, { status: 500 });
   }
 }
