@@ -49,19 +49,27 @@ export interface Newsletter {
  * ———————————————————————————————————————————————————————————————— */
 
 /** Color tag for the What's Hot table. */
-const TYPE_TAG_COLOR: Record<WhatsHotItem["type"], string> = {
+const TYPE_TAG_COLOR: Record<string, string> = {
   fundraising: "text-[var(--accent)]",
   product: "text-emerald-700 dark:text-emerald-400",
   expansion: "text-amber-700 dark:text-amber-400",
   "M&A": "text-violet-700 dark:text-violet-400",
 };
 
-const TYPE_TAG_LABEL: Record<WhatsHotItem["type"], string> = {
+const TYPE_TAG_LABEL: Record<string, string> = {
   fundraising: "Fundraising",
   product: "Product",
   expansion: "Expansion",
   "M&A": "M&A",
 };
+
+function getTypeColor(type: string): string {
+  return TYPE_TAG_COLOR[type] ?? "text-[var(--muted)]";
+}
+
+function getTypeLabel(type: string): string {
+  return TYPE_TAG_LABEL[type] ?? type;
+}
 
 function SectionHeader({
   kicker,
@@ -86,22 +94,16 @@ function SectionHeader({
 function SourceLink({
   name,
   url,
-  size = "md",
 }: {
   name: string;
   url: string;
-  size?: "sm" | "md";
 }) {
-  const cls =
-    size === "sm"
-      ? "label-mono label-mono--ink"
-      : "label-mono label-mono--ink";
   return (
     <a
       href={ensureHttps(url)}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${cls} inline-flex items-center gap-1.5 border-b border-[var(--ink)] pb-[2px] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors`}
+      className="label-mono label-mono--ink inline-flex items-center gap-1.5 border-b border-[var(--ink)] pb-[2px] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
     >
       <span>Source: {name}</span>
       <ArrowUpRight className="h-3 w-3" />
@@ -252,7 +254,7 @@ export function QuickHitsSection({ quickHits }: { quickHits: NewsItem[] }) {
                 <p className="mb-5 max-w-[46ch] text-[15px] leading-[1.6] text-[var(--ink-3)]">
                   {item.body}
                 </p>
-                <SourceLink name={item.source.name} url={item.source.url} size="sm" />
+                <SourceLink name={item.source.name} url={item.source.url} />
               </article>
             );
           })}
@@ -372,10 +374,10 @@ export function WhatsHotSection({ whatsHot }: { whatsHot: WhatsHotItem[] }) {
                       {item.flag}
                     </span>
                     <span
-                      className={`label-mono ${TYPE_TAG_COLOR[item.type]} sm:col-start-2`}
+                      className={`label-mono ${getTypeColor(item.type)} sm:col-start-2`}
                       style={{ fontSize: 10 }}
                     >
-                      {TYPE_TAG_LABEL[item.type]}
+                      {getTypeLabel(item.type)}
                     </span>
                     <span className="col-start-2 sm:col-start-3 font-semibold tracking-[-0.01em] text-[var(--ink)]">
                       {item.company}

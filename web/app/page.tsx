@@ -260,7 +260,7 @@ export default async function HomePage({
             className="mx-auto mt-14 grid max-w-[1240px] grid-cols-1 gap-6 border-t px-4 pt-8 sm:grid-cols-3 sm:px-8 lg:px-16"
             style={{ borderColor: "rgba(250,250,247,0.2)" }}
           >
-            <StatBlock value={`${roundedCount.toLocaleString()}+`} label="Subscribers" />
+            {roundedCount > 10 && <StatBlock value={`${roundedCount.toLocaleString()}+`} label="Subscribers" />}
             <StatBlock value={String(issuesShipped)} label="Issues shipped" />
             <StatBlock value="5 min" label="Average read" />
           </div>

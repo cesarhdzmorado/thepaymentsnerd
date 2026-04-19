@@ -49,7 +49,7 @@ export function NavigationBar() {
 
   return (
     <nav
-      className="fixed inset-x-0 top-0 z-50 border-t-[3px] border-[var(--ink)] border-b border-[var(--rule)] bg-[color-mix(in_srgb,var(--paper)_92%,transparent)] backdrop-blur-md"
+      className="fixed inset-x-0 top-0 z-50 border-t-[3px] border-t-[var(--ink)] border-b border-b-[var(--rule)] bg-[color-mix(in_srgb,var(--paper)_92%,transparent)] backdrop-blur-md"
       aria-label="Site"
     >
       <div className="mx-auto grid max-w-[1240px] grid-cols-[1fr_auto_1fr] items-center gap-4 px-4 py-3 sm:px-8">
@@ -82,7 +82,7 @@ export function NavigationBar() {
       {/* Scroll progress — 1px vermillion bar along the bottom edge */}
       <div
         aria-hidden="true"
-        className="h-px w-full bg-[var(--accent)] transition-[width] duration-150 ease-out"
+        className="h-px bg-[var(--accent)] transition-[width] duration-150 ease-out"
         style={{ width: `${progress}%` }}
       />
     </nav>
