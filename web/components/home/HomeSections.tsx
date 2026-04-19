@@ -119,21 +119,23 @@ export function HomeHeader({
   formattedDate,
   subscriberCount,
   roundedCount,
+  isArchive = false,
 }: {
   formattedDate: string;
   subscriberCount: number;
   roundedCount: number;
+  isArchive?: boolean;
 }) {
   const hasSocialProof = subscriberCount > 10;
 
   return (
     <header className="relative border-b border-[var(--rule)] py-16 sm:py-20 lg:py-24">
       <HeroAnimations>
-        {/* 1. Live eyebrow */}
+        {/* 1. Eyebrow — live indicator for today, archive label for past issues */}
         <div className="mb-7 flex items-center gap-3">
-          <span className="live-dot" aria-hidden="true" />
+          {!isArchive && <span className="live-dot" aria-hidden="true" />}
           <span className="label-mono label-mono--ink">
-            Live · Today&apos;s Edition · {formattedDate}
+            {isArchive ? `Archive · ${formattedDate}` : `Live · Today\u2019s Edition · ${formattedDate}`}
           </span>
         </div>
 
@@ -279,17 +281,14 @@ export function CuriositySection({ curiosity }: { curiosity: Curiosity }) {
         className="relative -mx-4 sm:-mx-8 lg:-mx-16 my-0 bg-[var(--ink)] text-[var(--paper)] py-24 sm:py-28 lg:py-32"
       >
         <div className="mx-auto max-w-4xl px-4 sm:px-8 lg:px-16">
-          <div className="flex items-baseline justify-between gap-6 border-b-2 border-[rgba(250,250,247,0.2)] pb-4">
+          <div className="flex items-baseline justify-between gap-6 border-b-2 border-[var(--paper)]/20 pb-4">
             <div className="flex items-baseline gap-3">
               <span className="inline-block h-1.5 w-1.5 translate-y-[-2px] bg-[var(--accent)]" aria-hidden="true" />
-              <span
-                className="label-mono"
-                style={{ color: "rgba(250,250,247,0.8)", fontSize: 13 }}
-              >
+              <span className="label-mono text-[var(--paper)] opacity-80" style={{ fontSize: 13 }}>
                 The Long Memory
               </span>
             </div>
-            <span className="label-mono hidden sm:inline" style={{ color: "rgba(250,250,247,0.55)" }}>
+            <span className="label-mono hidden sm:inline text-[var(--paper)] opacity-55">
               History that still rhymes
             </span>
           </div>
@@ -307,17 +306,13 @@ export function CuriositySection({ curiosity }: { curiosity: Curiosity }) {
                 href={ensureHttps(curiosity.source.url)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="label-mono border-b border-[rgba(250,250,247,0.4)] pb-[2px] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
-                style={{ color: "rgba(250,250,247,0.8)" }}
+                className="label-mono text-[var(--paper)] opacity-80 border-b border-[var(--paper)]/40 pb-[2px] hover:border-[var(--accent)] hover:text-[var(--accent)] hover:opacity-100 transition-colors"
               >
                 Source: {curiosity.source.name} ↗
               </a>
             </p>
           ) : (
-            <p
-              className="label-mono mt-10"
-              style={{ color: "rgba(250,250,247,0.55)" }}
-            >
+            <p className="label-mono mt-10 text-[var(--paper)] opacity-55">
               Filed under: Payments History · The Long Memory
             </p>
           )}

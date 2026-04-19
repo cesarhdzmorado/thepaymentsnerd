@@ -194,6 +194,7 @@ export default async function HomePage({
   })();
 
   const issuesShipped = 180; // Placeholder — will wire to real count later.
+  const isArchive = Boolean(requestedDate);
 
   return (
     <div className="relative min-h-screen">
@@ -210,6 +211,7 @@ export default async function HomePage({
           formattedDate={formattedDate}
           subscriberCount={subscriberCount}
           roundedCount={roundedCount}
+          isArchive={isArchive}
         />
 
         <NewsletterNavigation
@@ -224,14 +226,11 @@ export default async function HomePage({
         <CuriositySection curiosity={newsletter.content.curiosity} />
         <WhatsHotSection whatsHot={newsletter.content.whats_hot ?? []} />
 
-        {/* ——— Tomorrow CTA — full-bleed ink band ——— */}
-        <section className="relative -mx-4 sm:-mx-8 lg:-mx-16 bg-[var(--ink)] text-[var(--paper)] py-24 sm:py-28 lg:py-32">
+        {/* ——— Tomorrow CTA — full-bleed ink band (live issues only) ——— */}
+        {!isArchive && <section className="relative -mx-4 sm:-mx-8 lg:-mx-16 bg-[var(--ink)] text-[var(--paper)] py-24 sm:py-28 lg:py-32">
           <div className="mx-auto grid max-w-[1240px] gap-12 px-4 sm:px-8 lg:grid-cols-2 lg:items-end lg:gap-16 lg:px-16">
             <div>
-              <p
-                className="label-mono mb-4"
-                style={{ color: "rgba(250,250,247,0.55)" }}
-              >
+              <p className="label-mono mb-4 text-[var(--paper)] opacity-55">
                 Tomorrow&apos;s issue drops
               </p>
               <h2 className="text-[40px] sm:text-[60px] lg:text-[80px] font-extrabold leading-[0.95] tracking-[-0.035em]">
@@ -242,10 +241,7 @@ export default async function HomePage({
               </h2>
             </div>
             <div className="lg:pb-3">
-              <p
-                className="mb-7 max-w-[44ch] text-[17px] leading-relaxed"
-                style={{ color: "rgba(250,250,247,0.7)" }}
-              >
+              <p className="mb-7 max-w-[44ch] text-[17px] leading-relaxed text-[var(--paper)] opacity-70">
                 One email. Five stories. Zero filler. Written by a payments nerd, for
                 payments nerds.
               </p>
@@ -257,14 +253,13 @@ export default async function HomePage({
 
           {/* Stats strip */}
           <div
-            className="mx-auto mt-14 grid max-w-[1240px] grid-cols-1 gap-6 border-t px-4 pt-8 sm:grid-cols-3 sm:px-8 lg:px-16"
-            style={{ borderColor: "rgba(250,250,247,0.2)" }}
+            className="mx-auto mt-14 grid max-w-[1240px] grid-cols-1 gap-6 border-t border-[var(--paper)]/20 px-4 pt-8 sm:grid-cols-3 sm:px-8 lg:px-16"
           >
             {roundedCount > 10 && <StatBlock value={`${roundedCount.toLocaleString()}+`} label="Subscribers" />}
             <StatBlock value={String(issuesShipped)} label="Issues shipped" />
             <StatBlock value="5 min" label="Average read" />
           </div>
-        </section>
+        </section>}
 
         <NewsletterNavigation
           prevDate={adjacentDates.prev}
@@ -288,10 +283,7 @@ function StatBlock({ value, label }: { value: string; label: string }) {
       <div className="text-[40px] font-extrabold leading-none tracking-[-0.03em] text-[var(--paper)]">
         {value}
       </div>
-      <div
-        className="label-mono mt-2"
-        style={{ color: "rgba(250,250,247,0.55)" }}
-      >
+      <div className="label-mono mt-2 text-[var(--paper)] opacity-55">
         {label}
       </div>
     </div>
