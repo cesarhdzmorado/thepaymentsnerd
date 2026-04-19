@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.3.0] - 2026-04-19
+
+### Changed
+- Swiss minimal redesign: new CSS token system (paper/ink/rule/accent) replaces the blue-indigo gradient palette
+- Typography swap: JetBrains Mono for labels and datelines, Inter weight-driven hierarchy instead of Archivo headings
+- Navigation bar: centered brand wordmark, issue dateline, vermillion scroll progress bar, 3px ink top rule
+- Footer: 4-column grid layout with read/company/legal sections, warm paper-2 background
+- Homepage hero: oversized headline at display scale, live-dot pulsing indicator, drop-cap lead story
+- Full-bleed ink-band sections for Curiosity and Tomorrow CTA with proper dark mode contrast
+- All buttons and inputs use sharp 2px corners and ink/accent color scheme
+- Archive pages now show "Archive" eyebrow instead of "LIVE" and hide the Tomorrow CTA section
+
+### Fixed
+- Dark mode contrast in CTA band and Curiosity section (hardcoded rgba colors replaced with theme-aware tokens)
+- Nav border shorthand collision (bottom border was rendering ink color instead of rule)
+- Scroll progress bar CSS conflict (w-full overriding inline width)
+- Unknown whats_hot types no longer render "undefined" (fallback to raw type string)
+- Stats strip subscriber count now respects the >10 threshold guard
+- Misleading "Weekly recap" footer link renamed to "Subscribe"
+
 ## [0.1.2.0] - 2026-04-04
 
 ### Added

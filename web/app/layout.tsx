@@ -1,22 +1,24 @@
 // web/app/layout.tsx
 import type { Metadata } from "next";
-import { Inter, Archivo } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import { NavigationBar } from "@/components/NavigationBar";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
-// Body font - clean, readable for content
+// Primary typeface — body + display, weights 400–900.
+// Swiss minimal: one family does most of the lifting, weight drives hierarchy.
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
 });
 
-// Heading font - modern, geometric, tech-forward
-const archivo = Archivo({
+// Mono — labels, numerals, datelines, tags.
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  variable: "--font-archivo",
+  variable: "--font-mono",
   display: "swap",
+  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -64,7 +66,7 @@ export default function RootLayout({
       <body
         className={[
           inter.variable,
-          archivo.variable,
+          jetbrainsMono.variable,
           "min-h-screen antialiased font-sans",
           // force the entire app to respect your CSS variables in globals.css
           "bg-[var(--background)] text-[var(--foreground)]",
@@ -79,7 +81,7 @@ export default function RootLayout({
         <div className="min-h-screen">
           <NavigationBar />
 
-          <main id="main-content" tabIndex={-1} className="relative min-h-screen pt-16">
+          <main id="main-content" tabIndex={-1} className="relative min-h-screen pt-[60px]">
             {children}
           </main>
         </div>

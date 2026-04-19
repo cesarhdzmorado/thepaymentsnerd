@@ -146,13 +146,12 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
     : null;
 
   return (
-    <div className="text-center">
+    <div className="w-full">
       {bannerMessage && (
         <div
-          className="mb-6 rounded-lg px-4 py-3 text-sm font-medium
-                        bg-blue-50 dark:bg-blue-900/20
-                        text-blue-800 dark:text-blue-200
-                        border border-blue-200 dark:border-blue-800
+          className="mb-5 rounded-[2px] px-4 py-3 text-sm font-medium
+                        border border-[var(--ink)]
+                        text-[var(--ink)]
                         animate-fade-in"
           role="status"
           aria-live="polite"
@@ -162,10 +161,10 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
       )}
 
       {/* Form */}
-      <form onSubmit={onSubmit} className="w-full max-w-xl mx-auto px-4">
+      <form onSubmit={onSubmit} className="w-full">
         <label
           htmlFor={`${idPrefix}-email`}
-          className="mb-2 block text-left text-sm font-medium text-slate-700 dark:text-slate-300"
+          className="sr-only"
         >
           Email address
         </label>
@@ -200,10 +199,7 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
             type="submit"
             disabled={status === "loading"}
             size="lg"
-            className="group relative min-w-[140px] overflow-hidden sm:min-w-[120px]
-                       hover:shadow-lg hover:shadow-slate-900/20 dark:hover:shadow-slate-100/10
-                       hover:scale-105 active:scale-95
-                       disabled:hover:scale-100"
+            className="min-w-[140px] sm:min-w-[120px]"
           >
             {status === "loading" ? (
               <>
@@ -211,10 +207,8 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
                 <span>Subscribing…</span>
               </>
             ) : (
-              <span className="relative z-10">Subscribe</span>
+              <span>Subscribe →</span>
             )}
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/0 via-blue-500/10 to-blue-500/0
-                            opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </Button>
         </div>
       </form>
@@ -293,8 +287,8 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
       )}
 
       {/* Footer text */}
-      <p className="mt-6 text-xs text-slate-500 dark:text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors duration-200">
-        You can unsubscribe anytime with one click.
+      <p className="label-mono mt-4">
+        Free · Weekday mornings · Unsubscribe in one click
       </p>
     </div>
   );

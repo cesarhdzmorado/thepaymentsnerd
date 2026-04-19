@@ -15,14 +15,17 @@ type ButtonVariant = "primary" | "secondary" | "ghost" | "danger";
 type ButtonSize = "sm" | "md" | "lg";
 
 const buttonVariantMap: Record<ButtonVariant, string> = {
+  // Swiss primary — solid ink, sharp corners, vermillion on hover.
   primary:
-    "bg-gradient-to-r from-slate-900 to-slate-800 text-white hover:from-slate-800 hover:to-slate-700 dark:from-slate-100 dark:to-slate-50 dark:text-slate-900 dark:hover:from-white dark:hover:to-slate-100",
+    "bg-[var(--ink)] text-[var(--paper)] hover:bg-[var(--accent)]",
+  // Secondary — outline only, inverts on hover.
   secondary:
-    "border border-slate-300 bg-slate-100 text-slate-900 hover:bg-slate-200 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700",
+    "border border-[var(--ink)] bg-transparent text-[var(--ink)] hover:bg-[var(--ink)] hover:text-[var(--paper)]",
+  // Ghost — quiet outline, accent on hover.
   ghost:
-    "border border-slate-200 bg-slate-100 text-slate-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-600 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-blue-900/20 dark:hover:border-blue-700 dark:hover:text-blue-400",
+    "border border-[var(--rule)] bg-transparent text-[var(--ink)] hover:border-[var(--accent)] hover:text-[var(--accent)]",
   danger:
-    "bg-red-600 text-white hover:bg-red-700 disabled:hover:bg-red-600",
+    "bg-[var(--accent)] text-[var(--paper)] hover:bg-[var(--accent-hover)] disabled:hover:bg-[var(--accent)]",
 };
 
 const buttonSizeMap: Record<ButtonSize, string> = {
@@ -41,9 +44,10 @@ export function buttonClasses({
   className?: string;
 }) {
   return cx(
-    "inline-flex items-center justify-center gap-2 rounded-lg font-semibold",
-    "transition-all duration-300",
-    "focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2",
+    // Sharp corners + Swiss-neutral tracking.
+    "inline-flex items-center justify-center gap-2 rounded-[2px] font-semibold tracking-[0.02em]",
+    "transition-colors duration-150",
+    "focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--paper)]",
     "disabled:cursor-not-allowed disabled:opacity-50",
     buttonVariantMap[variant],
     buttonSizeMap[size],
@@ -84,16 +88,15 @@ export function LinkButton({
 
 export function inputClasses({ className }: { className?: string } = {}) {
   return cx(
-    "w-full rounded-lg px-4 py-3.5 text-base",
-    "bg-white dark:bg-slate-800",
-    "border-2 border-slate-300 dark:border-slate-600",
-    "text-slate-900 dark:text-slate-100",
-    "placeholder:text-slate-500 dark:placeholder:text-slate-400",
+    // Swiss input — sharp corners, ink border, paper fill.
+    "w-full rounded-[2px] px-4 py-3.5 text-base",
+    "bg-[var(--paper)]",
+    "border-[1.5px] border-[var(--ink)]",
+    "text-[var(--ink)]",
+    "placeholder:text-[var(--muted-2)]",
     "outline-none",
-    "focus:border-blue-500 dark:focus:border-blue-400",
-    "focus:ring-4 focus:ring-blue-500/10",
-    "transition-all duration-200",
-    "hover:border-slate-400 dark:hover:border-slate-500",
+    "transition-colors duration-150",
+    "focus:border-[var(--accent)]",
     "disabled:opacity-50 disabled:cursor-not-allowed",
     className
   );
@@ -124,10 +127,9 @@ export function Card({
 type BadgeTone = "neutral" | "info" | "success";
 
 const badgeToneMap: Record<BadgeTone, string> = {
-  neutral: "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300",
-  info: "bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-200",
-  success:
-    "bg-green-50 text-green-700 dark:bg-green-900/20 dark:text-green-300",
+  neutral: "border border-[var(--rule)] text-[var(--muted)]",
+  info: "border border-[var(--accent)] text-[var(--accent)]",
+  success: "border border-emerald-600 text-emerald-700 dark:text-emerald-400",
 };
 
 export function badgeClasses({
@@ -138,7 +140,8 @@ export function badgeClasses({
   className?: string;
 } = {}) {
   return cx(
-    "inline-flex items-center rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wider",
+    // Mono tag — sharp rectangle, uppercase, tracked.
+    "inline-flex items-center rounded-[2px] px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-[0.16em]",
     badgeToneMap[tone],
     className
   );

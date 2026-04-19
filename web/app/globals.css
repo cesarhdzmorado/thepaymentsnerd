@@ -3,60 +3,80 @@
 /* MUST be first (Tailwind v4) */
 @import "tailwindcss";
 
-/* --- Theme tokens (enhanced for v2.0) --- */
+/* --- Theme tokens (Swiss minimal, v3.0) ---
+ * Two systems live here side-by-side:
+ *   1. The Swiss token set (paper/ink/rule/accent) drives the redesigned home.
+ *   2. Legacy tokens (background/foreground/card-surface/glow) still exist so
+ *      /legal, /privacy, /cookies, /unsubscribe keep their current look until
+ *      we port them in a follow-up.
+ */
 :root {
-  /* Unbleached neutral - warmer, easier on eyes than pure white */
-  --background: #fafaf9; /* stone-50 - warm off-white */
-  --foreground: #0a0a0a; /* nearly black with warmth */
+  /* ——— Swiss palette (light) ——— */
+  --paper: #FAFAF7;          /* warm off-white, the "stock" color */
+  --paper-2: #F2F2EC;         /* slightly darker for footer/alt surfaces */
+  --ink: #0A0A0A;             /* near-black */
+  --ink-2: #1A1A1A;           /* body text one tick lighter than headlines */
+  --ink-3: #444444;           /* paragraph body */
+  --muted: #6E6E6E;           /* metadata, captions */
+  --muted-2: #9A9A92;          /* placeholders, faint labels */
+  --rule: #E3E3DC;            /* hairlines */
+  --accent: #E5361C;          /* vermillion — single accent, use sparingly */
+  --accent-hover: #FF4826;    /* accent on hover (slightly hotter) */
 
-  /* Surfaces with improved warmth */
-  --muted-foreground: #475569; /* slate-600 */
-  --card: rgba(255, 255, 255, 0.85); /* stronger base for cards */
+  /* Map Swiss paper/ink to existing background/foreground so the rest of the
+   * app (pages that still use these tokens) flows along nicely. */
+  --background: var(--paper);
+  --foreground: var(--ink);
+
+  /* Legacy tokens — kept for non-home pages until they're ported. */
+  --muted-foreground: #475569;
+  --card: rgba(255, 255, 255, 0.85);
   --card-strong: rgba(255, 255, 255, 0.95);
-  --card-border: rgba(15, 23, 42, 0.08); /* softer border */
-
-  /* Grid + effects */
+  --card-border: rgba(15, 23, 42, 0.08);
   --grid-line: rgba(226, 232, 240, 0.60);
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 20px 45px rgba(2, 6, 23, 0.08);
   --shadow-strong: 0 4px 12px rgba(0, 0, 0, 0.08), 0 30px 70px rgba(2, 6, 23, 0.12);
-
-  /* Enhanced accent glows with more depth */
-  --glow-1: rgba(59, 130, 246, 0.15); /* blue-500 */
-  --glow-2: rgba(99, 102, 241, 0.12); /* indigo-500 */
-  --glow-3: rgba(14, 165, 233, 0.10); /* sky-500 for variety */
-
+  --glow-1: rgba(59, 130, 246, 0.15);
+  --glow-2: rgba(99, 102, 241, 0.12);
+  --glow-3: rgba(14, 165, 233, 0.10);
 }
 
-/* Theme inline mapping */
+/* Theme inline mapping — expose variables to Tailwind and register the mono font. */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
-/* System dark mode - enhanced for v2.0 */
+/* System dark mode — Swiss but inverted. Ink becomes paper, paper becomes ink.
+ * Accent stays the same (vermillion reads well on both). */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0e1a; /* deep navy, OLED-friendly */
-    --foreground: #f5f5f4; /* stone-100 - warm light */
+    --paper: #0A0A0A;
+    --paper-2: #151515;
+    --ink: #FAFAF7;
+    --ink-2: #E5E5E0;
+    --ink-3: #C5C5BD;
+    --muted: #9A9A92;
+    --muted-2: #6E6E6E;
+    --rule: #262626;
+    --accent: #FF4826;         /* slightly punchier on dark backgrounds */
+    --accent-hover: #FF6240;
 
-    --muted-foreground: #94a3b8; /* slate-400 */
+    --background: var(--paper);
+    --foreground: var(--ink);
 
-    /* Elevated surfaces in dark mode */
+    /* Legacy tokens for other pages. */
+    --muted-foreground: #94a3b8;
     --card: rgba(15, 23, 42, 0.60);
     --card-strong: rgba(15, 23, 42, 0.85);
     --card-border: rgba(148, 163, 184, 0.15);
-
     --grid-line: rgba(148, 163, 184, 0.08);
-
-    /* Layered shadows for depth */
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.25), 0 18px 40px rgba(0, 0, 0, 0.35);
     --shadow-strong: 0 8px 24px rgba(0, 0, 0, 0.35), 0 26px 70px rgba(0, 0, 0, 0.45);
-
-    /* Softer glows for dark mode */
     --glow-1: rgba(59, 130, 246, 0.10);
     --glow-2: rgba(99, 102, 241, 0.08);
     --glow-3: rgba(14, 165, 233, 0.06);
-
   }
 }
 
@@ -350,4 +370,105 @@ select:focus-visible,
 
 .prose-legal strong {
   color: var(--foreground);
+}
+
+/* ——————————————————————————————————————————————
+ * Swiss system — utility classes for the redesigned home.
+ * Used in components/home/HomeSections.tsx and surrounding chrome.
+ * —————————————————————————————————————————————— */
+
+/* Mono label — uppercase, tracked, used for kickers, datelines, sources. */
+.label-mono {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.label-mono--ink { color: var(--ink); }
+.label-mono--accent { color: var(--accent); }
+
+.rule-ink { border-color: var(--ink); }
+.rule-hairline { border-color: var(--rule); }
+
+/* Pulsing live dot — used next to "LIVE · TODAY'S EDITION" in the hero. */
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(229, 54, 28, 0.18);
+  animation: live-pulse 1.8s ease-in-out infinite;
+  display: inline-block;
+}
+@keyframes live-pulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(229, 54, 28, 0.18); }
+  50%      { box-shadow: 0 0 0 7px rgba(229, 54, 28, 0.08); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .live-dot { animation: none; }
+}
+
+/* Drop cap — first-letter treatment on the lead story body. */
+.drop-cap::first-letter {
+  font-weight: 800;
+  font-size: 3.5em;
+  line-height: 0.9;
+  float: left;
+  padding: 6px 10px 0 0;
+  color: var(--accent);
+  letter-spacing: -0.04em;
+}
+
+/* Inline subscribe input — sharp corners, border, vermillion hover on submit. */
+.swiss-subscribe {
+  display: flex;
+  gap: 0;
+  border: 1.5px solid var(--ink);
+  border-radius: 2px;
+  background: var(--paper);
+  overflow: hidden;
+}
+.swiss-subscribe input {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  padding: 16px 18px;
+  font: 500 15px/1.2 var(--font-inter, system-ui), sans-serif;
+  color: var(--ink);
+  outline: none;
+  min-width: 0;
+}
+.swiss-subscribe input::placeholder { color: var(--muted-2); }
+.swiss-subscribe button,
+.swiss-subscribe [type="submit"] {
+  border: 0;
+  background: var(--ink);
+  color: var(--paper);
+  font: 600 14px/1 var(--font-inter, system-ui), sans-serif;
+  letter-spacing: 0.02em;
+  padding: 0 24px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background .15s ease;
+  white-space: nowrap;
+}
+.swiss-subscribe button:hover,
+.swiss-subscribe [type="submit"]:hover {
+  background: var(--accent);
+}
+.swiss-subscribe--dark {
+  background: transparent;
+  border-color: color-mix(in srgb, var(--ink) 35%, transparent);
+}
+.swiss-subscribe--dark button,
+.swiss-subscribe--dark [type="submit"] {
+  background: var(--accent);
+}
+.swiss-subscribe--dark button:hover,
+.swiss-subscribe--dark [type="submit"]:hover {
+  background: var(--accent-hover);
 }

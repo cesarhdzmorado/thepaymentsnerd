@@ -47,8 +47,10 @@ There are also `send_analysis.yml` and `weekly_recap.yml` workflows.
 - `ai/src/main.py` — Agent orchestration (Researcher -> Writer -> Editor)
 - `web/app/api/` — API routes: subscribe, confirm, unsubscribe, send-daily, send-analysis, test-email, webhooks/resend
 - `web/emails/` — React Email templates
-- `web/lib/` — Supabase clients, email token utils, referrals
+- `web/lib/` — Supabase clients, email token utils, referrals, animationConfig
+- `web/hooks/` — Custom React hooks (useInView for IntersectionObserver viewport detection)
 - `web/components/` — React components
+- `web/components/home/` — Homepage sections (HomeSections, HeroAnimations) and their tests
 - `web/scripts/` — Helper scripts (syncToSupabase, previewEmail, sendTestEmail)
 
 ### Database (Supabase/PostgreSQL)
