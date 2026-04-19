@@ -4,49 +4,43 @@ Source of truth for /thepaymentsnerd visual identity. Every UI decision should t
 
 ## Brand
 
-**Name:** /thepaymentsnerd (forward slash is part of the mark)
+**Name:** /thepaymentsnerd (forward slash is part of the mark, rendered in vermillion)
 **Tagline:** "Five critical payments insights. Zero noise. Daily."
-**Aesthetic:** Modern minimalist tech. Glassmorphism cards, subtle depth, clean typography. The site should feel like a well-made tool, not a marketing page.
+**Aesthetic:** Swiss minimal. Sharp corners, ink-on-paper contrast, one accent color, type-driven hierarchy. The site should feel like a well-designed broadsheet, not a SaaS landing page.
 
 ## Color Palette
 
-### Light Mode
+### Swiss Tokens (Primary)
 
-| Token | Value | Usage |
-|-------|-------|-------|
-| `--background` | `#fafaf9` (stone-50) | Page background, warm off-white |
-| `--foreground` | `#0a0a0a` | Primary text, nearly black |
-| `--muted-foreground` | `#475569` (slate-600) | Secondary text, timestamps, meta |
-| `--card` | `rgba(255,255,255,0.85)` | Card backgrounds with blur |
-| `--card-strong` | `rgba(255,255,255,0.95)` | Hero/featured card backgrounds |
-| `--card-border` | `rgba(15,23,42,0.08)` | Subtle card borders |
+| Token | Light | Dark | Usage |
+|-------|-------|------|-------|
+| `--paper` | `#FAFAF7` | `#0A0A0A` | Page background |
+| `--paper-2` | `#F2F2EC` | `#151515` | Footer, alternate surfaces |
+| `--ink` | `#0A0A0A` | `#FAFAF7` | Headlines, primary text |
+| `--ink-2` | `#1A1A1A` | `#E5E5E0` | Body text, one tick lighter |
+| `--ink-3` | `#444444` | `#C5C5BD` | Paragraph body |
+| `--muted` | `#6E6E6E` | `#9A9A92` | Metadata, captions |
+| `--muted-2` | `#9A9A92` | `#6E6E6E` | Placeholders, faint labels |
+| `--rule` | `#E3E3DC` | `#262626` | Hairlines, borders |
+| `--accent` | `#E5361C` | `#FF4826` | Vermillion. Single accent, use sparingly |
+| `--accent-hover` | `#FF4826` | `#FF6240` | Accent on hover |
 
-### Dark Mode
+### Legacy Tokens (Other Pages)
 
-| Token | Value | Usage |
-|-------|-------|-------|
-| `--background` | `#0a0e1a` | Deep navy, OLED-friendly |
-| `--foreground` | `#f5f5f4` (stone-100) | Primary text, warm light |
-| `--muted-foreground` | `#94a3b8` (slate-400) | Secondary text |
-| `--card` | `rgba(15,23,42,0.60)` | Card backgrounds |
-| `--card-strong` | `rgba(15,23,42,0.85)` | Hero/featured cards |
-| `--card-border` | `rgba(148,163,184,0.15)` | Card borders |
+These map to the Swiss tokens via `--background: var(--paper)` and `--foreground: var(--ink)`. They exist so non-home pages (legal, privacy, cookies, unsubscribe) keep working until ported.
 
-### Accent Colors
+| Token | Purpose |
+|-------|---------|
+| `--muted-foreground` | Secondary text for legacy pages |
+| `--card` / `--card-strong` | Card backgrounds with blur |
+| `--card-border` | Subtle card borders |
+| `--glow-1/2/3` | Glow effects (legacy, not used on home) |
 
-| Color | Value | Usage |
-|-------|-------|-------|
-| Blue | `#2563eb` (blue-600) | Primary interactive: links, CTAs, focus rings |
-| Indigo | `#4f46e5` (indigo-600) | Gradient accents, secondary emphasis |
-| Cyan | `#06b6d4` | Dark mode link alternative |
-| Sky | `#0ea5e9` | Glow variety accent |
-| Green | `#22c55e` | Success states |
-| Amber | `#f59e0b` | Warning states |
-| Red | `#ef4444` | Error states, destructive actions |
+### Accent Usage Rules
 
-### Glow Effects
-
-Radial gradient overlays for depth. Two gradients using `--glow-1` and `--glow-2` CSS custom properties (blue/indigo tones). Applied via `.glow-bg` class.
+- Vermillion (`--accent`) is the only accent color. No blue, indigo, or gradient accents on home.
+- Use for: the `/` in the wordmark, the live dot, section dots, CTA hover states, error states, drop-cap first letter.
+- Never use on large surfaces (backgrounds, full sections). The ink-band sections use `--ink` for background.
 
 ## Typography
 
@@ -54,105 +48,86 @@ Radial gradient overlays for depth. Two gradients using `--glow-1` and `--glow-2
 
 | Font | Variable | Usage |
 |------|----------|-------|
-| **Archivo** | `--font-archivo` | Logo, headings, display text. Geometric, tech-forward. |
-| **Inter** | `--font-inter` | Body text, UI elements, forms. Clean, readable. |
+| **Inter** | `--font-inter` | Everything: body, headings, display, UI. Weight drives hierarchy. |
+| **JetBrains Mono** | `--font-mono` | Labels, datelines, numerals, tags, kickers. Uppercase tracked. |
 
 Both loaded via Next.js Font API with `display: swap`.
 
 ### Scale
 
-| Level | Classes | When to use |
-|-------|---------|-------------|
-| Logo | `font-display text-2xl font-extrabold tracking-tighter` | Site mark only |
-| Page heading | `font-display text-4xl font-black tracking-tighter` | One per page |
-| Section heading | `text-xl font-semibold` | Major content sections |
-| Card title | `text-lg font-semibold` | News items, feature cards |
-| Body | `text-base font-sans` | Default content |
-| Small/meta | `text-sm text-muted` | Timestamps, source labels, captions |
-| Tiny | `text-xs` | Badges, labels, fine print |
+| Level | Style | When to use |
+|-------|-------|-------------|
+| Display | `text-[96px] font-extrabold leading-[0.95] tracking-[-0.035em]` | Hero headline only |
+| Section heading | `text-[56px] font-extrabold leading-[1.02] tracking-[-0.025em]` | Lead story title |
+| Subsection | `text-[32px] font-extrabold` | Quick hits titles |
+| Body | `text-[16px] leading-[1.7] text-[var(--ink-3)]` | Paragraph content |
+| Label (mono) | `.label-mono` — 11px, 500 weight, 0.14em tracking, uppercase | Kickers, datelines, sources, tags |
+
+### Label Mono Variants
+
+```css
+.label-mono           /* color: var(--muted) — default */
+.label-mono--ink      /* color: var(--ink) */
+.label-mono--accent   /* color: var(--accent) */
+```
 
 ## Spacing
 
-Tailwind's default rem-based scale. Key patterns:
-
 | Context | Pattern |
 |---------|---------|
-| Page container | `max-w-4xl mx-auto px-4 sm:px-8 lg:px-16` |
-| Section vertical | `py-8 sm:py-12 lg:py-16` |
-| Card padding | `p-4` to `p-6` |
+| Page container | `max-w-[1240px] mx-auto px-4 sm:px-8 lg:px-16` |
+| Section vertical | `py-20 sm:py-24` to `py-24 sm:py-28 lg:py-32` |
+| Section header | `mb-10 border-b-2 border-[var(--ink)] pb-4` |
 | Input padding | `px-4 py-3.5` |
 | Button padding (md) | `px-6 py-3` |
-| Flex gaps | `gap-2` (tight), `gap-3` (comfortable), `gap-6` (sections) |
-| Stacking items | `space-y-3` to `space-y-6` |
 
 ## Border Radius
 
 | Element | Value |
 |---------|-------|
-| Cards (standard) | `rounded-lg` / `1rem` (16px) |
-| Cards (hero/featured) | `rounded-[1.5rem]` / 24px |
-| Buttons | `rounded-lg` |
-| Inputs | `rounded-lg` |
-| Badges/pills | `rounded-full` |
-| Focus rings | `rounded` (4px) |
+| Everything | `rounded-[2px]` (sharp, Swiss) |
+| Exceptions: focus rings, live dot | `rounded-full` |
 
-## Shadows
-
-Layered shadows for realistic depth. Defined as CSS custom properties.
-
-**Light:**
-- Standard: `0 1px 3px rgba(0,0,0,0.05), 0 20px 45px rgba(2,6,23,0.08)`
-- Strong: `0 4px 12px rgba(0,0,0,0.08), 0 30px 70px rgba(2,6,23,0.12)`
-
-**Dark:**
-- Standard: `0 2px 8px rgba(0,0,0,0.25), 0 18px 40px rgba(0,0,0,0.35)`
-- Strong: `0 8px 24px rgba(0,0,0,0.35), 0 26px 70px rgba(0,0,0,0.45)`
+Cards do not have visible border-radius. The Swiss system uses borders and rules instead of rounded containers.
 
 ## Components
 
-### Cards
-
-Two tiers defined in `globals.css`:
-
-- **`.card-surface`** — Standard content cards. Backdrop blur 14px, standard shadow.
-- **`.card-surface-strong`** — Hero sections, featured content. Stronger opacity, 16px blur, stronger shadow, 24px radius.
-
-Both include semi-transparent backgrounds, subtle borders, and blur for glassmorphism.
-
 ### Buttons
 
-Defined in `components/ui.tsx`. Four variants, three sizes.
+Defined in `components/ui.tsx`. Four variants, three sizes. All use `rounded-[2px]`, `tracking-[0.02em]`, 150ms transitions.
 
-| Variant | Light | Dark | Usage |
-|---------|-------|------|-------|
-| `primary` | Dark gradient bg, white text | Light gradient bg, dark text | Main CTAs |
-| `secondary` | Bordered, filled slate-100 bg | Bordered, filled slate-800 bg | Secondary actions |
-| `ghost` | Bordered slate-200, slate-100 bg, hover blue | Bordered slate-700, slate-800 bg, hover blue | Tertiary, navigation |
-| `danger` | Red bg, white text | Red bg, white text | Destructive actions |
+| Variant | Style | Usage |
+|---------|-------|-------|
+| `primary` | `bg-[var(--ink)] text-[var(--paper)]`, hover: `bg-[var(--accent)]` | Main CTAs |
+| `secondary` | `border border-[var(--ink)]`, hover: inverts to solid ink | Secondary actions |
+| `ghost` | `border border-[var(--rule)]`, hover: accent border + text | Tertiary, navigation |
+| `danger` | `bg-[var(--accent)]`, hover: `bg-[var(--accent-hover)]` | Destructive actions |
 
-| Size | Padding | Font |
-|------|---------|------|
-| `sm` | `px-3 py-1.5` | `text-sm` |
-| `md` | `px-6 py-3` | `text-sm` |
-| `lg` | `px-8 py-3.5` | `text-base` |
-
-All buttons: `inline-flex`, `gap-2`, `rounded-lg`, `font-semibold`, 300ms transitions. Focus: `ring-2 ring-blue-500 ring-offset-2`. Disabled: `opacity-50 cursor-not-allowed`.
+Focus: `ring-2 ring-[var(--accent)] ring-offset-2 ring-offset-[var(--paper)]`.
 
 ### Inputs
 
-Full-width, `rounded-lg`, `px-4 py-3.5`, `text-base`. Border: 2px slate-300 (light) / slate-600 (dark). Focus: `border-blue-500, ring-4 ring-blue-500/10`. Background: white / slate-800.
+`rounded-[2px]`, `border-[1.5px] border-[var(--ink)]`, `bg-[var(--paper)]`. Focus: `border-[var(--accent)]`. No ring/glow on focus — just border color change.
 
 ### Badges
 
-Inline flex, `rounded-full`, small padding, subtle background. Used for dates, tags, status.
+`rounded-[2px]`, mono font, 10px, `tracking-[0.16em]`, uppercase. Border-based coloring (neutral, info, success).
+
+### Section Headers
+
+Ink dot + mono kicker + optional meta, separated by a 2px ink bottom border.
+
+### Full-Bleed Ink Bands
+
+Used for Curiosity and Tomorrow CTA sections. `bg-[var(--ink)] text-[var(--paper)]`. Subdued text uses `text-[var(--paper)] opacity-55` (theme-aware, works in both light and dark mode).
 
 ## Animation
 
 ### Scroll-Triggered Transitions (IntersectionObserver)
 
-Content animates on scroll via a shared `useInView` hook (`web/hooks/useInView.ts`) and `AnimateOnScroll` wrapper (`web/components/AnimateOnScroll.tsx`). All sections render SSR-visible (opacity 1) and transition in when they enter the viewport.
+Content animates on scroll via `useInView` hook and `AnimateOnScroll` wrapper. All sections render SSR-visible (opacity 1) and transition in when they enter the viewport.
 
-Timing constants live in `web/lib/animationConfig.ts`:
+Timing constants in `web/lib/animationConfig.ts`:
 
 | Token | Value | Purpose |
 |-------|-------|---------|
@@ -161,76 +136,85 @@ Timing constants live in `web/lib/animationConfig.ts`:
 | `TRANSITION_DURATION_MS` | 600 | CSS transition duration |
 | `VIEWPORT_THRESHOLD` | 0.15 | IntersectionObserver threshold |
 
-Hero children use a staggered entrance via `HeroAnimations.tsx`, applying incremental delays of `HERO_STAGGER_MS`.
+### Live Dot
 
-### CSS Keyframes (remaining)
+Pulsing vermillion dot (`.live-dot`) next to "LIVE · Today's Edition" eyebrow. 1.8s ease-in-out infinite animation. Disabled under `prefers-reduced-motion`.
 
-| Name | Duration | Effect | Usage |
-|------|----------|--------|-------|
-| `fade-in` | 0.5s | Opacity only | Subtle reveals |
-| `scale-in` | 0.3s | Opacity + scale(0.95) | Modals, success states |
-| `pulse-glow` | 8s | Opacity breathing | Background accents |
-| `shake` | 0.4s | Horizontal ±4px | Error feedback |
+### Drop Cap
+
+First letter of lead story body: 3.5em, font-weight 800, vermillion color, floated left.
 
 ### Reduced Motion
 
-`@media (prefers-reduced-motion: reduce)` disables all animations and transitions globally. Always respected.
+`@media (prefers-reduced-motion: reduce)` disables all animations and transitions globally.
 
 ## Backgrounds
 
-- **Grid pattern:** `.bg-grid-pattern` — 2rem repeating grid lines. Opacity set per-consumer (typically `opacity-35 dark:opacity-20`). Adds subtle texture without distraction.
-- **Glow overlay:** `.glow-bg` — Radial gradients positioned at top. Blue/indigo tones. Creates depth behind hero content.
+- **Paper:** Solid `var(--paper)` background. No grid pattern or glow overlays on the redesigned home.
+- **Grid/Glow:** Legacy classes (`.bg-grid-pattern`, `.glow-bg`) still exist for other pages but are not used on home.
+
+## Navigation
+
+- **Top rule:** 3px `var(--ink)` top border
+- **Bottom rule:** 1px `var(--rule)` hairline
+- **Background:** `color-mix(in srgb, var(--paper) 92%, transparent)` with `backdrop-blur-md`
+- **Layout:** 3-column grid — dateline left (desktop), brand center, CTA right
+- **Scroll progress:** 1px vermillion bar along bottom edge
+
+## Footer
+
+- **Background:** `var(--paper-2)` with top `var(--rule)` border
+- **Layout:** 4-column grid (brand + tagline, Read links, Company links, Legal links)
+- **Bottom bar:** `label-mono` copyright + heart easter egg
 
 ## Email Templates
 
-Email templates in `web/emails/` use inline styles (required for email clients) but follow the same visual language:
+Email templates in `web/emails/` use inline styles (required for email clients). They follow the Swiss color scheme:
 
 | Token | Email Value | Web Equivalent |
 |-------|-------------|----------------|
-| Background | `#fafaf9` | `--background` |
-| Text | `#0a0a0a`, `#404040` | `--foreground`, body text |
-| Muted | `#737373` | `--muted-foreground` (lighter for email readability) |
-| Accent | `#2563eb` | Blue-600 |
-| Container | 600px max-width, white bg | `max-w-4xl`, card surface |
+| Background | `#fafaf9` | `--paper` |
+| Text | `#0a0a0a`, `#404040` | `--ink`, body text |
+| Muted | `#737373` | `--muted` |
+| Accent | `#2563eb` | Blue-600 (emails still use blue, not vermillion) |
+| Container | 600px max-width | `max-w-[1240px]` |
 | Font | System font stack | Same as web fallback |
-| Border radius | 8px (buttons only) | Simplified from web 16px; containers have no radius |
-| Dividers | `1px solid #e5e5e5` | `--card-border` equivalent |
-
-Logo text in emails: `/thepaymentsnerd` at 26px, weight 700, color `#0a0a0a`, letter-spacing -0.5px.
 
 ## Accessibility
 
 - Skip-to-content link: visually hidden, appears on keyboard focus, jumps to `#main-content`
-- Focus-visible rings on all interactive elements: `2px solid rgba(99,102,241,0.6)` with 2px offset
-- Color contrast: foreground/background passes WCAG AA in both modes
-- Gradient text `@supports` fallback: non-WebKit browsers get solid `text-blue-600` instead of gradient clip
-- `color-scheme: light dark` on html element for native form control theming
-- Semantic HTML throughout (proper headings, labels, ARIA attributes)
+- Focus-visible rings on all interactive elements: `2px solid var(--accent)` with offset
+- Color contrast: ink/paper passes WCAG AA in both modes
+- Gradient text `@supports` fallback: non-WebKit browsers get solid color
+- `color-scheme: light dark` on html element
+- Semantic HTML, proper headings, labels, ARIA attributes
 - `prefers-reduced-motion` support
-- Selection highlight: `rgba(59,130,246,0.25)`
+- Archive pages show "Archive" eyebrow instead of "LIVE" indicator
 
 ## Decision Log
 
 | Decision | Rationale |
 |----------|-----------|
-| Glassmorphism cards | Modern depth without heavy borders. Distinctive but not trendy. |
-| Archivo for display | Geometric sans-serif reads as "tech" without being cold. Pairs well with Inter. |
-| Warm off-white (#fafaf9) | Easier on eyes than pure white. Stone tone adds personality. |
-| OLED navy dark mode (#0a0e1a) | True dark saves battery on OLED. Navy tint prevents "void" feeling. |
-| System font stack in emails | Email clients don't load web fonts. System stack ensures consistent rendering. |
-| 16px border radius | Large enough to feel modern, small enough to not waste space on mobile. |
-| 8s pulse-glow | Slow enough to be ambient, not distracting. Adds life to static pages. |
+| Swiss minimal over glassmorphism | Glassmorphism felt generic/AI-generated. Swiss puts content first. |
+| Single accent (vermillion) | One color used sparingly creates stronger brand than a gradient palette. |
+| Sharp corners (2px radius) | Swiss design language. Cards use borders/rules, not rounded containers. |
+| Inter for everything | Weight-driven hierarchy (400-900) instead of two-font pairing. Simpler. |
+| JetBrains Mono for labels | Tracked uppercase mono labels create a newspaper/editorial feel. |
+| Ink-band full-bleed sections | Creates visual rhythm and breaks up the page without decorative elements. |
+| `var(--paper)` + opacity for dark bands | Theme-aware: works correctly in both light and dark mode. |
+| Drop cap on lead story | Editorial craft signal. Says "this is written by humans for humans." |
 
 ## File Reference
 
 | File | What it defines |
 |------|----------------|
-| `web/app/globals.css` | CSS custom properties, card classes, animations, grid/glow utilities |
-| `web/tailwind.config.js` | Font family extensions, dark mode strategy |
-| `web/app/layout.tsx` | Font loading (Archivo, Inter), metadata |
+| `web/app/globals.css` | CSS custom properties (Swiss tokens), label-mono, live-dot, drop-cap, swiss-subscribe |
+| `web/app/layout.tsx` | Font loading (Inter, JetBrains Mono), skip-to-content, metadata |
 | `web/components/ui.tsx` | Button, Input, Card, Badge component primitives |
 | `web/components/AnimateOnScroll.tsx` | Scroll-triggered animation wrapper (IntersectionObserver) |
 | `web/hooks/useInView.ts` | IntersectionObserver hook for viewport detection |
 | `web/lib/animationConfig.ts` | Shared animation timing constants |
 | `web/components/home/HeroAnimations.tsx` | Hero staggered entrance animation |
-| `docs/business-context/brand.md` | Brand colors, typography, identity summary |
+| `web/components/home/HomeSections.tsx` | All homepage section components |
+| `web/components/NavigationBar.tsx` | Swiss masthead with scroll progress |
+| `web/components/Footer.tsx` | 4-column Swiss footer |
