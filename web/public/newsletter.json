@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Tether Launches Multi-Asset Stablecoin Wallet to Broaden Everyday Crypto Payments",
-      "body": "Tether has introduced a wallet supporting digital dollars, tokenized gold, and bitcoin transfers across multiple blockchains. By enabling users to manage and transact with several asset types in one app, Tether aims to drive mainstream adoption of stablecoins for daily payments. Payment processors and wallet providers must now consider adding multi-asset, cross-chain support to remain competitive as consumer expectations shift toward unified digital asset management.",
+      "title": "France\u2019s CB Pushes Co-Badging to Challenge Visa and Mastercard\u2019s European Dominance",
+      "body": "France's CB is advocating for co-badging, enabling French bank cards to operate on both local and international networks, aiming to reduce dependence on Visa and Mastercard. If adopted, this move could erode the market share of global card schemes and boost local payment networks across Europe. Banks and merchants may gain more negotiating power and lower fees, while Visa and Mastercard face increased competition on their home turf.",
+      "source": {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/dfc4dd67-01ff-436e-bd8e-229f9fe77d6c"
+      }
+    },
+    {
+      "title": "Stripe Launches New Credit Card Issuing Platform for European Fintechs",
+      "body": "Stripe has introduced a credit card issuing platform in Europe, allowing fintechs and digital banks to create, distribute, and manage branded credit cards. This expansion gives European fintechs more flexibility to offer tailored credit products and strengthens Stripe\u2019s position as a key infrastructure provider. Traditional banks may face increased competition as fintechs accelerate card innovation and customer acquisition.",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2024/06/10/stripe-launches-credit-card-issuing-in-europe/"
+      }
+    },
+    {
+      "title": "Early Warning Services Unveils Certos to Raise Bar for Bank Fraud Prevention",
+      "body": "Early Warning Services has launched Certos, a suite of fraud and identity risk solutions designed to help financial institutions combat increasingly sophisticated fraud threats. The new portfolio could set a higher industry standard, prompting banks and credit unions to upgrade their fraud prevention capabilities. Competing fraud tech vendors will need to accelerate innovation or risk losing contracts to Certos-backed institutions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47595/tether-launches-stablecoin-wallet?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109509/early-warning-services-launches-certos-fraud-intelligence-portfolio"
       }
     },
     {
-      "title": "Kraken Acquires Bitnomial to Expand Crypto Derivatives Reach",
-      "body": "Kraken has agreed to acquire derivatives platform Bitnomial, though the acquisition price was not disclosed in the official announcement. The deal will expand Kraken\u2019s regulated derivatives offerings in the U.S., positioning it to compete more directly with Coinbase and Binance for institutional and active trader business. Competing exchanges may respond by seeking their own acquisitions or accelerating new product launches.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/kraken-buy-derivatives-firm-bitnomial-550-million-deal/817839/"
-      }
-    },
-    {
-      "title": "France Pushes for Euro Stablecoins to Challenge Dollar Dominance in Payments",
-      "body": "France\u2019s finance minister has called on European banks to develop euro-based stablecoins, aiming to reduce reliance on dollar-backed digital assets and non-European payment providers. This initiative could prompt a wave of euro-pegged stablecoin launches and regulatory adjustments across the Eurozone. U.S. stablecoin issuers like Tether and Circle may face increased competition from European banks and fintechs if local solutions gain traction.",
+      "title": "Home Depot Acquires SIMPL Automation to Boost Same-Day Delivery With AI",
+      "body": "Home Depot has acquired SIMPL Automation to enhance its same-day and next-day delivery operations using AI-driven logistics technology. This move gives Home Depot a logistics edge, promising faster fulfillment and improved customer experience in the home improvement sector. Competing retailers may need to accelerate their own automation investments or risk losing share in the delivery race.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/france-urges-euro-stablecoins-to-break-dollar-dependency/"
+        "url": "https://www.pymnts.com/acquisitions/2026/home-depot-buys-simpl-automation-to-support-same-day-delivery/"
       }
     },
     {
-      "title": "Circle Debuts USDC Bridge to Enable Native Cross-Chain Stablecoin Transfers",
-      "body": "Circle has launched the USDC Bridge, enabling users to transfer USDC natively across multiple blockchains without relying on third-party bridges. This development simplifies cross-chain payments and increases USDC\u2019s appeal for merchants and platforms seeking seamless stablecoin acceptance. Competing stablecoins and payment networks may need to enhance their own interoperability to keep pace with Circle\u2019s offering.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/397907/circle-rolls-out-usdc-bridge-for-native-cross-chain-stablecoin-transfers?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Ebanx Expands Cross-Border Payments Network Into Southeast Asia and Turkey",
-      "body": "Ebanx has entered Thailand, Indonesia, Malaysia, Vietnam, and Turkey, extending its cross-border payments network beyond Latin America. This move increases competition for local payment service providers and global firms like Stripe and Adyen in high-growth markets. Merchants targeting these regions now have more options for localized payment acceptance and settlement.",
+      "title": "NatWest Expands Financial Foundations Program to 50,000 With Investment Guidance Focus",
+      "body": "NatWest Group is scaling its Financial Foundations program to reach 50,000 people in UK workplaces and community groups, emphasizing investment-focused financial guidance. This expansion strengthens NatWest\u2019s position in financial wellness and could attract new clients seeking accessible investment advice. Competing banks and fintechs may respond by launching or expanding their own educational initiatives.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109508/ebanx-expands-into-five-new-countries?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47596/natwest-group-expands-free-investment-focused-financial-guidance-programme"
       }
     }
   ],
-  "perspective": "Tether and Circle\u2019s new cross-chain tools and Ebanx\u2019s regional expansion highlight how payments firms are racing to unify digital assets and global access.",
+  "perspective": "France\u2019s CB and Stripe drive European card innovation as banks and fintechs compete on payments, fraud, and financial wellness.",
   "curiosity": {
-    "text": "In 2011, Kenya\u2019s M-Pesa processed more transactions domestically than the country\u2019s entire banking sector, illustrating the transformative impact of mobile money on financial inclusion."
+    "text": "Despite Visa and Mastercard\u2019s global reach, France\u2019s CB network still processes over half of all card payments in France, making it a rare local outlier in Europe."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Loop",
-      "description": "Raised $95M in Series C to expand supply chain platform",
+      "description": "Raised $95M in Series C to expand logistics platform.",
       "source_url": "https://www.pymnts.com/news/investment-tracker/2026/loop-raises-95-million-to-bridge-supply-chain-data-gap/"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "fundraising",
-      "company": "SolvaPay",
-      "description": "Secured \u20ac2.4M in pre-seed funding for AI payments platform",
-      "source_url": "https://www.finextra.com/pressarticle/109499/agentic-payments-startup-solvapay-scores-24-million-in-pre-seed-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Slash Financial",
-      "description": "Achieved unicorn status with $100M Series C round",
-      "source_url": "https://www.finextra.com/newsarticle/47593/business-banking-fintech-slash-hits-unicorn-status?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "AmEx",
-      "description": "Acquiring AI expense management startup Hyper",
-      "source_url": "https://www.finextra.com/newsarticle/47592/amex-to-buy-ai-expense-management-startup-hyper?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Kraken",
+      "description": "Acquiring Bitnomial for $550M to enhance derivatives trading.",
+      "source_url": "https://www.bankingdive.com/news/kraken-buy-derivatives-firm-bitnomial-550-million-deal/817839/"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "type": "expansion",
+      "company": "Ebanx",
+      "description": "Expanding into Thailand, Indonesia, Malaysia, Vietnam, and Turkey.",
+      "source_url": "https://www.finextra.com/pressarticle/109508/ebanx-expands-into-five-new-countries"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Circle",
+      "description": "Launched USDC Bridge for cross-chain stablecoin transfers.",
+      "source_url": "https://www.theblock.co/post/397907/circle-rolls-out-usdc-bridge-for-native-cross-chain-stablecoin-transfers"
     }
   ]
 }
