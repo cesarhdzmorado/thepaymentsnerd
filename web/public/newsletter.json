@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "France\u2019s CB Pushes Co-Badging to Challenge Visa and Mastercard\u2019s European Dominance",
-      "body": "France's CB is advocating for co-badging, enabling French bank cards to operate on both local and international networks, aiming to reduce dependence on Visa and Mastercard. If adopted, this move could erode the market share of global card schemes and boost local payment networks across Europe. Banks and merchants may gain more negotiating power and lower fees, while Visa and Mastercard face increased competition on their home turf.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/dfc4dd67-01ff-436e-bd8e-229f9fe77d6c"
-      }
-    },
-    {
-      "title": "Stripe Launches New Credit Card Issuing Platform for European Fintechs",
-      "body": "Stripe has introduced a credit card issuing platform in Europe, allowing fintechs and digital banks to create, distribute, and manage branded credit cards. This expansion gives European fintechs more flexibility to offer tailored credit products and strengthens Stripe\u2019s position as a key infrastructure provider. Traditional banks may face increased competition as fintechs accelerate card innovation and customer acquisition.",
-      "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2024/06/10/stripe-launches-credit-card-issuing-in-europe/"
-      }
-    },
-    {
-      "title": "Early Warning Services Unveils Certos to Raise Bar for Bank Fraud Prevention",
-      "body": "Early Warning Services has launched Certos, a suite of fraud and identity risk solutions designed to help financial institutions combat increasingly sophisticated fraud threats. The new portfolio could set a higher industry standard, prompting banks and credit unions to upgrade their fraud prevention capabilities. Competing fraud tech vendors will need to accelerate innovation or risk losing contracts to Certos-backed institutions.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109509/early-warning-services-launches-certos-fraud-intelligence-portfolio"
-      }
-    },
-    {
-      "title": "Home Depot Acquires SIMPL Automation to Boost Same-Day Delivery With AI",
-      "body": "Home Depot has acquired SIMPL Automation to enhance its same-day and next-day delivery operations using AI-driven logistics technology. This move gives Home Depot a logistics edge, promising faster fulfillment and improved customer experience in the home improvement sector. Competing retailers may need to accelerate their own automation investments or risk losing share in the delivery race.",
+      "title": "Visa Accelerates Bank AI Adoption With Infrastructure Overhaul Initiative",
+      "body": "Visa launches a major upgrade to bank infrastructure, embedding AI capabilities directly into payment rails and moving banks off legacy systems. By driving this modernization, Visa aims to set new standards for AI-powered banking services and operational resilience. Banks that partner with Visa can roll out AI-driven products faster, while those sticking to outdated systems risk losing market share as AI becomes essential.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/acquisitions/2026/home-depot-buys-simpl-automation-to-support-same-day-delivery/"
+        "url": "https://www.pymnts.com/news/banking/2026/how-visa-is-rewiring-bank-infrastructure-for-the-ai-era/"
       }
     },
     {
-      "title": "NatWest Expands Financial Foundations Program to 50,000 With Investment Guidance Focus",
-      "body": "NatWest Group is scaling its Financial Foundations program to reach 50,000 people in UK workplaces and community groups, emphasizing investment-focused financial guidance. This expansion strengthens NatWest\u2019s position in financial wellness and could attract new clients seeking accessible investment advice. Competing banks and fintechs may respond by launching or expanding their own educational initiatives.",
+      "title": "Coinbase Expands USDC-Backed Loans to UK, Deepening Crypto Credit Market",
+      "body": "Coinbase introduces its USDC borrowing facility in the UK, letting users borrow up to $5 million in USDC against bitcoin, ether, and cbETH via Morpho on Base. This expansion strengthens Coinbase\u2019s UK footprint and gives crypto investors new liquidity options without selling assets. UK regulators now face pressure to clarify crypto-backed lending rules, especially around consumer protection and capital requirements, as competition intensifies among crypto platforms.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47596/natwest-group-expands-free-investment-focused-financial-guidance-programme"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/398056/coinbase-expands-usdc-borrowing-to-uk-allowing-loans-against-bitcoin-ether?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Stablecoins Cement Role in Payments as Regulation Spurs Mainstream Adoption",
+      "body": "Stablecoins now play a central role in payments, as new regulations prompt banks, payment processors, and fintechs to integrate stablecoin rails for faster, cheaper transactions. Regulatory clarity enables these actors to launch new payment and treasury services, challenging traditional networks. Banks and processors that delay stablecoin adoption risk losing lucrative cross-border and B2B payment flows to more agile competitors.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/spons/stablecoins-are-no-longer-arrivingtheyre-here/817367/"
+      }
+    },
+    {
+      "title": "Cobo Launches Agentic Wallet With Guardrails for AI-Driven Onchain Transactions",
+      "body": "Cobo, based in Singapore, launches the Cobo Agentic Wallet, allowing AI agents to execute onchain transactions with built-in safety controls. Developers and users gain programmable automation for crypto tasks, while the wallet\u2019s risk mitigation features set new standards for AI governance. As agentic wallets spread, exchanges and DeFi platforms may introduce automated portfolio management and compliance monitoring powered by AI.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/397856/cobo-launches-agentic-wallet?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Payments Modernization Emerges as Key Margin Lever for Insurance Carriers",
+      "body": "Insurance companies prioritize payment modernization to improve slim margins, often just 1\u20132%. By upgrading payment systems, insurers enhance customer experience and unlock new pricing models. Payment technology firms win new business as insurers invest in embedded payments and digital disbursements, while insurers that delay modernization risk margin erosion and losing customers to more agile rivals.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/insurance/2026/payments-modernization-is-insurances-next-big-margin-engine/"
       }
     }
   ],
-  "perspective": "France\u2019s CB and Stripe drive European card innovation as banks and fintechs compete on payments, fraud, and financial wellness.",
+  "perspective": "Visa\u2019s AI infrastructure overhaul and Coinbase\u2019s UK lending launch signal a pivotal year for payments innovation and regulatory adaptation.",
   "curiosity": {
-    "text": "Despite Visa and Mastercard\u2019s global reach, France\u2019s CB network still processes over half of all card payments in France, making it a rare local outlier in Europe."
+    "text": "Despite stablecoins\u2019 reputation for speed, a 2023 study found that over 60% of stablecoin transactions settled outside traditional banking hours, highlighting their role in 24/7 global commerce."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Loop",
-      "description": "Raised $95M in Series C to expand logistics platform.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/loop-raises-95-million-to-bridge-supply-chain-data-gap/"
+      "company": "Collide Capital",
+      "description": "Raises $95M fund for fintech and future-of-work startups",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Kraken",
-      "description": "Acquiring Bitnomial for $550M to enhance derivatives trading.",
-      "source_url": "https://www.bankingdive.com/news/kraken-buy-derivatives-firm-bitnomial-550-million-deal/817839/"
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "type": "fundraising",
+      "company": "Spektr",
+      "description": "Raises $20M Series A for fintech compliance solutions",
+      "source_url": "https://news.crunchbase.com/venture/fintech-compliance-founders-20m-seriesa-spektr/"
     },
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
-      "company": "Ebanx",
-      "description": "Expanding into Thailand, Indonesia, Malaysia, Vietnam, and Turkey.",
-      "source_url": "https://www.finextra.com/pressarticle/109508/ebanx-expands-into-five-new-countries"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Circle",
-      "description": "Launched USDC Bridge for cross-chain stablecoin transfers.",
-      "source_url": "https://www.theblock.co/post/397907/circle-rolls-out-usdc-bridge-for-native-cross-chain-stablecoin-transfers"
+      "company": "Revolut",
+      "description": "Targets 2028 for IPO to fuel growth",
+      "source_url": "https://sifted.eu/articles/revolut-targets-2028-ipo/"
     }
   ]
 }
