@@ -1,71 +1,64 @@
 {
   "news": [
     {
-      "title": "Visa Accelerates Bank AI Adoption With Infrastructure Overhaul Initiative",
-      "body": "Visa launches a major upgrade to bank infrastructure, embedding AI capabilities directly into payment rails and moving banks off legacy systems. By driving this modernization, Visa aims to set new standards for AI-powered banking services and operational resilience. Banks that partner with Visa can roll out AI-driven products faster, while those sticking to outdated systems risk losing market share as AI becomes essential.",
+      "title": "Visa and Mastercard Settle $30B Swipe Fee Lawsuit, Paving Way for Lower Merchant Costs",
+      "body": "Visa and Mastercard have agreed to a $30 billion settlement with U.S. merchants, capping a long-running antitrust lawsuit over credit card swipe fees. The deal will lower interchange rates for five years and allow merchants to steer customers toward cheaper payment methods. Retailers and payment processors will need to adjust pricing strategies as the new rules reshape transaction economics.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/how-visa-is-rewiring-bank-infrastructure-for-the-ai-era/"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/visa-mastercard-settle-30-billion-swipe-fee-lawsuit-2024-03-26/"
       }
     },
     {
-      "title": "Coinbase Expands USDC-Backed Loans to UK, Deepening Crypto Credit Market",
-      "body": "Coinbase introduces its USDC borrowing facility in the UK, letting users borrow up to $5 million in USDC against bitcoin, ether, and cbETH via Morpho on Base. This expansion strengthens Coinbase\u2019s UK footprint and gives crypto investors new liquidity options without selling assets. UK regulators now face pressure to clarify crypto-backed lending rules, especially around consumer protection and capital requirements, as competition intensifies among crypto platforms.",
+      "title": "Ripple Moves to Quantum-Proof XRP Ledger, Targeting Institutional Security Demands",
+      "body": "Ripple is upgrading the XRP Ledger to be quantum-ready, aiming to preempt future threats from quantum computing and outpace blockchains like Ethereum on security. This initiative appeals to banks and financial institutions seeking long-term resilience for digital asset infrastructure. Other blockchain networks are likely to accelerate quantum-safe protocols as institutional adoption hinges on credible security guarantees.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398056/coinbase-expands-usdc-borrowing-to-uk-allowing-loans-against-bitcoin-ether?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/398105/ripple-races-to-make-xrp-ledger-quantum-ready-as-computing-threat-turns-credible"
       }
     },
     {
-      "title": "Stablecoins Cement Role in Payments as Regulation Spurs Mainstream Adoption",
-      "body": "Stablecoins now play a central role in payments, as new regulations prompt banks, payment processors, and fintechs to integrate stablecoin rails for faster, cheaper transactions. Regulatory clarity enables these actors to launch new payment and treasury services, challenging traditional networks. Banks and processors that delay stablecoin adoption risk losing lucrative cross-border and B2B payment flows to more agile competitors.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/spons/stablecoins-are-no-longer-arrivingtheyre-here/817367/"
-      }
-    },
-    {
-      "title": "Cobo Launches Agentic Wallet With Guardrails for AI-Driven Onchain Transactions",
-      "body": "Cobo, based in Singapore, launches the Cobo Agentic Wallet, allowing AI agents to execute onchain transactions with built-in safety controls. Developers and users gain programmable automation for crypto tasks, while the wallet\u2019s risk mitigation features set new standards for AI governance. As agentic wallets spread, exchanges and DeFi platforms may introduce automated portfolio management and compliance monitoring powered by AI.",
+      "title": "Japan\u2019s JSCC, Mizuho, and Nomura Pilot Blockchain for Government Bond Settlement",
+      "body": "JSCC, Mizuho, and Nomura have launched a proof-of-concept to manage Japanese government bonds on a blockchain network. If successful, this could make Japan the first major market to settle sovereign debt on-chain, setting a precedent for global securities infrastructure. International banks and custodians will need to adapt to blockchain-based workflows as regulatory and operational standards evolve.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/397856/cobo-launches-agentic-wallet?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/398228/japan-jscc-tests-blockchain-government-bonds?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Payments Modernization Emerges as Key Margin Lever for Insurance Carriers",
-      "body": "Insurance companies prioritize payment modernization to improve slim margins, often just 1\u20132%. By upgrading payment systems, insurers enhance customer experience and unlock new pricing models. Payment technology firms win new business as insurers invest in embedded payments and digital disbursements, while insurers that delay modernization risk margin erosion and losing customers to more agile rivals.",
+      "title": "Collide Capital Closes $95M Fund to Back Early-Stage Fintech Innovators",
+      "body": "Collide Capital has raised $95 million to invest in early-stage fintech and future-of-work startups, targeting founders building new infrastructure and financial tools. This influx of capital will fuel the next wave of challenger fintechs, intensifying competition for incumbents and established neobanks. PSPs and banks should expect a surge in API-first, AI-native entrants targeting underserved verticals and operational pain points.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/insurance/2026/payments-modernization-is-insurances-next-big-margin-engine/"
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      }
+    },
+    {
+      "title": "Arbitrum Freezes $71M in ETH After Kelp DAO Exploit, Spotlighting DeFi Security Gaps",
+      "body": "Arbitrum froze $71 million in ETH following a major exploit involving Kelp DAO, pending further governance review. The incident exposes persistent vulnerabilities in DeFi protocols, undermining user confidence and prompting calls for stricter security audits. DeFi platforms and custodians will need to implement more robust risk controls to address regulatory scrutiny and prevent capital flight.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/398212/arbitrum-freezes-eth-kelp-dao-exploit?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "Visa\u2019s AI infrastructure overhaul and Coinbase\u2019s UK lending launch signal a pivotal year for payments innovation and regulatory adaptation.",
+  "perspective": "Visa-Mastercard\u2019s $30B settlement and Ripple\u2019s quantum-ready upgrade signal major shifts in payment rails and digital asset security.",
   "curiosity": {
-    "text": "Despite stablecoins\u2019 reputation for speed, a 2023 study found that over 60% of stablecoin transactions settled outside traditional banking hours, highlighting their role in 24/7 global commerce."
+    "text": "In 2023, the average global remittance cost was 6.5%, but sending money within Sub-Saharan Africa often exceeded 8%, the highest regional average worldwide."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raises $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Project Prometheus",
+      "description": "AI lab nears $38B valuation in new funding deal.",
+      "source_url": "https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
-      "type": "fundraising",
-      "company": "Spektr",
-      "description": "Raises $20M Series A for fintech compliance solutions",
-      "source_url": "https://news.crunchbase.com/venture/fintech-compliance-founders-20m-seriesa-spektr/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Targets 2028 for IPO to fuel growth",
-      "source_url": "https://sifted.eu/articles/revolut-targets-2028-ipo/"
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "investment",
+      "company": "Tether",
+      "description": "Joins $8M funding round in RWA firm Kaio.",
+      "source_url": "https://www.theblock.co/post/398108/tether-joins-8-million-strategic-funding-round-in-rwa-firm-kaio?utm_source=rss&utm_medium=rss"
     }
   ]
 }
