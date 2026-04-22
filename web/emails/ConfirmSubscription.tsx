@@ -12,6 +12,7 @@ import {
   Hr,
   Button,
 } from "@react-email/components";
+import { emailDarkModeCss } from "./darkMode";
 
 interface ConfirmSubscriptionProps {
   confirmUrl: string;
@@ -27,39 +28,40 @@ export function ConfirmSubscription({
       <Head>
         <meta name="color-scheme" content="light dark" />
         <meta name="supported-color-schemes" content="light dark" />
+        <style>{emailDarkModeCss}</style>
       </Head>
       <Preview>Confirm your subscription to /thepaymentsnerd</Preview>
-      <Body style={main}>
-        <Container style={container}>
+      <Body style={main} className="email-body">
+        <Container style={container} className="email-container">
           {/* Header */}
           <Section style={header}>
-            <Heading style={logoHeading}>/thepaymentsnerd</Heading>
+            <Heading style={logoHeading} className="text-heading">/thepaymentsnerd</Heading>
           </Section>
 
           {/* Content */}
           <Section style={section}>
-            <Text style={bodyText}>
+            <Text style={bodyText} className="text-body">
               Quick confirm — this makes sure nobody subscribed you by mistake.
             </Text>
-            <Button href={confirmUrl} style={confirmButton}>
+            <Button href={confirmUrl} style={confirmButton} className="confirm-button">
               Confirm subscription
             </Button>
-            <Text style={fallbackText}>
+            <Text style={fallbackText} className="text-muted">
               Or copy and paste this link:{" "}
-              <Link href={confirmUrl} style={linkStyle}>
+              <Link href={confirmUrl} style={linkStyle} className="link-primary">
                 {confirmUrl}
               </Link>
             </Text>
           </Section>
 
           {/* Footer */}
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
           <Section style={footer}>
-            <Text style={footerText}>
+            <Text style={footerText} className="text-muted">
               If you didn&apos;t request this, you can safely ignore this email.
             </Text>
-            <Text style={footerText}>
-              <Link href={unsubscribeUrl} style={footerLink}>
+            <Text style={footerText} className="text-muted">
+              <Link href={unsubscribeUrl} style={footerLink} className="text-muted">
                 Unsubscribe
               </Link>
             </Text>

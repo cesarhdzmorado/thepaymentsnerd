@@ -11,6 +11,7 @@ import {
   Heading,
   Hr,
 } from "@react-email/components";
+import { emailDarkModeCss } from "./darkMode";
 
 interface WelcomeProps {
   referralUrl?: string;
@@ -23,19 +24,20 @@ export function Welcome({ referralUrl, unsubscribeUrl }: WelcomeProps) {
       <Head>
         <meta name="color-scheme" content="light dark" />
         <meta name="supported-color-schemes" content="light dark" />
+        <style>{emailDarkModeCss}</style>
       </Head>
       <Preview>Welcome to /thepaymentsnerd — your first issue arrives tomorrow</Preview>
-      <Body style={main}>
-        <Container style={container}>
+      <Body style={main} className="email-body">
+        <Container style={container} className="email-container">
           {/* Header */}
           <Section style={header}>
-            <Heading style={logoHeading}>/thepaymentsnerd</Heading>
+            <Heading style={logoHeading} className="text-heading">/thepaymentsnerd</Heading>
           </Section>
 
           {/* Content */}
           <Section style={section}>
-            <Text style={greeting}>Welcome 👋</Text>
-            <Text style={bodyText}>
+            <Text style={greeting} className="text-body-strong">Welcome 👋</Text>
+            <Text style={bodyText} className="text-body">
               You&apos;re now subscribed to <strong>/thepaymentsnerd</strong>.
             </Text>
 
@@ -45,7 +47,7 @@ export function Welcome({ referralUrl, unsubscribeUrl }: WelcomeProps) {
             <Text style={listItem}>• 3-minute read, zero fluff</Text>
             <Text style={listItem}>• Curated daily, never generic press releases</Text>
 
-            <Text style={bodyText}>
+            <Text style={bodyText} className="text-body">
               I built this for myself — my daily filter through 50+ payments sources
               to find what actually matters. Makes me smarter every morning. Sharing
               in case it helps you too.
@@ -59,14 +61,14 @@ export function Welcome({ referralUrl, unsubscribeUrl }: WelcomeProps) {
           {/* Referral */}
           {referralUrl && (
             <>
-              <Hr style={divider} />
+              <Hr style={divider} className="email-divider" />
               <Section style={referralSection}>
-                <Text style={referralHeading}>💙 Share with your network</Text>
-                <Text style={referralSubtext}>
+                <Text style={referralHeading} className="text-body-strong">💙 Share with your network</Text>
+                <Text style={referralSubtext} className="text-body">
                   Know someone who&apos;d benefit from daily payments insights?
                   Share your unique link:
                 </Text>
-                <Link href={referralUrl} style={referralLinkStyle}>
+                <Link href={referralUrl} style={referralLinkStyle} className="bg-card link-primary">
                   {referralUrl}
                 </Link>
               </Section>
@@ -74,16 +76,16 @@ export function Welcome({ referralUrl, unsubscribeUrl }: WelcomeProps) {
           )}
 
           {/* Signature */}
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
           <Section style={section}>
-            <Text style={signatureText}>— César</Text>
-            <Text style={psText}>P.S. Questions? Just reply.</Text>
+            <Text style={signatureText} className="text-body-strong">— César</Text>
+            <Text style={psText} className="text-muted">P.S. Questions? Just reply.</Text>
           </Section>
 
           {/* Footer */}
-          <Section style={footer}>
-            <Text style={footerText}>
-              <Link href={unsubscribeUrl} style={footerLink}>
+          <Section style={footer} className="email-footer">
+            <Text style={footerText} className="text-muted">
+              <Link href={unsubscribeUrl} style={footerLink} className="text-muted">
                 Unsubscribe
               </Link>
             </Text>
