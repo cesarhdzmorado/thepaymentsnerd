@@ -1,64 +1,85 @@
 {
   "news": [
     {
-      "title": "Visa and Mastercard Settle $30B Swipe Fee Lawsuit, Paving Way for Lower Merchant Costs",
-      "body": "Visa and Mastercard have agreed to a $30 billion settlement with U.S. merchants, capping a long-running antitrust lawsuit over credit card swipe fees. The deal will lower interchange rates for five years and allow merchants to steer customers toward cheaper payment methods. Retailers and payment processors will need to adjust pricing strategies as the new rules reshape transaction economics.",
+      "title": "US House Bill Seeks to Grant Fintechs Direct Access to Fed Payment Rails",
+      "body": "US lawmakers introduced a new bill allowing fintech firms direct access to Federal Reserve payment rails, a privilege currently reserved for traditional banks. Fintechs could bypass bank intermediaries, reducing costs and speeding up settlement, while banks risk losing their gatekeeper role in payments. The bill's progress will likely spark intensified lobbying from both banks and fintechs as regulatory debate heats up.",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/visa-mastercard-settle-30-billion-swipe-fee-lawsuit-2024-03-26/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/fintechs-push-bill-fed-payment-rail-access/818084/"
       }
     },
     {
-      "title": "Ripple Moves to Quantum-Proof XRP Ledger, Targeting Institutional Security Demands",
-      "body": "Ripple is upgrading the XRP Ledger to be quantum-ready, aiming to preempt future threats from quantum computing and outpace blockchains like Ethereum on security. This initiative appeals to banks and financial institutions seeking long-term resilience for digital asset infrastructure. Other blockchain networks are likely to accelerate quantum-safe protocols as institutional adoption hinges on credible security guarantees.",
+      "title": "Paysafe Expands Digital Wallets to 18 European Markets, Challenging Incumbents",
+      "body": "Paysafe rolled out its digital wallet services across 18 European countries, broadening access for consumers and businesses. Established players like PayPal and Apple Pay now face direct competition, prompting them to accelerate wallet launches and seek new merchant partnerships to defend market share. Merchants and platforms may benefit from improved wallet features and more competitive pricing as the landscape shifts.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/mobile-wallets/2026/paysafe-expands-digital-wallet-availability-across-18-european-markets/"
+      }
+    },
+    {
+      "title": "Russia Advances Crypto Bill to Enable Foreign Trade Settlements",
+      "body": "Russia's parliament passed a crypto bill in its first reading, permitting the use of cryptocurrencies for foreign trade settlements while maintaining a ban on domestic crypto payments. Russian exporters and importers gain new options for cross-border transactions, potentially sidestepping traditional banking rails and sanctions. Policymakers in other countries may watch Russia's approach as they consider their own crypto trade frameworks.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398105/ripple-races-to-make-xrp-ledger-quantum-ready-as-computing-threat-turns-credible"
+        "url": "https://www.theblock.co/post/398402/russias-crypto-bill-first-reading?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Japan\u2019s JSCC, Mizuho, and Nomura Pilot Blockchain for Government Bond Settlement",
-      "body": "JSCC, Mizuho, and Nomura have launched a proof-of-concept to manage Japanese government bonds on a blockchain network. If successful, this could make Japan the first major market to settle sovereign debt on-chain, setting a precedent for global securities infrastructure. International banks and custodians will need to adapt to blockchain-based workflows as regulatory and operational standards evolve.",
+      "title": "Bitcoin Surges Past $78,000 as ETF Inflows and Short Squeezes Drive Recovery",
+      "body": "Bitcoin's price climbed above $78,000, fueled by strong ETF inflows and a wave of short squeezes, signaling renewed investor confidence. Crypto exchanges and institutional investors see higher trading volumes and increased market activity. Asset managers may launch new crypto investment products targeting institutional capital, while regulators increase scrutiny of trading practices amid heightened volatility.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398228/japan-jscc-tests-blockchain-government-bonds?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/398407/bitcoin-78000-escapes-extreme-fear?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Collide Capital Closes $95M Fund to Back Early-Stage Fintech Innovators",
-      "body": "Collide Capital has raised $95 million to invest in early-stage fintech and future-of-work startups, targeting founders building new infrastructure and financial tools. This influx of capital will fuel the next wave of challenger fintechs, intensifying competition for incumbents and established neobanks. PSPs and banks should expect a surge in API-first, AI-native entrants targeting underserved verticals and operational pain points.",
+      "title": "Stratiphy Launches Platform for Crypto in UK ISAs, Reopening Tax-Advantaged Access",
+      "body": "Stratiphy's launch enables UK investors to hold crypto ETNs and Innovative Finance ISAs, restoring crypto access to tax-advantaged accounts. This move could drive a new wave of retail crypto investment and push competitors like Hargreaves Lansdown and AJ Bell to revisit their own ISA offerings. HMRC and the FCA may increase oversight of crypto in tax-advantaged wrappers as adoption grows.",
       "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-      }
-    },
-    {
-      "title": "Arbitrum Freezes $71M in ETH After Kelp DAO Exploit, Spotlighting DeFi Security Gaps",
-      "body": "Arbitrum froze $71 million in ETH following a major exploit involving Kelp DAO, pending further governance review. The incident exposes persistent vulnerabilities in DeFi protocols, undermining user confidence and prompting calls for stricter security audits. DeFi platforms and custodians will need to implement more robust risk controls to address regulatory scrutiny and prevent capital flight.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/398212/arbitrum-freezes-eth-kelp-dao-exploit?utm_source=rss&utm_medium=rss"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/bd1544e9-67ac-4132-b7a0-7d9dab1723c2?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
       }
     }
   ],
-  "perspective": "Visa-Mastercard\u2019s $30B settlement and Ripple\u2019s quantum-ready upgrade signal major shifts in payment rails and digital asset security.",
+  "perspective": "US House fintech access bill and Paysafe's wallet expansion highlight shifting power dynamics in payments and digital assets.",
   "curiosity": {
-    "text": "In 2023, the average global remittance cost was 6.5%, but sending money within Sub-Saharan Africa often exceeded 8%, the highest regional average worldwide."
+    "text": "Despite the rapid rise of digital wallets, over 60% of Europeans still use cash for at least one transaction per week, according to ECB data."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Project Prometheus",
-      "description": "AI lab nears $38B valuation in new funding deal.",
-      "source_url": "https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
+      "company": "Collide Capital",
+      "description": "Raised $95M fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "investment",
-      "company": "Tether",
-      "description": "Joins $8M funding round in RWA firm Kaio.",
-      "source_url": "https://www.theblock.co/post/398108/tether-joins-8-million-strategic-funding-round-in-rwa-firm-kaio?utm_source=rss&utm_medium=rss"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Schematic",
+      "description": "Raised $6.5M to simplify pricing for software and AI companies.",
+      "source_url": "https://news.crunchbase.com/venture/update-pricing-faster-easier-saas-ai-schematic/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "IPO",
+      "company": "Revolut",
+      "description": "Targets $200bn valuation for upcoming IPO.",
+      "source_url": "https://sifted.eu/articles/revolut-valuation-200-million-ipo/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Eli Lilly",
+      "description": "Acquiring biotech startup Kelonia for up to $7 billion.",
+      "source_url": "https://news.crunchbase.com/ma/lilly-acquiring-kelonia-cancer-treatment-biotech-startup/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Stripe",
+      "description": "Unveils AI foundation model for payments.",
+      "source_url": "https://techcrunch.com/2025/05/07/stripe-unveils-ai-foundation-model-for-payments-reveals-deeper-partnership-with-nvidia/"
     }
   ]
 }
