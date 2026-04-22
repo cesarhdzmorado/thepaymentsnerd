@@ -11,6 +11,7 @@ import {
   Heading,
   Hr,
 } from "@react-email/components";
+import { emailDarkModeCss } from "./darkMode";
 
 interface AnalysisEmailProps {
   title: string;
@@ -34,58 +35,60 @@ export function AnalysisEmail({
       <Head>
         <meta name="color-scheme" content="light dark" />
         <meta name="supported-color-schemes" content="light dark" />
+        <style>{emailDarkModeCss}</style>
       </Head>
       <Preview>{subtitle || title}</Preview>
-      <Body style={main}>
-        <Container style={container}>
+      <Body style={main} className="email-body">
+        <Container style={container} className="email-container">
           {/* Header */}
           <Section style={header}>
-            <Heading style={logoHeading}>/thepaymentsnerd</Heading>
-            <Text style={labelText}>ANALYSIS</Text>
-            <Text style={dateText}>{formattedDate}</Text>
+            <Heading style={logoHeading} className="text-heading">/thepaymentsnerd</Heading>
+            <Text style={labelText} className="link-primary">ANALYSIS</Text>
+            <Text style={dateText} className="text-muted">{formattedDate}</Text>
           </Section>
 
           {/* Title */}
           <Section style={section}>
-            <Heading as="h1" style={titleStyle}>
+            <Heading as="h1" style={titleStyle} className="text-heading">
               {title}
             </Heading>
             {subtitle && (
-              <Text style={subtitleStyle}>{subtitle}</Text>
+              <Text style={subtitleStyle} className="text-body">{subtitle}</Text>
             )}
           </Section>
 
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
 
           {/* Body (rendered markdown HTML) */}
           <Section style={section}>
             <div
               style={bodyStyle}
+              className="analysis-body"
               dangerouslySetInnerHTML={{ __html: bodyHtml }}
             />
           </Section>
 
           {/* Signature */}
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
           <Section style={signatureSection}>
-            <Text style={signatureText}>
+            <Text style={signatureText} className="text-body-strong">
               Made with ❤️ for the payments community
             </Text>
-            <Text style={signatureAuthor}>
-              by <Link href="https://www.linkedin.com/in/cesarhernandezm" style={signatureLink}>Cesar Hernandez</Link>
+            <Text style={signatureAuthor} className="text-body">
+              by <Link href="https://www.linkedin.com/in/cesarhernandezm" style={signatureLink} className="link-primary">Cesar Hernandez</Link>
             </Text>
           </Section>
 
           {/* Share Section */}
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
           <Section style={shareSection}>
-            <Text style={shareHeading}>
+            <Text style={shareHeading} className="text-body-strong">
               Found this analysis useful?
             </Text>
-            <Text style={shareSubtext}>
+            <Text style={shareSubtext} className="text-body">
               Share it with your payments network.
             </Text>
-            <Link href={`https://www.thepaymentsnerd.co?ref=${referralCode}`} style={referralLinkStyle}>
+            <Link href={`https://www.thepaymentsnerd.co?ref=${referralCode}`} style={referralLinkStyle} className="bg-card link-primary">
               https://www.thepaymentsnerd.co?ref={referralCode}
             </Link>
 
@@ -113,24 +116,25 @@ export function AnalysisEmail({
           </Section>
 
           {/* Footer */}
-          <Section style={footer}>
-            <Text style={footerLinksRow}>
+          <Section style={footer} className="email-footer">
+            <Text style={footerLinksRow} className="text-muted">
               <Link
                 href="mailto:cesar@thepaymentsnerd.co?subject=Sponsorship%20Inquiry%20%E2%80%94%20The%20Payments%20Nerd"
                 style={footerLinkBold}
+                className="text-body"
               >
                 ADVERTISE
               </Link>
               {"  //  "}
-              <Link href={unsubscribeUrl} style={footerLink}>
+              <Link href={unsubscribeUrl} style={footerLink} className="text-muted">
                 Unsubscribe
               </Link>
               {"  //  "}
-              <Link href="https://www.thepaymentsnerd.co" style={footerLink}>
+              <Link href="https://www.thepaymentsnerd.co" style={footerLink} className="text-muted">
                 View Online
               </Link>
             </Text>
-            <Text style={footerTagline}>
+            <Text style={footerTagline} className="text-subtle">
               Deep payments analysis. Zero noise.
             </Text>
           </Section>

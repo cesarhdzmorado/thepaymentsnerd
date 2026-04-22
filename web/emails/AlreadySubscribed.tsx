@@ -11,6 +11,7 @@ import {
   Heading,
   Hr,
 } from "@react-email/components";
+import { emailDarkModeCss } from "./darkMode";
 
 interface AlreadySubscribedProps {
   referralUrl: string;
@@ -26,36 +27,37 @@ export function AlreadySubscribed({
       <Head>
         <meta name="color-scheme" content="light dark" />
         <meta name="supported-color-schemes" content="light dark" />
+        <style>{emailDarkModeCss}</style>
       </Head>
       <Preview>You&apos;re already subscribed to /thepaymentsnerd</Preview>
-      <Body style={main}>
-        <Container style={container}>
+      <Body style={main} className="email-body">
+        <Container style={container} className="email-container">
           {/* Header */}
           <Section style={header}>
-            <Heading style={logoHeading}>/thepaymentsnerd</Heading>
+            <Heading style={logoHeading} className="text-heading">/thepaymentsnerd</Heading>
           </Section>
 
           {/* Content */}
           <Section style={section}>
-            <Text style={bodyText}>
+            <Text style={bodyText} className="text-body">
               You&apos;re already subscribed to The Payments Nerd. No action needed.
             </Text>
-            <Text style={bodyText}>
+            <Text style={bodyText} className="text-body">
               Share your referral link with your network:
             </Text>
-            <Link href={referralUrl} style={referralLinkStyle}>
+            <Link href={referralUrl} style={referralLinkStyle} className="bg-card link-primary">
               {referralUrl}
             </Link>
           </Section>
 
           {/* Footer */}
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
           <Section style={footer}>
-            <Text style={footerText}>
+            <Text style={footerText} className="text-muted">
               If you didn&apos;t request this, you can safely ignore it.
             </Text>
-            <Text style={footerText}>
-              <Link href={unsubscribeUrl} style={footerLink}>
+            <Text style={footerText} className="text-muted">
+              <Link href={unsubscribeUrl} style={footerLink} className="text-muted">
                 Unsubscribe
               </Link>
             </Text>
