@@ -12,6 +12,7 @@ import {
   Hr,
 } from "@react-email/components";
 import { groupWhatsHotByRegion, type WhatsHotItem } from "@/lib/regions";
+import { emailDarkModeCss } from "./darkMode";
 
 interface Source {
   name: string;
@@ -64,28 +65,19 @@ export function DailyNewsletter({
       <Head>
         <meta name="color-scheme" content="light dark" />
         <meta name="supported-color-schemes" content="light dark" />
-        <style>{`
-          @media (prefers-color-scheme: dark) {
-            .dark-mode { display: block !important; }
-            .light-mode { display: none !important; }
-          }
-          @media (prefers-color-scheme: light) {
-            .dark-mode { display: none !important; }
-            .light-mode { display: block !important; }
-          }
-        `}</style>
+        <style>{emailDarkModeCss}</style>
       </Head>
       <Preview>
         Five critical payments insights. Zero noise. Daily.
       </Preview>
-      <Body style={main}>
-        <Container style={container}>
+      <Body style={main} className="email-body">
+        <Container style={container} className="email-container">
           {/* Header */}
           <Section style={header}>
-            <Heading style={logoHeading}>/thepaymentsnerd</Heading>
-            <Text style={dateText}>{formattedDate}</Text>
+            <Heading style={logoHeading} className="text-heading">/thepaymentsnerd</Heading>
+            <Text style={dateText} className="text-muted">{formattedDate}</Text>
             <Text style={{ margin: "8px 0 0 0" }}>
-              <Link href="https://www.thepaymentsnerd.co" style={viewOnlineLink}>
+              <Link href="https://www.thepaymentsnerd.co" style={viewOnlineLink} className="link-primary">
                 View Online
               </Link>
             </Text>
@@ -95,7 +87,7 @@ export function DailyNewsletter({
           {sponsor && (
             <>
               <Section style={sponsorSection}>
-                <Text style={sponsorLabel}>PRESENTED BY</Text>
+                <Text style={sponsorLabel} className="text-subtle">PRESENTED BY</Text>
                 {sponsor.logoUrl ? (
                   <Link href={sponsor.url} style={sponsorLogoLink}>
                     <img
@@ -105,12 +97,12 @@ export function DailyNewsletter({
                     />
                   </Link>
                 ) : (
-                  <Link href={sponsor.url} style={sponsorNameLink}>
+                  <Link href={sponsor.url} style={sponsorNameLink} className="text-heading">
                     {sponsor.name}
                   </Link>
                 )}
               </Section>
-              <Hr style={divider} />
+              <Hr style={divider} className="email-divider" />
             </>
           )}
 
@@ -118,22 +110,22 @@ export function DailyNewsletter({
           {perspective && (
             <>
               <Section style={section}>
-                <Text style={sectionLabel}>WHAT MATTERS TODAY</Text>
-                <Text style={perspectiveText}>{perspective}</Text>
+                <Text style={sectionLabel} className="text-muted">WHAT MATTERS TODAY</Text>
+                <Text style={perspectiveText} className="text-body-strong">{perspective}</Text>
               </Section>
-              <Hr style={divider} />
+              <Hr style={divider} className="email-divider" />
             </>
           )}
 
           {/* Hero Story */}
           <Section style={section}>
-            <Text style={sectionLabel}>TODAY'S LEAD STORY</Text>
-            <Heading as="h2" style={heroTitle}>
+            <Text style={sectionLabel} className="text-muted">TODAY'S LEAD STORY</Text>
+            <Heading as="h2" style={heroTitle} className="text-heading">
               {heroStory.title}
             </Heading>
-            <Text style={bodyText}>{heroStory.body}</Text>
+            <Text style={bodyText} className="text-body">{heroStory.body}</Text>
             <Text style={sourceText}>
-              <Link href={heroStory.source.url} style={sourceLink}>
+              <Link href={heroStory.source.url} style={sourceLink} className="link-primary">
                 → {heroStory.source.name}
               </Link>
             </Text>
@@ -142,18 +134,18 @@ export function DailyNewsletter({
           {/* Quick Hits */}
           {quickHits.length > 0 && (
             <>
-              <Hr style={divider} />
+              <Hr style={divider} className="email-divider" />
               <Section style={section}>
-                <Text style={sectionLabel}>ALSO WORTH KNOWING</Text>
+                <Text style={sectionLabel} className="text-muted">ALSO WORTH KNOWING</Text>
               </Section>
               {quickHits.map((item, index) => (
                 <Section key={index} style={quickHitSection}>
-                  <Heading as="h3" style={quickHitTitle}>
+                  <Heading as="h3" style={quickHitTitle} className="text-body-strong">
                     {item.title}
                   </Heading>
-                  <Text style={quickHitBody}>{item.body}</Text>
+                  <Text style={quickHitBody} className="text-body">{item.body}</Text>
                   <Text style={sourceText}>
-                    <Link href={item.source.url} style={sourceLink}>
+                    <Link href={item.source.url} style={sourceLink} className="link-primary">
                       → {item.source.name}
                     </Link>
                   </Text>
@@ -163,14 +155,14 @@ export function DailyNewsletter({
           )}
 
           {/* Did You Know */}
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
           <Section style={section}>
-            <Text style={sectionLabel}>💡 DID YOU KNOW?</Text>
-            <Text style={curiosityText}>{curiosity.text}</Text>
+            <Text style={sectionLabel} className="text-muted">💡 DID YOU KNOW?</Text>
+            <Text style={curiosityText} className="text-body-strong">{curiosity.text}</Text>
             {curiosity.source && (
-              <Text style={curiositySource}>
+              <Text style={curiositySource} className="text-muted">
                 —{" "}
-                <Link href={curiosity.source.url} style={curiosityLink}>
+                <Link href={curiosity.source.url} style={curiosityLink} className="text-muted">
                   {curiosity.source.name}
                 </Link>
               </Text>
@@ -180,25 +172,25 @@ export function DailyNewsletter({
           {/* What's Hot */}
           {whatsHot && whatsHot.length > 0 && (
             <>
-              <Hr style={divider} />
+              <Hr style={divider} className="email-divider" />
               <Section style={section}>
-                <Text style={sectionLabel}>🔥 WHAT'S HOT</Text>
-                <Text style={whatsHotSubtitle}>Funding, M&A & Product Launches</Text>
+                <Text style={sectionLabel} className="text-muted">🔥 WHAT'S HOT</Text>
+                <Text style={whatsHotSubtitle} className="text-muted">Funding, M&A & Product Launches</Text>
                 {groupWhatsHotByRegion(whatsHot).map((group) => (
                   <React.Fragment key={group.region}>
-                    <Text style={regionHeader}>
+                    <Text style={regionHeader} className="text-body">
                       {group.info.emoji} {group.info.name}
                     </Text>
                     {group.items.map((item, index) => (
-                      <Text key={index} style={whatsHotItem}>
+                      <Text key={index} style={whatsHotItem} className="text-body">
                         {item.flag}{" "}
-                        <span style={whatsHotType}>({item.type})</span>{" "}
-                        <span style={whatsHotCompany}>{item.company}</span>{" "}
+                        <span style={whatsHotType} className="text-muted">({item.type})</span>{" "}
+                        <span style={whatsHotCompany} className="text-body-strong">{item.company}</span>{" "}
                         {item.description}
                         {item.source_url && (
                           <>
                             {"… "}
-                            <Link href={item.source_url} style={whatsHotLink}>
+                            <Link href={item.source_url} style={whatsHotLink} className="link-primary">
                               Read more
                             </Link>
                           </>
@@ -212,29 +204,29 @@ export function DailyNewsletter({
           )}
 
           {/* Signature */}
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
           <Section style={signatureSection}>
-            <Text style={signatureText}>
+            <Text style={signatureText} className="text-body-strong">
               Made with ❤️ for the payments community
             </Text>
-            <Text style={signatureAuthor}>
-              by <Link href="https://www.linkedin.com/in/cesarhernandezm" style={signatureLink}>Cesar Hernandez</Link>
+            <Text style={signatureAuthor} className="text-body">
+              by <Link href="https://www.linkedin.com/in/cesarhernandezm" style={signatureLink} className="link-primary">Cesar Hernandez</Link>
             </Text>
           </Section>
 
           {/* Share Section */}
-          <Hr style={divider} />
+          <Hr style={divider} className="email-divider" />
           <Section style={shareSection}>
-            <Text style={shareHeading}>
+            <Text style={shareHeading} className="text-body-strong">
               Share the Nerd's take
             </Text>
-            <Text style={shareSubtext}>
+            <Text style={shareSubtext} className="text-body">
               Your payments friends get smarter, you get rewarded. Win-win.
             </Text>
-            <Text style={shareIncentive}>
+            <Text style={shareIncentive} className="text-body">
               Share your unique link and unlock exclusive content as you refer more readers.
             </Text>
-            <Link href={`https://www.thepaymentsnerd.co?ref=${referralCode}`} style={referralLinkStyle}>
+            <Link href={`https://www.thepaymentsnerd.co?ref=${referralCode}`} style={referralLinkStyle} className="bg-card link-primary">
               https://www.thepaymentsnerd.co?ref={referralCode}
             </Link>
 
@@ -262,24 +254,25 @@ export function DailyNewsletter({
           </Section>
 
           {/* Footer */}
-          <Section style={footer}>
-            <Text style={footerLinksRow}>
+          <Section style={footer} className="email-footer">
+            <Text style={footerLinksRow} className="text-muted">
               <Link
                 href="mailto:cesar@thepaymentsnerd.co?subject=Sponsorship%20Inquiry%20%E2%80%94%20The%20Payments%20Nerd"
                 style={footerLinkBold}
+                className="text-body"
               >
                 ADVERTISE
               </Link>
               {"  //  "}
-              <Link href={unsubscribeUrl} style={footerLink}>
+              <Link href={unsubscribeUrl} style={footerLink} className="text-muted">
                 Unsubscribe
               </Link>
               {"  //  "}
-              <Link href="https://www.thepaymentsnerd.co" style={footerLink}>
+              <Link href="https://www.thepaymentsnerd.co" style={footerLink} className="text-muted">
                 View Online
               </Link>
             </Text>
-            <Text style={footerTagline}>
+            <Text style={footerTagline} className="text-subtle">
               Five critical payments insights. Zero noise. Daily.
             </Text>
           </Section>
