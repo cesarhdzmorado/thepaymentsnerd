@@ -41,11 +41,11 @@ export function Welcome({ referralUrl, unsubscribeUrl }: WelcomeProps) {
               You&apos;re now subscribed to <strong>/thepaymentsnerd</strong>.
             </Text>
 
-            <Text style={subheading} className="text-body-strong">📬 What to expect:</Text>
-            <Text style={listItem} className="text-body">• Daily at 9:30 AM GMT (Mon-Fri)</Text>
-            <Text style={listItem} className="text-body">• 5 hand-picked signals from payments &amp; fintech</Text>
-            <Text style={listItem} className="text-body">• 3-minute read, zero fluff</Text>
-            <Text style={listItem} className="text-body">• Curated daily, never generic press releases</Text>
+            <Text style={subheading}>📬 What to expect:</Text>
+            <Text style={listItem}>• Weekday mornings, London time</Text>
+            <Text style={listItem}>• 5 hand-picked signals from payments &amp; fintech</Text>
+            <Text style={listItem}>• 3-minute read, zero fluff</Text>
+            <Text style={listItem}>• Curated daily, never generic press releases</Text>
 
             <Text style={bodyText} className="text-body">
               I built this for myself — my daily filter through 50+ payments sources
@@ -53,9 +53,9 @@ export function Welcome({ referralUrl, unsubscribeUrl }: WelcomeProps) {
               in case it helps you too.
             </Text>
 
-            <Text style={checkItem} className="text-body-strong">✓ Your first issue arrives tomorrow at 9:30 AM GMT</Text>
-            <Text style={checkItem} className="text-body-strong">✓ Whitelist this email to never miss it</Text>
-            <Text style={checkItem} className="text-body-strong">✓ One-click unsubscribe anytime</Text>
+            <Text style={checkItem}>✓ Your first issue arrives tomorrow morning</Text>
+            <Text style={checkItem}>✓ Whitelist this email to never miss it</Text>
+            <Text style={checkItem}>✓ One-click unsubscribe anytime</Text>
           </Section>
 
           {/* Referral */}
