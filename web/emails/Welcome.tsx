@@ -40,7 +40,7 @@ export function Welcome({ referralUrl, unsubscribeUrl }: WelcomeProps) {
             </Text>
 
             <Text style={subheading}>📬 What to expect:</Text>
-            <Text style={listItem}>• Daily at 9:30 AM GMT (Mon-Fri)</Text>
+            <Text style={listItem}>• Weekday mornings, London time</Text>
             <Text style={listItem}>• 5 hand-picked signals from payments &amp; fintech</Text>
             <Text style={listItem}>• 3-minute read, zero fluff</Text>
             <Text style={listItem}>• Curated daily, never generic press releases</Text>
@@ -51,7 +51,7 @@ export function Welcome({ referralUrl, unsubscribeUrl }: WelcomeProps) {
               in case it helps you too.
             </Text>
 
-            <Text style={checkItem}>✓ Your first issue arrives tomorrow at 9:30 AM GMT</Text>
+            <Text style={checkItem}>✓ Your first issue arrives tomorrow morning</Text>
             <Text style={checkItem}>✓ Whitelist this email to never miss it</Text>
             <Text style={checkItem}>✓ One-click unsubscribe anytime</Text>
           </Section>

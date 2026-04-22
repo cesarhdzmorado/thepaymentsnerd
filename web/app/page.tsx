@@ -153,7 +153,7 @@ export default async function HomePage({
           <p className="label-mono label-mono--accent mb-4">Tomorrow&apos;s edition</p>
           <h1 className="mb-4 text-[40px] sm:text-[56px] font-extrabold leading-[0.95] tracking-[-0.035em] text-[var(--ink)]">
             Brewing now.<br />
-            <span className="text-[var(--accent)]">Ready at 08:30 UTC.</span>
+            <span className="text-[var(--accent)]">Ready tomorrow morning.</span>
           </h1>
           <p className="mb-8 max-w-[44ch] text-lg text-[var(--muted)]">
             Five critical payments insights are on the way. Subscribe and we&apos;ll
@@ -235,7 +235,7 @@ export default async function HomePage({
               </p>
               <h2 className="text-[40px] sm:text-[60px] lg:text-[80px] font-extrabold leading-[0.95] tracking-[-0.035em]">
                 {tomorrowLabel}.{" "}
-                <span className="text-[var(--accent)]">08:30 UTC.</span>
+                <span className="text-[var(--accent)]">Morning drop.</span>
                 <br />
                 Be three steps ahead.
               </h2>
