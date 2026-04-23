@@ -109,7 +109,7 @@ Return only the subject line text, no quotes or additional formatting.`
     // Strip wrapping quotes / "Subject:" prefix the model sometimes adds despite instructions.
     const cleanedTitle = rawTitle
       .replace(/^subject:\s*/i, "")
-      .replace(/^["'“”‘’](.*)["'“”‘’]$/s, "$1")
+      .replace(/^["'“”‘’]([\s\S]*)["'“”‘’]$/, "$1")
       .trim();
 
     const creativeTitle = !wasTruncated && cleanedTitle ? cleanedTitle : leadStory.title;
