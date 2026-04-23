@@ -1,85 +1,64 @@
 {
   "news": [
     {
-      "title": "US House Bill Seeks to Grant Fintechs Direct Access to Fed Payment Rails",
-      "body": "US lawmakers introduced a new bill allowing fintech firms direct access to Federal Reserve payment rails, a privilege currently reserved for traditional banks. Fintechs could bypass bank intermediaries, reducing costs and speeding up settlement, while banks risk losing their gatekeeper role in payments. The bill's progress will likely spark intensified lobbying from both banks and fintechs as regulatory debate heats up.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/fintechs-push-bill-fed-payment-rail-access/818084/"
-      }
-    },
-    {
-      "title": "Paysafe Expands Digital Wallets to 18 European Markets, Challenging Incumbents",
-      "body": "Paysafe rolled out its digital wallet services across 18 European countries, broadening access for consumers and businesses. Established players like PayPal and Apple Pay now face direct competition, prompting them to accelerate wallet launches and seek new merchant partnerships to defend market share. Merchants and platforms may benefit from improved wallet features and more competitive pricing as the landscape shifts.",
+      "title": "Real-Time Payments Become Core Consumer Cash Flow Management Tool in 2026",
+      "body": "Consumers increasingly use real-time payments as proactive cash flow management tools, with the RTP\u00ae network reporting record transaction volumes. Banks and fintechs now compete by offering smarter, value-added features\u2014such as integrated budgeting and instant bill pay\u2014rather than just faster transactions. This shift drives product innovation and forces financial institutions to prioritize security and differentiated user experiences to retain customers.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/mobile-wallets/2026/paysafe-expands-digital-wallet-availability-across-18-european-markets/"
+        "url": "https://www.pymnts.com/tracker_posts/from-faster-to-smarter-real-time-payments-as-a-consumer-cash-flow-tool/"
       }
     },
     {
-      "title": "Russia Advances Crypto Bill to Enable Foreign Trade Settlements",
-      "body": "Russia's parliament passed a crypto bill in its first reading, permitting the use of cryptocurrencies for foreign trade settlements while maintaining a ban on domestic crypto payments. Russian exporters and importers gain new options for cross-border transactions, potentially sidestepping traditional banking rails and sanctions. Policymakers in other countries may watch Russia's approach as they consider their own crypto trade frameworks.",
+      "title": "Mission Lane Seeks Bank Charter, Challenging Credit Card Issuer Status Quo",
+      "body": "Mission Lane filed for a credit card bank charter, aiming to apply home-state interest rates nationwide and bypass traditional issuer constraints. If regulators approve the charter, legacy banks could lose pricing power and face direct competition from fintechs offering more flexible products. This move forces incumbent issuers to reconsider their pricing models and product offerings as fintechs gain new regulatory advantages.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/mission-lane-credit-card-bank-charter-application-occ-fdic-ilc-national-trust/818230/"
+      }
+    },
+    {
+      "title": "Blockchain Capital Targets $700M Raise to Fuel Crypto Startup Investment",
+      "body": "Blockchain Capital seeks $700 million for two new funds, aiming to become a leading investor in crypto and blockchain startups. This influx of capital will intensify competition for deals, driving up valuations and attracting more founders to the sector. Competing venture firms must move quickly to secure top opportunities, while crypto startups gain greater access to funding amid ongoing market volatility.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398402/russias-crypto-bill-first-reading?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/398560/blockchain-capital-seeks-700-million?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Bitcoin Surges Past $78,000 as ETF Inflows and Short Squeezes Drive Recovery",
-      "body": "Bitcoin's price climbed above $78,000, fueled by strong ETF inflows and a wave of short squeezes, signaling renewed investor confidence. Crypto exchanges and institutional investors see higher trading volumes and increased market activity. Asset managers may launch new crypto investment products targeting institutional capital, while regulators increase scrutiny of trading practices amid heightened volatility.",
+      "title": "Ulta Beauty Rolls Out Google-Powered AI Assistant for Personalized Commerce",
+      "body": "Ulta Beauty launched a Google-powered AI assistant to deliver personalized shopping experiences across its digital channels. This move sets a new standard for AI-driven customer engagement in retail, prompting competitors to accelerate their own agentic commerce initiatives. Retailers now race to deploy AI assistants that drive higher conversion and loyalty through tailored recommendations, reshaping digital commerce and payments interactions.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/398407/bitcoin-78000-escapes-extreme-fear?utm_source=rss&utm_medium=rss"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ulta-beauty-deploys-google-powered-ai-assistant-and-agentic-commerce/"
       }
     },
     {
-      "title": "Stratiphy Launches Platform for Crypto in UK ISAs, Reopening Tax-Advantaged Access",
-      "body": "Stratiphy's launch enables UK investors to hold crypto ETNs and Innovative Finance ISAs, restoring crypto access to tax-advantaged accounts. This move could drive a new wave of retail crypto investment and push competitors like Hargreaves Lansdown and AJ Bell to revisit their own ISA offerings. HMRC and the FCA may increase oversight of crypto in tax-advantaged wrappers as adoption grows.",
+      "title": "AI Governance Emerges as Payments Industry Battleground for Fraud and Approval Rates",
+      "body": "Payments companies with strong AI governance frameworks directly improve fraud detection, approval rates, and customer experience, while those lagging risk regulatory scrutiny and reputational harm. Firms must invest in transparent, auditable AI systems and clear oversight to meet evolving compliance standards. Regulators and industry groups are likely to introduce new requirements for explainability and risk controls as AI-driven payments expand.",
       "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/bd1544e9-67ac-4132-b7a0-7d9dab1723c2?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/opinion/2026/ai-governance-can-help-payments-leaders-scale-with-control/"
       }
     }
   ],
-  "perspective": "US House fintech access bill and Paysafe's wallet expansion highlight shifting power dynamics in payments and digital assets.",
+  "perspective": "Mission Lane\u2019s charter application and Ulta Beauty\u2019s AI assistant launch show how regulatory and AI moves are reshaping competition in payments and commerce.",
   "curiosity": {
-    "text": "Despite the rapid rise of digital wallets, over 60% of Europeans still use cash for at least one transaction per week, according to ECB data."
+    "text": "The EFTA not only protects consumers from unauthorized electronic transfers, but also requires banks to investigate errors within 10 business days\u2014a rule that still shapes dispute resolution today."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Collide Capital",
-      "description": "Raised $95M fund for fintech and future-of-work startups.",
+      "description": "raises $95M fund for fintech and future-of-work startups",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Schematic",
-      "description": "Raised $6.5M to simplify pricing for software and AI companies.",
+      "description": "raises $6.5M to simplify pricing for AI companies",
       "source_url": "https://news.crunchbase.com/venture/update-pricing-faster-easier-saas-ai-schematic/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "IPO",
-      "company": "Revolut",
-      "description": "Targets $200bn valuation for upcoming IPO.",
-      "source_url": "https://sifted.eu/articles/revolut-valuation-200-million-ipo/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Eli Lilly",
-      "description": "Acquiring biotech startup Kelonia for up to $7 billion.",
-      "source_url": "https://news.crunchbase.com/ma/lilly-acquiring-kelonia-cancer-treatment-biotech-startup/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Stripe",
-      "description": "Unveils AI foundation model for payments.",
-      "source_url": "https://techcrunch.com/2025/05/07/stripe-unveils-ai-foundation-model-for-payments-reveals-deeper-partnership-with-nvidia/"
     }
   ]
 }
