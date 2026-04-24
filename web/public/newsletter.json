@@ -1,49 +1,49 @@
 {
   "news": [
     {
-      "title": "Real-Time Payments Become Core Consumer Cash Flow Management Tool in 2026",
-      "body": "Consumers increasingly use real-time payments as proactive cash flow management tools, with the RTP\u00ae network reporting record transaction volumes. Banks and fintechs now compete by offering smarter, value-added features\u2014such as integrated budgeting and instant bill pay\u2014rather than just faster transactions. This shift drives product innovation and forces financial institutions to prioritize security and differentiated user experiences to retain customers.",
+      "title": "FedNow Rolls Out Enhanced Security Tool to Boost Instant Payment Adoption",
+      "body": "The Federal Reserve Financial Services will introduce a new risk mitigation tool for FedNow Service participants, enabling U.S. banks and credit unions to strengthen their instant payment security. This upgrade gives banks a clearer compliance path and may prompt merchants to favor FedNow over Zelle and RTP, as those networks must now match FedNow\u2019s security standards to retain institutional partners.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/tracker_posts/from-faster-to-smarter-real-time-payments-as-a-consumer-cash-flow-tool/"
+        "url": "https://www.pymnts.com/news/faster-payments/2026/fednow-service-fortifies-security-for-instant-payments/"
       }
     },
     {
-      "title": "Mission Lane Seeks Bank Charter, Challenging Credit Card Issuer Status Quo",
-      "body": "Mission Lane filed for a credit card bank charter, aiming to apply home-state interest rates nationwide and bypass traditional issuer constraints. If regulators approve the charter, legacy banks could lose pricing power and face direct competition from fintechs offering more flexible products. This move forces incumbent issuers to reconsider their pricing models and product offerings as fintechs gain new regulatory advantages.",
+      "title": "Mastercard Shifts Inclusion Strategy to Focus on Financial Stability in Emerging Markets",
+      "body": "Mastercard is expanding its financial inclusion efforts by prioritizing long-term stability for consumers and businesses in emerging markets, not just initial access. By launching new programs with local fintechs and governments, Mastercard aims to embed its services deeper into these economies, directly challenging Visa and regional competitors for sustained market share.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/mission-lane-credit-card-bank-charter-application-occ-fdic-ilc-national-trust/818230/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/mastercard/2026/mastercard-takes-aim-at-the-fragile-side-of-financial-inclusion/"
       }
     },
     {
-      "title": "Blockchain Capital Targets $700M Raise to Fuel Crypto Startup Investment",
-      "body": "Blockchain Capital seeks $700 million for two new funds, aiming to become a leading investor in crypto and blockchain startups. This influx of capital will intensify competition for deals, driving up valuations and attracting more founders to the sector. Competing venture firms must move quickly to secure top opportunities, while crypto startups gain greater access to funding amid ongoing market volatility.",
+      "title": "US Treasury Urges Banks and Fintechs to Adopt Stronger Identity Verification for AML",
+      "body": "During a recent hearing, the U.S. Treasury called on banks and fintechs to implement advanced identity verification frameworks to strengthen anti-money laundering (AML) defenses. Lawmakers and regulators are now pressing financial institutions to upgrade KYC processes, which could accelerate adoption of new AML technologies and reshape compliance strategies across the sector.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/aml/2026/us-treasury-says-smarter-aml-starts-with-better-identity/"
+      }
+    },
+    {
+      "title": "Spot Bitcoin ETFs Draw $2 Billion in Inflows, Attracting Institutional Investors",
+      "body": "Spot bitcoin ETFs, led by BlackRock\u2019s IBIT, attracted $223.2 million in net inflows on Thursday, bringing total inflows to $2 billion. Asset managers and institutional investors are increasingly allocating capital to these ETFs, intensifying competition with traditional mutual funds and prompting ETF providers to expand crypto offerings in response to rising demand.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398560/blockchain-capital-seeks-700-million?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/398757/spot-bitcoin-etf-8-day-streak?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Ulta Beauty Rolls Out Google-Powered AI Assistant for Personalized Commerce",
-      "body": "Ulta Beauty launched a Google-powered AI assistant to deliver personalized shopping experiences across its digital channels. This move sets a new standard for AI-driven customer engagement in retail, prompting competitors to accelerate their own agentic commerce initiatives. Retailers now race to deploy AI assistants that drive higher conversion and loyalty through tailored recommendations, reshaping digital commerce and payments interactions.",
+      "title": "Meta Lays Off 8,000 to Fund AI Infrastructure, Shifting Tech Talent Dynamics",
+      "body": "Meta will cut 8,000 jobs\u201410% of its workforce\u2014to reallocate resources toward AI infrastructure, directly impacting employees and the broader tech labor market. This restructuring allows Meta to accelerate AI and metaverse initiatives, while competitors like Google and Apple may recruit from the newly available talent pool, intensifying the race for AI expertise.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ulta-beauty-deploys-google-powered-ai-assistant-and-agentic-commerce/"
-      }
-    },
-    {
-      "title": "AI Governance Emerges as Payments Industry Battleground for Fraud and Approval Rates",
-      "body": "Payments companies with strong AI governance frameworks directly improve fraud detection, approval rates, and customer experience, while those lagging risk regulatory scrutiny and reputational harm. Firms must invest in transparent, auditable AI systems and clear oversight to meet evolving compliance standards. Regulators and industry groups are likely to introduce new requirements for explainability and risk controls as AI-driven payments expand.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/opinion/2026/ai-governance-can-help-payments-leaders-scale-with-control/"
+        "url": "https://www.pymnts.com/meta/2026/meta-prepares-8000-layoffs-to-offset-ai-infrastructure-investments/"
       }
     }
   ],
-  "perspective": "Mission Lane\u2019s charter application and Ulta Beauty\u2019s AI assistant launch show how regulatory and AI moves are reshaping competition in payments and commerce.",
+  "perspective": "FedNow\u2019s security upgrade and Meta\u2019s AI-driven layoffs highlight how infrastructure investments by the Federal Reserve and Meta are reshaping payments and tech competition.",
   "curiosity": {
-    "text": "The EFTA not only protects consumers from unauthorized electronic transfers, but also requires banks to investigate errors within 10 business days\u2014a rule that still shapes dispute resolution today."
+    "text": "The world\u2019s first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe or North America."
   },
   "whats_hot": [
     {
@@ -56,9 +56,16 @@
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Schematic",
-      "description": "raises $6.5M to simplify pricing for AI companies",
-      "source_url": "https://news.crunchbase.com/venture/update-pricing-faster-easier-saas-ai-schematic/"
+      "company": "Cloneable",
+      "description": "raises $4.6M to clone expert worker knowledge with AI",
+      "source_url": "https://news.crunchbase.com/venture/cloneable-cloning-expert-worker-knowledge-ai-infrastructure/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "3F",
+      "description": "raises $4M for leveraged exposure to tokenized assets",
+      "source_url": "https://www.theblock.co/post/398686/3f-morpho-funding-everaged-exposure-tokenized-assets?utm_source=rss&utm_medium=rss"
     }
   ]
 }
