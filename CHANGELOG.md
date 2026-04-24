@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.4.0] - 2026-04-24
+
+### Added
+- Archive index at `/archive` — every prior issue grouped by month, links to the day view. Reachable from the footer alongside "Latest issue" and "Subscribe".
+
+### Fixed
+- Inter now actually renders on every page. The `@theme` block was missing `--font-sans`, so every heading and body text silently fell back to the system sans stack. Headings across home, archive, privacy, legal, and cookies now render in Inter as the design system intended.
+- Legal, privacy, and cookies pages had two `<h1>` tags (brand mark wrapped in `<h1>` plus the page title). Screen readers saw two page titles. The brand is now a `<span>`; each page has exactly one `<h1>`.
+- Nav "Subscribe →" link on mobile was a 32px-tall tap target. Bumped to 44px on mobile only (desktop pill stays the same size). Main's `pt` adjusted so content doesn't slip under the taller nav.
+- Legal pages shed the pre-Swiss glassmorphism (grid pattern, glow backgrounds, card surface). They now share the Swiss masthead and footer with the homepage, with `prose-legal` tokens (`--ink`, `--ink-3`, `--muted`, `--rule`, `--accent`) replacing hardcoded blue links and `--muted-foreground`. Legal links now preserve visited vs unvisited distinction.
+
+### Changed
+- "Share:" label, referral share block inside the subscribe success state, and the scroll-to-top arrow all used Tailwind slate/blue/indigo utilities outside the Swiss palette. Now wired to Swiss tokens (`--muted`, `--ink`, `--ink-3`, `--paper-2`, `--rule`).
+- "What's Hot" type tags (Fundraising / Product / Expansion / M&A) previously mixed `--accent` with emerald/amber/violet Tailwind defaults. All four tags now render in `--ink`; the label text carries the category, color stays inside the Swiss one-accent rule.
+- Archive query now caps at 500 issues (`.limit(500)`) instead of an unbounded scan. Two years of weekday issues fit inside that cap.
+
 ## [0.1.3.0] - 2026-04-19
 
 ### Changed
