@@ -15,7 +15,7 @@ interface LegalPageLayoutProps {
 export function LegalPageLayout({ title, children }: LegalPageLayoutProps) {
   return (
     <div className="min-h-screen bg-[var(--paper)] text-[var(--ink)] antialiased">
-      <div className="mx-auto max-w-3xl px-4 sm:px-8 lg:px-16 py-12 sm:py-16">
+      <div className="mx-auto w-full max-w-3xl px-4 sm:px-8 lg:px-16 pt-12 sm:pt-16">
         <Link
           href="/"
           className="label-mono mb-12 inline-flex items-center gap-2 text-[var(--muted)] transition-colors hover:text-[var(--accent)] group"
@@ -30,8 +30,9 @@ export function LegalPageLayout({ title, children }: LegalPageLayoutProps) {
           </h1>
           <div className="prose-legal">{children}</div>
         </article>
+
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
