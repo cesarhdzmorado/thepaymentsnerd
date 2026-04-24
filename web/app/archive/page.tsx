@@ -15,6 +15,11 @@ export const metadata: Metadata = {
     "Every prior issue of /thepaymentsnerd. Five critical payments insights daily, archived back to day one.",
 };
 
+// 500 ≈ two years of weekday issues. Caps the payload so a fresh archive
+// request can't unbounded-scan the whole newsletters table. Add pagination
+// if the archive ever genuinely outgrows this.
+const ARCHIVE_LIMIT = 500;
+
 interface ArchiveEntry {
   publication_date: string;
   content: NewsletterContent;
@@ -24,7 +29,8 @@ async function getAllNewsletters(): Promise<ArchiveEntry[]> {
   const { data, error } = await supabase
     .from("newsletters")
     .select("publication_date, content")
-    .order("publication_date", { ascending: false });
+    .order("publication_date", { ascending: false })
+    .limit(ARCHIVE_LIMIT);
 
   if (error || !data) {
     console.error("Error fetching archive:", error?.message);
