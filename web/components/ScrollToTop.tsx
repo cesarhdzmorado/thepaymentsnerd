@@ -34,8 +34,7 @@ export function ScrollToTop() {
       aria-label="Scroll to top"
       title="Back to top"
     >
-      <ArrowUp className="h-5 w-5 text-slate-700 dark:text-slate-300 transition-transform duration-300 group-hover:-translate-y-1 group-active:translate-y-0" />
-      <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-indigo-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-md" />
+      <ArrowUp className="h-5 w-5 text-[var(--ink-3)] transition-transform duration-300 group-hover:-translate-y-1 group-active:translate-y-0" />
     </button>
   );
 }

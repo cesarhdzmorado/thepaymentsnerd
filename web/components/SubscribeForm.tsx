@@ -241,10 +241,10 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
 
           {referralUrl && (
             <>
-              <p className="mt-3 text-sm font-semibold text-slate-900 dark:text-slate-100">
+              <p className="mt-3 text-sm font-semibold text-[var(--ink)]">
                 Share The Payments Nerd
               </p>
-              <p className="mt-1 text-xs text-slate-600 dark:text-slate-400">
+              <p className="mt-1 text-xs text-[var(--muted)]">
                 Share your referral link to bring in your payments network.
               </p>
 
@@ -254,7 +254,7 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
                 readOnly
                 value={referralUrl}
                 onClick={() => referralInputRef.current?.select()}
-                className="mt-3 w-full rounded-lg border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/40 px-3 py-2 text-xs text-slate-700 dark:text-slate-300 select-all cursor-text"
+                className="mt-3 w-full rounded-[2px] border border-[var(--rule)] bg-[var(--paper-2)] px-3 py-2 text-xs text-[var(--ink-3)] select-all cursor-text"
               />
 
               <div className="mt-3 flex flex-wrap gap-2">
