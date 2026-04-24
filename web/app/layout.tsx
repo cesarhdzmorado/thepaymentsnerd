@@ -81,7 +81,7 @@ export default function RootLayout({
         <div className="min-h-screen">
           <NavigationBar />
 
-          <main id="main-content" tabIndex={-1} className="relative min-h-screen pt-[60px]">
+          <main id="main-content" tabIndex={-1} className="relative min-h-screen pt-[73px] sm:pt-[60px]">
             {children}
           </main>
         </div>
