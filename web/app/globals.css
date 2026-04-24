@@ -318,26 +318,27 @@ select:focus-visible,
   transform: translateY(-2px);
 }
 
-/* --- Legal page prose styling --- */
+/* --- Legal page prose styling (Swiss tokens) --- */
 .prose-legal h2 {
   font-size: 1.25rem;
   font-weight: 700;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   margin-bottom: 1rem;
-  color: var(--foreground);
+  color: var(--ink);
 }
 
 .prose-legal p {
   margin-bottom: 1.5rem;
   line-height: 1.75;
-  color: var(--muted-foreground);
+  color: var(--ink-3);
 }
 
 .prose-legal ul {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 1.25rem;
   margin-bottom: 1.5rem;
-  color: var(--muted-foreground);
+  color: var(--ink-3);
 }
 
 .prose-legal ul li {
@@ -345,32 +346,35 @@ select:focus-visible,
 }
 
 .prose-legal a {
-  color: #2563eb; /* blue-600 */
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   transition: color 0.2s ease;
 }
 
 .prose-legal a:hover {
-  text-decoration: underline;
+  color: var(--accent-hover);
 }
 
-@media (prefers-color-scheme: dark) {
-  .prose-legal a {
-    color: #67e8f9; /* cyan-300 */
-  }
+.prose-legal a:visited {
+  color: var(--muted);
 }
 
 .prose-legal hr {
   border: none;
-  border-top: 1px solid var(--card-border);
+  border-top: 1px solid var(--rule);
   margin: 2rem 0;
 }
 
 .prose-legal em {
-  color: var(--muted-foreground);
+  color: var(--muted);
+  font-style: italic;
 }
 
 .prose-legal strong {
-  color: var(--foreground);
+  color: var(--ink);
+  font-weight: 700;
 }
 
 /* ——————————————————————————————————————————————
