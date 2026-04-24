@@ -99,19 +99,25 @@ Return only the subject line text, no quotes or additional formatting.`
         }
       ],
       temperature: 0.7,
-      max_tokens: 100,
+      max_tokens: 200,
     });
 
-    const creativeTitle = completion.choices[0]?.message?.content?.trim() || leadStory.title.split(' ').slice(0, 10).join(' ');
+    const choice = completion.choices[0];
+    const rawTitle = choice?.message?.content?.trim() ?? "";
+    // If the model hit the token cap, its output is cut mid-sentence — don't ship it.
+    const wasTruncated = choice?.finish_reason === "length";
+    // Strip wrapping quotes / "Subject:" prefix the model sometimes adds despite instructions.
+    const cleanedTitle = rawTitle
+      .replace(/^subject:\s*/i, "")
+      .replace(/^["'“”‘’]([\s\S]*)["'“”‘’]$/, "$1")
+      .trim();
 
-    // Return with emoji only
+    const creativeTitle = !wasTruncated && cleanedTitle ? cleanedTitle : leadStory.title;
+
     return `🤓 ${creativeTitle}`;
   } catch (error) {
     console.error("Error generating creative email subject:", error);
-
-    // Fallback to a simple version of the lead story title
-    const fallbackTitle = leadStory.title.split(' ').slice(0, 10).join(' ');
-    return `🤓 ${fallbackTitle}`;
+    return `🤓 ${leadStory.title}`;
   }
 }
 

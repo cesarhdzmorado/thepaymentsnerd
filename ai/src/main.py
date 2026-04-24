@@ -17,7 +17,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from supabase import create_client
 
 # Import our custom tools
-from .tools import search_tool, scrape_tool, rss_tool, deduplicate_stories, filter_against_history
+from .tools import search_tool, scrape_tool, rss_tool, deduplicate_stories, filter_against_history, _normalize_url
 
 
 def normalize_text(text: str) -> str:
@@ -170,22 +170,6 @@ def select_fallback_curiosity(curiosity_history: list):
     return max(available, key=lambda text: curiosity_novelty_score(text, curiosity_history))
 
 
-def _normalize_story_url(url: str) -> str:
-    """Normalize URL for robust cross-section dedup (news vs what's hot)."""
-    if not url:
-        return ""
-    u = url.strip().lower()
-    if u.startswith("https://"):
-        u = u[len("https://"):]
-    elif u.startswith("http://"):
-        u = u[len("http://"):]
-    if u.startswith("www."):
-        u = u[len("www."):]
-    # Remove query params and fragments to compare canonical article paths
-    u = u.split("?")[0].split("#")[0]
-    return u.rstrip("/")
-
-
 def deduplicate_whats_hot_against_news(news_items: list, whats_hot_items: list):
     """
     Remove What's Hot entries that duplicate already selected Top News stories.
@@ -204,7 +188,7 @@ def deduplicate_whats_hot_against_news(news_items: list, whats_hot_items: list):
     for n in news_items or []:
         source = n.get("source", {}) if isinstance(n, dict) else {}
         source_url = source.get("url", "") if isinstance(source, dict) else ""
-        norm = _normalize_story_url(source_url)
+        norm = _normalize_url(source_url)
         if norm:
             news_urls.add(norm)
         title = (n.get("title", "") if isinstance(n, dict) else "").lower().strip()
@@ -216,7 +200,7 @@ def deduplicate_whats_hot_against_news(news_items: list, whats_hot_items: list):
 
     for item in whats_hot_items:
         source_url = item.get("source_url", "") if isinstance(item, dict) else ""
-        norm_hot_url = _normalize_story_url(source_url)
+        norm_hot_url = _normalize_url(source_url)
         company = (item.get("company", "") if isinstance(item, dict) else "").lower().strip()
 
         if norm_hot_url and norm_hot_url in news_urls:

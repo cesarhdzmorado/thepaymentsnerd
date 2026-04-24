@@ -86,7 +86,7 @@ export function LinkButton({
   );
 }
 
-export function inputClasses({ className }: { className?: string } = {}) {
+function inputClasses({ className }: { className?: string } = {}) {
   return cx(
     // Swiss input — sharp corners, ink border, paper fill.
     "w-full rounded-[2px] px-4 py-3.5 text-base",
@@ -124,33 +124,3 @@ export function Card({
   return <div className={cardClasses({ strong, className })} {...props} />;
 }
 
-type BadgeTone = "neutral" | "info" | "success";
-
-const badgeToneMap: Record<BadgeTone, string> = {
-  neutral: "border border-[var(--rule)] text-[var(--muted)]",
-  info: "border border-[var(--accent)] text-[var(--accent)]",
-  success: "border border-emerald-600 text-emerald-700 dark:text-emerald-400",
-};
-
-export function badgeClasses({
-  tone = "neutral",
-  className,
-}: {
-  tone?: BadgeTone;
-  className?: string;
-} = {}) {
-  return cx(
-    // Mono tag — sharp rectangle, uppercase, tracked.
-    "inline-flex items-center rounded-[2px] px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-[0.16em]",
-    badgeToneMap[tone],
-    className
-  );
-}
-
-export function Badge({
-  tone = "neutral",
-  className,
-  ...props
-}: HTMLAttributes<HTMLSpanElement> & { tone?: BadgeTone }) {
-  return <span className={badgeClasses({ tone, className })} {...props} />;
-}

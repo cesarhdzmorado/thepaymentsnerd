@@ -55,7 +55,7 @@ export function NavigationBar() {
       <div className="mx-auto grid max-w-[1240px] grid-cols-[1fr_auto_1fr] items-center gap-4 px-4 py-3 sm:px-8">
         {/* Left: issue + dateline (desktop only) */}
         <div className="label-mono hidden sm:block">
-          {dateline ? `Issue · ${dateline} · 08:30 UTC` : ""}
+          {dateline ? `Issue · ${dateline}` : ""}
         </div>
 
         {/* Center: brand wordmark */}
