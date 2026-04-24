@@ -30,9 +30,9 @@ export function Logo({ className }: { className?: string }) {
   }, []);
 
   return (
-    <h1
+    <span
       className={[
-        "font-extrabold tracking-[-0.025em] text-[var(--ink)] leading-none",
+        "inline-block font-extrabold tracking-[-0.025em] text-[var(--ink)] leading-none",
         className ?? "text-4xl sm:text-5xl md:text-6xl",
       ].join(" ")}
     >
@@ -44,6 +44,6 @@ export function Logo({ className }: { className?: string }) {
           className="ml-1 -mb-1 inline-block h-[0.85em] w-[3px] bg-[var(--accent)] transition-opacity duration-100"
         />
       )}
-    </h1>
+    </span>
   );
 }

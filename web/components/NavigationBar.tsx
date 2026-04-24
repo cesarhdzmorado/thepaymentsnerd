@@ -72,7 +72,7 @@ export function NavigationBar() {
         <div className="flex items-center justify-end gap-3">
           <Link
             href="/#subscribe"
-            className="inline-flex items-center gap-2 rounded-[2px] bg-[var(--ink)] px-3.5 py-2 text-xs font-semibold tracking-[0.02em] text-[var(--paper)] transition-colors hover:bg-[var(--accent)]"
+            className="inline-flex min-h-[44px] items-center gap-2 rounded-[2px] bg-[var(--ink)] px-3.5 py-2 text-xs font-semibold tracking-[0.02em] text-[var(--paper)] transition-colors hover:bg-[var(--accent)] sm:min-h-0"
           >
             Subscribe →
           </Link>

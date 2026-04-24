@@ -45,7 +45,7 @@ export function ShareButtons({ url }: ShareButtonsProps) {
 
   return (
     <div className="flex items-center gap-2 flex-wrap">
-      <span className="text-sm font-medium text-slate-600 dark:text-slate-400 transition-colors duration-200">
+      <span className="text-sm font-medium text-[var(--muted)] transition-colors duration-200">
         Share:
       </span>
 

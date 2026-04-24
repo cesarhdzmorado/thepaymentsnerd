@@ -14,6 +14,7 @@ interface FooterLink {
 
 const READ_LINKS: FooterLink[] = [
   { name: "Latest issue", href: "/" },
+  { name: "Archive", href: "/archive" },
   { name: "Subscribe", href: "/#subscribe" },
 ];
 

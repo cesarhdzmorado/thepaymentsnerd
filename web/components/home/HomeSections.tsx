@@ -48,14 +48,9 @@ export interface Newsletter {
  * work on each render.
  * ———————————————————————————————————————————————————————————————— */
 
-/** Color tag for the What's Hot table. */
-const TYPE_TAG_COLOR: Record<string, string> = {
-  fundraising: "text-[var(--accent)]",
-  product: "text-emerald-700 dark:text-emerald-400",
-  expansion: "text-amber-700 dark:text-amber-400",
-  "M&A": "text-violet-700 dark:text-violet-400",
-};
-
+// Swiss: one accent used sparingly. What's Hot types are differentiated by
+// the label text itself, not by color. All tags render in --ink to match
+// the rest of the editorial system.
 const TYPE_TAG_LABEL: Record<string, string> = {
   fundraising: "Fundraising",
   product: "Product",
@@ -63,8 +58,8 @@ const TYPE_TAG_LABEL: Record<string, string> = {
   "M&A": "M&A",
 };
 
-function getTypeColor(type: string): string {
-  return TYPE_TAG_COLOR[type] ?? "text-[var(--muted)]";
+function getTypeColor(): string {
+  return "label-mono--ink";
 }
 
 function getTypeLabel(type: string): string {
@@ -369,7 +364,7 @@ export function WhatsHotSection({ whatsHot }: { whatsHot: WhatsHotItem[] }) {
                       {item.flag}
                     </span>
                     <span
-                      className={`label-mono ${getTypeColor(item.type)} sm:col-start-2`}
+                      className={`label-mono ${getTypeColor()} sm:col-start-2`}
                       style={{ fontSize: 10 }}
                     >
                       {getTypeLabel(item.type)}
