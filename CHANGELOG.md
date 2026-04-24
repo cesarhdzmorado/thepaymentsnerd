@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.4.1] - 2026-04-24
+
+### Fixed
+- Nav "Subscribe →" link was rendering black text on a black background in the default state. Hovering flipped the bg to red and the text became readable, but in the resting state the button had no visible label. Root cause: a bare `a { color: inherit }` rule in globals.css was unlayered, so in Tailwind v4's cascade it was beating every `text-[var(--*)]` utility applied to anchor tags. Wrapping it in `@layer base` restores proper utility precedence. Also fixes any future anchor that wants a non-default color utility.
+
 ## [0.1.4.0] - 2026-04-24
 
 ### Added
