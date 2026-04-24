@@ -105,9 +105,14 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Base anchor reset — in @layer base so Tailwind text-* utilities can override
+ * it. Unlayered rules beat layered utilities, which previously made every
+ * `<a class="text-[var(--paper)]">` silently inherit black from body. */
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 ::selection {
