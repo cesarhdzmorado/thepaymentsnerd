@@ -1,71 +1,71 @@
 {
   "news": [
     {
-      "title": "FedNow Rolls Out Enhanced Security Tool to Boost Instant Payment Adoption",
-      "body": "The Federal Reserve Financial Services will introduce a new risk mitigation tool for FedNow Service participants, enabling U.S. banks and credit unions to strengthen their instant payment security. This upgrade gives banks a clearer compliance path and may prompt merchants to favor FedNow over Zelle and RTP, as those networks must now match FedNow\u2019s security standards to retain institutional partners.",
+      "title": "Google\u2019s $40 Billion Anthropic Bet Sets Stage for AI-Driven Payments Innovation",
+      "body": "Google\u2019s commitment of up to $40 billion to AI startup Anthropic, including $10 billion upfront, aims to deepen its AI capabilities for payments automation, fraud detection, and autonomous transaction flows. Payment processors like Stripe and Adyen, as well as neobanks integrating Google\u2019s AI stack, could rapidly deploy advanced risk scoring and conversational payment interfaces, outpacing competitors lacking similar AI resources. The term 'agentic commerce' refers to autonomous systems that can initiate and complete transactions on behalf of users.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/faster-payments/2026/fednow-service-fortifies-security-for-instant-payments/"
+        "url": "https://www.pymnts.com/news/investment-tracker/2026/google-doubles-down-on-anthropic-with-new-40-billion-investment/"
       }
     },
     {
-      "title": "Mastercard Shifts Inclusion Strategy to Focus on Financial Stability in Emerging Markets",
-      "body": "Mastercard is expanding its financial inclusion efforts by prioritizing long-term stability for consumers and businesses in emerging markets, not just initial access. By launching new programs with local fintechs and governments, Mastercard aims to embed its services deeper into these economies, directly challenging Visa and regional competitors for sustained market share.",
+      "title": "Morgan Stanley Launches Stablecoin Reserve Fund to Capture Digital Currency Flows",
+      "body": "Morgan Stanley Investment Management introduced a government money market fund designed for stablecoin issuers, aligning with new GENIUS Act reserve requirements. Stablecoin issuers now have a compliant, institutional-grade option for managing reserves, which could attract more regulated players and increase market stability. Competing banks may need to launch similar products to retain digital asset treasury business.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/mastercard/2026/mastercard-takes-aim-at-the-fragile-side-of-financial-inclusion/"
+        "url": "https://www.pymnts.com/blockchain/2026/morgan-stanley-supports-stablecoin-issuers-with-new-fund-for-reserves/"
       }
     },
     {
-      "title": "US Treasury Urges Banks and Fintechs to Adopt Stronger Identity Verification for AML",
-      "body": "During a recent hearing, the U.S. Treasury called on banks and fintechs to implement advanced identity verification frameworks to strengthen anti-money laundering (AML) defenses. Lawmakers and regulators are now pressing financial institutions to upgrade KYC processes, which could accelerate adoption of new AML technologies and reshape compliance strategies across the sector.",
+      "title": "Visa Expands Tap-to-Phone Payments to Micro-Merchants in Southeast Asia",
+      "body": "Visa rolled out its tap-to-phone technology to micro-merchants across Indonesia, Thailand, and Vietnam, enabling smartphones to accept contactless payments without additional hardware. This initiative lowers barriers for small businesses to accept digital payments, potentially accelerating card adoption in cash-heavy markets. Local banks and acquirers may see increased transaction volumes as merchant acceptance broadens.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/aml/2026/us-treasury-says-smarter-aml-starts-with-better-identity/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/43210/visa-expands-tap-to-phone-to-micro-merchants-in-southeast-asia"
       }
     },
     {
-      "title": "Spot Bitcoin ETFs Draw $2 Billion in Inflows, Attracting Institutional Investors",
-      "body": "Spot bitcoin ETFs, led by BlackRock\u2019s IBIT, attracted $223.2 million in net inflows on Thursday, bringing total inflows to $2 billion. Asset managers and institutional investors are increasingly allocating capital to these ETFs, intensifying competition with traditional mutual funds and prompting ETF providers to expand crypto offerings in response to rising demand.",
+      "title": "DOJ Drops Powell Probe; Warsh\u2019s Crypto Stance Draws Attention in Fed Succession",
+      "body": "The Department of Justice has ended its investigation into Federal Reserve Chair Jerome Powell, but no official decision has been made regarding his successor. Kevin Warsh, noted for his openness to digital assets, is among the names discussed for potential leadership. Any shift in Fed leadership could influence U.S. policy on digital currencies, prompting banks and fintechs to monitor regulatory signals closely.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398757/spot-bitcoin-etf-8-day-streak?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/398836/doj-drops-probe-into-jerome-powell-paving-the-way-for-crypto-friendly-kevin-warsh-to-lead-fed?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Meta Lays Off 8,000 to Fund AI Infrastructure, Shifting Tech Talent Dynamics",
-      "body": "Meta will cut 8,000 jobs\u201410% of its workforce\u2014to reallocate resources toward AI infrastructure, directly impacting employees and the broader tech labor market. This restructuring allows Meta to accelerate AI and metaverse initiatives, while competitors like Google and Apple may recruit from the newly available talent pool, intensifying the race for AI expertise.",
+      "title": "AWS Marketplace Adds Chainlink Data Standards, Connecting Cloud Services to Blockchain Networks",
+      "body": "AWS integrated Chainlink data standards into its marketplace, allowing developers to link AWS cloud applications directly with blockchain networks for payment, settlement, and data verification. This integration enables fintechs and enterprises to automate reconciliation and settlement processes across cloud and blockchain environments. Competing cloud providers may need to accelerate similar offerings to retain clients in financial services and Web3.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/meta/2026/meta-prepares-8000-layoffs-to-offset-ai-infrastructure-investments/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/398820/aws-marketplace-integrates-chainlink?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "FedNow\u2019s security upgrade and Meta\u2019s AI-driven layoffs highlight how infrastructure investments by the Federal Reserve and Meta are reshaping payments and tech competition.",
+  "perspective": "Today: Google\u2019s Anthropic investment and Morgan Stanley\u2019s stablecoin fund signal rapid convergence of AI and digital asset infrastructure by major tech and banking players.",
   "curiosity": {
-    "text": "The world\u2019s first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe or North America."
+    "text": "Despite the rise of electronic check conversion, the U.S. still processes billions of paper checks annually\u2014making it one of the few developed countries where checks remain a significant payment method."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "raises $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "type": "product",
+      "company": "Fluent",
+      "description": "Launches Ethereum Layer 2 mainnet and BLEND token.",
+      "source_url": "https://www.theblock.co/post/398756/fluent-launches-ethereum-layer-2-mainnet-and-blend-token-with-50-million-day-one-liquidity?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Morgan Stanley",
+      "description": "Launches stablecoin reserves fund aligned with GENIUS Act.",
+      "source_url": "https://www.theblock.co/post/398784/morgan-stanley-launches-stablecoin-reserves-fund-aligned-with-genius-act-requirements?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Cloneable",
-      "description": "raises $4.6M to clone expert worker knowledge with AI",
+      "description": "Raises $4.6M to clone expert knowledge with AI.",
       "source_url": "https://news.crunchbase.com/venture/cloneable-cloning-expert-worker-knowledge-ai-infrastructure/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "3F",
-      "description": "raises $4M for leveraged exposure to tokenized assets",
-      "source_url": "https://www.theblock.co/post/398686/3f-morpho-funding-everaged-exposure-tokenized-assets?utm_source=rss&utm_medium=rss"
     }
   ]
 }
