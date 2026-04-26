@@ -418,6 +418,45 @@ When making changes, update relevant docs:
 3. Verify `newsletter.json` output
 4. Check for duplicates and quality
 
+### Update Industry Trends (`ai/config.yml`)
+
+The `current_trends` block in `ai/config.yml` shapes which stories the AI agent
+prioritizes (see `format_trends_for_prompt` in `ai/src/main.py`). Edits here
+have measurable downstream impact on newsletter content, so every change is
+gated on evidence.
+
+**Required for every PR that touches `current_trends`:**
+
+1. **Run the eval harness** against the previous version:
+   ```bash
+   python ai/scripts/trend_diff.py --old git:main --new ai/config.yml --days 30
+   ```
+
+2. **Paste the output table into the PR description.** Reviewers use it to
+   sanity-check that the change is intentional (not accidental coverage loss
+   or unintentional skew). PRs touching `ai/config.yml` without a `trend_diff.py`
+   table will be sent back for one.
+
+3. **Run the schema test** before pushing:
+   ```bash
+   python -m unittest ai.tests.test_config_loads
+   ```
+
+4. **Honor the weight rubric** (documented in the `ai/config.yml` header):
+   - Max 1 trend at weight 10
+   - Max 3 trends at weight 8+
+   - Max 5 trends at weight 6+
+
+5. **Keep signals to ≤4 words.** Long descriptive phrases ("declining guest
+   checkout preference") will not regex-match news copy and dilute attention
+   in the agent prompt. Use short keywords that actually appear in articles
+   (`"guest checkout"`, `"FedNow"`, `"USDC"`).
+
+The `Validate ai/config.yml schema` step in
+`.github/workflows/generate_news.yml` blocks the daily pipeline if any of
+the above are violated, so a malformed config will fail in CI before
+burning OpenAI tokens on a doomed agent run.
+
 ## Debugging
 
 ### Enable Debug Logging
