@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Google\u2019s $40 Billion Anthropic Bet Sets Stage for AI-Driven Payments Innovation",
-      "body": "Google\u2019s commitment of up to $40 billion to AI startup Anthropic, including $10 billion upfront, aims to deepen its AI capabilities for payments automation, fraud detection, and autonomous transaction flows. Payment processors like Stripe and Adyen, as well as neobanks integrating Google\u2019s AI stack, could rapidly deploy advanced risk scoring and conversational payment interfaces, outpacing competitors lacking similar AI resources. The term 'agentic commerce' refers to autonomous systems that can initiate and complete transactions on behalf of users.",
+      "title": "Western Union Shifts Focus to Stablecoins and M&A After Flat Americas Revenue",
+      "body": "Western Union reported flat GAAP revenue and a 1% decline in adjusted revenue for Q1 2026 in the Americas, prompting a strategic shift toward stablecoins and acquisitions. The company aims to strengthen its digital payments and cross-border remittance offerings, putting pressure on remittance competitors to accelerate their own digital and crypto strategies as Western Union leverages stablecoin rails and inorganic growth.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/investment-tracker/2026/google-doubles-down-on-anthropic-with-new-40-billion-investment/"
+        "url": "https://www.pymnts.com/earnings/2026/western-union-bets-on-stablecoins-and-ma-for-growth/"
       }
     },
     {
-      "title": "Morgan Stanley Launches Stablecoin Reserve Fund to Capture Digital Currency Flows",
-      "body": "Morgan Stanley Investment Management introduced a government money market fund designed for stablecoin issuers, aligning with new GENIUS Act reserve requirements. Stablecoin issuers now have a compliant, institutional-grade option for managing reserves, which could attract more regulated players and increase market stability. Competing banks may need to launch similar products to retain digital asset treasury business.",
+      "title": "HSBC Targets Corporate Market Share With Real-Time Payments and Digital Asset Focus",
+      "body": "An HSBC payments executive detailed how real-time payments adoption is accelerating, driven by digital asset integration and shifting corporate priorities. HSBC plans to expand instant settlement solutions for corporates seeking faster, more transparent payment flows, directly challenging traditional payment providers for high-value treasury and B2B relationships.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/hsbc-tom-halpin-what-drives-real-time-payment-growth/818458/"
+      }
+    },
+    {
+      "title": "Simply Business Launches AI-Driven Insurance Quoting With ChatGPT Integration",
+      "body": "Simply Business introduced an AI-powered insurance quoting tool using ChatGPT, reducing the process to just three data points. This innovation streamlines customer onboarding and sets a new standard for speed and simplicity, prompting traditional insurers and digital brokers to accelerate their own AI adoption to remain competitive in distribution and quoting workflows.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/morgan-stanley-supports-stablecoin-issuers-with-new-fund-for-reserves/"
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/insurance-quoting-enters-the-ai-conversation-layer/"
       }
     },
     {
-      "title": "Visa Expands Tap-to-Phone Payments to Micro-Merchants in Southeast Asia",
-      "body": "Visa rolled out its tap-to-phone technology to micro-merchants across Indonesia, Thailand, and Vietnam, enabling smartphones to accept contactless payments without additional hardware. This initiative lowers barriers for small businesses to accept digital payments, potentially accelerating card adoption in cash-heavy markets. Local banks and acquirers may see increased transaction volumes as merchant acceptance broadens.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/43210/visa-expands-tap-to-phone-to-micro-merchants-in-southeast-asia"
-      }
-    },
-    {
-      "title": "DOJ Drops Powell Probe; Warsh\u2019s Crypto Stance Draws Attention in Fed Succession",
-      "body": "The Department of Justice has ended its investigation into Federal Reserve Chair Jerome Powell, but no official decision has been made regarding his successor. Kevin Warsh, noted for his openness to digital assets, is among the names discussed for potential leadership. Any shift in Fed leadership could influence U.S. policy on digital currencies, prompting banks and fintechs to monitor regulatory signals closely.",
+      "title": "JPMorgan Sees Tokenization Reshaping Funds Industry, Eyes ETF Integration",
+      "body": "JPMorgan forecasts that tokenization will become integral to the funds industry and ETF ecosystem, citing operational efficiencies and new distribution models as key benefits. Asset managers and ETF providers are now piloting tokenized products and infrastructure, with regulatory clarity and scalable use cases shaping the pace of adoption.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398836/doj-drops-probe-into-jerome-powell-paving-the-way-for-crypto-friendly-kevin-warsh-to-lead-fed?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/398876/jpmorgan-tokenization-will-change-entire-funds-industry-good-use-cases-years-away"
       }
     },
     {
-      "title": "AWS Marketplace Adds Chainlink Data Standards, Connecting Cloud Services to Blockchain Networks",
-      "body": "AWS integrated Chainlink data standards into its marketplace, allowing developers to link AWS cloud applications directly with blockchain networks for payment, settlement, and data verification. This integration enables fintechs and enterprises to automate reconciliation and settlement processes across cloud and blockchain environments. Competing cloud providers may need to accelerate similar offerings to retain clients in financial services and Web3.",
+      "title": "Tennessee Bans Crypto ATMs Statewide, Expanding Liability to Host Businesses",
+      "body": "Tennessee enacted a statewide ban on crypto ATMs and extended liability to businesses hosting the machines, joining Indiana in a broader fraud crackdown. Crypto ATM operators and convenience retailers must halt expansion in the state, reducing local access to physical crypto onramps and signaling a tightening regulatory stance on crypto cash-out infrastructure in the US.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398820/aws-marketplace-integrates-chainlink?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/398800/tennessee-bans-crypto-atms-statewide-joining-indiana-fraud-crackdown"
       }
     }
   ],
-  "perspective": "Today: Google\u2019s Anthropic investment and Morgan Stanley\u2019s stablecoin fund signal rapid convergence of AI and digital asset infrastructure by major tech and banking players.",
+  "perspective": "Today: Western Union shifts to stablecoins and M&A, while Tennessee's crypto ATM ban highlights intensifying regulatory scrutiny of crypto access.",
   "curiosity": {
-    "text": "Despite the rise of electronic check conversion, the U.S. still processes billions of paper checks annually\u2014making it one of the few developed countries where checks remain a significant payment method."
+    "text": "A 2022 study found that PSD2's open banking rules led to a 20% increase in fintech-driven payment initiations in some European markets within two years of implementation."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Fluent",
-      "description": "Launches Ethereum Layer 2 mainnet and BLEND token.",
-      "source_url": "https://www.theblock.co/post/398756/fluent-launches-ethereum-layer-2-mainnet-and-blend-token-with-50-million-day-one-liquidity?utm_source=rss&utm_medium=rss"
+      "type": "investment",
+      "company": "Google",
+      "description": "Google invests $40 billion in AI startup Anthropic.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/google-doubles-down-on-anthropic-with-new-40-billion-investment/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
       "company": "Morgan Stanley",
-      "description": "Launches stablecoin reserves fund aligned with GENIUS Act.",
-      "source_url": "https://www.theblock.co/post/398784/morgan-stanley-launches-stablecoin-reserves-fund-aligned-with-genius-act-requirements?utm_source=rss&utm_medium=rss"
+      "description": "Launches stablecoin reserves fund for GENIUS Act compliance.",
+      "source_url": "https://www.pymnts.com/blockchain/2026/morgan-stanley-supports-stablecoin-issuers-with-new-fund-for-reserves/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Cloneable",
-      "description": "Raises $4.6M to clone expert knowledge with AI.",
-      "source_url": "https://news.crunchbase.com/venture/cloneable-cloning-expert-worker-knowledge-ai-infrastructure/"
+      "type": "product",
+      "company": "AWS",
+      "description": "Integrates Chainlink data standards for blockchain services.",
+      "source_url": "https://www.theblock.co/post/398820/aws-marketplace-integrates-chainlink"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Fluent",
+      "description": "Launches Ethereum Layer 2 mainnet with $50M liquidity.",
+      "source_url": "https://www.theblock.co/post/398756/fluent-launches-ethereum-layer-2-mainnet-and-blend-token-with-50-million-day-one-liquidity"
     }
   ]
 }
