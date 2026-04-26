@@ -36,7 +36,19 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r ai/requirements.txt
-      
+
+      - name: Validate ai/config.yml schema
+        # Fails fast if config.yml is malformed YAML or violates the trend
+        # schema (missing required fields, weight rubric breach, signals too
+        # long, duplicate trend names). Cheaper than discovering it at the
+        # AI agent step after burning OpenAI tokens.
+        run: |
+          echo "================================================"
+          echo "🔍 VALIDATING ai/config.yml"
+          echo "================================================"
+          python -m unittest ai.tests.test_config_loads -v
+          echo "✅ Config schema valid"
+
       - name: Run AI Agent to generate newsletter
         id: generate_step
         env:

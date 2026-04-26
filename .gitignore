@@ -5,6 +5,7 @@ web/node_modules
 
 # Python virtual environment
 .venv
+.venv-local-test
 ai/.venv
 
 # Python cache
