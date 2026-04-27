@@ -1,78 +1,64 @@
 {
   "news": [
     {
-      "title": "Western Union Shifts Focus to Stablecoins and M&A After Flat Americas Revenue",
-      "body": "Western Union reported flat GAAP revenue and a 1% decline in adjusted revenue for Q1 2026 in the Americas, prompting a strategic shift toward stablecoins and acquisitions. The company aims to strengthen its digital payments and cross-border remittance offerings, putting pressure on remittance competitors to accelerate their own digital and crypto strategies as Western Union leverages stablecoin rails and inorganic growth.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/western-union-bets-on-stablecoins-and-ma-for-growth/"
-      }
-    },
-    {
-      "title": "HSBC Targets Corporate Market Share With Real-Time Payments and Digital Asset Focus",
-      "body": "An HSBC payments executive detailed how real-time payments adoption is accelerating, driven by digital asset integration and shifting corporate priorities. HSBC plans to expand instant settlement solutions for corporates seeking faster, more transparent payment flows, directly challenging traditional payment providers for high-value treasury and B2B relationships.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/hsbc-tom-halpin-what-drives-real-time-payment-growth/818458/"
-      }
-    },
-    {
-      "title": "Simply Business Launches AI-Driven Insurance Quoting With ChatGPT Integration",
-      "body": "Simply Business introduced an AI-powered insurance quoting tool using ChatGPT, reducing the process to just three data points. This innovation streamlines customer onboarding and sets a new standard for speed and simplicity, prompting traditional insurers and digital brokers to accelerate their own AI adoption to remain competitive in distribution and quoting workflows.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/insurance-quoting-enters-the-ai-conversation-layer/"
-      }
-    },
-    {
-      "title": "JPMorgan Sees Tokenization Reshaping Funds Industry, Eyes ETF Integration",
-      "body": "JPMorgan forecasts that tokenization will become integral to the funds industry and ETF ecosystem, citing operational efficiencies and new distribution models as key benefits. Asset managers and ETF providers are now piloting tokenized products and infrastructure, with regulatory clarity and scalable use cases shaping the pace of adoption.",
+      "title": "Western Union to Launch Stablecoin and 'Stable Card' for Global Remittances",
+      "body": "Western Union will debut its own stablecoin and a 'Stable Card' next month, directly entering the digital currency and remittance space. Western Union's move positions it to compete with both traditional remittance providers and crypto-native payment solutions, especially in emerging markets. Competitors like MoneyGram and digital wallets face new pressure as Western Union leverages its global network for stablecoin adoption. Regulators in key corridors such as the US, EU, and Latin America will likely monitor compliance and consumer protection as adoption ramps up.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398876/jpmorgan-tokenization-will-change-entire-funds-industry-good-use-cases-years-away"
+        "url": "https://www.theblock.co/post/398905/western-union-stablecoin-next-month"
       }
     },
     {
-      "title": "Tennessee Bans Crypto ATMs Statewide, Expanding Liability to Host Businesses",
-      "body": "Tennessee enacted a statewide ban on crypto ATMs and extended liability to businesses hosting the machines, joining Indiana in a broader fraud crackdown. Crypto ATM operators and convenience retailers must halt expansion in the state, reducing local access to physical crypto onramps and signaling a tightening regulatory stance on crypto cash-out infrastructure in the US.",
+      "title": "Revolut Eyes $200 Billion IPO Valuation Amid Global Fintech Expansion",
+      "body": "Revolut is reportedly targeting a $200 billion valuation for its upcoming IPO, reflecting its rapid growth and super-app ambitions. This sets a new benchmark for fintech valuations and puts direct pressure on rivals like N26, Monzo, and Nubank, which must now justify their own growth trajectories to investors. Investors and competitors will scrutinize Revolut\u2019s financials and path to profitability as it seeks to justify the lofty target. The outcome could recalibrate fintech fundraising and acquisition strategies worldwide.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-valuation-200-million-ipo/"
+      }
+    },
+    {
+      "title": "Musk\u2019s X Money App Nears Launch, Blending Payments and Banking in a Super-App",
+      "body": "Elon Musk\u2019s X Money app is approaching public launch, aiming to integrate payments, banking, and additional services into a single platform. This development threatens to erode market share for incumbent banks and standalone fintechs by leveraging X\u2019s massive user base. The move could accelerate super-app adoption in Western markets, forcing banks and fintechs to rethink bundling and engagement strategies. Regulatory scrutiny is likely as X Money expands its financial footprint.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/financial-apps/2026/musks-x-money-app-moves-closer-to-public-debut/"
+      }
+    },
+    {
+      "title": "Affirm Pilots AI-Driven 'Agentic Credit' to Automate Consumer Lending Decisions",
+      "body": "Affirm is rolling out 'agentic credit,' where AI systems autonomously initiate and underwrite consumer loans, bypassing traditional manual review. This approach could expand access to credit and streamline lending, but also invites scrutiny from the Consumer Financial Protection Bureau (CFPB) and European Banking Authority (EBA) over algorithmic fairness and transparency. Competing lenders may need to accelerate their own AI adoption or risk losing speed and efficiency advantages. Regulators will examine impacts on credit access, bias, and risk management practices.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/consumer-finance/2026/affirm-agentic-credit-rewrites-the-rules-of-consumer-lending/"
+      }
+    },
+    {
+      "title": "KBank and Ripple Test Onchain Cross-Border Remittances, Challenging Legacy Rails",
+      "body": "Thailand\u2019s KBank is partnering with Ripple to pilot onchain cross-border remittances, aiming to cut costs and settlement times for international transfers. This collaboration pressures legacy correspondent banking networks and traditional remittance providers to modernize. If successful, blockchain-based remittance could become a standard offering for regional banks seeking efficiency and transparency. Regulatory clarity on blockchain remittances will be critical for broader adoption.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/398800/tennessee-bans-crypto-atms-statewide-joining-indiana-fraud-crackdown"
+        "url": "https://www.theblock.co/post/398927/kbank-ripple-partnership"
       }
     }
   ],
-  "perspective": "Today: Western Union shifts to stablecoins and M&A, while Tennessee's crypto ATM ban highlights intensifying regulatory scrutiny of crypto access.",
+  "perspective": "Western Union and X Money\u2019s new launches signal a shift as legacy and tech giants accelerate the race for global payments dominance.",
   "curiosity": {
-    "text": "A 2022 study found that PSD2's open banking rules led to a 20% increase in fintech-driven payment initiations in some European markets within two years of implementation."
+    "text": "Few realize that Bitcoin\u2019s first real-world use in 2010\u2014buying two pizzas for 10,000 BTC\u2014helped spark the idea of cryptocurrency as a practical payment tool."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "investment",
-      "company": "Google",
-      "description": "Google invests $40 billion in AI startup Anthropic.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/google-doubles-down-on-anthropic-with-new-40-billion-investment/"
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "raises $95M fund to back fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Morgan Stanley",
-      "description": "Launches stablecoin reserves fund for GENIUS Act compliance.",
-      "source_url": "https://www.pymnts.com/blockchain/2026/morgan-stanley-supports-stablecoin-issuers-with-new-fund-for-reserves/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "AWS",
-      "description": "Integrates Chainlink data standards for blockchain services.",
-      "source_url": "https://www.theblock.co/post/398820/aws-marketplace-integrates-chainlink"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Fluent",
-      "description": "Launches Ethereum Layer 2 mainnet with $50M liquidity.",
-      "source_url": "https://www.theblock.co/post/398756/fluent-launches-ethereum-layer-2-mainnet-and-blend-token-with-50-million-day-one-liquidity"
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "fundraising",
+      "company": "Seapoint",
+      "description": "Stripe alumni raise \u20ac7.5M for AI-powered fintech Seapoint.",
+      "source_url": "https://sifted.eu/articles/stripe-alumni-fintech-fundraise/"
     }
   ]
 }
