@@ -1,64 +1,71 @@
 {
   "news": [
     {
-      "title": "Western Union to Launch Stablecoin and 'Stable Card' for Global Remittances",
-      "body": "Western Union will debut its own stablecoin and a 'Stable Card' next month, directly entering the digital currency and remittance space. Western Union's move positions it to compete with both traditional remittance providers and crypto-native payment solutions, especially in emerging markets. Competitors like MoneyGram and digital wallets face new pressure as Western Union leverages its global network for stablecoin adoption. Regulators in key corridors such as the US, EU, and Latin America will likely monitor compliance and consumer protection as adoption ramps up.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/398905/western-union-stablecoin-next-month"
-      }
-    },
-    {
-      "title": "Revolut Eyes $200 Billion IPO Valuation Amid Global Fintech Expansion",
-      "body": "Revolut is reportedly targeting a $200 billion valuation for its upcoming IPO, reflecting its rapid growth and super-app ambitions. This sets a new benchmark for fintech valuations and puts direct pressure on rivals like N26, Monzo, and Nubank, which must now justify their own growth trajectories to investors. Investors and competitors will scrutinize Revolut\u2019s financials and path to profitability as it seeks to justify the lofty target. The outcome could recalibrate fintech fundraising and acquisition strategies worldwide.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-valuation-200-million-ipo/"
-      }
-    },
-    {
-      "title": "Musk\u2019s X Money App Nears Launch, Blending Payments and Banking in a Super-App",
-      "body": "Elon Musk\u2019s X Money app is approaching public launch, aiming to integrate payments, banking, and additional services into a single platform. This development threatens to erode market share for incumbent banks and standalone fintechs by leveraging X\u2019s massive user base. The move could accelerate super-app adoption in Western markets, forcing banks and fintechs to rethink bundling and engagement strategies. Regulatory scrutiny is likely as X Money expands its financial footprint.",
+      "title": "Stablecoins Move Into Checkout, Challenging Card Networks and Payment Processors",
+      "body": "Crypto payment providers and merchants now integrate stablecoins directly into checkout flows, aiming to cut transaction friction and settlement delays. This shift enables merchants to access faster, potentially cheaper transactions, while card networks and payment processors face direct competition from blockchain-based rails. Merchants piloting stablecoin checkout must track regulatory changes and consumer adoption closely.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/financial-apps/2026/musks-x-money-app-moves-closer-to-public-debut/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/inside-the-race-to-bring-stablecoins-to-the-checkout-counter/"
       }
     },
     {
-      "title": "Affirm Pilots AI-Driven 'Agentic Credit' to Automate Consumer Lending Decisions",
-      "body": "Affirm is rolling out 'agentic credit,' where AI systems autonomously initiate and underwrite consumer loans, bypassing traditional manual review. This approach could expand access to credit and streamline lending, but also invites scrutiny from the Consumer Financial Protection Bureau (CFPB) and European Banking Authority (EBA) over algorithmic fairness and transparency. Competing lenders may need to accelerate their own AI adoption or risk losing speed and efficiency advantages. Regulators will examine impacts on credit access, bias, and risk management practices.",
+      "title": "LendingClub\u2019s Home Improvement Push Signals Broader Bank Rebranding and Lending Expansion",
+      "body": "LendingClub reported a 31% jump in Q1 loan originations and is expanding into home improvement financing as it prepares to rebrand as Happen Bank. By moving beyond personal loans, LendingClub targets a wider consumer banking market and intensifies competition for both home improvement lenders and unsecured loan providers, who may need to adjust pricing or product features to retain share.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/consumer-finance/2026/affirm-agentic-credit-rewrites-the-rules-of-consumer-lending/"
+        "url": "https://www.pymnts.com/news/digital-banking/2026/lendingclub-expands-into-home-improvement-after-q1-originations-jump-31/"
       }
     },
     {
-      "title": "KBank and Ripple Test Onchain Cross-Border Remittances, Challenging Legacy Rails",
-      "body": "Thailand\u2019s KBank is partnering with Ripple to pilot onchain cross-border remittances, aiming to cut costs and settlement times for international transfers. This collaboration pressures legacy correspondent banking networks and traditional remittance providers to modernize. If successful, blockchain-based remittance could become a standard offering for regional banks seeking efficiency and transparency. Regulatory clarity on blockchain remittances will be critical for broader adoption.",
+      "title": "Sezzle Targets Super App Status With Checking Account Ambitions",
+      "body": "Sezzle plans to launch checking accounts, aiming to transform from a BNPL provider into a financial super app that bundles payments, lending, and deposits. This expansion puts pressure on both BNPL rivals like Affirm and Klarna, as well as traditional banks, to defend their customer relationships and product offerings. Sezzle\u2019s growth depends on navigating regulatory hurdles around banking licenses and charters.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/398927/kbank-ripple-partnership"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/sezzle-checking-accounts-ilc-charter/818646/"
+      }
+    },
+    {
+      "title": "Customers Bank Partners With OpenAI to Automate Commercial Banking Services",
+      "body": "Customers Bank teams up with OpenAI to automate commercial banking workflows, aiming to boost efficiency and enhance client experience. This partnership gives Customers Bank a technological edge over regional banks, accelerating AI adoption in commercial lending and payments. Regional banks that delay AI integration risk higher costs and slower product cycles as automation becomes standard.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/customers-bank-openai-sidhu-commercial-lending-deposit-payment/818568/"
+      }
+    },
+    {
+      "title": "Chainalysis Deploys AI to Boost Crypto Crime Detection and Compliance",
+      "body": "Chainalysis deploys AI to strengthen its blockchain intelligence tools, helping crypto exchanges and financial institutions detect and prevent financial crime more quickly. Firms using Chainalysis gain faster investigations and more robust compliance, while regulators may soon expect real-time monitoring and reporting across the crypto sector.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/fraud-prevention/2026/chainalysis-puts-ai-on-the-crypto-crime-beat/"
       }
     }
   ],
-  "perspective": "Western Union and X Money\u2019s new launches signal a shift as legacy and tech giants accelerate the race for global payments dominance.",
+  "perspective": "Stablecoins at checkout and Sezzle\u2019s super app ambitions highlight how fintechs and banks like Customers Bank are redrawing competitive lines in payments and lending.",
   "curiosity": {
-    "text": "Few realize that Bitcoin\u2019s first real-world use in 2010\u2014buying two pizzas for 10,000 BTC\u2014helped spark the idea of cryptocurrency as a practical payment tool."
+    "text": "Despite the hype, only about 2% of global e-commerce transactions in 2023 used cryptocurrencies or stablecoins at checkout, according to Worldpay\u2019s Global Payments Report."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
+      "company": "Kashable",
+      "description": "Secured $60M Series C led by Goldman Sachs",
+      "source_url": "https://news.crunchbase.com/fintech/kashable-secures-60m-seriesc-goldman-sachs/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
       "company": "Collide Capital",
-      "description": "raises $95M fund to back fintech and future-of-work startups.",
+      "description": "Closed $95M fund for fintech and future-of-work startups",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "Seapoint",
-      "description": "Stripe alumni raise \u20ac7.5M for AI-powered fintech Seapoint.",
-      "source_url": "https://sifted.eu/articles/stripe-alumni-fintech-fundraise/"
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "type": "product",
+      "company": "Bitbank",
+      "description": "Launched crypto-linked credit card with Bitcoin cashback",
+      "source_url": "https://www.theblock.co/post/399102/japans-bitbank-crypto-credit-card?utm_source=rss&utm_medium=rss"
     }
   ]
 }
