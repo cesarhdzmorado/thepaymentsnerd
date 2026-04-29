@@ -1,71 +1,64 @@
 {
   "news": [
     {
-      "title": "Stablecoins Move Into Checkout, Challenging Card Networks and Payment Processors",
-      "body": "Crypto payment providers and merchants now integrate stablecoins directly into checkout flows, aiming to cut transaction friction and settlement delays. This shift enables merchants to access faster, potentially cheaper transactions, while card networks and payment processors face direct competition from blockchain-based rails. Merchants piloting stablecoin checkout must track regulatory changes and consumer adoption closely.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/inside-the-race-to-bring-stablecoins-to-the-checkout-counter/"
-      }
-    },
-    {
-      "title": "LendingClub\u2019s Home Improvement Push Signals Broader Bank Rebranding and Lending Expansion",
-      "body": "LendingClub reported a 31% jump in Q1 loan originations and is expanding into home improvement financing as it prepares to rebrand as Happen Bank. By moving beyond personal loans, LendingClub targets a wider consumer banking market and intensifies competition for both home improvement lenders and unsecured loan providers, who may need to adjust pricing or product features to retain share.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/digital-banking/2026/lendingclub-expands-into-home-improvement-after-q1-originations-jump-31/"
-      }
-    },
-    {
-      "title": "Sezzle Targets Super App Status With Checking Account Ambitions",
-      "body": "Sezzle plans to launch checking accounts, aiming to transform from a BNPL provider into a financial super app that bundles payments, lending, and deposits. This expansion puts pressure on both BNPL rivals like Affirm and Klarna, as well as traditional banks, to defend their customer relationships and product offerings. Sezzle\u2019s growth depends on navigating regulatory hurdles around banking licenses and charters.",
+      "title": "Mercury Secures Conditional OCC Charter, Raising Stakes for Fintechs Seeking Bank Status",
+      "body": "The OCC granted conditional approval to Mercury for a national bank charter, appointing Jon Auxier as CEO of Mercury Bank. This milestone enables Mercury to compete directly with both traditional banks and fintechs, setting a precedent for other fintechs pursuing full banking licenses. Challenger banks like Brex and Varo may accelerate their own charter applications to keep pace with Mercury\u2019s regulatory progress.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/sezzle-checking-accounts-ilc-charter/818646/"
+        "url": "https://www.bankingdive.com/news/mercury-nabs-conditional-occ-charter/818674/"
       }
     },
     {
-      "title": "Customers Bank Partners With OpenAI to Automate Commercial Banking Services",
-      "body": "Customers Bank teams up with OpenAI to automate commercial banking workflows, aiming to boost efficiency and enhance client experience. This partnership gives Customers Bank a technological edge over regional banks, accelerating AI adoption in commercial lending and payments. Regional banks that delay AI integration risk higher costs and slower product cycles as automation becomes standard.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/customers-bank-openai-sidhu-commercial-lending-deposit-payment/818568/"
-      }
-    },
-    {
-      "title": "Chainalysis Deploys AI to Boost Crypto Crime Detection and Compliance",
-      "body": "Chainalysis deploys AI to strengthen its blockchain intelligence tools, helping crypto exchanges and financial institutions detect and prevent financial crime more quickly. Firms using Chainalysis gain faster investigations and more robust compliance, while regulators may soon expect real-time monitoring and reporting across the crypto sector.",
+      "title": "US Real-Time Payments Surge as Processors and Banks Face New Competitive Dynamics",
+      "body": "US real-time payments adoption is surging, with banks and payment processors like The Clearing House and FIS investing heavily in instant settlement infrastructure. As instant payments become standard, legacy payment rails lose ground, and processors are launching overlay services such as fraud detection and liquidity management to capture new revenue streams.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/fraud-prevention/2026/chainalysis-puts-ai-on-the-crypto-crime-beat/"
+        "url": "https://www.pymnts.com/real-time-payments/2026/us-real-time-payments-hit-high-growth-phase-as-use-cases-multiply/"
+      }
+    },
+    {
+      "title": "Zopa Bets on AI-Powered Agentic Banking to Redefine Digital Experience",
+      "body": "Zopa is rolling out AI-driven features in its app as part of a broader agentic banking strategy, aiming to set a new benchmark for digital banking. UK neobanks like Monzo and Starling, as well as EU players such as N26, now face pressure to accelerate their own AI integrations or risk losing ground in customer experience. The move also draws attention from the UK Financial Conduct Authority and European Banking Authority regarding transparency and risk controls in AI deployments.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/zopa-agentic-banking-push/"
+      }
+    },
+    {
+      "title": "Hong Kong Flags Fake Tokens Masquerading as HSBC Stablecoin, Exposing Market Risks",
+      "body": "Hong Kong\u2019s Securities and Futures Commission warned about fraudulent tokens falsely claiming to be HSBC\u2019s stablecoin, clarifying that HSBC has not launched any such product. The incident underscores persistent risks in the stablecoin market and prompts the SFC and Hong Kong Monetary Authority to consider stricter verification requirements for platforms listing stablecoins.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/399308/hong-kong-warns-fake-stablecoins?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Czech Central Bank Governor Calls for Bitcoin in Sovereign Reserves, Nudging Peers Toward Digital Assets",
+      "body": "The Czech National Bank Governor publicly advocated for adding Bitcoin to the country\u2019s sovereign reserves, citing diversification benefits. Central banks in Poland and Hungary, which have explored digital asset pilots, may revisit their reserve strategies as regulatory frameworks for crypto mature. This signals a gradual normalization of digital assets in official reserves, with implications for global reserve management.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/399330/this-is-the-future-czech-central-bank-governor-makes-case-for-bitcoin-in-sovereign-reserves?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "Stablecoins at checkout and Sezzle\u2019s super app ambitions highlight how fintechs and banks like Customers Bank are redrawing competitive lines in payments and lending.",
+  "perspective": "Mercury\u2019s OCC charter and Zopa\u2019s AI rollout show how regulatory approvals and technology shifts are reshaping banking and payments in 2024.",
   "curiosity": {
-    "text": "Despite the hype, only about 2% of global e-commerce transactions in 2023 used cryptocurrencies or stablecoins at checkout, according to Worldpay\u2019s Global Payments Report."
+    "text": "M-Pesa\u2019s 2008 launch in Kenya led to over 96% of Kenyan households using mobile money within a decade, making Kenya a global leader in cashless payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Kashable",
-      "description": "Secured $60M Series C led by Goldman Sachs",
+      "description": "Secures $60M Series C led by Goldman Sachs",
       "source_url": "https://news.crunchbase.com/fintech/kashable-secures-60m-seriesc-goldman-sachs/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Collide Capital",
-      "description": "Closed $95M fund for fintech and future-of-work startups",
+      "description": "Raises $95M fund for fintech and future-of-work startups",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
-      "type": "product",
-      "company": "Bitbank",
-      "description": "Launched crypto-linked credit card with Bitcoin cashback",
-      "source_url": "https://www.theblock.co/post/399102/japans-bitbank-crypto-credit-card?utm_source=rss&utm_medium=rss"
     }
   ]
 }
