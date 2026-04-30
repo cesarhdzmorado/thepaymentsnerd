@@ -1,64 +1,85 @@
 {
   "news": [
     {
-      "title": "Mercury Secures Conditional OCC Charter, Raising Stakes for Fintechs Seeking Bank Status",
-      "body": "The OCC granted conditional approval to Mercury for a national bank charter, appointing Jon Auxier as CEO of Mercury Bank. This milestone enables Mercury to compete directly with both traditional banks and fintechs, setting a precedent for other fintechs pursuing full banking licenses. Challenger banks like Brex and Varo may accelerate their own charter applications to keep pace with Mercury\u2019s regulatory progress.",
+      "title": "Adyen Acquires Talon.One for $876M to Unify Loyalty and Payments at Checkout",
+      "body": "Adyen will acquire Talon.One for $876 million, aiming to merge real-time loyalty, promotions, and pricing with its payment platform across online and in-store channels. Retailers can now personalize offers and pricing at the point of sale, which may boost customer retention and spend. Competing payment processors must respond as Adyen raises the bar for integrated loyalty and checkout experiences. Merchants are likely to accelerate adoption of unified commerce solutions as Adyen expands its toolkit.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/mercury-nabs-conditional-occ-charter/818674/"
+        "url": "https://www.bankingdive.com/news/adyen-acquire-talon-one-customer-identity-in-store-online-price-promotion-payments/818853/"
       }
     },
     {
-      "title": "US Real-Time Payments Surge as Processors and Banks Face New Competitive Dynamics",
-      "body": "US real-time payments adoption is surging, with banks and payment processors like The Clearing House and FIS investing heavily in instant settlement infrastructure. As instant payments become standard, legacy payment rails lose ground, and processors are launching overlay services such as fraud detection and liquidity management to capture new revenue streams.",
+      "title": "Mastercard and Wells Fargo Launch Initiative to Streamline B2B Card Payments",
+      "body": "Mastercard and Wells Fargo are collaborating to reduce friction in B2B card payments, targeting longstanding inefficiencies in business transactions. The partnership aims to modernize B2B payment flows, offering faster settlement and improved reconciliation for corporate clients. Competing banks and payment processors risk losing share if they lag on digitizing B2B workflows. For corporate treasurers, this could mean fewer manual processes and quicker access to funds.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/real-time-payments/2026/us-real-time-payments-hit-high-growth-phase-as-use-cases-multiply/"
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/mastercard-and-wells-fargo-target-the-friction-slowing-b2b-cards/"
       }
     },
     {
-      "title": "Zopa Bets on AI-Powered Agentic Banking to Redefine Digital Experience",
-      "body": "Zopa is rolling out AI-driven features in its app as part of a broader agentic banking strategy, aiming to set a new benchmark for digital banking. UK neobanks like Monzo and Starling, as well as EU players such as N26, now face pressure to accelerate their own AI integrations or risk losing ground in customer experience. The move also draws attention from the UK Financial Conduct Authority and European Banking Authority regarding transparency and risk controls in AI deployments.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/zopa-agentic-banking-push/"
-      }
-    },
-    {
-      "title": "Hong Kong Flags Fake Tokens Masquerading as HSBC Stablecoin, Exposing Market Risks",
-      "body": "Hong Kong\u2019s Securities and Futures Commission warned about fraudulent tokens falsely claiming to be HSBC\u2019s stablecoin, clarifying that HSBC has not launched any such product. The incident underscores persistent risks in the stablecoin market and prompts the SFC and Hong Kong Monetary Authority to consider stricter verification requirements for platforms listing stablecoins.",
+      "title": "Shinhan Card Pilots Stablecoin Payments on Solana in Real-World Scenarios",
+      "body": "South Korea\u2019s Shinhan Card has partnered with the Solana Foundation to test stablecoin payments in live merchant environments. This pilot positions Shinhan Card as an early mover among traditional issuers experimenting with blockchain-based settlement. If the pilot succeeds, banks and merchants in Asia could see faster, lower-cost cross-border and retail payments, prompting other regional issuers to explore similar blockchain solutions as regulatory clarity improves.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/399308/hong-kong-warns-fake-stablecoins?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/399519/shinhan-card-stablecoin-solana?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Czech Central Bank Governor Calls for Bitcoin in Sovereign Reserves, Nudging Peers Toward Digital Assets",
-      "body": "The Czech National Bank Governor publicly advocated for adding Bitcoin to the country\u2019s sovereign reserves, citing diversification benefits. Central banks in Poland and Hungary, which have explored digital asset pilots, may revisit their reserve strategies as regulatory frameworks for crypto mature. This signals a gradual normalization of digital assets in official reserves, with implications for global reserve management.",
+      "title": "Meta Rolls Out USDC Creator Payouts on Solana and Polygon Blockchains",
+      "body": "Meta has begun offering USDC payouts to creators via crypto wallets on Solana and Polygon, deepening its integration of stablecoins into digital commerce. This expands payout options for creators and may drive broader adoption of USDC in the creator economy. Payment processors and banks serving digital platforms will need to adapt as stablecoin rails become a standard for global, instant payouts. The move positions stablecoins as a mainstream tool for platform-based earnings.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/399330/this-is-the-future-czech-central-bank-governor-makes-case-for-bitcoin-in-sovereign-reserves?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/399462/meta-begins-offering-usdc-creator-payouts-to-crypto-wallets-on-solana-and-polygon-blockchains?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Ark Invest Buys $39M in Robinhood Shares, Sells $6M of Its Spot Bitcoin ETF",
+      "body": "Ark Invest purchased $39 million in Robinhood shares following the fintech\u2019s weak Q1 earnings, while selling $6 million of its own spot bitcoin ETF, according to The Block. The investment signals Ark\u2019s continued confidence in Robinhood\u2019s long-term prospects despite recent underperformance. Other institutional investors may reassess their positions in Robinhood and crypto ETFs as capital shifts between fintech equities and digital asset funds.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/399536/ark-invest-buys-robinhood-sells-own-spot-bitcoin-etf?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "Mercury\u2019s OCC charter and Zopa\u2019s AI rollout show how regulatory approvals and technology shifts are reshaping banking and payments in 2024.",
+  "perspective": "Adyen\u2019s Talon.One acquisition and Ark Invest\u2019s Robinhood trade highlight how loyalty integration and fintech bets are reshaping payments and investment strategies.",
   "curiosity": {
-    "text": "M-Pesa\u2019s 2008 launch in Kenya led to over 96% of Kenyan households using mobile money within a decade, making Kenya a global leader in cashless payments."
+    "text": "Did you know that in 2010, Kenya\u2019s M-Pesa processed more transactions domestically than Western Union did globally, illustrating the transformative power of mobile money in emerging markets?"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Kashable",
-      "description": "Secures $60M Series C led by Goldman Sachs",
-      "source_url": "https://news.crunchbase.com/fintech/kashable-secures-60m-seriesc-goldman-sachs/"
+      "type": "M&A",
+      "company": "OppFi",
+      "description": "Acquires Arizona bank for $130M to expand banking services.",
+      "source_url": "https://www.bankingdive.com/news/oppfi-bnc-national-bank-acquisition-130-million-arizona-fintech-lending-charter/818838/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "Regulatory",
+      "company": "Mercury",
+      "description": "Receives conditional OCC charter to expand banking services.",
+      "source_url": "https://www.bankingdive.com/news/mercury-nabs-conditional-occ-charter/818674/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "IPO",
+      "company": "Revolut",
+      "description": "Targets $200bn valuation for upcoming IPO.",
+      "source_url": "https://sifted.eu/articles/revolut-valuation-200-million-ipo/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Collide Capital",
-      "description": "Raises $95M fund for fintech and future-of-work startups",
+      "description": "Raises $95M fund to back fintech and future-of-work startups.",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Dreambase",
+      "description": "Raises $3.7M to develop AI-powered analytics platform.",
+      "source_url": "https://news.crunchbase.com/venture/supabase-startup-investment-dreambase-ai-felicis/"
     }
   ]
 }
