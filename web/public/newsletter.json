@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Adyen Acquires Talon.One for $876M to Unify Loyalty and Payments at Checkout",
-      "body": "Adyen will acquire Talon.One for $876 million, aiming to merge real-time loyalty, promotions, and pricing with its payment platform across online and in-store channels. Retailers can now personalize offers and pricing at the point of sale, which may boost customer retention and spend. Competing payment processors must respond as Adyen raises the bar for integrated loyalty and checkout experiences. Merchants are likely to accelerate adoption of unified commerce solutions as Adyen expands its toolkit.",
+      "title": "Revolut Eyes $200 Billion IPO Valuation as Super-App Expansion Accelerates",
+      "body": "Sifted reports that Revolut is targeting a $200 billion valuation for its upcoming IPO, leveraging its expanded product suite and global reach. If successful, this would set a new benchmark for fintech IPOs, prompting digital banks like Nubank and Klarna to justify their own valuations. Analysts expect this move to spur large-scale fundraising rounds and acquisition activity among global fintechs and challenger banks seeking to match Revolut\u2019s scale.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/adyen-acquire-talon-one-customer-identity-in-store-online-price-promotion-payments/818853/"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-valuation-200-million-ipo/"
       }
     },
     {
-      "title": "Mastercard and Wells Fargo Launch Initiative to Streamline B2B Card Payments",
-      "body": "Mastercard and Wells Fargo are collaborating to reduce friction in B2B card payments, targeting longstanding inefficiencies in business transactions. The partnership aims to modernize B2B payment flows, offering faster settlement and improved reconciliation for corporate clients. Competing banks and payment processors risk losing share if they lag on digitizing B2B workflows. For corporate treasurers, this could mean fewer manual processes and quicker access to funds.",
+      "title": "CFPB Relaxes Data Rules, Lowering Compliance Costs for Small Business Lenders",
+      "body": "The Consumer Financial Protection Bureau has eased data collection and reporting requirements for small business lenders, reducing compliance burdens. Fintech lenders and smaller banks stand to benefit from lower operational costs, potentially expanding credit access for small businesses. Traditional banks may see increased competition as fintechs ramp up lending activity under the lighter regime.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/mastercard-and-wells-fargo-target-the-friction-slowing-b2b-cards/"
+        "url": "https://www.pymnts.com/news/cfpb/2026/cfpb-eases-reporting-rules-for-small-business-lenders/"
       }
     },
     {
-      "title": "Shinhan Card Pilots Stablecoin Payments on Solana in Real-World Scenarios",
-      "body": "South Korea\u2019s Shinhan Card has partnered with the Solana Foundation to test stablecoin payments in live merchant environments. This pilot positions Shinhan Card as an early mover among traditional issuers experimenting with blockchain-based settlement. If the pilot succeeds, banks and merchants in Asia could see faster, lower-cost cross-border and retail payments, prompting other regional issuers to explore similar blockchain solutions as regulatory clarity improves.",
+      "title": "OppFi Acquires BNC National Bank to Secure US Bank Charter for Lending Expansion",
+      "body": "OppFi will acquire BNC National Bank for $130 million, gaining access to a national bank charter and expanding its banking services. This acquisition positions OppFi to compete more directly with both fintechs and traditional banks in subprime lending. The deal may prompt other fintech lenders to pursue bank acquisitions as a route to regulatory certainty and broader product offerings.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/399519/shinhan-card-stablecoin-solana?utm_source=rss&utm_medium=rss"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/oppfi-bnc-national-bank-acquisition-130-million-arizona-fintech-lending-charter/818838/"
       }
     },
     {
-      "title": "Meta Rolls Out USDC Creator Payouts on Solana and Polygon Blockchains",
-      "body": "Meta has begun offering USDC payouts to creators via crypto wallets on Solana and Polygon, deepening its integration of stablecoins into digital commerce. This expands payout options for creators and may drive broader adoption of USDC in the creator economy. Payment processors and banks serving digital platforms will need to adapt as stablecoin rails become a standard for global, instant payouts. The move positions stablecoins as a mainstream tool for platform-based earnings.",
+      "title": "Chargebacks911 Launches Tools to Cut False Declines in Agentic Commerce",
+      "body": "Chargebacks911 has introduced new tools aimed at reducing false declines in agentic commerce, helping merchants recover revenue lost to overly aggressive fraud filters. Merchants adopting these solutions can expect higher approval rates and improved customer experience as AI-driven commerce scales. As agentic transactions grow, reliable fraud prevention becomes a competitive differentiator for payment processors and merchants alike.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/399462/meta-begins-offering-usdc-creator-payouts-to-crypto-wallets-on-solana-and-polygon-blockchains?utm_source=rss&utm_medium=rss"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/chargebacks911-prevents-false-declines-as-agentic-commerce-scales/"
       }
     },
     {
-      "title": "Ark Invest Buys $39M in Robinhood Shares, Sells $6M of Its Spot Bitcoin ETF",
-      "body": "Ark Invest purchased $39 million in Robinhood shares following the fintech\u2019s weak Q1 earnings, while selling $6 million of its own spot bitcoin ETF, according to The Block. The investment signals Ark\u2019s continued confidence in Robinhood\u2019s long-term prospects despite recent underperformance. Other institutional investors may reassess their positions in Robinhood and crypto ETFs as capital shifts between fintech equities and digital asset funds.",
+      "title": "Trulioo Reports 10x Performance Gains From Real-Time Data Analytics",
+      "body": "Trulioo claims a tenfold improvement in performance after deploying real-time data analytics for identity and fraud decisions. Competitors in KYC and fraud prevention may need to accelerate their own data infrastructure upgrades to avoid falling behind in onboarding speed and risk controls. This shift means that real-time analytics is now a baseline expectation for banks and fintechs seeking to compete in digital onboarding and fraud management.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/399536/ark-invest-buys-robinhood-sells-own-spot-bitcoin-etf?utm_source=rss&utm_medium=rss"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/fraud-prevention/2026/trulioo-sees-10x-gains-from-smarter-data-use/"
       }
     }
   ],
-  "perspective": "Adyen\u2019s Talon.One acquisition and Ark Invest\u2019s Robinhood trade highlight how loyalty integration and fintech bets are reshaping payments and investment strategies.",
+  "perspective": "Revolut\u2019s $200B IPO target and OppFi\u2019s bank acquisition signal a new phase of fintech scale-ups and regulatory maneuvers.",
   "curiosity": {
-    "text": "Did you know that in 2010, Kenya\u2019s M-Pesa processed more transactions domestically than Western Union did globally, illustrating the transformative power of mobile money in emerging markets?"
+    "text": "In 2013, the Federal Reserve found that checks still made up over 50% of U.S. non-cash payments\u2014a surprising lag for digital adoption at the time."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "OppFi",
-      "description": "Acquires Arizona bank for $130M to expand banking services.",
-      "source_url": "https://www.bankingdive.com/news/oppfi-bnc-national-bank-acquisition-130-million-arizona-fintech-lending-charter/818838/"
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Legora",
+      "description": "Raised $50M in Nvidia-led Series D extension.",
+      "source_url": "https://news.crunchbase.com/venture/ai-powered-legal-tech-startup-legora-seriesd-extension-nvidia/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Regulatory",
-      "company": "Mercury",
-      "description": "Receives conditional OCC charter to expand banking services.",
-      "source_url": "https://www.bankingdive.com/news/mercury-nabs-conditional-occ-charter/818674/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "IPO",
-      "company": "Revolut",
-      "description": "Targets $200bn valuation for upcoming IPO.",
-      "source_url": "https://sifted.eu/articles/revolut-valuation-200-million-ipo/"
+      "type": "fundraising",
+      "company": "Exponent",
+      "description": "Solana yield exchange raises $5M seed led by Multicoin Capital.",
+      "source_url": "https://www.theblock.co/post/399630/solana-yield-exchange-exponent-funding-multicoin-capital"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Collide Capital",
-      "description": "Raises $95M fund to back fintech and future-of-work startups.",
+      "description": "Raises $95M fund for fintech and future-of-work startups.",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Dreambase",
-      "description": "Raises $3.7M to develop AI-powered analytics platform.",
-      "source_url": "https://news.crunchbase.com/venture/supabase-startup-investment-dreambase-ai-felicis/"
+      "type": "partnership",
+      "company": "Polymarket",
+      "description": "Partners with MLB in prediction market deal.",
+      "source_url": "https://techcrunch.com/2026/03/19/polymarket-continues-its-partnership-spree-with-a-major-league-baseball-deal/"
     }
   ]
 }
