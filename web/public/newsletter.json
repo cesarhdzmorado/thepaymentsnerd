@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Revolut Eyes $200 Billion IPO Valuation as Super-App Expansion Accelerates",
-      "body": "Sifted reports that Revolut is targeting a $200 billion valuation for its upcoming IPO, leveraging its expanded product suite and global reach. If successful, this would set a new benchmark for fintech IPOs, prompting digital banks like Nubank and Klarna to justify their own valuations. Analysts expect this move to spur large-scale fundraising rounds and acquisition activity among global fintechs and challenger banks seeking to match Revolut\u2019s scale.",
+      "title": "JPMorgan: Stablecoin Transaction Growth Outpaces Market Cap Expansion",
+      "body": "JPMorgan analysts report that stablecoin transaction volumes are rising rapidly, but this growth is not matched by proportional increases in stablecoin market capitalization due to higher transaction velocity. Issuers, banks, and regulators are now reassessing stablecoin risk and utility as velocity decouples usage from asset size. Financial institutions are rethinking liquidity and compliance models as stablecoins become more deeply embedded in payment flows.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-valuation-200-million-ipo/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/399767/jpmorgan-rising-stablecoin-use-may-not-lead-similar-market-cap-growth?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "CFPB Relaxes Data Rules, Lowering Compliance Costs for Small Business Lenders",
-      "body": "The Consumer Financial Protection Bureau has eased data collection and reporting requirements for small business lenders, reducing compliance burdens. Fintech lenders and smaller banks stand to benefit from lower operational costs, potentially expanding credit access for small businesses. Traditional banks may see increased competition as fintechs ramp up lending activity under the lighter regime.",
+      "title": "Fun Raises $72M to Scale Crypto Payment Infrastructure Globally",
+      "body": "Crypto payments infrastructure provider Fun secured $72 million in Series A funding to expand its platform and compete with established players like MoonPay and Stripe. With this capital, Fun plans to accelerate product development and pursue new partnerships, directly challenging incumbents in cross-border settlements and enterprise integrations.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cfpb/2026/cfpb-eases-reporting-rules-for-small-business-lenders/"
+        "url": "https://www.pymnts.com/news/investment-tracker/2026/fun-secures-72-million-to-power-global-capital-markets/"
       }
     },
     {
-      "title": "OppFi Acquires BNC National Bank to Secure US Bank Charter for Lending Expansion",
-      "body": "OppFi will acquire BNC National Bank for $130 million, gaining access to a national bank charter and expanding its banking services. This acquisition positions OppFi to compete more directly with both fintechs and traditional banks in subprime lending. The deal may prompt other fintech lenders to pursue bank acquisitions as a route to regulatory certainty and broader product offerings.",
+      "title": "MoonPay Launches Stablecoin Debit Card for AI-Driven Payments",
+      "body": "MoonPay introduced the MoonAgents Card, a stablecoin debit card that lets AI agents and users spend directly from onchain wallets via Mastercard. By enabling automated spending and programmable finance, MoonPay is prompting digital payment competitors and AI developers to adapt as stablecoin rails become more accessible for both human and machine users.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/399716/moonpay-stablecoin-debit-card-ai-agents-mastercard?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Citi Deploys AI Adviser in Wealth, Eyes Expansion to Card Business",
+      "body": "Citi has rolled out an AI-powered adviser in its wealth management division and plans to extend the technology to its credit card operations. By integrating AI across more product lines, Citi aims to surpass rivals like JPMorgan and Bank of America in delivering personalized, automated financial guidance to customers.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/oppfi-bnc-national-bank-acquisition-130-million-arizona-fintech-lending-charter/818838/"
+        "url": "https://www.bankingdive.com/news/citi-sky-ai-wealth-adviser-google-banking/819087/"
       }
     },
     {
-      "title": "Chargebacks911 Launches Tools to Cut False Declines in Agentic Commerce",
-      "body": "Chargebacks911 has introduced new tools aimed at reducing false declines in agentic commerce, helping merchants recover revenue lost to overly aggressive fraud filters. Merchants adopting these solutions can expect higher approval rates and improved customer experience as AI-driven commerce scales. As agentic transactions grow, reliable fraud prevention becomes a competitive differentiator for payment processors and merchants alike.",
+      "title": "SoftBank-Backed OPay Targets $4B Valuation in Planned US IPO",
+      "body": "OPay, the Nigerian payments platform backed by SoftBank and Sequoia, is preparing for a US IPO with a $4 billion valuation target. The listing would give OPay fresh capital to expand its services and intensify competition with fintechs such as Flutterwave and Interswitch in Africa and other emerging markets.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/chargebacks911-prevents-false-declines-as-agentic-commerce-scales/"
-      }
-    },
-    {
-      "title": "Trulioo Reports 10x Performance Gains From Real-Time Data Analytics",
-      "body": "Trulioo claims a tenfold improvement in performance after deploying real-time data analytics for identity and fraud decisions. Competitors in KYC and fraud prevention may need to accelerate their own data infrastructure upgrades to avoid falling behind in onboarding speed and risk controls. This shift means that real-time analytics is now a baseline expectation for banks and fintechs seeking to compete in digital onboarding and fraud management.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/fraud-prevention/2026/trulioo-sees-10x-gains-from-smarter-data-use/"
+        "url": "https://www.pymnts.com/news/ipo/2026/softbank-backed-opay-eyes-4-billion-valuation-in-us-ipo/"
       }
     }
   ],
-  "perspective": "Revolut\u2019s $200B IPO target and OppFi\u2019s bank acquisition signal a new phase of fintech scale-ups and regulatory maneuvers.",
+  "perspective": "MoonPay and Citi drive the convergence of stablecoin rails and AI-powered payments, reshaping digital finance models and competitive dynamics.",
   "curiosity": {
-    "text": "In 2013, the Federal Reserve found that checks still made up over 50% of U.S. non-cash payments\u2014a surprising lag for digital adoption at the time."
+    "text": "Regulation E, introduced in 1984, established the first U.S. consumer protections for electronic payments, including disclosure rules and liability limits for unauthorized transactions."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "flag": "\ud83c\uddee\ud83c\uddea",
       "type": "fundraising",
-      "company": "Legora",
-      "description": "Raised $50M in Nvidia-led Series D extension.",
-      "source_url": "https://news.crunchbase.com/venture/ai-powered-legal-tech-startup-legora-seriesd-extension-nvidia/"
+      "company": "Seapoint",
+      "description": "Raised \u20ac7.5M for AI-powered fintech solutions.",
+      "source_url": "https://sifted.eu/articles/stripe-alumni-fintech-fundraise/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Exponent",
-      "description": "Solana yield exchange raises $5M seed led by Multicoin Capital.",
-      "source_url": "https://www.theblock.co/post/399630/solana-yield-exchange-exponent-funding-multicoin-capital"
+      "type": "M&A",
+      "company": "Banner Bank",
+      "description": "Acquiring Pacific Financial for $177M.",
+      "source_url": "https://www.bankingdive.com/news/banner-bank-washington-buy-pacific-financial-177-million/819096/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raises $95M fund for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "Polymarket",
-      "description": "Partners with MLB in prediction market deal.",
-      "source_url": "https://techcrunch.com/2026/03/19/polymarket-continues-its-partnership-spree-with-a-major-league-baseball-deal/"
+      "flag": "\ud83c\udde8\ud83c\udded",
+      "type": "strategic sale",
+      "company": "Ethereum Foundation",
+      "description": "Sold $47M in ETH to Bitmine for ecosystem support.",
+      "source_url": "https://www.theblock.co/post/399751/ethereum-foundation-eth-sales-tom-lees-bitmine-47-million-after-latest-deal?utm_source=rss&utm_medium=rss"
     }
   ]
 }
