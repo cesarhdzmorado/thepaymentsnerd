@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Stablecoins Enter Regulatory Spotlight as Growth Spurs New Compliance Demands",
-      "body": "Regulators in major markets are drafting new rules for stablecoins as adoption accelerates, requiring providers like Circle and PayPal to invest in compliance and transparency. Compliant issuers can gain institutional trust and access to mainstream payment rails, while smaller or non-compliant players risk exclusion from cross-border and B2B corridors. Stablecoin providers must act quickly to meet evolving standards or lose relevance in regulated payments.",
+      "title": "GameStop Makes $56B Unsolicited Bid to Acquire eBay",
+      "body": "GameStop has submitted a $56 billion unsolicited offer to acquire eBay at $125 per share, seeking to shift from video game retail into broader e-commerce. If completed, the deal would position GameStop as a direct competitor to Amazon and force eBay to reconsider its marketplace strategy. eBay\u2019s existing merchant partners and payment service providers face potential disruption to their integrations and commercial relationships as GameStop\u2019s priorities could reshape platform operations.",
+      "source": {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/31bfd02e-a02e-45fd-ad46-51544b1a3a8a"
+      }
+    },
+    {
+      "title": "Kraken Parent Payward Acquires Bitnomial, Unlocking U.S. Crypto Derivatives",
+      "body": "Payward, the parent company of Kraken, has acquired Bitnomial, granting Kraken access to offer crypto derivatives in the U.S. for the first time. This move intensifies competition with Coinbase and Gemini as demand for regulated crypto derivatives rises. U.S. crypto exchanges must now rapidly expand product offerings and strengthen compliance programs to meet evolving CFTC requirements.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/399851/kraken-parent-payward-completes-bitnomial-acquisition"
+      }
+    },
+    {
+      "title": "Citi Launches Arc Platform to Deploy AI Agents in Banking Operations",
+      "body": "Citi has launched Arc, a platform designed to integrate AI agents into banking workflows for greater operational efficiency and improved customer service. This initiative sets a new standard for AI adoption among global banks and is likely to prompt similar moves from peers such as JPMorgan and BofA. The rollout brings regulatory and data governance questions to the forefront as banks accelerate AI-driven transformation.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/stablecoins-grew-up-now-come-the-rules/"
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/citi-debuts-platform-to-bring-ai-agents-to-banking-work/"
       }
     },
     {
-      "title": "Banner Bank\u2019s $177M Pacific Financial Deal Signals Regional Bank Consolidation",
-      "body": "Banner Bank will acquire Pacific Financial for $177 million, creating a combined entity with $18 billion in assets and expanding Banner\u2019s reach in the Pacific Northwest. The deal pressures other regional banks to pursue mergers to achieve scale and manage rising compliance and digital investment costs. Customers of both banks will see expanded product offerings, while smaller banks must weigh partnership or risk losing competitiveness.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/banner-bank-washington-buy-pacific-financial-177-million/819096/"
-      }
-    },
-    {
-      "title": "Coinbase Secures Senate Deal on Clarity Act, Paving Way for Stablecoin Yield Rules",
-      "body": "Coinbase and the Senate Banking Committee have agreed on the Clarity Act, which sets a legal framework for stablecoin yield products and ends regulatory uncertainty. Platforms offering stablecoin yields must now comply with new standards, enabling compliant issuers to launch products targeting institutional investors. Other crypto platforms will need to update their offerings to align with the new regulatory requirements.",
+      "title": "North Korea Denies Crypto Theft Allegations, Exchanges Respond to Security Scrutiny",
+      "body": "North Korea has publicly denied U.S. allegations of state-sponsored crypto theft, calling the accusations 'absurd slander.' The dispute has led crypto exchanges to increase transaction monitoring, enhance compliance checks, and review security protocols, especially for cross-border flows and high-risk jurisdictions. Regulatory attention is also intensifying on crypto mixers and privacy coins amid ongoing geopolitical tensions.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/399780/coinbase-says-deal-reached-on-clarity-act-stablecoin-yield-clearing-path-to-long-stalled-senate-markup"
+        "url": "https://www.theblock.co/post/399854/north-korea-blames-crypto-theft-reports"
       }
     },
     {
-      "title": "Brazil Bans Crypto in Regulated Cross-Border Payments, Limiting Fintech Innovation",
-      "body": "Brazil\u2019s central bank has banned cryptocurrencies from use in regulated cross-border payments, excluding crypto-based payment providers from the formal market. Merchants and fintechs must now rely on traditional rails or non-crypto alternatives for cross-border transactions, reducing flexibility and slowing crypto adoption in the region. Fintechs are expected to lobby for regulatory changes or shift focus to other payment corridors.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/399713/brazil-central-bank-prohibits-crypto-use-in-regulated-cross-border-payments-under-new-fx-rules"
-      }
-    },
-    {
-      "title": "Zopa Bets on Agentic Banking, Embedding Services Beyond the App",
-      "body": "Zopa is rolling out agentic banking by integrating its services into everyday digital platforms, aiming to make standalone banking apps obsolete. This strategy challenges traditional banks and fintechs to embed financial services directly into customer workflows, raising the bar for digital engagement. Competing banks and fintechs must accelerate embedded finance partnerships or risk losing relevance as customer expectations shift.",
+      "title": "Stripe Alumni Raise \u20ac7.5M for Seapoint, an AI-Driven Fintech Startup",
+      "body": "Former Stripe employees have secured \u20ac7.5 million to launch Seapoint, an AI-powered fintech startup focused on next-generation financial services. Seapoint\u2019s entry heightens competition in the AI fintech sector, prompting both established players and new entrants to accelerate AI integration in payments and banking. Fintechs with legacy systems risk losing customers as AI-native challengers scale rapidly.",
       "source": {
         "name": "Sifted",
-        "url": "https://sifted.eu/articles/zopa-agentic-banking-push/"
+        "url": "https://sifted.eu/articles/stripe-alumni-fintech-fundraise/"
       }
     }
   ],
-  "perspective": "Coinbase and Banner Bank headline a week of regulatory shifts and consolidation shaping the future of stablecoins and regional banking.",
+  "perspective": "GameStop\u2019s eBay bid and Kraken\u2019s Bitnomial acquisition signal major shifts in e-commerce and crypto markets, while banks and fintechs accelerate AI adoption.",
   "curiosity": {
-    "text": "Despite its low profile, the ACH network quietly processes over $70 trillion annually\u2014more than double the combined volume of all U.S. credit and debit card transactions."
+    "text": "The Electronic Payments Association, now known as Nacha, not only developed the ACH network but also set the standards that enabled payroll direct deposit to become mainstream in the U.S."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Fun",
-      "description": "raises $72M Series A for payments infrastructure expansion",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/fun-secures-72-million-to-power-global-capital-markets/"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddec",
-      "type": "IPO",
-      "company": "OPay",
-      "description": "Preparing for US IPO with $4B valuation target",
-      "source_url": "https://www.pymnts.com/news/ipo/2026/softbank-backed-opay-eyes-4-billion-valuation-in-us-ipo/"
-    },
-    {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "Seapoint",
-      "description": "Raised \u20ac7.5M for AI-powered fintech solutions",
-      "source_url": "https://sifted.eu/articles/stripe-alumni-fintech-fundraise/"
+      "company": "Collide Capital",
+      "description": "Raises $95M fund for fintech and future-of-work startups",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "MoonPay",
-      "description": "Launched stablecoin debit card for AI agents",
-      "source_url": "https://www.theblock.co/post/399716/moonpay-stablecoin-debit-card-ai-agents-mastercard"
+      "type": "fundraising",
+      "company": "Kashable",
+      "description": "Secures $60M Series C led by Goldman Sachs",
+      "source_url": "https://news.crunchbase.com/fintech/kashable-secures-60m-seriesc-goldman-sachs/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "True Anomaly",
+      "description": "Raises $600M for space security startup",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Legora",
+      "description": "Lands $50M in Nvidia-led Series D extension",
+      "source_url": "https://news.crunchbase.com/venture/ai-powered-legal-tech-startup-legora-seriesd-extension-nvidia/"
     }
   ]
 }
