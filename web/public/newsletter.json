@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "GameStop Makes $56B Unsolicited Bid to Acquire eBay",
-      "body": "GameStop has submitted a $56 billion unsolicited offer to acquire eBay at $125 per share, seeking to shift from video game retail into broader e-commerce. If completed, the deal would position GameStop as a direct competitor to Amazon and force eBay to reconsider its marketplace strategy. eBay\u2019s existing merchant partners and payment service providers face potential disruption to their integrations and commercial relationships as GameStop\u2019s priorities could reshape platform operations.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/31bfd02e-a02e-45fd-ad46-51544b1a3a8a"
-      }
-    },
-    {
-      "title": "Kraken Parent Payward Acquires Bitnomial, Unlocking U.S. Crypto Derivatives",
-      "body": "Payward, the parent company of Kraken, has acquired Bitnomial, granting Kraken access to offer crypto derivatives in the U.S. for the first time. This move intensifies competition with Coinbase and Gemini as demand for regulated crypto derivatives rises. U.S. crypto exchanges must now rapidly expand product offerings and strengthen compliance programs to meet evolving CFTC requirements.",
+      "title": "Western Union Debuts USDPT Stablecoin on Solana for 24/7 Global Remittances",
+      "body": "Western Union has launched the USDPT stablecoin on the Solana blockchain, enabling round-the-clock settlement across more than 200 countries. This positions Western Union as an early mover among traditional remittance giants adopting blockchain rails, potentially undercutting slower, fee-heavy cross-border providers. Competing money transfer services now face pressure to match instant settlement and lower costs or risk losing market share.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/399851/kraken-parent-payward-completes-bitnomial-acquisition"
+        "url": "https://www.theblock.co/post/399890/western-union-launches-usdpt-stablecoin-anchorage-solana"
       }
     },
     {
-      "title": "Citi Launches Arc Platform to Deploy AI Agents in Banking Operations",
-      "body": "Citi has launched Arc, a platform designed to integrate AI agents into banking workflows for greater operational efficiency and improved customer service. This initiative sets a new standard for AI adoption among global banks and is likely to prompt similar moves from peers such as JPMorgan and BofA. The rollout brings regulatory and data governance questions to the forefront as banks accelerate AI-driven transformation.",
+      "title": "Mastercard Tackles Late B2B Payments, Targeting Supplier Cash Flow Pain Points",
+      "body": "Mastercard is rolling out new solutions to address the hidden costs of late B2B payments, aiming to streamline payment processes for suppliers. By focusing on supplier pain points, Mastercard is setting a new bar for B2B payment efficiency and forcing banks and fintechs to accelerate their own digital offerings. Suppliers and buyers may see improved cash flow and reduced friction, while lagging competitors risk losing enterprise clients.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/citi-debuts-platform-to-bring-ai-agents-to-banking-work/"
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/mastercard-targets-the-hidden-cost-of-late-b2b-payments/"
       }
     },
     {
-      "title": "North Korea Denies Crypto Theft Allegations, Exchanges Respond to Security Scrutiny",
-      "body": "North Korea has publicly denied U.S. allegations of state-sponsored crypto theft, calling the accusations 'absurd slander.' The dispute has led crypto exchanges to increase transaction monitoring, enhance compliance checks, and review security protocols, especially for cross-border flows and high-risk jurisdictions. Regulatory attention is also intensifying on crypto mixers and privacy coins amid ongoing geopolitical tensions.",
+      "title": "FIS and Anthropic Partner to Deploy AI Agents for Bank-Grade Fraud Detection",
+      "body": "FIS and Anthropic have joined forces to develop AI agents for banks, launching with a Financial Crimes AI Agent designed to enhance fraud detection. This collaboration accelerates AI adoption among banks and fintechs, as financial institutions seek more automated compliance and security. Competing core banking providers and fraud vendors must now match AI-driven capabilities or risk obsolescence.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/fis-and-anthropic-collaborate-to-enable-agent-first-banks/"
+      }
+    },
+    {
+      "title": "US Spot Bitcoin ETFs See $532 Million Inflows Over Three Days, Led by BlackRock and Fidelity",
+      "body": "U.S. spot bitcoin ETFs drew $532 million in inflows over three days, according to The Block, with BlackRock and Fidelity leading the surge. This influx of institutional capital signals growing mainstream acceptance of crypto investment vehicles, prompting asset managers and banks to revisit their digital asset strategies. Additional ETF launches and heightened regulatory attention are likely as traditional finance deepens its crypto exposure.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/399854/north-korea-blames-crypto-theft-reports"
+        "url": "https://www.theblock.co/post/399990/us-spot-bitcoin-etfs-draw-532-million-as-inflows-extend-to-a-third-day-led-by-blackrock-and-fidelity"
       }
     },
     {
-      "title": "Stripe Alumni Raise \u20ac7.5M for Seapoint, an AI-Driven Fintech Startup",
-      "body": "Former Stripe employees have secured \u20ac7.5 million to launch Seapoint, an AI-powered fintech startup focused on next-generation financial services. Seapoint\u2019s entry heightens competition in the AI fintech sector, prompting both established players and new entrants to accelerate AI integration in payments and banking. Fintechs with legacy systems risk losing customers as AI-native challengers scale rapidly.",
+      "title": "Coinbase Australia Adds Crypto Support for Self-Directed Retirement Funds",
+      "body": "Coinbase Australia has launched crypto support for self-managed superannuation funds (SMSFs), giving Australian investors new options for retirement portfolio diversification. This move may push banks and superannuation administrators to consider similar offerings to retain clients seeking digital asset exposure. Regulators face increased urgency to clarify oversight as crypto becomes more integrated into mainstream retirement planning.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/stripe-alumni-fintech-fundraise/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/399982/coinbase-australia-launches-smsf-support"
       }
     }
   ],
-  "perspective": "GameStop\u2019s eBay bid and Kraken\u2019s Bitnomial acquisition signal major shifts in e-commerce and crypto markets, while banks and fintechs accelerate AI adoption.",
+  "perspective": "Western Union\u2019s stablecoin launch and BlackRock-led bitcoin ETF inflows mark a pivotal week for blockchain adoption in payments and investment.",
   "curiosity": {
-    "text": "The Electronic Payments Association, now known as Nacha, not only developed the ACH network but also set the standards that enabled payroll direct deposit to become mainstream in the U.S."
+    "text": "The first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe and North America."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raises $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
       "company": "Kashable",
-      "description": "Secures $60M Series C led by Goldman Sachs",
+      "description": "Secured $60M Series C led by Goldman Sachs.",
       "source_url": "https://news.crunchbase.com/fintech/kashable-secures-60m-seriesc-goldman-sachs/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "True Anomaly",
-      "description": "Raises $600M for space security startup",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-aerospace-ai-fintech/"
+      "company": "Collide Capital",
+      "description": "Closed $95M fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Legora",
-      "description": "Lands $50M in Nvidia-led Series D extension",
-      "source_url": "https://news.crunchbase.com/venture/ai-powered-legal-tech-startup-legora-seriesd-extension-nvidia/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Exodus",
+      "description": "Reached critical threshold in payments pivot, opening new revenue streams.",
+      "source_url": "https://www.theblock.co/post/399948/exodus-payments-pivot-critical-threshold-new-revenue-streams-benchmark"
     }
   ]
 }
