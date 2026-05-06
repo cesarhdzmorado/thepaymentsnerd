@@ -1,71 +1,57 @@
 {
   "news": [
     {
-      "title": "Western Union Debuts USDPT Stablecoin on Solana for 24/7 Global Remittances",
-      "body": "Western Union has launched the USDPT stablecoin on the Solana blockchain, enabling round-the-clock settlement across more than 200 countries. This positions Western Union as an early mover among traditional remittance giants adopting blockchain rails, potentially undercutting slower, fee-heavy cross-border providers. Competing money transfer services now face pressure to match instant settlement and lower costs or risk losing market share.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/399890/western-union-launches-usdpt-stablecoin-anchorage-solana"
-      }
-    },
-    {
-      "title": "Mastercard Tackles Late B2B Payments, Targeting Supplier Cash Flow Pain Points",
-      "body": "Mastercard is rolling out new solutions to address the hidden costs of late B2B payments, aiming to streamline payment processes for suppliers. By focusing on supplier pain points, Mastercard is setting a new bar for B2B payment efficiency and forcing banks and fintechs to accelerate their own digital offerings. Suppliers and buyers may see improved cash flow and reduced friction, while lagging competitors risk losing enterprise clients.",
+      "title": "JPMorgan Prioritizes Payment Certainty Over Speed in Real-Time Settlement Push",
+      "body": "JPMorgan is prioritizing transaction certainty over raw speed in its instant payments strategy, urging payment processors and banks to upgrade verification and security systems. By focusing on reliable, verified transactions, JPMorgan aims to reduce fraud and regulatory risk, pushing industry peers to match these standards or risk losing customers and facing compliance challenges. New requirements for payment finality and fraud prevention are likely to reshape how banks and processors approach real-time payments.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/mastercard-targets-the-hidden-cost-of-late-b2b-payments/"
+        "url": "https://www.pymnts.com/news/faster-payments/2026/jpmorgan-says-instant-money-needs-instant-certainty/"
       }
     },
     {
-      "title": "FIS and Anthropic Partner to Deploy AI Agents for Bank-Grade Fraud Detection",
-      "body": "FIS and Anthropic have joined forces to develop AI agents for banks, launching with a Financial Crimes AI Agent designed to enhance fraud detection. This collaboration accelerates AI adoption among banks and fintechs, as financial institutions seek more automated compliance and security. Competing core banking providers and fraud vendors must now match AI-driven capabilities or risk obsolescence.",
+      "title": "Bullish Buys Equiniti for $4.2B, Bringing 24/7 Blockchain Settlement to Transfer Agency",
+      "body": "Bullish is acquiring Equiniti, a blockchain-native transfer agent, for $4.2 billion to deliver continuous, instant settlements in securities transfer. This acquisition enables Bullish to compete directly with legacy transfer agents and clearinghouses, who must now accelerate their own blockchain adoption or risk losing market share. Traditional financial institutions face immediate pressure to modernize post-trade systems as Bullish introduces 24/7 blockchain-based settlement to a historically slow sector.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/bullish-crypto-acquire-equiniti-4-billion-deal-transfer-agent/819344/"
+      }
+    },
+    {
+      "title": "MoonPay Acquires DFlow, Scaling Solana-Powered Transaction Infrastructure to $50B+ Volume",
+      "body": "MoonPay has acquired DFlow, a Solana execution layer firm, expanding its infrastructure to process over $50 billion in trading volume. With this deal, MoonPay sets a new standard for transaction speed and throughput on Solana, challenging exchanges and wallet providers to match its performance. The acquisition highlights growing demand for high-capacity blockchain rails in mainstream payments, prompting rivals to invest in similar upgrades.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/400078/moonpay-acquires-solana-execution-layer-firm-dflow-used-coinbase-phantom"
+      }
+    },
+    {
+      "title": "Delaware Fast-Tracks Stablecoin Laws to Attract Issuers and Fintechs",
+      "body": "Delaware is enacting the Banking Modernization Act of 2026 and the Payment Stablecoin Act, establishing itself as a regulatory base for stablecoin issuers and fintechs. By offering clear legal frameworks and incentives, Delaware is drawing stablecoin projects away from less defined jurisdictions and influencing national policy debates. Competing states and federal agencies now face pressure to update their own regulations to retain or attract digital asset businesses.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/fis-and-anthropic-collaborate-to-enable-agent-first-banks/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/delaware-makes-its-stablecoin-land-grab/"
       }
     },
     {
-      "title": "US Spot Bitcoin ETFs See $532 Million Inflows Over Three Days, Led by BlackRock and Fidelity",
-      "body": "U.S. spot bitcoin ETFs drew $532 million in inflows over three days, according to The Block, with BlackRock and Fidelity leading the surge. This influx of institutional capital signals growing mainstream acceptance of crypto investment vehicles, prompting asset managers and banks to revisit their digital asset strategies. Additional ETF launches and heightened regulatory attention are likely as traditional finance deepens its crypto exposure.",
+      "title": "SoFi Launches SoFiUSD Stablecoin on Solana, Targeting Speed and Cost Leadership",
+      "body": "SoFi has launched SoFiUSD on Solana, offering faster and cheaper transactions than established stablecoins like USDC (Circle) and PayPal USD. By leveraging Solana\u2019s high-throughput network, SoFi aims to attract merchants and fintechs seeking efficient settlement, potentially drawing volume away from slower or higher-fee stablecoins. This launch intensifies competition among stablecoin issuers and may accelerate regulatory scrutiny of new entrants.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/399990/us-spot-bitcoin-etfs-draw-532-million-as-inflows-extend-to-a-third-day-led-by-blackrock-and-fidelity"
-      }
-    },
-    {
-      "title": "Coinbase Australia Adds Crypto Support for Self-Directed Retirement Funds",
-      "body": "Coinbase Australia has launched crypto support for self-managed superannuation funds (SMSFs), giving Australian investors new options for retirement portfolio diversification. This move may push banks and superannuation administrators to consider similar offerings to retain clients seeking digital asset exposure. Regulators face increased urgency to clarify oversight as crypto becomes more integrated into mainstream retirement planning.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/399982/coinbase-australia-launches-smsf-support"
+        "url": "https://www.theblock.co/post/400098/sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost"
       }
     }
   ],
-  "perspective": "Western Union\u2019s stablecoin launch and BlackRock-led bitcoin ETF inflows mark a pivotal week for blockchain adoption in payments and investment.",
+  "perspective": "Bullish\u2019s Equiniti acquisition and SoFi\u2019s Solana stablecoin launch signal a new phase of blockchain-driven competition in payments and post-trade infrastructure.",
   "curiosity": {
-    "text": "The first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe and North America."
+    "text": "Despite the rise of instant payments, over 40% of global B2B transactions still rely on paper checks, highlighting the slow pace of change in business payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Kashable",
-      "description": "Secured $60M Series C led by Goldman Sachs.",
-      "source_url": "https://news.crunchbase.com/fintech/kashable-secures-60m-seriesc-goldman-sachs/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95M fund for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Exodus",
-      "description": "Reached critical threshold in payments pivot, opening new revenue streams.",
-      "source_url": "https://www.theblock.co/post/399948/exodus-payments-pivot-critical-threshold-new-revenue-streams-benchmark"
+      "type": "Fundraising",
+      "company": "Blitzy",
+      "description": "Raises $200M for AI-driven software development, valued at $1.4B.",
+      "source_url": "https://news.crunchbase.com/ai/blitzy-funding-valuation-autonomous-software-development-vibe-coding-startups/"
     }
   ]
 }
