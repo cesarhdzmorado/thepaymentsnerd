@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Europe\u2019s Real-Time Payments Mandate Accelerates Infrastructure Overhauls for Banks and Fintechs",
-      "body": "Europe\u2019s new regulation requires banks and fintechs to support real-time payments, making instant settlement a legal obligation. Non-compliant institutions face regulatory penalties and potential loss of customer trust. The mandate compels rapid modernization of payment systems, impacting technology budgets and operational timelines across the region.",
+      "title": "Block\u2019s AI-Driven Overhaul Turns Cash App Into Lending and Financial Services Hub",
+      "body": "Block\u2019s Q1 2026 earnings reveal Cash App\u2019s evolution into a lending platform powered by AI automation and embedded financial services. This shift deepens engagement for Cash App users and Square merchants, while escalating competition with digital lenders and neobanks. Rivals like PayPal and Chime now face a more sophisticated competitor in both payments and consumer credit.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/real-time-payments/2026/europe-makes-real-time-payments-a-mandate/"
+        "url": "https://www.pymnts.com/earnings/2026/block-rallies-as-ai-push-turns-cash-app-into-a-lending-hub/"
       }
     },
     {
-      "title": "Adyen\u2019s 21% Volume Growth Highlights Merchant Shift to Integrated Payment Platforms",
-      "body": "Adyen processed \u20ac382 billion in Q1 2026, up 21% year-over-year, as merchants increasingly favor unified payment solutions. This growth challenges Stripe and PayPal to enhance their own platform offerings. Merchants are consolidating providers to access seamless omnichannel and value-added services.",
+      "title": "Mercado Libre Bets on Growth With Free Shipping and Credit Card Expansion",
+      "body": "Mercado Libre posted a 49% year-over-year jump in Q1 2026 net revenue, fueled by heavy investment in free shipping, a new Mercado Pago credit card, and cross-border commerce. This strategy sacrifices short-term margins to win market share from Amazon and local fintechs across Latin America, intensifying the battle for payments and eCommerce dominance in the region.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/adyen-volume-surges-21-as-consumer-spending-defies-macro-uncertainty/"
+        "url": "https://www.pymnts.com/earnings/2026/mercado-libre-sacrifices-short-term-profits-to-fuel-growth/"
       }
     },
     {
-      "title": "Remitly\u2019s New CEO Targets Cross-Border Remittance Inefficiencies",
-      "body": "Sebastian Gunningham, Remitly\u2019s new CEO, is focusing on removing friction in international money transfers to reach underserved customers. This approach intensifies competition among remittance providers and may prompt incumbents to streamline operations and reduce fees. Regulatory attention to transparency and pricing is expected to increase as digital solutions expand.",
+      "title": "Coinbase\u2019s $394 Million Loss Underscores Struggle to Diversify Beyond Trading Cycles",
+      "body": "Coinbase reported a $394 million loss for Q1 2026 as it pivots from speculative trading to regulated and diversified crypto services. The results highlight the challenge of stabilizing revenue in a volatile market and raise questions about the sustainability of its new business lines. Crypto investors and institutional partners may reassess their exposure as Coinbase\u2019s reinvention stalls.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/overcharged-underserved-remitly-ceo-sees-big-opening-cross-border-payments/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/coinbases-reinvention-hits-a-wall-with-394-million-quarterly-loss/"
       }
     },
     {
-      "title": "Mastercard Expands Virtual Card Use Cases to Broaden Corporate Payment Control",
-      "body": "Mastercard is extending virtual card applications beyond payables, aiming to improve financial oversight and reduce fraud in a wider range of business transactions. This move positions Mastercard to capture more B2B spend and pressures Visa and other networks to accelerate their virtual card strategies. Corporate finance teams may increasingly adopt secure, programmable payment options over traditional cards and ACH.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/mastercard-pushes-virtual-cards-beyond-payables/"
-      }
-    },
-    {
-      "title": "Chime Data Breach by Hacktivist Group Triggers Industry-Wide Cybersecurity Review",
-      "body": "Team 313, a hacktivist group, allegedly accessed Chime customer data, resulting in lawsuits and reputational damage for the neobank. The incident exposes ongoing vulnerabilities in fintech security and is prompting regulatory scrutiny and increased investment in data protection. Fintechs may face higher compliance costs and renewed customer concerns about data safety.",
+      "title": "Federal Reserve Launches Industry Roundtable to Tackle Escalating Payment Fraud",
+      "body": "The Federal Reserve will convene a roundtable with other agencies to address rising payment fraud, aiming to coordinate new security standards and industry responses. This move puts banks and payment processors on notice for tighter compliance and likely higher operational costs. The initiative could accelerate adoption of advanced fraud detection and authentication technologies.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/hacktivist-group-stole-chime-customer-information-lawsuits-allege/819482/"
+        "url": "https://www.bankingdive.com/news/fed-launch-roundtable-fight-payment-fraud/819599/"
+      }
+    },
+    {
+      "title": "UK\u2019s FCA Fines Al Rayan Bank \u00a34 Million for AML Failures in Payments",
+      "body": "The UK Financial Conduct Authority fined Al Rayan Bank \u00a34 million for failing to implement adequate anti-money laundering controls between 2015 and 2017. The FCA cited insufficient due diligence and weak monitoring of higher-risk customers, highlighting ongoing regulatory scrutiny of banks\u2019 compliance in payment flows. Other UK banks may face increased pressure to review their AML frameworks.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/uk-fines-al-rayan-bank-4-mln-anti-money-laundering-failures-2026-05-07/"
       }
     }
   ],
-  "perspective": "Europe\u2019s real-time payments mandate and the Chime breach spotlight urgent infrastructure and security upgrades for banks, fintechs, and payment networks.",
+  "perspective": "Block\u2019s AI-powered Cash App expansion and the FCA\u2019s Al Rayan Bank fine spotlight how innovation and compliance are reshaping payments in 2026.",
   "curiosity": {
-    "text": "The UK\u2019s 2017 open banking initiative is widely cited as the first government-mandated framework requiring banks to share customer data with licensed third parties."
+    "text": "The UK\u2019s Financial Conduct Authority can fine banks for AML failures even if no actual money laundering is proven, focusing on process lapses rather than outcomes."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Blitzy",
-      "description": "Raised $200M for autonomous software development.",
-      "source_url": "https://news.crunchbase.com/ai/blitzy-funding-valuation-autonomous-software-development-vibe-coding-startups/"
+      "company": "Fazeshift",
+      "description": "Raised $17M for AI-powered finance ops.",
+      "source_url": "https://news.crunchbase.com/fintech/fazeshift-accounts-receivable-ai-finance-ops-startup-funding/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Closed $95M fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Revolut Alumni Startup",
-      "description": "Raised $6M for palm-scan payments technology.",
+      "company": "Revolut Alumni",
+      "description": "Raised $6M for palm-scan payments startup.",
       "source_url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Bullish",
-      "description": "Acquired Equiniti for $4.2 billion.",
-      "source_url": "https://www.bankingdive.com/news/bullish-crypto-acquire-equiniti-4-billion-deal-transfer-agent/819344/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Cambridge Savings Bank",
-      "description": "Expanded into NH with $80.9M deal.",
-      "source_url": "https://www.bankingdive.com/news/cambridge-savings-bank-buy-first-seacoast-new-hampshire-80-million-community/819337/"
     }
   ]
 }
