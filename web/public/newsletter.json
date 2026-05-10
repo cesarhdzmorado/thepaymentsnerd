@@ -1,71 +1,64 @@
 {
   "news": [
     {
-      "title": "Kraken\u2019s $600M Reap Acquisition Expands Card Capabilities and APAC Reach",
-      "body": "Payward, parent of Kraken, acquired Reap for $600 million to bolster its card issuing and payment infrastructure, particularly targeting the Asia-Pacific market. This move positions Kraken to compete more directly with both crypto exchanges and traditional payment providers in the region. The integration of Reap\u2019s technology could accelerate crypto-to-fiat payment flows and merchant adoption across APAC. Rival exchanges and payment service providers are already evaluating new card and cross-border product upgrades in response.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/payward-kraken-reap-600-million-acquisition-stablecoin-cards/819706/"
-      }
-    },
-    {
-      "title": "SEC Chairman Pushes Congress for On-Chain Trading Regulatory Clarity",
-      "body": "SEC Chairman Paul S. Atkins urged Congress to pass the CLARITY Act, calling for explicit rules governing on-chain financial markets. Clearer regulation could unlock broader participation from traditional financial institutions, intensifying competition in blockchain-based trading. Blockchain firms are expected to ramp up lobbying efforts as the legislative debate heats up. The outcome will determine how quickly banks and asset managers move into on-chain settlement and trading.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/regulation/2026/sec-chairman-urges-clear-rules-for-on-chain-trading/"
-      }
-    },
-    {
-      "title": "Mastercard Launches MENA SMB Program to Challenge Local Payment Providers",
-      "body": "Mastercard rolled out its 'Built Small. Moving Strong.' initiative to support small and medium-sized businesses across the MENA region. The program aims to deepen Mastercard\u2019s merchant relationships and accelerate digital payment adoption, putting pressure on regional PSPs and banks. As Mastercard\u2019s network effect grows, local providers may need to differentiate with vertical-specific services or risk losing share. Some regional banks are already piloting sector-focused payment solutions to retain SMB clients.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/smbs/2026/mastercard-rallies-partners-to-support-mena-small-businesses/"
-      }
-    },
-    {
-      "title": "Anthropic Partners With Investors to Build AI Tools for Financial Services",
-      "body": "Anthropic is developing tailored AI solutions for the finance sector, collaborating with investors to drive adoption among middle-market enterprises. Regional banks and asset managers are piloting Anthropic\u2019s tools to streamline compliance and customer service, aiming to boost operational efficiency. The partnership marks a shift from generic AI to industry-specific platforms, prompting banks and fintechs to reassess their technology roadmaps to stay competitive.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/Anthropic-deepens-financial-services/819685/"
-      }
-    },
-    {
-      "title": "ECB President\u2019s Stablecoin Warning Puts Spotlight on Digital Euro Push",
-      "body": "ECB President Christine Lagarde warned that euro-denominated stablecoins pose financial stability risks, advocating instead for a central bank digital euro. Her remarks may slow stablecoin adoption in Europe and give digital euro projects a regulatory tailwind. Stablecoin issuers now face heightened scrutiny and potential barriers to market entry. European merchants and PSPs are reassessing digital asset integration strategies in light of the evolving regulatory landscape.",
+      "title": "Senate Banking Committee Schedules Vote on Major Crypto Regulation Bill",
+      "body": "The Senate Banking Committee has officially scheduled a vote on comprehensive crypto legislation that would clarify regulatory requirements for digital assets and exchanges. If passed, the bill would establish clearer compliance standards, enabling US banks and asset managers to more confidently offer crypto-related products. This regulatory certainty could drive new institutional investment and influence how other countries approach crypto oversight.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/400548/ecbs-lagarde-flags-euro-denominated-stablecoins-as-financial-stability-risk-diverging-from-bundesbank-stance"
+        "url": "https://www.theblock.co/post/400492/take-two-senate-banking-committee-sets-a-date-to-amend-and-vote-on-sweeping-crypto-legislation"
+      }
+    },
+    {
+      "title": "Revolut Alumni Raise $6M for Palm-Scan Biometric Payments Startup",
+      "body": "A group of former Revolut employees secured $6 million to launch a palm-scan payments platform, offering retailers a frictionless checkout alternative to cards and mobile wallets. By using palm biometrics for authentication, the startup aims to reduce transaction times and hardware costs compared to card terminals and facial recognition systems. Merchants and payment service providers may pilot this technology to gauge consumer acceptance and operational impact.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
+      }
+    },
+    {
+      "title": "OCC Tells US Banks to Strengthen AI-Powered Cybersecurity",
+      "body": "The Office of the Comptroller of the Currency is urging US banks to upgrade their AI-driven cybersecurity measures, citing rising threats and the need for robust fraud prevention. Banks that proactively invest in advanced AI security tools may see reduced fraud losses and fewer regulatory issues, while those that lag could face compliance penalties and reputational risks. We expect banks to increase demand for AI security vendors and prioritize AI risk management at the executive level.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cybersecurity/2026/occ-recommends-banks-sharpen-ai-defense-tactics/"
+      }
+    },
+    {
+      "title": "Kraken Parent Payward Applies for OCC Trust Charter to Expand Crypto Services",
+      "body": "Payward, the parent company of Kraken, has applied for a national OCC trust charter to establish Payward National Trust Company. If granted, Kraken would be able to offer expanded custody and trust services nationwide, potentially setting a new regulatory benchmark for US crypto firms. This could encourage other major players like Coinbase and Ripple to seek similar charters, accelerating the integration of crypto into mainstream financial infrastructure and boosting institutional participation.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/400592/kraken-parent-payward-applies-national-occ-trust-charter-ripple-coinbase"
+      }
+    },
+    {
+      "title": "Visa and Western Union Partner to Expand Real-Time Cross-Border Payments",
+      "body": "Visa and Western Union have announced a partnership to enable real-time cross-border payments to eligible Visa cards and accounts in 40 countries. This collaboration aims to streamline remittances and international transfers for consumers and small businesses, reducing settlement times from days to minutes. The move could intensify competition among global money transfer providers and drive further innovation in cross-border payment solutions.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/43456/visa-and-western-union-partner-on-real-time-cross-border-payments"
       }
     }
   ],
-  "perspective": "Kraken\u2019s Reap acquisition and the ECB\u2019s stablecoin warning show how global expansion and regulatory shifts are reshaping payments competition in 2026.",
+  "perspective": "Visa-Western Union\u2019s real-time payments deal and the Senate crypto vote highlight how regulation and partnerships are reshaping US and global payments infrastructure.",
   "curiosity": {
-    "text": "Despite its foundational role, the Electronic Payments Network (EPN) still processes a significant share of U.S. ACH payments today, often powering same-day payroll and bill payments behind the scenes."
+    "text": "In Japan, vending machines have accepted contactless payments since the early 2000s, making the country an early adopter of cashless microtransactions in everyday life."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Fazeshift",
-      "description": "Raises $17M in Series A for AI-powered finance ops.",
-      "source_url": "https://news.crunchbase.com/fintech/fazeshift-accounts-receivable-ai-finance-ops-startup-funding/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
       "company": "Collide Capital",
-      "description": "Closes $95M fund for fintech and future-of-work startups.",
+      "description": "raises $95M fund to back fintech, future-of-work startups.",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Kraken (Payward)",
-      "description": "Applies for national OCC trust charter.",
-      "source_url": "https://www.theblock.co/post/400592/kraken-parent-payward-applies-national-occ-trust-charter-ripple-coinbase"
+      "type": "M&A",
+      "company": "Kraken Parent (Payward)",
+      "description": "acquires Reap for $600M to boost card capabilities.",
+      "source_url": "https://www.bankingdive.com/news/payward-kraken-reap-600-million-acquisition-stablecoin-cards/819706/"
     }
   ]
 }
