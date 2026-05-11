@@ -1,64 +1,71 @@
 {
   "news": [
     {
-      "title": "Senate Banking Committee Schedules Vote on Major Crypto Regulation Bill",
-      "body": "The Senate Banking Committee has officially scheduled a vote on comprehensive crypto legislation that would clarify regulatory requirements for digital assets and exchanges. If passed, the bill would establish clearer compliance standards, enabling US banks and asset managers to more confidently offer crypto-related products. This regulatory certainty could drive new institutional investment and influence how other countries approach crypto oversight.",
+      "title": "Circle\u2019s $222M Arc Token Presale Lifts Valuation, Fuels USDC Expansion",
+      "body": "Circle raised $222 million in an Arc token presale, reportedly bringing its valuation to $3 billion with support from a16z crypto and BlackRock. The funding will accelerate USDC adoption in cross-border payments and institutional finance, enabling Circle to invest in compliance, partnerships, and infrastructure. As Circle\u2019s market share grows, regulators are paying closer attention to its systemic role in digital dollar flows and financial stability.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/400492/take-two-senate-banking-committee-sets-a-date-to-amend-and-vote-on-sweeping-crypto-legislation"
+        "url": "https://www.theblock.co/post/400709/circle-raises-222m-in-arc-token-presale-at-3b-fdv-from-a16z-crypto-blackrock-and-others-q1-revenue-up-20?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Revolut Alumni Raise $6M for Palm-Scan Biometric Payments Startup",
-      "body": "A group of former Revolut employees secured $6 million to launch a palm-scan payments platform, offering retailers a frictionless checkout alternative to cards and mobile wallets. By using palm biometrics for authentication, the startup aims to reduce transaction times and hardware costs compared to card terminals and facial recognition systems. Merchants and payment service providers may pilot this technology to gauge consumer acceptance and operational impact.",
+      "title": "Crypto.com Wins UAE SVF License, Unlocking Regulated Government Crypto Payments",
+      "body": "Crypto.com became the first virtual asset service provider to secure a UAE central bank SVF license, allowing it to process government crypto payments in Dubai. This regulatory approval positions Crypto.com to form new partnerships with public sector entities and expand its user base in the Middle East. Competing exchanges and fintechs are now likely to pursue similar licenses to access institutional and government payment flows in the region.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/400687/crypto-com-receives-uae-license-tied-to-dubai-government-crypto-payments?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "OCC Tells US Banks to Strengthen AI-Powered Cybersecurity",
-      "body": "The Office of the Comptroller of the Currency is urging US banks to upgrade their AI-driven cybersecurity measures, citing rising threats and the need for robust fraud prevention. Banks that proactively invest in advanced AI security tools may see reduced fraud losses and fewer regulatory issues, while those that lag could face compliance penalties and reputational risks. We expect banks to increase demand for AI security vendors and prioritize AI risk management at the executive level.",
+      "title": "FDIC and OCC Battle for Stablecoin Oversight as GENIUS Act Advances",
+      "body": "The FDIC and OCC are vying for regulatory authority over stablecoins in the US as the GENIUS Act moves forward. This contest could clarify compliance requirements and grant greater legitimacy to stablecoin issuers that meet bank-level standards. Payment processors and fintechs integrating stablecoins must closely track evolving guidance to avoid compliance missteps as oversight responsibilities shift.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/occ-recommends-banks-sharpen-ai-defense-tactics/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/fdic-and-occ-both-want-to-be-stablecoins-new-boss/"
       }
     },
     {
-      "title": "Kraken Parent Payward Applies for OCC Trust Charter to Expand Crypto Services",
-      "body": "Payward, the parent company of Kraken, has applied for a national OCC trust charter to establish Payward National Trust Company. If granted, Kraken would be able to offer expanded custody and trust services nationwide, potentially setting a new regulatory benchmark for US crypto firms. This could encourage other major players like Coinbase and Ripple to seek similar charters, accelerating the integration of crypto into mainstream financial infrastructure and boosting institutional participation.",
+      "title": "Real-Time Payments Shift From Speed to Everyday Cash Flow Utility",
+      "body": "Real-time payments are increasingly used for cash flow management, becoming integral to daily consumer and business transactions. Providers embedding real-time rails into financial workflows are gaining traction, while those slow to adapt risk losing relevance as instant settlement becomes the norm. Banks and fintechs are now prioritizing overlay services such as liquidity management and request-to-pay to stand out in a real-time payments landscape.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/400592/kraken-parent-payward-applies-national-occ-trust-charter-ripple-coinbase"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-find-their-real-use-case-in-cash-flow/"
       }
     },
     {
-      "title": "Visa and Western Union Partner to Expand Real-Time Cross-Border Payments",
-      "body": "Visa and Western Union have announced a partnership to enable real-time cross-border payments to eligible Visa cards and accounts in 40 countries. This collaboration aims to streamline remittances and international transfers for consumers and small businesses, reducing settlement times from days to minutes. The move could intensify competition among global money transfer providers and drive further innovation in cross-border payment solutions.",
+      "title": "Zenskar Raises $15M to Bring AI-Driven Billing to B2B Finance",
+      "body": "Zenskar secured $15 million to address B2B billing inefficiencies with AI, focusing on automating complex billing for SaaS and enterprise finance teams. By streamlining operations for CFOs, Zenskar aims to challenge legacy providers like SAP and Oracle. If adoption grows, established enterprise software vendors may respond with their own AI billing features or targeted acquisitions to retain market share.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/43456/visa-and-western-union-partner-on-real-time-cross-border-payments"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/zenskar-raises-15-million-to-fix-the-billing-problems-every-cfo-hates-with-ai/"
       }
     }
   ],
-  "perspective": "Visa-Western Union\u2019s real-time payments deal and the Senate crypto vote highlight how regulation and partnerships are reshaping US and global payments infrastructure.",
+  "perspective": "Circle\u2019s $222M raise and Crypto.com\u2019s UAE license spotlight stablecoin growth and regulatory shifts as AI and real-time payments reshape financial infrastructure.",
   "curiosity": {
-    "text": "In Japan, vending machines have accepted contactless payments since the early 2000s, making the country an early adopter of cashless microtransactions in everyday life."
+    "text": "The first credit card transaction occurred in 1950 with the Diners Club card, which was initially accepted at just 27 New York restaurants."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Collide Capital",
-      "description": "raises $95M fund to back fintech, future-of-work startups.",
+      "description": "Closed $95M fund for fintech and future-of-work startups.",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Kraken Parent (Payward)",
-      "description": "acquires Reap for $600M to boost card capabilities.",
-      "source_url": "https://www.bankingdive.com/news/payward-kraken-reap-600-million-acquisition-stablecoin-cards/819706/"
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Capital B",
+      "description": "Raised \u20ac15.2M to purchase 182 BTC.",
+      "source_url": "https://www.theblock.co/post/400677/btc-treasury-capital-b-raise-adam-back?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Revolut Alumni Startup",
+      "description": "Raised $6M for palm-scan payments technology.",
+      "source_url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
     }
   ]
 }
