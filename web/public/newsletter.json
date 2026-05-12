@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Circle\u2019s $222M Arc Token Presale Lifts Valuation, Fuels USDC Expansion",
-      "body": "Circle raised $222 million in an Arc token presale, reportedly bringing its valuation to $3 billion with support from a16z crypto and BlackRock. The funding will accelerate USDC adoption in cross-border payments and institutional finance, enabling Circle to invest in compliance, partnerships, and infrastructure. As Circle\u2019s market share grows, regulators are paying closer attention to its systemic role in digital dollar flows and financial stability.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/400709/circle-raises-222m-in-arc-token-presale-at-3b-fdv-from-a16z-crypto-blackrock-and-others-q1-revenue-up-20?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Crypto.com Wins UAE SVF License, Unlocking Regulated Government Crypto Payments",
-      "body": "Crypto.com became the first virtual asset service provider to secure a UAE central bank SVF license, allowing it to process government crypto payments in Dubai. This regulatory approval positions Crypto.com to form new partnerships with public sector entities and expand its user base in the Middle East. Competing exchanges and fintechs are now likely to pursue similar licenses to access institutional and government payment flows in the region.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/400687/crypto-com-receives-uae-license-tied-to-dubai-government-crypto-payments?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "FDIC and OCC Battle for Stablecoin Oversight as GENIUS Act Advances",
-      "body": "The FDIC and OCC are vying for regulatory authority over stablecoins in the US as the GENIUS Act moves forward. This contest could clarify compliance requirements and grant greater legitimacy to stablecoin issuers that meet bank-level standards. Payment processors and fintechs integrating stablecoins must closely track evolving guidance to avoid compliance missteps as oversight responsibilities shift.",
+      "title": "Paymentology Secures $175M to Challenge Stripe and Adyen in Real-Time Processing",
+      "body": "Paymentology raised $175 million from Apis Partners and Aspirity Partners to accelerate expansion, product development, and hiring. With this funding, Paymentology aims to deliver faster onboarding, expanded geographic coverage, and advanced analytics, directly targeting Stripe and Adyen\u2019s real-time processing business. Merchants and fintechs could benefit from more competitive pricing and a wider selection of payment features as Paymentology scales.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/fdic-and-occ-both-want-to-be-stablecoins-new-boss/"
+        "url": "https://www.pymnts.com/news/fintech-investments/2026/paymentology-raises-175-million-dollars-real-time-processing-solutions/"
       }
     },
     {
-      "title": "Real-Time Payments Shift From Speed to Everyday Cash Flow Utility",
-      "body": "Real-time payments are increasingly used for cash flow management, becoming integral to daily consumer and business transactions. Providers embedding real-time rails into financial workflows are gaining traction, while those slow to adapt risk losing relevance as instant settlement becomes the norm. Banks and fintechs are now prioritizing overlay services such as liquidity management and request-to-pay to stand out in a real-time payments landscape.",
+      "title": "FedNow\u2019s Initiation Gap Draws Galileo\u2019s Fix as Banks Struggle to Send Instant Payments",
+      "body": "FedNow\u2019s rollout has enabled banks to receive but not easily initiate instant payments, limiting the system\u2019s usefulness for business and consumer transactions. Galileo is developing tools to help banks send payments over FedNow, potentially enabling payroll, bill pay, and B2B disbursements through the new rail. If Galileo succeeds, banks could accelerate FedNow adoption and intensify competition with private real-time payment networks.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-find-their-real-use-case-in-cash-flow/"
+        "url": "https://www.pymnts.com/real-time-payments/2026/fednow-has-a-sender-problem-and-galileo-wants-to-fix-it/"
       }
     },
     {
-      "title": "Zenskar Raises $15M to Bring AI-Driven Billing to B2B Finance",
-      "body": "Zenskar secured $15 million to address B2B billing inefficiencies with AI, focusing on automating complex billing for SaaS and enterprise finance teams. By streamlining operations for CFOs, Zenskar aims to challenge legacy providers like SAP and Oracle. If adoption grows, established enterprise software vendors may respond with their own AI billing features or targeted acquisitions to retain market share.",
+      "title": "Kraken Parent Payward Pursues National Trust Charter to Expand Crypto-Banking Reach",
+      "body": "Payward, parent of Kraken, is seeking a national trust charter to complement its special-purpose depository institution, aiming to offer custody and settlement services for digital assets. If approved, Kraken could serve institutional clients and compete more directly with both fintechs and traditional banks in crypto-related financial services. This move may encourage other crypto firms to pursue similar regulatory pathways.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/kraken-parent-payward-seeks-occ-charter/819844/"
+      }
+    },
+    {
+      "title": "Augustus Wins OCC Nod for AI-Native Clearing, Challenging Traditional Clearinghouses",
+      "body": "Augustus, formerly Ivy, received conditional OCC approval to build an AI-native clearing platform that automates settlement and risk management. Unlike traditional clearinghouses, Augustus plans to use AI to reduce settlement times and operational costs, aiming to attract fintechs and smaller banks seeking faster, lower-cost clearing. This development could prompt established clearinghouses to accelerate their own AI initiatives.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/augustus-occ-charter-conditional-ai/819871/"
+      }
+    },
+    {
+      "title": "Mobile Wallet Usage Reaches 31% In-Store as Apple Pay Faces Faster Rivals",
+      "body": "According to PYMNTS, 31% of surveyed consumers reported using mobile wallets in-store, with Apple Pay leading but facing competition from faster alternatives. As rivals improve transaction speed and user experience, wallet providers are investing in loyalty features and broader acceptance to retain users. Merchants may need to support multiple wallets to meet evolving consumer preferences at checkout.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/zenskar-raises-15-million-to-fix-the-billing-problems-every-cfo-hates-with-ai/"
+        "url": "https://www.pymnts.com/mobile-wallets/2026/31-percent-of-consumers-use-mobile-wallets-in-store-as-apple-faces-faster-rivals/"
       }
     }
   ],
-  "perspective": "Circle\u2019s $222M raise and Crypto.com\u2019s UAE license spotlight stablecoin growth and regulatory shifts as AI and real-time payments reshape financial infrastructure.",
+  "perspective": "Paymentology\u2019s funding and Galileo\u2019s FedNow initiative show how new entrants and tech providers are intensifying competition for banks, fintechs, and merchants.",
   "curiosity": {
-    "text": "The first credit card transaction occurred in 1950 with the Diners Club card, which was initially accepted at just 27 New York restaurants."
+    "text": "In 2018, the International Monetary Fund reported that 1.7 billion adults worldwide remained unbanked, while global remittance flows reached over $689 billion."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Collide Capital",
-      "description": "Closed $95M fund for fintech and future-of-work startups.",
+      "description": "Closed $95M fund for fintech and future-of-work startups",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "fundraising",
-      "company": "Capital B",
-      "description": "Raised \u20ac15.2M to purchase 182 BTC.",
-      "source_url": "https://www.theblock.co/post/400677/btc-treasury-capital-b-raise-adam-back?utm_source=rss&utm_medium=rss"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Galaxy-backed Boundary",
+      "description": "Launching institutional stablecoin USBD on Ethereum",
+      "source_url": "https://www.theblock.co/post/400791/galaxy-backed-boundary-to-launch-verifiable-institutional-stablecoin-usbd?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Revolut Alumni Startup",
-      "description": "Raised $6M for palm-scan payments technology.",
+      "company": "Revolut alumni",
+      "description": "Raised $6M for palm-scan payments startup",
       "source_url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Stripe alumni",
+      "description": "Raised \u20ac7.5M for AI-powered fintech Seapoint",
+      "source_url": "https://sifted.eu/articles/stripe-alumni-fintech-fundraise/"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf9",
+      "type": "expansion",
+      "company": "Bhutan Government",
+      "description": "Sold $230M BTC, impacting crypto market",
+      "source_url": "https://www.theblock.co/post/400888/bhutan-government-moves-100-btc-arkham?utm_source=rss&utm_medium=rss"
     }
   ]
 }
