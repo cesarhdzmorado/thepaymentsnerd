@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "JPMorgan Enters German Retail Banking, Challenging Local and EU Incumbents",
-      "body": "J.P. Morgan Chase is launching retail banking operations in Berlin, directly challenging German banks with its digital-first approach and significant financial resources. Local and EU incumbents must respond to a US giant targeting their customer base, likely accelerating digital transformation and prompting new strategies for customer retention.",
+      "title": "Revolut Gains FCA Approval to Expand UK Investment Services",
+      "body": "Revolut received approval from the UK's FCA to broaden its investment services, enabling it to offer a wider range of investment products to UK customers. The source does not specify a focus on higher-net-worth individuals, but the move positions Revolut to compete more directly with established banks and fintechs in the wealth management sector. Incumbent banks and digital investment platforms may respond by enhancing their digital offerings and customer engagement strategies to retain market share.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/jpmorgan-banks-on-savings-to-woo-german-retail-customers/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47752/revolut-primed-for-wealth-management-push-after-fca-approval"
       }
     },
     {
-      "title": "Japan\u2019s Enterprise Blockchain to Launch Yen Stablecoin for B2B Settlement",
-      "body": "A consortium of Japanese banks and corporates will issue a yen-denominated stablecoin for B2B settlements on Ethereum and Japan Open Chain, enabling programmable cross-border and domestic payments. Traditional banks and rival stablecoin projects in Asia now face a regulated, fiat-backed token that could shift B2B payment flows and increase competition for transaction volumes.",
+      "title": "Bunq Applies for Mexican Banking License, Challenging Local and Global Fintechs",
+      "body": "Bunq has applied for a banking license in Mexico, marking its entry into Latin America and intensifying competition with local banks and fintechs such as Nubank, Mercado Pago, and Revolut. Mexican banks may respond by launching new digital products, increasing promotional offers, or partnering with fintechs to retain customers as European challengers enter the market. Regulators will need to balance innovation with oversight as the competitive landscape shifts.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/401075/japan-yen-stablecoin-ejpy?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47749/bunq-applies-for-mexican-banking-license"
       }
     },
     {
-      "title": "Charles Schwab Rolls Out Spot Bitcoin and Ethereum Trading to Retail Clients",
-      "body": "Charles Schwab now offers spot trading for Bitcoin and Ethereum to select retail clients, bringing a major US brokerage into direct competition with crypto-native exchanges. This expansion gives mainstream investors easier access to crypto assets, prompting other brokerages to consider similar offerings and increasing crypto\u2019s presence in traditional portfolios.",
+      "title": "Google Adds Affirm and Klarna BNPL to AI Shopping via Google Pay",
+      "body": "Google has integrated Affirm and Klarna\u2019s buy now, pay later options into its AI-powered shopping features, making installment payments available through Google Pay. This move expands Google\u2019s role in digital payments and offers BNPL providers broader reach, while credit card issuers and networks may see reduced transaction volumes as consumers opt for alternative financing at checkout.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/401069/charles-schwab-spot-btc-eth?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47741/google-adds-affirm-and-klarna-bnpl-options-for-ai-shopping"
       }
     },
     {
-      "title": "CFTC Sides With Kalshi in Federal-State Prediction Market Dispute",
-      "body": "The CFTC filed an amicus brief supporting Kalshi in its jurisdictional dispute over prediction markets in Ohio. If Kalshi prevails, federal oversight would become the standard for prediction markets, reducing regulatory fragmentation and enabling broader institutional and retail access to event-based financial products.",
+      "title": "Deutsche Bank Invests in Elliptic to Strengthen Crypto Compliance Standards",
+      "body": "Elliptic raised $120 million in Series D funding led by One Peak, with Deutsche Bank joining as a strategic investor. The funding will help Elliptic expand its crypto compliance and analytics tools, setting stricter standards for anti-money laundering and regulatory reporting in digital assets. Banks and fintechs involved in crypto will need to adopt more advanced transaction monitoring systems and demonstrate robust compliance to meet evolving regulatory expectations.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/401039/cftc-backs-kalshi-in-ohio-fight-over-prediction-markets-jurisdictional-battle?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47747/deutsche-bank-joins-120m-funding-round-for-crypto-analytics-firm-elliptic"
       }
     },
     {
-      "title": "Fidelity Shuts Down Venture Arm, Shrinking Startup Funding Pool",
-      "body": "Fidelity has closed its venture capital arm, removing a major funding source for fintech and tech startups. Startups now face fewer options for raising capital, and may need to seek alternative investors, accept lower valuations, or slow hiring and product launches as institutional money becomes scarcer.",
+      "title": "Paybis Secures MiCA and PSD2 Licenses, Raising Compliance Bar for EU Crypto Firms",
+      "body": "Paybis has obtained authorization as a Crypto Asset Service Provider under the EU\u2019s MiCA regulation and a Payment Institution license under PSD2. This dual licensing allows Paybis to offer regulated crypto services across the EU, prompting other crypto platforms to accelerate their own compliance efforts or risk losing customers as regulatory expectations increase.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/fidelity-shuts-down-vc-arm/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109831/paybis-secures-mica-and-psd2-licences"
       }
     }
   ],
-  "perspective": "JPMorgan\u2019s Berlin launch and Japan\u2019s yen stablecoin debut show global banks and blockchains reshaping competition for retail and B2B payments.",
+  "perspective": "Today: Revolut\u2019s UK investment push and Bunq\u2019s Mexico entry highlight shifting competitive dynamics in wealth and digital banking.",
   "curiosity": {
-    "text": "In South Korea, mobile payment apps now account for over 60% of all in-person retail transactions, outpacing both cash and card usage in urban centers."
+    "text": "The CFPB\u2019s 2017 rule on prepaid accounts required clear fee disclosures and fraud protections, directly impacting how fintechs and banks design and market digital wallets and prepaid cards."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Revolut Alumni",
-      "description": "Raised $6M for palm-scan payments startup",
-      "source_url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
+      "company": "Five ID",
+      "description": "Raised $6M for palm-based biometric payment system.",
+      "source_url": "https://www.finextra.com/newsarticle/47738/palm-payments-startup-five-id-raises-6-million"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Stitch",
+      "description": "Raised $25M in Series A led by Andreessen Horowitz.",
+      "source_url": "https://www.finextra.com/pressarticle/109835/saudi-startup-stitch-raises-25m"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Kraken Parent (Payward)",
-      "description": "Seeks OCC charter to enhance crypto operations",
-      "source_url": "https://www.bankingdive.com/news/kraken-parent-payward-seeks-occ-charter/819844/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Augustus",
-      "description": "Receives conditional OCC charter approval",
-      "source_url": "https://www.bankingdive.com/news/augustus-occ-charter-conditional-ai/819871/"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Adfin",
+      "description": "Raised $18M in Series A to support SMEs.",
+      "source_url": "https://www.finextra.com/newsarticle/47746/london-fintech-adfin-raises-18-million"
     }
   ]
 }
