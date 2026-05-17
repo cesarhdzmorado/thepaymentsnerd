@@ -1,85 +1,71 @@
 {
   "news": [
     {
-      "title": "Revolut Offers \u00a31,000 Employee Bonuses to Accelerate Business Banking Growth",
-      "body": "Revolut is awarding \u00a31,000 bonuses to employees who bring new business clients onto its platform, aiming to rapidly expand its business banking footprint. By incentivizing staff, Revolut seeks to outpace neobank and incumbent rivals in acquiring SME customers. Competing banks and fintechs may respond by launching their own referral programs or increasing onboarding incentives to retain and attract business clients.",
+      "title": "ChatGPT Opens Financial Account Integration, Challenging Personal Finance Apps",
+      "body": "ChatGPT Pro users can now link their financial accounts to receive personalized finance insights, with a broader rollout planned. By offering conversational AI-driven money management, ChatGPT directly challenges personal finance apps like Mint and YNAB. Fintechs focused on budgeting and aggregation must rapidly enhance features or risk losing users to AI-native platforms. Banks face immediate decisions about granting or restricting API access to ChatGPT, which could shape the competitive landscape.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/revolut-adds-employee-incentives-fuel-business-banking-push/"
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/chatgpt-connects-financial-accounts-to-deliver-personal-finance-insights/"
       }
     },
     {
-      "title": "Bunq Applies for Mexican Banking License, Targeting Latin America Expansion",
-      "body": "Dutch neobank Bunq has filed for a banking license in Mexico, seeking to offer full-service accounts to both local residents and global users. This move puts Bunq in direct competition with Nubank, Revolut, and local fintechs in a crowded Mexican market. Regulatory approval would intensify the battle for deposits and digital wallet share in Latin America\u2019s fastest-growing fintech arena.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/bunq-accelerates-global-expansion-with-mexican-banking-license-bid/"
-      }
-    },
-    {
-      "title": "AI-Driven Cyber Attacks Cause $600M Losses at Drift and Kelp DAO",
-      "body": "Crypto firms Drift and Kelp DAO suffered nearly $600 million in losses from AI-enabled cyber attacks, exposing persistent vulnerabilities in digital asset platforms. The scale of these breaches is likely to accelerate demand for advanced security solutions and prompt regulators to scrutinize crypto cybersecurity standards. Exchanges and DeFi protocols may face higher compliance costs and tighter onboarding requirements as a result.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/ai-cyber-threats-shake-crypto-industry/"
-      }
-    },
-    {
-      "title": "US Senate Banking Committee Advances Clarity Act for Crypto Regulation",
-      "body": "The US Senate Banking Committee has moved the Clarity Act, aimed at regulating digital assets, to the full Senate for debate. If enacted, the law would provide long-awaited regulatory certainty for crypto firms and could unlock greater institutional investment in US-based digital assets. Global regulators and market participants will watch closely for signals on how the US intends to police stablecoins and tokenized assets.",
+      "title": "Fiserv Unveils AgentOS to Orchestrate AI Agents Across Banking Workflows",
+      "body": "Fiserv launched AgentOS, an AI operating system that enables banks to deploy and manage AI agents for customer service, fraud detection, and compliance. Mid-tier and regional banks can now automate complex workflows and compete more effectively with digital-first challengers. Competing AI vendors and core banking providers must quickly expand their integration capabilities or risk losing contracts with banks seeking seamless AI deployment. Early adoption by regional banks will indicate whether AgentOS sets a new industry benchmark.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47760/us-banking-committee-advances-clarity-act-to-senate"
+        "url": "https://www.finextra.com/newsarticle/47762/fiserv-unveils-agentic-ai-operating-system"
       }
     },
     {
-      "title": "National Australia Bank Acquires Banked to Bolster A2A Payments",
-      "body": "National Australia Bank (NAB) has acquired Banked, a specialist in account-to-account (A2A) payments, to strengthen its digital payments infrastructure. This acquisition positions NAB to compete more aggressively with fintechs and global banks offering instant, low-cost payment rails. Banks and fintechs may pursue further M&A to secure technology and merchant relationships as A2A payments gain traction.",
+      "title": "Revolut Alumni Secure $6M to Build Palm-Scan Biometric Payments Startup",
+      "body": "A team of former Revolut employees raised $6 million to launch a palm-scan payment startup targeting biometric authentication at checkout. By bypassing cards and phones, the startup aims to streamline in-person payments and reduce fraud. Payment processors and POS vendors must update hardware and software to support palm biometrics as merchants begin pilot deployments. Large retailers and acquirers are expected to test the technology in the next phase.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47761/nab-buys-a2a-payments-platform-banked"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
+      }
+    },
+    {
+      "title": "OpenSea Bets on Tokenized Assets to Expand NFT Market Beyond Digital Art",
+      "body": "OpenSea\u2019s CMO predicts tokenized real-world assets\u2014such as Pok\u00e9mon cards and Rolex watches\u2014will drive the next wave of NFT adoption. OpenSea aims to attract collectors and investors from traditional markets by expanding NFT use cases beyond digital art. Competing NFT platforms and legacy collectibles marketplaces must launch tokenization features to retain relevance as mainstream brands and asset issuers explore NFT-based provenance and trading.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/401504/opensea-cmo-tokenized-pokemon-cards-rolexes-tickets-driving-next-nft-wave"
+      }
+    },
+    {
+      "title": "Visa and Western Union Expand Real-Time Cross-Border Payouts",
+      "body": "Visa and Western Union announced a partnership to enable real-time cross-border payouts to eligible Visa cards and accounts in 40 countries. This collaboration targets remittance flows and business payments, offering faster settlement and improved transparency. Banks and money transfer operators must accelerate their own real-time capabilities or risk losing market share to networks with global reach and instant settlement.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/visa-western-union-partner-real-time-cross-border-payouts-2024-06-04/"
       }
     }
   ],
-  "perspective": "Revolut\u2019s employee referral push and Bunq\u2019s Mexico license bid signal aggressive expansion tactics and rising competitive pressure in business banking and fintech.",
+  "perspective": "ChatGPT and Fiserv drive AI integration in finance, while Visa and Western Union expand real-time cross-border payouts.",
   "curiosity": {
-    "text": "In Mexico, over 60% of adults remain unbanked, making it a prime target for digital banks seeking rapid customer growth."
+    "text": "Despite the rise of instant payments, the ACH network still moves over $76 trillion annually in the US\u2014more than double the volume of all card networks combined."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Fasset",
-      "description": "Raised $51M for stablecoin-powered digital banking.",
-      "source_url": "https://www.finextra.com/newsarticle/47755/fasset-raises-51m-for-stablecoin-powered-digital-banking"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Equipifi",
-      "description": "Secured $34M to help banks embed BNPL solutions.",
-      "source_url": "https://www.finextra.com/pressarticle/109852/equipifi-secures-34m-to-help-banks-embed-bnpl"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Xpanner",
-      "description": "Raised $18M for 'Automation As A Service' in construction.",
-      "source_url": "https://news.crunchbase.com/real-estate-property-tech/xpanner-automation-as-a-service-for-construction-sites-startup-funding-physical-ai-robotics/"
-    },
-    {
       "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "product",
-      "company": "Adyen",
-      "description": "Collaborates with SAP on Unified Payments solution.",
-      "source_url": "https://www.finextra.com/pressarticle/109851/adyen-collaborates-sap-on-unified-payments-solution"
+      "type": "expansion",
+      "company": "Bunq",
+      "description": "Filed for Mexican banking license",
+      "source_url": "https://www.pymnts.com/news/banking/2026/bunq-accelerates-global-expansion-with-mexican-banking-license-bid/"
     },
     {
-      "flag": "\ud83c\udded\ud83c\uddf0",
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "financial milestone",
+      "company": "Klarna",
+      "description": "Broke even post-IPO",
+      "source_url": "https://www.finextra.com/newsarticle/47758/klarna-breaks-even-first-time-after-ipo-listing"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddfa",
       "type": "M&A",
-      "company": "OKX",
-      "description": "Set to acquire 20% stake in South Korean crypto exchange Coinone.",
-      "source_url": "https://www.theblock.co/post/401431/okx-coinone-acquisition"
+      "company": "NAB",
+      "description": "Acquired A2A payments platform Banked",
+      "source_url": "https://www.finextra.com/newsarticle/47761/nab-buys-a2a-payments-platform-banked"
     }
   ]
 }
