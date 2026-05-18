@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "ChatGPT Opens Financial Account Integration, Challenging Personal Finance Apps",
-      "body": "ChatGPT Pro users can now link their financial accounts to receive personalized finance insights, with a broader rollout planned. By offering conversational AI-driven money management, ChatGPT directly challenges personal finance apps like Mint and YNAB. Fintechs focused on budgeting and aggregation must rapidly enhance features or risk losing users to AI-native platforms. Banks face immediate decisions about granting or restricting API access to ChatGPT, which could shape the competitive landscape.",
+      "title": "Digital Wallets Surpass Cards as Preferred Payment for Digital Bank Users",
+      "body": "A PYMNTS Intelligence report finds that over 40% of digital bank users now prefer digital wallets over traditional cards. This marks a decisive shift toward mobile-first payments, with wallet providers like PayPal and Apple Pay gaining ground. Card issuers and payment processors face mounting pressure to adapt as banks and merchants accelerate wallet integrations and rethink loyalty strategies.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/chatgpt-connects-financial-accounts-to-deliver-personal-finance-insights/"
+        "url": "https://www.pymnts.com/news/payment-methods/2026/more-than-4-in-10-digital-bank-users-prefer-wallets-over-cards/"
       }
     },
     {
-      "title": "Fiserv Unveils AgentOS to Orchestrate AI Agents Across Banking Workflows",
-      "body": "Fiserv launched AgentOS, an AI operating system that enables banks to deploy and manage AI agents for customer service, fraud detection, and compliance. Mid-tier and regional banks can now automate complex workflows and compete more effectively with digital-first challengers. Competing AI vendors and core banking providers must quickly expand their integration capabilities or risk losing contracts with banks seeking seamless AI deployment. Early adoption by regional banks will indicate whether AgentOS sets a new industry benchmark.",
+      "title": "OpenAI Launches Plaid-Integrated Personal Finance Suite for ChatGPT Users",
+      "body": "OpenAI has released a personal finance suite that connects ChatGPT to users\u2019 financial accounts via Plaid, enabling conversational money management and analytics. This launch positions OpenAI as a direct competitor to fintech apps and banks\u2019 digital tools, raising the bar for AI-driven personal finance experiences. Fintechs and banks must now contend with a new layer of AI-powered engagement and increased regulatory scrutiny over data privacy.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47762/fiserv-unveils-agentic-ai-operating-system"
+        "url": "https://www.finextra.com/newsarticle/47767/openai-begins-roll-out-of-personal-finance-suite"
       }
     },
     {
-      "title": "Revolut Alumni Secure $6M to Build Palm-Scan Biometric Payments Startup",
-      "body": "A team of former Revolut employees raised $6 million to launch a palm-scan payment startup targeting biometric authentication at checkout. By bypassing cards and phones, the startup aims to streamline in-person payments and reduce fraud. Payment processors and POS vendors must update hardware and software to support palm biometrics as merchants begin pilot deployments. Large retailers and acquirers are expected to test the technology in the next phase.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
-      }
-    },
-    {
-      "title": "OpenSea Bets on Tokenized Assets to Expand NFT Market Beyond Digital Art",
-      "body": "OpenSea\u2019s CMO predicts tokenized real-world assets\u2014such as Pok\u00e9mon cards and Rolex watches\u2014will drive the next wave of NFT adoption. OpenSea aims to attract collectors and investors from traditional markets by expanding NFT use cases beyond digital art. Competing NFT platforms and legacy collectibles marketplaces must launch tokenization features to retain relevance as mainstream brands and asset issuers explore NFT-based provenance and trading.",
+      "title": "Tokenized Asset Adoption Accelerates Among Banks and Asset Managers",
+      "body": "Standard Chartered reports that banks and asset managers are ramping up tokenized asset initiatives, citing growing institutional interest and early-stage partnerships with DeFi platforms. The bank highlights a surge in pilot projects and regulatory engagement, reflecting a shift from experimentation to implementation in blockchain-based asset management.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/401504/opensea-cmo-tokenized-pokemon-cards-rolexes-tickets-driving-next-nft-wave"
+        "url": "https://www.theblock.co/post/401635/standard-chartered-projects-4t-in-tokenized-assets-by-end-2028-with-defi-protocols-primary-beneficiaries"
       }
     },
     {
-      "title": "Visa and Western Union Expand Real-Time Cross-Border Payouts",
-      "body": "Visa and Western Union announced a partnership to enable real-time cross-border payouts to eligible Visa cards and accounts in 40 countries. This collaboration targets remittance flows and business payments, offering faster settlement and improved transparency. Banks and money transfer operators must accelerate their own real-time capabilities or risk losing market share to networks with global reach and instant settlement.",
+      "title": "EU Data Rule Overhaul Forces Banks and Fintechs to Rethink AI Models",
+      "body": "The European Commission\u2019s Joint Research Centre has published new analysis on data rules, requiring banks and fintechs to adapt their AI and data-driven models. Stricter regulations could increase compliance costs and narrow the advantage of data-rich incumbents, while leveling the field for smaller fintechs. Firms reliant on AI must now prioritize data partnerships and ethical frameworks to stay competitive.",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/visa-western-union-partner-real-time-cross-border-payouts-2024-06-04/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/data/2026/banks-and-fintechs-watch-as-regulators-redraw-data-rules/"
+      }
+    },
+    {
+      "title": "Nationwide Adds Payment Message Blocking to Protect Abuse Survivors",
+      "body": "Nationwide has introduced a feature that lets abuse survivors block harmful payment messages, enhancing user safety and control within its banking app. This move sets a new standard for customer protection and may prompt other banks to implement similar safeguards. Regulatory bodies could soon encourage or require broader adoption of such features across the industry.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47766/nationwide-gives-abuse-survivors-the-power-to-block-harmful-payment-messages"
       }
     }
   ],
-  "perspective": "ChatGPT and Fiserv drive AI integration in finance, while Visa and Western Union expand real-time cross-border payouts.",
+  "perspective": "OpenAI\u2019s fintech push and Standard Chartered\u2019s blockchain activity highlight rapid shifts in digital finance and institutional innovation.",
   "curiosity": {
-    "text": "Despite the rise of instant payments, the ACH network still moves over $76 trillion annually in the US\u2014more than double the volume of all card networks combined."
+    "text": "In Sweden, the central bank found that by 2022, only 8% of all payments were made in cash, making it one of the world\u2019s most cashless societies."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "expansion",
-      "company": "Bunq",
-      "description": "Filed for Mexican banking license",
-      "source_url": "https://www.pymnts.com/news/banking/2026/bunq-accelerates-global-expansion-with-mexican-banking-license-bid/"
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "fundraising",
+      "company": "Digital Assets Clearing Center",
+      "description": "Secured $10 million investment for tokenized economy infrastructure.",
+      "source_url": "https://www.finextra.com/pressarticle/109865/digital-assets-clearing-center-secures-10-million-investment"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "financial milestone",
-      "company": "Klarna",
-      "description": "Broke even post-IPO",
-      "source_url": "https://www.finextra.com/newsarticle/47758/klarna-breaks-even-first-time-after-ipo-listing"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "AEON",
+      "description": "Raised $8 million to build AI agent settlement layer.",
+      "source_url": "https://www.theblock.co/post/401601/aeon-raises-8-million-yzi-labs"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddfa",
-      "type": "M&A",
-      "company": "NAB",
-      "description": "Acquired A2A payments platform Banked",
-      "source_url": "https://www.finextra.com/newsarticle/47761/nab-buys-a2a-payments-platform-banked"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Closed $95 million fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Revolut alumni",
+      "description": "Raised $6 million for palm-scan payments startup.",
+      "source_url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Capital B",
+      "description": "Raised $20 million, bought $15 million in bitcoin.",
+      "source_url": "https://www.theblock.co/post/401608/capital-b-192-btc"
     }
   ]
 }
