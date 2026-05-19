@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Digital Wallets Surpass Cards as Preferred Payment for Digital Bank Users",
-      "body": "A PYMNTS Intelligence report finds that over 40% of digital bank users now prefer digital wallets over traditional cards. This marks a decisive shift toward mobile-first payments, with wallet providers like PayPal and Apple Pay gaining ground. Card issuers and payment processors face mounting pressure to adapt as banks and merchants accelerate wallet integrations and rethink loyalty strategies.",
+      "title": "SEC Prepares Tokenized Stock Framework, Challenging Traditional Brokerage Models",
+      "body": "The SEC is developing a regulatory framework to permit trading of tokenized stocks, enabling digital versions of securities on U.S. markets. This move threatens the core business of traditional brokerages and stock exchanges by allowing fintechs and new platforms to offer fractionalized, programmable equities directly to investors, potentially reducing reliance on legacy intermediaries.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payment-methods/2026/more-than-4-in-10-digital-bank-users-prefer-wallets-over-cards/"
+        "url": "https://www.pymnts.com/blockchain/2026/sec-developing-framework-to-permit-tokenized-stocks/"
       }
     },
     {
-      "title": "OpenAI Launches Plaid-Integrated Personal Finance Suite for ChatGPT Users",
-      "body": "OpenAI has released a personal finance suite that connects ChatGPT to users\u2019 financial accounts via Plaid, enabling conversational money management and analytics. This launch positions OpenAI as a direct competitor to fintech apps and banks\u2019 digital tools, raising the bar for AI-driven personal finance experiences. Fintechs and banks must now contend with a new layer of AI-powered engagement and increased regulatory scrutiny over data privacy.",
+      "title": "Monzo\u2019s 44% Profit Surge Fuels Aggressive European Expansion Plans",
+      "body": "Monzo reported a 44% jump in profits to \u00a387.3 million, driven by rising customer numbers and revenue, and announced plans for further European expansion. This performance puts direct pressure on digital banking rivals like N26 and incumbent banks to accelerate product innovation and customer acquisition strategies as Monzo leverages its profitability to enter new EU markets.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47767/openai-begins-roll-out-of-personal-finance-suite"
+        "url": "https://www.finextra.com/newsarticle/47777/monzo-reports-bumper-jump-in-profits?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Tokenized Asset Adoption Accelerates Among Banks and Asset Managers",
-      "body": "Standard Chartered reports that banks and asset managers are ramping up tokenized asset initiatives, citing growing institutional interest and early-stage partnerships with DeFi platforms. The bank highlights a surge in pilot projects and regulatory engagement, reflecting a shift from experimentation to implementation in blockchain-based asset management.",
+      "title": "NMI Acquires Dwolla to Integrate Real-Time A2A and Open Banking Payments",
+      "body": "NMI has acquired Dwolla, bringing real-time account-to-account (A2A) payments and open banking connectivity into its platform. Payment service providers and merchants gain access to faster, lower-cost payment rails, while legacy processors such as FIS and Fiserv face new competition on speed and flexibility as platforms consolidate to offer end-to-end A2A and open banking solutions.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/acquisitions/2026/nmi-acquires-dwolla-to-strengthen-a2a-payment-offerings/"
+      }
+    },
+    {
+      "title": "Zerohash Secures First MiCA EMI License, Opening Regulated Stablecoin Services in Europe",
+      "body": "Zerohash Europe has become the first company to obtain an EMI license under the EU\u2019s MiCA regime, enabling it to offer regulated stablecoin and brokerage services. This milestone positions Zerohash ahead of digital asset competitors, and now crypto firms and fintechs seeking to serve European clients must pursue similar licenses to remain compliant and competitive as stablecoin adoption accelerates.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/401635/standard-chartered-projects-4t-in-tokenized-assets-by-end-2028-with-defi-protocols-primary-beneficiaries"
+        "url": "https://www.theblock.co/post/401741/zerohash-first-emi-license-mica-stablecoin-brokerage-services-europe?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "EU Data Rule Overhaul Forces Banks and Fintechs to Rethink AI Models",
-      "body": "The European Commission\u2019s Joint Research Centre has published new analysis on data rules, requiring banks and fintechs to adapt their AI and data-driven models. Stricter regulations could increase compliance costs and narrow the advantage of data-rich incumbents, while leveling the field for smaller fintechs. Firms reliant on AI must now prioritize data partnerships and ethical frameworks to stay competitive.",
+      "title": "Standard Chartered to Cut 7,800 Jobs as AI Automation Reshapes Banking Workforce",
+      "body": "Standard Chartered will eliminate 7,800 roles, replacing lower-value positions with AI-driven solutions to boost efficiency and long-term growth. This move intensifies pressure on global banks such as HSBC and Barclays to accelerate their own automation initiatives or risk falling behind on cost efficiency, as regulatory scrutiny over mass layoffs and AI deployment increases.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/data/2026/banks-and-fintechs-watch-as-regulators-redraw-data-rules/"
-      }
-    },
-    {
-      "title": "Nationwide Adds Payment Message Blocking to Protect Abuse Survivors",
-      "body": "Nationwide has introduced a feature that lets abuse survivors block harmful payment messages, enhancing user safety and control within its banking app. This move sets a new standard for customer protection and may prompt other banks to implement similar safeguards. Regulatory bodies could soon encourage or require broader adoption of such features across the industry.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47766/nationwide-gives-abuse-survivors-the-power-to-block-harmful-payment-messages"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/ff678495-2a99-4a70-a340-31c0f8094b4c?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
       }
     }
   ],
-  "perspective": "OpenAI\u2019s fintech push and Standard Chartered\u2019s blockchain activity highlight rapid shifts in digital finance and institutional innovation.",
+  "perspective": "SEC tokenized stock rules and Standard Chartered\u2019s AI layoffs signal a pivotal week for both U.S. market structure and global banking workforce strategies.",
   "curiosity": {
-    "text": "In Sweden, the central bank found that by 2022, only 8% of all payments were made in cash, making it one of the world\u2019s most cashless societies."
+    "text": "In 2019, Sweden\u2019s Riksbank piloted an e-krona, making it one of the first central banks to test a digital currency for retail payments."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Bunch",
+      "description": "AI-powered VC platform Bunch raises $35m Series B",
+      "source_url": "https://sifted.eu/articles/ai-platform-for-vcs-raises-35m/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Hancock Whitney",
+      "description": "Acquires One Florida Bank for $377.6M",
+      "source_url": "https://www.bankingdive.com/news/hancock-whitney-acquire-one-florida-bank-orlando-377-million/820496/"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "M&A",
+      "company": "Publicis",
+      "description": "Acquires AI data platform LiveRamp for $2.2B",
+      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/publicis-aims-to-create-smarter-ai-agents-with-2-billion-liveramp-deal/"
+    },
     {
       "flag": "\ud83c\udded\ud83c\uddf0",
       "type": "fundraising",
       "company": "Digital Assets Clearing Center",
-      "description": "Secured $10 million investment for tokenized economy infrastructure.",
-      "source_url": "https://www.finextra.com/pressarticle/109865/digital-assets-clearing-center-secures-10-million-investment"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "AEON",
-      "description": "Raised $8 million to build AI agent settlement layer.",
-      "source_url": "https://www.theblock.co/post/401601/aeon-raises-8-million-yzi-labs"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95 million fund for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Revolut alumni",
-      "description": "Raised $6 million for palm-scan payments startup.",
-      "source_url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
-    },
-    {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "fundraising",
-      "company": "Capital B",
-      "description": "Raised $20 million, bought $15 million in bitcoin.",
-      "source_url": "https://www.theblock.co/post/401608/capital-b-192-btc"
+      "description": "Secures $10M investment for tokenized economy infrastructure",
+      "source_url": "https://www.finextra.com/pressarticle/109865/digital-assets-clearing-center-secures-10-million-investment?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
