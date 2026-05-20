@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "SEC Prepares Tokenized Stock Framework, Challenging Traditional Brokerage Models",
-      "body": "The SEC is developing a regulatory framework to permit trading of tokenized stocks, enabling digital versions of securities on U.S. markets. This move threatens the core business of traditional brokerages and stock exchanges by allowing fintechs and new platforms to offer fractionalized, programmable equities directly to investors, potentially reducing reliance on legacy intermediaries.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/sec-developing-framework-to-permit-tokenized-stocks/"
-      }
-    },
-    {
-      "title": "Monzo\u2019s 44% Profit Surge Fuels Aggressive European Expansion Plans",
-      "body": "Monzo reported a 44% jump in profits to \u00a387.3 million, driven by rising customer numbers and revenue, and announced plans for further European expansion. This performance puts direct pressure on digital banking rivals like N26 and incumbent banks to accelerate product innovation and customer acquisition strategies as Monzo leverages its profitability to enter new EU markets.",
+      "title": "Primer Raises $100M to Expand AI-Driven Payment Automation for Merchants",
+      "body": "Primer has raised $100 million in Series C funding to embed AI throughout its payment processing platform, aiming to automate payment routing, fraud detection, and reconciliation for merchants. With this funding, Primer plans to launch new AI-powered products and pursue additional merchant partnerships, directly challenging established processors like Adyen and Stripe. Merchants could benefit from streamlined operations and improved payment acceptance as Primer accelerates its go-to-market strategy.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47777/monzo-reports-bumper-jump-in-profits?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47783/primer-raises-100-million-to-bring-ai-to-every-payment"
       }
     },
     {
-      "title": "NMI Acquires Dwolla to Integrate Real-Time A2A and Open Banking Payments",
-      "body": "NMI has acquired Dwolla, bringing real-time account-to-account (A2A) payments and open banking connectivity into its platform. Payment service providers and merchants gain access to faster, lower-cost payment rails, while legacy processors such as FIS and Fiserv face new competition on speed and flexibility as platforms consolidate to offer end-to-end A2A and open banking solutions.",
+      "title": "White House Pushes for Easier Fintech Access to Core Payment Systems",
+      "body": "The White House has urged federal agencies to review and potentially relax restrictions on fintechs accessing core payment rails such as ACH and FedNow. If regulators follow through, fintechs could gain direct connectivity to these systems, enabling them to compete more directly with banks for payments and deposits. This shift may prompt banks to innovate on customer experience and pricing as fintechs test pilot programs and new partnerships under revised rules.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/acquisitions/2026/nmi-acquires-dwolla-to-strengthen-a2a-payment-offerings/"
+        "url": "https://www.pymnts.com/news/regulation/2026/white-house-pushes-fintech-access-to-payment-rails/"
       }
     },
     {
-      "title": "Zerohash Secures First MiCA EMI License, Opening Regulated Stablecoin Services in Europe",
-      "body": "Zerohash Europe has become the first company to obtain an EMI license under the EU\u2019s MiCA regime, enabling it to offer regulated stablecoin and brokerage services. This milestone positions Zerohash ahead of digital asset competitors, and now crypto firms and fintechs seeking to serve European clients must pursue similar licenses to remain compliant and competitive as stablecoin adoption accelerates.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/401741/zerohash-first-emi-license-mica-stablecoin-brokerage-services-europe?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Standard Chartered to Cut 7,800 Jobs as AI Automation Reshapes Banking Workforce",
-      "body": "Standard Chartered will eliminate 7,800 roles, replacing lower-value positions with AI-driven solutions to boost efficiency and long-term growth. This move intensifies pressure on global banks such as HSBC and Barclays to accelerate their own automation initiatives or risk falling behind on cost efficiency, as regulatory scrutiny over mass layoffs and AI deployment increases.",
+      "title": "Euro Stablecoin Qivalis Gains Support From 37 European Banks",
+      "body": "Qivalis, a euro-pegged stablecoin, has secured backing from 37 banks across Europe, including 25 new partners, as the region seeks alternatives to dollar-backed digital assets. This level of bank participation gives Qivalis a strong foothold in shaping euro stablecoin standards and could enable European banks to offer faster, lower-cost cross-border payments to their customers. The move may also influence how regulators approach digital euro initiatives and private stablecoin coexistence.",
       "source": {
         "name": "Financial Times",
-        "url": "https://www.ft.com/content/ff678495-2a99-4a70-a340-31c0f8094b4c?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
+        "url": "https://www.ft.com/content/49d1dd42-2450-4f8e-bd4d-dcda5f1a6b01"
+      }
+    },
+    {
+      "title": "Visa and Mastercard Face New EU Antitrust Probe Over Cross-Border Fees",
+      "body": "The European Commission has launched a formal investigation into Visa and Mastercard\u2019s cross-border interchange fees for card payments within the European Economic Area. Regulators are examining whether the networks\u2019 fee structures restrict competition or inflate costs for merchants and consumers. Depending on the findings, Visa and Mastercard may need to adjust their pricing models or face potential fines, while merchants could see lower acceptance costs.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/eu-antitrust-regulators-investigate-visa-mastercard-over-cross-border-fees-2024-06-10/"
+      }
+    },
+    {
+      "title": "Revolut Launches Physical Crypto Debit Card for Everyday Spending",
+      "body": "Revolut has introduced its first physical crypto debit card, allowing users to spend cryptocurrencies directly at merchants. This move extends crypto\u2019s reach into daily commerce and challenges banks and fintechs to offer similar products to attract crypto-savvy consumers. Merchants accepting the card can tap into a growing base of digital asset holders, while regulators may increase oversight as crypto payments become more mainstream.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47781/revolut-rolls-out-crypto-debit-card"
       }
     }
   ],
-  "perspective": "SEC tokenized stock rules and Standard Chartered\u2019s AI layoffs signal a pivotal week for both U.S. market structure and global banking workforce strategies.",
+  "perspective": "Visa/Mastercard\u2019s EU probe and Primer\u2019s AI funding show how regulatory shifts and new tech are reshaping competition and access in payments.",
   "curiosity": {
-    "text": "In 2019, Sweden\u2019s Riksbank piloted an e-krona, making it one of the first central banks to test a digital currency for retail payments."
+    "text": "In 1950, the first universal credit card, Diners Club, was created after its founder forgot his wallet at a restaurant\u2014sparking the modern card payments industry."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "NMI",
+      "description": "Acquired Dwolla to enhance API transaction capabilities.",
+      "source_url": "https://www.finextra.com/newsarticle/47780/nmi-acquires-dwolla"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "type": "fundraising",
+      "company": "RemotePass",
+      "description": "Raised $17.4M Series B for payroll and spend platform.",
+      "source_url": "https://www.finextra.com/pressarticle/109890/uae-based-payroll-and-spend-platform-remotepass-raises-174-million"
+    },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Bunch",
-      "description": "AI-powered VC platform Bunch raises $35m Series B",
+      "description": "Raised $35M Series B for AI-powered VC platform.",
       "source_url": "https://sifted.eu/articles/ai-platform-for-vcs-raises-35m/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Hancock Whitney",
-      "description": "Acquires One Florida Bank for $377.6M",
-      "source_url": "https://www.bankingdive.com/news/hancock-whitney-acquire-one-florida-bank-orlando-377-million/820496/"
     },
     {
       "flag": "\ud83c\uddeb\ud83c\uddf7",
       "type": "M&A",
-      "company": "Publicis",
-      "description": "Acquires AI data platform LiveRamp for $2.2B",
-      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/publicis-aims-to-create-smarter-ai-agents-with-2-billion-liveramp-deal/"
-    },
-    {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "fundraising",
-      "company": "Digital Assets Clearing Center",
-      "description": "Secures $10M investment for tokenized economy infrastructure",
-      "source_url": "https://www.finextra.com/pressarticle/109865/digital-assets-clearing-center-secures-10-million-investment?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Zama",
+      "description": "Acquired TokenOps for encrypted token distributions.",
+      "source_url": "https://www.theblock.co/post/401974/zama-acquires-tokenops-to-deploy-encrypted-token-distributions-for-institutional-issuers"
     }
   ]
 }
