@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Trump Executive Order Pushes Fed to Open Payment Rails to Fintechs",
-      "body": "President Trump signed an executive order directing the Federal Reserve to consider granting fintechs direct access to core payment rails. This signals a potential shift in settlement infrastructure, as fintechs like Mercury and Stripe could bypass sponsor banks and connect directly to the Fed, challenging banks\u2019 longstanding gatekeeper role and potentially reshaping competition in real-time payments and account services.",
+      "title": "Mercury Raises $200M Series D, Hits $5.2B Valuation to Challenge Digital Banking Rivals",
+      "body": "Mercury secured $200 million in Series D funding, boosting its valuation to $5.2 billion\u2014up from $3.5 billion in 2025. The capital injection positions Mercury to expand its product suite and compete more aggressively with other digital banking startups. With fresh funding, Mercury is likely to accelerate customer acquisition and broaden its reach among SMEs and tech-forward businesses. Competitors like Brex and Ramp now face a more formidable challenger in the US digital banking space.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47789/trump-asks-fed-to-explore-giving-fintechs-access-to-payment-rails?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/"
       }
     },
     {
-      "title": "Mercury Raises $200M at $5.2B Valuation, Fueling Digital Banking Expansion",
-      "body": "Mercury secured $200 million in Series D funding, raising its valuation to $5.2 billion and reinforcing investor confidence in digital-first banking. The new capital enables Mercury to broaden its product suite and intensify competition with both neobanks and established banks serving startups and SMEs, as it targets new features and markets to capture a larger share of the digital banking sector.",
+      "title": "AllUnity to Launch First Swedish Krona-Backed Stablecoin, Targeting Nordic Payments",
+      "body": "German fintech AllUnity is preparing to launch the world\u2019s first Swedish krona-backed stablecoin, aiming to carve out a niche in currency-backed digital assets. This move challenges established stablecoins like USDC and PYUSD by offering a local-currency option for Nordic payments and settlements. Merchants and fintechs operating in Sweden gain a new tool for instant, programmable payments, while regulators may scrutinize the impact on monetary policy and AML compliance. The launch could spur other regional stablecoin initiatives across Europe.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47791/mercury-raises-200-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47790/allunity-preps-swedish-krona-backed-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Euro Stablecoin Consortium Qivalis Adds 25 Banks, Deepening Institutional Backing",
-      "body": "Qivalis, the euro stablecoin joint venture, expanded to 37 banks after onboarding 25 new institutions, including Deutsche Bank and Cr\u00e9dit Agricole. This surge in participation, driven by the EU\u2019s MiCA regulatory framework taking effect, reflects major European banks\u2019 urgency to offer digital settlement alternatives and signals growing institutional momentum behind regulated stablecoins.",
+      "title": "Centenary Group and Huawei Partner to Expand Rural Banking Access in Uganda",
+      "body": "Centenary Group and Huawei have joined forces to deploy AI and digital infrastructure for extending banking services to rural Ugandan communities. The partnership leverages Huawei\u2019s technology to drive financial inclusion, targeting populations underserved by traditional banks. This initiative could set a precedent for similar tech-finance collaborations across Africa, with local banks and telcos watching closely. Success here may prompt further investment in AI-driven financial access solutions on the continent.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47785/euro-stablecoin-joint-venture-qivalis-adds-25-new-banks?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47796/centenary-group-and-huawei-partner-for-banking-inclusion-project-in-uganda?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "JPMorgan Chase Enters German Market With Fee-Free Digital Bank",
-      "body": "JPMorgan Chase launched its digital retail bank in Germany, offering a fee-free savings account to attract local customers. This direct entry challenges German incumbents like Deutsche Bank and Commerzbank, who now face immediate pressure to defend market share by adjusting pricing and accelerating digital onboarding as global competitors expand in Europe\u2019s conservative banking landscape.",
+      "title": "Polymarket Seeks Regulatory Approval for Japan Launch Amid Rising Interest in Prediction Markets",
+      "body": "Polymarket is seeking regulatory authorization to launch its prediction markets platform in Japan, aiming to tap into Asia\u2019s growing appetite for alternative financial products. Entry into Japan would expand Polymarket\u2019s user base and challenge local prediction market operators. Japanese regulators will need to address compliance and consumer protection frameworks for this new asset class. The move signals rising global competition in regulated prediction and event-driven markets.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47787/chase-launches-digital-bank-in-germany?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/402309/polymarket-japan-market-entry?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Klarna Embeds Merchant Network Into ChatGPT for AI-Powered Shopping",
-      "body": "Klarna integrated its merchant network with OpenAI\u2019s ChatGPT, allowing users to discover and compare products through conversational AI. This partnership gives Klarna\u2019s retail partners a new customer acquisition channel and positions ChatGPT as a commerce gateway, prompting e-commerce platforms like Shopify and payment providers such as PayPal to respond as consumer discovery habits shift toward AI-powered interfaces.",
+      "title": "EBAday 2026 Fintech Zone Finalists Spotlight Europe\u2019s Next Payments Innovators",
+      "body": "EBAday 2026 has named 16 fintech finalists for its Fintech Zone in Copenhagen, highlighting startups pushing the boundaries of payments innovation in Europe. The event offers these companies a platform to pitch to banks, investors, and potential partners, accelerating their path to market. For incumbents and established PSPs, the showcase is a window into emerging competition and partnership opportunities. The finalists\u2019 solutions may shape the next wave of European payments infrastructure.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47794/klarna-plugs-merchant-network-into-chatgpt?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47774/ebaday-2026-fintech-zone-unveils-16-finalists-set-to-pitch-in-copenhagen?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Trump\u2019s Fed order and Klarna\u2019s ChatGPT integration highlight fintechs and banks racing to reshape access and discovery in payments and digital commerce.",
+  "perspective": "Mercury\u2019s funding and Polymarket\u2019s Japan ambitions show how capital and regulation are redrawing the competitive map in payments and fintech.",
   "curiosity": {
-    "text": "The Automated Clearing House (ACH) network, now processing over $70 trillion annually, was originally designed in the 1970s to reduce paper check volumes."
+    "text": "The first stablecoin, Tether (USDT), launched in 2014, was originally called Realcoin and aimed to bridge blockchain technology with traditional fiat currencies."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Mercury",
-      "description": "Raised $200M in Series D at $5.2B valuation",
-      "source_url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Primer",
-      "description": "Secured $100M Series C to integrate AI in payments",
-      "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
+      "company": "Sardine",
+      "description": "$25 million Series C extension led by National Bank of Canada",
+      "source_url": "https://www.finextra.com/newsarticle/47788/national-bank-of-canada-leads-25-million-series-c-extension-in-sardine?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "NMI",
-      "description": "Acquired Dwolla to enhance embedded payments",
-      "source_url": "https://www.finextra.com/newsarticle/47780/nmi-acquires-dwolla?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "MoonPay",
+      "description": "Acquired Decent, supporting MoonPay Trade",
+      "source_url": "https://www.theblock.co/post/402206/moonpay-announces-fourth-acquisition-of-the-year-with-decent-as-it-launches-moonpay-trade?utm_source=rss&utm_medium=rss"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "product",
-      "company": "AllUnity",
-      "description": "Launching Swedish krona-backed stablecoin",
-      "source_url": "https://www.finextra.com/newsarticle/47790/allunity-preps-swedish-krona-backed-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Coupa",
+      "description": "Acquired Tonkean to enhance AI spend management",
+      "source_url": "https://www.pymnts.com/acquisitions/2026/coupa-acquires-tonkean-to-expand-ai-spend-management/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Pivot",
+      "description": "Secured $40 million in Series B for AI procurement software",
+      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/pivot-secures-40-million-to-challenge-legacy-procurement-software/"
     }
   ]
 }
