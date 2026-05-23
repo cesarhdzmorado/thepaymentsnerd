@@ -1,78 +1,64 @@
 {
   "news": [
     {
-      "title": "Mercury Raises $200M Series D, Hits $5.2B Valuation to Challenge Digital Banking Rivals",
-      "body": "Mercury secured $200 million in Series D funding, boosting its valuation to $5.2 billion\u2014up from $3.5 billion in 2025. The capital injection positions Mercury to expand its product suite and compete more aggressively with other digital banking startups. With fresh funding, Mercury is likely to accelerate customer acquisition and broaden its reach among SMEs and tech-forward businesses. Competitors like Brex and Ramp now face a more formidable challenger in the US digital banking space.",
+      "title": "FDIC Proposes Bank Secrecy Act Compliance for Stablecoin Issuers, Raising Bar for Entry",
+      "body": "The FDIC Board proposed a rule that requires stablecoin issuers to comply with Bank Secrecy Act standards, focusing on anti-money laundering and counter-terrorism financing. This move places stablecoin issuers under the same regulatory scrutiny as traditional banks, increasing compliance costs but enhancing legitimacy for institutional partners. Circle, PayPal, and bank-issued stablecoins must now adapt their compliance frameworks to meet these new requirements.",
       "source": {
-        "name": "Crunchbase News",
-        "url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/regulation/2026/fdic-establishes-bank-secrecy-act-standards-for-stablecoin-issuers/"
       }
     },
     {
-      "title": "AllUnity to Launch First Swedish Krona-Backed Stablecoin, Targeting Nordic Payments",
-      "body": "German fintech AllUnity is preparing to launch the world\u2019s first Swedish krona-backed stablecoin, aiming to carve out a niche in currency-backed digital assets. This move challenges established stablecoins like USDC and PYUSD by offering a local-currency option for Nordic payments and settlements. Merchants and fintechs operating in Sweden gain a new tool for instant, programmable payments, while regulators may scrutinize the impact on monetary policy and AML compliance. The launch could spur other regional stablecoin initiatives across Europe.",
+      "title": "OpenAI and MoonPay Bring Crypto Purchases Directly Into ChatGPT Interface",
+      "body": "MoonPay integrated with ChatGPT's App Store, enabling users to buy cryptocurrencies without leaving the chat environment. This partnership expands ChatGPT\u2019s utility and positions MoonPay to capture new retail crypto flows, challenging exchanges that lack embedded conversational experiences. Competing crypto platforms may accelerate integrations with popular consumer apps to avoid losing share.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/openai-and-moonpay-let-chatgpt-users-buy-crypto-without-leaving-chats/"
+      }
+    },
+    {
+      "title": "Wealthtech Farther Raises $150M to Expand Digital Wealth Management Platform",
+      "body": "Farther secured $150 million in Series D funding led by General Atlantic, pushing its valuation past $1 billion. The capital will fuel product expansion and geographic growth, intensifying competition among digital-first wealth management platforms. Incumbent wealth managers now face a more aggressive tech-native rival with fresh resources, as digital transformation in financial services accelerates.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47790/allunity-preps-swedish-krona-backed-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47800/wealthtech-farther-raises-150m"
       }
     },
     {
-      "title": "Centenary Group and Huawei Partner to Expand Rural Banking Access in Uganda",
-      "body": "Centenary Group and Huawei have joined forces to deploy AI and digital infrastructure for extending banking services to rural Ugandan communities. The partnership leverages Huawei\u2019s technology to drive financial inclusion, targeting populations underserved by traditional banks. This initiative could set a precedent for similar tech-finance collaborations across Africa, with local banks and telcos watching closely. Success here may prompt further investment in AI-driven financial access solutions on the continent.",
+      "title": "SoFi Acquires Lending Tech Platform Peach to Deepen Lending Stack",
+      "body": "SoFi acquired Peach, a lending technology platform, marking its second acquisition in recent weeks to strengthen its lending infrastructure. The deal enables SoFi to offer more comprehensive and flexible lending solutions, raising the bar for digital lenders and neobanks. Competitors may need to accelerate their own tech stack upgrades or pursue M&A to keep pace.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47796/centenary-group-and-huawei-partner-for-banking-inclusion-project-in-uganda?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47799/sofi-buys-lending-tech-platform-peach"
       }
     },
     {
-      "title": "Polymarket Seeks Regulatory Approval for Japan Launch Amid Rising Interest in Prediction Markets",
-      "body": "Polymarket is seeking regulatory authorization to launch its prediction markets platform in Japan, aiming to tap into Asia\u2019s growing appetite for alternative financial products. Entry into Japan would expand Polymarket\u2019s user base and challenge local prediction market operators. Japanese regulators will need to address compliance and consumer protection frameworks for this new asset class. The move signals rising global competition in regulated prediction and event-driven markets.",
+      "title": "Mastercard and Ryd Launch Digital Fleet Payment System Across Europe",
+      "body": "Mastercard and ryd rolled out a digital-first payment system for fleet management in Europe, offering enhanced control and security for fleet operators. This partnership strengthens Mastercard\u2019s position in the fragmented fleet payments market and challenges other providers to match digital capabilities. Processors and banks serving commercial fleets may need to accelerate their own digital offerings.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/402309/polymarket-japan-market-entry?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "EBAday 2026 Fintech Zone Finalists Spotlight Europe\u2019s Next Payments Innovators",
-      "body": "EBAday 2026 has named 16 fintech finalists for its Fintech Zone in Copenhagen, highlighting startups pushing the boundaries of payments innovation in Europe. The event offers these companies a platform to pitch to banks, investors, and potential partners, accelerating their path to market. For incumbents and established PSPs, the showcase is a window into emerging competition and partnership opportunities. The finalists\u2019 solutions may shape the next wave of European payments infrastructure.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47774/ebaday-2026-fintech-zone-unveils-16-finalists-set-to-pitch-in-copenhagen?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/transportation/2026/mastercard-and-ryd-target-fragmented-european-fleet-payments-market/"
       }
     }
   ],
-  "perspective": "Mercury\u2019s funding and Polymarket\u2019s Japan ambitions show how capital and regulation are redrawing the competitive map in payments and fintech.",
+  "perspective": "FDIC stablecoin rules and SoFi\u2019s Peach acquisition highlight regulatory and competitive shifts for Circle, PayPal, and digital lenders.",
   "curiosity": {
-    "text": "The first stablecoin, Tether (USDT), launched in 2014, was originally called Realcoin and aimed to bridge blockchain technology with traditional fiat currencies."
+    "text": "The first recorded use of a vending machine dates back to ancient Alexandria, where Hero of Alexandria invented a device that dispensed holy water when a coin was inserted."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Sardine",
-      "description": "$25 million Series C extension led by National Bank of Canada",
-      "source_url": "https://www.finextra.com/newsarticle/47788/national-bank-of-canada-leads-25-million-series-c-extension-in-sardine?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "MoonPay",
-      "description": "Acquired Decent, supporting MoonPay Trade",
-      "source_url": "https://www.theblock.co/post/402206/moonpay-announces-fourth-acquisition-of-the-year-with-decent-as-it-launches-moonpay-trade?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Coupa",
-      "description": "Acquired Tonkean to enhance AI spend management",
-      "source_url": "https://www.pymnts.com/acquisitions/2026/coupa-acquires-tonkean-to-expand-ai-spend-management/"
+      "company": "Primer",
+      "description": "Raised $100M in Series C funding.",
+      "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Pivot",
-      "description": "Secured $40 million in Series B for AI procurement software",
-      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/pivot-secures-40-million-to-challenge-legacy-procurement-software/"
+      "company": "Squid",
+      "description": "Secured $6M investment from Ripple and North Island Ventures.",
+      "source_url": "https://www.theblock.co/post/402394/ripple-north-island-ventures-squid-crypto-funding"
     }
   ]
 }
