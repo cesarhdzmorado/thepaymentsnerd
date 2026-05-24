@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "FDIC Proposes Bank Secrecy Act Compliance for Stablecoin Issuers, Raising Bar for Entry",
-      "body": "The FDIC Board proposed a rule that requires stablecoin issuers to comply with Bank Secrecy Act standards, focusing on anti-money laundering and counter-terrorism financing. This move places stablecoin issuers under the same regulatory scrutiny as traditional banks, increasing compliance costs but enhancing legitimacy for institutional partners. Circle, PayPal, and bank-issued stablecoins must now adapt their compliance frameworks to meet these new requirements.",
+      "title": "ECB Warns EU Ministers That Looser Stablecoin Rules Threaten Bank Funding",
+      "body": "ECB President Christine Lagarde cautioned EU finance ministers that relaxing stablecoin regulations could undermine bank funding stability. Stricter oversight may limit stablecoin adoption by fintechs and crypto platforms operating in the EU. Fintechs relying on euro-denominated stablecoins now face higher compliance hurdles and slower rollout timelines. Lobbying efforts and potential regulatory amendments are expected as MiCA enforcement ramps up.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/regulation/2026/fdic-establishes-bank-secrecy-act-standards-for-stablecoin-issuers/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/402427/ecb-warns-eu-finance-ministers-that-easing-euro-stablecoin-rules-would-weaken-banks-reuters"
       }
     },
     {
-      "title": "OpenAI and MoonPay Bring Crypto Purchases Directly Into ChatGPT Interface",
-      "body": "MoonPay integrated with ChatGPT's App Store, enabling users to buy cryptocurrencies without leaving the chat environment. This partnership expands ChatGPT\u2019s utility and positions MoonPay to capture new retail crypto flows, challenging exchanges that lack embedded conversational experiences. Competing crypto platforms may accelerate integrations with popular consumer apps to avoid losing share.",
+      "title": "Ripple and North Island Ventures Lead $6M Funding for Cross-Chain Startup Squid",
+      "body": "Ripple and North Island Ventures invested $6 million in Squid, a platform focused on simplifying cross-chain crypto asset management. The funding positions Squid to accelerate product development and challenge established cross-chain solutions. Competing platforms may see increased pressure to improve interoperability and user experience. Squid\u2019s upcoming launch will test demand for unified crypto management tools among institutional and retail users.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/openai-and-moonpay-let-chatgpt-users-buy-crypto-without-leaving-chats/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/402394/ripple-north-island-ventures-squid-crypto-funding"
       }
     },
     {
-      "title": "Wealthtech Farther Raises $150M to Expand Digital Wealth Management Platform",
-      "body": "Farther secured $150 million in Series D funding led by General Atlantic, pushing its valuation past $1 billion. The capital will fuel product expansion and geographic growth, intensifying competition among digital-first wealth management platforms. Incumbent wealth managers now face a more aggressive tech-native rival with fresh resources, as digital transformation in financial services accelerates.",
+      "title": "Mastercard Seeks Cost-Sharing From Brazilian Processors After Banco Master Collapse",
+      "body": "Mastercard is pressing Brazilian payment processors to absorb part of the $997 million losses tied to Banco Master\u2019s failure. This demand could strain processor-scheme relationships and alter future risk-sharing agreements in Brazil\u2019s payments ecosystem. Local processors now face unexpected financial exposure and may renegotiate contract terms or seek regulatory intervention. The episode spotlights the fragility of risk allocation in emerging market payment networks.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/mastercard/2026/mastercard-pushes-brazilian-processors-to-split-banco-master-losses/"
+      }
+    },
+    {
+      "title": "TBC Georgia Integrates Crypto Trading Directly Into Its Digital Banking App",
+      "body": "TBC Georgia has added cryptocurrency trading to its digital banking app, expanding beyond traditional banking services. This move gives customers direct access to crypto markets and sets a new competitive bar for Georgian banks. Rival banks may need to accelerate digital asset integrations or risk losing tech-savvy customers. Regulatory scrutiny is likely as crypto adoption grows within mainstream banking channels.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47800/wealthtech-farther-raises-150m"
+        "url": "https://www.finextra.com/pressarticle/109929/tbc-georgia-adds-crypto-trading-to-banking-app"
       }
     },
     {
-      "title": "SoFi Acquires Lending Tech Platform Peach to Deepen Lending Stack",
-      "body": "SoFi acquired Peach, a lending technology platform, marking its second acquisition in recent weeks to strengthen its lending infrastructure. The deal enables SoFi to offer more comprehensive and flexible lending solutions, raising the bar for digital lenders and neobanks. Competitors may need to accelerate their own tech stack upgrades or pursue M&A to keep pace.",
+      "title": "Raqami Becomes Pakistan\u2019s First Fully Digital Shariah-Compliant Retail Bank",
+      "body": "Raqami Islamic Digital Bank secured a Digital Retail Banking License from the State Bank of Pakistan, marking the country\u2019s first fully digital Shariah-compliant retail bank. Raqami\u2019s launch challenges incumbent banks to upgrade digital offerings and target underserved segments. The move could accelerate digital banking adoption and reshape competitive dynamics in Pakistan\u2019s financial sector. Incumbents may respond with new digital products or partnerships to defend market share.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47799/sofi-buys-lending-tech-platform-peach"
-      }
-    },
-    {
-      "title": "Mastercard and Ryd Launch Digital Fleet Payment System Across Europe",
-      "body": "Mastercard and ryd rolled out a digital-first payment system for fleet management in Europe, offering enhanced control and security for fleet operators. This partnership strengthens Mastercard\u2019s position in the fragmented fleet payments market and challenges other providers to match digital capabilities. Processors and banks serving commercial fleets may need to accelerate their own digital offerings.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/transportation/2026/mastercard-and-ryd-target-fragmented-european-fleet-payments-market/"
+        "url": "https://www.finextra.com/pressarticle/109930/raqami-islamic-digital-bank-granted-commercial-license-by-state-bank-of-pakistan"
       }
     }
   ],
-  "perspective": "FDIC stablecoin rules and SoFi\u2019s Peach acquisition highlight regulatory and competitive shifts for Circle, PayPal, and digital lenders.",
+  "perspective": "ECB\u2019s stablecoin warning and Mastercard\u2019s Brazil dispute signal shifting regulatory and risk dynamics for banks, fintechs, and payment processors.",
   "curiosity": {
-    "text": "The first recorded use of a vending machine dates back to ancient Alexandria, where Hero of Alexandria invented a device that dispensed holy water when a coin was inserted."
+    "text": "The first U.S. ATM to use a debit card debuted in California in 1985, surprising many with its self-service banking innovation."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Farther",
+      "description": "Raised $150M in Series D, achieving unicorn status.",
+      "source_url": "https://www.finextra.com/newsarticle/47800/wealthtech-farther-raises-150m"
+    },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Primer",
-      "description": "Raised $100M in Series C funding.",
+      "description": "Raised $100M in Series C funding round.",
       "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Squid",
-      "description": "Secured $6M investment from Ripple and North Island Ventures.",
-      "source_url": "https://www.theblock.co/post/402394/ripple-north-island-ventures-squid-crypto-funding"
+      "type": "M&A",
+      "company": "SoFi",
+      "description": "Acquired lending technology platform Peach.",
+      "source_url": "https://www.finextra.com/newsarticle/47799/sofi-buys-lending-tech-platform-peach"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "product",
+      "company": "Ryd",
+      "description": "Launched digital fleet payment system with Mastercard.",
+      "source_url": "https://www.pymnts.com/transportation/2026/mastercard-and-ryd-target-fragmented-european-fleet-payments-market/"
     }
   ]
 }
