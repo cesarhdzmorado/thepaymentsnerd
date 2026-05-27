@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Italian State-Backed Bank Explores Larger Nexi Stake as CVC Considers \u20ac9B Bid",
-      "body": "Cassa Depositi e Prestiti is reportedly considering increasing its stake in Nexi, while CVC Capital Partners weighs a potential \u20ac9 billion acquisition. The prospect of greater state ownership could make Nexi less attractive to private equity buyers and reinforce its position in European payments consolidation. Regulatory authorities are likely to examine the implications of increased state influence on competition and market dynamics.",
+      "title": "Google Pay Rolls Out Express Checkout for Android Apps, Targeting Wallet Dominance",
+      "body": "Google has launched Express checkout for Android apps, letting developers tap into users\u2019 Google Wallet credentials for one-click payments and autofill. This move streamlines in-app purchases and intensifies competition with PayPal and Apple Pay, especially as guest checkout use declines. Merchants on Android now have a frictionless path to higher conversion, while PayPal and Apple must accelerate wallet innovation or risk losing share.",
       "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/338792ab-878e-4d6f-afda-38cd285158d7?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/google/2026/google-brings-one-click-checkout-to-android-apps/"
       }
     },
     {
-      "title": "Tether and Georgian Government Partner to Launch GELT Stablecoin for Cross-Border Payments",
-      "body": "Tether will issue GELT, a stablecoin backed by the Georgian lari, in partnership with Georgia\u2019s government to support cross-border commerce. By collaborating directly with a national government, Tether aims to establish regulatory credibility as stablecoin oversight increases in the US and EU. Competing stablecoin issuers and banks must now respond to Tether\u2019s move into government-backed digital currency initiatives.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/402453/tether-gelt-stablecoin-georgian-lari?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Stablecoin Settlement Pressures Payment Service Providers to Accelerate Integration",
-      "body": "Payment service providers are being urged to integrate stablecoin settlement as it becomes a core component of payment infrastructure. Those slow to adopt risk losing business to rivals already piloting stablecoin-based B2B and cross-border flows. PSPs must now prioritize onboarding stablecoin rails and deepen regulatory engagement to maintain relevance.",
+      "title": "Tether to Issue Government-Backed GEL\u20be Stablecoin for Georgia\u2019s National Payments",
+      "body": "Tether has been commissioned by Georgia\u2019s government to develop GEL\u20be, a stablecoin pegged to the Georgian Lari, aiming to modernize the country\u2019s payments infrastructure. This marks a rare case of a government directly partnering with a private stablecoin issuer for national currency digitization. If successful, Georgia could become a model for other countries considering public-private stablecoin projects.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/event-info/613/stablecoin-settlement-why-psps-cant-afford-to-delay?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47808/tether-to-build-national-stablecoin-for-georgian-government"
       }
     },
     {
-      "title": "Primer Raises $100M Series C to Expand Platform and Challenge Stripe, Adyen on Pricing and Features",
-      "body": "Primer\u2019s $100 million Series C will fund new product features and potential acquisitions, enabling it to compete with Stripe and Adyen through aggressive pricing and expanded platform capabilities. Merchants and fintechs may benefit from greater choice and negotiating power as Primer ramps up its offerings.",
+      "title": "Circle and Nium Connect USDC to Global Payout Rails in 190 Countries",
+      "body": "Circle and Nium have partnered to enable USDC stablecoin settlements across Nium\u2019s global payout network, spanning 190 countries and 100 currencies. This integration positions USDC as a mainstream option for cross-border settlements, challenging banks and legacy processors on speed and cost. Payment processors and fintechs now face a new baseline for global treasury and payout solutions.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/402726/circle-partners-with-nium-to-connect-usdc-settlement-to-global-payout-rails"
       }
     },
     {
-      "title": "Visa and Mastercard Face New UK Probe Over Cross-Border Card Fees",
-      "body": "The UK\u2019s Payment Systems Regulator has launched a formal investigation into cross-border interchange fees charged by Visa and Mastercard. The probe will assess whether fee increases since Brexit are justified and if they harm UK merchants. Card networks could face regulatory action or mandated fee reductions depending on the findings.",
+      "title": "Riverty Secures EU Banking License, Expanding Fintech Competition in Luxembourg",
+      "body": "Riverty, a Bertelsmann-backed fintech, has obtained an EU banking license and launched operations in Luxembourg. This move lets Riverty offer regulated financial services, putting it in direct competition with both incumbent banks and fintechs seeking full-stack capabilities. The entry of a media-backed player into licensed banking signals new cross-industry competition for digital challengers and traditional banks.",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/uk-watchdog-opens-formal-probe-visa-mastercard-cross-border-fees-2024-06-21/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47815/german-media-giant-bertelsmann-scores-banking-licence"
+      }
+    },
+    {
+      "title": "Scapia Raises $63M to Expand Travel-Fintech Platform and Co-Branded Credit Cards",
+      "body": "Indian fintech Scapia has raised $63 million led by General Catalyst to scale its travel booking and co-branded credit card offerings. The funding enables Scapia to deepen its integration of travel and payments, directly challenging established travel agencies and card issuers in India\u2019s fast-growing market. Scapia\u2019s expansion could accelerate the adoption of bundled travel and financial services among Indian consumers.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47810/indian-travel-fintech-scapia-raises-63m"
       }
     }
   ],
-  "perspective": "Tether\u2019s government-backed GELT launch and the UK\u2019s probe of Visa and Mastercard highlight shifting alliances and regulatory scrutiny in payments.",
+  "perspective": "Google Pay\u2019s express checkout and Tether\u2019s GEL\u20be stablecoin for Georgia show how tech giants and governments are reshaping digital payments infrastructure.",
   "curiosity": {
-    "text": "The first credit card transaction took place in 1950 at a New York City restaurant, launching the Diners Club card and the modern card payments era."
+    "text": "In 1983, Citibank introduced the first electronic funds transfer (EFT) system in the U.S., enabling consumers to access accounts and conduct ATM transactions nationwide."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Mercury",
-      "description": "Raised $200M at $5.2B valuation.",
-      "source_url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/"
+      "company": "Catena Labs",
+      "description": "raises $30M for agentic finance startup",
+      "source_url": "https://www.finextra.com/newsarticle/47809/circle-co-founder-raises-30m-for-agentic-finance-startup-catena"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "bankruptcy",
-      "company": "Bitcoin Depot",
-      "description": "Filed for bankruptcy amid crypto ATM shutdowns.",
-      "source_url": "https://www.bankingdive.com/news/bitcoin-depot-bankruptcy-chapter-11-atm-wind-down/820755/"
+      "type": "fundraising",
+      "company": "Relay",
+      "description": "secured $50M for SME banking platform",
+      "source_url": "https://www.finextra.com/newsarticle/47806/sme-banking-platform-relay-raises-50m"
     },
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "TD Bank",
-      "description": "Launched AI model to speed up mortgage applications.",
-      "source_url": "https://www.finextra.com/newsarticle/47801/td-builds-ai-model-to-speed-up-mortgage-applications?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "SoFi",
+      "description": "launched SoFiUSD stablecoin for app users",
+      "source_url": "https://www.theblock.co/post/402361/sofi-rolls-out-sofiusd-stablecoin-to-banking-app-users"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "partnership",
+      "company": "BNP Paribas",
+      "description": "partnered with Mistral AI for cybersecurity",
+      "source_url": "https://www.finextra.com/newsarticle/47813/bnp-paribas-partners-mistral-to-strengthen-ai-defences"
     }
   ]
 }
