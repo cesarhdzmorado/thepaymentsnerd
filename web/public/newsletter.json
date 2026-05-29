@@ -1,92 +1,78 @@
 {
   "news": [
     {
-      "title": "Cash App Rolls Out USDC Stablecoin Transfers to 59 Million Monthly Users",
-      "body": "Cash App has enabled USDC stablecoin transactions for its 59 million monthly users, integrating crypto payments directly into its core app. Cash App's move attracts crypto-native consumers and intensifies competition with PayPal and Venmo, both of which have expanded stablecoin support. Merchants and users now access a mainstream channel for stablecoin payments, which could accelerate USDC adoption in peer-to-peer and cross-border flows.",
+      "title": "ClearBank Launches 24/7 Digital Asset Rails for SEPA Instant Cross-Border Settlement",
+      "body": "ClearBank has launched Digital Asset Rails, enabling programmable liquidity and 24/7 EUR payouts via SEPA Instant for cross-border settlement. This service gives fintechs and payment service providers (PSPs) faster, always-on settlement, directly challenging legacy correspondent banks. Major European banks that rely on traditional cross-border infrastructure may need to rapidly upgrade their digital asset capabilities to retain high-value business clients seeking real-time settlement.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47821/cash-app-opens-up-for-stablecoin-transactions?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109974/clearbank-launches-digital-asset-rails"
       }
     },
     {
-      "title": "Mastercard Wins New York BitLicense, Expanding Stablecoin and Digital Currency Services",
-      "body": "Mastercard Transaction Services has secured a BitLicense from the New York State Department of Financial Services, clearing the way to support stablecoins and other digital currencies. This regulatory approval enables Mastercard to integrate digital assets into its global payments network, setting a compliance benchmark for other processors. Visa and Stripe may now seek similar regulatory approvals to ensure their digital currency offerings remain competitive in enterprise payments.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47818/mastercard-secures-new-york-bitlicense?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "United Texas Bank Secures National Charter to Bridge Crypto and Traditional Banking",
-      "body": "United Texas Bank has received OCC approval for a national bank charter, aiming to serve as a bridge between the crypto sector and traditional finance. United Texas Bank aims to facilitate crypto-to-fiat transactions at scale, challenging both incumbent banks and fintechs in the race to serve institutional crypto flows. Other regional banks may now pursue similar charters to capture new revenue from digital asset custody and settlement.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/united-texas-bank-becomes-nationally-chartered-to-serve-crypto-industry/"
-      }
-    },
-    {
-      "title": "Robinhood Launches AI Agents for Automated Trades and Card Purchases",
-      "body": "Robinhood has introduced AI agents that allow customers to automate trades and credit card purchases, embedding AI-driven decision-making into personal finance. This feature aims to boost user engagement and operational efficiency, raising the bar for automation in trading and neobank platforms. Competing fintechs will need to launch their own AI-powered automation features or risk losing tech-forward customers to Robinhood\u2019s ecosystem.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47817/robinhood-customers-can-now-let-ai-agents-make-trades-and-credit-card-purchases?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Samsung Invests $408 Million in Upbit Operator Dunamu to Deepen Digital Asset Push",
-      "body": "Samsung units are acquiring a $408 million stake in Dunamu, the operator of South Korea\u2019s leading crypto exchange Upbit, signaling a major corporate bet on digital assets. This investment strengthens Samsung\u2019s foothold in the digital asset ecosystem and could prompt other tech giants, such as Apple or Google, to pursue direct investments or partnerships with crypto exchanges. The move also raises the stakes for local banks and fintechs as big tech asserts itself in digital finance.",
+      "title": "Aave Labs Gains FCA Crypto Licenses, Unlocks Zero-Fee Fiat On-Ramps in UK",
+      "body": "Aave Labs secured FCA cryptoasset registration, allowing its Push subsidiaries to offer zero-fee fiat on-ramps in the UK. This positions Aave as a regulated crypto payments provider, intensifying competition for UK fintechs and neobanks that lack similar licenses. Competitors may accelerate their FCA registration efforts to maintain market relevance, while the UK strengthens its appeal as a hub for regulated digital asset services.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/402838/samsung-upbit-dunamu?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary"
+      }
+    },
+    {
+      "title": "TrueLayer Acquires In3 to Expand Pay by Bank Credit at Checkout",
+      "body": "TrueLayer has acquired Dutch fintech In3, integrating consumer credit via bank payments into its Pay by Bank network. This move expands TrueLayer\u2019s European reach and introduces direct competition to buy now, pay later (BNPL) and card-based credit at checkout. BNPL providers like Klarna and Affirm now face new competition from open banking-powered credit, signaling further consolidation as fintechs combine payments and lending.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109975/truelayer-buys-fintech-in3-offering-users-debit-and-credit-at-checkout"
+      }
+    },
+    {
+      "title": "SoFi Launches Bank-Issued USD Stablecoin, Expanding Digital Asset Banking",
+      "body": "SoFi has introduced SoFiUSD, a bank-issued USD stablecoin, enabling users to buy, sell, hold, and convert stablecoins within its app. This launch puts SoFi ahead of most US digital banks in stablecoin integration, targeting crypto-interested consumers and depositors. US banks and neobanks now face immediate competitive pressure to add stablecoin features or risk losing digital wallet users to SoFi\u2019s expanded offering.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/109957/sofi-adds-usd-stablecoin-to-banking-app"
+      }
+    },
+    {
+      "title": "BIS Project Agora Prototypes Tokenised Wholesale Cross-Border Payments",
+      "body": "The BIS\u2019s Project Agora has unveiled a prototype for programmable, tokenised wholesale cross-border payments, demonstrating efficiency gains over legacy systems. Central banks and global banks now have a working model for tokenised settlement, prompting payment processors and correspondent banks to assess tokenisation strategies as pilots move toward production. Regulatory frameworks for tokenised payments are expected to develop rapidly in response to these advances.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47828/project-agora-announces-findings-for-tokenised-wholesale-cross-border-payments"
       }
     }
   ],
-  "perspective": "Cash App and Samsung headline a week of major payments players deepening their digital asset strategies.",
+  "perspective": "ClearBank and SoFi drive digital asset innovation as Aave Labs and BIS Project Agora accelerate regulated crypto and tokenised payments adoption.",
   "curiosity": {
-    "text": "Despite the hype, only about 2% of global retail payments currently use stablecoins, highlighting the early stage of mainstream crypto adoption."
+    "text": "In 2023, over 60% of Europeans reported using instant payments at least once a month, a rapid shift driven by SEPA Instant and open banking adoption."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Scapia",
-      "description": "Raised $63 million in funding round led by General Catalyst.",
-      "source_url": "https://www.finextra.com/newsarticle/47810/indian-travel-fintech-scapia-raises-63m?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Anthropic",
+      "description": "Raised $65B in Series H, valued at $965B.",
+      "source_url": "https://news.crunchbase.com/ai/anthropic-nears-1t-valuation-65b-seriesh/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Capchase",
-      "description": "Secured $200M in debt and equity for B2B financing.",
+      "description": "Secured $200M in debt and equity.",
       "source_url": "https://news.crunchbase.com/venture/fintech-capchase-b2b-bnpl-200m-debt-equity/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Circle Co-Founder",
-      "description": "Raised $30M for agentic finance startup Catena.",
-      "source_url": "https://www.finextra.com/newsarticle/47809/circle-co-founder-raises-30m-for-agentic-finance-startup-catena?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "M&A",
+      "company": "OKX",
+      "description": "Invested $53M for 20% stake in Coinone.",
+      "source_url": "https://www.theblock.co/post/402969/okx-confirms-53-million-coinone"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Temple Digital Group",
-      "description": "Received investment from SBI Holdings for blockchain trading infrastructure.",
-      "source_url": "https://www.finextra.com/newsarticle/47816/sbi-group-invests-in-temple-digital?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Fold",
-      "description": "Rolled out bitcoin rewards credit card.",
-      "source_url": "https://www.finextra.com/pressarticle/109971/fold-rolls-out-bitcoin-rewards-credit-card?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
-      "type": "partnership",
-      "company": "Nium",
-      "description": "Joined Circle Payments network for stablecoin settlement.",
-      "source_url": "https://www.finextra.com/pressarticle/109961/nium-joins-circle-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Daloopa",
+      "description": "Raised $47M in Series C.",
+      "source_url": "https://www.finextra.com/newsarticle/47823/daloopa-raises-47m-to-power-data-layer-behind-ai-driven-finance"
     }
   ]
 }
