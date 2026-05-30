@@ -1,78 +1,85 @@
 {
   "news": [
     {
-      "title": "ClearBank Launches 24/7 Digital Asset Rails for SEPA Instant Cross-Border Settlement",
-      "body": "ClearBank has launched Digital Asset Rails, enabling programmable liquidity and 24/7 EUR payouts via SEPA Instant for cross-border settlement. This service gives fintechs and payment service providers (PSPs) faster, always-on settlement, directly challenging legacy correspondent banks. Major European banks that rely on traditional cross-border infrastructure may need to rapidly upgrade their digital asset capabilities to retain high-value business clients seeking real-time settlement.",
+      "title": "Paxos Wins SEC Approval to Settle Securities Directly on Blockchain Rails",
+      "body": "Paxos secured SEC approval to provide clearing and settlement services for securities on blockchain, marking the first such regulatory green light in the US. This gives Paxos a first-mover advantage over both blockchain startups and legacy clearinghouses, opening the door for institutional adoption of blockchain-based settlement. Traditional clearing firms now face direct competition from regulated blockchain providers, and broker-dealers and asset managers can now access a regulated blockchain settlement option.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109974/clearbank-launches-digital-asset-rails"
+        "url": "https://www.finextra.com/newsarticle/47830/paxos-gets-green-light-to-settle-securities-on-blockchain?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Aave Labs Gains FCA Crypto Licenses, Unlocks Zero-Fee Fiat On-Ramps in UK",
-      "body": "Aave Labs secured FCA cryptoasset registration, allowing its Push subsidiaries to offer zero-fee fiat on-ramps in the UK. This positions Aave as a regulated crypto payments provider, intensifying competition for UK fintechs and neobanks that lack similar licenses. Competitors may accelerate their FCA registration efforts to maintain market relevance, while the UK strengthens its appeal as a hub for regulated digital asset services.",
+      "title": "Visa Commits \u20ac500 Million to European Data Center Amid Sovereignty Push",
+      "body": "Visa announced a \u20ac500 million investment in Europe, including a new data processing center, as the debate over European payments sovereignty intensifies. This move positions Visa to defend its market share against local schemes and regulators seeking to reduce reliance on US payment infrastructure. European banks and PSPs may gain leverage in negotiations, while US rivals could be pressured to localize operations. Mastercard and other global networks may need to reassess their European strategies in response.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47831/as-european-payments-sovereignty-debate-rages-visa-makes-its-case-for-place-on-continent?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "JPMorgan Targets Global Retail Banking Growth Beyond US Borders",
+      "body": "JPMorgan Chase is expanding its retail banking operations internationally, seeking new growth outside its US stronghold. This move puts pressure on local banks and fintechs in target markets, as JPMorgan brings deep capital and digital capabilities to compete for consumer deposits and lending. Regional incumbents may need to accelerate digital transformation or consider defensive partnerships, especially in markets with high digital adoption.",
+      "source": {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/3f90901f-e560-4347-a9d1-b2d640a4b8eb?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
+      }
+    },
+    {
+      "title": "Airwallex Launches Billing Platform to Challenge Legacy B2B Software",
+      "body": "Airwallex introduced a new billing solution, adding invoicing and subscription management to its global payments suite. This expansion targets businesses seeking integrated billing and payment tools, putting pressure on legacy billing software providers such as SAP and Oracle. Competing B2B fintechs like Stripe and Adyen may need to accelerate their product roadmaps or form new partnerships to maintain their competitive edge.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/airwallex-challenges-legacy-software-with-new-billing-solution/"
+      }
+    },
+    {
+      "title": "US Treasury Seizes $1 Billion in Iranian Crypto, Escalating Regulatory Scrutiny",
+      "body": "The US Treasury seized nearly $1 billion in Iranian crypto assets, underscoring the growing intersection of sanctions enforcement and crypto regulation. This action increases compliance risk for global crypto exchanges and custodians handling high-risk jurisdictions. Crypto asset holders and platforms now face heightened due diligence requirements and potential asset freezes, raising the stakes for compliance teams at exchanges like Binance and Coinbase.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary"
-      }
-    },
-    {
-      "title": "TrueLayer Acquires In3 to Expand Pay by Bank Credit at Checkout",
-      "body": "TrueLayer has acquired Dutch fintech In3, integrating consumer credit via bank payments into its Pay by Bank network. This move expands TrueLayer\u2019s European reach and introduces direct competition to buy now, pay later (BNPL) and card-based credit at checkout. BNPL providers like Klarna and Affirm now face new competition from open banking-powered credit, signaling further consolidation as fintechs combine payments and lending.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109975/truelayer-buys-fintech-in3-offering-users-debit-and-credit-at-checkout"
-      }
-    },
-    {
-      "title": "SoFi Launches Bank-Issued USD Stablecoin, Expanding Digital Asset Banking",
-      "body": "SoFi has introduced SoFiUSD, a bank-issued USD stablecoin, enabling users to buy, sell, hold, and convert stablecoins within its app. This launch puts SoFi ahead of most US digital banks in stablecoin integration, targeting crypto-interested consumers and depositors. US banks and neobanks now face immediate competitive pressure to add stablecoin features or risk losing digital wallet users to SoFi\u2019s expanded offering.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/109957/sofi-adds-usd-stablecoin-to-banking-app"
-      }
-    },
-    {
-      "title": "BIS Project Agora Prototypes Tokenised Wholesale Cross-Border Payments",
-      "body": "The BIS\u2019s Project Agora has unveiled a prototype for programmable, tokenised wholesale cross-border payments, demonstrating efficiency gains over legacy systems. Central banks and global banks now have a working model for tokenised settlement, prompting payment processors and correspondent banks to assess tokenisation strategies as pilots move toward production. Regulatory frameworks for tokenised payments are expected to develop rapidly in response to these advances.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47828/project-agora-announces-findings-for-tokenised-wholesale-cross-border-payments"
+        "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "ClearBank and SoFi drive digital asset innovation as Aave Labs and BIS Project Agora accelerate regulated crypto and tokenised payments adoption.",
+  "perspective": "Visa\u2019s European investment and Paxos\u2019s SEC approval signal a shift toward localized infrastructure and regulatory clarity in payments and crypto.",
   "curiosity": {
-    "text": "In 2023, over 60% of Europeans reported using instant payments at least once a month, a rapid shift driven by SEPA Instant and open banking adoption."
+    "text": "In 2026, mobile payments in China are projected to account for over 80% of all in-store transactions, far surpassing adoption rates in Europe and North America."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Anthropic",
-      "description": "Raised $65B in Series H, valued at $965B.",
-      "source_url": "https://news.crunchbase.com/ai/anthropic-nears-1t-valuation-65b-seriesh/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Capchase",
-      "description": "Secured $200M in debt and equity.",
-      "source_url": "https://news.crunchbase.com/venture/fintech-capchase-b2b-bnpl-200m-debt-equity/"
-    },
-    {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "M&A",
-      "company": "OKX",
-      "description": "Invested $53M for 20% stake in Coinone.",
-      "source_url": "https://www.theblock.co/post/402969/okx-confirms-53-million-coinone"
+      "company": "Primer",
+      "description": "Primer raises $100M Series C to expand payment solutions.",
+      "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Daloopa",
-      "description": "Raised $47M in Series C.",
-      "source_url": "https://www.finextra.com/newsarticle/47823/daloopa-raises-47m-to-power-data-layer-behind-ai-driven-finance"
+      "description": "Daloopa raises $47M to enhance AI-driven finance data infrastructure.",
+      "source_url": "https://www.finextra.com/newsarticle/47823/daloopa-raises-47m-to-power-data-layer-behind-ai-driven-finance?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "type": "M&A",
+      "company": "OKX",
+      "description": "OKX invests $53M to acquire 20% stake in Coinone crypto exchange.",
+      "source_url": "https://www.theblock.co/post/402969/okx-confirms-53-million-coinone?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Aave Labs",
+      "description": "Aave Labs secures UK licenses for regulated crypto payments infrastructure.",
+      "source_url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "M&A",
+      "company": "TrueLayer",
+      "description": "TrueLayer acquires Dutch fintech In3 for consumer credit solutions.",
+      "source_url": "https://www.finextra.com/pressarticle/109975/truelayer-buys-fintech-in3-offering-users-debit-and-credit-at-checkout?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
