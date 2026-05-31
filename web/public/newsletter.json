@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Paxos Wins SEC Approval to Settle Securities Directly on Blockchain Rails",
-      "body": "Paxos secured SEC approval to provide clearing and settlement services for securities on blockchain, marking the first such regulatory green light in the US. This gives Paxos a first-mover advantage over both blockchain startups and legacy clearinghouses, opening the door for institutional adoption of blockchain-based settlement. Traditional clearing firms now face direct competition from regulated blockchain providers, and broker-dealers and asset managers can now access a regulated blockchain settlement option.",
+      "title": "US Faster Payments Council and ASC X9 Launch Standards Committee to Unblock Adoption",
+      "body": "The US Faster Payments Council and ASC X9 formed a Joint Standards Steering Committee to tackle standards-related barriers that slow faster payments rollout. US payment processors and banks could see clearer implementation paths and reduced operational friction, making FedNow and RTP integration less costly and more predictable. New technical guidelines and potential regulatory alignment may emerge in the coming months.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47830/paxos-gets-green-light-to-settle-securities-on-blockchain?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/109979/us-faster-payments-council-and-asc-x9-form-standards-steering-committee"
       }
     },
     {
-      "title": "Visa Commits \u20ac500 Million to European Data Center Amid Sovereignty Push",
-      "body": "Visa announced a \u20ac500 million investment in Europe, including a new data processing center, as the debate over European payments sovereignty intensifies. This move positions Visa to defend its market share against local schemes and regulators seeking to reduce reliance on US payment infrastructure. European banks and PSPs may gain leverage in negotiations, while US rivals could be pressured to localize operations. Mastercard and other global networks may need to reassess their European strategies in response.",
+      "title": "Scotiabank Buys MapleMark Bank to Expand US Presence and Offer FDIC Coverage",
+      "body": "Scotiabank acquired Dallas-based MapleMark Bank, gaining a US foothold and the ability to offer FDIC-insured accounts to clients. This move strengthens Scotiabank\u2019s North American strategy and intensifies competition for regional US banks as more international banks, especially from Canada and Latin America, seek to enter or expand in the US market through targeted acquisitions.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/scotiabank-buy-dallas-texas-commercial-bank-maplemark-keybank/821505/"
+      }
+    },
+    {
+      "title": "US Treasury, BNY, and Robinhood Launch Investment App for Children\u2019s Accounts",
+      "body": "The US Treasury launched the Trump Accounts app, enabling parents to invest for their children with support from BNY and Robinhood. This initiative introduces new competition in the investment app sector and targets early financial literacy for families. Incumbent brokerages and neobanks may respond with their own youth-focused offerings or partnerships, accelerating the trend toward embedded investing in everyday financial apps.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47831/as-european-payments-sovereignty-debate-rages-visa-makes-its-case-for-place-on-continent?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47829/trump-accounts-investment-app-launches-for-children-backed-by-bny-and-robinhood"
       }
     },
     {
-      "title": "JPMorgan Targets Global Retail Banking Growth Beyond US Borders",
-      "body": "JPMorgan Chase is expanding its retail banking operations internationally, seeking new growth outside its US stronghold. This move puts pressure on local banks and fintechs in target markets, as JPMorgan brings deep capital and digital capabilities to compete for consumer deposits and lending. Regional incumbents may need to accelerate digital transformation or consider defensive partnerships, especially in markets with high digital adoption.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/3f90901f-e560-4347-a9d1-b2d640a4b8eb?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
-      }
-    },
-    {
-      "title": "Airwallex Launches Billing Platform to Challenge Legacy B2B Software",
-      "body": "Airwallex introduced a new billing solution, adding invoicing and subscription management to its global payments suite. This expansion targets businesses seeking integrated billing and payment tools, putting pressure on legacy billing software providers such as SAP and Oracle. Competing B2B fintechs like Stripe and Adyen may need to accelerate their product roadmaps or form new partnerships to maintain their competitive edge.",
+      "title": "Stablecoin Settlement Advances, But Off-Chain Integration Remains a Bottleneck",
+      "body": "Stablecoin settlement is gaining traction for institutional payments, but banks and fintechs piloting stablecoin payouts face technical and regulatory hurdles integrating with legacy banking rails. Without investment in bridging infrastructure, these firms risk fragmented operations and missed opportunities as stablecoin adoption expands beyond crypto-native use cases. Regulatory scrutiny is likely to intensify as integration challenges persist.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/airwallex-challenges-legacy-software-with-new-billing-solution/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-settlement-is-here-but-seamless-off-chain-money-movement-is-not/"
       }
     },
     {
-      "title": "US Treasury Seizes $1 Billion in Iranian Crypto, Escalating Regulatory Scrutiny",
-      "body": "The US Treasury seized nearly $1 billion in Iranian crypto assets, underscoring the growing intersection of sanctions enforcement and crypto regulation. This action increases compliance risk for global crypto exchanges and custodians handling high-risk jurisdictions. Crypto asset holders and platforms now face heightened due diligence requirements and potential asset freezes, raising the stakes for compliance teams at exchanges like Binance and Coinbase.",
+      "title": "JPMorganChase CEO Jamie Dimon Opposes Clarity Act, Calls for Bank-Like Crypto Regulation",
+      "body": "Jamie Dimon pledged to fight the Clarity Act, arguing that crypto companies should be regulated to the same standards as banks. This stance puts JPMorganChase at odds with crypto firms seeking lighter oversight and could shape the direction of US regulatory policy. Crypto platforms may need to adapt to higher compliance costs or structural changes if Dimon's position gains traction in Congress.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says?utm_source=rss&utm_medium=rss"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/regulation/2026/jamie-dimon-vows-jpmorganchase-will-fight-clarity-act/"
       }
     }
   ],
-  "perspective": "Visa\u2019s European investment and Paxos\u2019s SEC approval signal a shift toward localized infrastructure and regulatory clarity in payments and crypto.",
+  "perspective": "Scotiabank\u2019s US acquisition and Jamie Dimon\u2019s Clarity Act opposition highlight intensifying competition and regulatory debate in North American banking and payments.",
   "curiosity": {
-    "text": "In 2026, mobile payments in China are projected to account for over 80% of all in-store transactions, far surpassing adoption rates in Europe and North America."
+    "text": "M-Pesa, the first large-scale mobile payment system, launched in Kenya in 2007 and quickly surpassed traditional banks in transaction volume within its first year."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Primer",
-      "description": "Primer raises $100M Series C to expand payment solutions.",
+      "description": "Primer raises $100M Series C for payments platform expansion.",
       "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Daloopa",
-      "description": "Daloopa raises $47M to enhance AI-driven finance data infrastructure.",
-      "source_url": "https://www.finextra.com/newsarticle/47823/daloopa-raises-47m-to-power-data-layer-behind-ai-driven-finance?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Collide Capital",
+      "description": "Collide Capital raises $95M fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\uddf0\ud83c\uddf7",
-      "type": "M&A",
-      "company": "OKX",
-      "description": "OKX invests $53M to acquire 20% stake in Coinone crypto exchange.",
-      "source_url": "https://www.theblock.co/post/402969/okx-confirms-53-million-coinone?utm_source=rss&utm_medium=rss"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Bunch",
+      "description": "AI-powered VC platform Bunch raises $35M Series B.",
+      "source_url": "https://sifted.eu/articles/ai-platform-for-vcs-raises-35m/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Aave Labs",
-      "description": "Aave Labs secures UK licenses for regulated crypto payments infrastructure.",
-      "source_url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "M&A",
-      "company": "TrueLayer",
-      "description": "TrueLayer acquires Dutch fintech In3 for consumer credit solutions.",
-      "source_url": "https://www.finextra.com/pressarticle/109975/truelayer-buys-fintech-in3-offering-users-debit-and-credit-at-checkout?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Anthropic",
+      "description": "Anthropic secures $65B Series H funding for AI advancements.",
+      "source_url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/"
     }
   ]
 }
