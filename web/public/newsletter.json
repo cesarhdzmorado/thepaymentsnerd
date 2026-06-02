@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Wise Shares Slide as Belgian Prosecutors Launch Money Laundering Investigation",
-      "body": "Wise\u2019s share price dropped nearly 16% after Belgian authorities confirmed an investigation into alleged money laundering involving the fintech. The probe directly challenges Wise\u2019s anti-money laundering controls and could lead to operational changes or increased compliance costs. Investor confidence in Wise and other listed fintechs may be shaken as scrutiny intensifies.",
+      "title": "UK Banks Launch Payments Initiative to Challenge Visa and Mastercard\u2019s Market Hold",
+      "body": "Major UK banks have launched the UK Payments Initiative to reduce reliance on Visa and Mastercard by developing alternative payment rails for merchants and consumers. By offering a domestic network, banks aim to give merchants more negotiating power on fees and encourage a shift away from international card schemes, which could result in lower costs for merchants and potentially more competitive pricing for consumers. The initiative may prompt changes in consumer payment habits and intensify scrutiny from regulators and established card networks.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47834/wise-shares-tumble-over-aml-investigation?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47842/uk-payments-initiative-launches-to-challenge-visa-and-mastercard-stranglehold"
       }
     },
     {
-      "title": "Mastercard Joins Nordic Central Banks to Pilot Real-Time Cross-Border Payments",
-      "body": "Mastercard is collaborating with Denmark and Sweden\u2019s central banks on a pilot to enable instant cross-border payments for consumers and businesses. The project aims to streamline settlement between the countries and could set a precedent for broader European payment interoperability. Competing networks and local banks may need to accelerate their own real-time initiatives.",
+      "title": "MoneyGram Debuts MGUSD Stablecoin on Stellar to Expand Blockchain Remittances",
+      "body": "MoneyGram has launched MGUSD, a stablecoin on the Stellar blockchain, to streamline global remittances for users without traditional bank access. This move positions MoneyGram as an early adopter among legacy remittance providers using blockchain for settlement. As blockchain-based transfers reduce fees and settlement times, traditional remittance services may see increased competition and margin pressure. MoneyGram\u2019s next steps include integrating MGUSD with retail partners and expanding into new remittance corridors.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/mastercard-joins-european-cross-border-instant-payments-pilot/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/moneygram-debuts-mgusd-stablecoin-to-expand-blockchain-payments/"
       }
     },
     {
-      "title": "ECB Official Warns Stablecoins Pose Risks, Signals Tougher EU Crypto Oversight",
-      "body": "ECB board member Isabel Schnabel cautioned that stablecoins could threaten financial stability and monetary policy, indicating that European regulators may impose stricter compliance requirements. This stance could slow stablecoin adoption by payment providers and shift momentum back toward traditional banks and regulated digital assets.",
+      "title": "Affirm and Stripe Bring BNPL to UK Merchants, Escalating Competition With Local Providers",
+      "body": "Affirm has partnered with Stripe to offer its Buy Now, Pay Later (BNPL) products to Stripe\u2019s UK merchant base, expanding Affirm\u2019s reach beyond direct integrations. Stripe merchants can now add Affirm\u2019s installment options at checkout, increasing competition for local BNPL providers such as Klarna and Clearpay. UK consumers may benefit from more flexible payment terms and promotional offers as providers compete for market share, while the partnership will test how Affirm\u2019s US model adapts to UK regulations and consumer preferences.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/european-central-bank-board-member-says-stablecoins-threaten-financial-stability/"
+        "url": "https://www.pymnts.com/bnpl/2026/affirm-launches-uk-bnpl-partnership-with-stripe/"
       }
     },
     {
-      "title": "Fintechs Report Profit Surge, Attracting Fresh Investment and Expansion",
-      "body": "Fintech firms are posting higher profits and revenues after years of cost-cutting, drawing renewed investor interest and enabling product expansion. This financial rebound is intensifying competition with incumbent banks and could spark new M&A activity as fintechs seek scale and broader market reach.",
+      "title": "Mastercard Pilots Instant Cross-Currency Payments With Danish and Swedish Central Banks on TIPS",
+      "body": "Mastercard is collaborating with Danmarks Nationalbank and Sveriges Riksbank, the central banks of Denmark and Sweden, to pilot instant cross-currency payments on the TIPS platform. The pilot aims to enable real-time settlement between Nordic currencies and the euro, offering an alternative to traditional correspondent banking. If successful, banks and fintechs could access faster and potentially lower-cost cross-border payments, and other central banks may consider joining the scheme.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47835/fintech-rebounds-from-reset-years-as-profits-and-revenues-surge?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47839/mastercard-joins-tips-cross-currency-pilot"
       }
     },
     {
-      "title": "Dogecoin Added to Paxos Network, Unlocking Access for PayPal and Venmo Users",
-      "body": "Dogecoin\u2019s integration with the Paxos network allows PayPal and Venmo users to buy, sell, and transfer the token, expanding its reach to millions of retail customers. This move could increase Dogecoin\u2019s use in peer-to-peer payments and remittances, while prompting payment processors to consider supporting a wider range of digital assets.",
+      "title": "Robinhood Acquires WonderFi, Marking Aggressive Entry Into Canadian Crypto Market",
+      "body": "Robinhood has finalized its acquisition of WonderFi, gaining immediate access to Canada\u2019s regulated crypto sector and WonderFi\u2019s user base. This positions Robinhood to compete with local exchanges like Bitbuy and Wealthsimple, offering Canadian crypto users a new low-fee trading option. The acquisition could accelerate product innovation and increase competition, while incumbents may face margin pressure and customer churn as Robinhood integrates WonderFi\u2019s platform.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/403193/dogecoin-gains-access-to-paxos-network-used-by-paypal-and-venmo?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/403279/robinhood-closes-wonderfi-acquisition-canada"
       }
     }
   ],
-  "perspective": "Wise\u2019s AML probe and Dogecoin\u2019s Paxos integration highlight shifting risks and opportunities for fintechs and payment networks.",
+  "perspective": "UK Payments Initiative and Robinhood\u2019s WonderFi acquisition signal intensifying competition and new alternatives for merchants and crypto users in key markets.",
   "curiosity": {
-    "text": "The Nordic region processes some of the world\u2019s highest volumes of instant payments per capita, making it a key testing ground for cross-border real-time payment pilots."
+    "text": "In 2022, the European Union\u2019s MiCA regulation became the first comprehensive crypto framework by a major economy, requiring stablecoin issuers to hold full reserves and meet strict transparency standards."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Primer",
-      "description": "Raised $100M Series C for payments platform expansion.",
-      "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95M Fund II for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Saris",
-      "description": "Secured $28.8M Series A for agentic workflow platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47832/saris-raises-288m-for-agentic-workflow-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Gradient Labs",
+      "description": "Raised $13M for AI agents in finance.",
+      "source_url": "https://www.finextra.com/newsarticle/47840/gradient-labs-raises-fresh-funds-to-build-specialist-ai-agents-for-finance"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Revolut Alumni",
-      "description": "Raised $6M for palm-scan payments startup.",
-      "source_url": "https://sifted.eu/articles/revolut-alumni-palm-scan-payments-startup/"
+      "type": "M&A",
+      "company": "OpenPayd",
+      "description": "Plans Nasdaq listing via SPAC merger.",
+      "source_url": "https://www.finextra.com/newsarticle/47837/openpayd-inks-spac-deal-for-nasdaq-listing"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Bitmine",
-      "description": "Acquired 26,497 ETH aiming for 5% of Ethereum's supply.",
-      "source_url": "https://www.theblock.co/post/403203/bitmine-acquires-26497-eth-as-it-targets-a-slower-approach-to-5-of-ethereums-total-supply?utm_source=rss&utm_medium=rss"
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "type": "product",
+      "company": "TransferMate",
+      "description": "Integrated stablecoin capabilities with BVNK.",
+      "source_url": "https://www.finextra.com/pressarticle/109997/transfermate-moves-on-stablecoins"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "product",
+      "company": "Klarna",
+      "description": "Added healthcare to UK membership program.",
+      "source_url": "https://www.finextra.com/pressarticle/109999/klarna-adds-healthcare-to-membership-programme"
     }
   ]
 }
