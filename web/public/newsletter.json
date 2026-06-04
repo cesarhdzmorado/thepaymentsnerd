@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Mastercard Adds USDC, PYUSD, RLUSD for Intraday and Weekend Card Settlement",
-      "body": "Mastercard has expanded its settlement network to support stablecoins USDC, PYUSD, and RLUSD, enabling card settlements outside traditional banking hours. Payment processors, banks, and merchants can now settle transactions and access funds in near real-time, even on weekends, improving liquidity management and customer payout speed. Visa and other networks must enhance their digital currency settlement capabilities to remain competitive in high-velocity corridors where instant access to funds is critical.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/403474/mastercard-expands-stablecoin-settlement-options-with-usdc-pyusd-and-rlusd?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "LendingClub Rebrands as Happen Bank, Shifts Listing to Nasdaq for Full-Service Push",
-      "body": "LendingClub has rebranded to Happen Bank and is moving its stock listing from NYSE to Nasdaq, signaling its evolution into a full-service bank. By repositioning itself, Happen Bank aims to attract new investors and compete more directly with both fintechs and traditional banks, while offering a broader suite of financial products. This rebrand may prompt other fintechs to pursue banking licenses or rebranding strategies to expand their product lines and appeal to a wider customer base.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/digital-banking/2026/lendingclub-leaves-nyse-for-nasdaq-to-mark-banking-rebrand/"
-      }
-    },
-    {
-      "title": "MoneyGram Launches Stripe-Issued Stablecoin on Stellar for Blockchain Remittances",
-      "body": "MoneyGram has introduced a US dollar stablecoin on the Stellar blockchain, issued by Stripe-owned Bridge, to facilitate cross-border remittances. This move allows MoneyGram to offer faster and potentially lower-cost transfers, leveraging blockchain rails to challenge legacy remittance providers. Stripe and Stellar gain institutional validation, while traditional remittance services must adapt to new competition from crypto-enabled solutions.",
+      "title": "Mastercard Adds Stablecoin Settlement, Raising Stakes for Visa and PayPal",
+      "body": "Mastercard has rolled out settlement support for multiple US stablecoins, streamlining cross-border payments for banks and payment processors. This move puts direct pressure on Visa and PayPal to accelerate their own digital currency integrations or risk losing institutional flows. Mastercard\u2019s stablecoin rails could attract fintechs and merchants seeking faster, lower-cost settlement options.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47843/moneygram-launches-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47851/mastercard-rolls-out-support-for-stablecoin-settlement"
       }
     },
     {
-      "title": "ING Expands Wero Payments Scheme to 10 Million German Online Shoppers",
-      "body": "ING is rolling out its Wero payments scheme for online transactions to 10 million customers in Germany, aiming to boost e-commerce and digital wallet adoption. Competing banks and online retailers now face a strengthened digital payment option that could accelerate wallet-based checkouts and reduce reliance on card networks. This expansion may drive rivals to upgrade their payment technologies to retain digital-savvy customers.",
+      "title": "Revolut to Launch Five Credit Cards, Targeting UK Consumer Lending Market",
+      "body": "Revolut plans to introduce five new credit card products in the UK, aiming to expand its footprint in consumer credit. This challenges incumbent banks, who may lose share to Revolut\u2019s digital-first approach and flexible offers. Traditional lenders will need to respond with improved digital experiences or risk further erosion of their retail base.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47852/ing-expands-wero-payments-to-online-shopping-in-germany?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-to-launch-five-credit-cards-in-uk/"
       }
     },
     {
-      "title": "Apple Wallet Adds Bill-Splitting via Receipt Scanning, Raising Stakes for Digital Wallets",
-      "body": "Apple is introducing a bill-splitting feature to its Wallet app, letting users split expenses by photographing receipts. This enhancement targets Apple Wallet users and merchants, offering a streamlined way to manage group payments and expenses. Competing digital wallets may need to accelerate feature development to keep pace with Apple\u2019s expanding user-centric capabilities.",
+      "title": "Stripe Launches New AI-Powered Fraud Prevention Tool for Merchants",
+      "body": "Stripe has introduced an AI-driven fraud detection system designed to help merchants identify and block suspicious transactions in real time. By leveraging large-scale transaction data, Stripe aims to reduce chargebacks and fraud losses for ecommerce businesses. Competing payment processors may need to accelerate their own AI investments to keep pace with Stripe\u2019s enhanced security features.",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2024/06/10/stripe-launches-ai-fraud-tool/"
+      }
+    },
+    {
+      "title": "Enfuce Migrates 150,000 Payac Accounts, Shaking Up Irish Processing Market",
+      "body": "Enfuce has entered Ireland by migrating Payac\u2019s 150,000 current accounts to its cloud-based processing platform, boosting digital capabilities for Irish credit unions. This disrupts incumbent processors, who now face a cloud-native competitor with scale. Local providers must accelerate digital upgrades or risk losing further market share to new entrants.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47847/apple-wallet-to-get-bill-splitting-tool?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47860/enfuce-enters-ireland-with-payac-migration"
+      }
+    },
+    {
+      "title": "Apple Pay Expands Tap to Pay Feature to Germany",
+      "body": "Apple has launched its Tap to Pay feature for iPhone in Germany, enabling merchants to accept contactless payments without additional hardware. This expansion increases competition for traditional point-of-sale terminal providers and could accelerate mobile payment adoption among small businesses. German banks and acquirers may need to adapt their offerings to stay relevant as Apple broadens its payment ecosystem.",
+      "source": {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2024/06/apple-pay-tap-to-pay-germany/"
       }
     }
   ],
-  "perspective": "Today: Mastercard expands stablecoin settlement and MoneyGram launches a Stripe-issued stablecoin, signaling new competition for digital wallets and cross-border payments.",
+  "perspective": "Mastercard\u2019s stablecoin settlement and Stripe\u2019s AI fraud tool signal rapid innovation among global payment networks and fintechs this week.",
   "curiosity": {
-    "text": "The first online purchase using a secure encrypted transaction was a Sting CD sold by NetMarket in 1994, paving the way for modern e-commerce payments."
+    "text": "Despite the rise of digital wallets, over 60% of German consumers still prefer to pay by debit card in-store, making Germany one of Europe\u2019s least cashless markets."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "type": "fundraising",
-      "company": "DeepSeek",
-      "description": "Nears deal to raise $7.4 billion for open-source AI.",
-      "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/deepseek-nears-deal-to-raise-7-4-billion-for-open-source-ai/"
-    },
-    {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Gradient Labs",
-      "description": "Doubles Series A to $26 million for AI finance agents.",
-      "source_url": "https://sifted.eu/articles/gradient-labs-doubles-series-a/"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "M&A",
-      "company": "OpenFX",
-      "description": "Acquires Embed for European payments expansion.",
-      "source_url": "https://www.finextra.com/newsarticle/47850/openfx-to-acquire-amsterdam-based-payments-house-embed?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Aveni",
+      "description": "AI fintech Aveni raises \u00a312 million led by PXN Ventures.",
+      "source_url": "https://www.finextra.com/newsarticle/47859/lloyds-and-nationwide-backed-ai-fintech-aveni-raises-12-million"
     },
     {
       "flag": "\ud83c\udde7\ud83c\uddec",
       "type": "fundraising",
       "company": "Paypercut",
-      "description": "Raises EUR5 million for Central and Eastern European payments platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47845/paypercut-raises-eur5m-for--central-and-eastern-european-payments-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Paypercut raises EUR5 million for Central and Eastern European payments platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47845/paypercut-raises-eur5m-for--central-and-eastern-european-payments-platform"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Kraken",
-      "description": "Offers tokenized US IPO access for retail investors.",
-      "source_url": "https://www.theblock.co/post/403495/kraken-tokenized-us-ipo-access-retail-investors-xstocks?utm_source=rss&utm_medium=rss"
+      "type": "fundraising",
+      "company": "Scotch",
+      "description": "Scotch raises $20M Series A to disrupt liquor retail tech with AI.",
+      "source_url": "https://news.crunchbase.com/venture/scotch-raises-ai-funding-liquor-retail-tech/"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "M&A",
+      "company": "OpenFX",
+      "description": "OpenFX to acquire Amsterdam-based payments house Embed.",
+      "source_url": "https://www.finextra.com/newsarticle/47850/openfx-to-acquire-amsterdam-based-payments-house-embed"
     }
   ]
 }
