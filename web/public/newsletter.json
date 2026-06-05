@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Mastercard Adds Stablecoin Settlement, Raising Stakes for Visa and PayPal",
-      "body": "Mastercard has rolled out settlement support for multiple US stablecoins, streamlining cross-border payments for banks and payment processors. This move puts direct pressure on Visa and PayPal to accelerate their own digital currency integrations or risk losing institutional flows. Mastercard\u2019s stablecoin rails could attract fintechs and merchants seeking faster, lower-cost settlement options.",
+      "title": "JPMorgan, BofA, and Citi Build Tokenized Deposit Network to Compete With Stablecoins",
+      "body": "JPMorgan Chase, Bank of America, and Citigroup are collaborating on a blockchain-based payment network that will enable tokenized deposits and 24/7 settlement for corporate clients. By offering instant settlement and leveraging their regulatory standing, these banks aim to retain large business customers who might otherwise turn to stablecoins for cross-border and B2B payments. The project could limit stablecoin adoption among corporates by providing a familiar, regulated alternative, while fintechs may need to decide whether to partner with the banks or develop competing networks.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/big-banks-launch-tokenized-deposit-network-to-fight-off-stablecoin-threat/"
+      }
+    },
+    {
+      "title": "Bank of America Targets Fintechs With Cross-Border Real-Time Payments Launch",
+      "body": "Bank of America will roll out a cross-border real-time payments service for corporate and financial institution clients, using Swift and its CashPro platform. This initiative directly challenges fintechs and global banks already offering instant cross-border payments, as BofA seeks to win market share among large corporates. Fintechs and banks will compete to deliver faster settlement, greater transparency, and seamless FX integration to attract enterprise customers.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47851/mastercard-rolls-out-support-for-stablecoin-settlement"
+        "url": "https://www.finextra.com/newsarticle/47867/bofa-preps-cross-border-real-time-payments-service"
       }
     },
     {
-      "title": "Revolut to Launch Five Credit Cards, Targeting UK Consumer Lending Market",
-      "body": "Revolut plans to introduce five new credit card products in the UK, aiming to expand its footprint in consumer credit. This challenges incumbent banks, who may lose share to Revolut\u2019s digital-first approach and flexible offers. Traditional lenders will need to respond with improved digital experiences or risk further erosion of their retail base.",
+      "title": "Cash App Debuts Payment-Enabled Accessories, Expanding Wallet Competition",
+      "body": "Cash App has launched Cash App Tags, starting with a tap-to-pay wand accessory, allowing users to make payments through physical objects. This move differentiates Cash App from digital-only wallets like PayPal and Apple Pay, and could attract younger users seeking novel payment experiences. The introduction of hardware may prompt merchants and brands to explore new partnerships, while competitors may respond with their own physical-digital payment innovations.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-to-launch-five-credit-cards-in-uk/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payments-innovation/2026/cash-app-turns-everyday-accessories-into-payment-tools/"
       }
     },
     {
-      "title": "Stripe Launches New AI-Powered Fraud Prevention Tool for Merchants",
-      "body": "Stripe has introduced an AI-driven fraud detection system designed to help merchants identify and block suspicious transactions in real time. By leveraging large-scale transaction data, Stripe aims to reduce chargebacks and fraud losses for ecommerce businesses. Competing payment processors may need to accelerate their own AI investments to keep pace with Stripe\u2019s enhanced security features.",
-      "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2024/06/10/stripe-launches-ai-fraud-tool/"
-      }
-    },
-    {
-      "title": "Enfuce Migrates 150,000 Payac Accounts, Shaking Up Irish Processing Market",
-      "body": "Enfuce has entered Ireland by migrating Payac\u2019s 150,000 current accounts to its cloud-based processing platform, boosting digital capabilities for Irish credit unions. This disrupts incumbent processors, who now face a cloud-native competitor with scale. Local providers must accelerate digital upgrades or risk losing further market share to new entrants.",
+      "title": "Ramp Raises $750M at $44B Valuation, Intensifying Expense Management Race",
+      "body": "Ramp\u2019s $750 million Series F funding round boosts its valuation to $44 billion, enabling rapid product development and expansion into adjacent financial services. This influx of capital positions Ramp to challenge legacy expense management providers and fintech rivals like Brex, potentially driving increased M&A activity and new offerings for enterprise clients. Incumbents may need to innovate or consolidate to maintain market share.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47860/enfuce-enters-ireland-with-payac-migration"
+        "url": "https://www.finextra.com/newsarticle/47865/ramp-hits-44-billion-valuation-on-750m-raise"
       }
     },
     {
-      "title": "Apple Pay Expands Tap to Pay Feature to Germany",
-      "body": "Apple has launched its Tap to Pay feature for iPhone in Germany, enabling merchants to accept contactless payments without additional hardware. This expansion increases competition for traditional point-of-sale terminal providers and could accelerate mobile payment adoption among small businesses. German banks and acquirers may need to adapt their offerings to stay relevant as Apple broadens its payment ecosystem.",
+      "title": "Visa and Mastercard Face DOJ Antitrust Probe Over Card Fee Practices",
+      "body": "The U.S. Department of Justice has launched an antitrust investigation into Visa and Mastercard\u2019s credit and debit card fee structures, focusing on potential anti-competitive practices. Merchants could benefit from lower fees if regulators push for changes, while the card networks may need to adjust their business models. The probe could also accelerate interest in alternative payment rails among retailers and fintechs.",
       "source": {
-        "name": "Apple Newsroom",
-        "url": "https://www.apple.com/newsroom/2024/06/apple-pay-tap-to-pay-germany/"
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/articles/visa-mastercard-face-new-antitrust-investigation-over-card-fees-7e2b1c7a"
       }
     }
   ],
-  "perspective": "Mastercard\u2019s stablecoin settlement and Stripe\u2019s AI fraud tool signal rapid innovation among global payment networks and fintechs this week.",
+  "perspective": "JPMorgan, BofA, and Citi launch a tokenized deposit network while Cash App introduces payment-enabled accessories, reshaping competition in payments infrastructure and wallets.",
   "curiosity": {
-    "text": "Despite the rise of digital wallets, over 60% of German consumers still prefer to pay by debit card in-store, making Germany one of Europe\u2019s least cashless markets."
+    "text": "In 2014, Kenya\u2019s Safaricom launched M-PESA 1Tap, a contactless payment solution using NFC-enabled cards and wristbands, expanding mobile money beyond phones to physical accessories."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Aveni",
-      "description": "AI fintech Aveni raises \u00a312 million led by PXN Ventures.",
+      "description": "Raised \u00a312M for AI fintech solutions.",
       "source_url": "https://www.finextra.com/newsarticle/47859/lloyds-and-nationwide-backed-ai-fintech-aveni-raises-12-million"
-    },
-    {
-      "flag": "\ud83c\udde7\ud83c\uddec",
-      "type": "fundraising",
-      "company": "Paypercut",
-      "description": "Paypercut raises EUR5 million for Central and Eastern European payments platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47845/paypercut-raises-eur5m-for--central-and-eastern-european-payments-platform"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Scotch",
-      "description": "Scotch raises $20M Series A to disrupt liquor retail tech with AI.",
+      "description": "Raised $20M Series A for liquor retail tech.",
       "source_url": "https://news.crunchbase.com/venture/scotch-raises-ai-funding-liquor-retail-tech/"
     },
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "M&A",
-      "company": "OpenFX",
-      "description": "OpenFX to acquire Amsterdam-based payments house Embed.",
-      "source_url": "https://www.finextra.com/newsarticle/47850/openfx-to-acquire-amsterdam-based-payments-house-embed"
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "type": "expansion",
+      "company": "Enfuce",
+      "description": "Entered Ireland with Payac migration.",
+      "source_url": "https://www.finextra.com/newsarticle/47860/enfuce-enters-ireland-with-payac-migration"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Mastercard",
+      "description": "Expands Offers Network across APAC.",
+      "source_url": "https://www.finextra.com/pressarticle/110038/mastercard-expands-offers-network-across-apac"
     }
   ]
 }
