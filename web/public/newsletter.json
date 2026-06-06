@@ -1,78 +1,64 @@
 {
   "news": [
     {
-      "title": "JPMorgan, BofA, and Citi Build Tokenized Deposit Network to Compete With Stablecoins",
-      "body": "JPMorgan Chase, Bank of America, and Citigroup are collaborating on a blockchain-based payment network that will enable tokenized deposits and 24/7 settlement for corporate clients. By offering instant settlement and leveraging their regulatory standing, these banks aim to retain large business customers who might otherwise turn to stablecoins for cross-border and B2B payments. The project could limit stablecoin adoption among corporates by providing a familiar, regulated alternative, while fintechs may need to decide whether to partner with the banks or develop competing networks.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/big-banks-launch-tokenized-deposit-network-to-fight-off-stablecoin-threat/"
-      }
-    },
-    {
-      "title": "Bank of America Targets Fintechs With Cross-Border Real-Time Payments Launch",
-      "body": "Bank of America will roll out a cross-border real-time payments service for corporate and financial institution clients, using Swift and its CashPro platform. This initiative directly challenges fintechs and global banks already offering instant cross-border payments, as BofA seeks to win market share among large corporates. Fintechs and banks will compete to deliver faster settlement, greater transparency, and seamless FX integration to attract enterprise customers.",
+      "title": "Triple-A Launches Stablecoin Multicurrency Accounts for Global Business Banking",
+      "body": "Triple-A has launched stablecoin-enabled multicurrency accounts, letting global businesses access local banking rails without setting up local entities. This move positions Triple-A to gain an edge in cross-border treasury and settlement, especially for merchants and platforms seeking faster, lower-cost alternatives to traditional correspondent banking. Banks and legacy PSPs now face direct competition from stablecoin-native infrastructure for global payouts and collections. Merchant adoption rates and competitive responses from B2B fintechs will signal how quickly stablecoin accounts become mainstream.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47867/bofa-preps-cross-border-real-time-payments-service"
+        "url": "https://www.finextra.com/pressarticle/110042/triple-a-puts-multicurrency-account-on-stablecoin-rails?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Cash App Debuts Payment-Enabled Accessories, Expanding Wallet Competition",
-      "body": "Cash App has launched Cash App Tags, starting with a tap-to-pay wand accessory, allowing users to make payments through physical objects. This move differentiates Cash App from digital-only wallets like PayPal and Apple Pay, and could attract younger users seeking novel payment experiences. The introduction of hardware may prompt merchants and brands to explore new partnerships, while competitors may respond with their own physical-digital payment innovations.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payments-innovation/2026/cash-app-turns-everyday-accessories-into-payment-tools/"
-      }
-    },
-    {
-      "title": "Ramp Raises $750M at $44B Valuation, Intensifying Expense Management Race",
-      "body": "Ramp\u2019s $750 million Series F funding round boosts its valuation to $44 billion, enabling rapid product development and expansion into adjacent financial services. This influx of capital positions Ramp to challenge legacy expense management providers and fintech rivals like Brex, potentially driving increased M&A activity and new offerings for enterprise clients. Incumbents may need to innovate or consolidate to maintain market share.",
+      "title": "Airwallex Acquires Leapfin to Automate Financial Data for Global Clients",
+      "body": "Airwallex has acquired Leapfin, a financial data automation platform, to strengthen its back-office and reconciliation tools for global merchants. This acquisition positions Airwallex to compete more directly with Stripe and Adyen on integrated financial operations, not just payments. Fintechs such as Checkout.com and Rapyd, which lack automated data infrastructure, risk losing enterprise clients seeking unified reporting and compliance. Stripe, Adyen, and similar platforms are likely to pursue further M&A to bundle data, treasury, and compliance as enterprise demand for unified solutions intensifies.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47865/ramp-hits-44-billion-valuation-on-750m-raise"
+        "url": "https://www.finextra.com/newsarticle/47874/airwallex-buys-financial-data-automation-platform-leapfin?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa and Mastercard Face DOJ Antitrust Probe Over Card Fee Practices",
-      "body": "The U.S. Department of Justice has launched an antitrust investigation into Visa and Mastercard\u2019s credit and debit card fee structures, focusing on potential anti-competitive practices. Merchants could benefit from lower fees if regulators push for changes, while the card networks may need to adjust their business models. The probe could also accelerate interest in alternative payment rails among retailers and fintechs.",
+      "title": "Cash App Launches $25 Contactless Wand, Expanding Hardware Payments Play",
+      "body": "Cash App has released a $25 contactless payment wand, letting users tap to pay or accept payments via a physical accessory. This hardware push deepens Cash App\u2019s wallet ecosystem and could drive higher transaction volumes among small merchants and gig workers. PayPal and Apple Pay may respond by launching their own low-cost payment accessories or expanding partnerships with hardware makers to maintain wallet relevance. The next test: whether Cash App can convert device adoption into sustained wallet usage and merchant stickiness.",
       "source": {
-        "name": "The Wall Street Journal",
-        "url": "https://www.wsj.com/articles/visa-mastercard-face-new-antitrust-investigation-over-card-fees-7e2b1c7a"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47873/cash-app-launches-contactless-wand?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "ZA Bank and Industrial Bank Launch Cross-Border Wealth Management Scheme",
+      "body": "ZA Bank has partnered with Industrial Bank to launch a cross-border wealth management scheme, targeting clients seeking investment access across jurisdictions. This partnership challenges incumbent banks by targeting affluent and internationally mobile customers, especially in Asia. Digital banks now have a template for scaling wealth products beyond domestic borders. Copycat alliances are likely as traditional banks and digital challengers compete to serve cross-border investors.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110046/za-bank-partners-with-industrial-bank-to-launch-cross-border-wealth-management-scheme?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Wallester Gains FCA EMI License, Expanding UK Fintech Regulatory Footprint",
+      "body": "Wallester UK has secured authorisation from the FCA as an Electronic Money Institution, unlocking new product launches and direct access to UK payment rails. This regulatory milestone boosts Wallester\u2019s credibility with enterprise clients and puts pressure on fintechs like Revolut and Wise, which are expanding their own licensing portfolios to compete for regulated UK business. The next phase: Wallester\u2019s rollout of new card issuing and embedded finance products for UK businesses.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110048/wallester-secures-fca-authorisation-as-emi?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "JPMorgan, BofA, and Citi launch a tokenized deposit network while Cash App introduces payment-enabled accessories, reshaping competition in payments infrastructure and wallets.",
+  "perspective": "Thread: Triple-A\u2019s stablecoin accounts and Cash App\u2019s contactless wand highlight fintechs\u2019 push into global banking rails and wallet hardware innovation.",
   "curiosity": {
-    "text": "In 2014, Kenya\u2019s Safaricom launched M-PESA 1Tap, a contactless payment solution using NFC-enabled cards and wristbands, expanding mobile money beyond phones to physical accessories."
+    "text": "The first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe or North America."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Aveni",
-      "description": "Raised \u00a312M for AI fintech solutions.",
-      "source_url": "https://www.finextra.com/newsarticle/47859/lloyds-and-nationwide-backed-ai-fintech-aveni-raises-12-million"
+      "company": "Ramp",
+      "description": "Raised $750M at $44B valuation",
+      "source_url": "https://www.finextra.com/newsarticle/47865/ramp-hits-44-billion-valuation-on-750m-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Scotch",
-      "description": "Raised $20M Series A for liquor retail tech.",
+      "description": "Raised $20M Series A for liquor retail tech",
       "source_url": "https://news.crunchbase.com/venture/scotch-raises-ai-funding-liquor-retail-tech/"
-    },
-    {
-      "flag": "\ud83c\uddeb\ud83c\uddee",
-      "type": "expansion",
-      "company": "Enfuce",
-      "description": "Entered Ireland with Payac migration.",
-      "source_url": "https://www.finextra.com/newsarticle/47860/enfuce-enters-ireland-with-payac-migration"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Mastercard",
-      "description": "Expands Offers Network across APAC.",
-      "source_url": "https://www.finextra.com/pressarticle/110038/mastercard-expands-offers-network-across-apac"
     }
   ]
 }
