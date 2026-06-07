@@ -1,64 +1,85 @@
 {
   "news": [
     {
-      "title": "Triple-A Launches Stablecoin Multicurrency Accounts for Global Business Banking",
-      "body": "Triple-A has launched stablecoin-enabled multicurrency accounts, letting global businesses access local banking rails without setting up local entities. This move positions Triple-A to gain an edge in cross-border treasury and settlement, especially for merchants and platforms seeking faster, lower-cost alternatives to traditional correspondent banking. Banks and legacy PSPs now face direct competition from stablecoin-native infrastructure for global payouts and collections. Merchant adoption rates and competitive responses from B2B fintechs will signal how quickly stablecoin accounts become mainstream.",
+      "title": "SpaceX Lands Major Cloud Customer as Google Taps Starlink for AI Compute",
+      "body": "Google has signed a multi-year agreement to use SpaceX\u2019s Starlink satellite infrastructure for AI compute, signaling a shift in cloud sourcing strategies. This partnership introduces a new player into the hyperscale cloud market, challenging established providers like AWS and Microsoft Azure. Banks and fintechs evaluating AI workloads may now consider satellite-based compute as a viable alternative to traditional data centers.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110042/triple-a-puts-multicurrency-account-on-stablecoin-rails?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/google-agrees-to-pay-spacex-920-million-monthly-for-ai-compute/"
       }
     },
     {
-      "title": "Airwallex Acquires Leapfin to Automate Financial Data for Global Clients",
-      "body": "Airwallex has acquired Leapfin, a financial data automation platform, to strengthen its back-office and reconciliation tools for global merchants. This acquisition positions Airwallex to compete more directly with Stripe and Adyen on integrated financial operations, not just payments. Fintechs such as Checkout.com and Rapyd, which lack automated data infrastructure, risk losing enterprise clients seeking unified reporting and compliance. Stripe, Adyen, and similar platforms are likely to pursue further M&A to bundle data, treasury, and compliance as enterprise demand for unified solutions intensifies.",
+      "title": "UK FCA Suspends Euro Exchange Securities Over Financial Crime Concerns",
+      "body": "The UK Financial Conduct Authority has frozen Euro Exchange Securities, barring it from regulated electronic money and payment services due to suspected financial crime. This action removes a competitor from the market and signals the FCA\u2019s intent to tighten oversight of e-money and payment institutions. Other UK-based fintechs must now reassess their anti-money laundering controls to avoid similar enforcement.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47874/airwallex-buys-financial-data-automation-platform-leapfin?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/regulation/2026/united-kingdom-fca-freezes-euro-exchange-securities-over-financial-crime-fears/"
       }
     },
     {
-      "title": "Cash App Launches $25 Contactless Wand, Expanding Hardware Payments Play",
-      "body": "Cash App has released a $25 contactless payment wand, letting users tap to pay or accept payments via a physical accessory. This hardware push deepens Cash App\u2019s wallet ecosystem and could drive higher transaction volumes among small merchants and gig workers. PayPal and Apple Pay may respond by launching their own low-cost payment accessories or expanding partnerships with hardware makers to maintain wallet relevance. The next test: whether Cash App can convert device adoption into sustained wallet usage and merchant stickiness.",
+      "title": "Experian Rolls Out ChatGPT App to Match Consumers With Personal Loans",
+      "body": "Experian has launched a ChatGPT-powered application that lets consumers explore personal loan offers from its network of lending partners. This move puts Experian ahead in AI-driven lending discovery and raises the bar for digital engagement in consumer finance. Competing credit bureaus and fintech lenders are now under pressure to deploy conversational AI to keep pace.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47873/cash-app-launches-contactless-wand?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/experian-deploys-chatgpt-app-to-capture-personal-loan-shoppers/"
       }
     },
     {
-      "title": "ZA Bank and Industrial Bank Launch Cross-Border Wealth Management Scheme",
-      "body": "ZA Bank has partnered with Industrial Bank to launch a cross-border wealth management scheme, targeting clients seeking investment access across jurisdictions. This partnership challenges incumbent banks by targeting affluent and internationally mobile customers, especially in Asia. Digital banks now have a template for scaling wealth products beyond domestic borders. Copycat alliances are likely as traditional banks and digital challengers compete to serve cross-border investors.",
+      "title": "JPMorgan Chase Automates Check Processing With AI, Setting New Bank Ops Standard",
+      "body": "JPMorgan Chase is now using AI to automate check processing, reducing manual workloads and boosting operational efficiency. This sets a new benchmark for back-office automation in banking, with rivals likely to follow suit to cut costs and improve accuracy. Banks still reliant on legacy processes risk falling behind as AI-driven efficiencies become table stakes.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110046/za-bank-partners-with-industrial-bank-to-launch-cross-border-wealth-management-scheme?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/jpmorgan-chase-taps-ai-process-checks/822151/"
       }
     },
     {
-      "title": "Wallester Gains FCA EMI License, Expanding UK Fintech Regulatory Footprint",
-      "body": "Wallester UK has secured authorisation from the FCA as an Electronic Money Institution, unlocking new product launches and direct access to UK payment rails. This regulatory milestone boosts Wallester\u2019s credibility with enterprise clients and puts pressure on fintechs like Revolut and Wise, which are expanding their own licensing portfolios to compete for regulated UK business. The next phase: Wallester\u2019s rollout of new card issuing and embedded finance products for UK businesses.",
+      "title": "Stablecoin Remittance App Goes Live in UK After $1M Beta Run",
+      "body": "A new stablecoin remittance app has launched in the UK, following a silent beta that processed $1 million in transactions. This launch challenges traditional remittance providers by offering faster, lower-cost cross-border transfers using stablecoins. Money transfer firms now face direct competition from crypto-native rails, especially for UK-to-global corridors.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110048/wallester-secures-fca-authorisation-as-emi?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/stablecoin-remittance-app-live-in-uk-brnd/"
       }
     }
   ],
-  "perspective": "Thread: Triple-A\u2019s stablecoin accounts and Cash App\u2019s contactless wand highlight fintechs\u2019 push into global banking rails and wallet hardware innovation.",
+  "perspective": "Today: Google\u2019s Starlink cloud deal and UK stablecoin remittance launch signal new competition for banks and fintechs in infrastructure and cross-border payments.",
   "curiosity": {
-    "text": "The first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe or North America."
+    "text": "Despite the rise of instant payments, over 40% of UK remittances in 2023 still relied on cash-based methods, highlighting persistent barriers to digital adoption."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Ramp",
-      "description": "Raised $750M at $44B valuation",
-      "source_url": "https://www.finextra.com/newsarticle/47865/ramp-hits-44-billion-valuation-on-750m-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Primer",
+      "description": "Raised $100M Series C",
+      "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Scotch",
-      "description": "Raised $20M Series A for liquor retail tech",
-      "source_url": "https://news.crunchbase.com/venture/scotch-raises-ai-funding-liquor-retail-tech/"
+      "company": "Gradient Labs",
+      "description": "Doubled Series A to $26M",
+      "source_url": "https://sifted.eu/articles/gradient-labs-doubles-series-a/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Raised $95M Fund II",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Securitize",
+      "description": "Cleared SEC hurdle for NYSE listing",
+      "source_url": "https://www.theblock.co/post/403842/securitize-clears-sec-registration-statement-hurdle-sets-path-to-nyse-listing-as-secz"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "type": "M&A",
+      "company": "Airwallex",
+      "description": "Acquired Leapfin",
+      "source_url": "https://www.finextra.com/newsarticle/47874/airwallex-buys-financial-data-automation-platform-leapfin?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
