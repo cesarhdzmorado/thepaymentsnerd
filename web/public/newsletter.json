@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "SpaceX Lands Major Cloud Customer as Google Taps Starlink for AI Compute",
-      "body": "Google has signed a multi-year agreement to use SpaceX\u2019s Starlink satellite infrastructure for AI compute, signaling a shift in cloud sourcing strategies. This partnership introduces a new player into the hyperscale cloud market, challenging established providers like AWS and Microsoft Azure. Banks and fintechs evaluating AI workloads may now consider satellite-based compute as a viable alternative to traditional data centers.",
+      "title": "Adyen Displaces Stripe as Gov.UK Pay Processor, Gaining Public Sector Foothold",
+      "body": "The UK government has selected Adyen to replace Stripe as the payment processor for the Gov.UK Pay platform, marking a significant shift in public sector payments. Adyen strengthens its UK presence and gains credibility for future government and enterprise contracts, while Stripe loses a high-profile client. Competing payment processors now face a more formidable Adyen as it leverages this win to pursue additional government and enterprise deals.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47872/adyen-wins-govuk-pay-contract"
+      }
+    },
+    {
+      "title": "Mastercard and Backbase Integrate for Near Real-Time Cross-Border Payments",
+      "body": "Mastercard and Backbase have partnered to embed Mastercard's Move service into Backbase's banking OS, enabling near real-time cross-border payments for banks. This integration challenges SWIFT and Visa in the cross-border segment by offering banks faster, more transparent international payments. Banks using Backbase can now deliver improved cross-border experiences, prompting rivals to accelerate upgrades to legacy payment rails.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/google-agrees-to-pay-spacex-920-million-monthly-for-ai-compute/"
+        "url": "https://www.pymnts.com/mastercard/2026/mastercard-teams-with-backbase-to-speed-cross-border-payments/"
       }
     },
     {
-      "title": "UK FCA Suspends Euro Exchange Securities Over Financial Crime Concerns",
-      "body": "The UK Financial Conduct Authority has frozen Euro Exchange Securities, barring it from regulated electronic money and payment services due to suspected financial crime. This action removes a competitor from the market and signals the FCA\u2019s intent to tighten oversight of e-money and payment institutions. Other UK-based fintechs must now reassess their anti-money laundering controls to avoid similar enforcement.",
+      "title": "Revolut Launches 5% AER Instant Access Savings, Forcing UK Banks to Respond",
+      "body": "Revolut has introduced a 5% AER instant access savings account, the highest rate in the UK market until December 2026. This aggressive move is expected to draw substantial deposits from both fintech and incumbent bank customers, intensifying competition for retail savings. Traditional banks and digital challengers must now consider raising rates or enhancing product features to retain depositors.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/regulation/2026/united-kingdom-fca-freezes-euro-exchange-securities-over-financial-crime-fears/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110049/revolut-launches-market-leading-5-aer-instant-access-savings-account"
       }
     },
     {
-      "title": "Experian Rolls Out ChatGPT App to Match Consumers With Personal Loans",
-      "body": "Experian has launched a ChatGPT-powered application that lets consumers explore personal loan offers from its network of lending partners. This move puts Experian ahead in AI-driven lending discovery and raises the bar for digital engagement in consumer finance. Competing credit bureaus and fintech lenders are now under pressure to deploy conversational AI to keep pace.",
+      "title": "Egypt\u2019s Blnk Raises $37M to Expand POS Financing Amid BNPL Competition",
+      "body": "Egyptian fintech Blnk secured $37 million to scale its POS financing platform, targeting both merchants and consumers. The funding enables Blnk to compete more aggressively in Egypt\u2019s fast-growing BNPL and POS lending market, where local and regional players are vying for share. Incumbent banks and fintechs in North Africa now face a better-capitalized rival with expansion ambitions.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/experian-deploys-chatgpt-app-to-capture-personal-loan-shoppers/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47876/egyptian-pos-financing-fintech-blnk-raises-37-million"
       }
     },
     {
-      "title": "JPMorgan Chase Automates Check Processing With AI, Setting New Bank Ops Standard",
-      "body": "JPMorgan Chase is now using AI to automate check processing, reducing manual workloads and boosting operational efficiency. This sets a new benchmark for back-office automation in banking, with rivals likely to follow suit to cut costs and improve accuracy. Banks still reliant on legacy processes risk falling behind as AI-driven efficiencies become table stakes.",
+      "title": "Clear Junction Opens Institutional Access to Pound Sterling Stablecoin GBPA",
+      "body": "Clear Junction has partnered with Agant to provide institutional clients with access to GBPA, a Pound sterling stablecoin, expanding cryptoasset business services. This move strengthens Clear Junction\u2019s position in the stablecoin settlement market and offers banks and fintechs new options for GBP-denominated digital asset flows. Banks and fintechs seeking regulated, fiat-linked digital assets now have expanded choices for GBP settlements, increasing competition among stablecoin providers and FX platforms.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/jpmorgan-chase-taps-ai-process-checks/822151/"
-      }
-    },
-    {
-      "title": "Stablecoin Remittance App Goes Live in UK After $1M Beta Run",
-      "body": "A new stablecoin remittance app has launched in the UK, following a silent beta that processed $1 million in transactions. This launch challenges traditional remittance providers by offering faster, lower-cost cross-border transfers using stablecoins. Money transfer firms now face direct competition from crypto-native rails, especially for UK-to-global corridors.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/stablecoin-remittance-app-live-in-uk-brnd/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110052/clear-junction-to-support-institutional-access-to-agents-pound-stearling-stablecoin-gbpa"
       }
     }
   ],
-  "perspective": "Today: Google\u2019s Starlink cloud deal and UK stablecoin remittance launch signal new competition for banks and fintechs in infrastructure and cross-border payments.",
+  "perspective": "Adyen\u2019s public sector win and Revolut\u2019s high-yield savings launch are reshaping competitive dynamics for UK payment processors and retail banks.",
   "curiosity": {
-    "text": "Despite the rise of instant payments, over 40% of UK remittances in 2023 still relied on cash-based methods, highlighting persistent barriers to digital adoption."
+    "text": "In the previous year, 2023, Brazil's instant payment system Pix processed over 5 billion transactions, making it one of the country's most widely used payment methods within two years of launch."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Primer",
-      "description": "Raised $100M Series C",
+      "description": "Raised $100 million Series C for payments platform.",
       "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Gradient Labs",
-      "description": "Doubled Series A to $26M",
+      "description": "Doubled Series A to $26 million for AI finance.",
       "source_url": "https://sifted.eu/articles/gradient-labs-doubles-series-a/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raised $95M Fund II",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Bunch",
+      "description": "Raised $35 million Series B for AI VC platform.",
+      "source_url": "https://sifted.eu/articles/ai-platform-for-vcs-raises-35m/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Securitize",
-      "description": "Cleared SEC hurdle for NYSE listing",
-      "source_url": "https://www.theblock.co/post/403842/securitize-clears-sec-registration-statement-hurdle-sets-path-to-nyse-listing-as-secz"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "Revolut",
+      "description": "Launching five new credit cards in the UK.",
+      "source_url": "https://sifted.eu/articles/revolut-to-launch-five-credit-cards-in-uk/"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddfa",
-      "type": "M&A",
-      "company": "Airwallex",
-      "description": "Acquired Leapfin",
-      "source_url": "https://www.finextra.com/newsarticle/47874/airwallex-buys-financial-data-automation-platform-leapfin?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "partnership",
+      "company": "Backbase",
+      "description": "Collaborated with Mastercard for cross-border payments.",
+      "source_url": "https://www.finextra.com/pressarticle/110047/backbase-collaborates-with-mastercard-to-simplify-cross-border-payments-for-banks"
     }
   ]
 }
