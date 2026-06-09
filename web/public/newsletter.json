@@ -1,85 +1,71 @@
 {
   "news": [
     {
-      "title": "Adyen Displaces Stripe as Gov.UK Pay Processor, Gaining Public Sector Foothold",
-      "body": "The UK government has selected Adyen to replace Stripe as the payment processor for the Gov.UK Pay platform, marking a significant shift in public sector payments. Adyen strengthens its UK presence and gains credibility for future government and enterprise contracts, while Stripe loses a high-profile client. Competing payment processors now face a more formidable Adyen as it leverages this win to pursue additional government and enterprise deals.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47872/adyen-wins-govuk-pay-contract"
-      }
-    },
-    {
-      "title": "Mastercard and Backbase Integrate for Near Real-Time Cross-Border Payments",
-      "body": "Mastercard and Backbase have partnered to embed Mastercard's Move service into Backbase's banking OS, enabling near real-time cross-border payments for banks. This integration challenges SWIFT and Visa in the cross-border segment by offering banks faster, more transparent international payments. Banks using Backbase can now deliver improved cross-border experiences, prompting rivals to accelerate upgrades to legacy payment rails.",
+      "title": "Nuvei Eyes $2.7B Payoneer Acquisition to Expand Cross-Border Payments Reach",
+      "body": "Nuvei is in advanced talks to acquire Payoneer for approximately $2.7 billion, aiming to strengthen its position in the cross-border payments market. The deal would combine Nuvei\u2019s merchant acquiring and payout capabilities with Payoneer\u2019s global SME and freelancer network, directly challenging Wise and Airwallex. If completed, this acquisition may trigger further consolidation among smaller providers, who will need to differentiate on speed, FX transparency, or niche verticals.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/mastercard/2026/mastercard-teams-with-backbase-to-speed-cross-border-payments/"
+        "url": "https://www.pymnts.com/acquisitions/2026/nuvei-acquire-cross-border-payments-firm-payoneer-3-billion-dollars/"
       }
     },
     {
-      "title": "Revolut Launches 5% AER Instant Access Savings, Forcing UK Banks to Respond",
-      "body": "Revolut has introduced a 5% AER instant access savings account, the highest rate in the UK market until December 2026. This aggressive move is expected to draw substantial deposits from both fintech and incumbent bank customers, intensifying competition for retail savings. Traditional banks and digital challengers must now consider raising rates or enhancing product features to retain depositors.",
+      "title": "Lloyds Rolls Out AI Agents for Real-Time Payment Scam Detection at Scale",
+      "body": "Lloyds Banking Group has deployed artificial intelligence across its fraud prevention systems to monitor and block payment scams in real time for 28 million customers. This move positions Lloyds as a leader in payment security, raising the bar for UK and EU banks on AI-driven fraud controls. Competing banks now face higher expectations for proactive scam prevention and must accelerate their AI investments to maintain customer trust and regulatory compliance.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110049/revolut-launches-market-leading-5-aer-instant-access-savings-account"
+        "url": "https://www.finextra.com/newsarticle/47884/lloyds-deploys-ai-agents-to-check-for-payment-scams-in-real-time"
       }
     },
     {
-      "title": "Egypt\u2019s Blnk Raises $37M to Expand POS Financing Amid BNPL Competition",
-      "body": "Egyptian fintech Blnk secured $37 million to scale its POS financing platform, targeting both merchants and consumers. The funding enables Blnk to compete more aggressively in Egypt\u2019s fast-growing BNPL and POS lending market, where local and regional players are vying for share. Incumbent banks and fintechs in North Africa now face a better-capitalized rival with expansion ambitions.",
+      "title": "New York Proposes Stablecoin Rule Harmonization with Federal GENIUS Act",
+      "body": "The New York State Department of Financial Services has proposed new regulations to align its stablecoin oversight with the federal GENIUS Act. This regulatory harmonization could give banks and fintechs a clearer path to launch and integrate stablecoin products in the US. Nationally consistent rules may accelerate institutional adoption and push payment processors to add stablecoin rails for B2B and cross-border flows.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47876/egyptian-pos-financing-fintech-blnk-raises-37-million"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/new-york-moves-align-stablecoin-rules-with-genius-act/"
       }
     },
     {
-      "title": "Clear Junction Opens Institutional Access to Pound Sterling Stablecoin GBPA",
-      "body": "Clear Junction has partnered with Agant to provide institutional clients with access to GBPA, a Pound sterling stablecoin, expanding cryptoasset business services. This move strengthens Clear Junction\u2019s position in the stablecoin settlement market and offers banks and fintechs new options for GBP-denominated digital asset flows. Banks and fintechs seeking regulated, fiat-linked digital assets now have expanded choices for GBP settlements, increasing competition among stablecoin providers and FX platforms.",
+      "title": "Klarna Enters U.S. Deposit Market with High-Yield, No-Minimum Savings Account",
+      "body": "Klarna has launched an FDIC-insured savings account in the U.S. with no minimum deposit and interest rates above 3% APY. This product directly targets digital-first consumers and undercuts traditional banks on both rate and user experience. U.S. banks now risk losing deposits to fintechs like Klarna and must consider raising rates or improving digital onboarding to remain competitive.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110052/clear-junction-to-support-institutional-access-to-agents-pound-stearling-stablecoin-gbpa"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/klarna-banking-high-yoeld-savings-account/822382/"
+      }
+    },
+    {
+      "title": "Volante Integrates Agentic AI to Achieve 95%+ Straight-Through Processing",
+      "body": "Volante Technologies has embedded agentic AI into its payments platform, boosting straight-through processing rates to over 95%. This upgrade reduces manual intervention for exception handling and tightens service level agreement performance for banks and payment processors. As AI-driven automation becomes standard, lagging firms may face higher operational costs and slower settlement times.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/volante-agentic-ai-drives-straight-through-processing-rates-over-95percent/"
       }
     }
   ],
-  "perspective": "Adyen\u2019s public sector win and Revolut\u2019s high-yield savings launch are reshaping competitive dynamics for UK payment processors and retail banks.",
+  "perspective": "Nuvei\u2019s Payoneer bid and New York\u2019s stablecoin rules highlight consolidation and regulatory shifts shaping cross-border payments and digital finance.",
   "curiosity": {
-    "text": "In the previous year, 2023, Brazil's instant payment system Pix processed over 5 billion transactions, making it one of the country's most widely used payment methods within two years of launch."
+    "text": "In 2016, India launched the Unified Payments Interface (UPI), a real-time payment system that enabled instant fund transfers between bank accounts via mobile phones, rapidly transforming the country's digital payment landscape and achieving over 3 billion transactions monthly in 2023."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddea\ud83c\uddec",
       "type": "fundraising",
-      "company": "Primer",
-      "description": "Raised $100 million Series C for payments platform.",
-      "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
+      "company": "Blnk",
+      "description": "Raises $37 million for BNPL expansion.",
+      "source_url": "https://www.finextra.com/newsarticle/47876/egyptian-pos-financing-fintech-blnk-raises-37-million"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Gradient Labs",
-      "description": "Doubled Series A to $26 million for AI finance.",
-      "source_url": "https://sifted.eu/articles/gradient-labs-doubles-series-a/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Bunch",
-      "description": "Raised $35 million Series B for AI VC platform.",
-      "source_url": "https://sifted.eu/articles/ai-platform-for-vcs-raises-35m/"
+      "company": "Vinyl",
+      "description": "Raises $20 million to modernize IPO infrastructure.",
+      "source_url": "https://www.finextra.com/newsarticle/47889/vinyl-raises-20m-to-modernise-ipo-infrastructure"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Revolut",
-      "description": "Launching five new credit cards in the UK.",
-      "source_url": "https://sifted.eu/articles/revolut-to-launch-five-credit-cards-in-uk/"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "partnership",
-      "company": "Backbase",
-      "description": "Collaborated with Mastercard for cross-border payments.",
-      "source_url": "https://www.finextra.com/pressarticle/110047/backbase-collaborates-with-mastercard-to-simplify-cross-border-payments-for-banks"
+      "type": "investment",
+      "company": "Barclays",
+      "description": "Invests in AI platform CommonAI.",
+      "source_url": "https://www.finextra.com/newsarticle/47886/barclays-invests-in-commonai"
     }
   ]
 }
