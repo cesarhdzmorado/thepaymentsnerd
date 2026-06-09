@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "git": {
+    "deploymentEnabled": false
+  },
+  "crons": [
+    { "path": "/api/trigger-newsletter", "schedule": "0 7 * * *" },
+    { "path": "/api/trigger-newsletter", "schedule": "0 8 * * *" }
+  ]
+}

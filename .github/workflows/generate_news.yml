@@ -3,11 +3,12 @@
 name: Daily Newsletter Pipeline
 
 on:
-  workflow_dispatch: # Allows you to run this manually from the Actions tab
-  schedule:
-    # Runs at 08:30 UTC (8:30 AM GMT/9:30 AM CET) every day
-    # Captures full 24h news cycle, arrives mid-morning for optimal reading
-    - cron: '30 8 * * *'
+  # Triggered punctually at 08:00 Europe/London by a Vercel Cron that calls
+  # /api/trigger-newsletter (see web/vercel.json + web/app/api/trigger-newsletter).
+  # GitHub's own `schedule:` trigger was removed because its scheduled runs are
+  # best-effort and were drifting hours late (into the afternoon, London time).
+  # `workflow_dispatch` runs start within seconds, giving reliable morning sends.
+  workflow_dispatch: # Also lets you run this manually from the Actions tab
 
 # Grant write permissions for the commit/push step
 permissions:
@@ -254,30 +255,34 @@ jobs:
           echo "  Email Delivery: ${{ steps.send_emails_step.outcome || 'skipped' }}"
           echo ""
 
-          if [ "${{ steps.check_weekend.outputs.is_weekend }}" = "true" ]; then
+          # Only treat a step that actually RAN and FAILED as a failure. A
+          # skipped step (e.g. sync is skipped on a no-change day) must not be
+          # mistaken for a failure — that bug caused spurious red runs whenever
+          # the AI produced identical content.
+          if [ "${{ steps.sync_step.outcome }}" = "failure" ]; then
+            echo "❌ FAILED: Supabase sync failed"
+            exit 1
+          elif [ "${{ steps.send_emails_step.outcome }}" = "failure" ]; then
+            echo "❌ FAILED: Email delivery failed"
+            exit 1
+          elif [ "${{ steps.check_weekend.outputs.is_weekend }}" = "true" ]; then
             echo "📅 WEEKEND MODE: Newsletter generated and deployed, but emails skipped"
             echo "Emails are not sent on Saturday and Sunday to avoid spamming subscribers"
             exit 0
-          elif [ "${{ steps.commit_step.outputs.changes_committed }}" = "false" ]; then
-            echo "⚠️  WORKFLOW HALTED: No changes detected"
+          elif [ "${{ steps.commit_step.outputs.changes_committed }}" != "true" ]; then
+            echo "⚠️  NO CHANGES: Generated newsletter is identical to the committed version"
             echo ""
             echo "Possible reasons:"
             echo "  • AI generated identical content to previous run"
             echo "  • News sources haven't updated with new content"
             echo "  • Same stories selected by AI for multiple days"
             echo ""
-            echo "Action required:"
-            echo "  • Review AI deduplication logic"
-            echo "  • Check if news sources are updating"
-            echo "  • Consider adjusting story selection criteria"
+            echo "This is not an error — nothing was deployed or sent."
             exit 0
           elif [ "${{ steps.send_emails_step.outcome }}" = "success" ]; then
             echo "✅ COMPLETE SUCCESS: Newsletter generated, committed, synced, and delivered"
             exit 0
-          elif [ "${{ steps.sync_step.outcome }}" != "success" ]; then
-            echo "❌ FAILED: Supabase sync failed"
-            exit 1
           else
-            echo "❌ FAILED: Email delivery failed"
-            exit 1
+            echo "✅ Newsletter generated, committed, and synced"
+            exit 0
           fi
