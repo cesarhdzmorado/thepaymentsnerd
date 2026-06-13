@@ -1,71 +1,71 @@
 {
   "news": [
     {
-      "title": "Nuvei Eyes $2.7B Payoneer Acquisition to Expand Cross-Border Payments Reach",
-      "body": "Nuvei is in advanced talks to acquire Payoneer for approximately $2.7 billion, aiming to strengthen its position in the cross-border payments market. The deal would combine Nuvei\u2019s merchant acquiring and payout capabilities with Payoneer\u2019s global SME and freelancer network, directly challenging Wise and Airwallex. If completed, this acquisition may trigger further consolidation among smaller providers, who will need to differentiate on speed, FX transparency, or niche verticals.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/acquisitions/2026/nuvei-acquire-cross-border-payments-firm-payoneer-3-billion-dollars/"
-      }
-    },
-    {
-      "title": "Lloyds Rolls Out AI Agents for Real-Time Payment Scam Detection at Scale",
-      "body": "Lloyds Banking Group has deployed artificial intelligence across its fraud prevention systems to monitor and block payment scams in real time for 28 million customers. This move positions Lloyds as a leader in payment security, raising the bar for UK and EU banks on AI-driven fraud controls. Competing banks now face higher expectations for proactive scam prevention and must accelerate their AI investments to maintain customer trust and regulatory compliance.",
+      "title": "Zelle Expands to India, Targets Cross-Border Payments",
+      "body": "Zelle is entering the Indian market to enable international money transfers, positioning US banks behind Zelle to compete directly with Indian payment leaders such as Paytm and PhonePe. This expansion could shift remittance flows and challenge Indian banks and regulators to adapt to new cross-border payment options. While Zelle is reportedly exploring stablecoin technology for future global transactions, no official launch has been confirmed.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47884/lloyds-deploys-ai-agents-to-check-for-payment-scams-in-real-time"
+        "url": "https://www.finextra.com/newsarticle/47912/zelle-heads-to-india-preps-stablecoin-for-global-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "New York Proposes Stablecoin Rule Harmonization with Federal GENIUS Act",
-      "body": "The New York State Department of Financial Services has proposed new regulations to align its stablecoin oversight with the federal GENIUS Act. This regulatory harmonization could give banks and fintechs a clearer path to launch and integrate stablecoin products in the US. Nationally consistent rules may accelerate institutional adoption and push payment processors to add stablecoin rails for B2B and cross-border flows.",
+      "title": "Adyen Acquires Orb for $335M, Strengthening Enterprise Payments Platform",
+      "body": "Adyen has acquired enterprise billing platform Orb for $335 million, marking its second major deal in recent months. By integrating Orb\u2019s billing capabilities, Adyen aims to enhance its enterprise offering and intensify competition with Stripe and PayPal. Stripe and PayPal may now pursue their own acquisitions or partnerships to match Adyen\u2019s expanded product suite.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/new-york-moves-align-stablecoin-rules-with-genius-act/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47910/adyen-strikes-335m-deal-for-enterprise-billing-platform-orb?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Klarna Enters U.S. Deposit Market with High-Yield, No-Minimum Savings Account",
-      "body": "Klarna has launched an FDIC-insured savings account in the U.S. with no minimum deposit and interest rates above 3% APY. This product directly targets digital-first consumers and undercuts traditional banks on both rate and user experience. U.S. banks now risk losing deposits to fintechs like Klarna and must consider raising rates or improving digital onboarding to remain competitive.",
+      "title": "Digital Asset Raises $355M to Build Canton Network for Onchain Capital Markets",
+      "body": "Digital Asset secured $355 million from investors including BNP Paribas, Coinbase, and HSBC to accelerate development of the Canton Network, an onchain infrastructure for capital markets. The investment reflects growing interest from global banks and crypto exchanges in blockchain-based settlement, and could spur new capital markets products and regulatory attention.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/klarna-banking-high-yoeld-savings-account/822382/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47905/digital-asset-raises-355m-to-make-canton-the-onchain-infrastructure-for-capital-markets?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Volante Integrates Agentic AI to Achieve 95%+ Straight-Through Processing",
-      "body": "Volante Technologies has embedded agentic AI into its payments platform, boosting straight-through processing rates to over 95%. This upgrade reduces manual intervention for exception handling and tightens service level agreement performance for banks and payment processors. As AI-driven automation becomes standard, lagging firms may face higher operational costs and slower settlement times.",
+      "title": "Barclays Acquires GoHenry to Expand Youth Banking and Financial Education",
+      "body": "Barclays has agreed to acquire UK fintech GoHenry from Acorns, aiming to boost its youth financial education and digital banking services. The deal gives Barclays a foothold in the youth segment, challenging neobanks like Revolut and Monzo that have targeted younger users. Barclays plans to integrate GoHenry\u2019s platform to deepen engagement with families and schools, while competitors may accelerate their own youth-focused offerings.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/volante-agentic-ai-drives-straight-through-processing-rates-over-95percent/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47909/barclays-to-acquire-gohenry-expand-youth-financial-education-offering-in-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "MassPay and Coinbase Partner to Deliver Stablecoin Payouts for Global Businesses",
+      "body": "MassPay Holdings and Coinbase have partnered to offer stablecoin-powered cross-border payouts to businesses worldwide. This collaboration enables businesses to access faster and more efficient international payment options, prompting legacy cross-border payment providers to reassess their offerings. As stablecoin use grows in B2B payments, financial regulators are likely to increase scrutiny of compliance and settlement practices.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110124/masspay-and-coinbase-team-on-stablecoin-powered-payouts?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Nuvei\u2019s Payoneer bid and New York\u2019s stablecoin rules highlight consolidation and regulatory shifts shaping cross-border payments and digital finance.",
+  "perspective": "Zelle\u2019s India entry challenges local payment leaders, while stablecoin adoption and strategic acquisitions reshape B2B payments and youth banking.",
   "curiosity": {
-    "text": "In 2016, India launched the Unified Payments Interface (UPI), a real-time payment system that enabled instant fund transfers between bank accounts via mobile phones, rapidly transforming the country's digital payment landscape and achieving over 3 billion transactions monthly in 2023."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how banks and merchants processed transactions and paving the way for modern card payments."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddea\ud83c\uddec",
+      "flag": "\ud83c\udde8\ud83c\udde6",
       "type": "fundraising",
-      "company": "Blnk",
-      "description": "Raises $37 million for BNPL expansion.",
-      "source_url": "https://www.finextra.com/newsarticle/47876/egyptian-pos-financing-fintech-blnk-raises-37-million"
+      "company": "Koho",
+      "description": "Raised C$130M, achieving unicorn status.",
+      "source_url": "https://www.finextra.com/newsarticle/47904/canadas-koho-hits-unicorn-status-and-targets-banking-license?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf2\ud83c\uddfd",
+      "type": "product",
+      "company": "Clip",
+      "description": "Launched Mi Clip digital wallet ecosystem.",
+      "source_url": "https://www.finextra.com/pressarticle/110121/mexxios-clip-launches-digital-wallet-ecosystem?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Vinyl",
-      "description": "Raises $20 million to modernize IPO infrastructure.",
-      "source_url": "https://www.finextra.com/newsarticle/47889/vinyl-raises-20m-to-modernise-ipo-infrastructure"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "investment",
-      "company": "Barclays",
-      "description": "Invests in AI platform CommonAI.",
-      "source_url": "https://www.finextra.com/newsarticle/47886/barclays-invests-in-commonai"
+      "type": "product",
+      "company": "Square",
+      "description": "Offers 3.5% savings rate to sellers.",
+      "source_url": "https://www.finextra.com/pressarticle/110125/square-offers-sellers-35-savings-rate?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
