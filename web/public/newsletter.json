@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Zelle Expands to India, Targets Cross-Border Payments",
-      "body": "Zelle is entering the Indian market to enable international money transfers, positioning US banks behind Zelle to compete directly with Indian payment leaders such as Paytm and PhonePe. This expansion could shift remittance flows and challenge Indian banks and regulators to adapt to new cross-border payment options. While Zelle is reportedly exploring stablecoin technology for future global transactions, no official launch has been confirmed.",
+      "title": "Stripe Expands UK Merchants\u2019 Global Reach With Enhanced Multi-Currency and Fraud Tools",
+      "body": "Stripe rolled out new tools for UK businesses, expanding multi-currency support and strengthening fraud prevention for cross-border sales. Stripe aims to attract UK merchants seeking international growth, directly challenging payment processors like Adyen and PayPal to keep pace with global features or risk losing clients.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47912/zelle-heads-to-india-preps-stablecoin-for-global-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110123/stripe-rolls-out-tools-to-help-uk-businesses-sell-globally-and-build-for-the-ai-economy?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Adyen Acquires Orb for $335M, Strengthening Enterprise Payments Platform",
-      "body": "Adyen has acquired enterprise billing platform Orb for $335 million, marking its second major deal in recent months. By integrating Orb\u2019s billing capabilities, Adyen aims to enhance its enterprise offering and intensify competition with Stripe and PayPal. Stripe and PayPal may now pursue their own acquisitions or partnerships to match Adyen\u2019s expanded product suite.",
+      "title": "Clip Debuts Mi Clip Digital Wallet, Intensifying Mexican Payments Competition",
+      "body": "Clip launched Mi Clip, a digital wallet ecosystem targeting Mexican consumers and merchants to accelerate digital payment adoption. This launch increases pressure on Mercado Pago and Nubank, as Clip seeks to capture a larger share of Mexico\u2019s digitizing payments market. Merchants now have more digital acceptance options, while established players must innovate quickly to defend their positions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47910/adyen-strikes-335m-deal-for-enterprise-billing-platform-orb?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110121/mexxios-clip-launches-digital-wallet-ecosystem?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Digital Asset Raises $355M to Build Canton Network for Onchain Capital Markets",
-      "body": "Digital Asset secured $355 million from investors including BNP Paribas, Coinbase, and HSBC to accelerate development of the Canton Network, an onchain infrastructure for capital markets. The investment reflects growing interest from global banks and crypto exchanges in blockchain-based settlement, and could spur new capital markets products and regulatory attention.",
+      "title": "XMLdation Unveils Virtual Buddy Bank Simulator for Payments Testing",
+      "body": "XMLdation introduced the Virtual Buddy Bank, a payments testing simulator for banks and payment service providers. Financial institutions can use this tool to test payment flows and compliance scenarios more efficiently, reducing integration risks and accelerating time-to-market for new products. Banks adopting advanced simulators can streamline onboarding for new rails and regulatory changes.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47905/digital-asset-raises-355m-to-make-canton-the-onchain-infrastructure-for-capital-markets?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110122/xmldation-launches-payments-testing-simulator?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Barclays Acquires GoHenry to Expand Youth Banking and Financial Education",
-      "body": "Barclays has agreed to acquire UK fintech GoHenry from Acorns, aiming to boost its youth financial education and digital banking services. The deal gives Barclays a foothold in the youth segment, challenging neobanks like Revolut and Monzo that have targeted younger users. Barclays plans to integrate GoHenry\u2019s platform to deepen engagement with families and schools, while competitors may accelerate their own youth-focused offerings.",
+      "title": "Square Launches 3.5% High-Yield Savings to Attract Sellers Away From Banks",
+      "body": "Square Financial Services launched a high-yield savings account for sellers, offering a 3.5% APY\u2014well above rates from most traditional banks. Square aims to pull small business deposits into its ecosystem, forcing banks to respond with more competitive savings rates or risk losing business customers seeking better returns and integrated financial services.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47909/barclays-to-acquire-gohenry-expand-youth-financial-education-offering-in-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110125/square-offers-sellers-35-savings-rate?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "MassPay and Coinbase Partner to Deliver Stablecoin Payouts for Global Businesses",
-      "body": "MassPay Holdings and Coinbase have partnered to offer stablecoin-powered cross-border payouts to businesses worldwide. This collaboration enables businesses to access faster and more efficient international payment options, prompting legacy cross-border payment providers to reassess their offerings. As stablecoin use grows in B2B payments, financial regulators are likely to increase scrutiny of compliance and settlement practices.",
+      "title": "Citi Issues Tokenized Depositary Receipts to Broaden Access to Private Markets",
+      "body": "Citi launched Digital Depositary Receipts for private company shares, enabling broader investor access to private markets through tokenization. This move strengthens Citi\u2019s position in tokenized securities and may prompt global banks to accelerate similar offerings. Regulators are likely to scrutinize tokenized assets as they gain traction in traditionally opaque private markets.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110124/masspay-and-coinbase-team-on-stablecoin-powered-payouts?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110120/citi-launches-tokenised-depositary-receipts-to-connect-private-companies-and-investors?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Zelle\u2019s India entry challenges local payment leaders, while stablecoin adoption and strategic acquisitions reshape B2B payments and youth banking.",
+  "perspective": "Stripe\u2019s global push and Square\u2019s high-yield savings intensify competition among payment processors and banks for merchant loyalty and deposits.",
   "curiosity": {
-    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how banks and merchants processed transactions and paving the way for modern card payments."
+    "text": "In 2023, over 60% of Latin American e-commerce transactions were completed using digital wallets\u2014a rapid shift from less than 20% just five years prior."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "fundraising",
-      "company": "Koho",
-      "description": "Raised C$130M, achieving unicorn status.",
-      "source_url": "https://www.finextra.com/newsarticle/47904/canadas-koho-hits-unicorn-status-and-targets-banking-license?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "M&A",
+      "company": "Adyen",
+      "description": "Acquired enterprise billing platform Orb for $335 million.",
+      "source_url": "https://www.finextra.com/newsarticle/47910/adyen-strikes-335m-deal-for-enterprise-billing-platform-orb?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddf2\ud83c\uddfd",
-      "type": "product",
-      "company": "Clip",
-      "description": "Launched Mi Clip digital wallet ecosystem.",
-      "source_url": "https://www.finextra.com/pressarticle/110121/mexxios-clip-launches-digital-wallet-ecosystem?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "M&A",
+      "company": "Barclays",
+      "description": "Acquired GoHenry to expand youth financial education.",
+      "source_url": "https://www.finextra.com/newsarticle/47909/barclays-to-acquire-gohenry-expand-youth-financial-education-offering-in-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "Fraudio",
+      "description": "Raised funds for AI fraud detection and international expansion.",
+      "source_url": "https://www.finextra.com/pressarticle/110126/fraudio-raises-funds-for-ai-fraud-detection?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Square",
-      "description": "Offers 3.5% savings rate to sellers.",
-      "source_url": "https://www.finextra.com/pressarticle/110125/square-offers-sellers-35-savings-rate?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "partnership",
+      "company": "MassPay and Coinbase",
+      "description": "Partnered for stablecoin-powered cross-border payouts.",
+      "source_url": "https://www.finextra.com/pressarticle/110124/masspay-and-coinbase-team-on-stablecoin-powered-payouts?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
