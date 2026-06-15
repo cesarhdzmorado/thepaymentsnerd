@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Stripe Expands UK Merchants\u2019 Global Reach With Enhanced Multi-Currency and Fraud Tools",
-      "body": "Stripe rolled out new tools for UK businesses, expanding multi-currency support and strengthening fraud prevention for cross-border sales. Stripe aims to attract UK merchants seeking international growth, directly challenging payment processors like Adyen and PayPal to keep pace with global features or risk losing clients.",
+      "title": "China\u2019s mBridge Platform Challenges SWIFT With Central Bank-Backed Cross-Border Payments",
+      "body": "China has launched 'mBridge,' a digital currency-focused cross-border payment system backed by central banks from China, Hong Kong, Saudi Arabia, Thailand, and the UAE. The platform aims to reduce reliance on SWIFT for international transactions, enabling participating banks to settle payments directly in digital currencies. This shift could reduce transaction costs and settlement times for banks and payment processors operating in these corridors, while potentially limiting the influence of Western financial infrastructure.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110123/stripe-rolls-out-tools-to-help-uk-businesses-sell-globally-and-build-for-the-ai-economy?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/china-takes-on-swift-with-new-cross-border-payment-system/"
       }
     },
     {
-      "title": "Clip Debuts Mi Clip Digital Wallet, Intensifying Mexican Payments Competition",
-      "body": "Clip launched Mi Clip, a digital wallet ecosystem targeting Mexican consumers and merchants to accelerate digital payment adoption. This launch increases pressure on Mercado Pago and Nubank, as Clip seeks to capture a larger share of Mexico\u2019s digitizing payments market. Merchants now have more digital acceptance options, while established players must innovate quickly to defend their positions.",
+      "title": "European Regulators Stall Revolut\u2019s Super-App Expansion Across the Continent",
+      "body": "European authorities have restricted Revolut\u2019s plans to launch new financial services, curbing its aggressive super-app expansion strategy. This regulatory intervention slows Revolut\u2019s growth and gives incumbent banks and fintech rivals more time to defend market share. Payment processors and technology vendors serving Revolut may see delayed project timelines, while competitors could accelerate their own launches to capitalize on Revolut\u2019s pause.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110121/mexxios-clip-launches-digital-wallet-ecosystem?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/european-authorities-curb-revolut/"
       }
     },
     {
-      "title": "XMLdation Unveils Virtual Buddy Bank Simulator for Payments Testing",
-      "body": "XMLdation introduced the Virtual Buddy Bank, a payments testing simulator for banks and payment service providers. Financial institutions can use this tool to test payment flows and compliance scenarios more efficiently, reducing integration risks and accelerating time-to-market for new products. Banks adopting advanced simulators can streamline onboarding for new rails and regulatory changes.",
+      "title": "eToro Eyes Banking License and Acquisitions to Broaden Financial Services",
+      "body": "eToro is exploring acquisitions and considering a banking license to expand beyond trading into full-service banking. This move positions eToro to compete directly with neobanks and traditional banks by offering deposits, lending, and payments. Banks and payment processors may face new competition for customer deposits and transaction volumes if eToro successfully integrates new services and secures regulatory approval.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110122/xmldation-launches-payments-testing-simulator?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/9777caf3-bc14-487b-a379-f75f870e8474?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
       }
     },
     {
-      "title": "Square Launches 3.5% High-Yield Savings to Attract Sellers Away From Banks",
-      "body": "Square Financial Services launched a high-yield savings account for sellers, offering a 3.5% APY\u2014well above rates from most traditional banks. Square aims to pull small business deposits into its ecosystem, forcing banks to respond with more competitive savings rates or risk losing business customers seeking better returns and integrated financial services.",
+      "title": "Figure Acquires Kiavi for $717M to Deepen AI-Driven Real Estate Lending",
+      "body": "Figure is acquiring Kiavi, an AI-powered real estate lending platform, for $717 million with backing from Sixth Street. The deal expands Figure\u2019s reach in property finance and brings advanced AI underwriting to its lending stack. Competing lenders and mortgage technology providers may need to accelerate their own AI adoption to keep pace with faster risk assessment and loan processing.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110125/square-offers-sellers-35-savings-rate?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/figure-kiavi-ai-real-estate-lending-platform-717-million-sixth-street/822530/"
       }
     },
     {
-      "title": "Citi Issues Tokenized Depositary Receipts to Broaden Access to Private Markets",
-      "body": "Citi launched Digital Depositary Receipts for private company shares, enabling broader investor access to private markets through tokenization. This move strengthens Citi\u2019s position in tokenized securities and may prompt global banks to accelerate similar offerings. Regulators are likely to scrutinize tokenized assets as they gain traction in traditionally opaque private markets.",
+      "title": "APP Fraud in the UK Climbs to \u00a31.28B, Forcing Banks to Rethink Defenses",
+      "body": "APP fraud losses in the UK rose to \u00a31.28 billion in 2025, up 4% year-over-year, signaling a renewed surge in financial crime. Banks are facing higher operational costs as they invest in fraud detection and reimbursement, while regulators may introduce stricter guidelines. Payment providers and fintechs must prioritize real-time risk controls to avoid reputational and financial fallout, and the trend is likely to drive demand for AI-powered anti-fraud solutions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110120/citi-launches-tokenised-depositary-receipts-to-connect-private-companies-and-investors?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47906/app-fraud-back-on-the-rise-as-crooks-stole-13bn-in-2025---uk-finance?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Stripe\u2019s global push and Square\u2019s high-yield savings intensify competition among payment processors and banks for merchant loyalty and deposits.",
+  "perspective": "China\u2019s mBridge launch and Revolut\u2019s regulatory pause signal a realignment of cross-border payment rails and compliance strategies for banks and fintechs in 2026.",
   "curiosity": {
-    "text": "In 2023, over 60% of Latin American e-commerce transactions were completed using digital wallets\u2014a rapid shift from less than 20% just five years prior."
+    "text": "A 2023 study found that organizations fully compliant with PCI DSS experienced 50% fewer payment card data breaches than those with only partial compliance."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "M&A",
-      "company": "Adyen",
-      "description": "Acquired enterprise billing platform Orb for $335 million.",
-      "source_url": "https://www.finextra.com/newsarticle/47910/adyen-strikes-335m-deal-for-enterprise-billing-platform-orb?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Current",
+      "description": "Raised $80M Series E at $1.5B valuation",
+      "source_url": "https://www.finextra.com/newsarticle/47914/current-raises-80m?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "M&A",
-      "company": "Barclays",
-      "description": "Acquired GoHenry to expand youth financial education.",
-      "source_url": "https://www.finextra.com/newsarticle/47909/barclays-to-acquire-gohenry-expand-youth-financial-education-offering-in-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "fundraising",
-      "company": "Fraudio",
-      "description": "Raised funds for AI fraud detection and international expansion.",
-      "source_url": "https://www.finextra.com/pressarticle/110126/fraudio-raises-funds-for-ai-fraud-detection?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Primer",
+      "description": "Raised $100M Series C",
+      "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "MassPay and Coinbase",
-      "description": "Partnered for stablecoin-powered cross-border payouts.",
-      "source_url": "https://www.finextra.com/pressarticle/110124/masspay-and-coinbase-team-on-stablecoin-powered-payouts?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Closed $95M fund for fintech and future-of-work startups",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Base10 Partners",
+      "description": "Raised $850M across two funds for automation",
+      "source_url": "https://news.crunchbase.com/venture/base10-partners-invests-real-economy-automation-ajao/"
     }
   ]
 }
