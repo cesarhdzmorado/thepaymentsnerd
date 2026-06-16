@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "China\u2019s mBridge Platform Challenges SWIFT With Central Bank-Backed Cross-Border Payments",
-      "body": "China has launched 'mBridge,' a digital currency-focused cross-border payment system backed by central banks from China, Hong Kong, Saudi Arabia, Thailand, and the UAE. The platform aims to reduce reliance on SWIFT for international transactions, enabling participating banks to settle payments directly in digital currencies. This shift could reduce transaction costs and settlement times for banks and payment processors operating in these corridors, while potentially limiting the influence of Western financial infrastructure.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/china-takes-on-swift-with-new-cross-border-payment-system/"
-      }
-    },
-    {
-      "title": "European Regulators Stall Revolut\u2019s Super-App Expansion Across the Continent",
-      "body": "European authorities have restricted Revolut\u2019s plans to launch new financial services, curbing its aggressive super-app expansion strategy. This regulatory intervention slows Revolut\u2019s growth and gives incumbent banks and fintech rivals more time to defend market share. Payment processors and technology vendors serving Revolut may see delayed project timelines, while competitors could accelerate their own launches to capitalize on Revolut\u2019s pause.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/european-authorities-curb-revolut/"
-      }
-    },
-    {
-      "title": "eToro Eyes Banking License and Acquisitions to Broaden Financial Services",
-      "body": "eToro is exploring acquisitions and considering a banking license to expand beyond trading into full-service banking. This move positions eToro to compete directly with neobanks and traditional banks by offering deposits, lending, and payments. Banks and payment processors may face new competition for customer deposits and transaction volumes if eToro successfully integrates new services and secures regulatory approval.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/9777caf3-bc14-487b-a379-f75f870e8474?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
-      }
-    },
-    {
-      "title": "Figure Acquires Kiavi for $717M to Deepen AI-Driven Real Estate Lending",
-      "body": "Figure is acquiring Kiavi, an AI-powered real estate lending platform, for $717 million with backing from Sixth Street. The deal expands Figure\u2019s reach in property finance and brings advanced AI underwriting to its lending stack. Competing lenders and mortgage technology providers may need to accelerate their own AI adoption to keep pace with faster risk assessment and loan processing.",
+      "title": "Nuvei Acquires Payoneer for $2.75B, Creating Cross-Border Payments Powerhouse",
+      "body": "Nuvei has acquired Payoneer for $2.75 billion, combining two major players in cross-border payments and expanding their global reach. The acquisition creates a formidable competitor to both legacy banks and smaller fintechs in international B2B and merchant payments. Smaller payment providers now face increased margin pressure and potential customer churn as scale becomes a key differentiator. Rival payment firms may pursue further M&A to keep pace with the new combined entity.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/figure-kiavi-ai-real-estate-lending-platform-717-million-sixth-street/822530/"
+        "url": "https://www.bankingdive.com/news/nuvei-buy-payoneer-2-billion/822919/"
       }
     },
     {
-      "title": "APP Fraud in the UK Climbs to \u00a31.28B, Forcing Banks to Rethink Defenses",
-      "body": "APP fraud losses in the UK rose to \u00a31.28 billion in 2025, up 4% year-over-year, signaling a renewed surge in financial crime. Banks are facing higher operational costs as they invest in fraud detection and reimbursement, while regulators may introduce stricter guidelines. Payment providers and fintechs must prioritize real-time risk controls to avoid reputational and financial fallout, and the trend is likely to drive demand for AI-powered anti-fraud solutions.",
+      "title": "China\u2019s mBridge Blockchain Platform Launches, Challenging SWIFT in Cross-Border Payments",
+      "body": "The mBridge platform, led by China and built on blockchain, is set for commercial launch to facilitate cross-border currency settlement and trade. This move offers participating countries a direct alternative to SWIFT and legacy correspondent banking, potentially reducing costs and settlement times. Global banks such as HSBC and Standard Chartered, along with major payment processors, must now evaluate their exposure to new geopolitical payment corridors and adapt to evolving compliance requirements. Early adoption by regional banks in Asia and the Middle East may redirect trade settlement away from US dollar rails toward local currencies.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47906/app-fraud-back-on-the-rise-as-crooks-stole-13bn-in-2025---uk-finance?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47920/china-led-digital-payments-system-mbridge-set-for-commercial-launch"
+      }
+    },
+    {
+      "title": "Stablecoins Power New Micropayment Models for Digital Content Platforms",
+      "body": "Stablecoins are being piloted as a solution for frictionless micropayments, enabling digital content creators to monetize small transactions that were previously uneconomical. This development threatens traditional card processors, who struggle with high fixed fees on low-value payments. Digital publishers and streaming platforms can now unlock new revenue streams by offering pay-per-article or per-minute access, shifting consumer payment habits toward more granular, usage-based models. Regulatory scrutiny is likely as stablecoin volumes grow in consumer-facing use cases.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payments-innovation/2026/stablecoins-can-power-micropayments-business-models-will-decide-future/"
+      }
+    },
+    {
+      "title": "Rain Integrates Loyalty Directly Into Stablecoin Card Programs for Issuers",
+      "body": "Rain has launched a native loyalty feature for its stablecoin card programs, allowing fintechs and card issuers to offer branded rewards without building separate infrastructure. This turnkey solution helps issuers differentiate their offerings and deepen customer engagement at a lower cost. Traditional loyalty program vendors risk losing share as stablecoin-native solutions become easier to deploy, prompting fintechs and neobanks to accelerate adoption of bundled rewards and crypto payments to attract digital-first users.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47913/rain-brings-integrated-loyalty-to-stablecoin-card-programmes"
+      }
+    },
+    {
+      "title": "ACI Worldwide Adds EPI\u2019s Wero Wallet to Payments Orchestration, Boosting European Alternatives",
+      "body": "ACI Worldwide integrates the European Payments Initiative\u2019s Wero wallet into its orchestration platform, supporting EPI\u2019s push for a unified European payment method. This partnership gives banks and merchants a credible alternative to US-dominated card networks and digital wallets. Visa and Mastercard now face a stronger challenge in the European market as merchants gain more choice and regulators encourage homegrown payment solutions.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47919/aci-worldwide-backs-epi"
       }
     }
   ],
-  "perspective": "China\u2019s mBridge launch and Revolut\u2019s regulatory pause signal a realignment of cross-border payment rails and compliance strategies for banks and fintechs in 2026.",
+  "perspective": "Nuvei\u2019s acquisition of Payoneer highlights intensifying competition in cross-border payments and the race for global scale.",
   "curiosity": {
-    "text": "A 2023 study found that organizations fully compliant with PCI DSS experienced 50% fewer payment card data breaches than those with only partial compliance."
+    "text": "Despite the rise of digital wallets, over 60% of global cross-border B2B payments still rely on legacy correspondent banking rails, underscoring the slow pace of infrastructure change."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
+      "company": "Arcade",
+      "description": "Raised $60 million to grow AI agent accountability.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/arcade-raises-60-million-to-control-ai-agents/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
       "company": "Current",
-      "description": "Raised $80M Series E at $1.5B valuation",
-      "source_url": "https://www.finextra.com/newsarticle/47914/current-raises-80m?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Raised $80 million in Series E, valued at $1.5 billion.",
+      "source_url": "https://www.finextra.com/newsarticle/47914/current-raises-80m"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Primer",
-      "description": "Raised $100M Series C",
+      "description": "Raised $100 million in Series C.",
       "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Waniwani",
+      "description": "Raised $8 million in Seed round.",
+      "source_url": "https://www.finextra.com/newsarticle/47916/ai-fintech-startup-waniwani-raises-8-million"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Base10 Partners",
-      "description": "Raised $850M across two funds for automation",
-      "source_url": "https://news.crunchbase.com/venture/base10-partners-invests-real-economy-automation-ajao/"
+      "company": "Paradigm",
+      "description": "Led $9 million round in LatAm payments app El Dorado.",
+      "source_url": "https://www.theblock.co/post/404709/paradigm-leads-9-million-round-el-dorado"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "type": "expansion",
+      "company": "Redpin",
+      "description": "Received in-principle banking license approval in UAE.",
+      "source_url": "https://www.finextra.com/pressarticle/110136/redpin-receives-in-principle-banking-licence-approval-from-the-dfs"
     }
   ]
 }
