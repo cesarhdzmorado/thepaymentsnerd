@@ -1,92 +1,85 @@
 {
   "news": [
     {
-      "title": "Nuvei Acquires Payoneer for $2.75B, Creating Cross-Border Payments Powerhouse",
-      "body": "Nuvei has acquired Payoneer for $2.75 billion, combining two major players in cross-border payments and expanding their global reach. The acquisition creates a formidable competitor to both legacy banks and smaller fintechs in international B2B and merchant payments. Smaller payment providers now face increased margin pressure and potential customer churn as scale becomes a key differentiator. Rival payment firms may pursue further M&A to keep pace with the new combined entity.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/nuvei-buy-payoneer-2-billion/822919/"
-      }
-    },
-    {
-      "title": "China\u2019s mBridge Blockchain Platform Launches, Challenging SWIFT in Cross-Border Payments",
-      "body": "The mBridge platform, led by China and built on blockchain, is set for commercial launch to facilitate cross-border currency settlement and trade. This move offers participating countries a direct alternative to SWIFT and legacy correspondent banking, potentially reducing costs and settlement times. Global banks such as HSBC and Standard Chartered, along with major payment processors, must now evaluate their exposure to new geopolitical payment corridors and adapt to evolving compliance requirements. Early adoption by regional banks in Asia and the Middle East may redirect trade settlement away from US dollar rails toward local currencies.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47920/china-led-digital-payments-system-mbridge-set-for-commercial-launch"
-      }
-    },
-    {
-      "title": "Stablecoins Power New Micropayment Models for Digital Content Platforms",
-      "body": "Stablecoins are being piloted as a solution for frictionless micropayments, enabling digital content creators to monetize small transactions that were previously uneconomical. This development threatens traditional card processors, who struggle with high fixed fees on low-value payments. Digital publishers and streaming platforms can now unlock new revenue streams by offering pay-per-article or per-minute access, shifting consumer payment habits toward more granular, usage-based models. Regulatory scrutiny is likely as stablecoin volumes grow in consumer-facing use cases.",
+      "title": "Coinbase Launches AI Investment Adviser and Developer Platform for U.S. Users",
+      "body": "Coinbase introduced Coinbase Advisor, an AI-powered investment adviser, and a new developer platform for its U.S. app, aiming to attract users from traditional financial advisors and fintechs offering automated advice. By actively promoting AI-driven financial guidance, Coinbase seeks to shift customer expectations toward digital-first advisory services and prompt regulators to examine the use of AI in investment recommendations. Banks and fintechs relying on human advisors now face direct competition from AI-enabled platforms.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payments-innovation/2026/stablecoins-can-power-micropayments-business-models-will-decide-future/"
+        "url": "https://www.pymnts.com/financial-apps/2026/coinbase-expands-app-with-ai-investment-adviser-and-developer-platform/"
       }
     },
     {
-      "title": "Rain Integrates Loyalty Directly Into Stablecoin Card Programs for Issuers",
-      "body": "Rain has launched a native loyalty feature for its stablecoin card programs, allowing fintechs and card issuers to offer branded rewards without building separate infrastructure. This turnkey solution helps issuers differentiate their offerings and deepen customer engagement at a lower cost. Traditional loyalty program vendors risk losing share as stablecoin-native solutions become easier to deploy, prompting fintechs and neobanks to accelerate adoption of bundled rewards and crypto payments to attract digital-first users.",
+      "title": "Ripple Invests in Flutterwave, Integrates RLUSD Stablecoin for African Payments",
+      "body": "Ripple invested in Flutterwave\u2019s Series E round, valuing the African payments firm at $3.25 billion, and began integrating its RLUSD stablecoin for cross-border and domestic payments. This partnership directly challenges incumbent payment providers in Africa, as banks and PSPs must now decide whether to develop their own digital asset strategies to keep pace with stablecoin-enabled transactions. African regulators will likely revisit stablecoin frameworks as adoption grows.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47913/rain-brings-integrated-loyalty-to-stablecoin-card-programmes"
+        "url": "https://www.finextra.com/newsarticle/47931/ripple-takes-stake-in-flutterwave"
       }
     },
     {
-      "title": "ACI Worldwide Adds EPI\u2019s Wero Wallet to Payments Orchestration, Boosting European Alternatives",
-      "body": "ACI Worldwide integrates the European Payments Initiative\u2019s Wero wallet into its orchestration platform, supporting EPI\u2019s push for a unified European payment method. This partnership gives banks and merchants a credible alternative to US-dominated card networks and digital wallets. Visa and Mastercard now face a stronger challenge in the European market as merchants gain more choice and regulators encourage homegrown payment solutions.",
+      "title": "Visa and Revolut Launch Click to Pay Across Europe, Targeting 40 Million Customers",
+      "body": "Visa and Revolut launched Click to Pay across Europe, bringing tokenized checkout to over 40 million users and expanding their influence in digital wallets. By offering a seamless, secure checkout, they aim to reduce reliance on guest checkout and card-on-file methods, prompting wallet providers like PayPal and Apple Pay to enhance their own solutions. Merchants now encounter a new standard for frictionless payments at checkout.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47919/aci-worldwide-backs-epi"
+        "url": "https://www.finextra.com/newsarticle/47925/visa-and-revolut-roll-out-click-to-pay-across-europe"
+      }
+    },
+    {
+      "title": "Coinbase to Offer Tokenized US Stocks With Dividend Payouts",
+      "body": "Coinbase will launch tokenized US stocks, allowing users to hold digital shares and receive dividends directly on its platform, challenging traditional brokerages and exchanges. Brokerages that rely on conventional equity trading must now accelerate their tokenization initiatives to retain digitally native investors who seek faster settlement and lower barriers to entry. Regulators are expected to scrutinize tokenized securities as they blur the boundaries between crypto and traditional finance.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/404978/coinbase-launching-tokenized-us-stocks-backed-11-holders-receive-dividends"
+      }
+    },
+    {
+      "title": "Interchecks Raises $50 Million to Expand Instant A2A Payments Platform",
+      "body": "Interchecks raised $50 million in Series C funding led by Bettor Capital and plans to expand its instant account-to-account (A2A) payments platform, directly challenging legacy payment rails and other A2A providers. The company will use the new capital to develop products and enter new markets, putting pressure on banks and traditional processors as instant A2A payments threaten ACH and card-based transaction volumes. Merchants and platforms now have more options for faster settlement.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47929/a2a-business-payments-platform-interchecks-raises-50-million"
       }
     }
   ],
-  "perspective": "Nuvei\u2019s acquisition of Payoneer highlights intensifying competition in cross-border payments and the race for global scale.",
+  "perspective": "Visa and Revolut\u2019s Click to Pay launch and Coinbase\u2019s AI and tokenized stock moves signal rapid digital transformation in payments and investment platforms.",
   "curiosity": {
-    "text": "Despite the rise of digital wallets, over 60% of global cross-border B2B payments still rely on legacy correspondent banking rails, underscoring the slow pace of infrastructure change."
+    "text": "Despite the rise of instant payments, over 60% of global B2B transactions still rely on manual invoicing and reconciliation, highlighting a persistent gap in payment automation."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Arcade",
-      "description": "Raised $60 million to grow AI agent accountability.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/arcade-raises-60-million-to-control-ai-agents/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Current",
-      "description": "Raised $80 million in Series E, valued at $1.5 billion.",
-      "source_url": "https://www.finextra.com/newsarticle/47914/current-raises-80m"
+      "company": "Odyssey ML",
+      "description": "$310M funding round with Amazon, Nvidia, AMD backing",
+      "source_url": "https://www.ft.com/content/1e0365db-a363-4d73-9960-23d25420e9f5"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Primer",
-      "description": "Raised $100 million in Series C.",
-      "source_url": "https://sifted.eu/articles/primer-raises-100m-series-c/"
+      "company": "CuspAI",
+      "description": "$400M round backed by Jeff Bezos, quadruples valuation",
+      "source_url": "https://www.ft.com/content/4c479227-567c-435e-a4d3-795dd957b347"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "M&A",
+      "company": "Nuvei",
+      "description": "Acquires Payoneer for $2.75B",
+      "source_url": "https://www.bankingdive.com/news/nuvei-buy-payoneer-2-billion/822919/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Waniwani",
-      "description": "Raised $8 million in Seed round.",
-      "source_url": "https://www.finextra.com/newsarticle/47916/ai-fintech-startup-waniwani-raises-8-million"
+      "type": "M&A",
+      "company": "SpaceX",
+      "description": "Acquires AI tool Cursor for $60B",
+      "source_url": "https://news.crunchbase.com/ma/spcx-acquires-ai-coding-cursor-largest-startup-ma-deal-2026/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddf3\ud83c\uddec",
       "type": "fundraising",
-      "company": "Paradigm",
-      "description": "Led $9 million round in LatAm payments app El Dorado.",
-      "source_url": "https://www.theblock.co/post/404709/paradigm-leads-9-million-round-el-dorado"
-    },
-    {
-      "flag": "\ud83c\udde6\ud83c\uddea",
-      "type": "expansion",
-      "company": "Redpin",
-      "description": "Received in-principle banking license approval in UAE.",
-      "source_url": "https://www.finextra.com/pressarticle/110136/redpin-receives-in-principle-banking-licence-approval-from-the-dfs"
+      "company": "Flutterwave",
+      "description": "Hits $3.25B valuation with Series E",
+      "source_url": "https://www.theblock.co/post/404942/ripple-flutterwave-series-3-2-billion-valuation-rlusd-integration"
     }
   ]
 }
