@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Coinbase Launches AI Investment Adviser and Developer Platform for U.S. Users",
-      "body": "Coinbase introduced Coinbase Advisor, an AI-powered investment adviser, and a new developer platform for its U.S. app, aiming to attract users from traditional financial advisors and fintechs offering automated advice. By actively promoting AI-driven financial guidance, Coinbase seeks to shift customer expectations toward digital-first advisory services and prompt regulators to examine the use of AI in investment recommendations. Banks and fintechs relying on human advisors now face direct competition from AI-enabled platforms.",
+      "title": "Stripe and AWS Launch AI Agent Payment Infrastructure for Content Monetization",
+      "body": "Stripe and AWS have partnered to launch a Web Application Firewall feature that enables AI agents to autonomously pay for web content, allowing developers to embed AI-driven payments directly into digital experiences. Content owners and publishers can now monetize access to their data and services through automated agent transactions. Stripe and AWS are driving the adoption of AI-mediated payments, requiring payment processors and publishers to update security and compliance practices for this new transaction model.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47940/stripe-and-aws-enable-ai-agent-payments-for-content-owners-and-publishers?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Visa and Mastercard Standardize Tokenization for Secure AI Commerce Transactions",
+      "body": "Visa and Mastercard are rolling out tokenization to let AI agents conduct secure transactions, establishing tokenized payments as a new requirement for banks and PSPs serving merchants who want to enable AI-powered checkout. Merchants adopting AI-driven commerce will need to work with partners who support tokenization, or risk exposing customers to fraud and losing business to competitors with stronger security.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/financial-apps/2026/coinbase-expands-app-with-ai-investment-adviser-and-developer-platform/"
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/visa-and-mastercard-put-tokens-in-charge-of-ai-commerce/"
       }
     },
     {
-      "title": "Ripple Invests in Flutterwave, Integrates RLUSD Stablecoin for African Payments",
-      "body": "Ripple invested in Flutterwave\u2019s Series E round, valuing the African payments firm at $3.25 billion, and began integrating its RLUSD stablecoin for cross-border and domestic payments. This partnership directly challenges incumbent payment providers in Africa, as banks and PSPs must now decide whether to develop their own digital asset strategies to keep pace with stablecoin-enabled transactions. African regulators will likely revisit stablecoin frameworks as adoption grows.",
+      "title": "Santander Wins OCC Approval for $12.2B Webster Bank Acquisition in U.S. Expansion",
+      "body": "Banco Santander received OCC approval to acquire Webster Bank for $12.2 billion, expanding its U.S. footprint and intensifying competition for regional banks. Santander\u2019s entry brings global resources and digital capabilities to local markets, prompting regional banks to reassess their scale and technology investments as they face a larger, international rival.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/banking/2026/occ-greenlights-santanders-12-2-billion-webster-bank-acquisition/"
+      }
+    },
+    {
+      "title": "Illinois Imposes 0.2% Tax on Crypto Transfers, Prompting Industry Backlash",
+      "body": "Illinois enacted a 0.2% tax on digital asset services, triggering immediate opposition from crypto exchanges and advocacy groups who warn the law will push digital asset businesses to relocate to states with lower taxes. Crypto firms operating in Illinois now face higher costs and regulatory uncertainty, raising the risk of diminished local industry activity and setting a precedent other states may follow.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/illinois-gov-jb-pritzker-triggers-industry-backlash-with-crypto-tax-law/"
+      }
+    },
+    {
+      "title": "Brazil\u2019s Trace Finance Raises $32M to Expand Stablecoin Infrastructure Across Regions",
+      "body": "Trace Finance, a Brazilian stablecoin infrastructure provider, raised $32 million to expand operations in Latin America, the US, and Asia Pacific. The company aims to compete with established cross-border settlement and B2B payout providers, offering banks and fintechs faster, lower-cost rails as stablecoin adoption grows in emerging markets.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47931/ripple-takes-stake-in-flutterwave"
-      }
-    },
-    {
-      "title": "Visa and Revolut Launch Click to Pay Across Europe, Targeting 40 Million Customers",
-      "body": "Visa and Revolut launched Click to Pay across Europe, bringing tokenized checkout to over 40 million users and expanding their influence in digital wallets. By offering a seamless, secure checkout, they aim to reduce reliance on guest checkout and card-on-file methods, prompting wallet providers like PayPal and Apple Pay to enhance their own solutions. Merchants now encounter a new standard for frictionless payments at checkout.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47925/visa-and-revolut-roll-out-click-to-pay-across-europe"
-      }
-    },
-    {
-      "title": "Coinbase to Offer Tokenized US Stocks With Dividend Payouts",
-      "body": "Coinbase will launch tokenized US stocks, allowing users to hold digital shares and receive dividends directly on its platform, challenging traditional brokerages and exchanges. Brokerages that rely on conventional equity trading must now accelerate their tokenization initiatives to retain digitally native investors who seek faster settlement and lower barriers to entry. Regulators are expected to scrutinize tokenized securities as they blur the boundaries between crypto and traditional finance.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/404978/coinbase-launching-tokenized-us-stocks-backed-11-holders-receive-dividends"
-      }
-    },
-    {
-      "title": "Interchecks Raises $50 Million to Expand Instant A2A Payments Platform",
-      "body": "Interchecks raised $50 million in Series C funding led by Bettor Capital and plans to expand its instant account-to-account (A2A) payments platform, directly challenging legacy payment rails and other A2A providers. The company will use the new capital to develop products and enter new markets, putting pressure on banks and traditional processors as instant A2A payments threaten ACH and card-based transaction volumes. Merchants and platforms now have more options for faster settlement.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47929/a2a-business-payments-platform-interchecks-raises-50-million"
+        "url": "https://www.finextra.com/newsarticle/47949/brazilian-stablecoin-infrastructure-firm-trace-finance-raises-32m?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Visa and Revolut\u2019s Click to Pay launch and Coinbase\u2019s AI and tokenized stock moves signal rapid digital transformation in payments and investment platforms.",
+  "perspective": "Stripe, AWS, and Santander headline a week of AI-driven payments innovation and cross-border expansion.",
   "curiosity": {
-    "text": "Despite the rise of instant payments, over 60% of global B2B transactions still rely on manual invoicing and reconciliation, highlighting a persistent gap in payment automation."
+    "text": "The first credit card transaction was processed in 1950 by Diners Club, which began as a cardboard card accepted at just 27 New York restaurants."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Odyssey ML",
-      "description": "$310M funding round with Amazon, Nvidia, AMD backing",
-      "source_url": "https://www.ft.com/content/1e0365db-a363-4d73-9960-23d25420e9f5"
+      "type": "M&A",
+      "company": "SpaceX",
+      "description": "Acquired AI coding tool Cursor for $60B.",
+      "source_url": "https://news.crunchbase.com/ma/spcx-acquires-ai-coding-cursor-largest-startup-ma-deal-2026/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "M&A",
+      "company": "Access PaySuite",
+      "description": "Acquired Ordo's open banking technology infrastructure.",
+      "source_url": "https://www.finextra.com/newsarticle/47938/access-paysuite-acquires-ordos-open-banking-technology-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "CuspAI",
-      "description": "$400M round backed by Jeff Bezos, quadruples valuation",
-      "source_url": "https://www.ft.com/content/4c479227-567c-435e-a4d3-795dd957b347"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "M&A",
-      "company": "Nuvei",
-      "description": "Acquires Payoneer for $2.75B",
-      "source_url": "https://www.bankingdive.com/news/nuvei-buy-payoneer-2-billion/822919/"
+      "company": "Monument Technology",
+      "description": "Raised \u00a318M for its 'Bank in a Box' platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47939/bank-in-a-box-technology-vendor-monument-raises-18-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "SpaceX",
-      "description": "Acquires AI tool Cursor for $60B",
-      "source_url": "https://news.crunchbase.com/ma/spcx-acquires-ai-coding-cursor-largest-startup-ma-deal-2026/"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddec",
       "type": "fundraising",
-      "company": "Flutterwave",
-      "description": "Hits $3.25B valuation with Series E",
-      "source_url": "https://www.theblock.co/post/404942/ripple-flutterwave-series-3-2-billion-valuation-rlusd-integration"
+      "company": "Interchecks",
+      "description": "Raised $50M Series C for A2A business payments platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47929/a2a-business-payments-platform-interchecks-raises-50-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
