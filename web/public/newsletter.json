@@ -1,57 +1,64 @@
 {
   "news": [
     {
-      "title": "Stripe and AWS Launch AI Agent Payment Infrastructure for Content Monetization",
-      "body": "Stripe and AWS have partnered to launch a Web Application Firewall feature that enables AI agents to autonomously pay for web content, allowing developers to embed AI-driven payments directly into digital experiences. Content owners and publishers can now monetize access to their data and services through automated agent transactions. Stripe and AWS are driving the adoption of AI-mediated payments, requiring payment processors and publishers to update security and compliance practices for this new transaction model.",
+      "title": "Zelle to Launch ZelleUSD Stablecoin for Cross-Border Payments",
+      "body": "Early Warning Services, operator of Zelle, plans to introduce ZelleUSD (ZLUSD), a U.S. dollar-backed stablecoin designed to extend Zelle\u2019s reach into international payments. This initiative positions Zelle alongside established stablecoin providers and cross-border networks, potentially drawing customers away from banks and fintechs dependent on legacy payment rails if ZelleUSD delivers faster, lower-cost settlement. U.S. regulators such as the Office of the Comptroller of the Currency (OCC) and the Consumer Financial Protection Bureau (CFPB) may scrutinize ZelleUSD\u2019s compliance with anti-money laundering and consumer protection standards as mainstream payment brands adopt stablecoins for cross-border transfers.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/zelle-readies-stablecoin-for-first-cross-border-push/"
+      }
+    },
+    {
+      "title": "Deluxe Acquires Celero Commerce for $625M to Expand Payment Processing",
+      "body": "Deluxe Corporation is acquiring Celero Commerce for $625 million in cash, aiming to increase its presence in the payment processing sector. The acquisition strengthens Deluxe\u2019s position against other processors and highlights ongoing consolidation among mid-market payment providers. Competing processors may accelerate mergers or invest in differentiated services to keep pace, as companies pursue further dealmaking to achieve scale for margin and product breadth.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47940/stripe-and-aws-enable-ai-agent-payments-for-content-owners-and-publishers?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47956/deluxe-agrees-625m-acquisition-of-payment-processor-celero?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa and Mastercard Standardize Tokenization for Secure AI Commerce Transactions",
-      "body": "Visa and Mastercard are rolling out tokenization to let AI agents conduct secure transactions, establishing tokenized payments as a new requirement for banks and PSPs serving merchants who want to enable AI-powered checkout. Merchants adopting AI-driven commerce will need to work with partners who support tokenization, or risk exposing customers to fraud and losing business to competitors with stronger security.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/visa-and-mastercard-put-tokens-in-charge-of-ai-commerce/"
-      }
-    },
-    {
-      "title": "Santander Wins OCC Approval for $12.2B Webster Bank Acquisition in U.S. Expansion",
-      "body": "Banco Santander received OCC approval to acquire Webster Bank for $12.2 billion, expanding its U.S. footprint and intensifying competition for regional banks. Santander\u2019s entry brings global resources and digital capabilities to local markets, prompting regional banks to reassess their scale and technology investments as they face a larger, international rival.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/occ-greenlights-santanders-12-2-billion-webster-bank-acquisition/"
-      }
-    },
-    {
-      "title": "Illinois Imposes 0.2% Tax on Crypto Transfers, Prompting Industry Backlash",
-      "body": "Illinois enacted a 0.2% tax on digital asset services, triggering immediate opposition from crypto exchanges and advocacy groups who warn the law will push digital asset businesses to relocate to states with lower taxes. Crypto firms operating in Illinois now face higher costs and regulatory uncertainty, raising the risk of diminished local industry activity and setting a precedent other states may follow.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/illinois-gov-jb-pritzker-triggers-industry-backlash-with-crypto-tax-law/"
-      }
-    },
-    {
-      "title": "Brazil\u2019s Trace Finance Raises $32M to Expand Stablecoin Infrastructure Across Regions",
-      "body": "Trace Finance, a Brazilian stablecoin infrastructure provider, raised $32 million to expand operations in Latin America, the US, and Asia Pacific. The company aims to compete with established cross-border settlement and B2B payout providers, offering banks and fintechs faster, lower-cost rails as stablecoin adoption grows in emerging markets.",
+      "title": "PayPal Shuts Down Venture Arm, Signaling Shift in Innovation Strategy",
+      "body": "PayPal is closing its venture capital unit as part of a strategic overhaul under CEO Enrique Lores, amid intensifying competition and speculation about takeover interest. This move could reduce PayPal\u2019s early access to fintech innovation and limit its ability to partner with or invest in emerging startups, potentially narrowing its pipeline for new products and services. Fintech founders may now seek funding and partnerships from other corporate or independent venture capital sources, while PayPal\u2019s market position may hinge on its ability to innovate internally or through acquisitions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47949/brazilian-stablecoin-infrastructure-firm-trace-finance-raises-32m?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47945/paypal-winds-down-venture-unit?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "House Bill Proposes Longer Holds on Suspicious Payments to Fight Fraud",
+      "body": "The 'STOP Payments Fraud Act of 2026,' introduced by Rep. Young Kim, would allow banks to place extended holds on suspicious checks and wire transfers while investigating potential fraud. This could help banks intercept fraudulent transactions, but small business owners and individuals awaiting payroll or urgent funds may face significant delays in accessing their money. Fraud detection technology vendors could benefit as banks seek solutions to balance regulatory compliance with customer experience, and the bill\u2019s progress will influence how banks manage risk and transparency in transaction holds.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/house-bill-would-give-banks-time-to-investigate-suspicious-checks/"
+      }
+    },
+    {
+      "title": "Wise Acquires Expatica to Expand Services for Global Expatriates",
+      "body": "Wise has acquired Expatica, a digital resource for expatriates, to broaden its offerings for people living and working abroad. This acquisition enhances Wise\u2019s position in the cross-border financial services market and intensifies competition with providers targeting expat and migrant customers. Rivals may need to expand their own service bundles to retain globally mobile users, while Wise is expected to integrate Expatica\u2019s content and tools into its platform for deeper customer engagement.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47950/wise-acquires-expat-information-business-expatica?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Stripe, AWS, and Santander headline a week of AI-driven payments innovation and cross-border expansion.",
+  "perspective": "Zelle\u2019s stablecoin debut and PayPal\u2019s venture arm closure highlight shifting strategies in cross-border payments and fintech innovation.",
   "curiosity": {
-    "text": "The first credit card transaction was processed in 1950 by Diners Club, which began as a cardboard card accepted at just 27 New York restaurants."
+    "text": "In 1974, the U.S. passed the Fair Credit Billing Act, which gave consumers the right to dispute unauthorized credit card charges\u2014a foundational protection in modern payments."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "SpaceX",
-      "description": "Acquired AI coding tool Cursor for $60B.",
-      "source_url": "https://news.crunchbase.com/ma/spcx-acquires-ai-coding-cursor-largest-startup-ma-deal-2026/"
+      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Trace Finance",
+      "description": "Raised $32M to expand stablecoin infrastructure.",
+      "source_url": "https://www.finextra.com/newsarticle/47949/brazilian-stablecoin-infrastructure-firm-trace-finance-raises-32m?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Monument Technology",
+      "description": "Raised \u00a318M for its 'Bank in a Box' technology.",
+      "source_url": "https://www.finextra.com/newsarticle/47939/bank-in-a-box-technology-vendor-monument-raises-18-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
@@ -59,20 +66,6 @@
       "company": "Access PaySuite",
       "description": "Acquired Ordo's open banking technology infrastructure.",
       "source_url": "https://www.finextra.com/newsarticle/47938/access-paysuite-acquires-ordos-open-banking-technology-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Monument Technology",
-      "description": "Raised \u00a318M for its 'Bank in a Box' platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47939/bank-in-a-box-technology-vendor-monument-raises-18-million?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Interchecks",
-      "description": "Raised $50M Series C for A2A business payments platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47929/a2a-business-payments-platform-interchecks-raises-50-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
