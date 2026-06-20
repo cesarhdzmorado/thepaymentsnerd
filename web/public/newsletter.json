@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Zelle to Launch ZelleUSD Stablecoin for Cross-Border Payments",
-      "body": "Early Warning Services, operator of Zelle, plans to introduce ZelleUSD (ZLUSD), a U.S. dollar-backed stablecoin designed to extend Zelle\u2019s reach into international payments. This initiative positions Zelle alongside established stablecoin providers and cross-border networks, potentially drawing customers away from banks and fintechs dependent on legacy payment rails if ZelleUSD delivers faster, lower-cost settlement. U.S. regulators such as the Office of the Comptroller of the Currency (OCC) and the Consumer Financial Protection Bureau (CFPB) may scrutinize ZelleUSD\u2019s compliance with anti-money laundering and consumer protection standards as mainstream payment brands adopt stablecoins for cross-border transfers.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-payments/2026/zelle-readies-stablecoin-for-first-cross-border-push/"
-      }
-    },
-    {
-      "title": "Deluxe Acquires Celero Commerce for $625M to Expand Payment Processing",
-      "body": "Deluxe Corporation is acquiring Celero Commerce for $625 million in cash, aiming to increase its presence in the payment processing sector. The acquisition strengthens Deluxe\u2019s position against other processors and highlights ongoing consolidation among mid-market payment providers. Competing processors may accelerate mergers or invest in differentiated services to keep pace, as companies pursue further dealmaking to achieve scale for margin and product breadth.",
+      "title": "Finastra Divests Core Banking Unit to Focus on Payments and Lending",
+      "body": "Finastra has sold its Universal Banking core banking software business to Pollen Street Capital, narrowing its focus to payments and lending solutions. Pollen Street gains a stronger foothold in the core banking software market, intensifying competition for legacy providers. Finastra\u2019s move signals a strategic retreat from core banking, while Pollen Street plans to drive product innovation and delivery improvements for existing UB clients.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47956/deluxe-agrees-625m-acquisition-of-payment-processor-celero?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47961/finastra-sells-ub-core-banking-software-unit-to-pollen-street-capital?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "PayPal Shuts Down Venture Arm, Signaling Shift in Innovation Strategy",
-      "body": "PayPal is closing its venture capital unit as part of a strategic overhaul under CEO Enrique Lores, amid intensifying competition and speculation about takeover interest. This move could reduce PayPal\u2019s early access to fintech innovation and limit its ability to partner with or invest in emerging startups, potentially narrowing its pipeline for new products and services. Fintech founders may now seek funding and partnerships from other corporate or independent venture capital sources, while PayPal\u2019s market position may hinge on its ability to innovate internally or through acquisitions.",
+      "title": "Hong Kong Pilots CBDC for After-Hours Derivatives Margin Payments",
+      "body": "Hong Kong is piloting a central bank digital currency (CBDC) for advance margin payments in after-hours derivatives trading. This live-market test positions Hong Kong as a frontrunner in CBDC adoption for capital markets infrastructure. The pilot could influence other financial centers to explore similar applications for cross-border and after-hours settlement.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47945/paypal-winds-down-venture-unit?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47953/hong-kong-pilots-wholesale-application-of-cbdc-in-a-live-market-environment?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "House Bill Proposes Longer Holds on Suspicious Payments to Fight Fraud",
-      "body": "The 'STOP Payments Fraud Act of 2026,' introduced by Rep. Young Kim, would allow banks to place extended holds on suspicious checks and wire transfers while investigating potential fraud. This could help banks intercept fraudulent transactions, but small business owners and individuals awaiting payroll or urgent funds may face significant delays in accessing their money. Fraud detection technology vendors could benefit as banks seek solutions to balance regulatory compliance with customer experience, and the bill\u2019s progress will influence how banks manage risk and transparency in transaction holds.",
+      "title": "Franklin Templeton Files for ETFs That Reinvest Dividends Into Bitcoin",
+      "body": "Franklin Templeton has filed for two new ETFs that will automatically reinvest stock dividends into Bitcoin. This product bridges traditional equity investing and digital assets, giving mainstream investors a new on-ramp to Bitcoin exposure. If approved, it could drive further integration of crypto into regulated financial products and influence ETF competitors\u2019 product roadmaps.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/house-bill-would-give-banks-time-to-investigate-suspicious-checks/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/405402/franklin-templeton-files-for-etfs-that-reinvest-stock-dividends-into-bitcoin?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Wise Acquires Expatica to Expand Services for Global Expatriates",
-      "body": "Wise has acquired Expatica, a digital resource for expatriates, to broaden its offerings for people living and working abroad. This acquisition enhances Wise\u2019s position in the cross-border financial services market and intensifies competition with providers targeting expat and migrant customers. Rivals may need to expand their own service bundles to retain globally mobile users, while Wise is expected to integrate Expatica\u2019s content and tools into its platform for deeper customer engagement.",
+      "title": "Zodia Custody Wins Payment Institution License in Luxembourg",
+      "body": "Zodia Custody has secured a Payment Institution license from Luxembourg\u2019s financial regulator, expanding its ability to offer crypto asset services across Europe. This regulatory milestone strengthens Zodia\u2019s competitive position against other crypto custodians and may prompt rivals to seek similar licenses. The move is likely to increase regulatory scrutiny and drive service differentiation in the European crypto custody market.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47950/wise-acquires-expat-information-business-expatica?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "EBAday 2026 Spotlights AI and Digital Assets as Strategic Priorities",
+      "body": "EBAday 2026 centered on the evolution of AI systems and digital assets, highlighting their shift from passive tools to autonomous agents in financial services. Banks and payment providers are actively integrating AI and digital asset capabilities to stay competitive. As these technologies move from experimentation to core infrastructure, investment and regulatory attention are increasing.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47948/ebaday-2026-zooming-in-on-ai-and-digital-assets-as-the-key-themes-of-the-event?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Zelle\u2019s stablecoin debut and PayPal\u2019s venture arm closure highlight shifting strategies in cross-border payments and fintech innovation.",
+  "perspective": "Hong Kong\u2019s live CBDC pilot and Franklin Templeton\u2019s ETF filing show financial institutions accelerating digital asset adoption in capital markets.",
   "curiosity": {
-    "text": "In 1974, the U.S. passed the Fair Credit Billing Act, which gave consumers the right to dispute unauthorized credit card charges\u2014a foundational protection in modern payments."
+    "text": "Despite their ubiquity, POS terminals can unintentionally increase cash usage in some markets by making it easier for merchants to offer cash-back services at checkout."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "flag": "\ud83c\udde9\ud83c\uddf0",
       "type": "fundraising",
-      "company": "Trace Finance",
-      "description": "Raised $32M to expand stablecoin infrastructure.",
-      "source_url": "https://www.finextra.com/newsarticle/47949/brazilian-stablecoin-infrastructure-firm-trace-finance-raises-32m?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Festina Finance",
+      "description": "Raised \u20ac25M for pensions platform.",
+      "source_url": "https://www.finextra.com/newsarticle/47959/danish-startup-festina-raises-25m-for-pensions-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\udde9\ud83c\uddf0",
       "type": "fundraising",
-      "company": "Monument Technology",
-      "description": "Raised \u00a318M for its 'Bank in a Box' technology.",
-      "source_url": "https://www.finextra.com/newsarticle/47939/bank-in-a-box-technology-vendor-monument-raises-18-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Franklin",
+      "description": "Raised \u20ac1.6M to bring agentic finance to e-commerce.",
+      "source_url": "https://www.finextra.com/pressarticle/110194/franklin-raises-funds-to-bring-agentic-finance-to-e-commerce-firms?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Elavon",
+      "description": "Expands all-in-one payments platform across North America.",
+      "source_url": "https://www.finextra.com/pressarticle/110195/elavon-expands-all-in-one-payments-platform-across-north-america?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Deluxe",
+      "description": "Acquires Celero for $625M.",
+      "source_url": "https://www.finextra.com/newsarticle/47956/deluxe-agrees-625m-acquisition-of-payment-processor-celero?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "M&A",
-      "company": "Access PaySuite",
-      "description": "Acquired Ordo's open banking technology infrastructure.",
-      "source_url": "https://www.finextra.com/newsarticle/47938/access-paysuite-acquires-ordos-open-banking-technology-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Wise",
+      "description": "Acquires expat information business Expatica.",
+      "source_url": "https://www.finextra.com/newsarticle/47950/wise-acquires-expat-information-business-expatica?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
