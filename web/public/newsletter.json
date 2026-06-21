@@ -1,49 +1,49 @@
 {
   "news": [
     {
-      "title": "Finastra Divests Core Banking Unit to Focus on Payments and Lending",
-      "body": "Finastra has sold its Universal Banking core banking software business to Pollen Street Capital, narrowing its focus to payments and lending solutions. Pollen Street gains a stronger foothold in the core banking software market, intensifying competition for legacy providers. Finastra\u2019s move signals a strategic retreat from core banking, while Pollen Street plans to drive product innovation and delivery improvements for existing UB clients.",
+      "title": "Elavon Expands All-In-One Payments Platform Across North America",
+      "body": "Elavon, a U.S. Bank subsidiary, is rolling out its All-In-One payments platform throughout North America, aiming to provide merchants with unified in-store and online payment capabilities. The expansion positions Elavon to serve merchants seeking integrated commerce solutions, directly competing with providers offering similar breadth, such as Stripe and Adyen. Merchants may now weigh the benefits of a single provider against specialized local offerings as they evaluate payment partners.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47961/finastra-sells-ub-core-banking-software-unit-to-pollen-street-capital?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110195/elavon-expands-all-in-one-payments-platform-across-north-america"
       }
     },
     {
-      "title": "Hong Kong Pilots CBDC for After-Hours Derivatives Margin Payments",
-      "body": "Hong Kong is piloting a central bank digital currency (CBDC) for advance margin payments in after-hours derivatives trading. This live-market test positions Hong Kong as a frontrunner in CBDC adoption for capital markets infrastructure. The pilot could influence other financial centers to explore similar applications for cross-border and after-hours settlement.",
+      "title": "JPMorgan and BofA Enter BNPL Market, Targeting Klarna and Affirm\u2019s Share",
+      "body": "JPMorgan and Bank of America are launching buy now, pay later products, directly challenging fintech incumbents Klarna and Affirm. By leveraging their existing customer bases and established trust, these banks can offer BNPL at scale, potentially undercutting fintech pricing and capturing prime borrowers. BNPL specialists now face margin compression and must differentiate on user experience or unique underwriting models to retain volume as banks enter the space.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47953/hong-kong-pilots-wholesale-application-of-cbdc-in-a-live-market-environment?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/bofa-jpmorgan-citi-us-bank-bnpl-options-klarna-affirm-keybank-old-national/823238/"
       }
     },
     {
-      "title": "Franklin Templeton Files for ETFs That Reinvest Dividends Into Bitcoin",
-      "body": "Franklin Templeton has filed for two new ETFs that will automatically reinvest stock dividends into Bitcoin. This product bridges traditional equity investing and digital assets, giving mainstream investors a new on-ramp to Bitcoin exposure. If approved, it could drive further integration of crypto into regulated financial products and influence ETF competitors\u2019 product roadmaps.",
+      "title": "Repay Completes Stablecoin Payments Proof of Concept, Eyes Mainstream Integration",
+      "body": "Repay Holdings has completed a proof of concept for stablecoin payments on its platform, signaling readiness to support digital asset transactions for mainstream clients. This positions Repay to attract merchants and fintechs seeking faster, lower-cost settlement options via stablecoins like USDC and PYUSD. If Repay moves forward with enterprise pilots, clients could gain access to near-instant settlement and reduced cross-border payment friction, prompting other processors to evaluate stablecoin strategies.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110192/repay-completes-stablecoin-payments-proof-of-concept"
+      }
+    },
+    {
+      "title": "Secret Network\u2019s Axelar Bridge Exploit Exposes $4.67M Security Gap in Crypto Infrastructure",
+      "body": "A vulnerability in Secret Network\u2019s Axelar bridge led to a $4.67 million exploit, with $770,000 still in the attacker\u2019s wallet after a week undetected. The breach undermines trust in both Secret Network and Axelar, highlighting persistent security risks in cross-chain crypto infrastructure. Competing networks are likely to emphasize their own security protocols, and the incident may prompt regulators to increase scrutiny of bridge operators and drive investment in crypto bridge audits.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/405402/franklin-templeton-files-for-etfs-that-reinvest-stock-dividends-into-bitcoin?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/405459/secret-networks-axelar-bridge-drained-for-4-67-million-in-infinite-mint-exploit-that-went-unnoticed-for-seven-days"
       }
     },
     {
-      "title": "Zodia Custody Wins Payment Institution License in Luxembourg",
-      "body": "Zodia Custody has secured a Payment Institution license from Luxembourg\u2019s financial regulator, expanding its ability to offer crypto asset services across Europe. This regulatory milestone strengthens Zodia\u2019s competitive position against other crypto custodians and may prompt rivals to seek similar licenses. The move is likely to increase regulatory scrutiny and drive service differentiation in the European crypto custody market.",
+      "title": "MidFirst Bank Acquires Dallas Commercial Bank, Expanding Regional Footprint",
+      "body": "MidFirst Bank is acquiring a Dallas-based commercial bank, extending its reach across Texas and Oklahoma and deepening its presence in key growth markets. The deal boosts MidFirst\u2019s commercial lending and deposit base, intensifying competition for regional incumbents and fintech challengers. Other regional banks may pursue similar acquisitions to expand their customer base and achieve greater operational scale.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "EBAday 2026 Spotlights AI and Digital Assets as Strategic Priorities",
-      "body": "EBAday 2026 centered on the evolution of AI systems and digital assets, highlighting their shift from passive tools to autonomous agents in financial services. Banks and payment providers are actively integrating AI and digital asset capabilities to stay competitive. As these technologies move from experimentation to core infrastructure, investment and regulatory attention are increasing.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47948/ebaday-2026-zooming-in-on-ai-and-digital-assets-as-the-key-themes-of-the-event?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/midfirst-bank-acquire-dallas-capital-commercial-texas-oklahoma/823282/"
       }
     }
   ],
-  "perspective": "Hong Kong\u2019s live CBDC pilot and Franklin Templeton\u2019s ETF filing show financial institutions accelerating digital asset adoption in capital markets.",
+  "perspective": "JPMorgan and BofA\u2019s BNPL entry and Repay\u2019s stablecoin proof highlight how banks and fintechs are reshaping payments innovation and competition.",
   "curiosity": {
-    "text": "Despite their ubiquity, POS terminals can unintentionally increase cash usage in some markets by making it easier for merchants to offer cash-back services at checkout."
+    "text": "Digital signatures in payment systems use asymmetric cryptography, allowing a transaction to be verified without revealing the private key\u2014crucial for secure, scalable digital commerce."
   },
   "whats_hot": [
     {
@@ -51,35 +51,35 @@
       "type": "fundraising",
       "company": "Festina Finance",
       "description": "Raised \u20ac25M for pensions platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47959/danish-startup-festina-raises-25m-for-pensions-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "source_url": "https://www.finextra.com/newsarticle/47959/danish-startup-festina-raises-25m-for-pensions-platform"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Sovra",
+      "description": "Raised $2M in pre-seed funding.",
+      "source_url": "https://www.finextra.com/pressarticle/110190/mena-startup-sovra-raises-2m-in-pre-seed-funding"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddf0",
       "type": "fundraising",
       "company": "Franklin",
       "description": "Raised \u20ac1.6M to bring agentic finance to e-commerce.",
-      "source_url": "https://www.finextra.com/pressarticle/110194/franklin-raises-funds-to-bring-agentic-finance-to-e-commerce-firms?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "source_url": "https://www.finextra.com/pressarticle/110194/franklin-raises-funds-to-bring-agentic-finance-to-e-commerce-firms"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Gradient Labs",
+      "description": "Doubled Series A to $26M for AI finance startup.",
+      "source_url": "https://sifted.eu/articles/gradient-labs-doubles-series-a/"
+    },
+    {
+      "flag": "\ud83c\uddf1\ud83c\uddfa",
       "type": "expansion",
-      "company": "Elavon",
-      "description": "Expands all-in-one payments platform across North America.",
-      "source_url": "https://www.finextra.com/pressarticle/110195/elavon-expands-all-in-one-payments-platform-across-north-america?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Deluxe",
-      "description": "Acquires Celero for $625M.",
-      "source_url": "https://www.finextra.com/newsarticle/47956/deluxe-agrees-625m-acquisition-of-payment-processor-celero?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "M&A",
-      "company": "Wise",
-      "description": "Acquires expat information business Expatica.",
-      "source_url": "https://www.finextra.com/newsarticle/47950/wise-acquires-expat-information-business-expatica?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Zodia Custody",
+      "description": "Secured payment license in Luxembourg.",
+      "source_url": "https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg"
     }
   ]
 }
