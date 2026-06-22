@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Elavon Expands All-In-One Payments Platform Across North America",
-      "body": "Elavon, a U.S. Bank subsidiary, is rolling out its All-In-One payments platform throughout North America, aiming to provide merchants with unified in-store and online payment capabilities. The expansion positions Elavon to serve merchants seeking integrated commerce solutions, directly competing with providers offering similar breadth, such as Stripe and Adyen. Merchants may now weigh the benefits of a single provider against specialized local offerings as they evaluate payment partners.",
+      "title": "Santander Rolls Out AI Tools to 185,000 Employees, Reports Early Business Impact",
+      "body": "Santander has deployed AI-powered tools to its entire workforce, reporting measurable improvements in operational efficiency and customer service. The bank\u2019s large-scale adoption of AI sets a new standard for digital transformation among global banks, prompting rivals to accelerate their own technology initiatives to remain competitive.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110195/elavon-expands-all-in-one-payments-platform-across-north-america"
+        "url": "https://www.finextra.com/newsarticle/47962/santander-extends-ai-access-to-all-employees-as-business-value-starts-to-kick-in?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "JPMorgan and BofA Enter BNPL Market, Targeting Klarna and Affirm\u2019s Share",
-      "body": "JPMorgan and Bank of America are launching buy now, pay later products, directly challenging fintech incumbents Klarna and Affirm. By leveraging their existing customer bases and established trust, these banks can offer BNPL at scale, potentially undercutting fintech pricing and capturing prime borrowers. BNPL specialists now face margin compression and must differentiate on user experience or unique underwriting models to retain volume as banks enter the space.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/bofa-jpmorgan-citi-us-bank-bnpl-options-klarna-affirm-keybank-old-national/823238/"
-      }
-    },
-    {
-      "title": "Repay Completes Stablecoin Payments Proof of Concept, Eyes Mainstream Integration",
-      "body": "Repay Holdings has completed a proof of concept for stablecoin payments on its platform, signaling readiness to support digital asset transactions for mainstream clients. This positions Repay to attract merchants and fintechs seeking faster, lower-cost settlement options via stablecoins like USDC and PYUSD. If Repay moves forward with enterprise pilots, clients could gain access to near-instant settlement and reduced cross-border payment friction, prompting other processors to evaluate stablecoin strategies.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110192/repay-completes-stablecoin-payments-proof-of-concept"
-      }
-    },
-    {
-      "title": "Secret Network\u2019s Axelar Bridge Exploit Exposes $4.67M Security Gap in Crypto Infrastructure",
-      "body": "A vulnerability in Secret Network\u2019s Axelar bridge led to a $4.67 million exploit, with $770,000 still in the attacker\u2019s wallet after a week undetected. The breach undermines trust in both Secret Network and Axelar, highlighting persistent security risks in cross-chain crypto infrastructure. Competing networks are likely to emphasize their own security protocols, and the incident may prompt regulators to increase scrutiny of bridge operators and drive investment in crypto bridge audits.",
+      "title": "Toss Bank Partners With Solana to Pilot Blockchain-Based Remittances and Stablecoin Payments",
+      "body": "Toss Bank in South Korea is collaborating with Solana to pilot blockchain infrastructure for overseas remittances and stablecoin payments, directly challenging traditional banks and fintechs that rely on legacy payment rails. This initiative shifts competitive dynamics in cross-border payments, as regulated banks experiment with blockchain to improve speed and reduce costs for customers.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/405459/secret-networks-axelar-bridge-drained-for-4-67-million-in-infinite-mint-exploit-that-went-unnoticed-for-seven-days"
+        "url": "https://www.theblock.co/post/405505/toss-solana-partnership?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "MidFirst Bank Acquires Dallas Commercial Bank, Expanding Regional Footprint",
-      "body": "MidFirst Bank is acquiring a Dallas-based commercial bank, extending its reach across Texas and Oklahoma and deepening its presence in key growth markets. The deal boosts MidFirst\u2019s commercial lending and deposit base, intensifying competition for regional incumbents and fintech challengers. Other regional banks may pursue similar acquisitions to expand their customer base and achieve greater operational scale.",
+      "title": "Polymarket Paid Creators to Stage Fake Bets, Undermining Prediction Market Credibility",
+      "body": "Polymarket reportedly paid content creators to simulate winning bets, raising concerns about the integrity of prediction markets and eroding user trust. Regulators may increase scrutiny of decentralized betting platforms, while competitors are likely to implement more transparent practices to reassure participants and avoid similar reputational risks.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/405471/polymarket-paid-creators-to-stage-fake-winning-bets-on-dummy-sites-wsj?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Ethereum Layer 2 Taiko Halts Block Production After Exploit, Urges User Withdrawals",
+      "body": "Taiko, an Ethereum Layer 2 network, halted block production after a security exploit and advised users to withdraw funds. The incident exposes ongoing vulnerabilities in Layer 2 scaling solutions, prompting developers and investors to demand more rigorous security audits before supporting new projects in this space.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/405486/taiko-confirms-exploit?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Santander\u2019s $12.3B Webster Acquisition Clears OCC, Eyes Final Regulatory Hurdles",
+      "body": "Santander\u2019s $12.3 billion acquisition of Webster has received approval from the OCC, with decisions from the Federal Reserve and European Central Bank still pending. The deal enables Santander to expand its US presence and operational scale, potentially triggering further consolidation among regional banks as the competitive landscape shifts.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/midfirst-bank-acquire-dallas-capital-commercial-texas-oklahoma/823282/"
+        "url": "https://www.bankingdive.com/news/santander-webster-occ-approval-federal-reserve-european-central-bank-justice-antitrust/823281/"
       }
     }
   ],
-  "perspective": "JPMorgan and BofA\u2019s BNPL entry and Repay\u2019s stablecoin proof highlight how banks and fintechs are reshaping payments innovation and competition.",
+  "perspective": "Santander\u2019s AI deployment and Webster acquisition, plus Toss Bank\u2019s Solana pilot, highlight banks\u2019 urgent push to modernize with digital and blockchain strategies.",
   "curiosity": {
-    "text": "Digital signatures in payment systems use asymmetric cryptography, allowing a transaction to be verified without revealing the private key\u2014crucial for secure, scalable digital commerce."
+    "text": "Despite the hype, only about 0.2% of global cross-border remittances currently use blockchain rails, according to World Bank and industry estimates."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Festina Finance",
-      "description": "Raised \u20ac25M for pensions platform.",
-      "source_url": "https://www.finextra.com/newsarticle/47959/danish-startup-festina-raises-25m-for-pensions-platform"
+      "company": "Odyssey",
+      "description": "Raised $310M in a funding round, leading the week's largest deals.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Sovra",
-      "description": "Raised $2M in pre-seed funding.",
-      "source_url": "https://www.finextra.com/pressarticle/110190/mena-startup-sovra-raises-2m-in-pre-seed-funding"
+      "company": "Collide Capital",
+      "description": "Closed a $95M fund to back fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
-      "type": "fundraising",
-      "company": "Franklin",
-      "description": "Raised \u20ac1.6M to bring agentic finance to e-commerce.",
-      "source_url": "https://www.finextra.com/pressarticle/110194/franklin-raises-funds-to-bring-agentic-finance-to-e-commerce-firms"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "SpaceX",
+      "description": "Acquired AI coding tool Cursor for $60B, marking the year's largest startup M&A deal.",
+      "source_url": "https://news.crunchbase.com/ma/spcx-acquires-ai-coding-cursor-largest-startup-ma-deal-2026/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Gradient Labs",
-      "description": "Doubled Series A to $26M for AI finance startup.",
+      "description": "Doubled its Series A to $26M for AI-powered finance solutions.",
       "source_url": "https://sifted.eu/articles/gradient-labs-doubles-series-a/"
     },
     {
-      "flag": "\ud83c\uddf1\ud83c\uddfa",
-      "type": "expansion",
-      "company": "Zodia Custody",
-      "description": "Secured payment license in Luxembourg.",
-      "source_url": "https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Wise Alumni",
+      "description": "Raised $2M pre-seed for AI tax startup.",
+      "source_url": "https://sifted.eu/articles/record-os-2m-pre-seed/"
     }
   ]
 }
