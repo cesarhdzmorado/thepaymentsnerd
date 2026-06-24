@@ -1,64 +1,71 @@
 {
   "news": [
     {
-      "title": "Anchorage Digital Unveils Tokenized Deposit Platform for 24/7 Bank Settlement",
-      "body": "Anchorage Digital has launched a tokenized deposit platform, allowing banks to issue and manage tokenized deposits on blockchain networks without replacing their legacy systems. Anchorage's move enables banks to offer round-the-clock settlement, directly challenging traditional batch-based clearing. Core banking providers now compete with blockchain-native infrastructure, and banks gain a route to programmable money. U.S. regulators may soon clarify how tokenized deposits fit within existing banking rules as more institutions pilot these rails.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/anchorage-digital-introduces-tokenized-deposit-platform-for-banks/"
-      }
-    },
-    {
-      "title": "Austrian Banks Expand Wero Wallet, Targeting Card Network Reliance in Europe",
-      "body": "Austria\u2019s major banking groups have joined the European Payments Initiative, extending the Wero wallet\u2019s reach across the continent. By promoting account-to-account payments, the initiative aims to reduce reliance on Visa and Mastercard and improve cross-border payment efficiency. European banks now have a stronger collective alternative to global card schemes, which could lower merchant transaction costs and shift consumer payment habits. The next phase will test whether large retailers and e-commerce platforms integrate Wero at checkout, influencing adoption rates across the EU.",
+      "title": "Meta Invests in Cred, Deepening WhatsApp-Driven Fintech Ambitions in India",
+      "body": "Meta participated in a $900 million Series H round for Indian fintech Cred, aiming to expand its financial services footprint via WhatsApp\u2019s massive user base. The investment puts Meta in direct competition with Indian banks and fintechs, as it seeks to integrate payments and credit into its messaging platform. Indian regulators are expected to scrutinize Meta\u2019s data practices and cross-platform integrations, which could impact the pace and scope of new product launches.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47968/austrian-banks-embrace-wero"
+        "url": "https://www.finextra.com/newsarticle/47976/meta-leads-900m-funding-round-for-indian-fintech-cred?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Bank of England Lifts Stablecoin Holding Limits, Opening Door for Institutional Adoption",
-      "body": "The Bank of England has removed provisional limits on GBP stablecoin holdings after industry pushback, signaling a more open stance toward stablecoin integration. Financial institutions can now hold and use GBP stablecoins more freely, which could accelerate their use in payments, treasury management, and cross-border settlement. UK banks and fintechs may launch new GBP stablecoin products and pilot international transfers using these assets, testing market appetite for blockchain-based settlement.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47966/bank-of-england-bows-to-pressure-on-stablecoin-holdings"
-      }
-    },
-    {
-      "title": "Meta Invests $900M in Cred, Hires Founder to Lead WhatsApp Financial Services",
-      "body": "Meta has invested $900 million in India\u2019s Cred, valuing the fintech at $4.5 billion, and appointed Cred\u2019s founder to oversee WhatsApp\u2019s financial services. This move positions WhatsApp as a direct competitor to Indian fintechs and banks in payments and lending, leveraging Meta\u2019s user base and Cred\u2019s local expertise. Indian regulators may scrutinize Meta\u2019s compliance with Reserve Bank of India guidelines on data localization, digital lending, and payment system access as the company expands its financial footprint.",
+      "title": "Boost Leverages New Visa Rules to Slash B2B Interchange by 44 Percent",
+      "body": "Boost Payment Solutions announced a 44% reduction in interchange costs for its B2B payments platform, saving clients $14.7 million under new Visa rules. This cost advantage could draw more businesses to Boost and force rival processors to match savings or risk losing volume. Visa\u2019s program sets a new benchmark for B2B payment economics, with ripple effects likely across the commercial payments sector.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/facebook-meta/2026/meta-backs-indias-cred-and-hires-founder-to-run-whatsapp/"
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/boost-b2b-platform-delivers-44-interchange-savings-under-new-visa-rules/"
       }
     },
     {
-      "title": "MoonPay Acquires Entendre to Automate Back-Office Finance With AI",
-      "body": "MoonPay has acquired Entendre, an AI-powered finance operations startup, to automate and streamline its back-office processes. By integrating Entendre\u2019s technology, MoonPay aims to scale efficiently and reduce operational costs as crypto payment volumes grow. Competing fintechs may accelerate their own AI adoption to keep pace on cost control and compliance, and further acquisitions of AI startups by payments firms are likely as automation becomes a competitive differentiator.",
+      "title": "Chainlink and Global Banks Pilot Real-Time Stablecoin FX Trades",
+      "body": "Chainlink is collaborating with international banks to enable real-time, stablecoin-based foreign exchange trades, bringing programmable settlement to cross-border payments. This pilot challenges legacy correspondent banking by offering faster, automated settlement options for global banks. As adoption grows, traditional FX providers may see compressed margins and reduced roles, while regulators focus on the compliance and risk frameworks for stablecoin use.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/405704/moonpay-expands-back-office-financial-operations-ai-accounting-startup-entendre-acquisition"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/chainlink-helping-banks-launch-cross-border-stablecoin-trades/"
+      }
+    },
+    {
+      "title": "French Neobank Green-Got Sets Crowdfunding Record With \u20ac8M in Under an Hour",
+      "body": "Green-Got raised \u20ac8 million ($9M USD) from over 5,200 investors on Crowdcube in just 52 minutes, breaking the European crowdfunding record. The rapid raise highlights strong investor demand for sustainable finance and alternative funding models in fintech. Other neobanks may look to crowdfunding to validate market interest and build community ownership.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47973/french-neobank-green-got-shatters-crowdcube-records?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Syndio Acquires Embrace.ai to Bolster Agentic AI in Financial Analytics",
+      "body": "Syndio acquired Embrace.ai to integrate advanced agentic AI into its Decision Intelligence for Pay platform, enhancing its analytics and automation capabilities. This acquisition signals intensifying competition among analytics and banking tech providers to deliver more sophisticated AI-driven insights. The move suggests that agentic AI is becoming a core requirement for next-generation financial analytics platforms.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/syndio-accelerates-agentic-ai-roadmap-with-embrace-ai-buy/"
       }
     }
   ],
-  "perspective": "Anchorage Digital and Meta\u2019s latest moves show banks and tech giants racing to reshape payments with blockchain and AI across the US, UK, and India.",
+  "perspective": "Meta\u2019s Cred investment and Chainlink\u2019s stablecoin FX pilots are accelerating competition between big tech, banks, and fintechs in India and cross-border payments.",
   "curiosity": {
-    "text": "The first credit card transaction took place in 1950 at a New York City restaurant, launching the Diners Club card and the modern card payments era."
+    "text": "PayPal\u2019s early growth was fueled by its viral referral program, which paid users $10 for signing up and another $10 for each friend they referred\u2014a tactic that helped it outpace rivals like X.com (founded by Elon Musk)."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Fomo",
-      "description": "Raised $75 million for consumer crypto trading app",
-      "source_url": "https://www.pymnts.com/cryptocurrency/2026/fomo-raises-75-million-for-consumer-crypto-trading-app/"
+      "company": "Allium",
+      "description": "Raises $40M Series B for blockchain data platform",
+      "source_url": "https://www.finextra.com/pressarticle/110228/blockchain-platform-allium-raises-40-million-series-b?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "partnership",
-      "company": "Nuvion",
-      "description": "Partnered with Visa Direct for real-time payments",
-      "source_url": "https://www.finextra.com/pressarticle/110202/nuvion-gets-onboard-with-visa-direct"
+      "type": "product",
+      "company": "Mosta",
+      "description": "Launches MainUSD stablecoin for cross-border settlement",
+      "source_url": "https://www.finextra.com/pressarticle/110231/mosta-launches-stablecoin-for-instant-cross-border-settlement?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "product",
+      "company": "Bluecode",
+      "description": "Launches NFC payment solution for Android and iOS",
+      "source_url": "https://www.finextra.com/pressarticle/110229/bluecode-brings-nfc-payments-to-android-and-ios-devices?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
