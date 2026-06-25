@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Meta Invests in Cred, Deepening WhatsApp-Driven Fintech Ambitions in India",
-      "body": "Meta participated in a $900 million Series H round for Indian fintech Cred, aiming to expand its financial services footprint via WhatsApp\u2019s massive user base. The investment puts Meta in direct competition with Indian banks and fintechs, as it seeks to integrate payments and credit into its messaging platform. Indian regulators are expected to scrutinize Meta\u2019s data practices and cross-platform integrations, which could impact the pace and scope of new product launches.",
+      "title": "Ripple\u2019s RLUSD Stablecoin Launches in Japan, Expanding Cross-Border Payment Options",
+      "body": "Ripple has launched its RLUSD stablecoin in Japan after securing regulatory approval, making it available via SBI VC Trade for both institutional and retail users. Japanese banks and investors now have a new cross-border settlement tool, intensifying competition with existing stablecoin providers. Ripple\u2019s entry may prompt other global stablecoin issuers to seek Japanese market access and force incumbents to differentiate on speed, compliance, or FX features.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/406067/ripple-launches-rlusd-stablecoin-japan?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Digital Euro Moves Forward as European Parliament Committee Approves Key Legislation",
+      "body": "A European Parliament committee has approved legislation supporting the digital euro, providing the European Central Bank and EU financial institutions with a regulatory framework to begin pilots and technical preparations. Banks and payment providers must now assess integration strategies for digital euro rails, which could impact wallet, card, and instant payment adoption across the region.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47976/meta-leads-900m-funding-round-for-indian-fintech-cred?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47986/digital-euro-clears-european-parliament-hurdle?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Boost Leverages New Visa Rules to Slash B2B Interchange by 44 Percent",
-      "body": "Boost Payment Solutions announced a 44% reduction in interchange costs for its B2B payments platform, saving clients $14.7 million under new Visa rules. This cost advantage could draw more businesses to Boost and force rival processors to match savings or risk losing volume. Visa\u2019s program sets a new benchmark for B2B payment economics, with ripple effects likely across the commercial payments sector.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/boost-b2b-platform-delivers-44-interchange-savings-under-new-visa-rules/"
-      }
-    },
-    {
-      "title": "Chainlink and Global Banks Pilot Real-Time Stablecoin FX Trades",
-      "body": "Chainlink is collaborating with international banks to enable real-time, stablecoin-based foreign exchange trades, bringing programmable settlement to cross-border payments. This pilot challenges legacy correspondent banking by offering faster, automated settlement options for global banks. As adoption grows, traditional FX providers may see compressed margins and reduced roles, while regulators focus on the compliance and risk frameworks for stablecoin use.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-payments/2026/chainlink-helping-banks-launch-cross-border-stablecoin-trades/"
-      }
-    },
-    {
-      "title": "French Neobank Green-Got Sets Crowdfunding Record With \u20ac8M in Under an Hour",
-      "body": "Green-Got raised \u20ac8 million ($9M USD) from over 5,200 investors on Crowdcube in just 52 minutes, breaking the European crowdfunding record. The rapid raise highlights strong investor demand for sustainable finance and alternative funding models in fintech. Other neobanks may look to crowdfunding to validate market interest and build community ownership.",
+      "title": "Worldpay Outage During World Cup Game Exposes Payment Infrastructure Weakness",
+      "body": "Worldpay suffered a payments outage during the England vs Ghana World Cup match, disrupting card transactions at UK pubs and shops. Retailers and consumers experienced direct losses, while Worldpay\u2019s reliability is now under scrutiny from merchants and regulators. Competing processors may see increased merchant switching as businesses seek more resilient payment partners ahead of future high-traffic events.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47973/french-neobank-green-got-shatters-crowdcube-records?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47988/worldpay-suffers-outage-during-england-vs-ghana-world-cup-game?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Syndio Acquires Embrace.ai to Bolster Agentic AI in Financial Analytics",
-      "body": "Syndio acquired Embrace.ai to integrate advanced agentic AI into its Decision Intelligence for Pay platform, enhancing its analytics and automation capabilities. This acquisition signals intensifying competition among analytics and banking tech providers to deliver more sophisticated AI-driven insights. The move suggests that agentic AI is becoming a core requirement for next-generation financial analytics platforms.",
+      "title": "Stablecore Unveils Stablecoin and Digital Asset Program for US Credit Unions",
+      "body": "Stablecore has launched a stablecoin and digital asset program tailored for US credit unions, aiming to boost their digital finance offerings. Credit unions can now offer members new digital asset services, narrowing the technology gap with larger banks and fintechs. Traditional banks may face faster digital adoption among credit unions, raising the bar for innovation in member engagement and payments.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/syndio-accelerates-agentic-ai-roadmap-with-embrace-ai-buy/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47987/stablecore-launches-stablecoin-and-digital-asset-programme-for-credit-unions?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "SBI Holdings Issues Japan\u2019s First Trust Bank-Backed Yen Stablecoin",
+      "body": "SBI Holdings has launched $JPYSC, reported as Japan\u2019s first trust bank-backed yen stablecoin, offering a new secure digital payment option for institutions and retail investors. This development gives Japanese banks and fintechs a regulated alternative to existing digital payment methods and may accelerate stablecoin adoption in domestic commerce. Japanese regulators are expected to update digital currency frameworks as more banks consider similar launches.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/47984/sbi-holdings-launches-yen-backed-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Meta\u2019s Cred investment and Chainlink\u2019s stablecoin FX pilots are accelerating competition between big tech, banks, and fintechs in India and cross-border payments.",
+  "perspective": "Ripple and SBI Holdings\u2019 stablecoin launches and the digital euro\u2019s legislative progress highlight rapid shifts in regulated digital currency infrastructure this week.",
   "curiosity": {
-    "text": "PayPal\u2019s early growth was fueled by its viral referral program, which paid users $10 for signing up and another $10 for each friend they referred\u2014a tactic that helped it outpace rivals like X.com (founded by Elon Musk)."
+    "text": "EMV technology, introduced in 2004, required payment cards to use microchips instead of magnetic stripes\u2014yet France had already adopted a similar chip card system in the 1980s."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
       "type": "fundraising",
-      "company": "Allium",
-      "description": "Raises $40M Series B for blockchain data platform",
-      "source_url": "https://www.finextra.com/pressarticle/110228/blockchain-platform-allium-raises-40-million-series-b?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Meta",
+      "description": "Leads $900M Series H for fintech Cred.",
+      "source_url": "https://www.finextra.com/newsarticle/47976/meta-leads-900m-funding-round-for-indian-fintech-cred?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Mosta",
-      "description": "Launches MainUSD stablecoin for cross-border settlement",
-      "source_url": "https://www.finextra.com/pressarticle/110231/mosta-launches-stablecoin-for-instant-cross-border-settlement?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Anchorbase",
+      "description": "Raises $2M to automate back-office workflows.",
+      "source_url": "https://www.finextra.com/newsarticle/47981/anchorbase-raises-2-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "M&A",
+      "company": "PayPoint",
+      "description": "Acquires UK credit reference agency AperiData.",
+      "source_url": "https://www.finextra.com/newsarticle/47980/paypoint-acquires-aperidata?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udf0f",
       "type": "product",
-      "company": "Bluecode",
-      "description": "Launches NFC payment solution for Android and iOS",
-      "source_url": "https://www.finextra.com/pressarticle/110229/bluecode-brings-nfc-payments-to-android-and-ios-devices?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Thredd",
+      "description": "Implements Visa Cloud Connect in Asia Pacific.",
+      "source_url": "https://www.finextra.com/pressarticle/110247/thredd-rolls-out-visa-cloud-connect-in-asia-pacific?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
