@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Ripple\u2019s RLUSD Stablecoin Launches in Japan, Expanding Cross-Border Payment Options",
-      "body": "Ripple has launched its RLUSD stablecoin in Japan after securing regulatory approval, making it available via SBI VC Trade for both institutional and retail users. Japanese banks and investors now have a new cross-border settlement tool, intensifying competition with existing stablecoin providers. Ripple\u2019s entry may prompt other global stablecoin issuers to seek Japanese market access and force incumbents to differentiate on speed, compliance, or FX features.",
+      "title": "Stripe and Major Banks Push Congress for Overhaul of Outdated Payment Regulations",
+      "body": "Stripe and leading U.S. banks are urging Congress to modernize payment regulations, arguing that current rules restrict banks and fintechs from launching digital-first products and slow the adoption of real-time payments. Lawmakers are now under pressure to address these gaps, which could enable faster innovation and intensify competition among banks, fintechs, and payment processors. Industry groups expect draft legislation or committee hearings to emerge as the next step.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/406067/ripple-launches-rlusd-stablecoin-japan?utm_source=rss&utm_medium=rss"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/2026/stripe-banks-tell-congress-payment-rules-no-longer-fit-modern-commerce/"
       }
     },
     {
-      "title": "Digital Euro Moves Forward as European Parliament Committee Approves Key Legislation",
-      "body": "A European Parliament committee has approved legislation supporting the digital euro, providing the European Central Bank and EU financial institutions with a regulatory framework to begin pilots and technical preparations. Banks and payment providers must now assess integration strategies for digital euro rails, which could impact wallet, card, and instant payment adoption across the region.",
+      "title": "Airwallex Raises $320M at $11B Valuation to Expand Into Agentic Commerce",
+      "body": "Airwallex secured $320 million in new funding at an $11 billion valuation and plans to launch programmable cross-border payments and embedded finance products that leverage AI for transaction automation. The company is actively hiring engineers and forming technology partnerships to accelerate its agentic commerce roadmap, directly challenging Stripe and Wise in global B2B payments. Competitors must now contend with Airwallex\u2019s expanded product suite and aggressive market entry.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47986/digital-euro-clears-european-parliament-hurdle?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47996/airwallex-targets-agentic-commerce-after-hitting-11bn-valuation"
       }
     },
     {
-      "title": "Worldpay Outage During World Cup Game Exposes Payment Infrastructure Weakness",
-      "body": "Worldpay suffered a payments outage during the England vs Ghana World Cup match, disrupting card transactions at UK pubs and shops. Retailers and consumers experienced direct losses, while Worldpay\u2019s reliability is now under scrutiny from merchants and regulators. Competing processors may see increased merchant switching as businesses seek more resilient payment partners ahead of future high-traffic events.",
+      "title": "Binance Withdraws From EU Market as MiCA Compliance Deadline Looms",
+      "body": "Binance will stop serving EU clients, citing the cost and complexity of meeting MiCA\u2019s new regulatory requirements. This move could shift up to 15% of EU crypto trading volume to compliant exchanges such as Bitstamp and Kraken, giving them a significant opportunity to capture new users and liquidity. Competing global exchanges must now decide whether to invest in MiCA compliance or risk losing access to the EU\u2019s sizable crypto market.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47988/worldpay-suffers-outage-during-england-vs-ghana-world-cup-game?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/c1765ad5-022c-4bc3-9295-ef80791a2977"
       }
     },
     {
-      "title": "Stablecore Unveils Stablecoin and Digital Asset Program for US Credit Unions",
-      "body": "Stablecore has launched a stablecoin and digital asset program tailored for US credit unions, aiming to boost their digital finance offerings. Credit unions can now offer members new digital asset services, narrowing the technology gap with larger banks and fintechs. Traditional banks may face faster digital adoption among credit unions, raising the bar for innovation in member engagement and payments.",
+      "title": "N26 Hits Full-Year Profitability, Raising the Bar for Neobank Sustainability",
+      "body": "N26 reported its first full year of net profitability, surpassing \u20ac500 million in revenue under new leadership. This milestone puts direct pressure on neobanks like Revolut and Monzo, which are now expected by investors to demonstrate clear paths to profitability. Revolut has already announced plans to trim operating costs, while Monzo is exploring new lending products to boost revenue and meet rising expectations for sustainable growth.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47987/stablecore-launches-stablecoin-and-digital-asset-programme-for-credit-unions?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47991/n26-hits-full-year-profitability-under-new-leadership-team"
       }
     },
     {
-      "title": "SBI Holdings Issues Japan\u2019s First Trust Bank-Backed Yen Stablecoin",
-      "body": "SBI Holdings has launched $JPYSC, reported as Japan\u2019s first trust bank-backed yen stablecoin, offering a new secure digital payment option for institutions and retail investors. This development gives Japanese banks and fintechs a regulated alternative to existing digital payment methods and may accelerate stablecoin adoption in domestic commerce. Japanese regulators are expected to update digital currency frameworks as more banks consider similar launches.",
+      "title": "Goldman Sachs Leads $110M Series C in AI Fintech Taktile",
+      "body": "Goldman Sachs led a $110 million Series C round for Taktile, an AI platform focused on automating underwriting, risk, and personalization for banks and fintechs. Taktile plans to use the funding to expand its platform into lending, insurance, and embedded finance, aiming to help financial institutions reduce manual processes and improve decision speed. Banks and digital lenders face mounting pressure to adopt similar AI tools to remain competitive.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47984/sbi-holdings-launches-yen-backed-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/47992/goldman-sachs-leads-110-million-round-in-financial-ai-firm-taktile"
       }
     }
   ],
-  "perspective": "Ripple and SBI Holdings\u2019 stablecoin launches and the digital euro\u2019s legislative progress highlight rapid shifts in regulated digital currency infrastructure this week.",
+  "perspective": "Airwallex\u2019s $11B funding and Binance\u2019s EU withdrawal show how regulatory shifts and automation are reshaping competition for global payments and crypto firms.",
   "curiosity": {
-    "text": "EMV technology, introduced in 2004, required payment cards to use microchips instead of magnetic stripes\u2014yet France had already adopted a similar chip card system in the 1980s."
+    "text": "The Payment Card Industry Data Security Standard (PCI DSS) was introduced in 2004\u2014not 1999\u2014by major card networks to combat rising card fraud and unify security requirements."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "fundraising",
-      "company": "Meta",
-      "description": "Leads $900M Series H for fintech Cred.",
-      "source_url": "https://www.finextra.com/newsarticle/47976/meta-leads-900m-funding-round-for-indian-fintech-cred?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "fundraising",
-      "company": "Anchorbase",
-      "description": "Raises $2M to automate back-office workflows.",
-      "source_url": "https://www.finextra.com/newsarticle/47981/anchorbase-raises-2-million?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddef\ud83c\uddf5",
       "type": "M&A",
-      "company": "PayPoint",
-      "description": "Acquires UK credit reference agency AperiData.",
-      "source_url": "https://www.finextra.com/newsarticle/47980/paypoint-acquires-aperidata?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "SBI Holdings",
+      "description": "Acquired crypto exchange Bitbank for $289M.",
+      "source_url": "https://www.finextra.com/newsarticle/47994/sbi-holdings-to-buy-crypto-exchange-bitbank-for-289m"
     },
     {
-      "flag": "\ud83c\udf0f",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Thredd",
-      "description": "Implements Visa Cloud Connect in Asia Pacific.",
-      "source_url": "https://www.finextra.com/pressarticle/110247/thredd-rolls-out-visa-cloud-connect-in-asia-pacific?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "MarginEdge",
+      "description": "Launched Mastercard for restaurant petty cash management.",
+      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/mastercard-and-marginedge-streamline-restaurant-everyday-spend-with-commercial-card/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Arca",
+      "description": "Raised $64M for AI-native wealth management.",
+      "source_url": "https://www.finextra.com/newsarticle/47995/arca-raises-64m-for-ai-native-wealth-management"
     }
   ]
 }
