@@ -1,71 +1,71 @@
 {
   "news": [
     {
-      "title": "Stripe and Major Banks Push Congress for Overhaul of Outdated Payment Regulations",
-      "body": "Stripe and leading U.S. banks are urging Congress to modernize payment regulations, arguing that current rules restrict banks and fintechs from launching digital-first products and slow the adoption of real-time payments. Lawmakers are now under pressure to address these gaps, which could enable faster innovation and intensify competition among banks, fintechs, and payment processors. Industry groups expect draft legislation or committee hearings to emerge as the next step.",
+      "title": "Binance Exits EU Market After Failing to Secure MiCA License, Shifting Crypto Competition",
+      "body": "Binance has announced it will withdraw from the EU market after failing to obtain a license under the Markets in Crypto-Assets Regulation (MiCA), removing one of the largest crypto exchanges from the region. This exit immediately opens the door for regulated competitors such as Coinbase to expand their EU presence, while decentralized exchanges may see increased activity as MiCA enforcement ramps up.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48000/binance-to-stop-serving-eu-customers-after-failing-to-secure-mica-license"
+      }
+    },
+    {
+      "title": "DraftKings Integrates $11B Prediction Market, Deepening Digital Gaming Ecosystem",
+      "body": "DraftKings has launched a proprietary prediction market exchange within its flagship app, generating $3.4 billion in annualized consumer volume. This move strengthens DraftKings\u2019 position in digital sports and gaming, while U.S. state regulators are expected to increase oversight of prediction markets as volumes grow and new entrants follow suit.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/2026/stripe-banks-tell-congress-payment-rules-no-longer-fit-modern-commerce/"
+        "url": "https://www.pymnts.com/economy/markets/2026/draftkings-brings-11-billion-prediction-market-into-flagship-app/"
       }
     },
     {
-      "title": "Airwallex Raises $320M at $11B Valuation to Expand Into Agentic Commerce",
-      "body": "Airwallex secured $320 million in new funding at an $11 billion valuation and plans to launch programmable cross-border payments and embedded finance products that leverage AI for transaction automation. The company is actively hiring engineers and forming technology partnerships to accelerate its agentic commerce roadmap, directly challenging Stripe and Wise in global B2B payments. Competitors must now contend with Airwallex\u2019s expanded product suite and aggressive market entry.",
+      "title": "UK Retail Payments Board Opens Consultation on Future Infrastructure Design",
+      "body": "The UK's Retail Payments Infrastructure Board has launched a consultation on redesigning the country\u2019s retail payments infrastructure. The process is considering adoption of ISO 20022 messaging standards, real-time settlement, and enhanced security protocols, with banks and fintechs invited to shape the next generation of UK payment rails.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47996/airwallex-targets-agentic-commerce-after-hitting-11bn-valuation"
+        "url": "https://www.finextra.com/newsarticle/47997/uks-retail-payments-infrastructure-board-launches-consultation"
       }
     },
     {
-      "title": "Binance Withdraws From EU Market as MiCA Compliance Deadline Looms",
-      "body": "Binance will stop serving EU clients, citing the cost and complexity of meeting MiCA\u2019s new regulatory requirements. This move could shift up to 15% of EU crypto trading volume to compliant exchanges such as Bitstamp and Kraken, giving them a significant opportunity to capture new users and liquidity. Competing global exchanges must now decide whether to invest in MiCA compliance or risk losing access to the EU\u2019s sizable crypto market.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/c1765ad5-022c-4bc3-9295-ef80791a2977"
-      }
-    },
-    {
-      "title": "N26 Hits Full-Year Profitability, Raising the Bar for Neobank Sustainability",
-      "body": "N26 reported its first full year of net profitability, surpassing \u20ac500 million in revenue under new leadership. This milestone puts direct pressure on neobanks like Revolut and Monzo, which are now expected by investors to demonstrate clear paths to profitability. Revolut has already announced plans to trim operating costs, while Monzo is exploring new lending products to boost revenue and meet rising expectations for sustainable growth.",
+      "title": "SBI Holdings Acquires Bitbank for $289M, Accelerating Crypto Exchange Consolidation in Japan",
+      "body": "SBI Holdings will acquire Japanese crypto exchange Bitbank for approximately $289 million, expanding its digital asset footprint. SBI\u2019s leadership in this deal signals that major Japanese financial groups are driving consolidation in response to rising regulatory demands and the need for broader product offerings.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47991/n26-hits-full-year-profitability-under-new-leadership-team"
+        "url": "https://www.finextra.com/newsarticle/47994/sbi-holdings-to-buy-crypto-exchange-bitbank-for-289m"
       }
     },
     {
-      "title": "Goldman Sachs Leads $110M Series C in AI Fintech Taktile",
-      "body": "Goldman Sachs led a $110 million Series C round for Taktile, an AI platform focused on automating underwriting, risk, and personalization for banks and fintechs. Taktile plans to use the funding to expand its platform into lending, insurance, and embedded finance, aiming to help financial institutions reduce manual processes and improve decision speed. Banks and digital lenders face mounting pressure to adopt similar AI tools to remain competitive.",
+      "title": "FCA Admits TREX to Sandbox for Advanced Climate Risk Modelling in Finance",
+      "body": "The UK Financial Conduct Authority has admitted Transition Risk Exeter Ltd (TREX) into its regulatory sandbox to test advanced climate risk modelling tools. Major UK banks and asset managers participating in the sandbox will be expected to integrate climate risk metrics into their risk management and reporting frameworks.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47992/goldman-sachs-leads-110-million-round-in-financial-ai-firm-taktile"
+        "url": "https://www.finextra.com/newsarticle/47999/fca-admits-trex-to-regulatory-sandbox-tests-advanced-climate-risk-modelling"
       }
     }
   ],
-  "perspective": "Airwallex\u2019s $11B funding and Binance\u2019s EU withdrawal show how regulatory shifts and automation are reshaping competition for global payments and crypto firms.",
+  "perspective": "Binance\u2019s EU exit and SBI\u2019s Bitbank deal show regulatory shifts reshaping crypto, while UK payments and DraftKings drive new models in finance and gaming.",
   "curiosity": {
-    "text": "The Payment Card Industry Data Security Standard (PCI DSS) was introduced in 2004\u2014not 1999\u2014by major card networks to combat rising card fraud and unify security requirements."
+    "text": "The 1983 U.S. Electronic Funds Transfer Act (EFTA) requires banks to promptly investigate reported errors in electronic payments, strengthening consumer protection for digital transactions."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
-      "type": "M&A",
-      "company": "SBI Holdings",
-      "description": "Acquired crypto exchange Bitbank for $289M.",
-      "source_url": "https://www.finextra.com/newsarticle/47994/sbi-holdings-to-buy-crypto-exchange-bitbank-for-289m"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "MarginEdge",
-      "description": "Launched Mastercard for restaurant petty cash management.",
-      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/mastercard-and-marginedge-streamline-restaurant-everyday-spend-with-commercial-card/"
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "type": "fundraising",
+      "company": "Airwallex",
+      "description": "Raised $320 million, reaching $11 billion valuation.",
+      "source_url": "https://www.finextra.com/newsarticle/47996/airwallex-targets-agentic-commerce-after-hitting-11bn-valuation"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Arca",
-      "description": "Raised $64M for AI-native wealth management.",
+      "description": "Raised $64 million for AI-native wealth management.",
       "source_url": "https://www.finextra.com/newsarticle/47995/arca-raises-64m-for-ai-native-wealth-management"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "type": "product",
+      "company": "Lean Technologies",
+      "description": "Launched UAE's first one-tap Pay by Bank system.",
+      "source_url": "https://www.finextra.com/pressarticle/110252/lean-and-ziina-launch-uaes-first-one-tap-pay-by-bank-system"
     }
   ]
 }
