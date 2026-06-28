@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Binance Exits EU Market After Failing to Secure MiCA License, Shifting Crypto Competition",
-      "body": "Binance has announced it will withdraw from the EU market after failing to obtain a license under the Markets in Crypto-Assets Regulation (MiCA), removing one of the largest crypto exchanges from the region. This exit immediately opens the door for regulated competitors such as Coinbase to expand their EU presence, while decentralized exchanges may see increased activity as MiCA enforcement ramps up.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48000/binance-to-stop-serving-eu-customers-after-failing-to-secure-mica-license"
-      }
-    },
-    {
-      "title": "DraftKings Integrates $11B Prediction Market, Deepening Digital Gaming Ecosystem",
-      "body": "DraftKings has launched a proprietary prediction market exchange within its flagship app, generating $3.4 billion in annualized consumer volume. This move strengthens DraftKings\u2019 position in digital sports and gaming, while U.S. state regulators are expected to increase oversight of prediction markets as volumes grow and new entrants follow suit.",
+      "title": "GigSafe and U.S. Bank Launch Instant Payouts for Delivery Drivers in Gig Economy",
+      "body": "GigSafe has partnered with U.S. Bank to enable instant payments for delivery drivers, allowing gig workers to access earnings immediately after completing jobs. According to PYMNTS, this collaboration targets the growing demand for faster disbursements among gig workers and could help GigSafe attract more drivers and platform partners. Competing gig payment providers such as Branch and Payfare must accelerate their own instant payout offerings to remain competitive as instant disbursement becomes a key differentiator.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/economy/markets/2026/draftkings-brings-11-billion-prediction-market-into-flagship-app/"
+        "url": "https://www.pymnts.com/real-time-payments/2026/gigsafe-taps-u-s-bank-to-deliver-instant-payments-to-delivery-drivers/"
       }
     },
     {
-      "title": "UK Retail Payments Board Opens Consultation on Future Infrastructure Design",
-      "body": "The UK's Retail Payments Infrastructure Board has launched a consultation on redesigning the country\u2019s retail payments infrastructure. The process is considering adoption of ISO 20022 messaging standards, real-time settlement, and enhanced security protocols, with banks and fintechs invited to shape the next generation of UK payment rails.",
+      "title": "QI Tech and Bettr Target Brazilian E-Commerce With Expanded Credit Access",
+      "body": "QI Tech and Bettr have joined forces to broaden credit solutions for e-commerce merchants and consumers in Brazil, directly challenging incumbent lenders. By offering more accessible financing, the partnership aims to capture market share from traditional banks and boost online sales. Brazil\u2019s central bank may increase oversight as fintech-driven credit expands rapidly, prompting established lenders like Ita\u00fa and Bradesco to adapt their digital lending products.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47997/uks-retail-payments-infrastructure-board-launches-consultation"
+        "url": "https://www.finextra.com/pressarticle/110257/qi-tech-and-bettr-expand-credit-access-for-e-commerce-merchants-and-consumers-in-brazil"
       }
     },
     {
-      "title": "SBI Holdings Acquires Bitbank for $289M, Accelerating Crypto Exchange Consolidation in Japan",
-      "body": "SBI Holdings will acquire Japanese crypto exchange Bitbank for approximately $289 million, expanding its digital asset footprint. SBI\u2019s leadership in this deal signals that major Japanese financial groups are driving consolidation in response to rising regulatory demands and the need for broader product offerings.",
+      "title": "SecondFi Works to Recover $2.4M After Cardano Wallet Exploit",
+      "body": "SecondFi is attempting to recover $2.4 million lost in a Cardano wallet exploit, with plans to return funds to affected users within two weeks. The breach has raised concerns about SecondFi\u2019s security practices, and crypto wallet providers with established security protocols, such as Ledger and Trezor, may see increased interest from users seeking safer alternatives. The incident is likely to intensify scrutiny on wallet security across the crypto sector.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47994/sbi-holdings-to-buy-crypto-exchange-bitbank-for-289m"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/406457/secondfi-maps-recovery-path-after-2-4-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks"
       }
     },
     {
-      "title": "FCA Admits TREX to Sandbox for Advanced Climate Risk Modelling in Finance",
-      "body": "The UK Financial Conduct Authority has admitted Transition Risk Exeter Ltd (TREX) into its regulatory sandbox to test advanced climate risk modelling tools. Major UK banks and asset managers participating in the sandbox will be expected to integrate climate risk metrics into their risk management and reporting frameworks.",
+      "title": "Revolut Ends Remote-First Policy for New Graduate and Intern Hires",
+      "body": "Revolut has ended its remote-first policy for graduates and interns, now requiring at least three days per week in the office. This shift signals a move toward hybrid work models among high-growth fintechs and may prompt peers like Wise and Monzo to revisit their own early-career talent strategies. The change could reshape workplace culture and influence how fintechs attract and retain new entrants.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47999/fca-admits-trex-to-regulatory-sandbox-tests-advanced-climate-risk-modelling"
+        "url": "https://www.finextra.com/newsarticle/48001/revolut-ends-remote-first-working-for-graduates-and-interns"
+      }
+    },
+    {
+      "title": "CFPB Revamps Complaint System to Address Credit Reporting Surge",
+      "body": "The CFPB has overhauled its complaint system in response to a spike in credit reporting issues, aiming to improve accuracy and responsiveness. Credit bureaus such as Equifax, Experian, and TransUnion now face greater accountability and may need to invest in better data management to avoid regulatory penalties. Financial institutions relying on bureau data should monitor for changes in dispute resolution and reporting standards.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/cfpb-overhauls-complaint-system-credit-reporting/823865/"
       }
     }
   ],
-  "perspective": "Binance\u2019s EU exit and SBI\u2019s Bitbank deal show regulatory shifts reshaping crypto, while UK payments and DraftKings drive new models in finance and gaming.",
+  "perspective": "Today: GigSafe partners with U.S. Bank for instant payouts, QI Tech and Bettr expand credit in Brazil, and the CFPB revamps its complaint system.",
   "curiosity": {
-    "text": "The 1983 U.S. Electronic Funds Transfer Act (EFTA) requires banks to promptly investigate reported errors in electronic payments, strengthening consumer protection for digital transactions."
+    "text": "Did you know CyberCash, launched in 1994, pioneered secure online payments but ultimately filed for bankruptcy in 2001 as newer systems overtook its early innovations?"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde6\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "Airwallex",
-      "description": "Raised $320 million, reaching $11 billion valuation.",
-      "source_url": "https://www.finextra.com/newsarticle/47996/airwallex-targets-agentic-commerce-after-hitting-11bn-valuation"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Securitize",
+      "description": "Eyes early July NYSE debut with $400M SPAC deal",
+      "source_url": "https://www.theblock.co/post/406396/tokenization-firm-securitize-july-nyse-debut-400-million-spac-deal"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Arca",
-      "description": "Raised $64 million for AI-native wealth management.",
-      "source_url": "https://www.finextra.com/newsarticle/47995/arca-raises-64m-for-ai-native-wealth-management"
+      "company": "Framework Ventures",
+      "description": "Raises $400M for investments in crypto, AI, and robotics",
+      "source_url": "https://www.theblock.co/post/406344/framework-ventures-400-million-fourth-fund-crypto-ai-robotics"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddea",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Colony Bank",
+      "description": "Merges with First Reliance in $163M deal",
+      "source_url": "https://www.bankingdive.com/news/two-southeast-banks-merge-163m-deal/823896/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Lean Technologies",
-      "description": "Launched UAE's first one-tap Pay by Bank system.",
-      "source_url": "https://www.finextra.com/pressarticle/110252/lean-and-ziina-launch-uaes-first-one-tap-pay-by-bank-system"
+      "company": "DraftKings",
+      "description": "Launches $11B prediction market in flagship app",
+      "source_url": "https://www.pymnts.com/economy/markets/2026/draftkings-brings-11-billion-prediction-market-into-flagship-app/"
     }
   ]
 }
