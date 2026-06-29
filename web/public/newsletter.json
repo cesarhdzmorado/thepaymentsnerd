@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "GigSafe and U.S. Bank Launch Instant Payouts for Delivery Drivers in Gig Economy",
-      "body": "GigSafe has partnered with U.S. Bank to enable instant payments for delivery drivers, allowing gig workers to access earnings immediately after completing jobs. According to PYMNTS, this collaboration targets the growing demand for faster disbursements among gig workers and could help GigSafe attract more drivers and platform partners. Competing gig payment providers such as Branch and Payfare must accelerate their own instant payout offerings to remain competitive as instant disbursement becomes a key differentiator.",
+      "title": "Tencent Targets International Travelers With TenPayGo Mobile App Rollout in China",
+      "body": "Tencent is piloting TenPayGo, a mobile payment app for overseas visitors to China, enabling payments at millions of domestic merchants. By launching TenPayGo, Tencent directly challenges Alipay\u2019s dominance in cross-border acceptance and aims to boost digital wallet adoption among international travelers. Chinese merchants gain access to new customer segments, while regulators may increase scrutiny of cross-border data and compliance. Alipay may respond with new features or partnerships as inbound tourism rebounds.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/real-time-payments/2026/gigsafe-taps-u-s-bank-to-deliver-instant-payments-to-delivery-drivers/"
+        "url": "https://www.pymnts.com/news/payment-methods/mobile-payments/2026/chinas-tencent-courts-overseas-visitors-with-new-payment-app/"
       }
     },
     {
-      "title": "QI Tech and Bettr Target Brazilian E-Commerce With Expanded Credit Access",
-      "body": "QI Tech and Bettr have joined forces to broaden credit solutions for e-commerce merchants and consumers in Brazil, directly challenging incumbent lenders. By offering more accessible financing, the partnership aims to capture market share from traditional banks and boost online sales. Brazil\u2019s central bank may increase oversight as fintech-driven credit expands rapidly, prompting established lenders like Ita\u00fa and Bradesco to adapt their digital lending products.",
+      "title": "Canadian Fintech Float Secures C$85M to Expand Product Suite and Market Reach",
+      "body": "Float Financial raised C$85 million in Series C funding led by Inovia Capital, with Goldman Sachs joining the round. The new capital allows Float to launch additional products and intensify competition among Canadian fintechs focused on business payments and expense management. Incumbent banks and legacy card issuers now face a challenger with deeper resources, as Float moves quickly to broaden its offering and enter adjacent financial services.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110257/qi-tech-and-bettr-expand-credit-access-for-e-commerce-merchants-and-consumers-in-brazil"
+        "url": "https://www.finextra.com/newsarticle/48002/canadian-fintech-float-raises-c85m?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "SecondFi Works to Recover $2.4M After Cardano Wallet Exploit",
-      "body": "SecondFi is attempting to recover $2.4 million lost in a Cardano wallet exploit, with plans to return funds to affected users within two weeks. The breach has raised concerns about SecondFi\u2019s security practices, and crypto wallet providers with established security protocols, such as Ledger and Trezor, may see increased interest from users seeking safer alternatives. The incident is likely to intensify scrutiny on wallet security across the crypto sector.",
+      "title": "N26 Achieves Profitability After Leadership Overhaul, Raising Bar for Neobank Rivals",
+      "body": "N26 has reached profitability following a leadership shakeup, marking a rare milestone among European neobanks. This achievement strengthens N26\u2019s position as investors increasingly demand sustainable business models in fintech. Rivals such as Monzo and Revolut may face heightened scrutiny over their own paths to profitability, while N26 can now pursue expansion or new product lines without relying on external funding.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/n26-hits-profitability/"
+      }
+    },
+    {
+      "title": "Kiwoom Securities Buys Into Bithumb as Korean Institutions Deepen Crypto Bets",
+      "body": "Kiwoom Securities plans to acquire a stake in Bithumb, one of South Korea\u2019s largest crypto exchanges, as local institutions ramp up investment in digital asset platforms. This signals growing mainstream acceptance of crypto trading among regulated financial firms in Korea. Competing brokerages may pursue similar deals or partnerships to maintain relevance in the evolving digital asset landscape, while regulatory clarity remains crucial as institutional capital flows into local exchanges.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/406457/secondfi-maps-recovery-path-after-2-4-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks"
+        "url": "https://www.theblock.co/post/406470/kiwoom-securities-bithumb?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Revolut Ends Remote-First Policy for New Graduate and Intern Hires",
-      "body": "Revolut has ended its remote-first policy for graduates and interns, now requiring at least three days per week in the office. This shift signals a move toward hybrid work models among high-growth fintechs and may prompt peers like Wise and Monzo to revisit their own early-career talent strategies. The change could reshape workplace culture and influence how fintechs attract and retain new entrants.",
+      "title": "Anthropic Restores Mythos 5 AI Model Access After US Security Review",
+      "body": "Anthropic received US government approval to restore access to its Mythos 5 AI model, following a review over national security concerns. This decision sets a precedent for AI vendors navigating regulatory scrutiny while serving enterprise and public sector clients. Financial institutions and fintechs relying on advanced AI models regain access but must closely monitor evolving compliance requirements, as the intersection of AI innovation and government oversight deepens.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48001/revolut-ends-remote-first-working-for-graduates-and-interns"
-      }
-    },
-    {
-      "title": "CFPB Revamps Complaint System to Address Credit Reporting Surge",
-      "body": "The CFPB has overhauled its complaint system in response to a spike in credit reporting issues, aiming to improve accuracy and responsiveness. Credit bureaus such as Equifax, Experian, and TransUnion now face greater accountability and may need to invest in better data management to avoid regulatory penalties. Financial institutions relying on bureau data should monitor for changes in dispute resolution and reporting standards.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/cfpb-overhauls-complaint-system-credit-reporting/823865/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-gets-greenlight-from-us-to-restore-mythos-access/"
       }
     }
   ],
-  "perspective": "Today: GigSafe partners with U.S. Bank for instant payouts, QI Tech and Bettr expand credit in Brazil, and the CFPB revamps its complaint system.",
+  "perspective": "Tencent\u2019s TenPayGo launch and N26\u2019s profitability milestone illustrate shifting competitive dynamics and regulatory focus in global payments and fintech.",
   "curiosity": {
-    "text": "Did you know CyberCash, launched in 1994, pioneered secure online payments but ultimately filed for bankruptcy in 2001 as newer systems overtook its early innovations?"
+    "text": "Despite China\u2019s dominance in mobile payments, over 70% of inbound tourists to China still rely on cash or cards due to digital wallet access barriers."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Securitize",
-      "description": "Eyes early July NYSE debut with $400M SPAC deal",
-      "source_url": "https://www.theblock.co/post/406396/tokenization-firm-securitize-july-nyse-debut-400-million-spac-deal"
+      "type": "fundraising",
+      "company": "XCures",
+      "description": "Closed $46M Series B to streamline medical records with AI",
+      "source_url": "https://news.crunchbase.com/venture/xcures-lands-seriesb-medical-records-ai/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Framework Ventures",
-      "description": "Raises $400M for investments in crypto, AI, and robotics",
-      "source_url": "https://www.theblock.co/post/406344/framework-ventures-400-million-fourth-fund-crypto-ai-robotics"
+      "company": "Menlo Ventures",
+      "description": "Raised $3B to back AI startups across stages",
+      "source_url": "https://news.crunchbase.com/venture/menlo-ventures-raise-ai-startup-funding-across-stages-anthropic/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Colony Bank",
-      "description": "Merges with First Reliance in $163M deal",
-      "source_url": "https://www.bankingdive.com/news/two-southeast-banks-merge-163m-deal/823896/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "DraftKings",
-      "description": "Launches $11B prediction market in flagship app",
-      "source_url": "https://www.pymnts.com/economy/markets/2026/draftkings-brings-11-billion-prediction-market-into-flagship-app/"
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "AppsFlyer",
+      "description": "Secured $1B in Series E for digital ad tracking",
+      "source_url": "https://news.crunchbase.com/venture/marketing-digital-ad-tracker-appsflyer-lands-1b/"
     }
   ]
 }
