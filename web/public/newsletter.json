@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Tencent Targets International Travelers With TenPayGo Mobile App Rollout in China",
-      "body": "Tencent is piloting TenPayGo, a mobile payment app for overseas visitors to China, enabling payments at millions of domestic merchants. By launching TenPayGo, Tencent directly challenges Alipay\u2019s dominance in cross-border acceptance and aims to boost digital wallet adoption among international travelers. Chinese merchants gain access to new customer segments, while regulators may increase scrutiny of cross-border data and compliance. Alipay may respond with new features or partnerships as inbound tourism rebounds.",
+      "title": "Visa Turns SMB Smartphones Into Payment Hubs, Targeting Emerging Market Share",
+      "body": "Visa has launched Visa Pay, Visa Accept, and Visa Direct to enable small businesses in emerging markets to accept and manage payments directly via smartphones. This move positions Visa to capture share from local payment providers and accelerate the shift away from traditional POS hardware. Merchants gain lower-cost entry to digital payments, while regional acquirers face new competition on their home turf.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payment-methods/mobile-payments/2026/chinas-tencent-courts-overseas-visitors-with-new-payment-app/"
+        "url": "https://www.pymnts.com/visa/2026/visa-turns-smartphones-into-small-business-cash-registers/"
       }
     },
     {
-      "title": "Canadian Fintech Float Secures C$85M to Expand Product Suite and Market Reach",
-      "body": "Float Financial raised C$85 million in Series C funding led by Inovia Capital, with Goldman Sachs joining the round. The new capital allows Float to launch additional products and intensify competition among Canadian fintechs focused on business payments and expense management. Incumbent banks and legacy card issuers now face a challenger with deeper resources, as Float moves quickly to broaden its offering and enter adjacent financial services.",
+      "title": "Mynt\u2019s $1.5B GCash IPO Sets New Benchmark for Southeast Asian Fintech",
+      "body": "Philippines-based Mynt is preparing a $1.5 billion IPO for its mobile wallet GCash, reported as the largest listing in the country\u2019s history. The capital raise will fuel GCash\u2019s expansion and intensify competition with regional fintechs and incumbent banks. Investors are likely to increase their focus on Southeast Asian digital finance, raising the bar for product innovation and customer acquisition.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48002/canadian-fintech-float-raises-c85m?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48003/mynt-plans-15bn-ipo-for-philippines-mobile-payment-platform"
       }
     },
     {
-      "title": "N26 Achieves Profitability After Leadership Overhaul, Raising Bar for Neobank Rivals",
-      "body": "N26 has reached profitability following a leadership shakeup, marking a rare milestone among European neobanks. This achievement strengthens N26\u2019s position as investors increasingly demand sustainable business models in fintech. Rivals such as Monzo and Revolut may face heightened scrutiny over their own paths to profitability, while N26 can now pursue expansion or new product lines without relying on external funding.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/n26-hits-profitability/"
-      }
-    },
-    {
-      "title": "Kiwoom Securities Buys Into Bithumb as Korean Institutions Deepen Crypto Bets",
-      "body": "Kiwoom Securities plans to acquire a stake in Bithumb, one of South Korea\u2019s largest crypto exchanges, as local institutions ramp up investment in digital asset platforms. This signals growing mainstream acceptance of crypto trading among regulated financial firms in Korea. Competing brokerages may pursue similar deals or partnerships to maintain relevance in the evolving digital asset landscape, while regulatory clarity remains crucial as institutional capital flows into local exchanges.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/406470/kiwoom-securities-bithumb?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Anthropic Restores Mythos 5 AI Model Access After US Security Review",
-      "body": "Anthropic received US government approval to restore access to its Mythos 5 AI model, following a review over national security concerns. This decision sets a precedent for AI vendors navigating regulatory scrutiny while serving enterprise and public sector clients. Financial institutions and fintechs relying on advanced AI models regain access but must closely monitor evolving compliance requirements, as the intersection of AI innovation and government oversight deepens.",
+      "title": "JPMorgan Calls for Digital Assets to Meet Full Banking Rulebook",
+      "body": "JPMorgan executives are urging regulators to apply existing banking rules to digital asset companies, arguing this would ensure consistent safeguards across the sector. If adopted, digital asset firms would face higher compliance costs and operational scrutiny, narrowing the regulatory gap with traditional banks. Institutional adoption of digital assets could accelerate as risk standards converge.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-gets-greenlight-from-us-to-restore-mythos-access/"
+        "url": "https://www.pymnts.com/blockchain/2026/jpmorgan-executives-say-banking-rules-should-apply-to-digital-assets/"
+      }
+    },
+    {
+      "title": "Ethereum\u2019s 25% Price Drop Puts Spotlight on Stablecoin Infrastructure and Network Stability",
+      "body": "Ethereum\u2019s price fell 25% in June amid a major corporate restructuring, drawing attention to the institutional stablecoin economy built atop its network. The shakeup raises questions about Ethereum\u2019s competitive position versus other blockchains for stablecoin issuance and settlement. Stablecoin issuers and institutional users may reassess their reliance on Ethereum if network stability concerns persist.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/ethereum-built-stablecoins-its-price-drop-reveals-their-biggest-shift-yet/"
+      }
+    },
+    {
+      "title": "Stripe Expands Terminal to Japan, Targeting Omnichannel Commerce",
+      "body": "Stripe has launched its Terminal product in Japan, enabling merchants to unify online and in-person payments through a single platform. This expansion allows Japanese businesses to streamline payment operations and improve customer experience, while intensifying competition with domestic payment processors. Merchants can now access Stripe\u2019s global infrastructure for both e-commerce and brick-and-mortar sales.",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2024/06/10/stripe-terminal-japan-launch/"
       }
     }
   ],
-  "perspective": "Tencent\u2019s TenPayGo launch and N26\u2019s profitability milestone illustrate shifting competitive dynamics and regulatory focus in global payments and fintech.",
+  "perspective": "Visa and Stripe expand in Asia as digital asset regulation and blockchain stability reshape the global payments landscape.",
   "curiosity": {
-    "text": "Despite China\u2019s dominance in mobile payments, over 70% of inbound tourists to China still rely on cash or cards due to digital wallet access barriers."
+    "text": "In 1996, the first online payment gateway, CyberCash, enabled secure credit card transactions over the internet, laying the groundwork for today's digital payment landscape."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\udde8\ud83c\udde6",
       "type": "fundraising",
-      "company": "XCures",
-      "description": "Closed $46M Series B to streamline medical records with AI",
-      "source_url": "https://news.crunchbase.com/venture/xcures-lands-seriesb-medical-records-ai/"
+      "company": "Float Financial",
+      "description": "Raised C$85 million in Series C funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48002/canadian-fintech-float-raises-c85m"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Menlo Ventures",
-      "description": "Raised $3B to back AI startups across stages",
-      "source_url": "https://news.crunchbase.com/venture/menlo-ventures-raise-ai-startup-funding-across-stages-anthropic/"
+      "company": "Collide Capital",
+      "description": "Raised $95 million for Fund II.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups"
     },
     {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "type": "fundraising",
-      "company": "AppsFlyer",
-      "description": "Secured $1B in Series E for digital ad tracking",
-      "source_url": "https://news.crunchbase.com/venture/marketing-digital-ad-tracker-appsflyer-lands-1b/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Securitize",
+      "description": "Debuts on NYSE after merger approval.",
+      "source_url": "https://www.theblock.co/post/406634/securitize-nyse-debut-thursday"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "investment",
+      "company": "Ark Invest",
+      "description": "Invested in Coinbase, Circle, Bullish shares.",
+      "source_url": "https://www.theblock.co/post/406628/ark-invest-coinbase-circle-bullish-robinhood-monday"
     }
   ]
 }
