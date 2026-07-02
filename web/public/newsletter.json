@@ -1,85 +1,92 @@
 {
   "news": [
     {
-      "title": "Amex and Apple Pay Integrate Points Redemption at Checkout, Targeting PayPal\u2019s Wallet Lead",
-      "body": "American Express U.S. cardholders can now redeem Membership Rewards points for purchases directly within Apple Pay\u2019s checkout flow. By embedding rewards redemption at the point of sale, Apple Pay increases its appeal for Amex users and directly challenges PayPal\u2019s dominance in digital wallet usage for online and in-store payments. Merchants may see a shift in wallet preference as card issuers pursue similar integrations.",
+      "title": "JP Morgan and NPCI Enable Real-Time FX for Cross-Border UPI Transactions",
+      "body": "JP Morgan Payments and India's NPCI have jointly launched real-time foreign exchange for cross-border UPI payments, enabling banks and businesses to send instant international transactions. By directly connecting UPI to global FX rails, JP Morgan and NPCI challenge SWIFT and card-based networks, prompting banks and fintechs serving Indian corridors to consider UPI integration for remittances and B2B payments.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48024/jp-morgan-payments-and-npci-team-up-to-power-real-time-fx-for-cross-border-upi?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Klarna Wins $1.97 Billion Antitrust Ruling Against Google in Swedish Court",
+      "body": "A Swedish court ordered Google to pay $1.97 billion to Klarna after finding Google abused its market position. Klarna gains stronger negotiating leverage and sets a legal precedent for fintechs challenging big tech in payments. Payment providers across Europe may now pursue similar lawsuits to secure fairer access to digital wallet ecosystems.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/klarna-wins-1-97bn-antitrust-lawsuit-against-google/"
+      }
+    },
+    {
+      "title": "Credit Agricole Issues Euro Stablecoin, Pushing Bank Adoption of Digital Assets",
+      "body": "Credit Agricole has launched a euro-denominated stablecoin, becoming the first major European bank to issue such a token. This move pressures other European banks to accelerate their own stablecoin projects, as institutional clients and corporate treasurers seek regulated digital asset solutions for settlement and liquidity management.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48019/credit-agricole-launches-euro-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Robinhood Launches Layer 2 Blockchain for Real-World Asset Tokenization",
+      "body": "Robinhood has launched Robinhood Chain, a Layer 2 blockchain for tokenizing real-world assets, working with partners like Alchemy and Chainlink. By entering the asset tokenization space, Robinhood aims to attract asset managers and fintechs seeking new infrastructure for tokenized securities and alternative assets, expanding retail access to digital investment products.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/apple/apple-pay-tracker/2026/amex-and-apple-pay-enable-users-to-pay-with-points/"
+        "url": "https://www.pymnts.com/blockchain/2026/robinhood-launches-blockchain-designed-for-real-world-assets/"
       }
     },
     {
-      "title": "Visa, Stripe, and Coinbase Back Open USD Stablecoin With Fee-Free Minting",
-      "body": "Visa, Stripe, and Coinbase are supporting Open USD, a new stablecoin designed to let businesses mint and redeem without fees or volume limits. This model undercuts the fee-based structures of current stablecoin leaders like USDC, introducing a zero-fee competitor backed by major payment networks. The move could shift stablecoin adoption patterns in B2B and cross-border payments as businesses seek lower-cost alternatives.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/406736/visa-stripe-coinbase-join-open-usd-stablecoin-shares-reserve-revenue"
-      }
-    },
-    {
-      "title": "Morgan Stanley Wins OCC\u2019s Conditional Trust Charter for Digital Asset Expansion",
-      "body": "Morgan Stanley secured conditional approval from the OCC for a trust charter to manage digital assets, contingent on maintaining $50 million in tier 1 capital. This approval enables the bank to expand into digital asset custody and management, intensifying competition with fintechs and other banks in the crypto space. The move signals that large U.S. banks are now actively pursuing regulated digital asset services to meet institutional demand.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/morgan-stanley-occ-conditional-approval-trust-bank-charter-digital-assets-zerohash-gould/823961/"
-      }
-    },
-    {
-      "title": "Google Cloud and FactSet Partner to Build AI Agents for Financial Markets",
-      "body": "Google Cloud and FactSet are collaborating to develop AI-powered agents for portfolio operations, deal advisory, and corporate finance. This partnership positions Google Cloud to challenge incumbents like Bloomberg and Thomson Reuters in AI-driven financial analytics. Financial institutions are likely to accelerate AI adoption to leverage new automation and data analysis capabilities that can improve decision-making and operational efficiency.",
+      "title": "Alibaba and Ant Group Pay $600 Million to Settle U.S. DOJ Allegations",
+      "body": "Alibaba and its Ant Group subsidiary agreed to pay $600 million to settle U.S. Department of Justice allegations over illegal sales. The settlement signals heightened regulatory scrutiny for Chinese fintechs and eCommerce platforms in the U.S., prompting cross-border platforms like JD.com and Pinduoduo to urgently review compliance programs to avoid similar enforcement actions.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/google-cloud-pursues-financial-markets-in-factset-alliance/"
-      }
-    },
-    {
-      "title": "Taiwan Enacts Crypto Licensing Law, Attracting Digital Asset Firms",
-      "body": "Taiwan passed legislation requiring crypto platforms to obtain licenses from the Financial Supervisory Commission, reducing legal uncertainty for digital asset businesses. The new law positions Taiwan as a crypto-friendly jurisdiction and could draw more crypto investment and innovation to the region. Other countries may look to Taiwan\u2019s framework as a model for digital asset regulation.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/406816/taiwan-passes-crypto-law?utm_source=rss&utm_medium=rss"
+        "url": "https://www.pymnts.com/legal/2026/alibaba-and-ant-subsidiary-pay-600-million-to-settle-doj-illegal-sales-claims/"
       }
     }
   ],
-  "perspective": "Visa, Stripe, and Coinbase\u2019s Open USD stablecoin and Apple Pay\u2019s Amex integration signal intensifying competition in digital wallets and payments.",
+  "perspective": "JP Morgan and NPCI's UPI-FX launch and Klarna's antitrust win against Google highlight shifting power dynamics in global payments and digital asset infrastructure.",
   "curiosity": {
-    "text": "DigiCash, developed by David Chaum in 1990, was the first virtual currency to enable anonymous online payments, foreshadowing today\u2019s cryptocurrencies and digital wallets."
+    "text": "The world's first contactless payment card was introduced in South Korea in 1995, years before contactless cards became common in Europe or North America."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Nebex",
-      "description": "Google leads $30M round for space fintech Nebex.",
-      "source_url": "https://www.finextra.com/newsarticle/48015/google-leads-30m-round-for-space-fintech-nebex"
+      "company": "Venice AI",
+      "description": "Raised $65M Series A at $1B valuation led by Dragonfly",
+      "source_url": "https://www.theblock.co/post/406934/venice-ai-funding-equity-valuation-dragonfly?utm_source=rss&utm_medium=rss"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Google Ventures",
+      "description": "Led $30M seed round for space fintech Nebex",
+      "source_url": "https://www.finextra.com/newsarticle/48015/google-leads-30m-round-for-space-fintech-nebex?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Tapestry VC",
+      "description": "Closed $80M third fund for European repeat founders",
+      "source_url": "https://news.crunchbase.com/venture/80m-repeat-founders-fund-europe-na-tapestry/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Open Standard",
+      "description": "Launched low-cost stablecoin with backing from Visa, Mastercard, and Coinbase",
+      "source_url": "https://www.bankingdive.com/news/stablecoin-open-standard-bridge-abrams-bny-stripe-mastercard-visa-coinbase-adyen/824200/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
       "company": "Root",
-      "description": "Instant business payments platform Root emerges from stealth.",
-      "source_url": "https://www.finextra.com/newsarticle/48016/instant-business-payments-platform-root-emerges-from-stealth"
-    },
-    {
-      "flag": "\ud83c\uddf5\ud83c\udded",
-      "type": "expansion",
-      "company": "Mynt",
-      "description": "Plans $1.5bn IPO for Philippines mobile payment platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48003/mynt-plans-15bn-ipo-for-philippines-mobile-payment-platform"
+      "description": "Launched instant business payments platform in the US",
+      "source_url": "https://www.finextra.com/newsarticle/48016/instant-business-payments-platform-root-emerges-from-stealth?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Omnea",
-      "description": "Launches $250K fund for employees to start new companies.",
-      "source_url": "https://news.crunchbase.com/startups/omnea-funding-employees-future-founders-freeman/"
-    },
-    {
-      "flag": "\ud83c\udded\ud83c\uddf7",
-      "type": "expansion",
-      "company": "Loanch",
-      "description": "Expands into Southeast Asia with AhaPay partnership.",
-      "source_url": "https://www.finextra.com/pressarticle/110298/loanch-expands-into-southeast-asia"
+      "type": "product",
+      "company": "SumUp",
+      "description": "Launched consumer personal accounts to expand consumer offerings",
+      "source_url": "https://sifted.eu/articles/sumup-launches-consumer-account/"
     }
   ]
 }
