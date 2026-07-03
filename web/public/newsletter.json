@@ -1,92 +1,71 @@
 {
   "news": [
     {
-      "title": "JP Morgan and NPCI Enable Real-Time FX for Cross-Border UPI Transactions",
-      "body": "JP Morgan Payments and India's NPCI have jointly launched real-time foreign exchange for cross-border UPI payments, enabling banks and businesses to send instant international transactions. By directly connecting UPI to global FX rails, JP Morgan and NPCI challenge SWIFT and card-based networks, prompting banks and fintechs serving Indian corridors to consider UPI integration for remittances and B2B payments.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48024/jp-morgan-payments-and-npci-team-up-to-power-real-time-fx-for-cross-border-upi?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Klarna Wins $1.97 Billion Antitrust Ruling Against Google in Swedish Court",
-      "body": "A Swedish court ordered Google to pay $1.97 billion to Klarna after finding Google abused its market position. Klarna gains stronger negotiating leverage and sets a legal precedent for fintechs challenging big tech in payments. Payment providers across Europe may now pursue similar lawsuits to secure fairer access to digital wallet ecosystems.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/klarna-wins-1-97bn-antitrust-lawsuit-against-google/"
-      }
-    },
-    {
-      "title": "Credit Agricole Issues Euro Stablecoin, Pushing Bank Adoption of Digital Assets",
-      "body": "Credit Agricole has launched a euro-denominated stablecoin, becoming the first major European bank to issue such a token. This move pressures other European banks to accelerate their own stablecoin projects, as institutional clients and corporate treasurers seek regulated digital asset solutions for settlement and liquidity management.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48019/credit-agricole-launches-euro-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Robinhood Launches Layer 2 Blockchain for Real-World Asset Tokenization",
-      "body": "Robinhood has launched Robinhood Chain, a Layer 2 blockchain for tokenizing real-world assets, working with partners like Alchemy and Chainlink. By entering the asset tokenization space, Robinhood aims to attract asset managers and fintechs seeking new infrastructure for tokenized securities and alternative assets, expanding retail access to digital investment products.",
+      "title": "PayPal Joins European Payments Council, Gains Influence Over EU Payment Standards",
+      "body": "PayPal has secured a seat on the European Payments Council (EPC), which gives it direct input into the development of payment standards across Europe. This move strengthens PayPal\u2019s ability to shape regulatory and technical frameworks, potentially giving it an edge over rival wallets like Apple Pay and Google Pay. Merchants and banks may see PayPal\u2019s features and integrations reflected in future EU payment protocols.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/robinhood-launches-blockchain-designed-for-real-world-assets/"
+        "url": "https://www.pymnts.com/legal/2026/paypal-secures-epc-seat-to-help-guide-future-of-european-payments/"
       }
     },
     {
-      "title": "Alibaba and Ant Group Pay $600 Million to Settle U.S. DOJ Allegations",
-      "body": "Alibaba and its Ant Group subsidiary agreed to pay $600 million to settle U.S. Department of Justice allegations over illegal sales. The settlement signals heightened regulatory scrutiny for Chinese fintechs and eCommerce platforms in the U.S., prompting cross-border platforms like JD.com and Pinduoduo to urgently review compliance programs to avoid similar enforcement actions.",
+      "title": "Standard Chartered Partners With Circle to Offer USDC Minting and Redemption",
+      "body": "Standard Chartered now enables institutional clients to mint and redeem USDC stablecoins through a partnership with Circle. This positions the bank as a leader in bridging traditional finance and digital assets, appealing to corporates seeking faster, programmable cross-border settlement. HSBC and JPMorgan have also piloted stablecoin and tokenized deposit solutions, signaling a broader shift among major banks toward digital asset rails.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/2026/alibaba-and-ant-subsidiary-pay-600-million-to-settle-doj-illegal-sales-claims/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48031/standard-chartered-gives-institutional-clients-access-to-usdc-minting-and-redemption"
+      }
+    },
+    {
+      "title": "Visa Debuts Threat Intelligence Platform for Banks and Payment Providers",
+      "body": "Visa has launched a threat intelligence platform designed to help banks and payment providers detect and respond to cyber threats in real time. By embedding advanced cybersecurity tools into its network, Visa aims to deepen its value proposition beyond card processing. Financial institutions adopting the platform may reduce fraud losses and improve compliance with tightening regulatory standards.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48032/visa-launches-threat-intelligence-platform-carries-out-agentic-transactions-in-europe"
+      }
+    },
+    {
+      "title": "Payward Acquires Reap for $600M to Expand Stablecoin Payments Infrastructure",
+      "body": "Payward has completed its $600 million acquisition of Reap Technologies, a company specializing in stablecoin-native card issuing and payments infrastructure. The deal expands Payward\u2019s global money movement capabilities, especially for businesses seeking programmable, cross-border settlement. Rivals in the stablecoin and B2B payments sector may need to accelerate their own infrastructure investments to remain competitive.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110332/payward-completes-reap-acquistion?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Lightspark Secures Estonia\u2019s First MiCA License for Crypto Payments",
+      "body": "Lightspark Payments Europe AS has become the first payments company in Estonia to receive authorization under the EU\u2019s Markets in Crypto-Assets Regulation (MiCA). This license allows Lightspark to operate as a regulated crypto-asset service provider and electronic money institution, setting a precedent for crypto compliance in the EU. Other crypto firms are preparing applications as MiCA enforcement ramps up across Europe.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110322/lightspark-becomes-first-payments-company-in-estonia-to-get-mica-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "JP Morgan and NPCI's UPI-FX launch and Klarna's antitrust win against Google highlight shifting power dynamics in global payments and digital asset infrastructure.",
+  "perspective": "PayPal\u2019s EPC seat and Standard Chartered\u2019s USDC rollout highlight how incumbents are shaping digital payments and regulatory frameworks in Europe.",
   "curiosity": {
-    "text": "The world's first contactless payment card was introduced in South Korea in 1995, years before contactless cards became common in Europe or North America."
+    "text": "PayPal is the first major non-bank digital wallet to join the European Payments Council, a body previously dominated by banks and traditional payment institutions."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Venice AI",
-      "description": "Raised $65M Series A at $1B valuation led by Dragonfly",
-      "source_url": "https://www.theblock.co/post/406934/venice-ai-funding-equity-valuation-dragonfly?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Google Ventures",
-      "description": "Led $30M seed round for space fintech Nebex",
-      "source_url": "https://www.finextra.com/newsarticle/48015/google-leads-30m-round-for-space-fintech-nebex?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Tapestry VC",
-      "description": "Closed $80M third fund for European repeat founders",
-      "source_url": "https://news.crunchbase.com/venture/80m-repeat-founders-fund-europe-na-tapestry/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Open Standard",
-      "description": "Launched low-cost stablecoin with backing from Visa, Mastercard, and Coinbase",
-      "source_url": "https://www.bankingdive.com/news/stablecoin-open-standard-bridge-abrams-bny-stripe-mastercard-visa-coinbase-adyen/824200/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Root",
-      "description": "Launched instant business payments platform in the US",
-      "source_url": "https://www.finextra.com/newsarticle/48016/instant-business-payments-platform-root-emerges-from-stealth?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
+      "type": "Product",
       "company": "SumUp",
-      "description": "Launched consumer personal accounts to expand consumer offerings",
-      "source_url": "https://sifted.eu/articles/sumup-launches-consumer-account/"
+      "description": "Launched consumer personal accounts, expanding consumer offerings.",
+      "source_url": "https://www.finextra.com/pressarticle/110312/sumup-launches-consumer-personal-accounts?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "Product",
+      "company": "SoFi",
+      "description": "Entered small-business loan market, expanding service offerings.",
+      "source_url": "https://www.bankingdive.com/news/sofi-enters-small-business-loan-market/824234/"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "Legal",
+      "company": "Klarna",
+      "description": "Won $1.97bn antitrust lawsuit against Google.",
+      "source_url": "https://sifted.eu/articles/klarna-wins-1-97bn-antitrust-lawsuit-against-google/"
     }
   ]
 }
