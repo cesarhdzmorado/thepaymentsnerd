@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "PayPal Joins European Payments Council, Gains Influence Over EU Payment Standards",
-      "body": "PayPal has secured a seat on the European Payments Council (EPC), which gives it direct input into the development of payment standards across Europe. This move strengthens PayPal\u2019s ability to shape regulatory and technical frameworks, potentially giving it an edge over rival wallets like Apple Pay and Google Pay. Merchants and banks may see PayPal\u2019s features and integrations reflected in future EU payment protocols.",
+      "title": "Starling Bank Cuts 130 Jobs as AI Restructuring Redefines UK Banking Workforce",
+      "body": "Starling Bank will eliminate around 130 positions as it automates core functions and integrates AI across its operations. The layoffs directly impact staff in targeted roles and mark a concrete shift toward digital-first banking in the UK. Major UK challenger banks such as Monzo and Revolut face pressure to accelerate their own AI adoption to maintain cost competitiveness and operational efficiency. This move establishes a new benchmark for workforce transformation in UK fintech.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/2026/paypal-secures-epc-seat-to-help-guide-future-of-european-payments/"
+        "url": "https://www.pymnts.com/news/banking/2026/starling-bank-cuts-130-jobs-amid-ai-adoption-and-restructuring/"
       }
     },
     {
-      "title": "Standard Chartered Partners With Circle to Offer USDC Minting and Redemption",
-      "body": "Standard Chartered now enables institutional clients to mint and redeem USDC stablecoins through a partnership with Circle. This positions the bank as a leader in bridging traditional finance and digital assets, appealing to corporates seeking faster, programmable cross-border settlement. HSBC and JPMorgan have also piloted stablecoin and tokenized deposit solutions, signaling a broader shift among major banks toward digital asset rails.",
+      "title": "IMF Warns Tokenization Shifts Risk From Banks to Market Infrastructure Providers",
+      "body": "The IMF cautioned that financial tokenization could transfer systemic risk from banks to market infrastructure providers, urging policymakers to adapt oversight frameworks. This warning prompts banks, payment service providers (PSPs), and regulators to reassess tokenization strategies and risk management. Market infrastructure providers, such as clearinghouses and settlement platforms, may soon face new compliance requirements and closer regulatory scrutiny as tokenized assets gain traction in mainstream payments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48031/standard-chartered-gives-institutional-clients-access-to-usdc-minting-and-redemption"
+        "url": "https://www.finextra.com/newsarticle/48038/imf-issues-tokenisation-warning"
       }
     },
     {
-      "title": "Visa Debuts Threat Intelligence Platform for Banks and Payment Providers",
-      "body": "Visa has launched a threat intelligence platform designed to help banks and payment providers detect and respond to cyber threats in real time. By embedding advanced cybersecurity tools into its network, Visa aims to deepen its value proposition beyond card processing. Financial institutions adopting the platform may reduce fraud losses and improve compliance with tightening regulatory standards.",
+      "title": "Signicat and TrustTech Bring Reusable Identity Verification to European Digital Wallets",
+      "body": "Signicat and TrustTech have partnered to embed reusable identity verification into European digital wallets, aiming to boost security and regulatory compliance. Digital wallet providers gain a new tool to reduce onboarding friction and fraud risk, while users benefit from streamlined authentication. Competing wallet platforms, including Apple Pay and Google Wallet, may need to enhance their security features to retain user trust. The partnership could set a new standard for digital identity in EU payments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48032/visa-launches-threat-intelligence-platform-carries-out-agentic-transactions-in-europe"
+        "url": "https://www.finextra.com/pressarticle/110342/signicat-and-trusttech-partner-to-bring-reusable-identity-to-european-digital-wallets"
       }
     },
     {
-      "title": "Payward Acquires Reap for $600M to Expand Stablecoin Payments Infrastructure",
-      "body": "Payward has completed its $600 million acquisition of Reap Technologies, a company specializing in stablecoin-native card issuing and payments infrastructure. The deal expands Payward\u2019s global money movement capabilities, especially for businesses seeking programmable, cross-border settlement. Rivals in the stablecoin and B2B payments sector may need to accelerate their own infrastructure investments to remain competitive.",
+      "title": "Oman Arab Bank Completes Visa Tokenization Rollout to Modernize Card Security",
+      "body": "Oman Arab Bank has finished deploying Visa tokenization across its card portfolio, advancing its payments modernization agenda. Customers now benefit from enhanced transaction security and reduced fraud exposure. Regional banks such as Bank Muscat and National Bank of Oman are likely to accelerate their own tokenization projects to remain competitive in payment security. The rollout positions Oman Arab Bank as a leader in Middle Eastern payment security standards.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110332/payward-completes-reap-acquistion?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110331/oman-arab-bank-completes-visa-tokenisation-rollout"
       }
     },
     {
-      "title": "Lightspark Secures Estonia\u2019s First MiCA License for Crypto Payments",
-      "body": "Lightspark Payments Europe AS has become the first payments company in Estonia to receive authorization under the EU\u2019s Markets in Crypto-Assets Regulation (MiCA). This license allows Lightspark to operate as a regulated crypto-asset service provider and electronic money institution, setting a precedent for crypto compliance in the EU. Other crypto firms are preparing applications as MiCA enforcement ramps up across Europe.",
+      "title": "eDreams ODIGEO Partners With Visa to Enable AI Agents for Travel Purchases",
+      "body": "eDreams ODIGEO (eDO) has teamed up with Visa to let AI-powered agents book travel services directly, streamlining the purchase process for users. This integration gives eDO a competitive edge in travel payments and may drive higher customer satisfaction. Competing travel platforms such as Booking.com and Expedia are likely to pursue similar AI partnerships to avoid losing market share. The move signals a new phase of automation in travel commerce.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110322/lightspark-becomes-first-payments-company-in-estonia-to-get-mica-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/transportation/travel-payments/2026/edo-taps-visa-to-allow-ai-agents-to-purchase-travel/"
       }
     }
   ],
-  "perspective": "PayPal\u2019s EPC seat and Standard Chartered\u2019s USDC rollout highlight how incumbents are shaping digital payments and regulatory frameworks in Europe.",
+  "perspective": "Starling Bank layoffs and the IMF\u2019s tokenization warning illustrate how AI and digital assets are shifting risk and strategy for banks and payment providers.",
   "curiosity": {
-    "text": "PayPal is the first major non-bank digital wallet to join the European Payments Council, a body previously dominated by banks and traditional payment institutions."
+    "text": "The first ATM, installed in London in 1967, used paper vouchers instead of plastic cards and required a six-digit personal code for access."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "Product",
-      "company": "SumUp",
-      "description": "Launched consumer personal accounts, expanding consumer offerings.",
-      "source_url": "https://www.finextra.com/pressarticle/110312/sumup-launches-consumer-personal-accounts?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "geoSurge",
+      "description": "Raised $12M to enhance AI visibility for brands.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/geosurge-raises-12-million-to-help-brands-secure-ai-visibility/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "eToro",
+      "description": "Led $12.5M round in onchain perps exchange Extended.",
+      "source_url": "https://www.theblock.co/post/407093/etoro-leads-12-5-million-round-in-onchain-perps-exchange-extended?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Product",
-      "company": "SoFi",
-      "description": "Entered small-business loan market, expanding service offerings.",
-      "source_url": "https://www.bankingdive.com/news/sofi-enters-small-business-loan-market/824234/"
+      "type": "M&A",
+      "company": "Payward",
+      "description": "Completed acquisition of Reap Technologies.",
+      "source_url": "https://www.finextra.com/pressarticle/110332/payward-completes-reap-acquistion"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "Legal",
-      "company": "Klarna",
-      "description": "Won $1.97bn antitrust lawsuit against Google.",
-      "source_url": "https://sifted.eu/articles/klarna-wins-1-97bn-antitrust-lawsuit-against-google/"
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "type": "expansion",
+      "company": "Lightspark",
+      "description": "First in Estonia to receive MiCA license.",
+      "source_url": "https://www.finextra.com/pressarticle/110322/lightspark-becomes-first-payments-company-in-estonia-to-get-mica-licence"
+    },
+    {
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "type": "product",
+      "company": "ZEN.COM",
+      "description": "Launched Mastercard Click to Pay in Europe and Singapore.",
+      "source_url": "https://www.pymnts.com/news/payment-methods/2026/zen-com-launches-mastercard-click-to-pay-across-europe-and-singapore/"
     }
   ]
 }
