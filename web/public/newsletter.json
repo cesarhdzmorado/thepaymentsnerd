@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Starling Bank Cuts 130 Jobs as AI Restructuring Redefines UK Banking Workforce",
-      "body": "Starling Bank will eliminate around 130 positions as it automates core functions and integrates AI across its operations. The layoffs directly impact staff in targeted roles and mark a concrete shift toward digital-first banking in the UK. Major UK challenger banks such as Monzo and Revolut face pressure to accelerate their own AI adoption to maintain cost competitiveness and operational efficiency. This move establishes a new benchmark for workforce transformation in UK fintech.",
+      "title": "BNY, Visa, and Coinbase Launch Consortium Stablecoin Targeting Cross-Border Efficiency",
+      "body": "BNY, Visa, and Coinbase launched a digital asset under the Open Standard, aiming to deliver a low-cost stablecoin for payments. The consortium seeks to reduce transaction costs and improve cross-border settlement, directly challenging established stablecoin providers and traditional correspondent banking. Banks and payment processors face pressure to integrate stablecoin rails or risk losing cross-border volume to consortium-backed alternatives.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/stablecoin-open-standard-bridge-abrams-bny-stripe-mastercard-visa-coinbase-adyen/824200/"
+      }
+    },
+    {
+      "title": "Aave\u2019s Monad Market Surpasses $100 Million in Deposits Within Two Days",
+      "body": "Aave\u2019s newly launched Monad market attracted $100 million in deposits just two days after going live, underscoring strong demand for DeFi lending products. This rapid growth cements Aave\u2019s position as a leader in decentralized finance and signals robust user appetite for new yield opportunities. Competing protocols are likely to accelerate product launches or incentives to capture liquidity before Aave consolidates its advantage.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/407167/aaves-new-monad-market-tops-100-million-in-deposits-two-days-after-launch"
+      }
+    },
+    {
+      "title": "ZEN.COM Rolls Out Mastercard Click to Pay for 1.5 Million Users in Europe and Singapore",
+      "body": "ZEN.COM integrated Mastercard Click to Pay into its multicurrency platform, making the feature available to 1.5 million users across Europe and Singapore. This move strengthens ZEN.COM\u2019s digital wallet offering and positions it to compete more directly with PayPal and Apple Pay on seamless checkout. Fintechs aiming to boost conversion rates may accelerate wallet integrations to keep pace in these regions.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/starling-bank-cuts-130-jobs-amid-ai-adoption-and-restructuring/"
+        "url": "https://www.pymnts.com/news/payment-methods/2026/zen-com-launches-mastercard-click-to-pay-across-europe-and-singapore/"
       }
     },
     {
-      "title": "IMF Warns Tokenization Shifts Risk From Banks to Market Infrastructure Providers",
-      "body": "The IMF cautioned that financial tokenization could transfer systemic risk from banks to market infrastructure providers, urging policymakers to adapt oversight frameworks. This warning prompts banks, payment service providers (PSPs), and regulators to reassess tokenization strategies and risk management. Market infrastructure providers, such as clearinghouses and settlement platforms, may soon face new compliance requirements and closer regulatory scrutiny as tokenized assets gain traction in mainstream payments.",
+      "title": "SoFi Launches Small-Business Lending, Expanding Beyond Consumer Finance",
+      "body": "SoFi introduced a small-business loan product, marking its entry into the SME lending market and broadening its product suite beyond personal finance. By targeting business customers, SoFi opens new revenue streams and competes with fintechs and banks already serving SMEs. Digital lenders seeking growth may follow SoFi\u2019s lead to capture more primary financial relationships as demand for SME credit rises.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48038/imf-issues-tokenisation-warning"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/sofi-enters-small-business-loan-market/824234/"
       }
     },
     {
-      "title": "Signicat and TrustTech Bring Reusable Identity Verification to European Digital Wallets",
-      "body": "Signicat and TrustTech have partnered to embed reusable identity verification into European digital wallets, aiming to boost security and regulatory compliance. Digital wallet providers gain a new tool to reduce onboarding friction and fraud risk, while users benefit from streamlined authentication. Competing wallet platforms, including Apple Pay and Google Wallet, may need to enhance their security features to retain user trust. The partnership could set a new standard for digital identity in EU payments.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110342/signicat-and-trusttech-partner-to-bring-reusable-identity-to-european-digital-wallets"
-      }
-    },
-    {
-      "title": "Oman Arab Bank Completes Visa Tokenization Rollout to Modernize Card Security",
-      "body": "Oman Arab Bank has finished deploying Visa tokenization across its card portfolio, advancing its payments modernization agenda. Customers now benefit from enhanced transaction security and reduced fraud exposure. Regional banks such as Bank Muscat and National Bank of Oman are likely to accelerate their own tokenization projects to remain competitive in payment security. The rollout positions Oman Arab Bank as a leader in Middle Eastern payment security standards.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110331/oman-arab-bank-completes-visa-tokenisation-rollout"
-      }
-    },
-    {
-      "title": "eDreams ODIGEO Partners With Visa to Enable AI Agents for Travel Purchases",
-      "body": "eDreams ODIGEO (eDO) has teamed up with Visa to let AI-powered agents book travel services directly, streamlining the purchase process for users. This integration gives eDO a competitive edge in travel payments and may drive higher customer satisfaction. Competing travel platforms such as Booking.com and Expedia are likely to pursue similar AI partnerships to avoid losing market share. The move signals a new phase of automation in travel commerce.",
+      "title": "Klarna Partners with Money Wellness to Offer UK Users Financial Health Checks",
+      "body": "Klarna teamed up with Money Wellness to provide UK users with personalized financial insights and budgeting tools directly within its app. The partnership deepens Klarna\u2019s engagement with its user base and differentiates its BNPL offering in a crowded market. Fintechs looking to boost retention may pursue similar partnerships to expand their value proposition beyond payments.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/transportation/travel-payments/2026/edo-taps-visa-to-allow-ai-agents-to-purchase-travel/"
+        "url": "https://www.pymnts.com/consumer-finance/2026/klarna-expands-app-features-with-money-wellness-partnership/"
       }
     }
   ],
-  "perspective": "Starling Bank layoffs and the IMF\u2019s tokenization warning illustrate how AI and digital assets are shifting risk and strategy for banks and payment providers.",
+  "perspective": "BNY, Visa, and Coinbase\u2019s stablecoin launch and ZEN.COM\u2019s Click to Pay rollout signal new momentum in cross-border payments and digital wallets.",
   "curiosity": {
-    "text": "The first ATM, installed in London in 1967, used paper vouchers instead of plastic cards and required a six-digit personal code for access."
+    "text": "The first online purchase using a credit card was a Sting CD bought in 1994, years before e-commerce became mainstream."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "geoSurge",
-      "description": "Raised $12M to enhance AI visibility for brands.",
+      "description": "raises $12M to enhance brand visibility in AI systems.",
       "source_url": "https://www.pymnts.com/news/investment-tracker/2026/geosurge-raises-12-million-to-help-brands-secure-ai-visibility/"
     },
     {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "eToro",
-      "description": "Led $12.5M round in onchain perps exchange Extended.",
-      "source_url": "https://www.theblock.co/post/407093/etoro-leads-12-5-million-round-in-onchain-perps-exchange-extended?utm_source=rss&utm_medium=rss"
+      "company": "MDOTM",
+      "description": "raised $27M for AI investment platform.",
+      "source_url": "https://www.finextra.com/pressarticle/110340/mdotm-raises-27m-for-ai-investment-platform"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Tapestry VC",
+      "description": "closed $80M fund for European founders.",
+      "source_url": "https://news.crunchbase.com/venture/80m-repeat-founders-fund-europe-na-tapestry/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Payward",
-      "description": "Completed acquisition of Reap Technologies.",
-      "source_url": "https://www.finextra.com/pressarticle/110332/payward-completes-reap-acquistion"
-    },
-    {
-      "flag": "\ud83c\uddea\ud83c\uddea",
-      "type": "expansion",
-      "company": "Lightspark",
-      "description": "First in Estonia to receive MiCA license.",
-      "source_url": "https://www.finextra.com/pressarticle/110322/lightspark-becomes-first-payments-company-in-estonia-to-get-mica-licence"
-    },
-    {
-      "flag": "\ud83c\uddf5\ud83c\uddf1",
       "type": "product",
-      "company": "ZEN.COM",
-      "description": "Launched Mastercard Click to Pay in Europe and Singapore.",
-      "source_url": "https://www.pymnts.com/news/payment-methods/2026/zen-com-launches-mastercard-click-to-pay-across-europe-and-singapore/"
+      "company": "Visa",
+      "description": "launched Visa Destinations for travel discounts.",
+      "source_url": "https://www.finextra.com/newsarticle/48035/visa-launches-visa-destinations-offering-discounts-for-travellers"
     }
   ]
 }
