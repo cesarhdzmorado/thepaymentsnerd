@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "BNY, Visa, and Coinbase Launch Consortium Stablecoin Targeting Cross-Border Efficiency",
-      "body": "BNY, Visa, and Coinbase launched a digital asset under the Open Standard, aiming to deliver a low-cost stablecoin for payments. The consortium seeks to reduce transaction costs and improve cross-border settlement, directly challenging established stablecoin providers and traditional correspondent banking. Banks and payment processors face pressure to integrate stablecoin rails or risk losing cross-border volume to consortium-backed alternatives.",
+      "title": "Cr\u00e9dit Agricole Takes Full Control of Cawl, Deepening Merchant Payments Ambitions",
+      "body": "Cr\u00e9dit Agricole has acquired 100% ownership of Cawl, its merchant payments joint venture with Worldline, originally launched in 2023. This acquisition gives Cr\u00e9dit Agricole direct control over merchant acquiring and payment services, positioning it to compete more aggressively with European PSPs. The bank can now integrate payments more tightly with its core banking products, potentially bundling services for SME and enterprise clients. Other European acquirers may see increased margin pressure as Cr\u00e9dit Agricole leverages its distribution and banking relationships.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48040/crdit-agricole-buys-worldline-out-of-merchant-payments-jv?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Klarna\u2019s $2B Antitrust Win Against Google Sets Precedent for Tech Competition in Europe",
+      "body": "A Swedish court ruled that Google violated antitrust laws in price comparison, awarding Klarna\u2019s European competitor $2 billion in damages. The decision strengthens Klarna\u2019s position in the European payments and e-commerce ecosystem while signaling that regulators are willing to curb big tech\u2019s market power. Tech giants operating in Europe now face stricter scrutiny over their payment and checkout integrations, with increased risk of legal challenges from fintechs and PSPs seeking a more level playing field.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/stablecoin-open-standard-bridge-abrams-bny-stripe-mastercard-visa-coinbase-adyen/824200/"
+        "url": "https://www.bankingdive.com/news/google-loses-2b-klarna-antitrust-case-online-shopping-consumer-spending-tech/824235/"
       }
     },
     {
-      "title": "Aave\u2019s Monad Market Surpasses $100 Million in Deposits Within Two Days",
-      "body": "Aave\u2019s newly launched Monad market attracted $100 million in deposits just two days after going live, underscoring strong demand for DeFi lending products. This rapid growth cements Aave\u2019s position as a leader in decentralized finance and signals robust user appetite for new yield opportunities. Competing protocols are likely to accelerate product launches or incentives to capture liquidity before Aave consolidates its advantage.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/407167/aaves-new-monad-market-tops-100-million-in-deposits-two-days-after-launch"
-      }
-    },
-    {
-      "title": "ZEN.COM Rolls Out Mastercard Click to Pay for 1.5 Million Users in Europe and Singapore",
-      "body": "ZEN.COM integrated Mastercard Click to Pay into its multicurrency platform, making the feature available to 1.5 million users across Europe and Singapore. This move strengthens ZEN.COM\u2019s digital wallet offering and positions it to compete more directly with PayPal and Apple Pay on seamless checkout. Fintechs aiming to boost conversion rates may accelerate wallet integrations to keep pace in these regions.",
+      "title": "Binance-Backed Mesh Nears $2B Valuation, Raising Stakes in Crypto Payments",
+      "body": "Binance is reportedly leading a funding round that could value crypto payments firm Mesh at $2 billion. Mesh\u2019s rapid ascent, fueled by Binance\u2019s backing, positions it as a challenger to established crypto payment providers and accelerates competition in digital asset-to-fiat transfer tools. Mesh is expected to pursue integrations with major e-commerce platforms and partnerships with fintechs to enable seamless crypto checkout and wallet interoperability for merchants.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payment-methods/2026/zen-com-launches-mastercard-click-to-pay-across-europe-and-singapore/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-payments-firm-mesh-eyes-2-billion-valuation-backed-by-binance/"
       }
     },
     {
-      "title": "SoFi Launches Small-Business Lending, Expanding Beyond Consumer Finance",
-      "body": "SoFi introduced a small-business loan product, marking its entry into the SME lending market and broadening its product suite beyond personal finance. By targeting business customers, SoFi opens new revenue streams and competes with fintechs and banks already serving SMEs. Digital lenders seeking growth may follow SoFi\u2019s lead to capture more primary financial relationships as demand for SME credit rises.",
+      "title": "Thought Machine Surpasses $100M ARR as Cloud-Native Core Banking Gains Traction",
+      "body": "Thought Machine announced it has exceeded $100 million in annual recurring revenue, reflecting surging demand for cloud-native core banking and payments infrastructure. This milestone underscores the shift away from legacy core systems as banks and fintechs seek more agile, API-driven platforms. Incumbent core banking vendors now face intensified competition from cloud-first challengers, and banks are accelerating adoption of modular, cloud-based stacks to support digital transformation.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110336/thought-machine-hits-revenue-milestone?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "EagleBank Pays $9.7M for BSA Failures, Raising Compliance Stakes for U.S. Banks",
+      "body": "EagleBank agreed to pay $9.7 million to settle Bank Secrecy Act violations after admitting to inadequate anti-money laundering controls. The penalty highlights regulators\u2019 continued focus on AML compliance and signals that even mid-sized banks face significant financial and reputational risks for lapses. U.S. banks are likely to accelerate investments in transaction monitoring and compliance automation to avoid similar outcomes, driving demand for advanced AML technology.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/sofi-enters-small-business-loan-market/824234/"
-      }
-    },
-    {
-      "title": "Klarna Partners with Money Wellness to Offer UK Users Financial Health Checks",
-      "body": "Klarna teamed up with Money Wellness to provide UK users with personalized financial insights and budgeting tools directly within its app. The partnership deepens Klarna\u2019s engagement with its user base and differentiates its BNPL offering in a crowded market. Fintechs looking to boost retention may pursue similar partnerships to expand their value proposition beyond payments.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/consumer-finance/2026/klarna-expands-app-features-with-money-wellness-partnership/"
+        "url": "https://www.bankingdive.com/news/eaglebank-pay-97-million-resolve-bsa-violations/824232/"
       }
     }
   ],
-  "perspective": "BNY, Visa, and Coinbase\u2019s stablecoin launch and ZEN.COM\u2019s Click to Pay rollout signal new momentum in cross-border payments and digital wallets.",
+  "perspective": "Cr\u00e9dit Agricole\u2019s Cawl acquisition and Klarna\u2019s antitrust win against Google spotlight shifting power dynamics in European payments and tech competition.",
   "curiosity": {
-    "text": "The first online purchase using a credit card was a Sting CD bought in 1994, years before e-commerce became mainstream."
+    "text": "After the Durbin Amendment capped debit interchange fees, some U.S. banks reduced free checking account offerings, illustrating how regulation can reshape consumer banking products in unexpected ways."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "geoSurge",
-      "description": "raises $12M to enhance brand visibility in AI systems.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/geosurge-raises-12-million-to-help-brands-secure-ai-visibility/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "MDOTM",
-      "description": "raised $27M for AI investment platform.",
-      "source_url": "https://www.finextra.com/pressarticle/110340/mdotm-raises-27m-for-ai-investment-platform"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Tapestry VC",
-      "description": "closed $80M fund for European founders.",
-      "source_url": "https://news.crunchbase.com/venture/80m-repeat-founders-fund-europe-na-tapestry/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Visa",
-      "description": "launched Visa Destinations for travel discounts.",
-      "source_url": "https://www.finextra.com/newsarticle/48035/visa-launches-visa-destinations-offering-discounts-for-travellers"
+      "company": "SoFi",
+      "description": "Launches small-business loan product.",
+      "source_url": "https://www.bankingdive.com/news/sofi-enters-small-business-loan-market/824234/"
+    },
+    {
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "type": "IPO",
+      "company": "SK Hynix",
+      "description": "Plans $29 billion IPO in the U.S.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/sk-hynix-courts-us-ai-investors-with-29-billion-ipo/"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddec",
+      "type": "M&A",
+      "company": "LemFi",
+      "description": "Acquires investment platform Wealth8.",
+      "source_url": "https://www.finextra.com/newsarticle/48041/financial-platform-for-immigrants-lemfi-buys-wealth8?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "product",
+      "company": "Aave",
+      "description": "Monad market tops $100 million in deposits.",
+      "source_url": "https://www.theblock.co/post/407167/aaves-new-monad-market-tops-100-million-in-deposits-two-days-after-launch?utm_source=rss&utm_medium=rss"
     }
   ]
 }
