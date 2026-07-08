@@ -1,71 +1,92 @@
 {
   "news": [
     {
-      "title": "Klarna Applies for US Banking License, Eyes Full-Service Expansion",
-      "body": "Klarna has submitted an application for a US banking license, seeking to launch Klarna Bank USA and expand beyond buy now, pay later into deposits, lending, and payments. If regulators approve, Klarna could introduce new products that challenge both incumbent banks and US fintechs, potentially intensifying competition for consumer deposits and payment flows. US banks and neobanks may need to respond with product innovation or pricing adjustments to defend their market share.",
+      "title": "JPMorgan and Bank of America Eye Fiserv Debit Network to Consolidate Processing Power",
+      "body": "Fiserv is in talks to sell its debit payments network to JPMorgan and Bank of America, a move that could reshape the competitive landscape in U.S. debit processing. If completed, the deal would give two of the largest banks greater control over debit transaction infrastructure, potentially squeezing smaller processors and raising antitrust scrutiny. Smaller payment processors may need to invest in specialized services or form alliances to stay competitive.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48045/klarna-applies-for-us-banking-license?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48052/jpmorgan-and-bofa-explore-acquisition-of-fiserv-debit-network---wsj"
       }
     },
     {
-      "title": "Big US Banks Plot Debit Card Fee Overhaul, Threatening Smaller Issuers\u2019 Margins",
-      "body": "Major US banks, including JPMorgan Chase, are negotiating a deal to bypass federal debit fee caps, which could allow them to recover lost interchange revenue. Smaller banks and fintechs may face higher network costs and reduced competitiveness, while merchants could see changes in routing options and fee structures. The move could prompt regulatory scrutiny and force smaller issuers to revisit their debit card offerings.",
+      "title": "Stripe\u2019s Bridge Secures MiCA and EMI Licenses, Expanding Crypto Ambitions in Europe",
+      "body": "Bridge, a Stripe subsidiary, has obtained both Crypto-Asset Service Provider and Electronic Money Institution licenses in Luxembourg. This regulatory milestone enables Stripe to offer crypto services across the EU, positioning it to challenge incumbents in digital asset payments. European fintechs and payment service providers now face a well-capitalized competitor with deep integration capabilities and regulatory approval.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110363/stripe-owned-bridge-secures-mica-and-emi-authorisations"
+      }
+    },
+    {
+      "title": "Open Banking Debate Shifts to Data Pricing, Redefining Competitive Advantage",
+      "body": "The open banking conversation in Europe is moving from data access rights to the economics of data sharing, with new debates over who pays for secure API infrastructure. The focus on data pricing could change how banks and fintechs generate revenue from data, affecting partnership models and the speed of open banking adoption. Banks and fintechs are now negotiating new pricing frameworks as regulators and industry groups discuss cost allocation.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/big-banks-eye-payments-deal-that-could-rewire-debit-fees/"
+        "url": "https://www.pymnts.com/news/banking/2026/open-banking-moves-from-data-rights-to-data-pricing/"
       }
     },
     {
-      "title": "Ripple Secures EU Crypto Asset License, Unlocking Broader Blockchain Payments Rollout",
-      "body": "Ripple has received a Crypto Asset Service Provider license from Luxembourg\u2019s CSSF, enabling it to expand regulated blockchain-based payment services across Europe. This approval under MiCA strengthens Ripple\u2019s ability to serve institutional and cross-border payment clients. Competing crypto firms may accelerate their own licensing efforts to maintain access to the EU market.",
+      "title": "SEC Floats Crypto Rules to Draw Institutional Investment to U.S. Markets",
+      "body": "The SEC has proposed new rules, currently under discussion for its 2026 agenda, to clarify the regulatory framework for crypto assets and encourage more crypto activity within U.S. markets. Clearer guidance could enable large asset managers and banks to enter the crypto space, while some offshore exchanges may lose their competitive edge if U.S. regulations become more attractive. Fintechs and payment firms are watching closely to see if the U.S. becomes a preferred jurisdiction for institutional crypto activity.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110346/ripple-receives-full-crypto-asset-service-provider-licence-in-europe?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/sec-plans-crypto-rules-to-lure-markets-onshore/"
       }
     },
     {
-      "title": "Standard Chartered Launches USDC Minting and Redemption for Institutional Clients",
-      "body": "Standard Chartered now enables institutional clients to mint and redeem USDC through a partnership with Circle, embedding stablecoin rails into its treasury and cross-border services. This gives corporates and fintechs new options for instant settlement, and may prompt other banks to accelerate stablecoin integrations to retain institutional payment flows.",
+      "title": "Satispay and Mastercard Launch Debit Card, Add Investments to Super-App Playbook",
+      "body": "Italian fintech Satispay has partnered with Mastercard to launch a debit card and introduced stock and ETF investment features. This move deepens Satispay\u2019s super-app ambitions, giving users more reasons to consolidate financial activity within its ecosystem. Competing neobanks and fintechs in Europe may need to accelerate product bundling or risk losing engagement to broader platforms.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110349/standard-chartered-enables-institutional-clients-to-access-usdc-minting-and-redemption?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "PayPal Joins European Payments Council, Gaining Influence Over EU Payment Standards",
-      "body": "PayPal has joined the European Payments Council, giving it a direct role in shaping payment standards and regulatory frameworks across the EU. This move positions PayPal to influence the evolution of digital wallet acceptance and integration with European payment rails. Competing wallet providers and banks may need to adapt as PayPal gains early insight into regulatory changes.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110347/paypal-joins-the-european-payments-council?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48051/italian-fintech-satispay-partners-mastercard-for-debit-card-launch"
       }
     }
   ],
-  "perspective": "Klarna\u2019s US banking license bid and PayPal\u2019s entry to the European Payments Council signal regulatory shifts impacting deposit competition and digital wallet integration.",
+  "perspective": "Stripe\u2019s Bridge and Satispay-Mastercard moves highlight how regulatory shifts and product expansion are redrawing Europe\u2019s payments and crypto landscape.",
   "curiosity": {
-    "text": "The first real-time gross settlement system, launched in the UK in 1984, paved the way for today\u2019s instant payment networks used by banks worldwide."
+    "text": "The first neural network-based credit card fraud detection system was deployed by Mellon Bank in 1992, pioneering the use of AI in real-time transaction monitoring."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Thrive Holdings",
-      "description": "raises $2 billion to transform services firms with AI.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/thrive-holdings-raises-2-billion-to-buy-and-rewire-services-firms-with-ai/"
+      "company": "Thought Machine",
+      "description": "Raised \u00a330M from Tier 1 bank",
+      "source_url": "https://www.finextra.com/newsarticle/48046/thought-machine-raises-30-million-from-tier-1-bank"
     },
     {
-      "flag": "\ud83c\uddf3\ud83c\uddec",
-      "type": "M&A",
-      "company": "LemFi",
-      "description": "acquires Wealth8 to expand services for immigrant communities.",
-      "source_url": "https://www.finextra.com/newsarticle/48041/financial-platform-for-immigrants-lemfi-buys-wealth8?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "type": "fundraising",
+      "company": "EDX Markets",
+      "description": "$76M Series C with SBI Holdings as sole investor",
+      "source_url": "https://www.theblock.co/post/407489/crypto-platform-edx-markets-series-c-funding-sbi-sole-investor"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Thought Machine",
-      "description": "hits $100M ARR, plans to double before IPO.",
-      "source_url": "https://sifted.eu/articles/thought-machine-100m-arr/"
+      "type": "fundraising",
+      "company": "Stoa",
+      "description": "Raised \u00a31.8M in pre-seed funding",
+      "source_url": "https://www.finextra.com/newsarticle/48048/uk-savings-fintech-stoa-raises-18-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Nomerra",
+      "description": "Raised $2M to tackle private markets paperwork",
+      "source_url": "https://www.finextra.com/pressarticle/110357/nomerra-raises-2-million-to-tackle-private-markets-paperwork"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "KOR Protocol",
+      "description": "$7.5M Series A at $100M valuation",
+      "source_url": "https://www.theblock.co/post/407465/1kx-blockchain-capital-7-5-million-kor-protocol-series-a-100-million-valuation"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Mercado Bitcoin",
+      "description": "$20M investment from Tether",
+      "source_url": "https://www.theblock.co/post/407463/tether-20-million-behind-mercado-bitcoin-latin-america-tokenization-boom"
     }
   ]
 }
