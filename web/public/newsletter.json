@@ -1,92 +1,64 @@
 {
   "news": [
     {
-      "title": "JPMorgan and Bank of America Eye Fiserv Debit Network to Consolidate Processing Power",
-      "body": "Fiserv is in talks to sell its debit payments network to JPMorgan and Bank of America, a move that could reshape the competitive landscape in U.S. debit processing. If completed, the deal would give two of the largest banks greater control over debit transaction infrastructure, potentially squeezing smaller processors and raising antitrust scrutiny. Smaller payment processors may need to invest in specialized services or form alliances to stay competitive.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48052/jpmorgan-and-bofa-explore-acquisition-of-fiserv-debit-network---wsj"
-      }
-    },
-    {
-      "title": "Stripe\u2019s Bridge Secures MiCA and EMI Licenses, Expanding Crypto Ambitions in Europe",
-      "body": "Bridge, a Stripe subsidiary, has obtained both Crypto-Asset Service Provider and Electronic Money Institution licenses in Luxembourg. This regulatory milestone enables Stripe to offer crypto services across the EU, positioning it to challenge incumbents in digital asset payments. European fintechs and payment service providers now face a well-capitalized competitor with deep integration capabilities and regulatory approval.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110363/stripe-owned-bridge-secures-mica-and-emi-authorisations"
-      }
-    },
-    {
-      "title": "Open Banking Debate Shifts to Data Pricing, Redefining Competitive Advantage",
-      "body": "The open banking conversation in Europe is moving from data access rights to the economics of data sharing, with new debates over who pays for secure API infrastructure. The focus on data pricing could change how banks and fintechs generate revenue from data, affecting partnership models and the speed of open banking adoption. Banks and fintechs are now negotiating new pricing frameworks as regulators and industry groups discuss cost allocation.",
+      "title": "Nium Acquires Cypher to Integrate Crypto Wallets Into Cross-Border Payments Stack",
+      "body": "Nium has acquired Cypher, adding crypto-native wallet and issuing capabilities to its global payments infrastructure. This positions Nium to offer seamless fiat-to-crypto money movement for enterprise clients, directly challenging legacy cross-border payment processors and banks. Payment processors and banks now face a new competitor able to bridge regulated fiat rails with digital asset flows. Nium aims to serve B2B payouts and treasury use cases where stablecoins and instant settlement are gaining traction.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/open-banking-moves-from-data-rights-to-data-pricing/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/nium-acquires-cypher-to-bridge-fiat-and-crypto/"
       }
     },
     {
-      "title": "SEC Floats Crypto Rules to Draw Institutional Investment to U.S. Markets",
-      "body": "The SEC has proposed new rules, currently under discussion for its 2026 agenda, to clarify the regulatory framework for crypto assets and encourage more crypto activity within U.S. markets. Clearer guidance could enable large asset managers and banks to enter the crypto space, while some offshore exchanges may lose their competitive edge if U.S. regulations become more attractive. Fintechs and payment firms are watching closely to see if the U.S. becomes a preferred jurisdiction for institutional crypto activity.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/sec-plans-crypto-rules-to-lure-markets-onshore/"
-      }
-    },
-    {
-      "title": "Satispay and Mastercard Launch Debit Card, Add Investments to Super-App Playbook",
-      "body": "Italian fintech Satispay has partnered with Mastercard to launch a debit card and introduced stock and ETF investment features. This move deepens Satispay\u2019s super-app ambitions, giving users more reasons to consolidate financial activity within its ecosystem. Competing neobanks and fintechs in Europe may need to accelerate product bundling or risk losing engagement to broader platforms.",
+      "title": "Equifax Buys Mexico\u2019s Fastest-Growing Credit Bureau for $750M, Escalating LatAm Data Wars",
+      "body": "Equifax is acquiring C\u00edrculo de Cr\u00e9dito for $750 million, expanding its reach in Latin America\u2019s competitive credit data market. The deal puts pressure on local and regional bureaus as Equifax brings global data standards and analytics to Mexican lenders and fintechs. Incumbent bureaus may lose share or face consolidation as international players scale up. Regulatory scrutiny is likely as market concentration increases and cross-border data flows intensify.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48051/italian-fintech-satispay-partners-mastercard-for-debit-card-launch"
+        "url": "https://www.finextra.com/newsarticle/48056/equifax-agrees-750m-acquisition-of-mexican-credit-bureau"
+      }
+    },
+    {
+      "title": "Hyundai Card Completes Stablecoin Pilot With Avalanche and Tether, Visa Joins Next Phase",
+      "body": "Hyundai Card finished a real-world stablecoin pilot using Avalanche and Tether, with Visa and Circle set to participate in the next stage. This marks one of the first mainstream card issuers to test stablecoin settlement at scale, signaling a shift toward programmable money in consumer payments. Traditional card networks and banks now face a credible path for stablecoins to bypass legacy rails. Regulators and merchant acquirers will need to address compliance and acceptance as Visa\u2019s involvement expands.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/407660/hyundai-stablecoin-poc-avalanche-tether?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Sony Wins OCC Conditional Trust Charter to Launch Stablecoin-Focused Connectia Trust",
+      "body": "Sony received conditional approval from the OCC for a trust charter, clearing the way to launch Connectia Trust for stablecoin issuance and management. This move brings a global tech giant into direct competition with banks and fintechs in the regulated stablecoin space. U.S. banks and payment firms now face a new breed of issuer with deep tech and consumer reach. Sony must now secure full regulatory approval and attract institutional partners to establish Connectia\u2019s presence in the market.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/occ-conditional-approve-sony-trust-bank-charter/824673/"
+      }
+    },
+    {
+      "title": "Visa Launches Mobile-First Travel Platform, Expanding Beyond Payments Into Loyalty and Services",
+      "body": "Visa is rolling out a travel-focused mobile platform in ten countries, bundling payments with loyalty, booking, and travel assistance features. This expansion challenges incumbent travel platforms and deepens Visa\u2019s direct relationship with international travelers. Competing travel fintechs and banks risk losing share as Visa leverages its network to embed financial services at the point of travel. Visa\u2019s ability to drive user engagement beyond payments will determine the platform\u2019s long-term impact.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48054/visa-moves-beyond-payments-to-become-travel-companion"
       }
     }
   ],
-  "perspective": "Stripe\u2019s Bridge and Satispay-Mastercard moves highlight how regulatory shifts and product expansion are redrawing Europe\u2019s payments and crypto landscape.",
+  "perspective": "Nium and Visa drive cross-border and stablecoin innovation as Sony enters U.S. trust banking with Connectia Trust.",
   "curiosity": {
-    "text": "The first neural network-based credit card fraud detection system was deployed by Mellon Bank in 1992, pioneering the use of AI in real-time transaction monitoring."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how banks and merchants processed transactions and paving the way for modern card payments."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Thought Machine",
-      "description": "Raised \u00a330M from Tier 1 bank",
-      "source_url": "https://www.finextra.com/newsarticle/48046/thought-machine-raises-30-million-from-tier-1-bank"
-    },
-    {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
-      "type": "fundraising",
-      "company": "EDX Markets",
-      "description": "$76M Series C with SBI Holdings as sole investor",
-      "source_url": "https://www.theblock.co/post/407489/crypto-platform-edx-markets-series-c-funding-sbi-sole-investor"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Stoa",
-      "description": "Raised \u00a31.8M in pre-seed funding",
-      "source_url": "https://www.finextra.com/newsarticle/48048/uk-savings-fintech-stoa-raises-18-million"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Nomerra",
-      "description": "Raised $2M to tackle private markets paperwork",
-      "source_url": "https://www.finextra.com/pressarticle/110357/nomerra-raises-2-million-to-tackle-private-markets-paperwork"
+      "company": "Prime Intellect",
+      "description": "Raised $130M to scale AI training platform.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/prime-intellect-raises-130-million-to-help-companies-train-ai-agents/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "KOR Protocol",
-      "description": "$7.5M Series A at $100M valuation",
-      "source_url": "https://www.theblock.co/post/407465/1kx-blockchain-capital-7-5-million-kor-protocol-series-a-100-million-valuation"
-    },
-    {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
-      "type": "fundraising",
-      "company": "Mercado Bitcoin",
-      "description": "$20M investment from Tether",
-      "source_url": "https://www.theblock.co/post/407463/tether-20-million-behind-mercado-bitcoin-latin-america-tokenization-boom"
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "expansion",
+      "company": "Klarna",
+      "description": "Applied for ILC charter in Utah.",
+      "source_url": "https://www.bankingdive.com/news/klarna-fdic-utah-ilc-charter-application/824603/"
     }
   ]
 }
