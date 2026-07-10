@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "Nium Acquires Cypher to Integrate Crypto Wallets Into Cross-Border Payments Stack",
-      "body": "Nium has acquired Cypher, adding crypto-native wallet and issuing capabilities to its global payments infrastructure. This positions Nium to offer seamless fiat-to-crypto money movement for enterprise clients, directly challenging legacy cross-border payment processors and banks. Payment processors and banks now face a new competitor able to bridge regulated fiat rails with digital asset flows. Nium aims to serve B2B payouts and treasury use cases where stablecoins and instant settlement are gaining traction.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/nium-acquires-cypher-to-bridge-fiat-and-crypto/"
-      }
-    },
-    {
-      "title": "Equifax Buys Mexico\u2019s Fastest-Growing Credit Bureau for $750M, Escalating LatAm Data Wars",
-      "body": "Equifax is acquiring C\u00edrculo de Cr\u00e9dito for $750 million, expanding its reach in Latin America\u2019s competitive credit data market. The deal puts pressure on local and regional bureaus as Equifax brings global data standards and analytics to Mexican lenders and fintechs. Incumbent bureaus may lose share or face consolidation as international players scale up. Regulatory scrutiny is likely as market concentration increases and cross-border data flows intensify.",
+      "title": "European Parliament Advances Digital Euro, Initiates Final Negotiations",
+      "body": "The European Parliament voted to move forward with the digital euro, initiating final negotiations with EU member states. This step accelerates the EU\u2019s push into central bank digital currency, prompting banks and fintechs to prepare for new regulatory frameworks and potential shifts in consumer payment preferences as the digital euro\u2019s structure is finalized.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48056/equifax-agrees-750m-acquisition-of-mexican-credit-bureau"
+        "url": "https://www.finextra.com/newsarticle/48068/european-parliament-backs-digital-euro-paving-way-for-final-negotiations?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Hyundai Card Completes Stablecoin Pilot With Avalanche and Tether, Visa Joins Next Phase",
-      "body": "Hyundai Card finished a real-world stablecoin pilot using Avalanche and Tether, with Visa and Circle set to participate in the next stage. This marks one of the first mainstream card issuers to test stablecoin settlement at scale, signaling a shift toward programmable money in consumer payments. Traditional card networks and banks now face a credible path for stablecoins to bypass legacy rails. Regulators and merchant acquirers will need to address compliance and acceptance as Visa\u2019s involvement expands.",
+      "title": "Block Pays $45M to Settle Cash App Fraud Probe with 46 US States",
+      "body": "Block agreed to a $45 million settlement after allegations that Cash App failed to adequately protect users from fraud, resolving investigations by 46 US states. The settlement may erode user trust in Cash App and open the door for rivals like Venmo and Zelle to capture market share. Peer-to-peer payment providers are likely to face tighter regulatory scrutiny and will need to invest in more robust fraud prevention systems.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48069/block-reaches-45m-cash-app-fraud-probe-settlement-with-us-states?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Sony Bank Secures OCC Approval for US Stablecoin Trust Bank",
+      "body": "Sony Bank received conditional approval from the OCC to launch a US national trust bank focused on stablecoins. This move positions Sony Bank to compete directly with established stablecoin issuers and signals that large technology firms are entering regulated digital asset markets, potentially increasing pressure on banks and fintechs to innovate or partner in the stablecoin space.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48064/sony-bank-wins-us-regulatory-approval-for-stablecoin-trust-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Seventeen Banks to Pilot Swift\u2019s Blockchain-Based Shared Ledger for 24/7 Payments",
+      "body": "Seventeen banks across six countries will pilot live transactions using Swift\u2019s blockchain-based shared ledger, leveraging tokenized deposits for round-the-clock payment availability. The pilot aims to streamline cross-border payments and reduce reliance on legacy correspondent banking, prompting banks to rethink liquidity management and transaction speed as blockchain-based settlement gains traction.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48060/banks-to-pilot-live-transactions-on-swifts-blockchain-based-shared-ledger?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "PayPal Expands PYUSD Stablecoin with Native Issuance on Polygon",
+      "body": "PayPal will issue its PYUSD stablecoin natively on Polygon, integrating with Polygon\u2019s Open Money Stack to broaden access and utility. This expansion strengthens PayPal\u2019s position in the stablecoin market and intensifies competition with USDC and Tether, especially for cross-border and DeFi use cases, while payment processors and DeFi platforms must adapt to stablecoin rails becoming more deeply embedded in mainstream payment flows.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/407660/hyundai-stablecoin-poc-avalanche-tether?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Sony Wins OCC Conditional Trust Charter to Launch Stablecoin-Focused Connectia Trust",
-      "body": "Sony received conditional approval from the OCC for a trust charter, clearing the way to launch Connectia Trust for stablecoin issuance and management. This move brings a global tech giant into direct competition with banks and fintechs in the regulated stablecoin space. U.S. banks and payment firms now face a new breed of issuer with deep tech and consumer reach. Sony must now secure full regulatory approval and attract institutional partners to establish Connectia\u2019s presence in the market.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/occ-conditional-approve-sony-trust-bank-charter/824673/"
-      }
-    },
-    {
-      "title": "Visa Launches Mobile-First Travel Platform, Expanding Beyond Payments Into Loyalty and Services",
-      "body": "Visa is rolling out a travel-focused mobile platform in ten countries, bundling payments with loyalty, booking, and travel assistance features. This expansion challenges incumbent travel platforms and deepens Visa\u2019s direct relationship with international travelers. Competing travel fintechs and banks risk losing share as Visa leverages its network to embed financial services at the point of travel. Visa\u2019s ability to drive user engagement beyond payments will determine the platform\u2019s long-term impact.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48054/visa-moves-beyond-payments-to-become-travel-companion"
+        "url": "https://www.theblock.co/post/407719/paypal-seeks-increase-pyusd-stablecoin-native-issuance-on-polygon?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "Nium and Visa drive cross-border and stablecoin innovation as Sony enters U.S. trust banking with Connectia Trust.",
+  "perspective": "Sony Bank\u2019s US stablecoin entry and PayPal\u2019s Polygon expansion signal intensifying competition and regulatory adaptation in digital payments.",
   "curiosity": {
-    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how banks and merchants processed transactions and paving the way for modern card payments."
+    "text": "Wire transfers in the US still rely on a messaging system from the 1970s, which is why some domestic wires can take hours or even a full business day to settle."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Prime Intellect",
-      "description": "Raised $130M to scale AI training platform.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/prime-intellect-raises-130-million-to-help-companies-train-ai-agents/"
+      "company": "Lendable",
+      "description": "Raises $670 million for personal lending expansion.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/lendable-raises-670-million-to-fuel-personal-lending-expansion/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "flag": "\ud83c\uddf1\ud83c\uddfb",
       "type": "expansion",
-      "company": "Klarna",
-      "description": "Applied for ILC charter in Utah.",
-      "source_url": "https://www.bankingdive.com/news/klarna-fdic-utah-ilc-charter-application/824603/"
+      "company": "Nodu",
+      "description": "Receives MiCA and payment institution licenses.",
+      "source_url": "https://www.finextra.com/pressarticle/110387/nodu-receives-mica-and-payment-institution-licences-from-the-bank-of-latvia?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Aria",
+      "description": "Raises \u20ac7M and launches \u20ac240M debt facility for invoice financing.",
+      "source_url": "https://www.finextra.com/newsarticle/48067/aria-raises-7m-and-launches-240m-debt-facility-to-scale-invoice-financing?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Tangos AI",
+      "description": "Secures $20 million for AI-driven financial crime prevention.",
+      "source_url": "https://www.finextra.com/newsarticle/48062/ai-based-fincrime-startup-tangos-raises-20-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
