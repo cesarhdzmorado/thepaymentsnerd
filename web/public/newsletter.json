@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "Nubank Wins Mexican Bank License, Escalating Fintech-Bank Competition in Latin America",
-      "body": "Nubank\u2019s Nu Mexico has secured full banking authorization from the National Banking and Securities Commission, allowing it to operate as a regulated bank in Mexico. Nubank is putting direct pressure on incumbent banks and local fintechs by entering the market as a well-capitalized digital challenger with proven customer acquisition playbooks. Incumbent banks and fintechs are likely to respond with new product launches and richer incentives as Nubank scales deposits and lending in the region. Mexican regulators may revisit oversight frameworks as digital banking competition intensifies.",
+      "title": "Circle Secures OCC Approval, Paving Way for USDC Integration in Mainstream Banking",
+      "body": "Circle received final OCC approval to launch Circle National Trust, making it a national trust bank in the US. Circle now directly challenges incumbent banks and stablecoin issuers by bringing USDC into regulated finance. Circle plans to partner with traditional financial institutions, accelerating USDC adoption and increasing competition for US banks from a blockchain-native, fully regulated player.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/nubank-unit-secures-authorization-to-become-mexican-bank/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110397/circle-gets-final-national-trust-bank-approval?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Circle Secures OCC Approval for National Trust Bank, Cementing USDC\u2019s Regulatory Status",
-      "body": "Circle has received final approval from the OCC to launch First National Digital Currency Bank, focused on USDC reserve management and digital asset services. With this regulatory foundation, Circle is positioned to integrate USDC more deeply into mainstream payments and banking, offering federally regulated digital currency infrastructure. Banks and fintechs now face a new competitor as Circle pursues B2B payment and institutional treasury partnerships, aiming to drive USDC adoption through direct integrations and new service offerings.",
+      "title": "US CBDC Ban Set to Stall Federal Digital Dollar Efforts Until 2030",
+      "body": "A four-year ban on a US central bank digital currency (CBDC) is set to become law, halting Federal Reserve digital dollar pilots. US banks and fintechs must now prioritize private stablecoins and tokenized deposits, while countries like China and the EU continue advancing their own CBDC projects. This legislative pause leaves US financial institutions at a disadvantage as global digital currency infrastructure evolves.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cbdc/2026/us-cbdc-ban-set-to-become-law-at-midnight/"
+      }
+    },
+    {
+      "title": "Revolut Launches AI-Driven Crypto Trading, Targeting Tech-Savvy Retail Investors",
+      "body": "Revolut integrated AI assistants into its crypto exchange, letting users analyze, backtest, and execute trades through conversational prompts. This new feature aims to attract retail traders seeking advanced tools and sets Revolut apart from competitors. Other exchanges may need to accelerate their own AI integrations to keep pace with Revolut\u2019s innovation.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/407876/stablecoin-firm-circle-wins-final-occ-approval-to-open-national-trust-bank"
+        "url": "https://www.theblock.co/post/407865/revolut-integrates-its-crypto-exchange-with-ai-assistants-as-agentic-trading-spreads?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Stablecoin Adoption Stalls as Treasury Back Offices Struggle With Integration",
-      "body": "Corporate treasury teams are hitting roadblocks integrating stablecoins into existing finance systems, slowing mainstream adoption despite regulatory progress. Treasury leaders who successfully bridge legacy ERP and digital asset workflows are gaining a first-mover advantage in cross-border and programmable payments. Payment processors and treasury tech vendors now have a clear opportunity to build integration layers that unlock stablecoin utility for large enterprises, prompting a wave of partnerships and product launches targeting this bottleneck.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/stablecoin-adoption-runs-into-the-treasury-back-office/"
-      }
-    },
-    {
-      "title": "Lendable Raises $670M to Fuel International Digital Lending Expansion",
-      "body": "UK-based digital lender Lendable has raised $670 million through a securities sale backed by personal loans, earmarked for global expansion. Lendable will use this capital to enter new markets and compete with both fintech and incumbent lenders on speed and underwriting. Prime and near-prime borrowers in target markets will see more offers and incentives as Lendable deploys funds and explores partnerships or acquisitions, putting pressure on local lenders\u2019 margins as digital entrants scale.",
+      "title": "ESMA to Scrutinize Crypto Custodians, Raising Compliance Bar Across EU",
+      "body": "The European Securities and Markets Authority (ESMA) will review the operational resilience and governance of crypto custodians, increasing compliance costs. Smaller custodians such as BitGo and Koine may need to merge or exit quickly if they cannot meet new standards, while larger custodians with robust controls could gain market share as regulatory expectations rise.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48070/lendable-raises-670m-for-global-expansion"
+        "url": "https://www.finextra.com/newsarticle/48073/esma-to-review-the-resilience-of-crypto-custodians?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Revolut Taps JP Morgan Veteran to Lead European Banking Operations",
-      "body": "Revolut has appointed Kuba Fast, formerly of JP Morgan, to head its European banking division. Revolut is signaling its intent to deepen operational expertise and accelerate product rollout across the EU by bringing in seasoned leadership. European incumbent banks now face a challenger with both digital agility and established regulatory experience. New service launches and potential M&A activity are likely as Revolut sharpens its European strategy.",
+      "title": "UK Financial Regulators Gain Oversight of Cloud Providers Serving Banks and Fintechs",
+      "body": "The UK government granted financial regulators authority over major cloud service providers to strengthen security and resilience in the financial sector. Cloud giants like AWS, Microsoft, and Google now face direct regulatory scrutiny, which may increase compliance costs. Banks and fintechs could see higher cloud service prices but benefit from improved risk management.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48071/revolut-recruits-jp-morgan-exec-to-lead-european-operations"
+        "url": "https://www.finextra.com/newsarticle/48074/uk-gives-financial-regulators-oversight-of-cloud-giants?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Nubank\u2019s Mexican license and Circle\u2019s OCC approval show digital challengers leveraging regulatory wins to reshape banking and stablecoin infrastructure.",
+  "perspective": "Circle\u2019s OCC approval and the US CBDC ban reshape US digital currency strategy as Revolut and ESMA drive innovation in Europe.",
   "curiosity": {
-    "text": "In 2023, Mexico\u2019s fintech sector surpassed 650 active startups, making it the largest fintech ecosystem in Latin America after Brazil\u2014despite only 37% of adults having a bank account."
+    "text": "The first ATM to use biometric authentication was launched in Japan in 1997, allowing customers to access cash using a palm vein scan instead of a card."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Aria",
-      "description": "Raised \u20ac7M and launched \u20ac240M debt facility for invoice financing.",
-      "source_url": "https://www.finextra.com/newsarticle/48067/aria-raises-7m-and-launches-240m-debt-facility-to-scale-invoice-financing"
+      "company": "Lendable",
+      "description": "raises $670M for global expansion.",
+      "source_url": "https://www.finextra.com/newsarticle/48070/lendable-raises-670m-for-global-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Tangos AI",
-      "description": "Raised $20M for AI-based financial crime prevention.",
-      "source_url": "https://www.finextra.com/newsarticle/48062/ai-based-fincrime-startup-tangos-raises-20-million"
+      "company": "Revolut",
+      "description": "hired JP Morgan exec for European operations.",
+      "source_url": "https://www.finextra.com/newsarticle/48071/revolut-recruits-jp-morgan-exec-to-lead-european-operations?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "type": "expansion",
+      "company": "Nubank",
+      "description": "secured Mexican banking license.",
+      "source_url": "https://www.pymnts.com/news/banking/2026/nubank-unit-secures-authorization-to-become-mexican-bank/"
+    },
+    {
+      "flag": "\ud83c\uddf2\ud83c\uddf9",
+      "type": "market shift",
+      "company": "Binance",
+      "description": "70% of EU withdrawals moved to self-custody.",
+      "source_url": "https://www.theblock.co/post/407888/binance-co-ceo-says-70-of-eu-withdrawals-went-to-self-custody-after-mica-deadline-with-just-30-going-to-licensed-platforms?utm_source=rss&utm_medium=rss"
     }
   ]
 }
