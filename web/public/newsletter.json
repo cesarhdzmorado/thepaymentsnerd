@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Circle Secures OCC Approval, Paving Way for USDC Integration in Mainstream Banking",
-      "body": "Circle received final OCC approval to launch Circle National Trust, making it a national trust bank in the US. Circle now directly challenges incumbent banks and stablecoin issuers by bringing USDC into regulated finance. Circle plans to partner with traditional financial institutions, accelerating USDC adoption and increasing competition for US banks from a blockchain-native, fully regulated player.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110397/circle-gets-final-national-trust-bank-approval?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "US CBDC Ban Set to Stall Federal Digital Dollar Efforts Until 2030",
-      "body": "A four-year ban on a US central bank digital currency (CBDC) is set to become law, halting Federal Reserve digital dollar pilots. US banks and fintechs must now prioritize private stablecoins and tokenized deposits, while countries like China and the EU continue advancing their own CBDC projects. This legislative pause leaves US financial institutions at a disadvantage as global digital currency infrastructure evolves.",
+      "title": "Stablecoin Market Cap Drops $7.7B in June, Forcing Issuers to Rethink Liquidity",
+      "body": "The stablecoin market lost $7.7 billion in capitalization last month, the steepest decline since 2022. Issuers such as Circle and Tether now face heightened scrutiny from investors and regulators over liquidity and redemption practices. These firms may need to strengthen reserves or redesign products to restore confidence and stem further outflows.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cbdc/2026/us-cbdc-ban-set-to-become-law-at-midnight/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-market-cap-suffers-biggest-decline-in-4-years/"
       }
     },
     {
-      "title": "Revolut Launches AI-Driven Crypto Trading, Targeting Tech-Savvy Retail Investors",
-      "body": "Revolut integrated AI assistants into its crypto exchange, letting users analyze, backtest, and execute trades through conversational prompts. This new feature aims to attract retail traders seeking advanced tools and sets Revolut apart from competitors. Other exchanges may need to accelerate their own AI integrations to keep pace with Revolut\u2019s innovation.",
+      "title": "Mastercard Eyes Sale of Vocalink Stake, UK Banks Poised to Regain Payment Rail Control",
+      "body": "Mastercard is in talks to sell a majority stake in Vocalink, its UK payments subsidiary, back to British banks. This move would transfer control of a key domestic payment system from a global card network to local financial institutions. UK banks could gain more influence over payment scheme rules and pricing, while Mastercard pivots toward cross-border and value-added services.",
+      "source": {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/11179162-c279-4775-8bb5-b1dbf805cae0"
+      }
+    },
+    {
+      "title": "Lawson Pilots JPYC Stablecoin Payments, Bringing Crypto to Japanese Retail Checkout",
+      "body": "Lawson, one of Japan\u2019s largest convenience store chains, has started piloting stablecoin payments using JPYC in partnership with KDDI and HashPort. This initiative brings crypto payments to mainstream retail and could set a precedent for broader acceptance in Japan. Success may prompt other retailers to experiment and regulators to clarify rules for stablecoin use at checkout.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/407865/revolut-integrates-its-crypto-exchange-with-ai-assistants-as-agentic-trading-spreads?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/407982/lawson-pilots-jpyc-stablecoin?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "ESMA to Scrutinize Crypto Custodians, Raising Compliance Bar Across EU",
-      "body": "The European Securities and Markets Authority (ESMA) will review the operational resilience and governance of crypto custodians, increasing compliance costs. Smaller custodians such as BitGo and Koine may need to merge or exit quickly if they cannot meet new standards, while larger custodians with robust controls could gain market share as regulatory expectations rise.",
+      "title": "Ripple CEO Reveals Company Nearly Folded During SEC Lawsuit, Stays in the Fight",
+      "body": "Ripple\u2019s CEO revealed that the company considered shutting down during its extended legal battle with the SEC but ultimately chose to continue operations. By staying active, Ripple has kept XRP available for investors and demonstrated a willingness to contest regulatory actions. This stance may encourage other crypto firms facing enforcement to remain operational rather than exit the market.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48073/esma-to-review-the-resilience-of-crypto-custodians?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/ripple-ceo-says-company-considered-folding-before-sec-fight/"
       }
     },
     {
-      "title": "UK Financial Regulators Gain Oversight of Cloud Providers Serving Banks and Fintechs",
-      "body": "The UK government granted financial regulators authority over major cloud service providers to strengthen security and resilience in the financial sector. Cloud giants like AWS, Microsoft, and Google now face direct regulatory scrutiny, which may increase compliance costs. Banks and fintechs could see higher cloud service prices but benefit from improved risk management.",
+      "title": "Thought Machine Hits $100M ARR, Targets Doubling Revenue Before IPO",
+      "body": "Cloud banking platform Thought Machine has reached $100 million in annual recurring revenue and aims to double that figure before going public. This milestone strengthens its position against legacy core banking providers and signals rising demand for cloud-native infrastructure. Rivals may accelerate acquisitions or product launches as banks modernize their technology.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48074/uk-gives-financial-regulators-oversight-of-cloud-giants?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/thought-machine-100m-arr/"
       }
     }
   ],
-  "perspective": "Circle\u2019s OCC approval and the US CBDC ban reshape US digital currency strategy as Revolut and ESMA drive innovation in Europe.",
+  "perspective": "Mastercard\u2019s potential Vocalink sale and Ripple\u2019s SEC fight spotlight shifting power and resilience in payments infrastructure.",
   "curiosity": {
-    "text": "The first ATM to use biometric authentication was launched in Japan in 1997, allowing customers to access cash using a palm vein scan instead of a card."
+    "text": "Japan\u2019s convenience stores process over 17 billion cashless transactions annually, yet Lawson\u2019s JPYC pilot marks the first major stablecoin test at this retail scale."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Lendable",
-      "description": "raises $670M for global expansion.",
-      "source_url": "https://www.finextra.com/newsarticle/48070/lendable-raises-670m-for-global-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Revolut",
-      "description": "hired JP Morgan exec for European operations.",
-      "source_url": "https://www.finextra.com/newsarticle/48071/revolut-recruits-jp-morgan-exec-to-lead-european-operations?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "expansion",
-      "company": "Nubank",
-      "description": "secured Mexican banking license.",
-      "source_url": "https://www.pymnts.com/news/banking/2026/nubank-unit-secures-authorization-to-become-mexican-bank/"
+      "company": "N26",
+      "description": "Achieves profitability, signaling potential growth.",
+      "source_url": "https://sifted.eu/articles/n26-hits-profitability/"
     },
     {
-      "flag": "\ud83c\uddf2\ud83c\uddf9",
-      "type": "market shift",
-      "company": "Binance",
-      "description": "70% of EU withdrawals moved to self-custody.",
-      "source_url": "https://www.theblock.co/post/407888/binance-co-ceo-says-70-of-eu-withdrawals-went-to-self-custody-after-mica-deadline-with-just-30-going-to-licensed-platforms?utm_source=rss&utm_medium=rss"
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "legal",
+      "company": "Klarna",
+      "description": "Wins $1.97bn antitrust lawsuit against Google.",
+      "source_url": "https://sifted.eu/articles/klarna-wins-1-97bn-antitrust-lawsuit-against-google/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "SumUp",
+      "description": "Launches consumer account to boost small business shopping.",
+      "source_url": "https://sifted.eu/articles/sumup-launches-consumer-account/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "regulatory",
+      "company": "Circle",
+      "description": "Secures OCC trust bank charter.",
+      "source_url": "https://www.bankingdive.com/news/circle-occ-national-trust-bank-charter-full-approval-allaire-usdc-stablecoin/824969/"
     }
   ]
 }
