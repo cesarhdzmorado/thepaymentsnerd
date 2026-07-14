@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Stablecoin Market Cap Drops $7.7B in June, Forcing Issuers to Rethink Liquidity",
-      "body": "The stablecoin market lost $7.7 billion in capitalization last month, the steepest decline since 2022. Issuers such as Circle and Tether now face heightened scrutiny from investors and regulators over liquidity and redemption practices. These firms may need to strengthen reserves or redesign products to restore confidence and stem further outflows.",
+      "title": "Nubank Receives Full Banking License in Mexico, Raising Stakes for Mercado Pago and Revolut",
+      "body": "Nubank has secured final approval to operate as a bank in Mexico, allowing it to offer deposits, loans, and full-service accounts. This regulatory milestone enables Nubank to directly compete with established banks and fintechs such as Mercado Pago and Revolut, who now face a digital-first rival with the ability to launch credit products, savings accounts, and integrated payment features. Incumbents may need to enhance digital onboarding, expand credit offerings, or introduce new rewards programs to retain customers.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48081/nubank-receives-banking-authorisation-in-mexico?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Kraken Launches Crypto Debit Card in UK and Europe, Expanding Everyday Crypto Payments",
+      "body": "Kraken has introduced a Mastercard debit card for users in the UK and Europe, enabling direct spending of cryptocurrencies alongside traditional currencies at retail and online merchants. This move brings crypto payments into mainstream commerce and challenges banks to offer similar digital asset features or risk losing transaction volume to crypto-native providers. Regulatory attention on crypto-to-fiat transactions is expected to increase as adoption grows.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48082/kraken-launches-crypto-debit-card-in-uk-and-europe?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Mastercard Considers Selling Vocalink, Potentially Returning UK Payments Infrastructure to Banks",
+      "body": "Mastercard is reportedly exploring the sale of Vocalink, the UK payments processor it acquired in 2016, possibly back to the consortium of British banks. If the sale proceeds, UK banks could regain direct control over domestic clearing and settlement infrastructure, reducing Mastercard\u2019s operational role in the region. The potential transaction would require regulatory approval and could prompt other payment networks to reevaluate their UK strategies.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48079/mastercard-examines-sale-of-vocalink---ft?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Mizuho: Circle Faces Stablecoin Redemptions and New Competition Despite OCC Bank Charter Approval",
+      "body": "Mizuho analysts highlight that Circle is experiencing increased redemptions of its USDC stablecoin and faces a new competitor in the market, even as it receives preliminary approval for a US bank charter from the OCC. Rising outflows and new entrants threaten Circle\u2019s share in the institutional stablecoin space, prompting the company to consider new product features or deeper integrations with payment processors to maintain its position.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-market-cap-suffers-biggest-decline-in-4-years/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/mizuho-details-rising-redemptions-and-new-stablecoin-rival-pressuring-circle/"
       }
     },
     {
-      "title": "Mastercard Eyes Sale of Vocalink Stake, UK Banks Poised to Regain Payment Rail Control",
-      "body": "Mastercard is in talks to sell a majority stake in Vocalink, its UK payments subsidiary, back to British banks. This move would transfer control of a key domestic payment system from a global card network to local financial institutions. UK banks could gain more influence over payment scheme rules and pricing, while Mastercard pivots toward cross-border and value-added services.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/11179162-c279-4775-8bb5-b1dbf805cae0"
-      }
-    },
-    {
-      "title": "Lawson Pilots JPYC Stablecoin Payments, Bringing Crypto to Japanese Retail Checkout",
-      "body": "Lawson, one of Japan\u2019s largest convenience store chains, has started piloting stablecoin payments using JPYC in partnership with KDDI and HashPort. This initiative brings crypto payments to mainstream retail and could set a precedent for broader acceptance in Japan. Success may prompt other retailers to experiment and regulators to clarify rules for stablecoin use at checkout.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/407982/lawson-pilots-jpyc-stablecoin?utm_source=rss&utm_medium=rss"
-      }
-    },
-    {
-      "title": "Ripple CEO Reveals Company Nearly Folded During SEC Lawsuit, Stays in the Fight",
-      "body": "Ripple\u2019s CEO revealed that the company considered shutting down during its extended legal battle with the SEC but ultimately chose to continue operations. By staying active, Ripple has kept XRP available for investors and demonstrated a willingness to contest regulatory actions. This stance may encourage other crypto firms facing enforcement to remain operational rather than exit the market.",
+      "title": "London Unveils Plan to Accelerate Tokenization in Wholesale Financial Markets",
+      "body": "A new report from London authorities sets out a roadmap to advance tokenization in wholesale financial markets, aiming to attract global financial institutions and boost the UK\u2019s competitiveness. The initiative focuses on enabling institutional adoption of tokenized assets and programmable money, with upcoming regulatory consultations and pilot projects expected as banks and asset managers explore tokenized settlement solutions.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/ripple-ceo-says-company-considered-folding-before-sec-fight/"
-      }
-    },
-    {
-      "title": "Thought Machine Hits $100M ARR, Targets Doubling Revenue Before IPO",
-      "body": "Cloud banking platform Thought Machine has reached $100 million in annual recurring revenue and aims to double that figure before going public. This milestone strengthens its position against legacy core banking providers and signals rising demand for cloud-native infrastructure. Rivals may accelerate acquisitions or product launches as banks modernize their technology.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/thought-machine-100m-arr/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/london-authority-sets-out-plan-for-tokenizing-wholesale-financial-markets/"
       }
     }
   ],
-  "perspective": "Mastercard\u2019s potential Vocalink sale and Ripple\u2019s SEC fight spotlight shifting power and resilience in payments infrastructure.",
+  "perspective": "Nubank\u2019s Mexican banking license and Mastercard\u2019s potential Vocalink sale signal shifting power dynamics among banks, fintechs, and payment networks.",
   "curiosity": {
-    "text": "Japan\u2019s convenience stores process over 17 billion cashless transactions annually, yet Lawson\u2019s JPYC pilot marks the first major stablecoin test at this retail scale."
+    "text": "Remittance flows to low- and middle-income countries reached $669 billion in 2023, surpassing foreign direct investment and official development assistance combined, according to the World Bank."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "expansion",
-      "company": "N26",
-      "description": "Achieves profitability, signaling potential growth.",
-      "source_url": "https://sifted.eu/articles/n26-hits-profitability/"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Moneybox",
+      "description": "Prepares for secondary share sale at \u00a3800 million valuation.",
+      "source_url": "https://www.finextra.com/newsarticle/48078/moneybox-prepares-for-secondary-share-sale-at-800-million-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "legal",
-      "company": "Klarna",
-      "description": "Wins $1.97bn antitrust lawsuit against Google.",
-      "source_url": "https://sifted.eu/articles/klarna-wins-1-97bn-antitrust-lawsuit-against-google/"
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "type": "product",
+      "company": "Tabby",
+      "description": "Launches cash card with up to 3% cashback and free transfer.",
+      "source_url": "https://www.finextra.com/pressarticle/110401/tabby-launches-cash-card-with-up-to-3-cashback-and-free-transfer?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "type": "partnership",
+      "company": "Xsquare",
+      "description": "Signs for Pay by Bank software from Spare.",
+      "source_url": "https://www.finextra.com/pressarticle/110398/xsquare-signs-for-pay-by-bank-software-from-spare?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "SumUp",
-      "description": "Launches consumer account to boost small business shopping.",
-      "source_url": "https://sifted.eu/articles/sumup-launches-consumer-account/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "regulatory",
-      "company": "Circle",
-      "description": "Secures OCC trust bank charter.",
-      "source_url": "https://www.bankingdive.com/news/circle-occ-national-trust-bank-charter-full-approval-allaire-usdc-stablecoin/824969/"
+      "type": "partnership",
+      "company": "ACE Money Transfer",
+      "description": "Joins forces with Visa to promote account funding transactions.",
+      "source_url": "https://www.finextra.com/pressarticle/110405/ace-money-transfer-joins-forces-with-visa-to-promote-account-funding-transactions?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
