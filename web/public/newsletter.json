@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "Nubank Receives Full Banking License in Mexico, Raising Stakes for Mercado Pago and Revolut",
-      "body": "Nubank has secured final approval to operate as a bank in Mexico, allowing it to offer deposits, loans, and full-service accounts. This regulatory milestone enables Nubank to directly compete with established banks and fintechs such as Mercado Pago and Revolut, who now face a digital-first rival with the ability to launch credit products, savings accounts, and integrated payment features. Incumbents may need to enhance digital onboarding, expand credit offerings, or introduce new rewards programs to retain customers.",
+      "title": "Stripe and Advent\u2019s $53B Bid for PayPal Realigns Payments Industry Power",
+      "body": "Stripe and Advent have offered $53 billion to acquire PayPal, a 28% premium over PayPal\u2019s last close. If completed, this deal would consolidate two of the largest digital payment companies, forcing competitors like Square, Adyen, and major banks such as JPMorgan Chase to reassess their strategies. The proposed acquisition faces regulatory and antitrust scrutiny, with rivals likely to accelerate their own M&A or product launches in response.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48081/nubank-receives-banking-authorisation-in-mexico?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/3738e814-9470-4d7d-94a6-ac5e001a968e?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
       }
     },
     {
-      "title": "Kraken Launches Crypto Debit Card in UK and Europe, Expanding Everyday Crypto Payments",
-      "body": "Kraken has introduced a Mastercard debit card for users in the UK and Europe, enabling direct spending of cryptocurrencies alongside traditional currencies at retail and online merchants. This move brings crypto payments into mainstream commerce and challenges banks to offer similar digital asset features or risk losing transaction volume to crypto-native providers. Regulatory attention on crypto-to-fiat transactions is expected to increase as adoption grows.",
+      "title": "UK BNPL Regulations Push Klarna, Affirm, and Afterpay to Tighten Lending Controls",
+      "body": "The UK\u2019s new buy now, pay later rules require providers like Klarna, Afterpay, and Affirm to implement stricter transparency and affordability checks for consumers. Smaller BNPL firms such as Zilch and Laybuy may struggle with the increased compliance burden, potentially leading to exits or consolidation. The regulatory shift could prompt global BNPL players to proactively enhance risk and disclosure systems in other markets.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48082/kraken-launches-crypto-debit-card-in-uk-and-europe?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48090/uk-bnpl-regulations-come-into-force?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Mastercard Considers Selling Vocalink, Potentially Returning UK Payments Infrastructure to Banks",
-      "body": "Mastercard is reportedly exploring the sale of Vocalink, the UK payments processor it acquired in 2016, possibly back to the consortium of British banks. If the sale proceeds, UK banks could regain direct control over domestic clearing and settlement infrastructure, reducing Mastercard\u2019s operational role in the region. The potential transaction would require regulatory approval and could prompt other payment networks to reevaluate their UK strategies.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48079/mastercard-examines-sale-of-vocalink---ft?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Mizuho: Circle Faces Stablecoin Redemptions and New Competition Despite OCC Bank Charter Approval",
-      "body": "Mizuho analysts highlight that Circle is experiencing increased redemptions of its USDC stablecoin and faces a new competitor in the market, even as it receives preliminary approval for a US bank charter from the OCC. Rising outflows and new entrants threaten Circle\u2019s share in the institutional stablecoin space, prompting the company to consider new product features or deeper integrations with payment processors to maintain its position.",
+      "title": "Velocity Raises $38M to Expand Stablecoin Treasury Platform for Global Enterprises",
+      "body": "Velocity secured $38 million in Series A funding to scale its stablecoin payments and treasury management platform for multinational businesses. The funding positions Velocity to compete with banks like Citi and HSBC, as well as PSPs such as Worldline, for cross-border B2B flows by offering faster settlement via stablecoins. Traditional banks and PSPs that rely on slower correspondent banking rails risk losing high-margin corporate clients to stablecoin-enabled alternatives.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/mizuho-details-rising-redemptions-and-new-stablecoin-rival-pressuring-circle/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/velocity-raises-38-million-dollars-stablecoins-reshape-mainstream-business-finance/"
       }
     },
     {
-      "title": "London Unveils Plan to Accelerate Tokenization in Wholesale Financial Markets",
-      "body": "A new report from London authorities sets out a roadmap to advance tokenization in wholesale financial markets, aiming to attract global financial institutions and boost the UK\u2019s competitiveness. The initiative focuses on enabling institutional adoption of tokenized assets and programmable money, with upcoming regulatory consultations and pilot projects expected as banks and asset managers explore tokenized settlement solutions.",
+      "title": "Emirates NBD Launches Real-Time Blockchain USD Payments on Partior Network",
+      "body": "Emirates NBD has enabled instant US dollar cross-border payments using the Partior blockchain network. This move allows Emirates NBD to offer faster, more transparent settlement to corporate clients, bypassing legacy correspondent banking. Regional competitors such as Mashreq Bank and Abu Dhabi Commercial Bank may need to join blockchain consortia or risk losing cross-border business to early adopters.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/london-authority-sets-out-plan-for-tokenizing-wholesale-financial-markets/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48087/emirates-nbd-enables-blockchain-based-cross-border-payments-on-partior-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "ECB Picks 36 PSPs for Digital Euro Pilot, Raising Stakes for European Banks",
+      "body": "The European Central Bank has selected 36 payment service providers\u2014including Worldline, Nexi, and CaixaBank\u2014for the digital euro pilot phase. This pilot signals that digital currency integration is moving from theory to practice, with the ECB setting standards for access. European banks and fintechs not included in the pilot, such as Deutsche Bank and N26, may face competitive disadvantages as the initiative progresses.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48084/ecb-selects-36-psps-for-digital-euro-pilot-phase?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Nubank\u2019s Mexican banking license and Mastercard\u2019s potential Vocalink sale signal shifting power dynamics among banks, fintechs, and payment networks.",
+  "perspective": "Stripe and Advent\u2019s $53B PayPal bid and the ECB\u2019s digital euro pilot drive consolidation and digital currency adoption in payments.",
   "curiosity": {
-    "text": "Remittance flows to low- and middle-income countries reached $669 billion in 2023, surpassing foreign direct investment and official development assistance combined, according to the World Bank."
+    "text": "In May 2010, Laszlo Hanyecz made the first documented purchase with Bitcoin, buying two pizzas for 10,000 BTC\u2014worth over $600 million at recent prices."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "fundraising",
-      "company": "Moneybox",
-      "description": "Prepares for secondary share sale at \u00a3800 million valuation.",
-      "source_url": "https://www.finextra.com/newsarticle/48078/moneybox-prepares-for-secondary-share-sale-at-800-million-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Nopan",
+      "description": "Raised \u20ac7.2M to enhance account-to-account payments.",
+      "source_url": "https://www.finextra.com/newsarticle/48086/founded-by-netflix-payments-duo-dutch-startup-nopan-bags-72-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddea",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Flex",
+      "description": "Raised $70M for global expansion of AI private banking.",
+      "source_url": "https://www.finextra.com/newsarticle/48092/ai-private-banking-startup-flex-raises-70m?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\uddff",
       "type": "product",
-      "company": "Tabby",
-      "description": "Launches cash card with up to 3% cashback and free transfer.",
-      "source_url": "https://www.finextra.com/pressarticle/110401/tabby-launches-cash-card-with-up-to-3-cashback-and-free-transfer?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Confirmo",
+      "description": "Launched stablecoin recurring payments for subscriptions.",
+      "source_url": "https://www.finextra.com/pressarticle/110414/confirmo-targets-subscription-economy-with-launch-of-stablecoin-recurring-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddea",
-      "type": "partnership",
-      "company": "Xsquare",
-      "description": "Signs for Pay by Bank software from Spare.",
-      "source_url": "https://www.finextra.com/pressarticle/110398/xsquare-signs-for-pay-by-bank-software-from-spare?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Shift4",
+      "description": "Launched all-in-one handheld device for payments and tax-free shopping.",
+      "source_url": "https://www.finextra.com/pressarticle/110413/shift4-combines-payments-currency-conversion-and-tax-free-shopping-into-a-single-handheld-device?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "partnership",
-      "company": "ACE Money Transfer",
-      "description": "Joins forces with Visa to promote account funding transactions.",
-      "source_url": "https://www.finextra.com/pressarticle/110405/ace-money-transfer-joins-forces-with-visa-to-promote-account-funding-transactions?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddea\ud83c\uddf8",
+      "type": "product",
+      "company": "ID Finance",
+      "description": "Launched BNPL debit card for flexible payments.",
+      "source_url": "https://www.finextra.com/pressarticle/110412/id-finance-launches-bnpl-debit-card?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "fundraising",
+      "company": "Tether",
+      "description": "Led $7M round in Pact Labs for USAT stablecoin adoption.",
+      "source_url": "https://www.theblock.co/post/408239/tether-leads-7-million-round-in-pact-labs-to-boost-usat-stablecoin-adoption?utm_source=rss&utm_medium=rss"
     }
   ]
 }
