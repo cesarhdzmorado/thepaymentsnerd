@@ -1,71 +1,64 @@
 {
   "news": [
     {
-      "title": "Mastercard Launches UK AI Sandbox to Accelerate Payments Innovation for Banks and Retailers",
-      "body": "Mastercard is launching an AI sandbox in the UK designed to let banks and retailers test and deploy advanced AI-driven payment solutions. The company describes the sandbox as 'agentic,' meaning it enables AI systems to act autonomously within set parameters, allowing users to simulate real-world payment scenarios. This initiative gives banks and retailers a controlled environment to experiment with AI for fraud detection, personalization, and operational efficiency, potentially outpacing competitors like Visa and American Express in AI adoption. Mastercard\u2019s move may prompt UK regulators to scrutinize AI use in payments more closely as banks and retailers roll out new AI-powered products.",
+      "title": "Visa Launches Stablecoin Platform for Financial Institutions to Mint and Move Digital Dollars",
+      "body": "Visa has introduced a platform that enables banks and fintechs to mint, transfer, and manage stablecoins, aiming to embed digital dollars into mainstream payment flows. Visa\u2019s platform allows financial institutions to accelerate the use of stablecoins for settlement and cross-border payments, setting a new benchmark for programmable money. Competing card networks and payment processors may need to respond with their own stablecoin initiatives, while regulators are expected to increase scrutiny of these new rails.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48097/mastercard-picks-uk-as-test-environment-for-agentic-ai-sandbox"
+        "url": "https://www.finextra.com/newsarticle/48110/visa-launches-stablecoin-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "AI Private Banking Startup Flex Raises $70 Million to Expand Globally",
-      "body": "Flex, an AI-native private banking platform, has raised $70 million to support its international growth. By using AI to deliver personalized wealth management, Flex challenges established private banks such as UBS and Credit Suisse, which may need to accelerate their own digital transformation to retain high-net-worth clients. The funding will allow Flex to enhance its AI-driven insights and efficiency, potentially shifting client expectations for digital service in private banking.",
+      "title": "Citadel Securities Invests $400M in Crypto.com, Marking Major Institutional Entry Into Crypto Infrastructure",
+      "body": "Crypto.com has secured a $400 million investment from Citadel Securities, its first major institutional funding round, raising its valuation to $20 billion. The investment strengthens Crypto.com\u2019s position in tokenization and derivatives, and signals that large trading firms are moving into crypto-native payment and trading infrastructure. This move is likely to spur other institutional investors and trading firms to enter the sector, intensifying competition and driving new product development.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48092/ai-private-banking-startup-flex-raises-70m"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/citadel-securities-takes-400-million-dollar-stake-cryptocom/"
       }
     },
     {
-      "title": "Visa Debuts AI Assistant for US Banks to Boost Cardholder Engagement",
-      "body": "Visa has introduced an AI assistant for US banks to integrate into their mobile apps, providing cardholders with tailored financial insights and actionable recommendations. This tool enables banks to offer more proactive spending advice and fraud alerts, raising the bar for digital engagement in banking apps. Competing networks like Mastercard and fintechs such as Chime may need to accelerate their own AI-powered features to match Visa\u2019s enhanced customer experience.",
+      "title": "Mastercard Releases Developer Tools to Speed Up Mobile Wallet Integration",
+      "body": "Mastercard has launched a suite of software tools and services to help banks and app developers embed contactless payments into mobile apps. By reducing technical barriers, Mastercard aims to expand its reach in the digital wallet ecosystem and accelerate the shift away from cash and physical cards. Competing wallet providers and card networks will need to focus on user experience and merchant acceptance as digital wallet adoption grows.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48094/visa-unveils-ai-assistant-for-banking-apps"
+        "url": "https://www.finextra.com/newsarticle/48108/mastercard-rolls-out-service-to-help-developers-build-mobile-wallets?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Stablecoin Treasury Platform Velocity Raises $38 Million for Enterprise Settlement Expansion",
-      "body": "Velocity, a stablecoin treasury and settlement platform, has secured $38 million in Series A funding led by Dragonfly and FirstMark. The investment will help Velocity expand its blockchain-based treasury solutions for enterprises, offering faster and programmable settlement compared to legacy providers like FIS and Kyriba. As more enterprises adopt stablecoins for cross-border and B2B payments, traditional treasury vendors face increased competition from blockchain-native platforms.",
+      "title": "Inter Launches Contactless Payment Rings and Wristbands in the US",
+      "body": "Brazilian digital bank Inter is introducing wearable payment devices\u2014including rings and wristbands\u2014to the US market, expanding its contactless payment offerings beyond Latin America. This launch challenges established US banks and technology firms to develop their own wearable payment solutions. If US consumers embrace these devices, payment networks and issuers may need to adapt their authentication and device strategies.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110417/stablecoin-treasury-and-setttlement-platform-velocity-raises-38-million"
+        "url": "https://www.finextra.com/newsarticle/48104/inter-brings-wearable-payment-devices-to-the-us?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Custodia Petitions Supreme Court for Federal Reserve Master Account Access",
-      "body": "Crypto bank Custodia has petitioned the US Supreme Court after being repeatedly denied access to a Federal Reserve master account. If the Court rules in Custodia\u2019s favor, digital asset banks could gain direct access to federal payment rails, challenging the current regulatory boundaries set by the Fed. The outcome will be closely monitored by other crypto banks and may influence future policy on digital asset institutions\u2019 access to central banking infrastructure.",
+      "title": "Global Fintech Funding Rises 23% in H1 2026, Fueled by AI and Infrastructure Startups",
+      "body": "Fintech startups attracted $28.6 billion in venture funding during the first half of 2026, a 23% increase year-over-year, with investors prioritizing AI and financial infrastructure. This funding surge is expected to drive more IPOs, acquisitions, and new product launches, increasing competition across the sector. Traditional banks and payment processors will face a new wave of well-capitalized challengers, while regulators may heighten oversight as investment accelerates.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/custodia-petition-supreme-court-fed-master-account/825334/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48109/h1-global-fintech-funding-grows-23-yoy?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Mastercard\u2019s UK AI sandbox and Custodia\u2019s Supreme Court petition spotlight how incumbents and challengers are reshaping payments through technology and regulation.",
+  "perspective": "Visa\u2019s stablecoin platform and Citadel\u2019s Crypto.com investment spotlight institutional momentum in digital money and infrastructure innovation.",
   "curiosity": {
-    "text": "The first credit card transaction took place in 1950 at a New York City restaurant, launching the Diners Club card and the modern card payments era."
+    "text": "In 2008, the Philippines\u2019 Smart Money system enabled the first mobile phone-based money transfers, pioneering a model that influenced later mobile payment platforms worldwide."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
       "company": "Stripe",
-      "description": "Stripe and Advent make $53B bid for PayPal.",
-      "source_url": "https://news.crunchbase.com/ma/stripe-acquisition-pace-accelerates-paypal/"
+      "description": "Joint bid with Advent to acquire PayPal for $53B",
+      "source_url": "https://www.finextra.com/newsarticle/48095/stripe-and-advent-table-bid-for-paypal?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "fundraising",
-      "company": "Nopan",
-      "description": "Nopan raises \u20ac7.2M to enhance payment performance.",
-      "source_url": "https://www.finextra.com/newsarticle/48086/founded-by-netflix-payments-duo-dutch-startup-nopan-bags-72-million"
-    },
-    {
-      "flag": "\ud83c\udde6\ud83c\uddea",
-      "type": "product",
-      "company": "Emirates NBD",
-      "description": "Launches blockchain-based cross-border payments.",
-      "source_url": "https://www.finextra.com/newsarticle/48087/emirates-nbd-enables-blockchain-based-cross-border-payments-on-partior-network"
+      "type": "M&A",
+      "company": "Fourthline",
+      "description": "Merger with Veridas to expand identity verification services",
+      "source_url": "https://www.finextra.com/newsarticle/48103/fourthline-to-merge-with-veridas?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
