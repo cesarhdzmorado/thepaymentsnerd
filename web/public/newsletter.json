@@ -1,64 +1,85 @@
 {
   "news": [
     {
-      "title": "Visa Launches Stablecoin Platform for Financial Institutions to Mint and Move Digital Dollars",
-      "body": "Visa has introduced a platform that enables banks and fintechs to mint, transfer, and manage stablecoins, aiming to embed digital dollars into mainstream payment flows. Visa\u2019s platform allows financial institutions to accelerate the use of stablecoins for settlement and cross-border payments, setting a new benchmark for programmable money. Competing card networks and payment processors may need to respond with their own stablecoin initiatives, while regulators are expected to increase scrutiny of these new rails.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48110/visa-launches-stablecoin-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Citadel Securities Invests $400M in Crypto.com, Marking Major Institutional Entry Into Crypto Infrastructure",
-      "body": "Crypto.com has secured a $400 million investment from Citadel Securities, its first major institutional funding round, raising its valuation to $20 billion. The investment strengthens Crypto.com\u2019s position in tokenization and derivatives, and signals that large trading firms are moving into crypto-native payment and trading infrastructure. This move is likely to spur other institutional investors and trading firms to enter the sector, intensifying competition and driving new product development.",
+      "title": "Regions Bank Hits 80% Digital Transactions After Major Mobile and Online Upgrades",
+      "body": "Regions Financial Corp. reported that 80% of its transactions are now digital following significant mobile and online banking enhancements. Regions Bank is accelerating its digital transformation to retain customers, pushing other regional banks to invest in digital channels or risk losing market share to tech-forward rivals. The shift is driving further branch closures and a renewed focus on digital customer experience.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/citadel-securities-takes-400-million-dollar-stake-cryptocom/"
+        "url": "https://www.pymnts.com/earnings/2026/regions-banks-mobile-upgrade-drives-digital-transactions-to-80/"
       }
     },
     {
-      "title": "Mastercard Releases Developer Tools to Speed Up Mobile Wallet Integration",
-      "body": "Mastercard has launched a suite of software tools and services to help banks and app developers embed contactless payments into mobile apps. By reducing technical barriers, Mastercard aims to expand its reach in the digital wallet ecosystem and accelerate the shift away from cash and physical cards. Competing wallet providers and card networks will need to focus on user experience and merchant acceptance as digital wallet adoption grows.",
+      "title": "FIS Taps Anthropic\u2019s Mythos 5 AI to Fortify Global Financial Security Infrastructure",
+      "body": "FIS has joined Anthropic's Project Glasswing, deploying the Mythos 5 AI model to strengthen its financial infrastructure security. FIS is setting a precedent for using generative AI to detect fraud and automate compliance, prompting fintechs and banks to evaluate similar AI partnerships to meet evolving regulatory requirements for real-time risk monitoring and data protection.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48108/mastercard-rolls-out-service-to-help-developers-build-mobile-wallets?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fis-deploys-anthropics-mythos-5-to-strengthen-global-financial-infrastructure/"
       }
     },
     {
-      "title": "Inter Launches Contactless Payment Rings and Wristbands in the US",
-      "body": "Brazilian digital bank Inter is introducing wearable payment devices\u2014including rings and wristbands\u2014to the US market, expanding its contactless payment offerings beyond Latin America. This launch challenges established US banks and technology firms to develop their own wearable payment solutions. If US consumers embrace these devices, payment networks and issuers may need to adapt their authentication and device strategies.",
+      "title": "Alipay+ Expands QR Code Payment Acceptance to Argentina for International Travelers",
+      "body": "Alipay+ has enabled QR code payments for travelers visiting Argentina, extending its global reach into Latin America. Local merchants can now directly capture spending from Asian tourists, while payment platforms like Mercado Pago face increased competition for cross-border tourist flows. The move is expected to drive more merchants to adopt digital payments to attract international customers during Argentina\u2019s peak travel season.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48104/inter-brings-wearable-payment-devices-to-the-us?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48112/alipay-enables-qr-code-payments-for-travellers-to-argentina"
       }
     },
     {
-      "title": "Global Fintech Funding Rises 23% in H1 2026, Fueled by AI and Infrastructure Startups",
-      "body": "Fintech startups attracted $28.6 billion in venture funding during the first half of 2026, a 23% increase year-over-year, with investors prioritizing AI and financial infrastructure. This funding surge is expected to drive more IPOs, acquisitions, and new product launches, increasing competition across the sector. Traditional banks and payment processors will face a new wave of well-capitalized challengers, while regulators may heighten oversight as investment accelerates.",
+      "title": "FTX to Distribute $900 Million in Fifth Wave of Creditor Repayments",
+      "body": "FTX will distribute roughly $900 million to creditors, bringing total repayments to nearly $10 billion amid ongoing bankruptcy proceedings. Creditors are recovering partially from their losses, while the broader crypto industry monitors these repayments as a test of exchange solvency and trust. Ongoing distributions may help stabilize sentiment, but regulators are increasing scrutiny of crypto platforms\u2019 risk management.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/408803/ftx-to-distribute-roughly-900-million-to-creditors-in-fifth-wave-of-payouts"
+      }
+    },
+    {
+      "title": "BBVA Launches Swift\u2019s New Global Retail Payments Scheme for Faster Cross-Border Transfers",
+      "body": "BBVA became the first Spanish bank to roll out Swift\u2019s new global retail payments scheme, enabling faster and more transparent international payments for individuals and SMEs. By offering real-time tracking and reduced settlement times, BBVA aims to help SMEs access new markets and improve cash flow, while rival banks must accelerate upgrades to retain business clients.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48109/h1-global-fintech-funding-grows-23-yoy?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110445/bbva-becomes-first-spanish-bank-to-launch-swifts-new-global-retail-payments-scheme"
       }
     }
   ],
-  "perspective": "Visa\u2019s stablecoin platform and Citadel\u2019s Crypto.com investment spotlight institutional momentum in digital money and infrastructure innovation.",
+  "perspective": "Regions Bank\u2019s digital surge and BBVA\u2019s Swift rollout highlight how banks are racing to modernize customer experience and cross-border payments in 2024.",
   "curiosity": {
-    "text": "In 2008, the Philippines\u2019 Smart Money system enabled the first mobile phone-based money transfers, pioneering a model that influenced later mobile payment platforms worldwide."
+    "text": "The original Payment Services Directive (PSD) not only enabled non-banks to offer payment services in Europe, but also paved the way for open banking by requiring banks to share account access with licensed third parties."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Stripe",
-      "description": "Joint bid with Advent to acquire PayPal for $53B",
-      "source_url": "https://www.finextra.com/newsarticle/48095/stripe-and-advent-table-bid-for-paypal?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "investment",
+      "company": "Citadel Securities",
+      "description": "Invests $400M in Crypto.com at $20B valuation",
+      "source_url": "https://www.finextra.com/newsarticle/48111/citadel-securities-pumps-400m-into-cryptocom"
     },
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "fundraising",
+      "company": "Lakestar",
+      "description": "Raises $300M for European tech sovereignty fund",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/vc-firm-lakestar-raises-300-million-to-fund-european-tech-sovereignty/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "expansion",
+      "company": "Pliant",
+      "description": "Launches in US via Coastal partnership",
+      "source_url": "https://www.finextra.com/pressarticle/110448/b2b-payments-fintech-pliant-targets-us-via-coastal-partnership"
+    },
+    {
+      "flag": "\ud83c\uddef\ud83c\uddf5",
       "type": "M&A",
-      "company": "Fourthline",
-      "description": "Merger with Veridas to expand identity verification services",
-      "source_url": "https://www.finextra.com/newsarticle/48103/fourthline-to-merge-with-veridas?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "SBI Holdings",
+      "description": "Acquires Singapore's Coinhako after MAS approval",
+      "source_url": "https://www.theblock.co/post/408761/sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "growth",
+      "company": "Thought Machine",
+      "description": "Hits $100M ARR, plans to double before IPO",
+      "source_url": "https://sifted.eu/articles/thought-machine-100m-arr/"
     }
   ]
 }
