@@ -1,84 +1,77 @@
 {
   "news": [
     {
-      "title": "Regions Bank Hits 80% Digital Transactions After Major Mobile and Online Upgrades",
-      "body": "Regions Financial Corp. reported that 80% of its transactions are now digital following significant mobile and online banking enhancements. Regions Bank is accelerating its digital transformation to retain customers, pushing other regional banks to invest in digital channels or risk losing market share to tech-forward rivals. The shift is driving further branch closures and a renewed focus on digital customer experience.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/regions-banks-mobile-upgrade-drives-digital-transactions-to-80/"
-      }
-    },
-    {
-      "title": "FIS Taps Anthropic\u2019s Mythos 5 AI to Fortify Global Financial Security Infrastructure",
-      "body": "FIS has joined Anthropic's Project Glasswing, deploying the Mythos 5 AI model to strengthen its financial infrastructure security. FIS is setting a precedent for using generative AI to detect fraud and automate compliance, prompting fintechs and banks to evaluate similar AI partnerships to meet evolving regulatory requirements for real-time risk monitoring and data protection.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fis-deploys-anthropics-mythos-5-to-strengthen-global-financial-infrastructure/"
-      }
-    },
-    {
-      "title": "Alipay+ Expands QR Code Payment Acceptance to Argentina for International Travelers",
-      "body": "Alipay+ has enabled QR code payments for travelers visiting Argentina, extending its global reach into Latin America. Local merchants can now directly capture spending from Asian tourists, while payment platforms like Mercado Pago face increased competition for cross-border tourist flows. The move is expected to drive more merchants to adopt digital payments to attract international customers during Argentina\u2019s peak travel season.",
+      "title": "PayPal Rejects $53 Billion Stripe-Advent Bid, Signaling Confidence in Standalone Value",
+      "body": "PayPal\u2019s board has turned down a $53 billion acquisition offer from Stripe and Advent, calling the bid inadequate. The move underscores PayPal\u2019s belief in its independent growth prospects and highlights the high valuation hurdles for mega-fintech M&A. Stripe and Advent may need to target smaller firms or revise their strategy to expand at scale. The episode puts a spotlight on the premium attached to established wallet and checkout franchises in 2026.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48112/alipay-enables-qr-code-payments-for-travellers-to-argentina"
+        "url": "https://www.finextra.com/newsarticle/48116/paypal-board-considers-53bn-stripe-advent-offer-inadequate---reuters"
       }
     },
     {
-      "title": "FTX to Distribute $900 Million in Fifth Wave of Creditor Repayments",
-      "body": "FTX will distribute roughly $900 million to creditors, bringing total repayments to nearly $10 billion amid ongoing bankruptcy proceedings. Creditors are recovering partially from their losses, while the broader crypto industry monitors these repayments as a test of exchange solvency and trust. Ongoing distributions may help stabilize sentiment, but regulators are increasing scrutiny of crypto platforms\u2019 risk management.",
+      "title": "Pliant Enters US B2B Payments Market Through Coastal Partnership",
+      "body": "German fintech Pliant has launched its B2B payments platform in the US via a partnership with Coastal. This expansion brings new competition to established US B2B payment providers, especially in virtual cards and expense management. US banks and fintechs now face a more crowded field for SME and corporate payment flows. Pliant is actively onboarding US businesses and integrating with local financial institutions to accelerate adoption.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110448/b2b-payments-fintech-pliant-targets-us-via-coastal-partnership"
+      }
+    },
+    {
+      "title": "SBI Holdings Acquires Coinhako, Expanding Crypto Network in Asia",
+      "body": "SBI Holdings has completed its acquisition of Singapore-based crypto platform Coinhako, following regulatory approval from MAS. The deal strengthens SBI\u2019s digital asset footprint in Southeast Asia and positions it to offer broader crypto services across the region. Competing crypto exchanges and regional banks now face a larger, more integrated rival in Asian digital assets. SBI\u2019s move may prompt other financial groups to seek similar acquisitions for scale and regulatory reach.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/408803/ftx-to-distribute-roughly-900-million-to-creditors-in-fifth-wave-of-payouts"
+        "url": "https://www.theblock.co/post/408761/sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval"
       }
     },
     {
-      "title": "BBVA Launches Swift\u2019s New Global Retail Payments Scheme for Faster Cross-Border Transfers",
-      "body": "BBVA became the first Spanish bank to roll out Swift\u2019s new global retail payments scheme, enabling faster and more transparent international payments for individuals and SMEs. By offering real-time tracking and reduced settlement times, BBVA aims to help SMEs access new markets and improve cash flow, while rival banks must accelerate upgrades to retain business clients.",
+      "title": "Citizens Bank to Close 100 In-Store Branches, Pivoting to Wealth Management Hubs",
+      "body": "Citizens Bank will shutter around 100 in-store branches and open 50 new locations focused on wealth management and affluent clients. This shift reflects a broader industry trend of reallocating physical presence toward higher-margin advisory services. Traditional retail banking customers may see reduced access, while competitors could follow suit to chase fee-based revenue. The move signals that branch strategy in 2026 is increasingly about targeted client segments, not blanket coverage.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110445/bbva-becomes-first-spanish-bank-to-launch-swifts-new-global-retail-payments-scheme"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/citizens-closing-100-120-in-store-branches-open-50-60-mass-affluent-advice-wealth-private-bank/825563/"
+      }
+    },
+    {
+      "title": "US Regulators Miss Stablecoin Rule Deadline, Extending Uncertainty for Issuers",
+      "body": "US regulators failed to meet the GENIUS Act\u2019s deadline for finalizing stablecoin regulations, leaving issuers and banks in limbo. The delay complicates compliance planning for Circle, PayPal, and other stablecoin providers seeking clarity on reserve and licensing requirements. Without clear rules, institutional adoption of stablecoins for payments and treasury remains cautious. Market participants now await signals on whether Congress or the OCC will break the regulatory deadlock.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/408843/us-regulators-miss-genius-acts-one-year-deadline-for-final-stablecoin-rules"
       }
     }
   ],
-  "perspective": "Regions Bank\u2019s digital surge and BBVA\u2019s Swift rollout highlight how banks are racing to modernize customer experience and cross-border payments in 2024.",
+  "perspective": "PayPal\u2019s rejected bid and SBI\u2019s Coinhako acquisition show how M&A and regulation are redrawing payments and crypto competition.",
   "curiosity": {
-    "text": "The original Payment Services Directive (PSD) not only enabled non-banks to offer payment services in Europe, but also paved the way for open banking by requiring banks to share account access with licensed third parties."
+    "text": "In 2023, over 60% of US consumers used at least two different digital wallets monthly, yet nearly half still carried cash for backup."
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "investment",
-      "company": "Citadel Securities",
-      "description": "Invests $400M in Crypto.com at $20B valuation",
-      "source_url": "https://www.finextra.com/newsarticle/48111/citadel-securities-pumps-400m-into-cryptocom"
-    },
     {
       "flag": "\ud83c\uddea\ud83c\uddfa",
       "type": "fundraising",
       "company": "Lakestar",
-      "description": "Raises $300M for European tech sovereignty fund",
+      "description": "Raised $300 million for European tech sovereignty fund.",
       "source_url": "https://www.pymnts.com/news/investment-tracker/2026/vc-firm-lakestar-raises-300-million-to-fund-european-tech-sovereignty/"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "expansion",
-      "company": "Pliant",
-      "description": "Launches in US via Coastal partnership",
-      "source_url": "https://www.finextra.com/pressarticle/110448/b2b-payments-fintech-pliant-targets-us-via-coastal-partnership"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Closed $95 million fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
-      "type": "M&A",
-      "company": "SBI Holdings",
-      "description": "Acquires Singapore's Coinhako after MAS approval",
-      "source_url": "https://www.theblock.co/post/408761/sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Moneybox",
+      "description": "Crowned Europe's newest unicorn, testing London's Pisces market.",
+      "source_url": "https://sifted.eu/articles/moneybox-crowned-unicorn/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "growth",
       "company": "Thought Machine",
-      "description": "Hits $100M ARR, plans to double before IPO",
+      "description": "Hit $100 million ARR, plans to double before IPO.",
       "source_url": "https://sifted.eu/articles/thought-machine-100m-arr/"
     }
   ]
