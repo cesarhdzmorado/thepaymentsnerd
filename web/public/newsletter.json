@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "PayPal Rejects $53 Billion Stripe-Advent Bid, Signaling Confidence in Standalone Value",
-      "body": "PayPal\u2019s board has turned down a $53 billion acquisition offer from Stripe and Advent, calling the bid inadequate. The move underscores PayPal\u2019s belief in its independent growth prospects and highlights the high valuation hurdles for mega-fintech M&A. Stripe and Advent may need to target smaller firms or revise their strategy to expand at scale. The episode puts a spotlight on the premium attached to established wallet and checkout franchises in 2026.",
+      "title": "ACI Worldwide Eyes Billing Division Sale as Payments Software Demand Surges",
+      "body": "ACI Worldwide is exploring the sale of its billing division, aiming to focus on its core real-time payments and fraud prevention offerings. The move could benefit competitors like FIS and Fiserv by opening opportunities to acquire enterprise billing clients, while buyers may use the asset to strengthen their own recurring revenue streams in the billing software market.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/back-office/accounts-receivable/2026/aci-worldwide-considers-putting-billing-division-up-for-sale/"
+      }
+    },
+    {
+      "title": "Lumin Digital Secures $70M in Client-Backed Funding, Pioneering New Fintech Capital Model",
+      "body": "Lumin Digital raised over $70 million directly from its credit union clients, setting a precedent for cloud banking platforms to deepen customer-investor ties. Other digital banking providers, such as Alkami and Q2, may consider similar funding models to boost client loyalty and long-term engagement.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48116/paypal-board-considers-53bn-stripe-advent-offer-inadequate---reuters"
+        "url": "https://www.finextra.com/newsarticle/48118/lumin-digital-raises-70-million-from-its-clients?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Pliant Enters US B2B Payments Market Through Coastal Partnership",
-      "body": "German fintech Pliant has launched its B2B payments platform in the US via a partnership with Coastal. This expansion brings new competition to established US B2B payment providers, especially in virtual cards and expense management. US banks and fintechs now face a more crowded field for SME and corporate payment flows. Pliant is actively onboarding US businesses and integrating with local financial institutions to accelerate adoption.",
+      "title": "Bank of America Elevates AI and Crypto Leadership to Accelerate Digital Strategy",
+      "body": "Bank of America promoted new executives to lead its AI and crypto initiatives, signaling plans to launch programmable payments and digital asset services for corporate and retail clients. These changes could intensify competition with JPMorgan and Citi, while prompting faster product cycles and new compliance challenges for large banks.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110448/b2b-payments-fintech-pliant-targets-us-via-coastal-partnership"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/personnel/2026/bank-of-america-promotes-execs-to-champion-ai-and-crypto/"
       }
     },
     {
-      "title": "SBI Holdings Acquires Coinhako, Expanding Crypto Network in Asia",
-      "body": "SBI Holdings has completed its acquisition of Singapore-based crypto platform Coinhako, following regulatory approval from MAS. The deal strengthens SBI\u2019s digital asset footprint in Southeast Asia and positions it to offer broader crypto services across the region. Competing crypto exchanges and regional banks now face a larger, more integrated rival in Asian digital assets. SBI\u2019s move may prompt other financial groups to seek similar acquisitions for scale and regulatory reach.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/408761/sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval"
-      }
-    },
-    {
-      "title": "Citizens Bank to Close 100 In-Store Branches, Pivoting to Wealth Management Hubs",
-      "body": "Citizens Bank will shutter around 100 in-store branches and open 50 new locations focused on wealth management and affluent clients. This shift reflects a broader industry trend of reallocating physical presence toward higher-margin advisory services. Traditional retail banking customers may see reduced access, while competitors could follow suit to chase fee-based revenue. The move signals that branch strategy in 2026 is increasingly about targeted client segments, not blanket coverage.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/citizens-closing-100-120-in-store-branches-open-50-60-mass-affluent-advice-wealth-private-bank/825563/"
-      }
-    },
-    {
-      "title": "US Regulators Miss Stablecoin Rule Deadline, Extending Uncertainty for Issuers",
-      "body": "US regulators failed to meet the GENIUS Act\u2019s deadline for finalizing stablecoin regulations, leaving issuers and banks in limbo. The delay complicates compliance planning for Circle, PayPal, and other stablecoin providers seeking clarity on reserve and licensing requirements. Without clear rules, institutional adoption of stablecoins for payments and treasury remains cautious. Market participants now await signals on whether Congress or the OCC will break the regulatory deadlock.",
+      "title": "Hyperliquid\u2019s HIP-4 Proposal Enables Permissionless Outcome Markets With Token Staking",
+      "body": "Hyperliquid introduced HIP-4, letting developers launch outcome markets by staking 500,000 HYPE tokens, which could rapidly expand the number and diversity of markets on the platform. This approach may attract independent DeFi builders seeking lower entry barriers, while established protocols risk losing developer mindshare if they maintain stricter controls.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/408843/us-regulators-miss-genius-acts-one-year-deadline-for-final-stablecoin-rules"
+        "url": "https://www.theblock.co/post/408875/hyperliquid-hip-4-permissionless-deployment?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Japanese Logistics Firm Uses JPYC Stablecoin for Faster Contractor Payments Amid Labor Crunch",
+      "body": "A Japanese logistics company is using the JPYC stablecoin to pay contractors instantly, aiming to attract more partners during a labor shortage. This deployment highlights how digital assets can address payment delays in logistics, and may encourage other firms in manufacturing and supply chain sectors to experiment with stablecoins for operational efficiency.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/408862/japanese-logistics-firm-jpyc?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "PayPal\u2019s rejected bid and SBI\u2019s Coinhako acquisition show how M&A and regulation are redrawing payments and crypto competition.",
+  "perspective": "ACI Worldwide\u2019s billing sale and Bank of America\u2019s AI-crypto leadership moves show incumbents reshaping strategies to compete with fintechs and digital-first challengers.",
   "curiosity": {
-    "text": "In 2023, over 60% of US consumers used at least two different digital wallets monthly, yet nearly half still carried cash for backup."
+    "text": "The GoDirect program not only reduced check fraud but also unexpectedly boosted financial inclusion by helping unbanked federal benefit recipients open their first bank accounts."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "Lakestar",
-      "description": "Raised $300 million for European tech sovereignty fund.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/vc-firm-lakestar-raises-300-million-to-fund-european-tech-sovereignty/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Stripe",
+      "description": "Stripe and Advent International bid $53B for PayPal.",
+      "source_url": "https://news.crunchbase.com/ma/stripe-acquisition-pace-accelerates-paypal/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95 million fund for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
-      "company": "Moneybox",
-      "description": "Crowned Europe's newest unicorn, testing London's Pisces market.",
-      "source_url": "https://sifted.eu/articles/moneybox-crowned-unicorn/"
+      "company": "Citizens Bank",
+      "description": "Closing 100 branches, opening 50 focused on wealth management.",
+      "source_url": "https://www.bankingdive.com/news/citizens-closing-100-120-in-store-branches-open-50-60-mass-affluent-advice-wealth-private-bank/825563/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "growth",
-      "company": "Thought Machine",
-      "description": "Hit $100 million ARR, plans to double before IPO.",
-      "source_url": "https://sifted.eu/articles/thought-machine-100m-arr/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Wells Fargo",
+      "description": "Launches AI-powered tool for financial advisers.",
+      "source_url": "https://www.bankingdive.com/news/wells-fargo-debuts-ai-powered-teammate-financial-advisers/825393/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "personnel",
+      "company": "Truist",
+      "description": "Appoints Mike Lyons as CEO for stability.",
+      "source_url": "https://www.bankingdive.com/news/truist-ceo-rogers-lyons-appointment-certainty-earnings/825561/"
     }
   ]
 }
