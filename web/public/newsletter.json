@@ -1,78 +1,64 @@
 {
   "news": [
     {
-      "title": "ACI Worldwide Eyes Billing Division Sale as Payments Software Demand Surges",
-      "body": "ACI Worldwide is exploring the sale of its billing division, aiming to focus on its core real-time payments and fraud prevention offerings. The move could benefit competitors like FIS and Fiserv by opening opportunities to acquire enterprise billing clients, while buyers may use the asset to strengthen their own recurring revenue streams in the billing software market.",
+      "title": "FinWise Bancorp Acquires Tallied to Internalize Card Issuing and Processing Stack",
+      "body": "FinWise Bancorp has acquired Tallied Technologies, bringing card issuing and processing fully in-house. This move gives FinWise direct control over its credit card programs, enabling cost reductions and deeper service integration. Regional and community banks that still rely on third-party processors may face increased competition as FinWise can now offer more customized products and potentially lower fees.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/back-office/accounts-receivable/2026/aci-worldwide-considers-putting-billing-division-up-for-sale/"
+        "url": "https://www.pymnts.com/news/acquiring/2026/finwise-owns-full-card-tech-stack-after-acquiring-tallied-platform/"
       }
     },
     {
-      "title": "Lumin Digital Secures $70M in Client-Backed Funding, Pioneering New Fintech Capital Model",
-      "body": "Lumin Digital raised over $70 million directly from its credit union clients, setting a precedent for cloud banking platforms to deepen customer-investor ties. Other digital banking providers, such as Alkami and Q2, may consider similar funding models to boost client loyalty and long-term engagement.",
+      "title": "Affirm Wins Amazon B2B Deal to Power Installment Payments for Business Buyers",
+      "body": "Affirm has been selected by Amazon to provide installment payment options on its B2B procurement platform, expanding Affirm\u2019s reach into business payments. This partnership positions Affirm to capture a larger share of the B2B payments market and sets a new standard for flexible payment terms in corporate purchasing. Competing B2B platforms like Coupa and SAP Ariba risk losing enterprise customers seeking more payment flexibility if they do not introduce similar offerings.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48118/lumin-digital-raises-70-million-from-its-clients?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48122/affirm-to-provide-installment-payments-for-amazon-business-customers"
       }
     },
     {
-      "title": "Bank of America Elevates AI and Crypto Leadership to Accelerate Digital Strategy",
-      "body": "Bank of America promoted new executives to lead its AI and crypto initiatives, signaling plans to launch programmable payments and digital asset services for corporate and retail clients. These changes could intensify competition with JPMorgan and Citi, while prompting faster product cycles and new compliance challenges for large banks.",
+      "title": "ACI Worldwide Eyes $1.5B Billing Division Sale to Refocus on Core Processing",
+      "body": "ACI Worldwide is exploring the sale of its billing division, valued at $1.5 billion, as it sharpens its focus on core payment processing. A successful sale would allow ACI to redeploy capital into its mainline processing business, while potential buyers\u2014such as Fiserv or private equity firms\u2014could quickly gain scale in the billing services market and intensify competition for billers and merchants.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/personnel/2026/bank-of-america-promotes-execs-to-champion-ai-and-crypto/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48121/aci-worldwide-explores-sale-of-billing-division"
       }
     },
     {
-      "title": "Hyperliquid\u2019s HIP-4 Proposal Enables Permissionless Outcome Markets With Token Staking",
-      "body": "Hyperliquid introduced HIP-4, letting developers launch outcome markets by staking 500,000 HYPE tokens, which could rapidly expand the number and diversity of markets on the platform. This approach may attract independent DeFi builders seeking lower entry barriers, while established protocols risk losing developer mindshare if they maintain stricter controls.",
+      "title": "MoonPay Acquires Glide to Expand Crypto Deposit Capabilities",
+      "body": "MoonPay has acquired Glide, adding new technology and customers to its crypto deposit offering. The deal strengthens MoonPay\u2019s position in the crypto payments sector and broadens its user base. Rivals such as Ramp and Transak may need to accelerate product launches or pursue acquisitions to match MoonPay\u2019s expanded capabilities and retain market share.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/408875/hyperliquid-hip-4-permissionless-deployment?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110455/moonpay-acquires-glide-for-crypto-deposits"
       }
     },
     {
-      "title": "Japanese Logistics Firm Uses JPYC Stablecoin for Faster Contractor Payments Amid Labor Crunch",
-      "body": "A Japanese logistics company is using the JPYC stablecoin to pay contractors instantly, aiming to attract more partners during a labor shortage. This deployment highlights how digital assets can address payment delays in logistics, and may encourage other firms in manufacturing and supply chain sectors to experiment with stablecoins for operational efficiency.",
+      "title": "Stablecoin Startup Cyclops Raises $20M to Challenge Incumbents in Infrastructure",
+      "body": "Cyclops, a stablecoin infrastructure startup, has raised $20 million in Series A funding led by Nava Ventures and other major backers. The new capital will fund expansion of Cyclops\u2019 infrastructure, positioning it to compete directly with established stablecoin providers like Circle and Paxos. Venture capital firms are increasing their bets on stablecoin rails, signaling growing demand from banks and payment processors for new integration options.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/408862/japanese-logistics-firm-jpyc?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110452/stablecoin-infrastructure-startup-cyclops-raises-20-million"
       }
     }
   ],
-  "perspective": "ACI Worldwide\u2019s billing sale and Bank of America\u2019s AI-crypto leadership moves show incumbents reshaping strategies to compete with fintechs and digital-first challengers.",
+  "perspective": "Affirm\u2019s Amazon B2B win and FinWise\u2019s tech stack move highlight how payments firms are reshaping competition through direct control and strategic partnerships.",
   "curiosity": {
-    "text": "The GoDirect program not only reduced check fraud but also unexpectedly boosted financial inclusion by helping unbanked federal benefit recipients open their first bank accounts."
+    "text": "The first real-time payment system, Japan\u2019s Zengin System, launched in 1973\u2014decades before today\u2019s global surge in instant payments adoption."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Stripe",
-      "description": "Stripe and Advent International bid $53B for PayPal.",
-      "source_url": "https://news.crunchbase.com/ma/stripe-acquisition-pace-accelerates-paypal/"
+      "type": "fundraising",
+      "company": "Natural",
+      "description": "Raised $30M Series A for AI payment rails.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/natural-raises-30-million-to-build-payment-rails-for-ai-agents/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Citizens Bank",
-      "description": "Closing 100 branches, opening 50 focused on wealth management.",
-      "source_url": "https://www.bankingdive.com/news/citizens-closing-100-120-in-store-branches-open-50-60-mass-affluent-advice-wealth-private-bank/825563/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Wells Fargo",
-      "description": "Launches AI-powered tool for financial advisers.",
-      "source_url": "https://www.bankingdive.com/news/wells-fargo-debuts-ai-powered-teammate-financial-advisers/825393/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "personnel",
-      "company": "Truist",
-      "description": "Appoints Mike Lyons as CEO for stability.",
-      "source_url": "https://www.bankingdive.com/news/truist-ceo-rogers-lyons-appointment-certainty-earnings/825561/"
+      "type": "fundraising",
+      "company": "Lumin Digital",
+      "description": "Raised $70M from clients for cloud-native banking platform.",
+      "source_url": "https://www.finextra.com/newsarticle/48118/lumin-digital-raises-70-million-from-its-clients"
     }
   ]
 }
