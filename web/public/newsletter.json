@@ -1,64 +1,71 @@
 {
   "news": [
     {
-      "title": "FinWise Bancorp Acquires Tallied to Internalize Card Issuing and Processing Stack",
-      "body": "FinWise Bancorp has acquired Tallied Technologies, bringing card issuing and processing fully in-house. This move gives FinWise direct control over its credit card programs, enabling cost reductions and deeper service integration. Regional and community banks that still rely on third-party processors may face increased competition as FinWise can now offer more customized products and potentially lower fees.",
+      "title": "Augustus Raises $180 Million to Build Federally Chartered Stablecoin Clearing Bank",
+      "body": "Augustus secured $180 million in Series B funding and will launch a federally chartered bank offering direct dollar accounts for financial institutions transacting in stablecoins. Augustus aims to become a core infrastructure provider for stablecoin settlement, directly challenging incumbent banks and crypto-native platforms. As stablecoin adoption grows for cross-border and B2B payments, Augustus seeks to capture settlement volume from traditional banks and must navigate evolving regulatory oversight as it expands.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/finwise-owns-full-card-tech-stack-after-acquiring-tallied-platform/"
+        "url": "https://www.pymnts.com/news/investment-tracker/2026/augustus-raises-180-million-to-build-clearing-bank-for-stablecoins/"
       }
     },
     {
-      "title": "Affirm Wins Amazon B2B Deal to Power Installment Payments for Business Buyers",
-      "body": "Affirm has been selected by Amazon to provide installment payment options on its B2B procurement platform, expanding Affirm\u2019s reach into business payments. This partnership positions Affirm to capture a larger share of the B2B payments market and sets a new standard for flexible payment terms in corporate purchasing. Competing B2B platforms like Coupa and SAP Ariba risk losing enterprise customers seeking more payment flexibility if they do not introduce similar offerings.",
+      "title": "Revolut Wins Full Banking Licence in Australia, Expanding APAC Ambitions",
+      "body": "Revolut received a full Deposit-taking Institution licence from the Australian Prudential Regulation Authority, enabling it to operate as a licensed bank in Australia. With this approval, Revolut can offer insured deposits and lending, intensifying competition with local banks and regional neobanks. Australian regulators will closely monitor Revolut\u2019s product launches and risk management as it expands its super-app model and cross-border services across APAC.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48122/affirm-to-provide-installment-payments-for-amazon-business-customers"
+        "url": "https://www.finextra.com/newsarticle/48125/revolut-secures-australian-banking-licence"
       }
     },
     {
-      "title": "ACI Worldwide Eyes $1.5B Billing Division Sale to Refocus on Core Processing",
-      "body": "ACI Worldwide is exploring the sale of its billing division, valued at $1.5 billion, as it sharpens its focus on core payment processing. A successful sale would allow ACI to redeploy capital into its mainline processing business, while potential buyers\u2014such as Fiserv or private equity firms\u2014could quickly gain scale in the billing services market and intensify competition for billers and merchants.",
+      "title": "Ant International Raises $1.2 Billion to Fuel Global Fintech Expansion",
+      "body": "Ant International closed a $1.2 billion Series A round to accelerate its digital payments and fintech growth worldwide. With this capital, Ant plans to expand into new markets and product verticals, increasing competitive pressure on global fintechs and payment processors. Ant\u2019s strategy includes building cross-border payment corridors and forming embedded finance partnerships with local firms outside China.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48121/aci-worldwide-explores-sale-of-billing-division"
+        "url": "https://www.finextra.com/newsarticle/48123/ant-international-raises-12-billion-in-series-a-round"
       }
     },
     {
-      "title": "MoonPay Acquires Glide to Expand Crypto Deposit Capabilities",
-      "body": "MoonPay has acquired Glide, adding new technology and customers to its crypto deposit offering. The deal strengthens MoonPay\u2019s position in the crypto payments sector and broadens its user base. Rivals such as Ramp and Transak may need to accelerate product launches or pursue acquisitions to match MoonPay\u2019s expanded capabilities and retain market share.",
+      "title": "Capital One Pilots Credit Card Migration to Discover Network, Challenging Card Network Status Quo",
+      "body": "Capital One is testing its credit cards on the Discover network, signaling a possible shift away from established network partners like Visa and Mastercard. If Capital One moves significant volume, Discover could gain market share and negotiating leverage, while incumbent networks risk losing a major issuer. Other banks may reevaluate their own network relationships if the pilot proves successful, potentially reshaping interchange economics and network competition in the US.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110455/moonpay-acquires-glide-for-crypto-deposits"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/earnings/2026/capital-one-tests-moving-credit-cards-to-discover-network/"
       }
     },
     {
-      "title": "Stablecoin Startup Cyclops Raises $20M to Challenge Incumbents in Infrastructure",
-      "body": "Cyclops, a stablecoin infrastructure startup, has raised $20 million in Series A funding led by Nava Ventures and other major backers. The new capital will fund expansion of Cyclops\u2019 infrastructure, positioning it to compete directly with established stablecoin providers like Circle and Paxos. Venture capital firms are increasing their bets on stablecoin rails, signaling growing demand from banks and payment processors for new integration options.",
+      "title": "Chime Adds Investment Services, Pushing Neobank Product Breadth Beyond Banking",
+      "body": "Chime launched self-directed and robo-advisory investment services within its mobile app, expanding beyond core banking into wealth management. By integrating investing, Chime challenges both traditional investment firms and rival neobanks to match its product breadth. Neobanks that lack investment offerings may see users migrate to platforms with more comprehensive financial services.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110452/stablecoin-infrastructure-startup-cyclops-raises-20-million"
+        "url": "https://www.finextra.com/newsarticle/48129/chime-launches-investment-services"
       }
     }
   ],
-  "perspective": "Affirm\u2019s Amazon B2B win and FinWise\u2019s tech stack move highlight how payments firms are reshaping competition through direct control and strategic partnerships.",
+  "perspective": "Augustus and Capital One headline a day of infrastructure shifts and network realignment in payments and banking.",
   "curiosity": {
-    "text": "The first real-time payment system, Japan\u2019s Zengin System, launched in 1973\u2014decades before today\u2019s global surge in instant payments adoption."
+    "text": "The first ATM designed for general consumer use was installed in London in 1967, dispensing cash using paper vouchers instead of plastic cards."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Natural",
-      "description": "Raised $30M Series A for AI payment rails.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/natural-raises-30-million-to-build-payment-rails-for-ai-agents/"
+      "description": "Raised $30 million Series A for AI payments stack.",
+      "source_url": "https://www.finextra.com/newsarticle/48127/natural-raises-30-million-to-build-ai-agent-payments-stack"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Lumin Digital",
-      "description": "Raised $70M from clients for cloud-native banking platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48118/lumin-digital-raises-70-million-from-its-clients"
+      "company": "Cyclops",
+      "description": "Raised $20 million Series A for stablecoin infrastructure.",
+      "source_url": "https://www.finextra.com/pressarticle/110452/stablecoin-infrastructure-startup-cyclops-raises-20-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Forward Financing",
+      "description": "Secured $525 million to support small businesses.",
+      "source_url": "https://www.pymnts.com/smbs/2026/forward-financing-secures-another-525-million-dollars-support-small-businesses/"
     }
   ]
 }
