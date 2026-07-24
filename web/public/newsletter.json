@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Nubank Acquires Banco Porto Real to Expand Services for 31.5 Million Brazilians",
-      "body": "Nubank announced the acquisition of Banco Porto Real de Investimentos, aiming to deepen its reach and product suite for 31.5 million customers in Brazil. By adding a banking license and new capabilities, Nubank can now offer a broader range of financial products, directly challenging traditional banks\u2019 dominance in lending and deposits. Major Brazilian banks such as Ita\u00fa and Bradesco may see increased customer attrition as Nubank leverages its digital-first approach to capture more market share.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48135/nubank-to-acquire-banco-porto-real-de-investimentos-strengthen-brazil-operation?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Stripe\u2019s AI Billing Push Drives 33% Revenue Growth and Expands Payments Reach",
-      "body": "Stripe leveraged AI-powered billing solutions to drive a 33% revenue jump to $6.8 billion last year, targeting the fast-growing AI sector. By tailoring payments infrastructure for AI-driven businesses, Stripe is outpacing rivals and diversifying beyond core payment processing. Adyen and PayPal may need to accelerate their own AI integrations to defend share as Stripe deepens vertical specialization and locks in high-growth AI clients.",
+      "title": "Stripe in Talks for $10 Billion OpenRouter Deal to Boost AI-Powered Payments",
+      "body": "Stripe is reportedly negotiating a $10 billion acquisition of OpenRouter, an AI startup, to enhance its payment processing with machine learning for fraud detection, underwriting, and merchant automation. If finalized, Stripe could roll out new AI-driven features that automate risk assessment and streamline onboarding, directly challenging rivals like Adyen and PayPal in product speed and intelligence.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/stripe-harnesses-ai-billing-deals-to-diversify-payments-empire/"
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/stripe-eyes-10-billion-deal-for-ai-model-marketplace-openrouter/"
       }
     },
     {
-      "title": "US Senate Bill Redefines Stablecoins, Excludes Deposit Insurance and Alters Consumer Appeal",
-      "body": "The Senate\u2019s Digital Asset Market Clarity Act reclassifies stablecoins as neither deposits nor federally insured, reducing their appeal for US consumers who prioritize safety and yield. Fintechs and crypto firms offering stablecoin-based interest accounts must now adjust their strategies, as retail customers may hesitate to adopt uninsured stablecoins. This regulatory change is likely to shift stablecoin innovation toward B2B and cross-border payments, where consumer protection concerns are less central.",
+      "title": "Verifone Patents Tamper-Detection for Payment Terminals, Raising Security Standards",
+      "body": "Verifone has secured a US patent for technology that enables payment terminals to detect physical tampering in real time, alerting merchants and acquirers to potential breaches. This advancement gives Verifone a competitive edge in hardware security, and competing terminal providers must accelerate their own security upgrades to retain clients in high-risk sectors.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48140/verifone-patents-tech-that-lets-payment-terminals-detect-tampering"
+      }
+    },
+    {
+      "title": "MoonPay Adds Discover Network, Expanding Card Access for US Crypto Users",
+      "body": "MoonPay now supports Discover Network cards for crypto transactions in the US, allowing more consumers to buy and sell digital assets directly with their existing credit and debit cards. This integration increases MoonPay\u2019s reach among US cardholders, prompting other crypto payment providers to pursue similar partnerships to maintain market share.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/409536/moonpay-discover-network-card-payments-crypto"
+      }
+    },
+    {
+      "title": "Zelle Faces Lawsuit Over Fraud Losses, Pressuring Banks to Revamp Reimbursement Policies",
+      "body": "A US judge has allowed a lawsuit from New York\u2019s Attorney General against Zelle to proceed, alleging insufficient fraud protections for users. This decision exposes Zelle and its bank partners to reputational and legal risk, and they must overhaul fraud reimbursement policies to comply with potential new consumer protection regulations.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48139/judge-rejects-zelle-bid-to-dismiss-lawsuit-over-fraud-losses"
+      }
+    },
+    {
+      "title": "Bitwave Launches Open-Source AI Suite to Automate Digital Asset Finance",
+      "body": "Bitwave has released its Agentic Suite, open-source tools that automate reconciliation, reporting, and compliance for digital asset organizations using AI. By enabling real-time back-office automation, Bitwave directly challenges legacy financial software vendors that rely on manual processes, pushing fintechs and digital asset firms to adopt agentic workflows for efficiency.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/washington-redefines-what-stablecoins-are-for/"
-      }
-    },
-    {
-      "title": "Natural Raises $30M to Build Payments Stack for AI Agents and Automation",
-      "body": "US fintech Natural secured $30 million in Series A funding led by Forerunner to develop a payments stack tailored for AI agents. By focusing on autonomous AI-driven commerce, Natural aims to partner with businesses deploying agentic workflows and capture early market share. Traditional payment processors risk losing relevance in this emerging segment if they do not adapt their offerings for AI-native use cases.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48127/natural-raises-30-million-to-build-ai-agent-payments-stack?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Intuit Launches Business Credit Card with Deep QuickBooks Integration and Cashback",
-      "body": "Intuit rolled out a World Elite Business Mastercard that syncs natively with QuickBooks, offering 2% cash back on everyday spend and 5% on Intuit products. This move strengthens Intuit\u2019s ecosystem lock-in for small businesses, making it more difficult for competitors to attract users away. Rival software providers may need to accelerate their own embedded finance offerings to remain competitive in SME financial services.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110474/intuit-launches-business-credit-card-that-syncs-natively-with-quickbooks?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.pymnts.com/back-office/cfo/2026/bitwave-begins-rollout-of-agentic-suite-to-power-autonomous-financial-operations/"
       }
     }
   ],
-  "perspective": "Nubank\u2019s acquisition and the US stablecoin bill show how fintechs and regulators are reshaping competition and product boundaries in banking and payments.",
+  "perspective": "Stripe\u2019s OpenRouter talks and Zelle\u2019s fraud lawsuit highlight how AI and compliance are reshaping payments innovation and risk management.",
   "curiosity": {
-    "text": "Despite Brazil\u2019s reputation for fintech innovation, over 30% of Brazilians still rely primarily on cash for daily transactions, according to the country\u2019s central bank."
+    "text": "The Electronic Payments Network (EPN), which processed the first U.S. e-check in 1984, laid groundwork for today\u2019s real-time digital payment systems and fintech innovation."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Augustus",
-      "description": "Secured $180M Series B to expand global dollar access.",
-      "source_url": "https://www.finextra.com/newsarticle/48134/augustus-secures-180-million-series-b?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Secures $180 million Series B for global dollar access.",
+      "source_url": "https://www.finextra.com/newsarticle/48134/augustus-secures-180-million-series-b"
     },
     {
-      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Ant International",
-      "description": "Closed $1.2B Series A equity financing.",
-      "source_url": "https://www.finextra.com/newsarticle/48123/ant-international-raises-12-billion-in-series-a-round?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Neon Commerce",
+      "description": "Raises $13 million Series A for DTC commerce in games.",
+      "source_url": "https://www.finextra.com/pressarticle/110486/neon-commerce-raises-13m-to-scale-direct-to-consumer-commerce-for-game-publishers"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Secured Australian banking license, expanding into APAC.",
-      "source_url": "https://www.finextra.com/newsarticle/48125/revolut-secures-australian-banking-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "type": "M&A",
+      "company": "Nubank",
+      "description": "Acquires Banco Porto Real de Investimentos in Brazil.",
+      "source_url": "https://www.finextra.com/newsarticle/48135/nubank-to-acquire-banco-porto-real-de-investimentos-strengthen-brazil-operation"
     },
     {
-      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Samsung",
-      "description": "Launched first credit card with cash rewards.",
-      "source_url": "https://www.finextra.com/newsarticle/48128/samsung-unveils-first-credit-card?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Chime",
+      "description": "Launches commission-free investment feature for stocks and ETFs.",
+      "source_url": "https://www.bankingdive.com/news/chime-invest-launch-manage-portfolios-app-stocks-etf/825931/"
     }
   ]
 }
