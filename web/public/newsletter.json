@@ -1,78 +1,99 @@
 {
   "news": [
     {
-      "title": "Stripe in Talks for $10 Billion OpenRouter Deal to Boost AI-Powered Payments",
-      "body": "Stripe is reportedly negotiating a $10 billion acquisition of OpenRouter, an AI startup, to enhance its payment processing with machine learning for fraud detection, underwriting, and merchant automation. If finalized, Stripe could roll out new AI-driven features that automate risk assessment and streamline onboarding, directly challenging rivals like Adyen and PayPal in product speed and intelligence.",
+      "title": "Visa Launches Stablecoin Platform to Expand Institutional Settlement Options",
+      "body": "Visa introduced its Visa Stablecoin Platform (VSP), enabling banks, fintechs, and crypto firms to process stablecoin transactions at scale. The platform aims to provide a regulated, mainstream onramp for stablecoin settlement, offering an alternative to legacy correspondent banking and crypto-native processors for cross-border and B2B payments. Financial institutions and fintechs can now use Visa\u2019s infrastructure to settle transactions in stablecoins, potentially reducing reliance on traditional wire transfers and crypto-only networks.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/stripe-eyes-10-billion-deal-for-ai-model-marketplace-openrouter/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/this-week-in-stablecoins-visa-goldman-and-samsung-raise-the-stakes/"
       }
     },
     {
-      "title": "Verifone Patents Tamper-Detection for Payment Terminals, Raising Security Standards",
-      "body": "Verifone has secured a US patent for technology that enables payment terminals to detect physical tampering in real time, alerting merchants and acquirers to potential breaches. This advancement gives Verifone a competitive edge in hardware security, and competing terminal providers must accelerate their own security upgrades to retain clients in high-risk sectors.",
+      "title": "Marqeta and Zerohash Enable Direct Stablecoin Spending on Card Networks",
+      "body": "Marqeta partnered with Zerohash to allow users to spend stablecoins directly through Marqeta-issued cards, connecting crypto balances with traditional card acceptance. This integration lets fintechs and neobanks offer crypto spending without building their own settlement rails. Card networks and issuers now face new competition as stablecoin-backed cards make digital assets spendable at the point of sale, prompting merchants and regulators to adapt to evolving payment flows.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48140/verifone-patents-tech-that-lets-payment-terminals-detect-tampering"
+        "url": "https://www.finextra.com/pressarticle/110495/marqeta-and-zerohash-make-stablecoins-spendable-on-cards"
       }
     },
     {
-      "title": "MoonPay Adds Discover Network, Expanding Card Access for US Crypto Users",
-      "body": "MoonPay now supports Discover Network cards for crypto transactions in the US, allowing more consumers to buy and sell digital assets directly with their existing credit and debit cards. This integration increases MoonPay\u2019s reach among US cardholders, prompting other crypto payment providers to pursue similar partnerships to maintain market share.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/409536/moonpay-discover-network-card-payments-crypto"
-      }
-    },
-    {
-      "title": "Zelle Faces Lawsuit Over Fraud Losses, Pressuring Banks to Revamp Reimbursement Policies",
-      "body": "A US judge has allowed a lawsuit from New York\u2019s Attorney General against Zelle to proceed, alleging insufficient fraud protections for users. This decision exposes Zelle and its bank partners to reputational and legal risk, and they must overhaul fraud reimbursement policies to comply with potential new consumer protection regulations.",
+      "title": "Wise\u2019s US Bank Charter Denial Signals Heightened Regulatory Scrutiny for Fintechs",
+      "body": "US regulators denied Wise\u2019s application for a national trust bank charter, citing compliance gaps and causing Wise\u2019s share price to fall. The decision underscores the regulatory challenges fintechs face when seeking to expand into deposit-taking and lending in the US. Fintechs pursuing similar ambitions must strengthen compliance programs, consider alternative licensing strategies, or partner with established banks to navigate regulatory expectations and avoid stalled expansion.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48139/judge-rejects-zelle-bid-to-dismiss-lawsuit-over-fraud-losses"
+        "url": "https://www.finextra.com/newsarticle/48144/wise-us-national-trust-bank-charter-application-rejected"
       }
     },
     {
-      "title": "Bitwave Launches Open-Source AI Suite to Automate Digital Asset Finance",
-      "body": "Bitwave has released its Agentic Suite, open-source tools that automate reconciliation, reporting, and compliance for digital asset organizations using AI. By enabling real-time back-office automation, Bitwave directly challenges legacy financial software vendors that rely on manual processes, pushing fintechs and digital asset firms to adopt agentic workflows for efficiency.",
+      "title": "Samsung Wallet to Add Stablecoin Support, Intensifying Mobile Wallet Competition",
+      "body": "Samsung announced plans to integrate stablecoins into Samsung Wallet, making it one of the first major mobile wallets to natively support digital asset transactions. This move puts pressure on Apple Pay, Google Pay, and PayPal to accelerate their own crypto integrations or risk losing crypto-active users. Mobile wallet providers now compete on digital asset features as stablecoin support becomes a key differentiator in wallet offerings.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/back-office/cfo/2026/bitwave-begins-rollout-of-agentic-suite-to-power-autonomous-financial-operations/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/samsung-wallet-plans-stablecoin-integration-to-build-mobile-financial-hub/"
+      }
+    },
+    {
+      "title": "Flex Seeks Utah Bank Charter to Expand Rent Payment and Financial Services",
+      "body": "Flex applied for a Utah industrial bank charter to support its Flex Rent product, aiming for FDIC and state approval to offer deposit and lending services alongside rent payments. If granted, Flex could directly hold customer funds and originate loans, increasing competition for traditional banks in the rental market and prompting rent-focused fintechs to consider similar licensing moves to broaden their offerings.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/banking/2026/flex-seeks-bank-charter-to-scale-flexible-rent-payments/"
       }
     }
   ],
-  "perspective": "Stripe\u2019s OpenRouter talks and Zelle\u2019s fraud lawsuit highlight how AI and compliance are reshaping payments innovation and risk management.",
+  "perspective": "Visa\u2019s stablecoin platform and Wise\u2019s charter denial show how regulatory and product moves by major brands are reshaping payments and fintech expansion.",
   "curiosity": {
-    "text": "The Electronic Payments Network (EPN), which processed the first U.S. e-check in 1984, laid groundwork for today\u2019s real-time digital payment systems and fintech innovation."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1970, revolutionizing how transactions were processed and paving the way for modern card payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Augustus",
-      "description": "Secures $180 million Series B for global dollar access.",
-      "source_url": "https://www.finextra.com/newsarticle/48134/augustus-secures-180-million-series-b"
+      "company": "World Foundation",
+      "description": "raises $52M for AI-driven ID solutions.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/world-foundation-raises-52-million-as-ai-drives-demand-for-id-solutions/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Neon Commerce",
-      "description": "Raises $13 million Series A for DTC commerce in games.",
+      "description": "raises $13M to expand DTC commerce for games.",
       "source_url": "https://www.finextra.com/pressarticle/110486/neon-commerce-raises-13m-to-scale-direct-to-consumer-commerce-for-game-publishers"
     },
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
-      "type": "M&A",
-      "company": "Nubank",
-      "description": "Acquires Banco Porto Real de Investimentos in Brazil.",
-      "source_url": "https://www.finextra.com/newsarticle/48135/nubank-to-acquire-banco-porto-real-de-investimentos-strengthen-brazil-operation"
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "expansion",
+      "company": "Mollie",
+      "description": "Plans \u20ac350M expansion across Europe.",
+      "source_url": "https://sifted.eu/articles/mollie-350m-europe-expansion/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Chime",
-      "description": "Launches commission-free investment feature for stocks and ETFs.",
-      "source_url": "https://www.bankingdive.com/news/chime-invest-launch-manage-portfolios-app-stocks-etf/825931/"
+      "type": "expansion",
+      "company": "Upstart",
+      "description": "Secured conditional bank charter for growth.",
+      "source_url": "https://www.bankingdive.com/news/upstart-nabs-conditional-bank-charter/826159/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Optus, M&F",
+      "description": "Black-owned banks merge to form $1.3B entity.",
+      "source_url": "https://www.bankingdive.com/news/optus-mf-carolina-black-owned-banks-merge-105-million-mdi-cdfi/826017/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "valuation",
+      "company": "Revolut",
+      "description": "Hits $115B valuation in share sale.",
+      "source_url": "https://sifted.eu/articles/revolut-115-valuation-secondary-share-sale/"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "acquisition",
+      "company": "Nium",
+      "description": "Acquired Cypher to enhance stablecoin strategy.",
+      "source_url": "https://www.bankingdive.com/news/nium-targets-stablecoins-growth/826037/"
     }
   ]
 }
