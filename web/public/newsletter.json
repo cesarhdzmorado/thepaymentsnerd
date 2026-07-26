@@ -1,99 +1,78 @@
 {
   "news": [
     {
-      "title": "Visa Launches Stablecoin Platform to Expand Institutional Settlement Options",
-      "body": "Visa introduced its Visa Stablecoin Platform (VSP), enabling banks, fintechs, and crypto firms to process stablecoin transactions at scale. The platform aims to provide a regulated, mainstream onramp for stablecoin settlement, offering an alternative to legacy correspondent banking and crypto-native processors for cross-border and B2B payments. Financial institutions and fintechs can now use Visa\u2019s infrastructure to settle transactions in stablecoins, potentially reducing reliance on traditional wire transfers and crypto-only networks.",
+      "title": "Revolut\u2019s $115 Billion Valuation Sets New Benchmark for Global Fintech Ambitions",
+      "body": "Revolut reached a $115 billion valuation after a secondary share sale, signaling robust investor appetite for super-app models. This leap positions Revolut ahead of most Western fintechs and intensifies the race for talent and capital. Competitors like Nubank and Klarna now face a higher bar for growth and product expansion. Competitors will engage in increased M&A and accelerated launches to close the gap.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/this-week-in-stablecoins-visa-goldman-and-samsung-raise-the-stakes/"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-115-valuation-secondary-share-sale/"
       }
     },
     {
-      "title": "Marqeta and Zerohash Enable Direct Stablecoin Spending on Card Networks",
-      "body": "Marqeta partnered with Zerohash to allow users to spend stablecoins directly through Marqeta-issued cards, connecting crypto balances with traditional card acceptance. This integration lets fintechs and neobanks offer crypto spending without building their own settlement rails. Card networks and issuers now face new competition as stablecoin-backed cards make digital assets spendable at the point of sale, prompting merchants and regulators to adapt to evolving payment flows.",
+      "title": "Upstart Secures Conditional Bank Charter, Escalating Fintech-Bank Competition in Lending",
+      "body": "Upstart received a conditional bank charter, unlocking the ability to offer deposits and expand its lending suite beyond unsecured personal loans. This move lets Upstart compete directly with both traditional banks and fintech lenders on pricing and product breadth. Incumbent banks now face a challenger with AI-driven underwriting and regulatory legitimacy. Other fintechs will accelerate charter applications or deepen bank partnerships.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/upstart-nabs-conditional-bank-charter/826159/"
+      }
+    },
+    {
+      "title": "Alipay+ and Hang Seng Bank Launch Cross-Border QR Payments in Hong Kong",
+      "body": "Alipay+ partnered with Hang Seng Bank to enable cross-border QR code payments for Hong Kong consumers and merchants. This integration boosts Alipay\u2019s reach in a key travel and commerce hub, challenging Visa, Mastercard, and local wallet providers. Merchants gain access to a broader customer base, while regional PSPs must adapt to rising QR adoption. Merchants will seek similar partnerships as QR interoperability becomes table stakes in Asia.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110495/marqeta-and-zerohash-make-stablecoins-spendable-on-cards"
+        "url": "https://www.finextra.com/newsarticle/48141/alipay-partners-with-hong-kongs-hang-seng-bank-for-cross-border-qr-code-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Wise\u2019s US Bank Charter Denial Signals Heightened Regulatory Scrutiny for Fintechs",
-      "body": "US regulators denied Wise\u2019s application for a national trust bank charter, citing compliance gaps and causing Wise\u2019s share price to fall. The decision underscores the regulatory challenges fintechs face when seeking to expand into deposit-taking and lending in the US. Fintechs pursuing similar ambitions must strengthen compliance programs, consider alternative licensing strategies, or partner with established banks to navigate regulatory expectations and avoid stalled expansion.",
+      "title": "Mastercard Upgrades Virtual Card Platform to Capture B2B Payment Growth",
+      "body": "Mastercard enhanced its virtual card number platform, targeting secure and flexible B2B payments for enterprises. These upgrades aim to capture more spend from corporates shifting away from checks and ACH, putting pressure on banks and fintechs offering legacy solutions. B2B payment providers must now match Mastercard\u2019s security and integration features or risk losing share. Virtual card adoption is set to accelerate in procurement and travel verticals.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48144/wise-us-national-trust-bank-charter-application-rejected"
+        "url": "https://www.finextra.com/pressarticle/110490/mastercard-expands-virtual-card-programme?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Samsung Wallet to Add Stablecoin Support, Intensifying Mobile Wallet Competition",
-      "body": "Samsung announced plans to integrate stablecoins into Samsung Wallet, making it one of the first major mobile wallets to natively support digital asset transactions. This move puts pressure on Apple Pay, Google Pay, and PayPal to accelerate their own crypto integrations or risk losing crypto-active users. Mobile wallet providers now compete on digital asset features as stablecoin support becomes a key differentiator in wallet offerings.",
+      "title": "Stripe Launches New Fraud Prevention Tools for Merchants",
+      "body": "Stripe introduced advanced fraud detection features, leveraging machine learning to help merchants identify and block suspicious transactions in real time. The new tools integrate seamlessly with Stripe\u2019s existing payments platform, aiming to reduce chargebacks and fraud losses for online businesses. Competing PSPs and acquirers must now enhance their own fraud solutions to keep pace with Stripe\u2019s offering.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/samsung-wallet-plans-stablecoin-integration-to-build-mobile-financial-hub/"
-      }
-    },
-    {
-      "title": "Flex Seeks Utah Bank Charter to Expand Rent Payment and Financial Services",
-      "body": "Flex applied for a Utah industrial bank charter to support its Flex Rent product, aiming for FDIC and state approval to offer deposit and lending services alongside rent payments. If granted, Flex could directly hold customer funds and originate loans, increasing competition for traditional banks in the rental market and prompting rent-focused fintechs to consider similar licensing moves to broaden their offerings.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/flex-seeks-bank-charter-to-scale-flexible-rent-payments/"
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2024/06/10/stripe-launches-new-fraud-prevention-tools/"
       }
     }
   ],
-  "perspective": "Visa\u2019s stablecoin platform and Wise\u2019s charter denial show how regulatory and product moves by major brands are reshaping payments and fintech expansion.",
+  "perspective": "Revolut\u2019s valuation and Upstart\u2019s charter signal fintechs\u2019 growing influence as Stripe and Alipay+ drive innovation in payments and fraud prevention.",
   "curiosity": {
-    "text": "The first magnetic stripe payment card was introduced by IBM in 1970, revolutionizing how transactions were processed and paving the way for modern card payments."
+    "text": "The first credit card transaction occurred in 1950 with the Diners Club card, which was initially accepted at just 27 New York City restaurants."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "World Foundation",
-      "description": "raises $52M for AI-driven ID solutions.",
+      "description": "Raised $52.5M for AI-driven ID solutions.",
       "source_url": "https://www.pymnts.com/news/investment-tracker/2026/world-foundation-raises-52-million-as-ai-drives-demand-for-id-solutions/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Neon Commerce",
-      "description": "raises $13M to expand DTC commerce for games.",
-      "source_url": "https://www.finextra.com/pressarticle/110486/neon-commerce-raises-13m-to-scale-direct-to-consumer-commerce-for-game-publishers"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "expansion",
-      "company": "Mollie",
-      "description": "Plans \u20ac350M expansion across Europe.",
-      "source_url": "https://sifted.eu/articles/mollie-350m-europe-expansion/"
+      "company": "Flex",
+      "description": "Seeks bank charter to scale rent payments.",
+      "source_url": "https://www.pymnts.com/news/banking/2026/flex-seeks-bank-charter-to-scale-flexible-rent-payments/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Upstart",
-      "description": "Secured conditional bank charter for growth.",
-      "source_url": "https://www.bankingdive.com/news/upstart-nabs-conditional-bank-charter/826159/"
+      "type": "product",
+      "company": "Visa",
+      "description": "Launches stablecoin platform for financial institutions.",
+      "source_url": "https://www.pymnts.com/cryptocurrency/2026/this-week-in-stablecoins-visa-goldman-and-samsung-raise-the-stakes/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Optus, M&F",
-      "description": "Black-owned banks merge to form $1.3B entity.",
-      "source_url": "https://www.bankingdive.com/news/optus-mf-carolina-black-owned-banks-merge-105-million-mdi-cdfi/826017/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "valuation",
-      "company": "Revolut",
-      "description": "Hits $115B valuation in share sale.",
-      "source_url": "https://sifted.eu/articles/revolut-115-valuation-secondary-share-sale/"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
-      "type": "acquisition",
-      "company": "Nium",
-      "description": "Acquired Cypher to enhance stablecoin strategy.",
-      "source_url": "https://www.bankingdive.com/news/nium-targets-stablecoins-growth/826037/"
+      "type": "product",
+      "company": "Marqeta",
+      "description": "Makes stablecoins spendable on cards with Zerohash.",
+      "source_url": "https://www.finextra.com/pressarticle/110495/marqeta-and-zerohash-make-stablecoins-spendable-on-cards?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
