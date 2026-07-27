@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Revolut\u2019s $115 Billion Valuation Sets New Benchmark for Global Fintech Ambitions",
-      "body": "Revolut reached a $115 billion valuation after a secondary share sale, signaling robust investor appetite for super-app models. This leap positions Revolut ahead of most Western fintechs and intensifies the race for talent and capital. Competitors like Nubank and Klarna now face a higher bar for growth and product expansion. Competitors will engage in increased M&A and accelerated launches to close the gap.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-115-valuation-secondary-share-sale/"
-      }
-    },
-    {
-      "title": "Upstart Secures Conditional Bank Charter, Escalating Fintech-Bank Competition in Lending",
-      "body": "Upstart received a conditional bank charter, unlocking the ability to offer deposits and expand its lending suite beyond unsecured personal loans. This move lets Upstart compete directly with both traditional banks and fintech lenders on pricing and product breadth. Incumbent banks now face a challenger with AI-driven underwriting and regulatory legitimacy. Other fintechs will accelerate charter applications or deepen bank partnerships.",
+      "title": "Nium Acquires Cypher to Build Stablecoin Rails for Cross-Border Payments",
+      "body": "Nium has acquired Cypher, aiming to integrate stablecoin capabilities into its cross-border payments platform. This move positions Nium to compete directly with established players like Circle and PayPal in the digital currency settlement space. Payment processors and banks now face a new challenger offering faster, lower-cost cross-border transactions via stablecoins. Nium\u2019s acquisition signals its intent to expand digital currency settlement options as regulatory frameworks evolve.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/upstart-nabs-conditional-bank-charter/826159/"
+        "url": "https://www.bankingdive.com/news/nium-targets-stablecoins-growth/826037/"
       }
     },
     {
-      "title": "Alipay+ and Hang Seng Bank Launch Cross-Border QR Payments in Hong Kong",
-      "body": "Alipay+ partnered with Hang Seng Bank to enable cross-border QR code payments for Hong Kong consumers and merchants. This integration boosts Alipay\u2019s reach in a key travel and commerce hub, challenging Visa, Mastercard, and local wallet providers. Merchants gain access to a broader customer base, while regional PSPs must adapt to rising QR adoption. Merchants will seek similar partnerships as QR interoperability becomes table stakes in Asia.",
+      "title": "BitMart Closure Highlights Crypto Exchange Shakeout and Market Volatility",
+      "body": "BitMart has shut down operations, marking the second major crypto exchange closure in three days amid ongoing market instability. The exit underscores the mounting challenges for smaller exchanges as compliance costs and competitive pressures rise. Larger exchanges such as Binance and Coinbase may absorb displaced users, while smaller regional platforms could face heightened risk of closure or acquisition as regulatory scrutiny intensifies.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/bitmart-becomes-2nd-crypto-exchange-to-close-in-3-days/"
+      }
+    },
+    {
+      "title": "Chime Adds Commission-Free Stock and ETF Trading to Broaden User Appeal",
+      "body": "Chime has launched a new investment feature, enabling users to buy stocks and ETFs commission-free within its app. This expansion moves Chime beyond basic banking, putting it in direct competition with fintechs like Robinhood and SoFi for retail investment flows. Incumbent brokers and neobanks now face a more crowded field as Chime leverages its large user base to cross-sell investment products. The next phase will test whether Chime can drive meaningful engagement and wallet share in retail investing.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/chime-invest-launch-manage-portfolios-app-stocks-etf/825931/"
+      }
+    },
+    {
+      "title": "Mollie Commits \u20ac350 Million to Expand European Payments Footprint",
+      "body": "Mollie has announced a \u20ac350 million investment to accelerate its expansion across Europe, aiming to become a top-tier payment service provider. This capital injection will fund new product development and market entry, intensifying competition with Adyen, Stripe, and Checkout.com. European merchants gain more choice, while smaller PSPs may face acquisition offers or pressure to merge as Mollie and larger rivals expand their reach.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/mollie-350m-europe-expansion/"
+      }
+    },
+    {
+      "title": "Visa and Western Union Expand Real-Time Cross-Border Payouts",
+      "body": "Visa and Western Union have expanded their partnership to enable real-time cross-border payouts to eligible cards and accounts in 40 countries. This collaboration aims to streamline remittances and business payments, offering faster settlement and improved transparency for senders and recipients. Banks and money transfer operators may need to accelerate their own real-time capabilities to remain competitive as global payout expectations rise.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48141/alipay-partners-with-hong-kongs-hang-seng-bank-for-cross-border-qr-code-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Mastercard Upgrades Virtual Card Platform to Capture B2B Payment Growth",
-      "body": "Mastercard enhanced its virtual card number platform, targeting secure and flexible B2B payments for enterprises. These upgrades aim to capture more spend from corporates shifting away from checks and ACH, putting pressure on banks and fintechs offering legacy solutions. B2B payment providers must now match Mastercard\u2019s security and integration features or risk losing share. Virtual card adoption is set to accelerate in procurement and travel verticals.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110490/mastercard-expands-virtual-card-programme?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Stripe Launches New Fraud Prevention Tools for Merchants",
-      "body": "Stripe introduced advanced fraud detection features, leveraging machine learning to help merchants identify and block suspicious transactions in real time. The new tools integrate seamlessly with Stripe\u2019s existing payments platform, aiming to reduce chargebacks and fraud losses for online businesses. Competing PSPs and acquirers must now enhance their own fraud solutions to keep pace with Stripe\u2019s offering.",
-      "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2024/06/10/stripe-launches-new-fraud-prevention-tools/"
+        "url": "https://www.finextra.com/newsarticle/44123/visa-and-western-union-expand-real-time-cross-border-payouts"
       }
     }
   ],
-  "perspective": "Revolut\u2019s valuation and Upstart\u2019s charter signal fintechs\u2019 growing influence as Stripe and Alipay+ drive innovation in payments and fraud prevention.",
+  "perspective": "Today: Nium\u2019s Cypher acquisition and BitMart\u2019s closure highlight how regulatory shifts and competition are reshaping digital payments and crypto exchanges.",
   "curiosity": {
-    "text": "The first credit card transaction occurred in 1950 with the Diners Club card, which was initially accepted at just 27 New York City restaurants."
+    "text": "In the Philippines, over 40% of adults receive remittances via mobile wallets, making the country a global leader in mobile-based cross-border payments adoption."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "World Foundation",
-      "description": "Raised $52.5M for AI-driven ID solutions.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/world-foundation-raises-52-million-as-ai-drives-demand-for-id-solutions/"
+      "company": "Corgi",
+      "description": "Insurtech Corgi hits $4 billion valuation with latest raise.",
+      "source_url": "https://www.finextra.com/newsarticle/48145/insurtech-corgi-hits-4-billion-valuation-on-latest-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
-      "company": "Flex",
-      "description": "Seeks bank charter to scale rent payments.",
-      "source_url": "https://www.pymnts.com/news/banking/2026/flex-seeks-bank-charter-to-scale-flexible-rent-payments/"
+      "company": "Revolut",
+      "description": "Revolut reaches $115 billion valuation in employee share sale.",
+      "source_url": "https://sifted.eu/articles/revolut-115-valuation-secondary-share-sale/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Visa",
-      "description": "Launches stablecoin platform for financial institutions.",
-      "source_url": "https://www.pymnts.com/cryptocurrency/2026/this-week-in-stablecoins-visa-goldman-and-samsung-raise-the-stakes/"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "restructuring",
+      "company": "Starling Bank",
+      "description": "Starling Bank to cut 130 jobs amid AI integration efforts.",
+      "source_url": "https://sifted.eu/articles/starling-bank-job-cuts/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Marqeta",
-      "description": "Makes stablecoins spendable on cards with Zerohash.",
-      "source_url": "https://www.finextra.com/pressarticle/110495/marqeta-and-zerohash-make-stablecoins-spendable-on-cards?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product launch",
+      "company": "SumUp",
+      "description": "SumUp launches consumer account promoting small business shopping.",
+      "source_url": "https://sifted.eu/articles/sumup-launches-consumer-account/"
     }
   ]
 }
