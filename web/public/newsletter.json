@@ -1,78 +1,64 @@
 {
   "news": [
     {
-      "title": "Nium Acquires Cypher to Build Stablecoin Rails for Cross-Border Payments",
-      "body": "Nium has acquired Cypher, aiming to integrate stablecoin capabilities into its cross-border payments platform. This move positions Nium to compete directly with established players like Circle and PayPal in the digital currency settlement space. Payment processors and banks now face a new challenger offering faster, lower-cost cross-border transactions via stablecoins. Nium\u2019s acquisition signals its intent to expand digital currency settlement options as regulatory frameworks evolve.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/nium-targets-stablecoins-growth/826037/"
-      }
-    },
-    {
-      "title": "BitMart Closure Highlights Crypto Exchange Shakeout and Market Volatility",
-      "body": "BitMart has shut down operations, marking the second major crypto exchange closure in three days amid ongoing market instability. The exit underscores the mounting challenges for smaller exchanges as compliance costs and competitive pressures rise. Larger exchanges such as Binance and Coinbase may absorb displaced users, while smaller regional platforms could face heightened risk of closure or acquisition as regulatory scrutiny intensifies.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/bitmart-becomes-2nd-crypto-exchange-to-close-in-3-days/"
-      }
-    },
-    {
-      "title": "Chime Adds Commission-Free Stock and ETF Trading to Broaden User Appeal",
-      "body": "Chime has launched a new investment feature, enabling users to buy stocks and ETFs commission-free within its app. This expansion moves Chime beyond basic banking, putting it in direct competition with fintechs like Robinhood and SoFi for retail investment flows. Incumbent brokers and neobanks now face a more crowded field as Chime leverages its large user base to cross-sell investment products. The next phase will test whether Chime can drive meaningful engagement and wallet share in retail investing.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/chime-invest-launch-manage-portfolios-app-stocks-etf/825931/"
-      }
-    },
-    {
-      "title": "Mollie Commits \u20ac350 Million to Expand European Payments Footprint",
-      "body": "Mollie has announced a \u20ac350 million investment to accelerate its expansion across Europe, aiming to become a top-tier payment service provider. This capital injection will fund new product development and market entry, intensifying competition with Adyen, Stripe, and Checkout.com. European merchants gain more choice, while smaller PSPs may face acquisition offers or pressure to merge as Mollie and larger rivals expand their reach.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/mollie-350m-europe-expansion/"
-      }
-    },
-    {
-      "title": "Visa and Western Union Expand Real-Time Cross-Border Payouts",
-      "body": "Visa and Western Union have expanded their partnership to enable real-time cross-border payouts to eligible cards and accounts in 40 countries. This collaboration aims to streamline remittances and business payments, offering faster settlement and improved transparency for senders and recipients. Banks and money transfer operators may need to accelerate their own real-time capabilities to remain competitive as global payout expectations rise.",
+      "title": "Circle Acquires IBM\u2019s Blockchain Patent Portfolio, Becomes Leading US Holder",
+      "body": "Circle has acquired nearly 1,000 blockchain-related patents from IBM, reportedly making it the largest blockchain patent holder in the US. This acquisition gives Circle significant leverage over blockchain technology development and licensing, allowing it to influence how banks and fintechs implement on-chain payment solutions. Competitors may need to negotiate licensing agreements or adjust their technology strategies to avoid infringement, potentially increasing costs or prompting new partnerships.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/44123/visa-and-western-union-expand-real-time-cross-border-payouts"
+        "url": "https://www.finextra.com/newsarticle/48152/circle-buys-ibms-blockchain-patent-portfolio?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Upstart Receives Conditional OCC Approval for National Bank Charter",
+      "body": "Upstart has secured conditional approval from the OCC to launch Upstart Bank, N.A., moving closer to operating as a nationally chartered bank. This step enables Upstart to expand into deposits and payments, directly competing with established banks. The decision signals regulatory openness to fintechs with strong compliance, and may prompt other fintechs to pursue charters as the path becomes clearer.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/banking/2026/upstart-pursues-final-banking-approvals-after-landing-conditional-nod/"
+      }
+    },
+    {
+      "title": "HSBC Opens Global AI Centre of Excellence in Singapore",
+      "body": "HSBC is launching a global AI centre of excellence in Singapore, hiring around 100 specialists under its new chief AI officer. The centre aims to enhance HSBC\u2019s digital banking and risk management, positioning the bank to compete with both fintechs and global peers on AI-driven services. This move may accelerate AI investment and talent acquisition among other major banks.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48149/hsbc-to-open-singapore-ai-centre-of-excellence?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "BitMEX to Close After 11 Years, Shifting Crypto Exchange Dynamics",
+      "body": "BitMEX, one of the earliest crypto derivatives exchanges, will shut down following a strategic review by parent HDR Global Trading. The exit removes a major player from the crypto trading ecosystem, likely redistributing liquidity and market share to exchanges like Binance, Coinbase, and Bybit. Users must migrate funds, and remaining exchanges could see increased regulatory attention as the sector consolidates.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/bitmex-to-shutter-after-11-years/826257/"
+      }
+    },
+    {
+      "title": "Kraken Parent Payward Acquires Magic Labs\u2019 Embedded Wallet Business",
+      "body": "Payward, the parent company of Kraken, has acquired Magic Labs\u2019 embedded wallet business and rebranded it as Newton Labs to focus on onchain finance infrastructure. This move strengthens Payward\u2019s position in embedded finance and expands its wallet-as-a-service offering for fintechs and merchants. The acquisition could drive broader adoption of crypto wallets in mainstream payments and B2B transactions, intensifying competition among enterprise wallet providers.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/409705/kraken-parent-payward-acquires-magic-labs-embedded-wallet-business?utm_source=rss&utm_medium=rss"
       }
     }
   ],
-  "perspective": "Today: Nium\u2019s Cypher acquisition and BitMart\u2019s closure highlight how regulatory shifts and competition are reshaping digital payments and crypto exchanges.",
+  "perspective": "Circle\u2019s IBM patent acquisition and Upstart\u2019s OCC approval signal fintechs gaining influence as banks and crypto exchanges adapt to shifting technology and regulatory landscapes.",
   "curiosity": {
-    "text": "In the Philippines, over 40% of adults receive remittances via mobile wallets, making the country a global leader in mobile-based cross-border payments adoption."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how banks and merchants processed transactions long before digital wallets emerged."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Corgi",
-      "description": "Insurtech Corgi hits $4 billion valuation with latest raise.",
+      "description": "Insurtech Corgi hits $4 billion valuation on latest raise.",
       "source_url": "https://www.finextra.com/newsarticle/48145/insurtech-corgi-hits-4-billion-valuation-on-latest-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Revolut reaches $115 billion valuation in employee share sale.",
-      "source_url": "https://sifted.eu/articles/revolut-115-valuation-secondary-share-sale/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "restructuring",
-      "company": "Starling Bank",
-      "description": "Starling Bank to cut 130 jobs amid AI integration efforts.",
-      "source_url": "https://sifted.eu/articles/starling-bank-job-cuts/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product launch",
-      "company": "SumUp",
-      "description": "SumUp launches consumer account promoting small business shopping.",
-      "source_url": "https://sifted.eu/articles/sumup-launches-consumer-account/"
+      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "type": "M&A",
+      "company": "Objectway",
+      "description": "Enters negotiations to acquire Slib from BNP Paribas and Natixis.",
+      "source_url": "https://www.finextra.com/newsarticle/48147/objectway-enters-negotiations-to-acquire-bnp-paribas-and-natixis-joint-venture-slib?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
