@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "Circle Acquires IBM\u2019s Blockchain Patent Portfolio, Becomes Leading US Holder",
-      "body": "Circle has acquired nearly 1,000 blockchain-related patents from IBM, reportedly making it the largest blockchain patent holder in the US. This acquisition gives Circle significant leverage over blockchain technology development and licensing, allowing it to influence how banks and fintechs implement on-chain payment solutions. Competitors may need to negotiate licensing agreements or adjust their technology strategies to avoid infringement, potentially increasing costs or prompting new partnerships.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48152/circle-buys-ibms-blockchain-patent-portfolio?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Upstart Receives Conditional OCC Approval for National Bank Charter",
-      "body": "Upstart has secured conditional approval from the OCC to launch Upstart Bank, N.A., moving closer to operating as a nationally chartered bank. This step enables Upstart to expand into deposits and payments, directly competing with established banks. The decision signals regulatory openness to fintechs with strong compliance, and may prompt other fintechs to pursue charters as the path becomes clearer.",
+      "title": "Visa Reports 10% Growth in U.S. Payments Volume, Eyes AI and Stablecoins",
+      "body": "Visa reported a 10% year-over-year increase in U.S. payments volume, driven by higher consumer credit and debit card usage. The company is piloting AI-powered agents and stablecoin integrations to expand its money-movement capabilities. These initiatives could draw transaction volume away from Mastercard and PayPal, especially in cross-border and digital wallet flows where Visa is seeking to broaden its reach.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/upstart-pursues-final-banking-approvals-after-landing-conditional-nod/"
+        "url": "https://www.pymnts.com/visa/2026/visa-expands-money-movement-as-card-spending-accelerates/"
       }
     },
     {
-      "title": "HSBC Opens Global AI Centre of Excellence in Singapore",
-      "body": "HSBC is launching a global AI centre of excellence in Singapore, hiring around 100 specialists under its new chief AI officer. The centre aims to enhance HSBC\u2019s digital banking and risk management, positioning the bank to compete with both fintechs and global peers on AI-driven services. This move may accelerate AI investment and talent acquisition among other major banks.",
+      "title": "Ebanx and Pagaleve Fuse Pix and BNPL, Targeting Brazil\u2019s Installment Market",
+      "body": "Ebanx and Pagaleve have partnered to integrate Brazil\u2019s Pix instant payment system with Buy Now, Pay Later (BNPL) services, expanding installment plan access for consumers and merchants. This move strengthens Ebanx\u2019s position against traditional banks and fintechs by combining real-time payments with flexible credit. If adoption accelerates, similar integrations could emerge in other high-growth markets where instant payments and BNPL are converging.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48149/hsbc-to-open-singapore-ai-centre-of-excellence?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48159/ebanx-and-pagaleve-blend-pix-and-bnpl-to-expand-access-to-instalment-plans-in-brazil?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "BitMEX to Close After 11 Years, Shifting Crypto Exchange Dynamics",
-      "body": "BitMEX, one of the earliest crypto derivatives exchanges, will shut down following a strategic review by parent HDR Global Trading. The exit removes a major player from the crypto trading ecosystem, likely redistributing liquidity and market share to exchanges like Binance, Coinbase, and Bybit. Users must migrate funds, and remaining exchanges could see increased regulatory attention as the sector consolidates.",
+      "title": "Visa Cuts 2,600 Tech Jobs as It Shifts to AI-Driven Operations",
+      "body": "Visa announced a 7% reduction in its workforce, eliminating 2,600 roles primarily in technology and product as it pivots toward AI-driven operations. The restructuring aims to boost efficiency and signals that large payment networks are prioritizing automation to reduce costs and accelerate product development. Payment processors and large banks with significant technology teams may face similar workforce changes as AI adoption increases.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/bitmex-to-shutter-after-11-years/826257/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48161/tech-jobs-go-as-visa-cuts-workforce-by-7?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Kraken Parent Payward Acquires Magic Labs\u2019 Embedded Wallet Business",
-      "body": "Payward, the parent company of Kraken, has acquired Magic Labs\u2019 embedded wallet business and rebranded it as Newton Labs to focus on onchain finance infrastructure. This move strengthens Payward\u2019s position in embedded finance and expands its wallet-as-a-service offering for fintechs and merchants. The acquisition could drive broader adoption of crypto wallets in mainstream payments and B2B transactions, intensifying competition among enterprise wallet providers.",
+      "title": "PEX Raises $160M to Challenge Brex and Ramp in Spend Management",
+      "body": "PEX secured $160 million in debt and equity to expand its payments, credit, and finance automation platform, intensifying competition with Brex and Ramp. The new capital will fund product development and customer acquisition, aiming to win over businesses seeking integrated spend management. As the market heats up, established players must differentiate on automation, credit flexibility, and embedded finance features.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/409705/kraken-parent-payward-acquires-magic-labs-embedded-wallet-business?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48150/pex-secures-160m-to-scale-payments-credit-and-finance-automation-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "IMF Urges Brazil to Tighten Crypto Oversight, Raising Stakes for Compliant Players",
+      "body": "The International Monetary Fund called on Brazil to strengthen oversight of its fast-growing digital asset sector, citing risks to market stability. Stricter regulation could benefit compliant crypto firms and banks while forcing non-compliant players to exit or adapt. Other emerging markets may follow Brazil\u2019s lead, increasing regulatory scrutiny across the region\u2019s crypto landscape.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48156/imf-issues-crypto-asset-warning-to-brazil?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Circle\u2019s IBM patent acquisition and Upstart\u2019s OCC approval signal fintechs gaining influence as banks and crypto exchanges adapt to shifting technology and regulatory landscapes.",
+  "perspective": "Visa\u2019s AI shift and Brazil\u2019s Pix-BNPL integration signal rapid change in payment networks and regulatory priorities.",
   "curiosity": {
-    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how banks and merchants processed transactions long before digital wallets emerged."
+    "text": "In 2001, the U.S. introduced the Check 21 Act, allowing banks to process digital images of checks instead of physical ones, significantly speeding up the clearing process and laying the groundwork for today's electronic check payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Corgi",
-      "description": "Insurtech Corgi hits $4 billion valuation on latest raise.",
-      "source_url": "https://www.finextra.com/newsarticle/48145/insurtech-corgi-hits-4-billion-valuation-on-latest-raise?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "M&A",
+      "company": "Circle",
+      "description": "Acquires IBM's blockchain patent portfolio",
+      "source_url": "https://www.finextra.com/newsarticle/48152/circle-buys-ibms-blockchain-patent-portfolio?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "expansion",
+      "company": "Ramp",
+      "description": "Enters Canadian market with finance platform",
+      "source_url": "https://www.finextra.com/pressarticle/110516/ramp-enters-canada?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Throne Science",
+      "description": "Raises $10M to track gut health from the toilet",
+      "source_url": "https://news.crunchbase.com/health-wellness-biotech/throne-science-microbiome-gut-health-toilet-camera-startup-john-capodilupo-whoop/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Objectway",
-      "description": "Enters negotiations to acquire Slib from BNP Paribas and Natixis.",
-      "source_url": "https://www.finextra.com/newsarticle/48147/objectway-enters-negotiations-to-acquire-bnp-paribas-and-natixis-joint-venture-slib?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Ionic Digital",
+      "description": "Expands Celsius bitcoin mining assets into AI infrastructure",
+      "source_url": "https://www.theblock.co/post/409945/ionic-digital-jumps-22-nasdaq-debut-celsius-bitcoin-mining-assets-ai-infrastructure?utm_source=rss&utm_medium=rss"
     }
   ]
 }
