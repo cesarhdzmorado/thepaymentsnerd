@@ -1,78 +1,85 @@
 {
   "news": [
     {
-      "title": "Visa Reports 10% Growth in U.S. Payments Volume, Eyes AI and Stablecoins",
-      "body": "Visa reported a 10% year-over-year increase in U.S. payments volume, driven by higher consumer credit and debit card usage. The company is piloting AI-powered agents and stablecoin integrations to expand its money-movement capabilities. These initiatives could draw transaction volume away from Mastercard and PayPal, especially in cross-border and digital wallet flows where Visa is seeking to broaden its reach.",
+      "title": "Freehand Raises $75M to Expand AI-Driven Procurement and Payments Automation",
+      "body": "Freehand secured $75 million to scale its AI agents for automating procurement, supplier management, invoicing, and payments across global enterprises. This capital injection positions Freehand to challenge established players in enterprise procurement and payments automation, promising lower operational costs and greater efficiency for large corporates. Incumbent procurement and payment software providers such as SAP Ariba and Coupa now face direct competition from AI-native platforms. Key signals to watch include pilot deployments at Fortune 500 companies and integration announcements with leading ERP vendors like Oracle and SAP.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/visa/2026/visa-expands-money-movement-as-card-spending-accelerates/"
+        "url": "https://www.pymnts.com/news/investment-tracker/2026/freehand-raises-75-million-to-automate-enterprise-procurement-and-payments/"
       }
     },
     {
-      "title": "Ebanx and Pagaleve Fuse Pix and BNPL, Targeting Brazil\u2019s Installment Market",
-      "body": "Ebanx and Pagaleve have partnered to integrate Brazil\u2019s Pix instant payment system with Buy Now, Pay Later (BNPL) services, expanding installment plan access for consumers and merchants. This move strengthens Ebanx\u2019s position against traditional banks and fintechs by combining real-time payments with flexible credit. If adoption accelerates, similar integrations could emerge in other high-growth markets where instant payments and BNPL are converging.",
+      "title": "Binance.US Pursues CFTC License to Enter Regulated Prediction Markets",
+      "body": "Binance.US will apply for a CFTC license in August to launch a regulated prediction market platform, expanding beyond its core crypto trading business. This move could intensify competition with established prediction market operators like Kalshi and Polymarket, potentially increasing liquidity and mainstream adoption in the US market. If successful, Binance.US may prompt other crypto exchanges to seek similar licenses, accelerating the convergence of crypto and regulated derivatives in the US.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48159/ebanx-and-pagaleve-blend-pix-and-bnpl-to-expand-access-to-instalment-plans-in-brazil?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/410110/binance-us-cftc-license"
       }
     },
     {
-      "title": "Visa Cuts 2,600 Tech Jobs as It Shifts to AI-Driven Operations",
-      "body": "Visa announced a 7% reduction in its workforce, eliminating 2,600 roles primarily in technology and product as it pivots toward AI-driven operations. The restructuring aims to boost efficiency and signals that large payment networks are prioritizing automation to reduce costs and accelerate product development. Payment processors and large banks with significant technology teams may face similar workforce changes as AI adoption increases.",
+      "title": "Increase Acquires Community Bank to Bolster Fintech Infrastructure",
+      "body": "Increase, founded by a former Stripe executive, has acquired a community bank to strengthen its banking infrastructure and regulatory footing. This acquisition gives Increase direct access to core banking capabilities, allowing it to compete more aggressively with both traditional banks and fintech infrastructure providers such as Synapse and Treasury Prime. The move highlights a growing trend of fintechs acquiring banks to accelerate product launches and navigate compliance hurdles.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48161/tech-jobs-go-as-visa-cuts-workforce-by-7?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48168/stripe-vet-buys-a-bank-for-his-fintech"
       }
     },
     {
-      "title": "PEX Raises $160M to Challenge Brex and Ramp in Spend Management",
-      "body": "PEX secured $160 million in debt and equity to expand its payments, credit, and finance automation platform, intensifying competition with Brex and Ramp. The new capital will fund product development and customer acquisition, aiming to win over businesses seeking integrated spend management. As the market heats up, established players must differentiate on automation, credit flexibility, and embedded finance features.",
+      "title": "BNY Mellon Rolls Out Blockchain-Based Transfer Agency for Asset Servicing",
+      "body": "BNY Mellon has launched a blockchain-powered transfer agency service, digitizing record-keeping and transaction processing for asset managers. This positions BNY Mellon to win fund administration mandates from asset managers seeking greater transparency and operational efficiency, directly challenging legacy transfer agents such as State Street and Northern Trust. Large asset managers may now consider blockchain alternatives for fund administration, with adoption rates and competitive responses from incumbents as key indicators to watch.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48150/pex-secures-160m-to-scale-payments-credit-and-finance-automation-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48167/bny-unveils-blockchain-based-transfer-agency-service"
       }
     },
     {
-      "title": "IMF Urges Brazil to Tighten Crypto Oversight, Raising Stakes for Compliant Players",
-      "body": "The International Monetary Fund called on Brazil to strengthen oversight of its fast-growing digital asset sector, citing risks to market stability. Stricter regulation could benefit compliant crypto firms and banks while forcing non-compliant players to exit or adapt. Other emerging markets may follow Brazil\u2019s lead, increasing regulatory scrutiny across the region\u2019s crypto landscape.",
+      "title": "Visa Launches Tap-to-Phone Payments for Micro-Merchants in Brazil",
+      "body": "Visa has introduced tap-to-phone technology in Brazil, enabling micro-merchants to accept contactless payments directly on Android smartphones without additional hardware. This rollout aims to expand digital payment acceptance among small businesses and informal vendors, reducing barriers to entry and increasing transaction volumes for Visa. Competing card networks and local acquirers may accelerate similar initiatives to capture Brazil\u2019s rapidly digitizing merchant base.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48156/imf-issues-crypto-asset-warning-to-brazil?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Payments Dive",
+        "url": "https://www.paymentsdive.com/news/visa-tap-to-phone-brazil-micro-merchants/715432/"
       }
     }
   ],
-  "perspective": "Visa\u2019s AI shift and Brazil\u2019s Pix-BNPL integration signal rapid change in payment networks and regulatory priorities.",
+  "perspective": "Binance.US\u2019s CFTC license pursuit and Visa\u2019s tap-to-phone launch in Brazil highlight fintechs expanding into regulated markets and emerging economies.",
   "curiosity": {
-    "text": "In 2001, the U.S. introduced the Check 21 Act, allowing banks to process digital images of checks instead of physical ones, significantly speeding up the clearing process and laying the groundwork for today's electronic check payments."
+    "text": "In 1979, the first automated clearing house (ACH) network in the U.S. was established, allowing electronic bank transfers to occur, which paved the way for direct deposit and recurring payment systems that are widely used today."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Circle",
-      "description": "Acquires IBM's blockchain patent portfolio",
-      "source_url": "https://www.finextra.com/newsarticle/48152/circle-buys-ibms-blockchain-patent-portfolio?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "fundraising",
+      "company": "PEX",
+      "description": "Secured $160M to scale payments and finance automation platform.",
+      "source_url": "https://www.finextra.com/newsarticle/48150/pex-secures-160m-to-scale-payments-credit-and-finance-automation-platform"
     },
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "expansion",
-      "company": "Ramp",
-      "description": "Enters Canadian market with finance platform",
-      "source_url": "https://www.finextra.com/pressarticle/110516/ramp-enters-canada?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "MoonPay",
+      "description": "Launched PayBox for AI agent transactions.",
+      "source_url": "https://www.finextra.com/pressarticle/110532/moonpay-opens-paybox-for-ai-agent-transactions"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "LemonEdge",
+      "description": "Raised $21M for private market fund accounting platform.",
+      "source_url": "https://www.finextra.com/newsarticle/48164/private-market-fund-accounting-platform-lemonedge-raises-21-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "InvestiFi",
+      "description": "Raised $20M to enable digital investing for credit unions.",
+      "source_url": "https://www.finextra.com/pressarticle/110533/investifi-raises-20m"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Throne Science",
-      "description": "Raises $10M to track gut health from the toilet",
+      "description": "Raised $10M to track gut health with AI-powered toilet camera.",
       "source_url": "https://news.crunchbase.com/health-wellness-biotech/throne-science-microbiome-gut-health-toilet-camera-startup-john-capodilupo-whoop/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Ionic Digital",
-      "description": "Expands Celsius bitcoin mining assets into AI infrastructure",
-      "source_url": "https://www.theblock.co/post/409945/ionic-digital-jumps-22-nasdaq-debut-celsius-bitcoin-mining-assets-ai-infrastructure?utm_source=rss&utm_medium=rss"
     }
   ]
 }
