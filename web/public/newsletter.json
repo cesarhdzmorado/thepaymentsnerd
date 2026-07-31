@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Freehand Raises $75M to Expand AI-Driven Procurement and Payments Automation",
-      "body": "Freehand secured $75 million to scale its AI agents for automating procurement, supplier management, invoicing, and payments across global enterprises. This capital injection positions Freehand to challenge established players in enterprise procurement and payments automation, promising lower operational costs and greater efficiency for large corporates. Incumbent procurement and payment software providers such as SAP Ariba and Coupa now face direct competition from AI-native platforms. Key signals to watch include pilot deployments at Fortune 500 companies and integration announcements with leading ERP vendors like Oracle and SAP.",
+      "title": "Western Union Accelerates AI Rollout Amid Revenue Drop and Intermex Deal Delays",
+      "body": "Western Union is deploying AI-driven customer service and fraud detection tools to counter falling revenue from lower migration and underperforming Americas retail operations. The delayed Intermex acquisition has not delivered anticipated synergies, intensifying pressure on Western Union\u2019s traditional remittance business. By automating support and compliance, Western Union aims to cut costs and compete with digital-first money transfer firms like Wise and Remitly, but must demonstrate that these changes can win back market share.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/investment-tracker/2026/freehand-raises-75-million-to-automate-enterprise-procurement-and-payments/"
+        "url": "https://www.pymnts.com/earnings/2026/western-union-pursues-ai-savings-as-falling-migration-hits-revenue/"
       }
     },
     {
-      "title": "Binance.US Pursues CFTC License to Enter Regulated Prediction Markets",
-      "body": "Binance.US will apply for a CFTC license in August to launch a regulated prediction market platform, expanding beyond its core crypto trading business. This move could intensify competition with established prediction market operators like Kalshi and Polymarket, potentially increasing liquidity and mainstream adoption in the US market. If successful, Binance.US may prompt other crypto exchanges to seek similar licenses, accelerating the convergence of crypto and regulated derivatives in the US.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/410110/binance-us-cftc-license"
-      }
-    },
-    {
-      "title": "Increase Acquires Community Bank to Bolster Fintech Infrastructure",
-      "body": "Increase, founded by a former Stripe executive, has acquired a community bank to strengthen its banking infrastructure and regulatory footing. This acquisition gives Increase direct access to core banking capabilities, allowing it to compete more aggressively with both traditional banks and fintech infrastructure providers such as Synapse and Treasury Prime. The move highlights a growing trend of fintechs acquiring banks to accelerate product launches and navigate compliance hurdles.",
+      "title": "ICE Acquires MarketAxess for $5.7B to Challenge Bond Market Leaders",
+      "body": "Intercontinental Exchange (ICE) will acquire MarketAxess for $5.7 billion, directly targeting Bloomberg and Tradeweb in the electronic bond trading space. The acquisition gives ICE access to MarketAxess\u2019s institutional client base and proprietary trading technology. Clients may see new product offerings and changes in connectivity as ICE integrates the platforms and seeks to leverage its scale for pricing power.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48168/stripe-vet-buys-a-bank-for-his-fintech"
+        "url": "https://www.finextra.com/newsarticle/48172/ice-agrees-57-billion-marketaxess-acquisition"
       }
     },
     {
-      "title": "BNY Mellon Rolls Out Blockchain-Based Transfer Agency for Asset Servicing",
-      "body": "BNY Mellon has launched a blockchain-powered transfer agency service, digitizing record-keeping and transaction processing for asset managers. This positions BNY Mellon to win fund administration mandates from asset managers seeking greater transparency and operational efficiency, directly challenging legacy transfer agents such as State Street and Northern Trust. Large asset managers may now consider blockchain alternatives for fund administration, with adoption rates and competitive responses from incumbents as key indicators to watch.",
+      "title": "MiFinity and BVNK Enable Global Stablecoin Payouts for Merchants",
+      "body": "MiFinity and BVNK have launched stablecoin-based payouts for merchants, allowing faster settlements and lower costs compared to traditional card networks. This partnership targets e-commerce and gaming merchants seeking to reduce cross-border payment friction. Payment providers like Stripe and Adyen are monitoring stablecoin adoption as they evaluate integrating similar blockchain-based payout options to stay competitive.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48167/bny-unveils-blockchain-based-transfer-agency-service"
+        "url": "https://www.finextra.com/newsarticle/48171/mifinity-taps-bvnk-for-global-stablecoin-payouts"
       }
     },
     {
-      "title": "Visa Launches Tap-to-Phone Payments for Micro-Merchants in Brazil",
-      "body": "Visa has introduced tap-to-phone technology in Brazil, enabling micro-merchants to accept contactless payments directly on Android smartphones without additional hardware. This rollout aims to expand digital payment acceptance among small businesses and informal vendors, reducing barriers to entry and increasing transaction volumes for Visa. Competing card networks and local acquirers may accelerate similar initiatives to capture Brazil\u2019s rapidly digitizing merchant base.",
+      "title": "PayPal and Amazon Launch BNPL in Germany and Austria, Taking on Klarna",
+      "body": "PayPal and Amazon have introduced a buy now, pay later service for shoppers in Germany and Austria, expanding flexible payment options at checkout. This move gives merchants access to a broader customer base and intensifies competition with local BNPL providers such as Klarna and Ratepay. Regulators are expected to scrutinize BNPL terms more closely as installment lending gains traction in Europe.",
       "source": {
-        "name": "Payments Dive",
-        "url": "https://www.paymentsdive.com/news/visa-tap-to-phone-brazil-micro-merchants/715432/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110525/paypal-and-amazon-launch-bnpl-payments-for-customers-in-germany-and-austria"
+      }
+    },
+    {
+      "title": "Wise Integrates Directly with Malaysia\u2019s PayNet, Expanding DuitNow Access",
+      "body": "Wise has connected directly to Malaysia\u2019s PayNet, enabling instant DuitNow payments and reducing settlement times for cross-border transfers into Malaysia. By bypassing intermediary banks, Wise delivers faster and cheaper remittances for both merchants and consumers. This direct integration model\u2014focused on local payment network access and instant settlement\u2014could attract fintechs targeting other Southeast Asian markets with similar real-time payment infrastructure.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110536/wise-connects-directly-to-paynet-malaysias-national-payments-network"
       }
     }
   ],
-  "perspective": "Binance.US\u2019s CFTC license pursuit and Visa\u2019s tap-to-phone launch in Brazil highlight fintechs expanding into regulated markets and emerging economies.",
+  "perspective": "PayPal and Amazon\u2019s BNPL launch and Wise\u2019s PayNet integration highlight intensifying competition and innovation in European and Southeast Asian payments.",
   "curiosity": {
-    "text": "In 1979, the first automated clearing house (ACH) network in the U.S. was established, allowing electronic bank transfers to occur, which paved the way for direct deposit and recurring payment systems that are widely used today."
+    "text": "PayPal\u2019s early pivot from security software to digital payments in 2000 helped it outpace X.com, Elon Musk\u2019s rival startup, leading to their eventual merger."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddfb\ud83c\uddea",
       "type": "fundraising",
-      "company": "PEX",
-      "description": "Secured $160M to scale payments and finance automation platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48150/pex-secures-160m-to-scale-payments-credit-and-finance-automation-platform"
+      "company": "Cashea",
+      "description": "BNPL fintech Cashea raises $100 million",
+      "source_url": "https://www.finextra.com/newsarticle/48170/bnpl-fintech-cashea-raises-100-million"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "MoonPay",
-      "description": "Launched PayBox for AI agent transactions.",
-      "source_url": "https://www.finextra.com/pressarticle/110532/moonpay-opens-paybox-for-ai-agent-transactions"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "LemonEdge",
-      "description": "Raised $21M for private market fund accounting platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48164/private-market-fund-accounting-platform-lemonedge-raises-21-million"
+      "type": "M&A",
+      "company": "Increase",
+      "description": "Increase acquires a community bank to enhance fintech offerings",
+      "source_url": "https://www.finextra.com/newsarticle/48168/stripe-vet-buys-a-bank-for-his-fintech"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "InvestiFi",
-      "description": "Raised $20M to enable digital investing for credit unions.",
-      "source_url": "https://www.finextra.com/pressarticle/110533/investifi-raises-20m"
+      "company": "Freehand",
+      "description": "Freehand raises $75M Series B for AI supply chain management",
+      "source_url": "https://news.crunchbase.com/transportation/freehand-pando-enterprise-supply-chain-spend-management-startup/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Throne Science",
-      "description": "Raised $10M to track gut health with AI-powered toilet camera.",
-      "source_url": "https://news.crunchbase.com/health-wellness-biotech/throne-science-microbiome-gut-health-toilet-camera-startup-john-capodilupo-whoop/"
+      "company": "Antora",
+      "description": "Antora closes $550M Series C for battery storage projects",
+      "source_url": "https://news.crunchbase.com/clean-tech-and-energy/battery-storage-startup-antora-550m-series-c/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Centralize",
+      "description": "Centralize raises $15M Series A for enterprise sales platform",
+      "source_url": "https://news.crunchbase.com/sales-marketing/centralize-enterprise-sales-gtm-startup-funding-slack-meta-alums/"
     }
   ]
 }
