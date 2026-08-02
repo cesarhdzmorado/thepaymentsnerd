@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Lloyds and Caixabank Advance Tokenised Deposits with First Production-Grade Transactions in Project Agor\u00e1",
-      "body": "Lloyds Banking Group and Caixabank executed three production-grade tokenised deposit transactions under Project Agor\u00e1, marking the first time such transactions have moved beyond pilot into live, regulated banking environments. This milestone demonstrates the practical integration of programmable money into core banking systems, enabling features like automated settlement and conditional payments. Major European banks such as Santander and ING are expected to accelerate their own tokenisation initiatives to keep pace with this shift.",
+      "title": "Project Agor\u00e1\u2019s 80-Second Settlement Sets New Benchmark for Cross-Border Payments",
+      "body": "Project Agor\u00e1 achieved an average settlement time of 80 seconds in July real-value testing, far outpacing traditional cross-border payment systems. Major banks such as JPMorgan and Citi, which rely on legacy rails, now face direct competition from tokenized payment networks offering near-instant settlement. These banks must decide whether to integrate with new rails or risk losing high-value cross-border flows as regulators increase scrutiny of innovative settlement models.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48176/lloyds-banking-group-and-caixabank-complete-tokenised-deposit-transactions-through-project-agor?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/project-agora-cuts-cross-border-payment-times-80-seconds/"
       }
     },
     {
-      "title": "Circle Gains NYDFS Trust Charter, Expanding USDC\u2019s Institutional Appeal",
-      "body": "Circle secured a limited-purpose trust charter from the New York Department of Financial Services, adding state-level regulatory oversight to USDC alongside federal supervision. This dual-layer compliance framework allows banks and asset managers to use USDC with greater confidence for payments and settlements, as it meets stricter risk and custody standards. Competing stablecoin issuers like Paxos and Gemini may now pursue similar charters to maintain access to regulated financial partners.",
+      "title": "Binance Faces Global Scrutiny After $676M Iran-Linked Sanctions Evasion Allegation",
+      "body": "Dubai-based Shelbit allegedly routed $676 million through Binance to evade sanctions tied to Iranian entities, drawing attention from global regulators. Binance and other major crypto exchanges now risk stricter anti-money laundering enforcement and mandatory upgrades to their KYC and transaction monitoring systems. These exchanges could face fines, license reviews, or even market bans if compliance gaps persist.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/410275/circle-secures-nydfs-trust-charter-adding-state-layer-to-federal-usdc-oversight?utm_source=rss&utm_medium=rss"
+        "url": "https://www.theblock.co/post/410355/iran-linked-exchange-sent-676-million-to-binance-in-alleged-sanctions-evasion-operation-reuters"
       }
     },
     {
-      "title": "Mastercard and National Bank of Egypt Launch First USD Corporate Debit Card",
-      "body": "Mastercard and the National Bank of Egypt introduced Egypt\u2019s first USD corporate debit card, designed for businesses with international payment needs. This card enables Egyptian corporates to settle cross-border transactions directly in dollars, reducing reliance on currency conversion and streamlining global supplier payments. Regional competitors such as Banque Misr and QNB Alahli may introduce similar products to attract multinational clients.",
+      "title": "OpenAI Surpasses 1 Billion Users, Cementing AI\u2019s Role in Financial Services",
+      "body": "OpenAI\u2019s models now serve over 1 billion active users and 2 million businesses, establishing it as the leading AI provider. Fintechs and banks must rapidly deploy AI for customer service, fraud detection, and personalization to keep pace with evolving consumer expectations. Regulators will need to update supervisory frameworks to address AI-driven risks in financial services, including bias and data privacy.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-reaches-1-billion-active-users-as-ai-becomes-daily-habit/"
+      }
+    },
+    {
+      "title": "UniCredit, Accenture, and IBM Join Forces for Pan-European Digital Banking Push",
+      "body": "UniCredit announced a strategic partnership with Accenture and IBM to expand digital banking capabilities across 13 European markets. Deutsche Bank and Santander, as direct competitors, must now accelerate their own technology investments or risk losing market share in digital customer experience and operational efficiency. The collaboration signals a new phase of tech-driven rivalry among Europe\u2019s largest banks.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48175/mastercard-and-national-bank-of-egypt-launch-egypts-first-usd-corporate-debit-card?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110542/unicredit-accenture-and-ibm-join-forces-for-pan-european-banking-expansion"
       }
     },
     {
-      "title": "BNPL Fintech Cashea Raises $100 Million to Broaden Payments and Savings Offerings",
-      "body": "Venezuelan BNPL provider Cashea raised $100 million to expand into payments and savings products, moving beyond installment financing. The funding will support Cashea\u2019s entry into digital wallets and high-yield savings, targeting underbanked consumers in Latin America. Established fintechs like Mercado Pago and Nubank may see increased competition as Cashea diversifies its services.",
+      "title": "Revolut\u2019s $115B Valuation in Employee Share Sale Sets New Fintech Benchmark",
+      "body": "Revolut reached a $115 billion valuation in a secondary employee share sale, underscoring its rapid ascent among global fintechs. Investors may now reprice companies like N26 and Monzo, intensifying the race for talent and strategic partnerships in the sector. These rival fintechs must demonstrate clear growth trajectories and profitability to attract capital at comparable valuations.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48170/bnpl-fintech-cashea-raises-100-million?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Chime Cuts 10% of Workforce, Automates Customer Support and Risk Operations",
-      "body": "Chime will lay off 10% of its staff\u2014about 150 employees\u2014as it automates customer support and risk management functions using AI tools. These changes aim to reduce operational costs and allow Chime to reallocate resources toward product development in the competitive neobank sector. Digital banks such as Varo and Current may adopt similar automation strategies to improve efficiency.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-115-valuation-secondary-share-sale/"
       }
     }
   ],
-  "perspective": "Circle\u2019s trust charter and Project Agor\u00e1\u2019s tokenised deposits highlight regulatory and technological shifts shaping payments and banking this week.",
+  "perspective": "Project Agor\u00e1\u2019s instant settlement and Revolut\u2019s $115B valuation spotlight the competitive urgency for speed and scale in cross-border payments and fintech.",
   "curiosity": {
-    "text": "The 1999 launch of the e-Check under the Check 21 Act enabled electronic check clearing, accelerating settlement times and paving the way for modern digital payment rails."
+    "text": "The first international SWIFT payment in 1977 took several days to settle, while Project Agor\u00e1\u2019s recent test completed cross-border settlement in just 80 seconds."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "ICE",
-      "description": "Acquired MarketAxess for $5.7 billion to expand electronic trading.",
-      "source_url": "https://www.finextra.com/newsarticle/48172/ice-agrees-57-billion-marketaxess-acquisition?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "fundraising",
+      "company": "Safe Superintelligence",
+      "description": "Raised $5 billion in Nvidia-backed financing.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Commonwealth Fusion Systems",
+      "description": "Secured $1 billion investment.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Closed $95 million Fund II for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "expansion",
-      "company": "Wise",
-      "description": "Integrated with Malaysia's PayNet for enhanced cross-border payments.",
-      "source_url": "https://www.finextra.com/pressarticle/110536/wise-connects-directly-to-paynet-malaysias-national-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Mollie",
+      "description": "Announced \u20ac350 million European expansion plan.",
+      "source_url": "https://sifted.eu/articles/mollie-350m-europe-expansion/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Revolut",
-      "description": "Offers free ChatGPT Go access to enhance customer engagement.",
-      "source_url": "https://www.finextra.com/newsarticle/48174/revolut-offers-customers-free-chatgpt-go-access?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Skalar",
+      "description": "Raised \u20ac12 million to build a new startup.",
+      "source_url": "https://sifted.eu/articles/skalar-seed-fundraise/"
     }
   ]
 }
