@@ -1,49 +1,49 @@
 {
   "news": [
     {
-      "title": "Project Agor\u00e1\u2019s 80-Second Settlement Sets New Benchmark for Cross-Border Payments",
-      "body": "Project Agor\u00e1 achieved an average settlement time of 80 seconds in July real-value testing, far outpacing traditional cross-border payment systems. Major banks such as JPMorgan and Citi, which rely on legacy rails, now face direct competition from tokenized payment networks offering near-instant settlement. These banks must decide whether to integrate with new rails or risk losing high-value cross-border flows as regulators increase scrutiny of innovative settlement models.",
+      "title": "Wall Street Accelerates Blockchain Adoption, Challenging Traditional Market Intermediaries",
+      "body": "Major financial institutions such as JPMorgan and Citi are rapidly integrating blockchain to modernize market infrastructure, aiming for greater efficiency and transparency. By lowering transaction costs and streamlining settlement, these banks directly threaten the fee revenue of established clearinghouses and brokers. Regulators must now address new systemic risks and adapt compliance frameworks as blockchain rails gain traction in capital markets.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-payments/2026/project-agora-cuts-cross-border-payment-times-80-seconds/"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/7600731b-4f7f-4d38-a478-3196c565a880"
       }
     },
     {
-      "title": "Binance Faces Global Scrutiny After $676M Iran-Linked Sanctions Evasion Allegation",
-      "body": "Dubai-based Shelbit allegedly routed $676 million through Binance to evade sanctions tied to Iranian entities, drawing attention from global regulators. Binance and other major crypto exchanges now risk stricter anti-money laundering enforcement and mandatory upgrades to their KYC and transaction monitoring systems. These exchanges could face fines, license reviews, or even market bans if compliance gaps persist.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/410355/iran-linked-exchange-sent-676-million-to-binance-in-alleged-sanctions-evasion-operation-reuters"
-      }
-    },
-    {
-      "title": "OpenAI Surpasses 1 Billion Users, Cementing AI\u2019s Role in Financial Services",
-      "body": "OpenAI\u2019s models now serve over 1 billion active users and 2 million businesses, establishing it as the leading AI provider. Fintechs and banks must rapidly deploy AI for customer service, fraud detection, and personalization to keep pace with evolving consumer expectations. Regulators will need to update supervisory frameworks to address AI-driven risks in financial services, including bias and data privacy.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-reaches-1-billion-active-users-as-ai-becomes-daily-habit/"
-      }
-    },
-    {
-      "title": "UniCredit, Accenture, and IBM Join Forces for Pan-European Digital Banking Push",
-      "body": "UniCredit announced a strategic partnership with Accenture and IBM to expand digital banking capabilities across 13 European markets. Deutsche Bank and Santander, as direct competitors, must now accelerate their own technology investments or risk losing market share in digital customer experience and operational efficiency. The collaboration signals a new phase of tech-driven rivalry among Europe\u2019s largest banks.",
+      "title": "Partior and OpenAssets Complete Atomic Stablecoin Settlement Proof of Concept",
+      "body": "Partior and OpenAssets have demonstrated atomic settlement using stablecoins, enabling instant, simultaneous transfer of funds and assets. Banks including DBS and Standard Chartered, along with payment processors like FIS, now face a credible alternative to legacy payment rails, with the potential to reduce settlement risk and costs. This proof of concept may prompt regulators to accelerate work on compliance and security standards for stablecoin transactions, while payment processors must quickly assess integration strategies as stablecoin adoption nears production.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110542/unicredit-accenture-and-ibm-join-forces-for-pan-european-banking-expansion"
+        "url": "https://www.finextra.com/newsarticle/48180/partior-and-openassets-poc-proves-stablecoins-and-tokenised-deposits-can-settle-atomically"
       }
     },
     {
-      "title": "Revolut\u2019s $115B Valuation in Employee Share Sale Sets New Fintech Benchmark",
-      "body": "Revolut reached a $115 billion valuation in a secondary employee share sale, underscoring its rapid ascent among global fintechs. Investors may now reprice companies like N26 and Monzo, intensifying the race for talent and strategic partnerships in the sector. These rival fintechs must demonstrate clear growth trajectories and profitability to attract capital at comparable valuations.",
+      "title": "Bank of America Acquires MDSec Consulting to Bolster Cybersecurity Capabilities",
+      "body": "Bank of America has acquired UK-based MDSec Consulting to strengthen its cybersecurity defenses amid escalating digital threats. This acquisition signals to peer banks that in-house security expertise is now a strategic asset, not just a cost center. Rivals such as Wells Fargo and Barclays may accelerate M&A or partnerships in the cybersecurity sector to keep pace, as cybersecurity becomes a key differentiator in financial services.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-115-valuation-secondary-share-sale/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48179/bofa-to-buy-uk-cybersecurity-firm-mdsec-consulting"
+      }
+    },
+    {
+      "title": "Coldcard Wallet Flaw Leads to $89 Million Bitcoin Theft, Exposing Hardware Security Gaps",
+      "body": "A vulnerability in Coldcard hardware wallets enabled attackers to steal nearly $89 million in bitcoin, directly impacting retail and institutional users. The breach exposes persistent weaknesses in crypto storage solutions and forces wallet manufacturers like Coinkite to prioritize verifiable security upgrades. Crypto exchanges and custodians now face urgent pressure to offer insured storage and enhanced due diligence, as regulatory scrutiny of hardware wallet providers intensifies.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cybersecurity/2026/coldcard-wallet-attack-losses-approach-89-million/"
+      }
+    },
+    {
+      "title": "Hong Kong Police Uncover $3.3 Million Crypto Romance Scam Using Fake Investment App",
+      "body": "Hong Kong authorities dismantled a $3.3 million scam involving a fraudulent crypto investment app that targeted retail investors through social engineering. The case highlights ongoing vulnerabilities in consumer-facing crypto platforms and the sophistication of scam tactics. Regulators may respond with stricter app vetting and investor protection requirements, while fintechs in the region must urgently strengthen onboarding and monitoring to avoid reputational fallout.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/post/410377/hong-kong-3-million-crypto-romance-scam"
       }
     }
   ],
-  "perspective": "Project Agor\u00e1\u2019s instant settlement and Revolut\u2019s $115B valuation spotlight the competitive urgency for speed and scale in cross-border payments and fintech.",
+  "perspective": "JPMorgan blockchain push and Coldcard wallet breach spotlight the collision of innovation and security in payments and capital markets.",
   "curiosity": {
-    "text": "The first international SWIFT payment in 1977 took several days to settle, while Project Agor\u00e1\u2019s recent test completed cross-border settlement in just 80 seconds."
+    "text": "In 2023, a single typo in a smart contract led to the permanent loss of over $36 million in crypto assets\u2014highlighting the unforgiving nature of blockchain code."
   },
   "whats_hot": [
     {
@@ -57,29 +57,29 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Commonwealth Fusion Systems",
-      "description": "Secured $1 billion investment.",
+      "description": "Secured $1 billion investment for fusion technology.",
       "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95 million Fund II for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Antora",
+      "description": "Closed $550M Series C for battery storage projects.",
+      "source_url": "https://news.crunchbase.com/clean-tech-and-energy/battery-storage-startup-antora-550m-series-c/"
     },
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "expansion",
-      "company": "Mollie",
-      "description": "Announced \u20ac350 million European expansion plan.",
-      "source_url": "https://sifted.eu/articles/mollie-350m-europe-expansion/"
-    },
-    {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Skalar",
-      "description": "Raised \u20ac12 million to build a new startup.",
-      "source_url": "https://sifted.eu/articles/skalar-seed-fundraise/"
+      "company": "Centralize",
+      "description": "Raised $15M Series A for enterprise sales platform.",
+      "source_url": "https://news.crunchbase.com/sales-marketing/centralize-enterprise-sales-gtm-startup-funding-slack-meta-alums/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Freehand",
+      "description": "Secured $75M Series B for AI supply chain management.",
+      "source_url": "https://news.crunchbase.com/transportation/freehand-pando-enterprise-supply-chain-spend-management-startup/"
     }
   ]
 }
