@@ -1,85 +1,64 @@
 {
   "news": [
     {
-      "title": "Wall Street Accelerates Blockchain Adoption, Challenging Traditional Market Intermediaries",
-      "body": "Major financial institutions such as JPMorgan and Citi are rapidly integrating blockchain to modernize market infrastructure, aiming for greater efficiency and transparency. By lowering transaction costs and streamlining settlement, these banks directly threaten the fee revenue of established clearinghouses and brokers. Regulators must now address new systemic risks and adapt compliance frameworks as blockchain rails gain traction in capital markets.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/7600731b-4f7f-4d38-a478-3196c565a880"
-      }
-    },
-    {
-      "title": "Partior and OpenAssets Complete Atomic Stablecoin Settlement Proof of Concept",
-      "body": "Partior and OpenAssets have demonstrated atomic settlement using stablecoins, enabling instant, simultaneous transfer of funds and assets. Banks including DBS and Standard Chartered, along with payment processors like FIS, now face a credible alternative to legacy payment rails, with the potential to reduce settlement risk and costs. This proof of concept may prompt regulators to accelerate work on compliance and security standards for stablecoin transactions, while payment processors must quickly assess integration strategies as stablecoin adoption nears production.",
+      "title": "Visa Buys BioCatch for $2.4B, Raising the Bar for Payments Fraud Detection",
+      "body": "Visa acquired behavioral biometrics firm BioCatch for $2.4 billion in cash, aiming to embed advanced fraud detection into its global payments network. Visa now moves ahead of Mastercard and PayPal in transaction security, prompting rivals to accelerate their own fraud tech investments. Merchants and banks using Visa rails will see tighter fraud controls, but may face new compliance and integration requirements.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48180/partior-and-openassets-poc-proves-stablecoins-and-tokenised-deposits-can-settle-atomically"
+        "url": "https://www.finextra.com/newsarticle/48185/visa-agrees-24-billion-deal-to-acquire-biocatch?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Bank of America Acquires MDSec Consulting to Bolster Cybersecurity Capabilities",
-      "body": "Bank of America has acquired UK-based MDSec Consulting to strengthen its cybersecurity defenses amid escalating digital threats. This acquisition signals to peer banks that in-house security expertise is now a strategic asset, not just a cost center. Rivals such as Wells Fargo and Barclays may accelerate M&A or partnerships in the cybersecurity sector to keep pace, as cybersecurity becomes a key differentiator in financial services.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48179/bofa-to-buy-uk-cybersecurity-firm-mdsec-consulting"
-      }
-    },
-    {
-      "title": "Coldcard Wallet Flaw Leads to $89 Million Bitcoin Theft, Exposing Hardware Security Gaps",
-      "body": "A vulnerability in Coldcard hardware wallets enabled attackers to steal nearly $89 million in bitcoin, directly impacting retail and institutional users. The breach exposes persistent weaknesses in crypto storage solutions and forces wallet manufacturers like Coinkite to prioritize verifiable security upgrades. Crypto exchanges and custodians now face urgent pressure to offer insured storage and enhanced due diligence, as regulatory scrutiny of hardware wallet providers intensifies.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/coldcard-wallet-attack-losses-approach-89-million/"
-      }
-    },
-    {
-      "title": "Hong Kong Police Uncover $3.3 Million Crypto Romance Scam Using Fake Investment App",
-      "body": "Hong Kong authorities dismantled a $3.3 million scam involving a fraudulent crypto investment app that targeted retail investors through social engineering. The case highlights ongoing vulnerabilities in consumer-facing crypto platforms and the sophistication of scam tactics. Regulators may respond with stricter app vetting and investor protection requirements, while fintechs in the region must urgently strengthen onboarding and monitoring to avoid reputational fallout.",
+      "title": "Mastercard Finalizes BVNK Deal to Expand Stablecoin Payment Capabilities",
+      "body": "Mastercard completed its acquisition of BVNK, a specialist in stablecoin payments infrastructure, signaling a direct push into digital currency transactions. Mastercard\u2019s move positions it as a front-runner in mainstream stablecoin adoption, challenging Visa and Ripple to keep pace. Payment processors such as Stripe and Adyen, as well as merchants accepting Mastercard, will soon gain access to stablecoin settlement, enabling faster cross-border payments and new digital asset use cases.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/post/410377/hong-kong-3-million-crypto-romance-scam"
+        "url": "https://www.theblock.co/post/410521/mastercard-completes-bvnk-acquisition?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "title": "Google Pay Adds Gemini AI Assistant in India, Targeting Wallet Engagement and Retention",
+      "body": "Google Pay integrated its Gemini AI assistant for Indian users, enabling real-time spending insights and conversational financial management. This move directly challenges Paytm and PhonePe, raising the bar for digital wallet user experience in India\u2019s competitive market. Other wallet providers will likely accelerate AI feature rollouts to avoid losing share among digitally savvy consumers.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48186/google-in-india-embeds-ai-into-google-pay?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Robinhood Wins FCA Approval for UK Crypto Launch, Escalating Competition With Revolut and eToro",
+      "body": "Robinhood secured authorization from the UK\u2019s Financial Conduct Authority to offer crypto services and will launch its platform for UK users this year. This intensifies competition for Revolut and eToro, who now face a US fintech with deep resources and aggressive pricing. UK crypto investors gain another regulated option, while local players may need to expand product offerings or cut fees to defend share.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48184/robinhood-wins-fca-approval-to-launch-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Ripple Invests in Licuido to Accelerate Tokenized Capital Markets on XRP Ledger",
+      "body": "Ripple made a strategic investment in UK-based Licuido, a platform focused on capital markets tokenization, to build digital asset infrastructure atop the XRP Ledger. Ripple\u2019s move targets institutional adoption and increases competition with Ethereum and Stellar for tokenized asset settlement. Banks such as Santander and asset managers exploring digital securities may now consider XRP Ledger-based solutions as regulatory clarity improves.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48181/ripple-invests-in-uk-digital-assets-platform-licuido?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "JPMorgan blockchain push and Coldcard wallet breach spotlight the collision of innovation and security in payments and capital markets.",
+  "perspective": "Visa and Robinhood headline a week of payments innovation and market entry across fraud tech, stablecoins, and UK crypto licensing.",
   "curiosity": {
-    "text": "In 2023, a single typo in a smart contract led to the permanent loss of over $36 million in crypto assets\u2014highlighting the unforgiving nature of blockchain code."
+    "text": "The Electronic Fund Transfer Act (EFTA), passed in 1989, established U.S. consumer protections and rights for electronic payments, including liability limits for unauthorized transactions."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Safe Superintelligence",
-      "description": "Raised $5 billion in Nvidia-backed financing.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
+      "company": "Horizon3",
+      "description": "Raised $250 million in Series E for AI cyber defense.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/horizon3-secures-250-million-to-lead-ai-versus-ai-cyber-defense/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Commonwealth Fusion Systems",
-      "description": "Secured $1 billion investment for fusion technology.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Antora",
-      "description": "Closed $550M Series C for battery storage projects.",
-      "source_url": "https://news.crunchbase.com/clean-tech-and-energy/battery-storage-startup-antora-550m-series-c/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Centralize",
-      "description": "Raised $15M Series A for enterprise sales platform.",
-      "source_url": "https://news.crunchbase.com/sales-marketing/centralize-enterprise-sales-gtm-startup-funding-slack-meta-alums/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Freehand",
-      "description": "Secured $75M Series B for AI supply chain management.",
-      "source_url": "https://news.crunchbase.com/transportation/freehand-pando-enterprise-supply-chain-spend-management-startup/"
+      "flag": "\ud83c\uddea\ud83c\uddf8",
+      "type": "product",
+      "company": "BBVA",
+      "description": "Developed AI agents to improve call center efficiency.",
+      "source_url": "https://www.finextra.com/newsarticle/48183/bbva-call-centre-staff-develop-and-deploy-ai-agents-to-speed-up-response-times?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
