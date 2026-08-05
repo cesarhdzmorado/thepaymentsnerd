@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "Visa Buys BioCatch for $2.4B, Raising the Bar for Payments Fraud Detection",
-      "body": "Visa acquired behavioral biometrics firm BioCatch for $2.4 billion in cash, aiming to embed advanced fraud detection into its global payments network. Visa now moves ahead of Mastercard and PayPal in transaction security, prompting rivals to accelerate their own fraud tech investments. Merchants and banks using Visa rails will see tighter fraud controls, but may face new compliance and integration requirements.",
+      "title": "Western Union Debuts Stablecard, Bringing Stablecoin-Backed Credit to Global Consumers",
+      "body": "Western Union has launched Stablecard, a digital wallet and Visa-secured credit card backed by stablecoins, enabling users to hold and spend US dollar value worldwide. This move positions Western Union directly against banks and fintechs in the race to mainstream stablecoin payments. Visa gains another stablecoin-linked product on its rails, while traditional issuers face new competition for cross-border and underbanked segments. Regulatory scrutiny is likely as stablecoin-backed cards move from pilot to production.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48185/visa-agrees-24-billion-deal-to-acquire-biocatch?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48192/western-union-launches-stablecard"
       }
     },
     {
-      "title": "Mastercard Finalizes BVNK Deal to Expand Stablecoin Payment Capabilities",
-      "body": "Mastercard completed its acquisition of BVNK, a specialist in stablecoin payments infrastructure, signaling a direct push into digital currency transactions. Mastercard\u2019s move positions it as a front-runner in mainstream stablecoin adoption, challenging Visa and Ripple to keep pace. Payment processors such as Stripe and Adyen, as well as merchants accepting Mastercard, will soon gain access to stablecoin settlement, enabling faster cross-border payments and new digital asset use cases.",
+      "title": "Samsung Stakes Claim in Crypto With Dunamu Deal and Native Stablecoin Support",
+      "body": "Samsung has acquired a stake in crypto exchange operator Dunamu and announced stablecoin support for its smartphones, integrating digital assets into its consumer electronics ecosystem. This positions Samsung as a first-mover among device manufacturers, challenging Apple and Google in embedded payments and digital asset management. Crypto exchanges gain a powerful distribution channel, while banks and fintechs must contend with wallet-native competition. Regulators are expected to examine smartphone-based stablecoin storage and transfer.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/post/410521/mastercard-completes-bvnk-acquisition?utm_source=rss&utm_medium=rss"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/samsung-pursues-digital-assets-with-crypto-exchange-deal-and-stablecoin-push/"
       }
     },
     {
-      "title": "Google Pay Adds Gemini AI Assistant in India, Targeting Wallet Engagement and Retention",
-      "body": "Google Pay integrated its Gemini AI assistant for Indian users, enabling real-time spending insights and conversational financial management. This move directly challenges Paytm and PhonePe, raising the bar for digital wallet user experience in India\u2019s competitive market. Other wallet providers will likely accelerate AI feature rollouts to avoid losing share among digitally savvy consumers.",
+      "title": "Marqeta\u2019s Enterprise Focus Drives 90% Jump in Deal Size on Embedded Finance and Stablecoins",
+      "body": "Marqeta reported a 90% increase in average deal size for Q2, fueled by enterprise demand for embedded finance and stablecoin capabilities. This cements Marqeta\u2019s position as a key infrastructure provider for large-scale fintechs and corporates seeking programmable payments. Competing processors now face pressure to match Marqeta\u2019s stablecoin and embedded finance features or risk losing enterprise contracts. The next battleground is delivering multi-rail, programmable payments at scale.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48186/google-in-india-embeds-ai-into-google-pay?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/earnings/2026/marqeta-deal-size-jumps-90-as-enterprise-push-gains-ground/"
       }
     },
     {
-      "title": "Robinhood Wins FCA Approval for UK Crypto Launch, Escalating Competition With Revolut and eToro",
-      "body": "Robinhood secured authorization from the UK\u2019s Financial Conduct Authority to offer crypto services and will launch its platform for UK users this year. This intensifies competition for Revolut and eToro, who now face a US fintech with deep resources and aggressive pricing. UK crypto investors gain another regulated option, while local players may need to expand product offerings or cut fees to defend share.",
+      "title": "Accenture Buys Out IBM\u2019s Stake in UniCredit JV to Deepen Banking Tech Services",
+      "body": "Accenture has acquired IBM\u2019s majority stake in their joint venture managing UniCredit\u2019s technology infrastructure, consolidating its position in financial technology services. This deal gives Accenture greater control over core banking modernization projects for major European banks. IBM exits a key European banking partnership, while Accenture can now pursue deeper integration and digital transformation mandates. Further consolidation among banking tech service providers is likely as digital infrastructure demands grow.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48184/robinhood-wins-fca-approval-to-launch-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48189/accenture-acquires-ibms-stake-in-technology-jv-with-unicredit"
       }
     },
     {
-      "title": "Ripple Invests in Licuido to Accelerate Tokenized Capital Markets on XRP Ledger",
-      "body": "Ripple made a strategic investment in UK-based Licuido, a platform focused on capital markets tokenization, to build digital asset infrastructure atop the XRP Ledger. Ripple\u2019s move targets institutional adoption and increases competition with Ethereum and Stellar for tokenized asset settlement. Banks such as Santander and asset managers exploring digital securities may now consider XRP Ledger-based solutions as regulatory clarity improves.",
+      "title": "Visa and PayPal Expand Tap-to-Pay Pilots for Small Businesses in Europe",
+      "body": "Visa and PayPal have expanded their tap-to-pay pilot programs for small businesses across several European markets, enabling merchants to accept contactless payments directly on smartphones without additional hardware. This initiative lowers barriers for micro-merchants and accelerates the shift toward digital acceptance. Competing acquirers and payment processors may need to accelerate similar offerings to retain small business clients as tap-to-phone adoption grows.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48181/ripple-invests-in-uk-digital-assets-platform-licuido?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Paypers",
+        "url": "https://thepaypers.com/mobile-payments/visa-and-paypal-expand-tap-to-pay-pilots-for-smbs-in-europe--1267892"
       }
     }
   ],
-  "perspective": "Visa and Robinhood headline a week of payments innovation and market entry across fraud tech, stablecoins, and UK crypto licensing.",
+  "perspective": "Western Union\u2019s Stablecard and Samsung\u2019s Dunamu partnership signal rapid convergence of stablecoins, embedded payments, and big tech in consumer finance.",
   "curiosity": {
-    "text": "The Electronic Fund Transfer Act (EFTA), passed in 1989, established U.S. consumer protections and rights for electronic payments, including liability limits for unauthorized transactions."
+    "text": "Recent data from the ECB shows that contactless payments now account for over 70% of all card-present transactions in the euro area, up sharply since 2020."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddff\ud83c\udde6",
       "type": "fundraising",
-      "company": "Horizon3",
-      "description": "Raised $250 million in Series E for AI cyber defense.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/horizon3-secures-250-million-to-lead-ai-versus-ai-cyber-defense/"
+      "company": "Moment",
+      "description": "Raised $22 million to expand pan-African payments.",
+      "source_url": "https://www.finextra.com/newsarticle/48188/pan-african-payments-fintech-moment-raises-22-million"
     },
     {
-      "flag": "\ud83c\uddea\ud83c\uddf8",
-      "type": "product",
-      "company": "BBVA",
-      "description": "Developed AI agents to improve call center efficiency.",
-      "source_url": "https://www.finextra.com/newsarticle/48183/bbva-call-centre-staff-develop-and-deploy-ai-agents-to-speed-up-response-times?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "10x Banking",
+      "description": "Raised \u00a340 million to expand core banking solutions.",
+      "source_url": "https://www.finextra.com/newsarticle/48187/10x-banking-raises-40-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "investment",
+      "company": "Ripple",
+      "description": "Invested in UK digital assets platform Licuido.",
+      "source_url": "https://www.finextra.com/newsarticle/48181/ripple-invests-in-uk-digital-assets-platform-licuido"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "type": "acquisition",
+      "company": "BioCatch",
+      "description": "Acquired by Visa for $2.4 billion.",
+      "source_url": "https://www.finextra.com/newsarticle/48185/visa-agrees-24-billion-deal-to-acquire-biocatch"
     }
   ]
 }
