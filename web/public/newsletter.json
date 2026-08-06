@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Western Union Debuts Stablecard, Bringing Stablecoin-Backed Credit to Global Consumers",
-      "body": "Western Union has launched Stablecard, a digital wallet and Visa-secured credit card backed by stablecoins, enabling users to hold and spend US dollar value worldwide. This move positions Western Union directly against banks and fintechs in the race to mainstream stablecoin payments. Visa gains another stablecoin-linked product on its rails, while traditional issuers face new competition for cross-border and underbanked segments. Regulatory scrutiny is likely as stablecoin-backed cards move from pilot to production.",
+      "title": "Wells Fargo Rolls Out Tokenised Deposits for Corporates, Enabling 24/7 Liquidity",
+      "body": "Wells Fargo is launching tokenised deposits for corporate clients, allowing round-the-clock fund movement and improved liquidity management. Wells Fargo's move pressures other corporate banks to accelerate blockchain adoption for treasury and settlement, as peer banks risk losing large corporate relationships to more agile competitors if they do not fast-track tokenisation pilots.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48192/western-union-launches-stablecard"
+        "url": "https://www.finextra.com/newsarticle/48198/wells-fargo-to-roll-out-tokenised-deposits-for-corporate-clients?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Samsung Stakes Claim in Crypto With Dunamu Deal and Native Stablecoin Support",
-      "body": "Samsung has acquired a stake in crypto exchange operator Dunamu and announced stablecoin support for its smartphones, integrating digital assets into its consumer electronics ecosystem. This positions Samsung as a first-mover among device manufacturers, challenging Apple and Google in embedded payments and digital asset management. Crypto exchanges gain a powerful distribution channel, while banks and fintechs must contend with wallet-native competition. Regulators are expected to examine smartphone-based stablecoin storage and transfer.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/samsung-pursues-digital-assets-with-crypto-exchange-deal-and-stablecoin-push/"
-      }
-    },
-    {
-      "title": "Marqeta\u2019s Enterprise Focus Drives 90% Jump in Deal Size on Embedded Finance and Stablecoins",
-      "body": "Marqeta reported a 90% increase in average deal size for Q2, fueled by enterprise demand for embedded finance and stablecoin capabilities. This cements Marqeta\u2019s position as a key infrastructure provider for large-scale fintechs and corporates seeking programmable payments. Competing processors now face pressure to match Marqeta\u2019s stablecoin and embedded finance features or risk losing enterprise contracts. The next battleground is delivering multi-rail, programmable payments at scale.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/marqeta-deal-size-jumps-90-as-enterprise-push-gains-ground/"
-      }
-    },
-    {
-      "title": "Accenture Buys Out IBM\u2019s Stake in UniCredit JV to Deepen Banking Tech Services",
-      "body": "Accenture has acquired IBM\u2019s majority stake in their joint venture managing UniCredit\u2019s technology infrastructure, consolidating its position in financial technology services. This deal gives Accenture greater control over core banking modernization projects for major European banks. IBM exits a key European banking partnership, while Accenture can now pursue deeper integration and digital transformation mandates. Further consolidation among banking tech service providers is likely as digital infrastructure demands grow.",
+      "title": "Circle Reveals Arc Blockchain Validators Ahead of September Mainnet Launch",
+      "body": "Circle announced a roster of major validators for its Arc blockchain, with mainnet launch set for September. The move strengthens Circle\u2019s infrastructure play and signals growing institutional buy-in for enterprise-grade blockchain rails. Stablecoin issuers like Tether and payments providers such as PayPal now face a more credible alternative for programmable money and settlement.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48189/accenture-acquires-ibms-stake-in-technology-jv-with-unicredit"
+        "url": "https://www.finextra.com/newsarticle/48201/circle-unveils-big-name-validators-for-arc-blockchain-ahead-of-mainnet-launch?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa and PayPal Expand Tap-to-Pay Pilots for Small Businesses in Europe",
-      "body": "Visa and PayPal have expanded their tap-to-pay pilot programs for small businesses across several European markets, enabling merchants to accept contactless payments directly on smartphones without additional hardware. This initiative lowers barriers for micro-merchants and accelerates the shift toward digital acceptance. Competing acquirers and payment processors may need to accelerate similar offerings to retain small business clients as tap-to-phone adoption grows.",
+      "title": "Mastercard and Pexa Pilot Programmable Payments for UK Homebuying Settlements",
+      "body": "Mastercard and Pexa are piloting synchronised, programmable payments for homebuying settlements in the UK, aiming to streamline the notoriously slow real estate closing process. If successful, Mastercard and Pexa could set a new standard for real estate transactions and prompt banks and conveyancers to upgrade legacy settlement workflows. Expansion to other high-friction markets is likely if the pilot delivers measurable time and cost savings.",
       "source": {
-        "name": "The Paypers",
-        "url": "https://thepaypers.com/mobile-payments/visa-and-paypal-expand-tap-to-pay-pilots-for-smbs-in-europe--1267892"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48200/mastercard-and-pexa-explore-synchronised-settlement-for-homebuying?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Pan-African Fintech Moment Raises $22 Million to Expand Payments Reach",
+      "body": "Moment, a pan-African payments fintech, secured $22 million in Series A funding led by AlphaCode Venture Partners. The capital will fuel product expansion and geographic growth, intensifying competition for banks and regional fintechs across Africa. As Moment expands, established players will need to respond to new offerings and increased customer acquisition efforts targeting underserved markets.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48188/pan-african-payments-fintech-moment-raises-22-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Augustus Wins FDIC Approval for New Bank, Raising Stakes for Digital Challengers",
+      "body": "Augustus received FDIC approval to launch a new bank, contingent on maintaining $73.66 million in capital. FDIC approval enables Augustus to offer insured deposits and compete directly with both fintechs and traditional banks. The move highlights regulators\u2019 willingness to license new entrants, but also sets a high bar for capital and compliance that could slow smaller challengers.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/fdic-approves-augustus-bank-application-deposit-insurance-ai-clearing/827126/"
       }
     }
   ],
-  "perspective": "Western Union\u2019s Stablecard and Samsung\u2019s Dunamu partnership signal rapid convergence of stablecoins, embedded payments, and big tech in consumer finance.",
+  "perspective": "Wells Fargo and Circle drive tokenisation and programmable payments, while Augustus and Moment intensify competition in banking and African fintech.",
   "curiosity": {
-    "text": "Recent data from the ECB shows that contactless payments now account for over 70% of all card-present transactions in the euro area, up sharply since 2020."
+    "text": "Despite the rise of instant payments, over 40% of global business-to-business transactions still rely on paper checks, highlighting persistent gaps in payment modernization."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddff\ud83c\udde6",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Moment",
-      "description": "Raised $22 million to expand pan-African payments.",
-      "source_url": "https://www.finextra.com/newsarticle/48188/pan-african-payments-fintech-moment-raises-22-million"
+      "company": "Maximum",
+      "description": "Closed $30 million seed round for core banking solutions.",
+      "source_url": "https://www.finextra.com/newsarticle/48197/core-banking-startup-maximum-closes-30-million-seed-round?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddef\ud83c\uddf5",
       "type": "fundraising",
-      "company": "10x Banking",
-      "description": "Raised \u00a340 million to expand core banking solutions.",
-      "source_url": "https://www.finextra.com/newsarticle/48187/10x-banking-raises-40-million"
+      "company": "JPYC",
+      "description": "Raised $38 million in extended Series B for stablecoin expansion.",
+      "source_url": "https://www.theblock.co/post/410959/jpyc-stablecoin-raises-38-million?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "investment",
-      "company": "Ripple",
-      "description": "Invested in UK digital assets platform Licuido.",
-      "source_url": "https://www.finextra.com/newsarticle/48181/ripple-invests-in-uk-digital-assets-platform-licuido"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "type": "acquisition",
-      "company": "BioCatch",
-      "description": "Acquired by Visa for $2.4 billion.",
-      "source_url": "https://www.finextra.com/newsarticle/48185/visa-agrees-24-billion-deal-to-acquire-biocatch"
+      "type": "product",
+      "company": "Western Union",
+      "description": "Launched Stablecard, a stablecoin-backed Visa credit card.",
+      "source_url": "https://www.finextra.com/newsarticle/48192/western-union-launches-stablecard?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
