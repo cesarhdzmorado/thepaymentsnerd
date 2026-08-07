@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Wells Fargo Rolls Out Tokenised Deposits for Corporates, Enabling 24/7 Liquidity",
-      "body": "Wells Fargo is launching tokenised deposits for corporate clients, allowing round-the-clock fund movement and improved liquidity management. Wells Fargo's move pressures other corporate banks to accelerate blockchain adoption for treasury and settlement, as peer banks risk losing large corporate relationships to more agile competitors if they do not fast-track tokenisation pilots.",
+      "title": "Nayax and Zaria Seek US Bank Charters, Raising Stakes for Incumbent Banks",
+      "body": "Nayax, a payments and loyalty platform, and Zaria Systems, a credit infrastructure provider, have filed applications to charter banks in the US. Their entry into regulated banking could erode market share for large US retail banks such as Wells Fargo and Bank of America, prompting these incumbents to accelerate digital transformation and consider new fintech partnerships or acquisitions as compliance demands grow.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48198/wells-fargo-to-roll-out-tokenised-deposits-for-corporate-clients?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48207/nayax-and-zaria-file-for-bank-charters?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Circle Reveals Arc Blockchain Validators Ahead of September Mainnet Launch",
-      "body": "Circle announced a roster of major validators for its Arc blockchain, with mainnet launch set for September. The move strengthens Circle\u2019s infrastructure play and signals growing institutional buy-in for enterprise-grade blockchain rails. Stablecoin issuers like Tether and payments providers such as PayPal now face a more credible alternative for programmable money and settlement.",
+      "title": "Ex-Nubank CTO Raises $85M to Build AI-Native Wealth Management Platform",
+      "body": "A former Nubank CTO has secured $85 million to launch an AI-driven wealth advisory platform targeting retail and mass affluent investors. By building a platform from the ground up with AI at its core, the startup puts pressure on established wealth managers like Morgan Stanley and UBS to rapidly integrate AI or risk losing younger, tech-savvy clients. Regulators are expected to increase scrutiny of algorithmic transparency in financial advice.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48201/circle-unveils-big-name-validators-for-arc-blockchain-ahead-of-mainnet-launch?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48205/ex-nubank-cto-raises-85m-for-ai-native-wealth-advisory-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Mastercard and Pexa Pilot Programmable Payments for UK Homebuying Settlements",
-      "body": "Mastercard and Pexa are piloting synchronised, programmable payments for homebuying settlements in the UK, aiming to streamline the notoriously slow real estate closing process. If successful, Mastercard and Pexa could set a new standard for real estate transactions and prompt banks and conveyancers to upgrade legacy settlement workflows. Expansion to other high-friction markets is likely if the pilot delivers measurable time and cost savings.",
+      "title": "MoonPay Debuts Unified Stablecoin Suite for Enterprise Payments",
+      "body": "MoonPay has launched a stablecoin infrastructure platform for businesses, streamlining integration and management of digital dollars across payment flows. This positions MoonPay to compete directly with Stripe and Circle for B2B stablecoin adoption, especially in cross-border and treasury use cases. Payment processors and banks must now consider offering programmable money rails to retain enterprise clients seeking efficiency and cost savings.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48200/mastercard-and-pexa-explore-synchronised-settlement-for-homebuying?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48208/moonpay-launches-stablecoin-platform-for-businesses?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Pan-African Fintech Moment Raises $22 Million to Expand Payments Reach",
-      "body": "Moment, a pan-African payments fintech, secured $22 million in Series A funding led by AlphaCode Venture Partners. The capital will fuel product expansion and geographic growth, intensifying competition for banks and regional fintechs across Africa. As Moment expands, established players will need to respond to new offerings and increased customer acquisition efforts targeting underserved markets.",
+      "title": "Monzo Surpasses One Million UK Business Accounts, Cementing SME Banking Lead",
+      "body": "Monzo has become the first UK digital bank to reach one million business customers, outpacing rivals in SME acquisition. This milestone strengthens Monzo\u2019s credibility and signals growing SME appetite for digital-first banking. High street banks like Barclays and Lloyds face urgent pressure to modernize onboarding, lending, and account management for small businesses or risk losing further ground to digital challengers.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48188/pan-african-payments-fintech-moment-raises-22-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48206/monzo-tops-one-million-business-accounts?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Augustus Wins FDIC Approval for New Bank, Raising Stakes for Digital Challengers",
-      "body": "Augustus received FDIC approval to launch a new bank, contingent on maintaining $73.66 million in capital. FDIC approval enables Augustus to offer insured deposits and compete directly with both fintechs and traditional banks. The move highlights regulators\u2019 willingness to license new entrants, but also sets a high bar for capital and compliance that could slow smaller challengers.",
+      "title": "Stripe Integrates CareCredit, Bringing Point-of-Care Financing to Health Providers",
+      "body": "Stripe has added CareCredit to its platform, enabling health and wellness providers to offer instant financing at checkout. This integration allows clinics and dental offices to provide embedded patient financing, expanding Stripe\u2019s healthcare footprint and prompting competitors like Square and Elavon to enhance their own healthcare offerings as demand for flexible payment options grows among providers and patients.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/fdic-approves-augustus-bank-application-deposit-insurance-ai-clearing/827126/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/healthcare/2026/stripe-integrates-carecredit-to-expand-online-health-and-wellness-financing/"
       }
     }
   ],
-  "perspective": "Wells Fargo and Circle drive tokenisation and programmable payments, while Augustus and Moment intensify competition in banking and African fintech.",
+  "perspective": "Nayax and Zaria\u2019s US bank charter bids and MoonPay\u2019s stablecoin suite highlight intensifying competition for banks and payment processors in regulated and programmable finance.",
   "curiosity": {
-    "text": "Despite the rise of instant payments, over 40% of global business-to-business transactions still rely on paper checks, highlighting persistent gaps in payment modernization."
+    "text": "The Payment Services Directive (PSD) not only enabled fintechs to access bank infrastructure but also forced banks to open APIs, paving the way for open banking in Europe."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Maximum",
-      "description": "Closed $30 million seed round for core banking solutions.",
+      "description": "Closed $30M Seed round for core banking startup.",
       "source_url": "https://www.finextra.com/newsarticle/48197/core-banking-startup-maximum-closes-30-million-seed-round?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "JPYC",
-      "description": "Raised $38 million in extended Series B for stablecoin expansion.",
-      "source_url": "https://www.theblock.co/post/410959/jpyc-stablecoin-raises-38-million?utm_source=rss&utm_medium=rss"
+      "company": "Vangrid",
+      "description": "Raised $9M in token round for spatial data network.",
+      "source_url": "https://www.theblock.co/post/411022/depin-project-vangrid-funding-token-round-spatial-data-physical-ai?utm_source=rss&utm_medium=rss"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Western Union",
-      "description": "Launched Stablecard, a stablecoin-backed Visa credit card.",
-      "source_url": "https://www.finextra.com/newsarticle/48192/western-union-launches-stablecard?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "fundraising",
+      "company": "Ordway",
+      "description": "Secured $20M for AI roadmap and growth.",
+      "source_url": "https://www.finextra.com/pressarticle/110589/ordway-secures-20-million-in-growth-capital-to-support-ai-roadmap?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Dakota",
+      "description": "Applies for OCC trust banking charter.",
+      "source_url": "https://www.bankingdive.com/news/dakota-occ-trust-charter-bank-application-stablecoin/827082/"
     }
   ]
 }
