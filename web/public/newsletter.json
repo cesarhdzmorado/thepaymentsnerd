@@ -1,78 +1,64 @@
 {
   "news": [
     {
-      "title": "Nayax and Zaria Seek US Bank Charters, Raising Stakes for Incumbent Banks",
-      "body": "Nayax, a payments and loyalty platform, and Zaria Systems, a credit infrastructure provider, have filed applications to charter banks in the US. Their entry into regulated banking could erode market share for large US retail banks such as Wells Fargo and Bank of America, prompting these incumbents to accelerate digital transformation and consider new fintech partnerships or acquisitions as compliance demands grow.",
+      "title": "Klarna Integrates J.P. Morgan Payments to Expand U.S. Merchant Processing",
+      "body": "Klarna has integrated J.P. Morgan Payments as its payment processor in the U.S., enabling Klarna to offer its BNPL and payment solutions directly to merchants using J.P. Morgan\u2019s acquiring infrastructure. This partnership gives Klarna access to J.P. Morgan\u2019s extensive merchant base and payment rails, allowing Klarna to approach larger U.S. retailers seeking unified BNPL and payment processing. Competing acquirers and BNPL providers may see increased competition for enterprise merchant deals as Klarna leverages this new channel.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48207/nayax-and-zaria-file-for-bank-charters?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110598/klarna-goes-live-with-jp-morgan-payments"
       }
     },
     {
-      "title": "Ex-Nubank CTO Raises $85M to Build AI-Native Wealth Management Platform",
-      "body": "A former Nubank CTO has secured $85 million to launch an AI-driven wealth advisory platform targeting retail and mass affluent investors. By building a platform from the ground up with AI at its core, the startup puts pressure on established wealth managers like Morgan Stanley and UBS to rapidly integrate AI or risk losing younger, tech-savvy clients. Regulators are expected to increase scrutiny of algorithmic transparency in financial advice.",
+      "title": "Google Wallet Adds Parental Controls and Supervised Balances for Minors",
+      "body": "Google Wallet now lets parents set up supervised balances for children under 18 in the U.S., allowing real-time monitoring and control of kids\u2019 spending. This feature positions Google Wallet as a family-friendly option and may prompt parents to introduce their children to digital payments earlier, potentially building long-term loyalty among Gen Z and Gen Alpha. Apple Pay and PayPal could face pressure to enhance their own youth and family offerings to keep pace.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48205/ex-nubank-cto-raises-85m-for-ai-native-wealth-advisory-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48211/google-wallet-adds-supervised-balances-for-kids"
       }
     },
     {
-      "title": "MoonPay Debuts Unified Stablecoin Suite for Enterprise Payments",
-      "body": "MoonPay has launched a stablecoin infrastructure platform for businesses, streamlining integration and management of digital dollars across payment flows. This positions MoonPay to compete directly with Stripe and Circle for B2B stablecoin adoption, especially in cross-border and treasury use cases. Payment processors and banks must now consider offering programmable money rails to retain enterprise clients seeking efficiency and cost savings.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48208/moonpay-launches-stablecoin-platform-for-businesses?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Monzo Surpasses One Million UK Business Accounts, Cementing SME Banking Lead",
-      "body": "Monzo has become the first UK digital bank to reach one million business customers, outpacing rivals in SME acquisition. This milestone strengthens Monzo\u2019s credibility and signals growing SME appetite for digital-first banking. High street banks like Barclays and Lloyds face urgent pressure to modernize onboarding, lending, and account management for small businesses or risk losing further ground to digital challengers.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48206/monzo-tops-one-million-business-accounts?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Stripe Integrates CareCredit, Bringing Point-of-Care Financing to Health Providers",
-      "body": "Stripe has added CareCredit to its platform, enabling health and wellness providers to offer instant financing at checkout. This integration allows clinics and dental offices to provide embedded patient financing, expanding Stripe\u2019s healthcare footprint and prompting competitors like Square and Elavon to enhance their own healthcare offerings as demand for flexible payment options grows among providers and patients.",
+      "title": "Splitit and 1stMILE Bring Card-Linked Installments to Auto Repair Shops",
+      "body": "Splitit and 1stMILE have launched a solution enabling auto repair customers to split bills into monthly installments using their existing credit cards. This marks a push for BNPL into the auto services sector, giving repair shops a tool to boost conversion and average ticket size. Other installment providers may look to expand into non-retail verticals as merchants seek flexible payment options for high-cost services.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/healthcare/2026/stripe-integrates-carecredit-to-expand-online-health-and-wellness-financing/"
+        "url": "https://www.pymnts.com/bnpl/2026/splitit-and-1stmile-unlock-card-linked-installments-for-auto-repairs/"
+      }
+    },
+    {
+      "title": "Paysera Drops Merchant Bank Transfer Fees in the Baltics",
+      "body": "Paysera has eliminated all merchant bank transfer fees in Lithuania, Latvia, and Estonia, undercutting regional PSPs like SEB and Swedbank that still charge for these services. By removing this cost, Paysera aims to attract more than 10,000 businesses and pressure competitors to lower or drop their own fees, potentially triggering a broader fee war in the Baltic payments market.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110600/bank-transfers-are-now-free-for-paysera-merchants-in-lithuania-latvia-and-estonia"
+      }
+    },
+    {
+      "title": "Varo Bank and Green Dot Enable Fee-Free Cash Deposits at Kroger Stores",
+      "body": "Varo Bank and Green Dot now allow customers to make fee-free cash deposits at over 2,000 Kroger locations, expanding access for cash-dependent users and strengthening Varo\u2019s appeal among underbanked consumers. Competing digital banks such as Chime and Current may need to secure similar retail partnerships to maintain relevance for customers who rely on cash.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110601/varo-bank-and-green-dot-partner-to-turnkroger-checkout-lanes-into-cash-deposit-points"
       }
     }
   ],
-  "perspective": "Nayax and Zaria\u2019s US bank charter bids and MoonPay\u2019s stablecoin suite highlight intensifying competition for banks and payment processors in regulated and programmable finance.",
+  "perspective": "Klarna\u2019s J.P. Morgan Payments integration and Google Wallet\u2019s parental controls signal a shift toward broader merchant access and family-focused digital payment features.",
   "curiosity": {
-    "text": "The Payment Services Directive (PSD) not only enabled fintechs to access bank infrastructure but also forced banks to open APIs, paving the way for open banking in Europe."
+    "text": "Regulation II\u2019s debit interchange cap, introduced in 2011, led some banks to reduce free checking and rewards, reshaping consumer banking incentives in unexpected ways."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "fundraising",
-      "company": "Maximum",
-      "description": "Closed $30M Seed round for core banking startup.",
-      "source_url": "https://www.finextra.com/newsarticle/48197/core-banking-startup-maximum-closes-30-million-seed-round?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Ex-Nubank CTO's New Venture",
+      "description": "Raised $85M for AI-native wealth advisory platform.",
+      "source_url": "https://www.finextra.com/newsarticle/48205/ex-nubank-cto-raises-85m-for-ai-native-wealth-advisory-platform"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Vangrid",
-      "description": "Raised $9M in token round for spatial data network.",
-      "source_url": "https://www.theblock.co/post/411022/depin-project-vangrid-funding-token-round-spatial-data-physical-ai?utm_source=rss&utm_medium=rss"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Ordway",
-      "description": "Secured $20M for AI roadmap and growth.",
-      "source_url": "https://www.finextra.com/pressarticle/110589/ordway-secures-20-million-in-growth-capital-to-support-ai-roadmap?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Dakota",
-      "description": "Applies for OCC trust banking charter.",
-      "source_url": "https://www.bankingdive.com/news/dakota-occ-trust-charter-bank-application-stablecoin/827082/"
+      "type": "product",
+      "company": "MoonPay",
+      "description": "Launched stablecoin platform for businesses.",
+      "source_url": "https://www.finextra.com/newsarticle/48208/moonpay-launches-stablecoin-platform-for-businesses"
     }
   ]
 }
