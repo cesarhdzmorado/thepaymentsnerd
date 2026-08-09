@@ -1,64 +1,85 @@
 {
   "news": [
     {
-      "title": "Klarna Integrates J.P. Morgan Payments to Expand U.S. Merchant Processing",
-      "body": "Klarna has integrated J.P. Morgan Payments as its payment processor in the U.S., enabling Klarna to offer its BNPL and payment solutions directly to merchants using J.P. Morgan\u2019s acquiring infrastructure. This partnership gives Klarna access to J.P. Morgan\u2019s extensive merchant base and payment rails, allowing Klarna to approach larger U.S. retailers seeking unified BNPL and payment processing. Competing acquirers and BNPL providers may see increased competition for enterprise merchant deals as Klarna leverages this new channel.",
+      "title": "Visa and Mastercard Settle $30B Swipe Fee Lawsuit, Paving Way for Lower Merchant Costs",
+      "body": "Visa and Mastercard have agreed to a $30 billion settlement with US merchants, capping a long-running dispute over credit card swipe fees. The agreement will lower interchange rates for five years and allow merchants to steer customers toward cheaper payment methods. Retailers may see reduced payment acceptance costs and greater flexibility in pricing strategies.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110598/klarna-goes-live-with-jp-morgan-payments"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/visa-mastercard-settle-us-swipe-fee-case-2024-03-26/"
       }
     },
     {
-      "title": "Google Wallet Adds Parental Controls and Supervised Balances for Minors",
-      "body": "Google Wallet now lets parents set up supervised balances for children under 18 in the U.S., allowing real-time monitoring and control of kids\u2019 spending. This feature positions Google Wallet as a family-friendly option and may prompt parents to introduce their children to digital payments earlier, potentially building long-term loyalty among Gen Z and Gen Alpha. Apple Pay and PayPal could face pressure to enhance their own youth and family offerings to keep pace.",
+      "title": "FDIC Moves to Certify Fintechs, Raising Bar for Bank Partnerships",
+      "body": "The FDIC is establishing an independent standards committee to certify fintech partners of banks, aiming to formalize trust and compliance requirements. Certification could become a key differentiator, shaping which fintechs banks are willing to onboard and accelerating vendor due diligence. Fintechs may face higher compliance costs but gain a clearer path to bank partnerships if certified.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48211/google-wallet-adds-supervised-balances-for-kids"
+        "url": "https://www.finextra.com/newsarticle/48212/fdic-aims-to-establish-standards-body-to-certify-banking-services-providers---bloomberg-law"
       }
     },
     {
-      "title": "Splitit and 1stMILE Bring Card-Linked Installments to Auto Repair Shops",
-      "body": "Splitit and 1stMILE have launched a solution enabling auto repair customers to split bills into monthly installments using their existing credit cards. This marks a push for BNPL into the auto services sector, giving repair shops a tool to boost conversion and average ticket size. Other installment providers may look to expand into non-retail verticals as merchants seek flexible payment options for high-cost services.",
+      "title": "Wero Delays Luxembourg Digital Wallet Launch, Opening Window for Rivals",
+      "body": "Digital wallet provider Wero has postponed its Luxembourg launch to September 2026, citing the need for regional alignment. The delay gives competitors extra time to deepen merchant and consumer relationships in Luxembourg before Wero\u2019s entry. Wero\u2019s market share ambitions may be challenged if rivals accelerate local integrations or incentives.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/bnpl/2026/splitit-and-1stmile-unlock-card-linked-installments-for-auto-repairs/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48210/wero-pushes-luxembourg-launch-to-september"
       }
     },
     {
-      "title": "Paysera Drops Merchant Bank Transfer Fees in the Baltics",
-      "body": "Paysera has eliminated all merchant bank transfer fees in Lithuania, Latvia, and Estonia, undercutting regional PSPs like SEB and Swedbank that still charge for these services. By removing this cost, Paysera aims to attract more than 10,000 businesses and pressure competitors to lower or drop their own fees, potentially triggering a broader fee war in the Baltic payments market.",
+      "title": "Bitcoin and Ether ETFs Attract $1.1B in Inflows Despite Low Trading Volumes",
+      "body": "Bitcoin and Ether ETFs saw $1.1 billion in inflows last week, the strongest since April, even as overall trading volumes remained muted. The surge in ETF demand could reinforce institutional confidence in crypto as an asset class and prompt issuers to expand product offerings. Asset managers may accelerate ETF launches to capture growing investor interest.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110600/bank-transfers-are-now-free-for-paysera-merchants-in-lithuania-latvia-and-estonia"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-08-08-bitcoin-ether-etfs-draw-1-1-billion-in-best-inflow-week-since-april-despite-low-volume-411204"
       }
     },
     {
-      "title": "Varo Bank and Green Dot Enable Fee-Free Cash Deposits at Kroger Stores",
-      "body": "Varo Bank and Green Dot now allow customers to make fee-free cash deposits at over 2,000 Kroger locations, expanding access for cash-dependent users and strengthening Varo\u2019s appeal among underbanked consumers. Competing digital banks such as Chime and Current may need to secure similar retail partnerships to maintain relevance for customers who rely on cash.",
+      "title": "Senate Schedules September Vote on Clarity Act, Crypto Regulation in Focus",
+      "body": "Senate Majority Leader Thune has set a September 15 vote for the Clarity Act, which would require bipartisan support and could overhaul US crypto regulation. The pending legislation has triggered renewed lobbying from crypto firms and may introduce new compliance requirements for exchanges and issuers. Market participants should prepare for potential volatility as the vote approaches.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110601/varo-bank-and-green-dot-partner-to-turnkroger-checkout-lanes-into-cash-deposit-points"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-08-08-majority-leader-thune-files-cloture-on-clarity-act-setting-up-sept-15-senate-vote-411211"
       }
     }
   ],
-  "perspective": "Klarna\u2019s J.P. Morgan Payments integration and Google Wallet\u2019s parental controls signal a shift toward broader merchant access and family-focused digital payment features.",
+  "perspective": "Visa, Mastercard, and the FDIC drive major shifts in merchant costs and fintech-bank partnerships this week.",
   "curiosity": {
-    "text": "Regulation II\u2019s debit interchange cap, introduced in 2011, led some banks to reduce free checking and rewards, reshaping consumer banking incentives in unexpected ways."
+    "text": "The first credit card transaction took place in 1950, when Frank McNamara used a Diners Club card to pay for dinner in New York City."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Ex-Nubank CTO's New Venture",
-      "description": "Raised $85M for AI-native wealth advisory platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48205/ex-nubank-cto-raises-85m-for-ai-native-wealth-advisory-platform"
+      "company": "Harvey",
+      "description": "Legal AI startup Harvey targets $15.5B valuation in new funding round.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/harvey-targets-15-5-billion-valuation-as-revenue-surges-past-350-million/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Moss",
+      "description": "Moss becomes Europe's newest unicorn with \u20ac30M Series C.",
+      "source_url": "https://sifted.eu/articles/moss-unicorn-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "MoonPay",
-      "description": "Launched stablecoin platform for businesses.",
-      "source_url": "https://www.finextra.com/newsarticle/48208/moonpay-launches-stablecoin-platform-for-businesses"
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Collide Capital raises $95M fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "expansion",
+      "company": "Pliant",
+      "description": "Pliant hits $100M ARR following US expansion.",
+      "source_url": "https://sifted.eu/articles/pliant-100m-arr/"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "expansion",
+      "company": "Mollie",
+      "description": "Mollie plans \u20ac350M expansion across Europe.",
+      "source_url": "https://sifted.eu/articles/mollie-350m-europe-expansion/"
     }
   ]
 }
