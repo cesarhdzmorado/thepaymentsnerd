@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Visa and Mastercard Settle $30B Swipe Fee Lawsuit, Paving Way for Lower Merchant Costs",
-      "body": "Visa and Mastercard have agreed to a $30 billion settlement with US merchants, capping a long-running dispute over credit card swipe fees. The agreement will lower interchange rates for five years and allow merchants to steer customers toward cheaper payment methods. Retailers may see reduced payment acceptance costs and greater flexibility in pricing strategies.",
-      "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/visa-mastercard-settle-us-swipe-fee-case-2024-03-26/"
-      }
-    },
-    {
-      "title": "FDIC Moves to Certify Fintechs, Raising Bar for Bank Partnerships",
-      "body": "The FDIC is establishing an independent standards committee to certify fintech partners of banks, aiming to formalize trust and compliance requirements. Certification could become a key differentiator, shaping which fintechs banks are willing to onboard and accelerating vendor due diligence. Fintechs may face higher compliance costs but gain a clearer path to bank partnerships if certified.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48212/fdic-aims-to-establish-standards-body-to-certify-banking-services-providers---bloomberg-law"
-      }
-    },
-    {
-      "title": "Wero Delays Luxembourg Digital Wallet Launch, Opening Window for Rivals",
-      "body": "Digital wallet provider Wero has postponed its Luxembourg launch to September 2026, citing the need for regional alignment. The delay gives competitors extra time to deepen merchant and consumer relationships in Luxembourg before Wero\u2019s entry. Wero\u2019s market share ambitions may be challenged if rivals accelerate local integrations or incentives.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48210/wero-pushes-luxembourg-launch-to-september"
-      }
-    },
-    {
-      "title": "Bitcoin and Ether ETFs Attract $1.1B in Inflows Despite Low Trading Volumes",
-      "body": "Bitcoin and Ether ETFs saw $1.1 billion in inflows last week, the strongest since April, even as overall trading volumes remained muted. The surge in ETF demand could reinforce institutional confidence in crypto as an asset class and prompt issuers to expand product offerings. Asset managers may accelerate ETF launches to capture growing investor interest.",
+      "title": "Robinhood Launches Crypto Trading in UK, Integrates With Bitstamp",
+      "body": "Robinhood has launched crypto trading in the UK by integrating with Bitstamp, allowing users to buy and sell digital assets alongside stocks, ISAs, options, and futures. This makes Robinhood one of the few UK platforms to offer both traditional and crypto assets in a single app, directly challenging local brokers and crypto exchanges. UK retail investors can now manage a wider range of assets through Robinhood, prompting competitors to accelerate their own product offerings to keep pace.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-08-08-bitcoin-ether-etfs-draw-1-1-billion-in-best-inflow-week-since-april-despite-low-volume-411204"
+        "url": "https://www.theblock.co/news/business/2026-08-10-robinhood-uk-crypto-trading-bitstamp-411140?utm_source=rss&utm_medium=rss"
       }
     },
     {
-      "title": "Senate Schedules September Vote on Clarity Act, Crypto Regulation in Focus",
-      "body": "Senate Majority Leader Thune has set a September 15 vote for the Clarity Act, which would require bipartisan support and could overhaul US crypto regulation. The pending legislation has triggered renewed lobbying from crypto firms and may introduce new compliance requirements for exchanges and issuers. Market participants should prepare for potential volatility as the vote approaches.",
+      "title": "Visa and Mastercard Join Circle to Pilot Stablecoin Payments",
+      "body": "Visa and Mastercard have joined a new stablecoin working group with Circle, focusing on testing stablecoin settlement for card payments. This collaboration could enable faster, lower-cost merchant settlements and give card networks early experience with programmable money. While stablecoins have often been discussed as a threat to card rails, this move positions Visa and Mastercard to shape how tokenized payments are integrated into mainstream commerce.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-08-08-majority-leader-thune-files-cloture-on-clarity-act-setting-up-sept-15-senate-vote-411211"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/visa-mastercard-join-another-stablecoin-group/827127/"
+      }
+    },
+    {
+      "title": "OCC Denies Bunq\u2019s US Banking License, Delaying Fintech\u2019s Expansion",
+      "body": "The OCC has rejected Dutch fintech Bunq\u2019s application for a US banking license, citing insufficient detail on its American expansion plans. Bunq cannot offer full-service banking in the US for now, forcing it to reconsider its entry strategy or seek partnerships. This decision delays Bunq\u2019s growth in the US and signals that regulators remain cautious about granting charters to foreign fintechs, potentially slowing similar expansion efforts by other European challengers.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/occ-said-no-to-bunq-us-banking-license-bid/"
+      }
+    },
+    {
+      "title": "Chime CFO Steps Down After Revenue Surge, President Takes Interim Role",
+      "body": "Chime\u2019s CFO has resigned following a 27% jump in Q2 revenue, with the company\u2019s president assuming interim finance leadership. Chime\u2019s executive team is actively steering the company through a period of rapid growth, but the leadership transition introduces questions about future financial strategy and fundraising. Investors and competitors will monitor how Chime manages this change as it continues to expand its US neobank presence.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/chime-cfo-stepping-down-matt-newcomb-troughton-q2-earnings-revenue-active-members-prime/827227/"
+      }
+    },
+    {
+      "title": "Brazil Imposes 24-Hour Delay on Crypto Transfers to Counter Social Engineering Scams",
+      "body": "Brazil\u2019s central bank now requires crypto exchanges to delay overseas transfers by 24 hours, specifically targeting social engineering scams and unauthorized account takeovers that have surged in recent months. The rule slows cross-border crypto transactions for Brazilian users and compels exchanges to enhance fraud detection and customer verification processes. This urgent measure reflects growing regulatory concern over consumer protection in the rapidly expanding Brazilian crypto market.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/brazil-tells-crypto-exchanges-to-delay-overseas-transfers/"
       }
     }
   ],
-  "perspective": "Visa, Mastercard, and the FDIC drive major shifts in merchant costs and fintech-bank partnerships this week.",
+  "perspective": "Robinhood\u2019s UK crypto launch and the Visa-Mastercard stablecoin pilot highlight how traditional and fintech players are reshaping digital asset payments.",
   "curiosity": {
-    "text": "The first credit card transaction took place in 1950, when Frank McNamara used a Diners Club card to pay for dinner in New York City."
+    "text": "The first payment card with a magnetic stripe, introduced by IBM in 1969, was inspired by the adhesive tape used to secure magnetic tape to CIA identity badges."
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Harvey",
-      "description": "Legal AI startup Harvey targets $15.5B valuation in new funding round.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/harvey-targets-15-5-billion-valuation-as-revenue-surges-past-350-million/"
-    },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Moss",
-      "description": "Moss becomes Europe's newest unicorn with \u20ac30M Series C.",
+      "description": "Raised \u20ac30m Series C, becoming Europe's newest unicorn.",
       "source_url": "https://sifted.eu/articles/moss-unicorn-series-c/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Collide Capital",
-      "description": "Collide Capital raises $95M fund for fintech and future-of-work startups.",
+      "description": "Raised $95M fund to back fintech and future-of-work startups.",
       "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "expansion",
       "company": "Pliant",
-      "description": "Pliant hits $100M ARR following US expansion.",
+      "description": "Hits $100m ARR following US expansion.",
       "source_url": "https://sifted.eu/articles/pliant-100m-arr/"
     },
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "expansion",
-      "company": "Mollie",
-      "description": "Mollie plans \u20ac350M expansion across Europe.",
-      "source_url": "https://sifted.eu/articles/mollie-350m-europe-expansion/"
+      "company": "Dakota",
+      "description": "Applies for OCC trust banking charter.",
+      "source_url": "https://www.bankingdive.com/news/dakota-occ-trust-charter-bank-application-stablecoin/827082/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "OpenAI",
+      "description": "Acquires AI presentation creator NextSlide.",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-picks-up-ai-presentation-creator-nextslide/"
     }
   ]
 }
