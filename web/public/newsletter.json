@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Robinhood Launches Crypto Trading in UK, Integrates With Bitstamp",
-      "body": "Robinhood has launched crypto trading in the UK by integrating with Bitstamp, allowing users to buy and sell digital assets alongside stocks, ISAs, options, and futures. This makes Robinhood one of the few UK platforms to offer both traditional and crypto assets in a single app, directly challenging local brokers and crypto exchanges. UK retail investors can now manage a wider range of assets through Robinhood, prompting competitors to accelerate their own product offerings to keep pace.",
+      "title": "Revolut Secures Full European Banking Licence, Expanding Competitive Reach",
+      "body": "Revolut has received a full European banking licence from French regulators, enabling it to offer deposits, lending, and broader financial services across the EU. This approval allows Revolut to operate on equal regulatory footing with incumbent banks, targeting higher-value customers and deepening wallet share. Traditional banks now face a challenger with both tech agility and full banking privileges, increasing competition in core retail banking products and drawing potential regulatory scrutiny of fintech expansion.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-08-10-robinhood-uk-crypto-trading-bitstamp-411140?utm_source=rss&utm_medium=rss"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48219/revolut-awarded-full-fat-european-banking-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa and Mastercard Join Circle to Pilot Stablecoin Payments",
-      "body": "Visa and Mastercard have joined a new stablecoin working group with Circle, focusing on testing stablecoin settlement for card payments. This collaboration could enable faster, lower-cost merchant settlements and give card networks early experience with programmable money. While stablecoins have often been discussed as a threat to card rails, this move positions Visa and Mastercard to shape how tokenized payments are integrated into mainstream commerce.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/visa-mastercard-join-another-stablecoin-group/827127/"
-      }
-    },
-    {
-      "title": "OCC Denies Bunq\u2019s US Banking License, Delaying Fintech\u2019s Expansion",
-      "body": "The OCC has rejected Dutch fintech Bunq\u2019s application for a US banking license, citing insufficient detail on its American expansion plans. Bunq cannot offer full-service banking in the US for now, forcing it to reconsider its entry strategy or seek partnerships. This decision delays Bunq\u2019s growth in the US and signals that regulators remain cautious about granting charters to foreign fintechs, potentially slowing similar expansion efforts by other European challengers.",
+      "title": "Wells Fargo Rolls Out Tokenized Deposits for Corporate Clients",
+      "body": "Wells Fargo will offer tokenized deposits to select corporate customers, enabling blockchain-based transfers between U.S. dollars and British pounds. This move brings programmable money into mainstream banking, giving corporates faster settlement and new treasury options. Major U.S. banks like JPMorgan and Citi, which have piloted similar blockchain initiatives, now face pressure to expand their offerings as corporates seek more efficient cross-border solutions.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/bank-regulation/2026/occ-said-no-to-bunq-us-banking-license-bid/"
+        "url": "https://www.pymnts.com/blockchain/2026/wells-fargo-brings-the-stablecoin-fight-inside-the-bank/"
       }
     },
     {
-      "title": "Chime CFO Steps Down After Revenue Surge, President Takes Interim Role",
-      "body": "Chime\u2019s CFO has resigned following a 27% jump in Q2 revenue, with the company\u2019s president assuming interim finance leadership. Chime\u2019s executive team is actively steering the company through a period of rapid growth, but the leadership transition introduces questions about future financial strategy and fundraising. Investors and competitors will monitor how Chime manages this change as it continues to expand its US neobank presence.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/chime-cfo-stepping-down-matt-newcomb-troughton-q2-earnings-revenue-active-members-prime/827227/"
-      }
-    },
-    {
-      "title": "Brazil Imposes 24-Hour Delay on Crypto Transfers to Counter Social Engineering Scams",
-      "body": "Brazil\u2019s central bank now requires crypto exchanges to delay overseas transfers by 24 hours, specifically targeting social engineering scams and unauthorized account takeovers that have surged in recent months. The rule slows cross-border crypto transactions for Brazilian users and compels exchanges to enhance fraud detection and customer verification processes. This urgent measure reflects growing regulatory concern over consumer protection in the rapidly expanding Brazilian crypto market.",
+      "title": "Synchrony and PayPal Extend Special Financing to All Mastercard Merchants",
+      "body": "Synchrony and PayPal have expanded their six-month special financing offer to every merchant on the Mastercard network for purchases over $149. This leverages PayPal\u2019s digital wallet dominance to push BNPL-style credit deeper into retail, challenging both traditional card issuers and pure-play BNPL providers. Merchants gain a new tool to drive higher ticket sizes, while Affirm and Afterpay face intensified competition on mainstream checkout flows.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/brazil-tells-crypto-exchanges-to-delay-overseas-transfers/"
+        "url": "https://www.pymnts.com/bnpl/2026/synchrony-and-paypal-bring-special-financing-to-entire-mastercard-network/"
+      }
+    },
+    {
+      "title": "OCC Rejects Bunq\u2019s U.S. Bank Charter, Highlighting Fintech Licensing Hurdles",
+      "body": "The OCC has denied Dutch neobank Bunq\u2019s application for a U.S. bank charter, citing insufficient capitalization and management experience. This setback underscores the high bar for foreign fintechs seeking U.S. entry and puts immediate pressure on European challengers like N26 and Monzo, which have signaled U.S. ambitions, to strengthen compliance and leadership teams before applying. The decision signals that U.S. regulators remain cautious on granting charters to digital-first banks.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48220/occ-rejects-bunqs-bank-charter-application?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Brazil\u2019s Pix Prepares for Global Expansion, Targeting Cross-Border Payments",
+      "body": "Brazil\u2019s central bank announced plans to connect Pix, its instant payment system, with global platforms to enable low-cost cross-border transfers. This initiative positions Pix as a challenger to SWIFT and legacy correspondent banking for international payments, especially in emerging markets. Payment processors and banks serving Latin America must adapt to new interoperability standards or risk losing cross-border volume, as Pix\u2019s model could inspire similar moves by other national instant payment systems.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payment-methods/2026/brazil-signals-surging-confidence-in-plan-to-export-pix-globally/"
       }
     }
   ],
-  "perspective": "Robinhood\u2019s UK crypto launch and the Visa-Mastercard stablecoin pilot highlight how traditional and fintech players are reshaping digital asset payments.",
+  "perspective": "Revolut\u2019s EU licence and Wells Fargo\u2019s tokenized deposits highlight how regulated banks are reshaping payments with new digital and programmable services.",
   "curiosity": {
-    "text": "The first payment card with a magnetic stripe, introduced by IBM in 1969, was inspired by the adhesive tape used to secure magnetic tape to CIA identity badges."
+    "text": "Before credit cards, some U.S. department stores in the 1920s issued metal charge plates\u2014early reusable payment tokens that predated modern electronic authorization by decades."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Moss",
-      "description": "Raised \u20ac30m Series C, becoming Europe's newest unicorn.",
-      "source_url": "https://sifted.eu/articles/moss-unicorn-series-c/"
+      "company": "inKind",
+      "description": "Raised $414 million for restaurant commerce platform.",
+      "source_url": "https://www.pymnts.com/restaurant-technology/2026/inkind-raises-414-million-to-fuel-restaurant-commerce-platform/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raised $95M fund to back fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "expansion",
-      "company": "Pliant",
-      "description": "Hits $100m ARR following US expansion.",
-      "source_url": "https://sifted.eu/articles/pliant-100m-arr/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Dakota",
-      "description": "Applies for OCC trust banking charter.",
-      "source_url": "https://www.bankingdive.com/news/dakota-occ-trust-charter-bank-application-stablecoin/827082/"
+      "company": "Erebor",
+      "description": "Closing in on $1.5 billion funding round targeting innovation economy.",
+      "source_url": "https://www.finextra.com/newsarticle/48222/new-bank-targeting-innovation-economy-closes-in-on-15bn-funding-round?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "OpenAI",
-      "description": "Acquires AI presentation creator NextSlide.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-picks-up-ai-presentation-creator-nextslide/"
+      "company": "Riot Platforms",
+      "description": "Secured $9.1 billion AI deal with Anthropic.",
+      "source_url": "https://www.theblock.co/news/business/2026-08-10-riot-platforms-ai-deal-anthropic-411358"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Astraeus",
+      "description": "Launched AI-native wealth management infrastructure platform.",
+      "source_url": "https://www.finextra.com/newsarticle/48223/astraeus-launches-wealth-management-infrastructure-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Robinhood",
+      "description": "Launched crypto trading in the UK.",
+      "source_url": "https://www.finextra.com/newsarticle/48217/robinhood-launches-crypto-trading-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
