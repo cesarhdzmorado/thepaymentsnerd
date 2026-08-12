@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "Revolut Secures Full European Banking Licence, Expanding Competitive Reach",
-      "body": "Revolut has received a full European banking licence from French regulators, enabling it to offer deposits, lending, and broader financial services across the EU. This approval allows Revolut to operate on equal regulatory footing with incumbent banks, targeting higher-value customers and deepening wallet share. Traditional banks now face a challenger with both tech agility and full banking privileges, increasing competition in core retail banking products and drawing potential regulatory scrutiny of fintech expansion.",
+      "title": "Revolut Secures French Banking License, Unlocking Full-Service Expansion in Europe",
+      "body": "Revolut has obtained a banking license in France, enabling it to offer loans and deposit products alongside payments. This move positions Revolut to compete directly with incumbent banks and neobanks on a broader suite of regulated services. French consumers gain access to a unified digital wallet and banking experience, while local fintechs face a stronger challenger. Next, watch for Revolut to accelerate product launches and customer acquisition in France and neighboring EU markets.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-french-banking-licence/"
+      }
+    },
+    {
+      "title": "RBC and BMO Sell Moneris to Francisco Partners, Reshaping Canadian Payments Landscape",
+      "body": "Royal Bank of Canada and Bank of Montreal have agreed to sell their joint payments processor Moneris to Francisco Partners for C$2 billion. The deal hands a major Canadian payments player to a private equity owner with a track record of tech investment. Competing acquirers and fintechs may see Moneris ramp up technology upgrades and new product rollouts under Francisco Partners. This sale may prompt Canadian banks and processors to pursue further M&A or strategic partnerships to keep pace.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48219/revolut-awarded-full-fat-european-banking-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48228/rbc-and-bmo-agree-c2bn-moneris-sale"
       }
     },
     {
-      "title": "Wells Fargo Rolls Out Tokenized Deposits for Corporate Clients",
-      "body": "Wells Fargo will offer tokenized deposits to select corporate customers, enabling blockchain-based transfers between U.S. dollars and British pounds. This move brings programmable money into mainstream banking, giving corporates faster settlement and new treasury options. Major U.S. banks like JPMorgan and Citi, which have piloted similar blockchain initiatives, now face pressure to expand their offerings as corporates seek more efficient cross-border solutions.",
+      "title": "OCC Reports 40 New Bank Applications Since Early 2025, Reflecting Fintechs\u2019 Charter Push",
+      "body": "The U.S. Office of the Comptroller of the Currency has received 40 new bank applications since early 2025, with many coming from fintechs and non-traditional financial firms seeking full banking charters. Firms like payments startups and digital lenders are pursuing charters to secure direct access to payment rails and deposit funding as regulatory clarity improves. This trend could intensify competition for deposits and lending, prompting regulators to update oversight frameworks for new bank models.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/wells-fargo-brings-the-stablecoin-fight-inside-the-bank/"
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/occ-receives-40-new-bank-applications-in-18-months/"
       }
     },
     {
-      "title": "Synchrony and PayPal Extend Special Financing to All Mastercard Merchants",
-      "body": "Synchrony and PayPal have expanded their six-month special financing offer to every merchant on the Mastercard network for purchases over $149. This leverages PayPal\u2019s digital wallet dominance to push BNPL-style credit deeper into retail, challenging both traditional card issuers and pure-play BNPL providers. Merchants gain a new tool to drive higher ticket sizes, while Affirm and Afterpay face intensified competition on mainstream checkout flows.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/bnpl/2026/synchrony-and-paypal-bring-special-financing-to-entire-mastercard-network/"
-      }
-    },
-    {
-      "title": "OCC Rejects Bunq\u2019s U.S. Bank Charter, Highlighting Fintech Licensing Hurdles",
-      "body": "The OCC has denied Dutch neobank Bunq\u2019s application for a U.S. bank charter, citing insufficient capitalization and management experience. This setback underscores the high bar for foreign fintechs seeking U.S. entry and puts immediate pressure on European challengers like N26 and Monzo, which have signaled U.S. ambitions, to strengthen compliance and leadership teams before applying. The decision signals that U.S. regulators remain cautious on granting charters to digital-first banks.",
+      "title": "Brazil Plans Pix Cross-Border Expansion, Targeting Faster and Cheaper International Payments",
+      "body": "Brazil\u2019s central bank is preparing to expand the Pix instant payments system to integrate with international payment networks, aiming to streamline cross-border transactions. By enabling real-time, low-cost transfers, Pix could reduce the market share of traditional remittance providers and global card networks, especially for high-volume corridors. Brazilian fintechs and merchants may gain easier access to international customers, while global PSPs face pressure to lower fees and improve speed.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48220/occ-rejects-bunqs-bank-charter-application?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48226/brazil-to-expand-pix-payment-system"
       }
     },
     {
-      "title": "Brazil\u2019s Pix Prepares for Global Expansion, Targeting Cross-Border Payments",
-      "body": "Brazil\u2019s central bank announced plans to connect Pix, its instant payment system, with global platforms to enable low-cost cross-border transfers. This initiative positions Pix as a challenger to SWIFT and legacy correspondent banking for international payments, especially in emerging markets. Payment processors and banks serving Latin America must adapt to new interoperability standards or risk losing cross-border volume, as Pix\u2019s model could inspire similar moves by other national instant payment systems.",
+      "title": "Jennifer Bailey\u2019s Retirement Opens Leadership Gap at Apple Pay Amid Intensifying Wallet Competition",
+      "body": "Jennifer Bailey, the executive who led Apple Pay since its 2014 launch, will retire, ending a 12-year tenure that saw Apple Pay become a dominant digital wallet. Her departure comes as Apple faces renewed competition from Google Pay, PayPal, and emerging wallet providers. Apple\u2019s next payments leader will need to defend share and drive innovation as wallet adoption deepens and merchant preferences shift. Competitors may use this transition window to push for merchant integrations and consumer mindshare.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payment-methods/2026/brazil-signals-surging-confidence-in-plan-to-export-pix-globally/"
+        "url": "https://www.pymnts.com/apple/apple-pay-tracker/2026/jennifer-bailey-to-retire-after-leading-apple-pay-since-2014-launch/"
       }
     }
   ],
-  "perspective": "Revolut\u2019s EU licence and Wells Fargo\u2019s tokenized deposits highlight how regulated banks are reshaping payments with new digital and programmable services.",
+  "perspective": "Revolut\u2019s French license and the Moneris sale to Francisco Partners show how licensing and M&A are redrawing payments competition in 2026.",
   "curiosity": {
-    "text": "Before credit cards, some U.S. department stores in the 1920s issued metal charge plates\u2014early reusable payment tokens that predated modern electronic authorization by decades."
+    "text": "In 2005, the U.S. experienced the largest class action settlement in history when a $335 million payout was issued to consumers affected by fraudulent fees from credit card processors, highlighting the industry's challenges with transparency and trust."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "inKind",
-      "description": "Raised $414 million for restaurant commerce platform.",
-      "source_url": "https://www.pymnts.com/restaurant-technology/2026/inkind-raises-414-million-to-fuel-restaurant-commerce-platform/"
+      "company": "Fazeshift",
+      "description": "Amex Ventures funds Fazeshift's AI expansion beyond accounts receivable.",
+      "source_url": "https://www.finextra.com/newsarticle/48230/amex-ventures-invests-in-autonomous-finance-startup-fazeshift"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Axle",
+      "description": "Axle raises $17.5M for AI-native insurance clearinghouse.",
+      "source_url": "https://www.finextra.com/pressarticle/110621/ai-native-clearinghouse-for-insurance-axle-raises-175m"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Erebor",
-      "description": "Closing in on $1.5 billion funding round targeting innovation economy.",
-      "source_url": "https://www.finextra.com/newsarticle/48222/new-bank-targeting-innovation-economy-closes-in-on-15bn-funding-round?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Riot Platforms",
-      "description": "Secured $9.1 billion AI deal with Anthropic.",
-      "source_url": "https://www.theblock.co/news/business/2026-08-10-riot-platforms-ai-deal-anthropic-411358"
+      "description": "Erebor nears $1.5B funding round targeting innovation economy.",
+      "source_url": "https://www.finextra.com/newsarticle/48222/new-bank-targeting-innovation-economy-closes-in-on-15bn-funding-round"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
       "company": "Astraeus",
-      "description": "Launched AI-native wealth management infrastructure platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48223/astraeus-launches-wealth-management-infrastructure-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Astraeus launches AI-native wealth management infrastructure platform.",
+      "source_url": "https://www.finextra.com/newsarticle/48223/astraeus-launches-wealth-management-infrastructure-platform"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "expansion",
-      "company": "Robinhood",
-      "description": "Launched crypto trading in the UK.",
-      "source_url": "https://www.finextra.com/newsarticle/48217/robinhood-launches-crypto-trading-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Monashees",
+      "description": "Monashees expands into Silicon Valley to enhance startup ecosystem.",
+      "source_url": "https://news.crunchbase.com/venture/latam-startup-vc-silicon-valley-expansion-qa-quinzanos-monashees/"
     }
   ]
 }
