@@ -1,85 +1,71 @@
 {
   "news": [
     {
-      "title": "Revolut Secures French Banking License, Unlocking Full-Service Expansion in Europe",
-      "body": "Revolut has obtained a banking license in France, enabling it to offer loans and deposit products alongside payments. This move positions Revolut to compete directly with incumbent banks and neobanks on a broader suite of regulated services. French consumers gain access to a unified digital wallet and banking experience, while local fintechs face a stronger challenger. Next, watch for Revolut to accelerate product launches and customer acquisition in France and neighboring EU markets.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-french-banking-licence/"
-      }
-    },
-    {
-      "title": "RBC and BMO Sell Moneris to Francisco Partners, Reshaping Canadian Payments Landscape",
-      "body": "Royal Bank of Canada and Bank of Montreal have agreed to sell their joint payments processor Moneris to Francisco Partners for C$2 billion. The deal hands a major Canadian payments player to a private equity owner with a track record of tech investment. Competing acquirers and fintechs may see Moneris ramp up technology upgrades and new product rollouts under Francisco Partners. This sale may prompt Canadian banks and processors to pursue further M&A or strategic partnerships to keep pace.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48228/rbc-and-bmo-agree-c2bn-moneris-sale"
-      }
-    },
-    {
-      "title": "OCC Reports 40 New Bank Applications Since Early 2025, Reflecting Fintechs\u2019 Charter Push",
-      "body": "The U.S. Office of the Comptroller of the Currency has received 40 new bank applications since early 2025, with many coming from fintechs and non-traditional financial firms seeking full banking charters. Firms like payments startups and digital lenders are pursuing charters to secure direct access to payment rails and deposit funding as regulatory clarity improves. This trend could intensify competition for deposits and lending, prompting regulators to update oversight frameworks for new bank models.",
+      "title": "Flywire and Trustly Bring Open Banking Payments to US and Canada Merchants",
+      "body": "Flywire and Trustly have expanded their partnership to enable open banking payments across the US and Canada, allowing merchants and billers to accept secure, large-value domestic and cross-border transactions directly from customer bank accounts. By offering a lower-cost, API-driven alternative to cards and wires, Flywire and Trustly directly challenge established payment processors such as FIS and Fiserv. US and Canadian banks will likely see increased demand for open banking APIs as merchant adoption accelerates, while regulators may soon address data access and security standards.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/bank-regulation/2026/occ-receives-40-new-bank-applications-in-18-months/"
+        "url": "https://www.pymnts.com/news/payment-methods/2026/flywire-and-trustly-bring-open-banking-partnership-to-us/"
       }
     },
     {
-      "title": "Brazil Plans Pix Cross-Border Expansion, Targeting Faster and Cheaper International Payments",
-      "body": "Brazil\u2019s central bank is preparing to expand the Pix instant payments system to integrate with international payment networks, aiming to streamline cross-border transactions. By enabling real-time, low-cost transfers, Pix could reduce the market share of traditional remittance providers and global card networks, especially for high-volume corridors. Brazilian fintechs and merchants may gain easier access to international customers, while global PSPs face pressure to lower fees and improve speed.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48226/brazil-to-expand-pix-payment-system"
-      }
-    },
-    {
-      "title": "Jennifer Bailey\u2019s Retirement Opens Leadership Gap at Apple Pay Amid Intensifying Wallet Competition",
-      "body": "Jennifer Bailey, the executive who led Apple Pay since its 2014 launch, will retire, ending a 12-year tenure that saw Apple Pay become a dominant digital wallet. Her departure comes as Apple faces renewed competition from Google Pay, PayPal, and emerging wallet providers. Apple\u2019s next payments leader will need to defend share and drive innovation as wallet adoption deepens and merchant preferences shift. Competitors may use this transition window to push for merchant integrations and consumer mindshare.",
+      "title": "Yuno Raises $45M to Build AI-Native Global Payments Operating System",
+      "body": "Yuno secured $45 million in Series B funding to enhance its AI-native platform for global payments, targeting enterprise merchants, banks, and wallets. The new capital will support product development and international expansion, as Yuno aims to compete directly with established processors like Stripe and Adyen. As AI-driven orchestration and cost efficiencies become standard, incumbents may need to accelerate their own AI investments or risk losing market share to newer entrants like Yuno.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/apple/apple-pay-tracker/2026/jennifer-bailey-to-retire-after-leading-apple-pay-since-2014-launch/"
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/yuno-raises-45-million-to-drive-global-payments-push/"
+      }
+    },
+    {
+      "title": "Coinbase Picks Abu Dhabi for International Tokenisation Hub Expansion",
+      "body": "Coinbase will establish its international tokenisation hub in Abu Dhabi, leveraging the region\u2019s regulatory clarity to expand digital asset services for institutional clients. By choosing Abu Dhabi, Coinbase is actively increasing its global footprint and positioning itself to attract institutional capital from the Middle East. Competing crypto and fintech firms may follow Coinbase\u2019s lead to benefit from regulatory certainty and access to new markets, likely resulting in more tokenised asset products and regional partnerships.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48233/coinbase-to-launch-tokenisation-hub-in-abu-dhabi"
+      }
+    },
+    {
+      "title": "BitGo Grows Q2 Revenue 80% to $4.3B Despite Net Loss, Eyes Profitability Moves",
+      "body": "BitGo reported an 80% year-over-year revenue jump to $4.3 billion in Q2, but posted a net loss of $19 million. The surge highlights BitGo\u2019s strong position in digital asset custody and settlement, but ongoing losses may prompt BitGo to reduce operational costs, renegotiate vendor contracts, or seek strategic partnerships to improve margins. Competitors could attempt to win over BitGo\u2019s clients if profitability concerns persist.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-08-12-bitgo-sees-revenue-jump-q2-411664"
+      }
+    },
+    {
+      "title": "Revolut Scales Back WeWork Access for Premium Users Amid Rising Costs",
+      "body": "Revolut has reduced WeWork access for premium subscribers across Europe after WeWork raised its fees, removing a key benefit for Revolut\u2019s top-tier customers. This change weakens Revolut\u2019s premium offering and may prompt some customers to consider competitors with more robust lifestyle or workspace partnerships. Revolut is likely to explore alternative workspace or travel benefits to maintain loyalty among premium users, underscoring the risks of relying on third-party perks.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48239/revolut-reduces-wework-access-for-premium-members"
       }
     }
   ],
-  "perspective": "Revolut\u2019s French license and the Moneris sale to Francisco Partners show how licensing and M&A are redrawing payments competition in 2026.",
+  "perspective": "Flywire, Trustly, and Coinbase are expanding open banking and tokenisation by launching new services in North America and Abu Dhabi.",
   "curiosity": {
-    "text": "In 2005, the U.S. experienced the largest class action settlement in history when a $335 million payout was issued to consumers affected by fraudulent fees from credit card processors, highlighting the industry's challenges with transparency and trust."
+    "text": "In 1994, the first online purchase using a secure payment system was made when a CD was sold by NetMarket, marking a milestone in e-commerce history."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Fazeshift",
-      "description": "Amex Ventures funds Fazeshift's AI expansion beyond accounts receivable.",
-      "source_url": "https://www.finextra.com/newsarticle/48230/amex-ventures-invests-in-autonomous-finance-startup-fazeshift"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Axle",
-      "description": "Axle raises $17.5M for AI-native insurance clearinghouse.",
-      "source_url": "https://www.finextra.com/pressarticle/110621/ai-native-clearinghouse-for-insurance-axle-raises-175m"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Erebor",
-      "description": "Erebor nears $1.5B funding round targeting innovation economy.",
-      "source_url": "https://www.finextra.com/newsarticle/48222/new-bank-targeting-innovation-economy-closes-in-on-15bn-funding-round"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Astraeus",
-      "description": "Astraeus launches AI-native wealth management infrastructure platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48223/astraeus-launches-wealth-management-infrastructure-platform"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "investment",
+      "company": "HSBC",
+      "description": "Invested in AI startup Model ML for financial modeling.",
+      "source_url": "https://www.finextra.com/newsarticle/48237/hsbc-invests-in-ai-modelling-firm"
     },
     {
       "flag": "\ud83c\udde7\ud83c\uddf7",
-      "type": "expansion",
-      "company": "Monashees",
-      "description": "Monashees expands into Silicon Valley to enhance startup ecosystem.",
-      "source_url": "https://news.crunchbase.com/venture/latam-startup-vc-silicon-valley-expansion-qa-quinzanos-monashees/"
+      "type": "partnership",
+      "company": "Itau Unibanco",
+      "description": "Joined Brazilian tokenisation pilot with OpenAssets.",
+      "source_url": "https://www.finextra.com/newsarticle/48234/itau-unibanco-joins-brazilian-tokenisation-pilot"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "investment",
+      "company": "Amex Ventures",
+      "description": "Invested in autonomous finance startup Fazeshift.",
+      "source_url": "https://www.finextra.com/newsarticle/48230/amex-ventures-invests-in-autonomous-finance-startup-fazeshift"
     }
   ]
 }
