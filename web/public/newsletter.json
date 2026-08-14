@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Flywire and Trustly Bring Open Banking Payments to US and Canada Merchants",
-      "body": "Flywire and Trustly have expanded their partnership to enable open banking payments across the US and Canada, allowing merchants and billers to accept secure, large-value domestic and cross-border transactions directly from customer bank accounts. By offering a lower-cost, API-driven alternative to cards and wires, Flywire and Trustly directly challenge established payment processors such as FIS and Fiserv. US and Canadian banks will likely see increased demand for open banking APIs as merchant adoption accelerates, while regulators may soon address data access and security standards.",
+      "title": "Figure\u2019s Blockchain Loan Marketplace Surges to $4.3B Quarterly Volume, Challenging Lenders",
+      "body": "Figure Technology Solutions\u2019 blockchain-native Consumer Loan Marketplace processed $4.3 billion in Q2, up 132% from the previous quarter. Traditional lenders and fintechs now face direct competition as Figure\u2019s rapid growth demonstrates that blockchain-based origination and settlement can scale in consumer lending. Banks and nonbanks are launching their own blockchain pilots to keep pace with Figure\u2019s momentum.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payment-methods/2026/flywire-and-trustly-bring-open-banking-partnership-to-us/"
+        "url": "https://www.pymnts.com/earnings/2026/figures-blockchain-marketplace-tops-1-billion-weekly-loan-applications-after-record-q2/"
       }
     },
     {
-      "title": "Yuno Raises $45M to Build AI-Native Global Payments Operating System",
-      "body": "Yuno secured $45 million in Series B funding to enhance its AI-native platform for global payments, targeting enterprise merchants, banks, and wallets. The new capital will support product development and international expansion, as Yuno aims to compete directly with established processors like Stripe and Adyen. As AI-driven orchestration and cost efficiencies become standard, incumbents may need to accelerate their own AI investments or risk losing market share to newer entrants like Yuno.",
+      "title": "Chime Eyes Stablecoin Wallet Integration, Seeks Blockchain Partners for Consumer App",
+      "body": "Chime Financial is actively soliciting proposals from blockchain firms to add stablecoin wallet functionality to its banking app, aiming to become one of the first major US neobanks to embed digital asset rails for everyday users. Chime\u2019s move forces other fintechs and banks to decide whether to match its digital asset integration or risk losing engagement to faster-moving competitors.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/yuno-raises-45-million-to-drive-global-payments-push/"
+        "url": "https://www.pymnts.com/blockchain/2026/chime-weighs-adding-stablecoin-wallet-to-consumer-banking-app/"
       }
     },
     {
-      "title": "Coinbase Picks Abu Dhabi for International Tokenisation Hub Expansion",
-      "body": "Coinbase will establish its international tokenisation hub in Abu Dhabi, leveraging the region\u2019s regulatory clarity to expand digital asset services for institutional clients. By choosing Abu Dhabi, Coinbase is actively increasing its global footprint and positioning itself to attract institutional capital from the Middle East. Competing crypto and fintech firms may follow Coinbase\u2019s lead to benefit from regulatory certainty and access to new markets, likely resulting in more tokenised asset products and regional partnerships.",
+      "title": "Adyen Integrates Loyalty With Payments as In-Person Volume Jumps 28% in Q2",
+      "body": "Adyen reported a 28% year-over-year increase in in-person payment volume, crediting its strategy to tightly link loyalty programs with payments. Merchants using Adyen can now offer integrated rewards at checkout, prompting payment processors like Stripe and Worldpay to accelerate their own loyalty and commerce media integrations to retain merchant relationships in a competitive market.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/earnings/2026/adyen-ties-loyalty-to-payments-as-in-person-volume-climbs-28/"
+      }
+    },
+    {
+      "title": "Bank of America Invests $1.9B for 49.9% Stake in India\u2019s Jio Credit",
+      "body": "Bank of America will acquire nearly half of Jio Credit for $1.9 billion, marking a major bet on India\u2019s digital lending sector. The Reserve Bank of India and local competition authorities are likely to scrutinize the deal as BofA intensifies competition with both local and global digital lenders, while other global banks consider similar cross-border investments to gain emerging market scale.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48233/coinbase-to-launch-tokenisation-hub-in-abu-dhabi"
+        "url": "https://www.finextra.com/newsarticle/48247/bofa-to-buy-499-stake-in-indian-digital-lender-jio-credit"
       }
     },
     {
-      "title": "BitGo Grows Q2 Revenue 80% to $4.3B Despite Net Loss, Eyes Profitability Moves",
-      "body": "BitGo reported an 80% year-over-year revenue jump to $4.3 billion in Q2, but posted a net loss of $19 million. The surge highlights BitGo\u2019s strong position in digital asset custody and settlement, but ongoing losses may prompt BitGo to reduce operational costs, renegotiate vendor contracts, or seek strategic partnerships to improve margins. Competitors could attempt to win over BitGo\u2019s clients if profitability concerns persist.",
+      "title": "Citi to Acquire Kard, Targeting Personalized Rewards and Commerce Media Expansion",
+      "body": "Citi\u2019s U.S. Consumer Cards division plans to acquire Kard Financial to boost its personalized rewards and commerce media capabilities. Large U.S. banks, including JPMorgan Chase and Capital One, are now accelerating product enhancements and forming new partnerships to compete for cardholder engagement as Citi raises the bar for tailored loyalty and shopping experiences.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-08-12-bitgo-sees-revenue-jump-q2-411664"
-      }
-    },
-    {
-      "title": "Revolut Scales Back WeWork Access for Premium Users Amid Rising Costs",
-      "body": "Revolut has reduced WeWork access for premium subscribers across Europe after WeWork raised its fees, removing a key benefit for Revolut\u2019s top-tier customers. This change weakens Revolut\u2019s premium offering and may prompt some customers to consider competitors with more robust lifestyle or workspace partnerships. Revolut is likely to explore alternative workspace or travel benefits to maintain loyalty among premium users, underscoring the risks of relying on third-party perks.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48239/revolut-reduces-wework-access-for-premium-members"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/acquiring/2026/citi-plans-to-acquire-kard-to-deliver-more-personalized-rewards/"
       }
     }
   ],
-  "perspective": "Flywire, Trustly, and Coinbase are expanding open banking and tokenisation by launching new services in North America and Abu Dhabi.",
+  "perspective": "Chime and Figure\u2019s blockchain initiatives are forcing banks and fintechs to accelerate digital asset adoption and rethink consumer engagement strategies.",
   "curiosity": {
-    "text": "In 1994, the first online purchase using a secure payment system was made when a CD was sold by NetMarket, marking a milestone in e-commerce history."
+    "text": "In 2002, the U.S. launched the first electronic check processing system, enabling banks to clear checks digitally and dramatically reducing settlement times."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "investment",
-      "company": "HSBC",
-      "description": "Invested in AI startup Model ML for financial modeling.",
-      "source_url": "https://www.finextra.com/newsarticle/48237/hsbc-invests-in-ai-modelling-firm"
-    },
-    {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
-      "type": "partnership",
-      "company": "Itau Unibanco",
-      "description": "Joined Brazilian tokenisation pilot with OpenAssets.",
-      "source_url": "https://www.finextra.com/newsarticle/48234/itau-unibanco-joins-brazilian-tokenisation-pilot"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Databricks",
+      "description": "Raised $5 billion to expand enterprise AI agent platform.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/databricks-raises-5-billion-to-expand-enterprise-ai-agent-platform/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "investment",
-      "company": "Amex Ventures",
-      "description": "Invested in autonomous finance startup Fazeshift.",
-      "source_url": "https://www.finextra.com/newsarticle/48230/amex-ventures-invests-in-autonomous-finance-startup-fazeshift"
+      "type": "fundraising",
+      "company": "ClearJet",
+      "description": "Raised $25 million to build AI-enabled logistics platform.",
+      "source_url": "https://news.crunchbase.com/transportation/clearjet-raises-25m-logistics-ai-seriesb/"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Moss",
+      "description": "Raised \u20ac30 million Series C, becoming Europe's newest unicorn.",
+      "source_url": "https://sifted.eu/articles/moss-unicorn-series-c/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Flywire",
+      "description": "Expanded open banking payments across US and Canada.",
+      "source_url": "https://www.finextra.com/pressarticle/110632/flywire-expands-trustly-partnership-to-deliver-open-banking-payments-across-us-and-canada"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "Granted French banking license for broader service offerings.",
+      "source_url": "https://sifted.eu/articles/revolut-french-banking-licence/"
     }
   ]
 }
