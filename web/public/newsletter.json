@@ -1,85 +1,71 @@
 {
   "news": [
     {
-      "title": "Figure\u2019s Blockchain Loan Marketplace Surges to $4.3B Quarterly Volume, Challenging Lenders",
-      "body": "Figure Technology Solutions\u2019 blockchain-native Consumer Loan Marketplace processed $4.3 billion in Q2, up 132% from the previous quarter. Traditional lenders and fintechs now face direct competition as Figure\u2019s rapid growth demonstrates that blockchain-based origination and settlement can scale in consumer lending. Banks and nonbanks are launching their own blockchain pilots to keep pace with Figure\u2019s momentum.",
+      "title": "PayPal Pursues Sale Talks with Stripe and Advent, Setting Up Major Fintech Shakeup",
+      "body": "PayPal has entered advanced negotiations to sell itself to a consortium led by Stripe and Advent International, after rejecting an initial bid as too low. Stripe and Advent aim to combine their strengths with PayPal\u2019s global merchant network, which could reshape competitive dynamics for banks, fintechs, and merchants. Antitrust regulators in the US and EU are preparing to review the deal, while rival payment firms are already exploring defensive partnerships and new product launches.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/figures-blockchain-marketplace-tops-1-billion-weekly-loan-applications-after-record-q2/"
+        "url": "https://www.pymnts.com/news/acquiring/2026/paypal-discussing-sale-stripe-after-rejecting-first-offer/"
       }
     },
     {
-      "title": "Chime Eyes Stablecoin Wallet Integration, Seeks Blockchain Partners for Consumer App",
-      "body": "Chime Financial is actively soliciting proposals from blockchain firms to add stablecoin wallet functionality to its banking app, aiming to become one of the first major US neobanks to embed digital asset rails for everyday users. Chime\u2019s move forces other fintechs and banks to decide whether to match its digital asset integration or risk losing engagement to faster-moving competitors.",
+      "title": "Mastercard\u2019s Partial Payout to Brazilian Acquirers Spurs Market Realignment After Will Bank Collapse",
+      "body": "Mastercard has offered to pay 50% of the claims sought by Brazilian merchant acquirers affected by Will Financeira\u2019s failure, aiming to retain key partners and stabilize its market share. Leading acquirers like Cielo and StoneCo must now decide whether to accept losses or seek alternative alliances, while smaller players face pressure to merge or exit. Brazilian regulators are reviewing whether Mastercard\u2019s offer meets industry standards for risk management.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/chime-weighs-adding-stablecoin-wallet-to-consumer-banking-app/"
+        "url": "https://www.pymnts.com/mastercard/2026/mastercard-offers-brazilian-acquirers-50percent-payout-services-will-bank-dispute/"
       }
     },
     {
-      "title": "Adyen Integrates Loyalty With Payments as In-Person Volume Jumps 28% in Q2",
-      "body": "Adyen reported a 28% year-over-year increase in in-person payment volume, crediting its strategy to tightly link loyalty programs with payments. Merchants using Adyen can now offer integrated rewards at checkout, prompting payment processors like Stripe and Worldpay to accelerate their own loyalty and commerce media integrations to retain merchant relationships in a competitive market.",
+      "title": "Visa Launches Tap-to-Phone for Small Merchants in Southeast Asia",
+      "body": "Visa has rolled out tap-to-phone technology across Indonesia, Thailand, and Vietnam, enabling small merchants to accept contactless payments using only a smartphone. This move lowers hardware barriers for microbusinesses and expands Visa\u2019s reach in cash-heavy markets. Competing card networks and local banks may accelerate their own digital acceptance initiatives to keep pace with Visa\u2019s merchant acquisition strategy.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/adyen-ties-loyalty-to-payments-as-in-person-volume-climbs-28/"
+        "name": "The Paypers",
+        "url": "https://thepaypers.com/mobile-payments/visa-launches-tap-to-phone-in-southeast-asia--1265432"
       }
     },
     {
-      "title": "Bank of America Invests $1.9B for 49.9% Stake in India\u2019s Jio Credit",
-      "body": "Bank of America will acquire nearly half of Jio Credit for $1.9 billion, marking a major bet on India\u2019s digital lending sector. The Reserve Bank of India and local competition authorities are likely to scrutinize the deal as BofA intensifies competition with both local and global digital lenders, while other global banks consider similar cross-border investments to gain emerging market scale.",
+      "title": "OCC Grants Conditional Approval to Trump-backed World Liberty Financial",
+      "body": "The OCC has granted preliminary approval for World Liberty Financial, backed by former President Trump, to operate as a national trust bank. This decision introduces a politically connected entrant into the US trust banking sector, prompting established trust banks to reassess their client strategies. Regulators and industry observers are watching for World Liberty Financial\u2019s next moves and potential legal challenges.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-08-14-occ-grants-conditional-approval-trump-world-liberty-national-trust-bank-411906"
+      }
+    },
+    {
+      "title": "Chime Considers Stablecoin Integration to Broaden Digital Banking Services",
+      "body": "Chime is evaluating the addition of stablecoin features to its app, aiming to attract digitally savvy consumers and differentiate from traditional banks. If Chime proceeds, US banks and fintechs may need to accelerate their own digital asset strategies to retain customers. Regulators are expected to scrutinize any rollout for compliance and consumer protection.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48247/bofa-to-buy-499-stake-in-indian-digital-lender-jio-credit"
-      }
-    },
-    {
-      "title": "Citi to Acquire Kard, Targeting Personalized Rewards and Commerce Media Expansion",
-      "body": "Citi\u2019s U.S. Consumer Cards division plans to acquire Kard Financial to boost its personalized rewards and commerce media capabilities. Large U.S. banks, including JPMorgan Chase and Capital One, are now accelerating product enhancements and forming new partnerships to compete for cardholder engagement as Citi raises the bar for tailored loyalty and shopping experiences.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/citi-plans-to-acquire-kard-to-deliver-more-personalized-rewards/"
+        "url": "https://www.finextra.com/newsarticle/48250/chime-considering-adding-stablecoin-features-to-app"
       }
     }
   ],
-  "perspective": "Chime and Figure\u2019s blockchain initiatives are forcing banks and fintechs to accelerate digital asset adoption and rethink consumer engagement strategies.",
+  "perspective": "PayPal\u2019s sale talks with Stripe and Visa\u2019s tap-to-phone launch signal a pivotal week for global payments consolidation and digital acceptance.",
   "curiosity": {
-    "text": "In 2002, the U.S. launched the first electronic check processing system, enabling banks to clear checks digitally and dramatically reducing settlement times."
+    "text": "In the 1950s, some US department stores issued their own metal charge plates\u2014early credit cards that doubled as personal ID and could be used only at that store."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddf3\ud83c\uddff",
       "type": "fundraising",
-      "company": "Databricks",
-      "description": "Raised $5 billion to expand enterprise AI agent platform.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/databricks-raises-5-billion-to-expand-enterprise-ai-agent-platform/"
+      "company": "Sterling",
+      "description": "Raised $3.8M to automate finance teams.",
+      "source_url": "https://www.finextra.com/pressarticle/110645/new-zealands-sterling-lands-funding-to-run-finance-on-autopilot"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "ClearJet",
-      "description": "Raised $25 million to build AI-enabled logistics platform.",
-      "source_url": "https://news.crunchbase.com/transportation/clearjet-raises-25m-logistics-ai-seriesb/"
+      "type": "M&A",
+      "company": "Citigroup",
+      "description": "Acquiring fintech Kard to enhance customer engagement.",
+      "source_url": "https://www.finextra.com/pressarticle/110647/citigroups-consumer-cards-to-acquire-fintech-kard"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Moss",
-      "description": "Raised \u20ac30 million Series C, becoming Europe's newest unicorn.",
-      "source_url": "https://sifted.eu/articles/moss-unicorn-series-c/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\udde6\ud83c\uddfa",
       "type": "expansion",
-      "company": "Flywire",
-      "description": "Expanded open banking payments across US and Canada.",
-      "source_url": "https://www.finextra.com/pressarticle/110632/flywire-expands-trustly-partnership-to-deliver-open-banking-payments-across-us-and-canada"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Granted French banking license for broader service offerings.",
-      "source_url": "https://sifted.eu/articles/revolut-french-banking-licence/"
+      "company": "Airwallex",
+      "description": "Partnered with Affirm for US BNPL rollout.",
+      "source_url": "https://www.finextra.com/pressarticle/110644/airwallex-partners-affirm-for-us-bnpl-roll-out"
     }
   ]
 }
