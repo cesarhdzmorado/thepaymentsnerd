@@ -1,71 +1,64 @@
 {
   "news": [
     {
-      "title": "PayPal Pursues Sale Talks with Stripe and Advent, Setting Up Major Fintech Shakeup",
-      "body": "PayPal has entered advanced negotiations to sell itself to a consortium led by Stripe and Advent International, after rejecting an initial bid as too low. Stripe and Advent aim to combine their strengths with PayPal\u2019s global merchant network, which could reshape competitive dynamics for banks, fintechs, and merchants. Antitrust regulators in the US and EU are preparing to review the deal, while rival payment firms are already exploring defensive partnerships and new product launches.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/paypal-discussing-sale-stripe-after-rejecting-first-offer/"
-      }
-    },
-    {
-      "title": "Mastercard\u2019s Partial Payout to Brazilian Acquirers Spurs Market Realignment After Will Bank Collapse",
-      "body": "Mastercard has offered to pay 50% of the claims sought by Brazilian merchant acquirers affected by Will Financeira\u2019s failure, aiming to retain key partners and stabilize its market share. Leading acquirers like Cielo and StoneCo must now decide whether to accept losses or seek alternative alliances, while smaller players face pressure to merge or exit. Brazilian regulators are reviewing whether Mastercard\u2019s offer meets industry standards for risk management.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/mastercard/2026/mastercard-offers-brazilian-acquirers-50percent-payout-services-will-bank-dispute/"
-      }
-    },
-    {
-      "title": "Visa Launches Tap-to-Phone for Small Merchants in Southeast Asia",
-      "body": "Visa has rolled out tap-to-phone technology across Indonesia, Thailand, and Vietnam, enabling small merchants to accept contactless payments using only a smartphone. This move lowers hardware barriers for microbusinesses and expands Visa\u2019s reach in cash-heavy markets. Competing card networks and local banks may accelerate their own digital acceptance initiatives to keep pace with Visa\u2019s merchant acquisition strategy.",
-      "source": {
-        "name": "The Paypers",
-        "url": "https://thepaypers.com/mobile-payments/visa-launches-tap-to-phone-in-southeast-asia--1265432"
-      }
-    },
-    {
-      "title": "OCC Grants Conditional Approval to Trump-backed World Liberty Financial",
-      "body": "The OCC has granted preliminary approval for World Liberty Financial, backed by former President Trump, to operate as a national trust bank. This decision introduces a politically connected entrant into the US trust banking sector, prompting established trust banks to reassess their client strategies. Regulators and industry observers are watching for World Liberty Financial\u2019s next moves and potential legal challenges.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-08-14-occ-grants-conditional-approval-trump-world-liberty-national-trust-bank-411906"
-      }
-    },
-    {
-      "title": "Chime Considers Stablecoin Integration to Broaden Digital Banking Services",
-      "body": "Chime is evaluating the addition of stablecoin features to its app, aiming to attract digitally savvy consumers and differentiate from traditional banks. If Chime proceeds, US banks and fintechs may need to accelerate their own digital asset strategies to retain customers. Regulators are expected to scrutinize any rollout for compliance and consumer protection.",
+      "title": "Citigroup Acquires Kard to Boost Consumer Card Engagement and Loyalty",
+      "body": "Citigroup\u2019s Consumer Cards division has agreed to acquire fintech Kard Financial, aiming to enhance its consumer engagement and rewards capabilities. This move positions Citi to compete more aggressively with digital-first banks and fintechs on loyalty and personalization. Other major banks may now pursue similar acquisitions to defend their card portfolios and deepen customer relationships. The deal also highlights ongoing regulatory scrutiny of bank-fintech tie-ups.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48250/chime-considering-adding-stablecoin-features-to-app"
+        "url": "https://www.finextra.com/pressarticle/110647/citigroups-consumer-cards-to-acquire-fintech-kard"
+      }
+    },
+    {
+      "title": "Visa and Mastercard Face New UK Probe Over Cross-Border Card Fees",
+      "body": "The UK\u2019s Payment Systems Regulator has launched a formal investigation into Visa and Mastercard\u2019s cross-border interchange fees, citing concerns about rising costs for merchants and consumers. The probe could lead to regulatory interventions that reshape fee structures and impact card scheme revenues. Merchants and payment processors are watching closely for potential changes to cross-border transaction economics.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/uk-watchdog-opens-formal-probe-visa-mastercard-cross-border-fees-2024-06-21/"
+      }
+    },
+    {
+      "title": "JPMorgan Cuts Off Polymarket, Raising Stakes for Bank-Fintech Partnerships",
+      "body": "JPMorgan Chase has ended its banking relationship with prediction market Polymarket, citing regulatory concerns and compliance priorities. This move may prompt other large banks to reassess their exposure to crypto-adjacent platforms and tighten onboarding standards. Fintechs operating in gray regulatory areas now face higher barriers to maintaining traditional banking access. The episode could accelerate calls for clearer rules on bank-fintech partnerships.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48251/jpmorgan-debanked-polymarket---ft"
+      }
+    },
+    {
+      "title": "Israel\u2019s Largest Bank Partners with Galaxy Digital for Crypto Trading Expansion",
+      "body": "Israel\u2019s largest bank has teamed up with Galaxy Digital to offer trading services for Bitcoin, Ether, and Solana, expanding its crypto product suite. This partnership gives Israeli customers direct access to major digital assets through a regulated banking channel. Competing banks in the region may now accelerate their own crypto integrations to avoid losing market share. Regulatory scrutiny of such partnerships is likely to intensify as adoption grows.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-08-14-israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading-411868"
+      }
+    },
+    {
+      "title": "Cboe Seeks SEC Approval for First U.S. 3x Leveraged Bitcoin and Ether ETFs",
+      "body": "Cboe has filed for SEC approval to launch the first U.S. 3x leveraged Bitcoin and Ether ETFs, aiming to capture demand for high-risk, high-reward crypto products. If approved, this would set a new bar for leveraged crypto exposure in regulated markets and likely trigger a wave of similar filings from competitors. The move raises the stakes for ETF issuers and may prompt the SEC to revisit its approach to leveraged digital asset products.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-08-14-cboe-seeks-sec-nod-for-first-us-3x-bitcoin-and-ether-etfs-411879"
       }
     }
   ],
-  "perspective": "PayPal\u2019s sale talks with Stripe and Visa\u2019s tap-to-phone launch signal a pivotal week for global payments consolidation and digital acceptance.",
+  "perspective": "Citigroup\u2019s Kard acquisition and the UK probe into Visa and Mastercard highlight intensifying competition and regulatory scrutiny in payments and fintech.",
   "curiosity": {
-    "text": "In the 1950s, some US department stores issued their own metal charge plates\u2014early credit cards that doubled as personal ID and could be used only at that store."
+    "text": "PSD2\u2019s requirement for banks to provide open APIs led to the emergence of third-party providers that can initiate payments directly from customer accounts, bypassing card networks entirely."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf3\ud83c\uddff",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Sterling",
-      "description": "Raised $3.8M to automate finance teams.",
-      "source_url": "https://www.finextra.com/pressarticle/110645/new-zealands-sterling-lands-funding-to-run-finance-on-autopilot"
+      "company": "Databricks",
+      "description": "Raised $5 billion in latest funding round.",
+      "source_url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Citigroup",
-      "description": "Acquiring fintech Kard to enhance customer engagement.",
-      "source_url": "https://www.finextra.com/pressarticle/110647/citigroups-consumer-cards-to-acquire-fintech-kard"
-    },
-    {
-      "flag": "\ud83c\udde6\ud83c\uddfa",
       "type": "expansion",
-      "company": "Airwallex",
-      "description": "Partnered with Affirm for US BNPL rollout.",
-      "source_url": "https://www.finextra.com/pressarticle/110644/airwallex-partners-affirm-for-us-bnpl-roll-out"
+      "company": "World Liberty Financial",
+      "description": "Received OCC approval for national trust bank.",
+      "source_url": "https://www.theblock.co/news/regulation/2026-08-14-occ-grants-conditional-approval-trump-world-liberty-national-trust-bank-411906"
     }
   ]
 }
