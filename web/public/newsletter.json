@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "Citigroup Acquires Kard to Boost Consumer Card Engagement and Loyalty",
-      "body": "Citigroup\u2019s Consumer Cards division has agreed to acquire fintech Kard Financial, aiming to enhance its consumer engagement and rewards capabilities. This move positions Citi to compete more aggressively with digital-first banks and fintechs on loyalty and personalization. Other major banks may now pursue similar acquisitions to defend their card portfolios and deepen customer relationships. The deal also highlights ongoing regulatory scrutiny of bank-fintech tie-ups.",
+      "title": "OCC Approves Bank Charter for Trump-Linked Crypto Firm, Paving Way for Direct Crypto Access to US Banking",
+      "body": "The OCC has granted preliminary conditional approval for a national banking charter to World Liberty Financial, a cryptocurrency company associated with the Trump family. This is the first time a major US crypto firm has received such a charter, allowing it to offer banking services without partnering with traditional banks. The move signals that crypto-native firms could soon compete head-to-head with banks for deposits and payments, prompting both traditional banks and fintechs to reassess their digital asset strategies.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/trump-affiliated-crypto-company-wins-us-banking-charter/"
+      }
+    },
+    {
+      "title": "Western Union\u2019s Intermax Acquisition Clears New York, Awaits California\u2019s Final Decision",
+      "body": "Western Union has received approval from New York regulators to acquire Intermax, with requirements to maintain store locations and limit fee increases. The deal still needs approval from California, which will determine whether Western Union can further consolidate its dominance in US remittances. If approved, smaller money transfer companies could face increased competitive pressure, potentially reducing consumer choice and altering fee structures nationwide.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110647/citigroups-consumer-cards-to-acquire-fintech-kard"
+        "url": "https://www.finextra.com/newsarticle/48252/western-union-gets-new-york-nod-for-intermax-acquisition-still-face-california-hurdles"
       }
     },
     {
-      "title": "Visa and Mastercard Face New UK Probe Over Cross-Border Card Fees",
-      "body": "The UK\u2019s Payment Systems Regulator has launched a formal investigation into Visa and Mastercard\u2019s cross-border interchange fees, citing concerns about rising costs for merchants and consumers. The probe could lead to regulatory interventions that reshape fee structures and impact card scheme revenues. Merchants and payment processors are watching closely for potential changes to cross-border transaction economics.",
+      "title": "Sezzle Seeks National Bank Charter to Expand Beyond Pay-in-Four as BNPL Regulation Tightens",
+      "body": "Sezzle is applying for a national bank charter to bypass stricter state-level rules and broaden its offerings beyond traditional pay-in-four installments. This move positions Sezzle to compete directly with banks and large fintechs, and signals that BNPL providers may need to become regulated banks to survive. The shift could accelerate consolidation in the BNPL sector, with smaller players at risk of being squeezed out by those able to meet higher compliance standards.",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/uk-watchdog-opens-formal-probe-visa-mastercard-cross-border-fees-2024-06-21/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/sezzle-pivots-national-bank-charter-occ-ilc/827810/"
       }
     },
     {
-      "title": "JPMorgan Cuts Off Polymarket, Raising Stakes for Bank-Fintech Partnerships",
-      "body": "JPMorgan Chase has ended its banking relationship with prediction market Polymarket, citing regulatory concerns and compliance priorities. This move may prompt other large banks to reassess their exposure to crypto-adjacent platforms and tighten onboarding standards. Fintechs operating in gray regulatory areas now face higher barriers to maintaining traditional banking access. The episode could accelerate calls for clearer rules on bank-fintech partnerships.",
+      "title": "Polygon Partners with Bank of England to Pilot Blockchain-Based Cross-Border Settlement",
+      "body": "Polygon Labs has joined the Bank of England\u2019s Digital Pound Lab to test blockchain-powered, near-instant cross-border settlement. This partnership places Polygon at the forefront of the UK\u2019s digital currency trials and could shape how banks and payment processors adopt blockchain for international transactions. The pilot\u2019s outcomes may influence other central banks considering tokenized settlement infrastructure.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48251/jpmorgan-debanked-polymarket---ft"
+        "url": "https://www.finextra.com/newsarticle/48253/polygon-joins-bofes-digital-pound-lab-to-test-cross-border-settlement"
       }
     },
     {
-      "title": "Israel\u2019s Largest Bank Partners with Galaxy Digital for Crypto Trading Expansion",
-      "body": "Israel\u2019s largest bank has teamed up with Galaxy Digital to offer trading services for Bitcoin, Ether, and Solana, expanding its crypto product suite. This partnership gives Israeli customers direct access to major digital assets through a regulated banking channel. Competing banks in the region may now accelerate their own crypto integrations to avoid losing market share. Regulatory scrutiny of such partnerships is likely to intensify as adoption grows.",
+      "title": "Alibaba Tops Google and Meta with 3 Billion Global AI Model Downloads, Targeting Fintech and Commerce",
+      "body": "Alibaba\u2019s AI models have surpassed 3 billion downloads globally, outpacing Google and Meta in worldwide distribution. This achievement strengthens Alibaba\u2019s position in the AI ecosystem and is expected to drive new collaborations with global banks and fintechs seeking embedded AI solutions for payments, risk, and customer engagement. Alibaba is now investing in regional data centers and developer partnerships to support adoption in financial services.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-08-14-israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading-411868"
-      }
-    },
-    {
-      "title": "Cboe Seeks SEC Approval for First U.S. 3x Leveraged Bitcoin and Ether ETFs",
-      "body": "Cboe has filed for SEC approval to launch the first U.S. 3x leveraged Bitcoin and Ether ETFs, aiming to capture demand for high-risk, high-reward crypto products. If approved, this would set a new bar for leveraged crypto exposure in regulated markets and likely trigger a wave of similar filings from competitors. The move raises the stakes for ETF issuers and may prompt the SEC to revisit its approach to leveraged digital asset products.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-08-14-cboe-seeks-sec-nod-for-first-us-3x-bitcoin-and-ether-etfs-411879"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/alibaba-overtakes-google-and-meta-with-3-billion-ai-model-downloads/"
       }
     }
   ],
-  "perspective": "Citigroup\u2019s Kard acquisition and the UK probe into Visa and Mastercard highlight intensifying competition and regulatory scrutiny in payments and fintech.",
+  "perspective": "OCC\u2019s crypto bank charter for World Liberty Financial signals a new era of direct competition between crypto firms and traditional banks in the US.",
   "curiosity": {
-    "text": "PSD2\u2019s requirement for banks to provide open APIs led to the emergence of third-party providers that can initiate payments directly from customer accounts, bypassing card networks entirely."
+    "text": "Despite processing over $72 trillion annually, the ACH network still settles most transactions in batches, meaning many 'instant' payments actually clear hours later."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Databricks",
-      "description": "Raised $5 billion in latest funding round.",
+      "description": "raises $5 billion in latest funding round.",
       "source_url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "ClearJet",
+      "description": "raises $25M to build the 'Uber of Cargo'.",
+      "source_url": "https://news.crunchbase.com/transportation/clearjet-raises-25m-logistics-ai-seriesb/"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "expansion",
-      "company": "World Liberty Financial",
-      "description": "Received OCC approval for national trust bank.",
-      "source_url": "https://www.theblock.co/news/regulation/2026-08-14-occ-grants-conditional-approval-trump-world-liberty-national-trust-bank-411906"
+      "company": "Monashees",
+      "description": "opens a Silicon Valley office to expand its presence.",
+      "source_url": "https://news.crunchbase.com/venture/latam-startup-vc-silicon-valley-expansion-qa-quinzanos-monashees/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "closes $95M fund to back fintech, future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     }
   ]
 }
