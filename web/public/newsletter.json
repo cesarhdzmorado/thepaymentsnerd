@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "OCC Approves Bank Charter for Trump-Linked Crypto Firm, Paving Way for Direct Crypto Access to US Banking",
-      "body": "The OCC has granted preliminary conditional approval for a national banking charter to World Liberty Financial, a cryptocurrency company associated with the Trump family. This is the first time a major US crypto firm has received such a charter, allowing it to offer banking services without partnering with traditional banks. The move signals that crypto-native firms could soon compete head-to-head with banks for deposits and payments, prompting both traditional banks and fintechs to reassess their digital asset strategies.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/trump-affiliated-crypto-company-wins-us-banking-charter/"
-      }
-    },
-    {
-      "title": "Western Union\u2019s Intermax Acquisition Clears New York, Awaits California\u2019s Final Decision",
-      "body": "Western Union has received approval from New York regulators to acquire Intermax, with requirements to maintain store locations and limit fee increases. The deal still needs approval from California, which will determine whether Western Union can further consolidate its dominance in US remittances. If approved, smaller money transfer companies could face increased competitive pressure, potentially reducing consumer choice and altering fee structures nationwide.",
+      "title": "Stripe Acquires OpenRouter for $7B to Embed AI Deeper in Payment Processing",
+      "body": "Stripe acquired OpenRouter for $7 billion, integrating the AI gateway startup\u2019s technology directly into its payment processing stack. Stripe aims to automate merchant onboarding, enhance fraud detection, and launch new AI-powered financial tools, putting direct pressure on Adyen and PayPal to accelerate their own AI strategies. Merchants using Stripe will gain access to faster, more intelligent payment flows, while rivals must respond or risk losing share to Stripe\u2019s upgraded platform.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48252/western-union-gets-new-york-nod-for-intermax-acquisition-still-face-california-hurdles"
+        "url": "https://www.finextra.com/newsarticle/48258/stripe-agrees-7bn-takeover-of-ai-firm-openrouter---bloomberg?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Sezzle Seeks National Bank Charter to Expand Beyond Pay-in-Four as BNPL Regulation Tightens",
-      "body": "Sezzle is applying for a national bank charter to bypass stricter state-level rules and broaden its offerings beyond traditional pay-in-four installments. This move positions Sezzle to compete directly with banks and large fintechs, and signals that BNPL providers may need to become regulated banks to survive. The shift could accelerate consolidation in the BNPL sector, with smaller players at risk of being squeezed out by those able to meet higher compliance standards.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/sezzle-pivots-national-bank-charter-occ-ilc/827810/"
-      }
-    },
-    {
-      "title": "Polygon Partners with Bank of England to Pilot Blockchain-Based Cross-Border Settlement",
-      "body": "Polygon Labs has joined the Bank of England\u2019s Digital Pound Lab to test blockchain-powered, near-instant cross-border settlement. This partnership places Polygon at the forefront of the UK\u2019s digital currency trials and could shape how banks and payment processors adopt blockchain for international transactions. The pilot\u2019s outcomes may influence other central banks considering tokenized settlement infrastructure.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48253/polygon-joins-bofes-digital-pound-lab-to-test-cross-border-settlement"
-      }
-    },
-    {
-      "title": "Alibaba Tops Google and Meta with 3 Billion Global AI Model Downloads, Targeting Fintech and Commerce",
-      "body": "Alibaba\u2019s AI models have surpassed 3 billion downloads globally, outpacing Google and Meta in worldwide distribution. This achievement strengthens Alibaba\u2019s position in the AI ecosystem and is expected to drive new collaborations with global banks and fintechs seeking embedded AI solutions for payments, risk, and customer engagement. Alibaba is now investing in regional data centers and developer partnerships to support adoption in financial services.",
+      "title": "N3XT Wins Wyoming Approval for Tokenized Cross-Border Payment Services",
+      "body": "N3XT secured regulatory approval in Wyoming to launch tokenized cross-border payments, allowing customers to use digital tokens for instant international transfers. This move introduces blockchain-based settlement into regulated US payment flows and challenges legacy correspondent banking models. Banks and fintechs now face a competitor offering faster, potentially cheaper cross-border rails, and may accelerate their own tokenized payment pilots or lobby for regulatory clarity in other states.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/alibaba-overtakes-google-and-meta-with-3-billion-ai-model-downloads/"
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/n3xt-unveils-tokenized-cross-border-payments/"
+      }
+    },
+    {
+      "title": "Ripple and Jeonbuk Bank Launch Blockchain-Powered Remittances in South Korea",
+      "body": "Ripple partnered with South Korea\u2019s Jeonbuk Bank to launch blockchain-based cross-border payments for retail and SME customers. Jeonbuk Bank now offers a faster, lower-cost alternative to SWIFT for international transfers, while Ripple expands its presence in Asia. Regional banks risk losing fee revenue as customers migrate to blockchain rails, and several Korean banks have begun evaluating similar partnerships to maintain their cross-border business.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-08-18-ripple-south-korea-jeonbuk-bank-412049"
+      }
+    },
+    {
+      "title": "UPS Automates 90% of Customs Clearances With AI Agents, Slashing Processing Times",
+      "body": "UPS now uses AI agents to automate 90% of its daily customs clearances, cutting processing times for cross-border shipments and setting a new efficiency benchmark in logistics. FedEx and DHL face mounting pressure to deploy similar AI solutions or risk losing e-commerce clients seeking faster global fulfillment. US Customs and Border Protection and other regulators are reviewing compliance standards to address the rise of AI-driven workflows in logistics.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/delivery/2026/ups-automates-90-of-daily-customs-clearances-with-ai-agents/"
+      }
+    },
+    {
+      "title": "Western Union\u2019s Intermax Deal Clears New York, Faces California Regulatory Delays",
+      "body": "Western Union received approval from New York regulators for its acquisition of Intermax, but the deal remains stalled in California. The acquisition is key to Western Union\u2019s plan to expand its US money transfer network and compete with digital-first fintechs. Delays in California could disrupt Western Union\u2019s integration timeline and give fintech rivals more time to attract remittance customers, directly impacting market share in the US remittance sector.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48252/western-union-gets-new-york-nod-for-intermax-acquisition-still-faces-california-hurdles?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "OCC\u2019s crypto bank charter for World Liberty Financial signals a new era of direct competition between crypto firms and traditional banks in the US.",
+  "perspective": "Stripe\u2019s OpenRouter acquisition and N3XT\u2019s Wyoming launch signal intensifying competition as AI and blockchain reshape cross-border payments and settlement models.",
   "curiosity": {
-    "text": "Despite processing over $72 trillion annually, the ACH network still settles most transactions in batches, meaning many 'instant' payments actually clear hours later."
+    "text": "Prepaid debit cards, often seen as basic financial tools, have become a primary banking alternative for nearly 7 million unbanked U.S. households, enabling bill payments and online purchases."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Databricks",
-      "description": "raises $5 billion in latest funding round.",
-      "source_url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
+      "company": "Wispr Flow",
+      "description": "Raised $280 million, now valued at $2 billion.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/wispr-flow-raises-280-million-and-debuts-voice-ai-model/"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Ingenico",
+      "description": "Secured \u20ac150 million in fresh capital.",
+      "source_url": "https://www.finextra.com/pressarticle/110649/ingenico-secures-150-million-in-fresh-capital?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "ClearJet",
-      "description": "raises $25M to build the 'Uber of Cargo'.",
-      "source_url": "https://news.crunchbase.com/transportation/clearjet-raises-25m-logistics-ai-seriesb/"
-    },
-    {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
-      "type": "expansion",
-      "company": "Monashees",
-      "description": "opens a Silicon Valley office to expand its presence.",
-      "source_url": "https://news.crunchbase.com/venture/latam-startup-vc-silicon-valley-expansion-qa-quinzanos-monashees/"
+      "type": "M&A",
+      "company": "Datavault AI",
+      "description": "Plans $94.5 million acquisition of CyberCatch.",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/datavault-ai-plans-94-million-dollar-cybercatch-buy-shield-organizations-against-ai-attacks/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "closes $95M fund to back fintech, future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "type": "M&A",
+      "company": "Citi",
+      "description": "Acquired rewards fintech Kard.",
+      "source_url": "https://www.bankingdive.com/news/citi-acquires-rewards-fintech-kard-loyalty/828014/"
     }
   ]
 }
