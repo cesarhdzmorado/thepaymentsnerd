@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Stripe Acquires OpenRouter for $7B to Embed AI Deeper in Payment Processing",
-      "body": "Stripe acquired OpenRouter for $7 billion, integrating the AI gateway startup\u2019s technology directly into its payment processing stack. Stripe aims to automate merchant onboarding, enhance fraud detection, and launch new AI-powered financial tools, putting direct pressure on Adyen and PayPal to accelerate their own AI strategies. Merchants using Stripe will gain access to faster, more intelligent payment flows, while rivals must respond or risk losing share to Stripe\u2019s upgraded platform.",
+      "title": "Mobile Wallet Registrations Climb in UK, Challenging High Street Banks",
+      "body": "New data shows that 63% of UK consumers are registered with at least one mobile wallet provider, a trend that is reducing card usage at major banks like Barclays and Lloyds. These banks face declining transaction volumes and customer engagement unless they prioritize wallet integration and digital product enhancements to keep pace with shifting consumer preferences.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48258/stripe-agrees-7bn-takeover-of-ai-firm-openrouter---bloomberg?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48268/mobile-wallets-gain-traction-in-the-uk"
       }
     },
     {
-      "title": "N3XT Wins Wyoming Approval for Tokenized Cross-Border Payment Services",
-      "body": "N3XT secured regulatory approval in Wyoming to launch tokenized cross-border payments, allowing customers to use digital tokens for instant international transfers. This move introduces blockchain-based settlement into regulated US payment flows and challenges legacy correspondent banking models. Banks and fintechs now face a competitor offering faster, potentially cheaper cross-border rails, and may accelerate their own tokenized payment pilots or lobby for regulatory clarity in other states.",
+      "title": "Visa and Mastercard Join Agentic Payments Alliance to Shape AI Commerce Standards",
+      "body": "Visa, Mastercard, and other payments leaders have joined the Agentic Payments Alliance to guide the development of AI-driven commerce. Their involvement allows them to influence technical standards and regulatory frameworks, while payment processors and fintechs outside the alliance could face integration barriers as protocols are established.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-payments/2026/n3xt-unveils-tokenized-cross-border-payments/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48265/visa-and-mastercard-back-new-agentic-payments-alliance"
       }
     },
     {
-      "title": "Ripple and Jeonbuk Bank Launch Blockchain-Powered Remittances in South Korea",
-      "body": "Ripple partnered with South Korea\u2019s Jeonbuk Bank to launch blockchain-based cross-border payments for retail and SME customers. Jeonbuk Bank now offers a faster, lower-cost alternative to SWIFT for international transfers, while Ripple expands its presence in Asia. Regional banks risk losing fee revenue as customers migrate to blockchain rails, and several Korean banks have begun evaluating similar partnerships to maintain their cross-border business.",
+      "title": "SEC Proposes New Crypto Offering Rules, Focusing on Platform Registration and Disclosure",
+      "body": "The SEC has proposed rules requiring crypto platforms to register and provide detailed disclosures, aiming to clarify digital asset investment frameworks. Crypto firms should expect stricter compliance checks, enhanced reporting obligations, and a clearer path to institutional market participation, while unregistered platforms risk being barred from regulated activities.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-08-18-ripple-south-korea-jeonbuk-bank-412049"
+        "url": "https://www.theblock.co/news/regulation/2026-08-18-sec-proposes-new-crypto-offering-rules-congress-stalls-digital-asset-legislation-412145"
       }
     },
     {
-      "title": "UPS Automates 90% of Customs Clearances With AI Agents, Slashing Processing Times",
-      "body": "UPS now uses AI agents to automate 90% of its daily customs clearances, cutting processing times for cross-border shipments and setting a new efficiency benchmark in logistics. FedEx and DHL face mounting pressure to deploy similar AI solutions or risk losing e-commerce clients seeking faster global fulfillment. US Customs and Border Protection and other regulators are reviewing compliance standards to address the rise of AI-driven workflows in logistics.",
+      "title": "Citi to Launch Bitcoin Custody, Competing on Technology and Security",
+      "body": "Citi will introduce bitcoin custody services via its Custody+ platform, offering real-time asset servicing and AI-powered analytics. This move targets institutional clients seeking secure, regulated digital asset storage, and challenges established crypto custodians to match Citi\u2019s technology and compliance standards.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/delivery/2026/ups-automates-90-of-daily-customs-clearances-with-ai-agents/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-08-18-citi-bitcoin-custody-412090"
       }
     },
     {
-      "title": "Western Union\u2019s Intermax Deal Clears New York, Faces California Regulatory Delays",
-      "body": "Western Union received approval from New York regulators for its acquisition of Intermax, but the deal remains stalled in California. The acquisition is key to Western Union\u2019s plan to expand its US money transfer network and compete with digital-first fintechs. Delays in California could disrupt Western Union\u2019s integration timeline and give fintech rivals more time to attract remittance customers, directly impacting market share in the US remittance sector.",
+      "title": "Revolut Founder Unlocks $250 Million Loan Capacity as Valuation Climbs",
+      "body": "Revolut founder Nik Storonsky has secured the ability to borrow up to $250 million against his equity stake, reflecting the fintech\u2019s rising valuation. This capital flexibility could fund expansion or strategic investments, prompting rivals to accelerate their own product launches or M&A activity.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48252/western-union-gets-new-york-nod-for-intermax-acquisition-still-faces-california-hurdles?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/a1e7a6e3-f7b9-4ed4-a823-b5e6274aab9b"
       }
     }
   ],
-  "perspective": "Stripe\u2019s OpenRouter acquisition and N3XT\u2019s Wyoming launch signal intensifying competition as AI and blockchain reshape cross-border payments and settlement models.",
+  "perspective": "Today: Visa, Mastercard, and Citi drive shifts in AI commerce and institutional crypto services.",
   "curiosity": {
-    "text": "Prepaid debit cards, often seen as basic financial tools, have become a primary banking alternative for nearly 7 million unbanked U.S. households, enabling bill payments and online purchases."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how transactions were processed and paving the way for modern electronic payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Wispr Flow",
-      "description": "Raised $280 million, now valued at $2 billion.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/wispr-flow-raises-280-million-and-debuts-voice-ai-model/"
+      "company": "PointsKash",
+      "description": "Secured $100M for national rollout of crypto ATMs",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/pointskash-secures-capital-commitment-after-beginning-rollout-of-crypto-atms/"
     },
     {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Ingenico",
-      "description": "Secured \u20ac150 million in fresh capital.",
-      "source_url": "https://www.finextra.com/pressarticle/110649/ingenico-secures-150-million-in-fresh-capital?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Noggin HQ",
+      "description": "Raised \u00a32.3M in seed round for alternative credit scoring",
+      "source_url": "https://www.finextra.com/newsarticle/48267/noggin-hq-raises-23m-and-secures-credit-referencing-authorisation"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Datavault AI",
-      "description": "Plans $94.5 million acquisition of CyberCatch.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/datavault-ai-plans-94-million-dollar-cybercatch-buy-shield-organizations-against-ai-attacks/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Citi",
-      "description": "Acquired rewards fintech Kard.",
-      "source_url": "https://www.bankingdive.com/news/citi-acquires-rewards-fintech-kard-loyalty/828014/"
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Quatr",
+      "description": "Closed $18M funding round for financial data platform",
+      "source_url": "https://www.finextra.com/pressarticle/110666/financial-data-startup-quatr-raises-18-million"
     }
   ]
 }
