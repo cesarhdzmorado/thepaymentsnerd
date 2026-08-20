@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Mobile Wallet Registrations Climb in UK, Challenging High Street Banks",
-      "body": "New data shows that 63% of UK consumers are registered with at least one mobile wallet provider, a trend that is reducing card usage at major banks like Barclays and Lloyds. These banks face declining transaction volumes and customer engagement unless they prioritize wallet integration and digital product enhancements to keep pace with shifting consumer preferences.",
+      "title": "OCC Sets November Deadline for GENIUS Act Stablecoin and Digital Asset Rules",
+      "body": "The OCC announced it will finalize GENIUS Act rules by November, giving banks and fintechs a concrete timeline to comply with new US stablecoin and digital asset regulations. This regulatory clarity enables financial institutions to plan new product launches and partnerships, and positions the US to compete with the EU\u2019s MiCA regime for leadership in digital asset payments.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/2026/occ-promises-final-rule-for-genius-act-by-november/"
+      }
+    },
+    {
+      "title": "HSBC and Standard Chartered Complete First Tokenized Deposit on Swift\u2019s Blockchain Ledger",
+      "body": "HSBC and Standard Chartered completed the first live tokenized deposit transaction on Swift\u2019s blockchain-based ledger, moving blockchain adoption from pilot to production in global banking. Global banks now face pressure to accelerate their own blockchain and tokenization strategies, as HSBC and Standard Chartered\u2019s move signals a shift toward tokenized settlement and cross-border payment infrastructure.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48268/mobile-wallets-gain-traction-in-the-uk"
+        "url": "https://www.finextra.com/newsarticle/48270/hsbc-and-standard-chartered-execute-first-live-transaction-on-swifts-blockchain-based-ledger"
       }
     },
     {
-      "title": "Visa and Mastercard Join Agentic Payments Alliance to Shape AI Commerce Standards",
-      "body": "Visa, Mastercard, and other payments leaders have joined the Agentic Payments Alliance to guide the development of AI-driven commerce. Their involvement allows them to influence technical standards and regulatory frameworks, while payment processors and fintechs outside the alliance could face integration barriers as protocols are established.",
+      "title": "Kraken Debuts Multi-Asset Crypto Debit Card for US Consumers",
+      "body": "Kraken introduced a debit card for US users that enables spending both cryptocurrencies and fiat at retail, directly challenging traditional banks and crypto-native card providers. Card networks and neobanks must now accelerate crypto integration or risk losing transaction volume and customer engagement to platforms offering seamless on-chain and off-chain spending.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48265/visa-and-mastercard-back-new-agentic-payments-alliance"
+        "url": "https://www.finextra.com/newsarticle/48271/kraken-launches-crypto-debit-card-in-the-us"
       }
     },
     {
-      "title": "SEC Proposes New Crypto Offering Rules, Focusing on Platform Registration and Disclosure",
-      "body": "The SEC has proposed rules requiring crypto platforms to register and provide detailed disclosures, aiming to clarify digital asset investment frameworks. Crypto firms should expect stricter compliance checks, enhanced reporting obligations, and a clearer path to institutional market participation, while unregistered platforms risk being barred from regulated activities.",
+      "title": "Rain Reveals Over 100,000 Merchants Receive Stablecoin Payments via Visa Rails",
+      "body": "Rain CEO Farooq Malik revealed that more than 100,000 merchants are already receiving stablecoin payments through Visa\u2019s network, often without realizing it, as settlement occurs in about three days. This stealth integration highlights Visa\u2019s role in bridging crypto and traditional payments, and merchants and payment service providers are now actively seeking explicit stablecoin settlement options to improve transparency and reconciliation.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-08-18-sec-proposes-new-crypto-offering-rules-congress-stalls-digital-asset-legislation-412145"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/rain-ceo-says-merchants-receive-stablecoin-payments-without-knowing-it/"
       }
     },
     {
-      "title": "Citi to Launch Bitcoin Custody, Competing on Technology and Security",
-      "body": "Citi will introduce bitcoin custody services via its Custody+ platform, offering real-time asset servicing and AI-powered analytics. This move targets institutional clients seeking secure, regulated digital asset storage, and challenges established crypto custodians to match Citi\u2019s technology and compliance standards.",
+      "title": "Nium Expands US Presence With Domestic Card Issuing Platform",
+      "body": "Nium launched its domestic card issuing platform in the US, expanding its multi-region capabilities and strengthening real-time cross-border payment offerings. By targeting enterprise and fintech clients seeking seamless international payouts, Nium increases competitive pressure on established US processors and global payment service providers in the B2B and SME card issuing market.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-08-18-citi-bitcoin-custody-412090"
-      }
-    },
-    {
-      "title": "Revolut Founder Unlocks $250 Million Loan Capacity as Valuation Climbs",
-      "body": "Revolut founder Nik Storonsky has secured the ability to borrow up to $250 million against his equity stake, reflecting the fintech\u2019s rising valuation. This capital flexibility could fund expansion or strategic investments, prompting rivals to accelerate their own product launches or M&A activity.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/a1e7a6e3-f7b9-4ed4-a823-b5e6274aab9b"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110675/nium-launches-card-issuance-in-the-us"
       }
     }
   ],
-  "perspective": "Today: Visa, Mastercard, and Citi drive shifts in AI commerce and institutional crypto services.",
+  "perspective": "OCC\u2019s November deadline and Swift\u2019s blockchain milestone signal US banks and fintechs must accelerate digital asset and tokenization strategies.",
   "curiosity": {
-    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how transactions were processed and paving the way for modern electronic payments."
+    "text": "The first Bitcoin ATM, installed in Vancouver in 2012, processed over $1 million in transactions within its first month\u2014demonstrating early demand for physical crypto access as mainstream payments infrastructure evolved."
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "PointsKash",
-      "description": "Secured $100M for national rollout of crypto ATMs",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/pointskash-secures-capital-commitment-after-beginning-rollout-of-crypto-atms/"
-    },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Noggin HQ",
-      "description": "Raised \u00a32.3M in seed round for alternative credit scoring",
+      "description": "Raised \u00a32.3m in seed round for alternative credit scoring.",
       "source_url": "https://www.finextra.com/newsarticle/48267/noggin-hq-raises-23m-and-secures-credit-referencing-authorisation"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Quatr",
-      "description": "Closed $18M funding round for financial data platform",
+      "description": "Raised $18m to enhance financial data services.",
       "source_url": "https://www.finextra.com/pressarticle/110666/financial-data-startup-quatr-raises-18-million"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Closed $95m fund to back fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Goldman Sachs",
+      "description": "Acquiring LCN Capital Partners for $410M.",
+      "source_url": "https://www.bankingdive.com/news/goldman-sachs-acquire-real-estate-investment-lcn-410-million/828172/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "type": "IPO",
+      "company": "Pine Labs",
+      "description": "Raised $440M in India IPO, backed by PayPal and Mastercard.",
+      "source_url": "https://techcrunch.com/2025/11/14/pine-labs-gets-warm-market-welcome-on-440m-india-ipo-despite-a-valuation-trim"
     }
   ]
 }
