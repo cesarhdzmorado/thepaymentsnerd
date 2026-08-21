@@ -1,85 +1,64 @@
 {
   "news": [
     {
-      "title": "OCC Sets November Deadline for GENIUS Act Stablecoin and Digital Asset Rules",
-      "body": "The OCC announced it will finalize GENIUS Act rules by November, giving banks and fintechs a concrete timeline to comply with new US stablecoin and digital asset regulations. This regulatory clarity enables financial institutions to plan new product launches and partnerships, and positions the US to compete with the EU\u2019s MiCA regime for leadership in digital asset payments.",
+      "title": "Visa, _able, and Onafriq Expand Credit Access for African Bank Customers",
+      "body": "Visa partners with credit infrastructure provider _able and African payments company Onafriq to extend credit access to millions of African bank account holders. Visa targets both consumers and small businesses, strengthening its foothold in a rapidly digitizing market. Local and international competitors must now contend with Visa\u2019s expanded reach as financial inclusion efforts accelerate. Expect rival networks and banks to pursue similar partnerships to keep pace.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48279/visa-partners-able-and-onafriq-to-expand-credit-access-in-africa?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Revolut Seeks Finnish Banking Licence to Broaden European Service Portfolio",
+      "body": "Revolut has formally applied for a banking licence in Finland, aiming to offer a wider suite of financial services to Finnish customers as part of its European expansion. Revolut's application pressures incumbent Finnish banks to accelerate digital transformation and product innovation. If approved, Revolut will offer deposit accounts and lending, deepening its customer relationships. Other fintechs may pursue similar licences, intensifying competition in the region.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48273/revolut-applies-for-banking-licence-in-finland?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "CFTC Moves to Regulate Crypto Markets as Congress Delays CLARITY Act",
+      "body": "The CFTC is preparing to establish a crypto asset market regime using its current authorities, stepping in as Congress stalls on the CLARITY Act. This approach gives compliant crypto firms a clearer regulatory path while raising the bar for those lagging on compliance. Crypto exchanges and investors now face a patchwork of evolving rules, with the CFTC\u2019s framework likely to influence investor confidence and market stability. Firms are accelerating compliance efforts to avoid enforcement risk.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/2026/occ-promises-final-rule-for-genius-act-by-november/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/cftc-readies-own-crypto-market-rules-as-congress-stalls-clarity-act/"
       }
     },
     {
-      "title": "HSBC and Standard Chartered Complete First Tokenized Deposit on Swift\u2019s Blockchain Ledger",
-      "body": "HSBC and Standard Chartered completed the first live tokenized deposit transaction on Swift\u2019s blockchain-based ledger, moving blockchain adoption from pilot to production in global banking. Global banks now face pressure to accelerate their own blockchain and tokenization strategies, as HSBC and Standard Chartered\u2019s move signals a shift toward tokenized settlement and cross-border payment infrastructure.",
+      "title": "Binance Launches AI Agent Platform for Automated Crypto Trading",
+      "body": "Binance has introduced a developer platform enabling users to connect AI agents for automated trading on its exchange. Binance\u2019s move prompts regulators to scrutinize AI-driven trading while challenging other exchanges to match its technical capabilities. The launch is likely to accelerate adoption of AI tools in trading, and competing platforms may need to fast-track their own AI integrations to retain advanced traders.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48270/hsbc-and-standard-chartered-execute-first-live-transaction-on-swifts-blockchain-based-ledger"
+        "url": "https://www.finextra.com/newsarticle/48278/binance-unveils-platform-that-lets-ai-agents-make-trades-for-users?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Kraken Debuts Multi-Asset Crypto Debit Card for US Consumers",
-      "body": "Kraken introduced a debit card for US users that enables spending both cryptocurrencies and fiat at retail, directly challenging traditional banks and crypto-native card providers. Card networks and neobanks must now accelerate crypto integration or risk losing transaction volume and customer engagement to platforms offering seamless on-chain and off-chain spending.",
+      "title": "Prosus Invests $100M in Navi to Fuel Indian Fintech Competition",
+      "body": "Prosus invests $100 million in Indian digital financial services firm Navi, supporting its growth and expansion plans. This capital injection strengthens Navi\u2019s position against both local and global fintech rivals in India\u2019s crowded market. The deal is expected to spark new funding rounds and product launches as competitors respond. Navi will likely accelerate customer acquisition and expand its lending and insurance offerings.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48271/kraken-launches-crypto-debit-card-in-the-us"
-      }
-    },
-    {
-      "title": "Rain Reveals Over 100,000 Merchants Receive Stablecoin Payments via Visa Rails",
-      "body": "Rain CEO Farooq Malik revealed that more than 100,000 merchants are already receiving stablecoin payments through Visa\u2019s network, often without realizing it, as settlement occurs in about three days. This stealth integration highlights Visa\u2019s role in bridging crypto and traditional payments, and merchants and payment service providers are now actively seeking explicit stablecoin settlement options to improve transparency and reconciliation.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/rain-ceo-says-merchants-receive-stablecoin-payments-without-knowing-it/"
-      }
-    },
-    {
-      "title": "Nium Expands US Presence With Domestic Card Issuing Platform",
-      "body": "Nium launched its domestic card issuing platform in the US, expanding its multi-region capabilities and strengthening real-time cross-border payment offerings. By targeting enterprise and fintech clients seeking seamless international payouts, Nium increases competitive pressure on established US processors and global payment service providers in the B2B and SME card issuing market.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110675/nium-launches-card-issuance-in-the-us"
+        "url": "https://www.finextra.com/newsarticle/48275/prosus-invests-100m-in-indian-fintech-navi?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "OCC\u2019s November deadline and Swift\u2019s blockchain milestone signal US banks and fintechs must accelerate digital asset and tokenization strategies.",
+  "perspective": "Visa\u2019s African credit push and Binance\u2019s AI trading launch highlight how global players are reshaping access and innovation in financial services.",
   "curiosity": {
-    "text": "The first Bitcoin ATM, installed in Vancouver in 2012, processed over $1 million in transactions within its first month\u2014demonstrating early demand for physical crypto access as mainstream payments infrastructure evolved."
+    "text": "In China, QR code payments overtook card payments by volume as early as 2019, illustrating how mobile-first solutions can leapfrog traditional payment rails."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Noggin HQ",
-      "description": "Raised \u00a32.3m in seed round for alternative credit scoring.",
-      "source_url": "https://www.finextra.com/newsarticle/48267/noggin-hq-raises-23m-and-secures-credit-referencing-authorisation"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Quatr",
-      "description": "Raised $18m to enhance financial data services.",
-      "source_url": "https://www.finextra.com/pressarticle/110666/financial-data-startup-quatr-raises-18-million"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95m fund to back fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Goldman Sachs",
-      "description": "Acquiring LCN Capital Partners for $410M.",
-      "source_url": "https://www.bankingdive.com/news/goldman-sachs-acquire-real-estate-investment-lcn-410-million/828172/"
+      "company": "Stripe",
+      "description": "Stripe acquires OpenRouter for $7.5 billion.",
+      "source_url": "https://www.bankingdive.com/news/stripe-openrouter-acquisition-ai-7-billion/828357/"
     },
     {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "IPO",
-      "company": "Pine Labs",
-      "description": "Raised $440M in India IPO, backed by PayPal and Mastercard.",
-      "source_url": "https://techcrunch.com/2025/11/14/pine-labs-gets-warm-market-welcome-on-440m-india-ipo-despite-a-valuation-trim"
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "EIB",
+      "description": "EIB launches \u20ac30M fintech fund in Poland.",
+      "source_url": "https://www.finextra.com/newsarticle/48274/eib-launches-fintech-fund-in-poland?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
