@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "Visa, _able, and Onafriq Expand Credit Access for African Bank Customers",
-      "body": "Visa partners with credit infrastructure provider _able and African payments company Onafriq to extend credit access to millions of African bank account holders. Visa targets both consumers and small businesses, strengthening its foothold in a rapidly digitizing market. Local and international competitors must now contend with Visa\u2019s expanded reach as financial inclusion efforts accelerate. Expect rival networks and banks to pursue similar partnerships to keep pace.",
+      "title": "Walmart Rolls Out Contactless Payments Nationwide, Forcing Retailers to Modernize Checkout",
+      "body": "Walmart has begun deploying contactless payment options across its US stores, finally matching competitors like Target and Costco. Walmart\u2019s move eliminates a key friction point for shoppers and pressures other major retailers such as Kroger and Walgreens to upgrade their checkout experiences or risk losing customers seeking faster, more convenient payments. As Walmart\u2019s scale normalizes tap-to-pay, cash usage is likely to decline further and in-store payment expectations will shift.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48279/visa-partners-able-and-onafriq-to-expand-credit-access-in-africa?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48286/walmart-finally-lets-customers-make-contactless-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Revolut Seeks Finnish Banking Licence to Broaden European Service Portfolio",
-      "body": "Revolut has formally applied for a banking licence in Finland, aiming to offer a wider suite of financial services to Finnish customers as part of its European expansion. Revolut's application pressures incumbent Finnish banks to accelerate digital transformation and product innovation. If approved, Revolut will offer deposit accounts and lending, deepening its customer relationships. Other fintechs may pursue similar licences, intensifying competition in the region.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48273/revolut-applies-for-banking-licence-in-finland?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "CFTC Moves to Regulate Crypto Markets as Congress Delays CLARITY Act",
-      "body": "The CFTC is preparing to establish a crypto asset market regime using its current authorities, stepping in as Congress stalls on the CLARITY Act. This approach gives compliant crypto firms a clearer regulatory path while raising the bar for those lagging on compliance. Crypto exchanges and investors now face a patchwork of evolving rules, with the CFTC\u2019s framework likely to influence investor confidence and market stability. Firms are accelerating compliance efforts to avoid enforcement risk.",
+      "title": "Standard Chartered and HSBC Complete First Swift Blockchain Interbank Payment",
+      "body": "Standard Chartered and HSBC executed the first interbank transaction using Swift\u2019s blockchain-based ledger, moving real funds between their institutions. This milestone signals that global banks such as Citi, JPMorgan, and Deutsche Bank now face a decision: invest in blockchain settlement infrastructure to keep pace with faster, lower-cost cross-border payments, or risk falling behind as early adopters set new benchmarks for efficiency.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/cftc-readies-own-crypto-market-rules-as-congress-stalls-clarity-act/"
+        "url": "https://www.pymnts.com/blockchain/2026/standard-chartered-and-hsbc-complete-first-interbank-transaction-on-swifts-blockchain-based-ledger/"
       }
     },
     {
-      "title": "Binance Launches AI Agent Platform for Automated Crypto Trading",
-      "body": "Binance has introduced a developer platform enabling users to connect AI agents for automated trading on its exchange. Binance\u2019s move prompts regulators to scrutinize AI-driven trading while challenging other exchanges to match its technical capabilities. The launch is likely to accelerate adoption of AI tools in trading, and competing platforms may need to fast-track their own AI integrations to retain advanced traders.",
+      "title": "Apollo Global Management Data Breach Exposes Cloud Security Gaps in Finance",
+      "body": "Apollo Global Management reported a data breach after a social engineering attack compromised personal data stored on its cloud platforms. The incident highlights ongoing cybersecurity vulnerabilities at major asset managers and private equity firms, prompting rivals like Blackstone and KKR to accelerate reviews of their own cloud security protocols as regulators scrutinize data protection practices across the sector.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48278/binance-unveils-platform-that-lets-ai-agents-make-trades-for-users?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cybersecurity/2026/apollo-global-management-social-engineering-attack-data-breach/"
       }
     },
     {
-      "title": "Prosus Invests $100M in Navi to Fuel Indian Fintech Competition",
-      "body": "Prosus invests $100 million in Indian digital financial services firm Navi, supporting its growth and expansion plans. This capital injection strengthens Navi\u2019s position against both local and global fintech rivals in India\u2019s crowded market. The deal is expected to spark new funding rounds and product launches as competitors respond. Navi will likely accelerate customer acquisition and expand its lending and insurance offerings.",
+      "title": "Fifth Third Invests in Payload to Scale Embedded Payments Platform",
+      "body": "Fifth Third\u2019s investment gives Payload capital to expand its embedded payments platform, which processed nearly $500 million in May. This partnership positions Payload to challenge incumbents like Stripe and Adyen in embedded finance, and signals that more regional banks may directly back fintech infrastructure providers as B2B and SaaS platforms demand integrated payment solutions.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48275/prosus-invests-100m-in-indian-fintech-navi?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/investment-tracker/2026/fifth-third-backs-payloads-embedded-payments-expansion/"
+      }
+    },
+    {
+      "title": "Grayscale Nears SEC Approval for First US Zcash ETF, Expanding Crypto Asset Access",
+      "body": "Grayscale has filed an amended application with the SEC to launch the first Zcash ETF in the US, moving closer to regulatory approval. SEC approval would immediately expand investor access to privacy-focused crypto assets and reinforce Grayscale\u2019s leadership in the crypto ETF market, prompting asset managers like Fidelity and VanEck to accelerate their own digital asset ETF offerings.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517"
       }
     }
   ],
-  "perspective": "Visa\u2019s African credit push and Binance\u2019s AI trading launch highlight how global players are reshaping access and innovation in financial services.",
+  "perspective": "Walmart and Swift\u2019s blockchain pilot drive retail and cross-border payment innovation, while Grayscale\u2019s Zcash ETF signals crypto\u2019s growing mainstream acceptance.",
   "curiosity": {
-    "text": "In China, QR code payments overtook card payments by volume as early as 2019, illustrating how mobile-first solutions can leapfrog traditional payment rails."
+    "text": "Stanford Federal Credit Union\u2019s 1971 online banking system paved the way for today\u2019s digital banking, inspiring features like remote account access and secure electronic transfers."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Stripe",
-      "description": "Stripe acquires OpenRouter for $7.5 billion.",
-      "source_url": "https://www.bankingdive.com/news/stripe-openrouter-acquisition-ai-7-billion/828357/"
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "type": "fundraising",
+      "company": "Navi",
+      "description": "Prosus invests $100M in Indian fintech Navi",
+      "source_url": "https://www.finextra.com/newsarticle/48275/prosus-invests-100m-in-indian-fintech-navi?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "EIB",
-      "description": "EIB launches \u20ac30M fintech fund in Poland.",
-      "source_url": "https://www.finextra.com/newsarticle/48274/eib-launches-fintech-fund-in-poland?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Rillet",
+      "description": "Rillet raises $100M Series C at $1B valuation",
+      "source_url": "https://www.finextra.com/pressarticle/110702/ai-erp-platform-rillet-raises-100m-series-c-at-1bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Castelion",
+      "description": "Castelion raises largest funding round for defense tech",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "acquisition",
+      "company": "Stripe",
+      "description": "Stripe acquires OpenRouter for $7.5B",
+      "source_url": "https://www.bankingdive.com/news/stripe-openrouter-acquisition-ai-7-billion/828357/"
     }
   ]
 }
