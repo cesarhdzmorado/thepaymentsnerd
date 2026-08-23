@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "Walmart Rolls Out Contactless Payments Nationwide, Forcing Retailers to Modernize Checkout",
-      "body": "Walmart has begun deploying contactless payment options across its US stores, finally matching competitors like Target and Costco. Walmart\u2019s move eliminates a key friction point for shoppers and pressures other major retailers such as Kroger and Walgreens to upgrade their checkout experiences or risk losing customers seeking faster, more convenient payments. As Walmart\u2019s scale normalizes tap-to-pay, cash usage is likely to decline further and in-store payment expectations will shift.",
+      "title": "SEC Proposes Comprehensive Crypto Asset Rules to Attract Institutional Investors",
+      "body": "The SEC has unveiled proposed regulations targeting crypto assets, aiming to clarify the framework for investment contracts involving digital assets. This move could lower barriers for institutional investors, but the SEC's new rules raise compliance costs for crypto exchanges and asset managers. Smaller crypto exchanges and startups may struggle to meet these requirements, potentially leading to industry consolidation as only well-capitalized firms can afford the increased regulatory burden.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48286/walmart-finally-lets-customers-make-contactless-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48282/sec-proposes-regulation-crypto-assets?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Standard Chartered and HSBC Complete First Swift Blockchain Interbank Payment",
-      "body": "Standard Chartered and HSBC executed the first interbank transaction using Swift\u2019s blockchain-based ledger, moving real funds between their institutions. This milestone signals that global banks such as Citi, JPMorgan, and Deutsche Bank now face a decision: invest in blockchain settlement infrastructure to keep pace with faster, lower-cost cross-border payments, or risk falling behind as early adopters set new benchmarks for efficiency.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/standard-chartered-and-hsbc-complete-first-interbank-transaction-on-swifts-blockchain-based-ledger/"
-      }
-    },
-    {
-      "title": "Apollo Global Management Data Breach Exposes Cloud Security Gaps in Finance",
-      "body": "Apollo Global Management reported a data breach after a social engineering attack compromised personal data stored on its cloud platforms. The incident highlights ongoing cybersecurity vulnerabilities at major asset managers and private equity firms, prompting rivals like Blackstone and KKR to accelerate reviews of their own cloud security protocols as regulators scrutinize data protection practices across the sector.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/apollo-global-management-social-engineering-attack-data-breach/"
-      }
-    },
-    {
-      "title": "Fifth Third Invests in Payload to Scale Embedded Payments Platform",
-      "body": "Fifth Third\u2019s investment gives Payload capital to expand its embedded payments platform, which processed nearly $500 million in May. This partnership positions Payload to challenge incumbents like Stripe and Adyen in embedded finance, and signals that more regional banks may directly back fintech infrastructure providers as B2B and SaaS platforms demand integrated payment solutions.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/investment-tracker/2026/fifth-third-backs-payloads-embedded-payments-expansion/"
-      }
-    },
-    {
-      "title": "Grayscale Nears SEC Approval for First US Zcash ETF, Expanding Crypto Asset Access",
-      "body": "Grayscale has filed an amended application with the SEC to launch the first Zcash ETF in the US, moving closer to regulatory approval. SEC approval would immediately expand investor access to privacy-focused crypto assets and reinforce Grayscale\u2019s leadership in the crypto ETF market, prompting asset managers like Fidelity and VanEck to accelerate their own digital asset ETF offerings.",
+      "title": "Bitcoin and Ether ETFs Draw $2.6B in Inflows, Fueling Issuer Competition",
+      "body": "Bitcoin and ether ETFs saw $2.6 billion in inflows last week, the strongest since October and triple the usual volume. This surge is likely to prompt more asset managers to launch crypto ETFs, intensifying competition and drawing further regulatory attention. ETF issuers now compete on fees, liquidity, and product structure, while the influx of capital signals growing mainstream adoption among both retail and institutional investors.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517"
+        "url": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531"
+      }
+    },
+    {
+      "title": "Visa Expands Stablecoin Settlement to Merchant Acquirers in APAC",
+      "body": "Visa has expanded its stablecoin settlement capabilities to merchant acquirers in the Asia-Pacific region, enabling direct USDC settlements on the Solana and Ethereum blockchains. This development allows acquirers to bypass traditional banking rails for settlement, potentially reducing costs and settlement times for merchants. Banks and fintechs in APAC may accelerate stablecoin adoption to remain competitive in cross-border payments.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48270/visa-expands-stablecoin-settlement-to-apac-merchant-acquirers"
+      }
+    },
+    {
+      "title": "Solana Cuts Mainnet Slot Time to 350ms, Targets Faster Blockchain Settlement",
+      "body": "Solana has reduced its mainnet slot time to 350 milliseconds, with a goal of reaching 200ms for transaction confirmation. This technical upgrade positions Solana as a leader in blockchain speed, potentially attracting developers and payment projects seeking low-latency settlement. Competing blockchains like Ethereum and Avalanche may need to accelerate their own scaling solutions to keep pace, as payment processors evaluate blockchain rails for real-time use cases.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-22-solana-cuts-mainnet-slot-time-to-350-milliseconds-in-first-step-toward-200ms-goal-412521"
+      }
+    },
+    {
+      "title": "AI-Driven Crypto Crime Surges 40%, Forcing Cybersecurity Rethink",
+      "body": "TRM Labs reports a 40% increase in AI-driven crypto crime, with hackers leveraging AI to exploit vulnerabilities in digital asset platforms. This escalation is likely to drive demand for advanced cybersecurity solutions and prompt regulatory scrutiny of AI risk controls. Crypto exchanges and wallet providers must invest in AI-powered defenses or risk reputational and financial damage, as regulators consider stricter oversight of AI in financial services.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/web3/2026-08-21-ai-adoption-in-crypto-crime-trm-412297"
       }
     }
   ],
-  "perspective": "Walmart and Swift\u2019s blockchain pilot drive retail and cross-border payment innovation, while Grayscale\u2019s Zcash ETF signals crypto\u2019s growing mainstream acceptance.",
+  "perspective": "Today: SEC crypto rulemaking, Bitcoin and Ether ETF inflows, and Visa's APAC stablecoin expansion reshape digital asset adoption and infrastructure.",
   "curiosity": {
-    "text": "Stanford Federal Credit Union\u2019s 1971 online banking system paved the way for today\u2019s digital banking, inspiring features like remote account access and secure electronic transfers."
+    "text": "The Philippines' first mobile payments system, launched in 2009 via SMS, helped spark the country's rapid mobile wallet adoption\u2014now among the highest in Southeast Asia."
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "fundraising",
-      "company": "Navi",
-      "description": "Prosus invests $100M in Indian fintech Navi",
-      "source_url": "https://www.finextra.com/newsarticle/48275/prosus-invests-100m-in-indian-fintech-navi?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Rillet",
-      "description": "Rillet raises $100M Series C at $1B valuation",
+      "description": "Raised $100M Series C at $1B valuation.",
       "source_url": "https://www.finextra.com/pressarticle/110702/ai-erp-platform-rillet-raises-100m-series-c-at-1bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Castelion",
-      "description": "Castelion raises largest funding round for defense tech",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion/"
+      "company": "Fifth Third & Payload",
+      "description": "Fifth Third invests in Payload's embedded payments expansion.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/fifth-third-backs-payloads-embedded-payments-expansion/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "acquisition",
-      "company": "Stripe",
-      "description": "Stripe acquires OpenRouter for $7.5B",
-      "source_url": "https://www.bankingdive.com/news/stripe-openrouter-acquisition-ai-7-billion/828357/"
+      "type": "product",
+      "company": "Grayscale",
+      "description": "Moves closer to launching first Zcash ETF in US.",
+      "source_url": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "Standard Chartered & HSBC",
+      "description": "Completed first interbank transaction on Swift's blockchain ledger.",
+      "source_url": "https://www.pymnts.com/blockchain/2026/standard-chartered-and-hsbc-complete-first-interbank-transaction-on-swifts-blockchain-based-ledger/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Walmart",
+      "description": "Introduces contactless payments in stores.",
+      "source_url": "https://www.finextra.com/newsarticle/48286/walmart-finally-lets-customers-make-contactless-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Trustar",
+      "description": "Acquires Forbright's DC-area branches.",
+      "source_url": "https://www.bankingdive.com/news/trustar-buy-dc-area-branches-forbright-750-million-deposits-digital-middle-market-maryland-virginia/828517/"
     }
   ]
 }
