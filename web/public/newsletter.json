@@ -1,92 +1,78 @@
 {
   "news": [
     {
-      "title": "SEC Proposes Comprehensive Crypto Asset Rules to Attract Institutional Investors",
-      "body": "The SEC has unveiled proposed regulations targeting crypto assets, aiming to clarify the framework for investment contracts involving digital assets. This move could lower barriers for institutional investors, but the SEC's new rules raise compliance costs for crypto exchanges and asset managers. Smaller crypto exchanges and startups may struggle to meet these requirements, potentially leading to industry consolidation as only well-capitalized firms can afford the increased regulatory burden.",
+      "title": "Crypto Card Spending Triples as Stablecoins Gain Ground in Retail Payments",
+      "body": "Consumers spent $1.04 billion using cryptocurrency cards in July 2026, tripling last year\u2019s volume as dollar-backed stablecoins become a popular choice for everyday purchases. Crypto card issuers and stablecoin providers are capturing new transaction flows, while traditional card networks like Visa and Mastercard see increased competition. Retail merchants must now adapt their payment systems to accept stablecoin-backed cards as these products move into the mainstream.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-card-spending-jumps-threefold-in-a-year-paymentscan-data-shows/"
+      }
+    },
+    {
+      "title": "Stripe Buys OpenRouter for $7.5B to Deepen AI-Driven Payment Services",
+      "body": "Stripe acquired AI spend management firm OpenRouter for $7.5 billion, integrating advanced analytics and automation into its payments platform. This acquisition positions Stripe ahead of rivals like Adyen and PayPal by embedding AI-driven spend management and fraud prevention tools directly into its core offerings. Competing payment processors now face immediate pressure to enhance their AI capabilities or risk losing enterprise clients seeking smarter automation.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/stripe-openrouter-acquisition-ai-7-billion/828357/"
+      }
+    },
+    {
+      "title": "Egypt\u2019s CIB Wins Green Light for Digital Bank, Raising Stakes for Local Incumbents",
+      "body": "Commercial International Bank (CIB) secured preliminary approval to launch Egypt\u2019s first digital bank, setting a precedent for major lenders in the country. The move enables fintechs and digital-first challengers to target Egypt\u2019s large unbanked population, while legacy banks must accelerate digital transformation to defend their market share. The Central Bank\u2019s decision signals a broader regulatory shift toward digital finance in North Africa.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48282/sec-proposes-regulation-crypto-assets?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48284/egypts-cib-scores-preliminary-approval-for-new-digital-bank"
       }
     },
     {
-      "title": "Bitcoin and Ether ETFs Draw $2.6B in Inflows, Fueling Issuer Competition",
-      "body": "Bitcoin and ether ETFs saw $2.6 billion in inflows last week, the strongest since October and triple the usual volume. This surge is likely to prompt more asset managers to launch crypto ETFs, intensifying competition and drawing further regulatory attention. ETF issuers now compete on fees, liquidity, and product structure, while the influx of capital signals growing mainstream adoption among both retail and institutional investors.",
+      "title": "Helcim Raises $38M to Expand SMB Banking Platform in Canada",
+      "body": "Helcim closed a $38 million Series C to scale its payments and banking platform for small and medium-sized businesses across Canada. With this funding, Helcim aims to compete with both incumbent banks and fintechs by bundling payments, lending, and business banking into a single solution. Canadian SMBs gain more choice, while traditional banks face new competition in a segment long underserved by digital-first offerings.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/smbs/2026/helcim-raises-38-million-to-fill-small-business-banking-void/"
+      }
+    },
+    {
+      "title": "DeFi Lender Term Finance Loses $8.5M in Governance Exploit",
+      "body": "Term Finance, a decentralized lending protocol, lost $8.5 million after a governance exploit drained funds from its platform. The incident shakes DeFi investor confidence and highlights ongoing security risks in permissionless lending protocols. Calls for stronger governance controls and third-party audits are intensifying as regulators and users scrutinize DeFi platforms\u2019 risk management.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531"
-      }
-    },
-    {
-      "title": "Visa Expands Stablecoin Settlement to Merchant Acquirers in APAC",
-      "body": "Visa has expanded its stablecoin settlement capabilities to merchant acquirers in the Asia-Pacific region, enabling direct USDC settlements on the Solana and Ethereum blockchains. This development allows acquirers to bypass traditional banking rails for settlement, potentially reducing costs and settlement times for merchants. Banks and fintechs in APAC may accelerate stablecoin adoption to remain competitive in cross-border payments.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48270/visa-expands-stablecoin-settlement-to-apac-merchant-acquirers"
-      }
-    },
-    {
-      "title": "Solana Cuts Mainnet Slot Time to 350ms, Targets Faster Blockchain Settlement",
-      "body": "Solana has reduced its mainnet slot time to 350 milliseconds, with a goal of reaching 200ms for transaction confirmation. This technical upgrade positions Solana as a leader in blockchain speed, potentially attracting developers and payment projects seeking low-latency settlement. Competing blockchains like Ethereum and Avalanche may need to accelerate their own scaling solutions to keep pace, as payment processors evaluate blockchain rails for real-time use cases.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/ecosystems/2026-08-22-solana-cuts-mainnet-slot-time-to-350-milliseconds-in-first-step-toward-200ms-goal-412521"
-      }
-    },
-    {
-      "title": "AI-Driven Crypto Crime Surges 40%, Forcing Cybersecurity Rethink",
-      "body": "TRM Labs reports a 40% increase in AI-driven crypto crime, with hackers leveraging AI to exploit vulnerabilities in digital asset platforms. This escalation is likely to drive demand for advanced cybersecurity solutions and prompt regulatory scrutiny of AI risk controls. Crypto exchanges and wallet providers must invest in AI-powered defenses or risk reputational and financial damage, as regulators consider stricter oversight of AI in financial services.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/web3/2026-08-21-ai-adoption-in-crypto-crime-trm-412297"
+        "url": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543"
       }
     }
   ],
-  "perspective": "Today: SEC crypto rulemaking, Bitcoin and Ether ETF inflows, and Visa's APAC stablecoin expansion reshape digital asset adoption and infrastructure.",
+  "perspective": "Stripe\u2019s OpenRouter acquisition and CIB\u2019s digital bank approval signal rapid AI and digital banking shifts in global payments.",
   "curiosity": {
-    "text": "The Philippines' first mobile payments system, launched in 2009 via SMS, helped spark the country's rapid mobile wallet adoption\u2014now among the highest in Southeast Asia."
+    "text": "In 2023, more than 60% of Canadian SMBs reported using at least two different fintech platforms for daily operations, a sharp rise from just 18% in 2018."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
-      "company": "Rillet",
-      "description": "Raised $100M Series C at $1B valuation.",
-      "source_url": "https://www.finextra.com/pressarticle/110702/ai-erp-platform-rillet-raises-100m-series-c-at-1bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Moss",
+      "description": "Crowned Europe's newest unicorn with \u20ac30m Series C.",
+      "source_url": "https://sifted.eu/articles/moss-unicorn-series-c/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Fifth Third & Payload",
-      "description": "Fifth Third invests in Payload's embedded payments expansion.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/fifth-third-backs-payloads-embedded-payments-expansion/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Grayscale",
-      "description": "Moves closer to launching first Zcash ETF in US.",
-      "source_url": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517"
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "executive change",
+      "company": "Klarna",
+      "description": "CFO and CMO to leave amid financial outlook adjustments.",
+      "source_url": "https://www.bankingdive.com/news/klarna-cfo-cmo-to-leave-reduced-outlook-new-york/828299/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Standard Chartered & HSBC",
-      "description": "Completed first interbank transaction on Swift's blockchain ledger.",
-      "source_url": "https://www.pymnts.com/blockchain/2026/standard-chartered-and-hsbc-complete-first-interbank-transaction-on-swifts-blockchain-based-ledger/"
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "Granted French banking licence, expanding European operations.",
+      "source_url": "https://sifted.eu/articles/revolut-french-banking-licence/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Walmart",
-      "description": "Introduces contactless payments in stores.",
-      "source_url": "https://www.finextra.com/newsarticle/48286/walmart-finally-lets-customers-make-contactless-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Trustar",
-      "description": "Acquires Forbright's DC-area branches.",
-      "source_url": "https://www.bankingdive.com/news/trustar-buy-dc-area-branches-forbright-750-million-deposits-digital-middle-market-maryland-virginia/828517/"
+      "flag": "\ud83c\udf10",
+      "type": "project collapse",
+      "company": "Tether",
+      "description": "Uruguay bitcoin mining project collapsed over power dispute.",
+      "source_url": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536"
     }
   ]
 }
