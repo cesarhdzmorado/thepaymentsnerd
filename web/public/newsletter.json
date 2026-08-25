@@ -1,78 +1,85 @@
 {
   "news": [
     {
-      "title": "Crypto Card Spending Triples as Stablecoins Gain Ground in Retail Payments",
-      "body": "Consumers spent $1.04 billion using cryptocurrency cards in July 2026, tripling last year\u2019s volume as dollar-backed stablecoins become a popular choice for everyday purchases. Crypto card issuers and stablecoin providers are capturing new transaction flows, while traditional card networks like Visa and Mastercard see increased competition. Retail merchants must now adapt their payment systems to accept stablecoin-backed cards as these products move into the mainstream.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-card-spending-jumps-threefold-in-a-year-paymentscan-data-shows/"
-      }
-    },
-    {
-      "title": "Stripe Buys OpenRouter for $7.5B to Deepen AI-Driven Payment Services",
-      "body": "Stripe acquired AI spend management firm OpenRouter for $7.5 billion, integrating advanced analytics and automation into its payments platform. This acquisition positions Stripe ahead of rivals like Adyen and PayPal by embedding AI-driven spend management and fraud prevention tools directly into its core offerings. Competing payment processors now face immediate pressure to enhance their AI capabilities or risk losing enterprise clients seeking smarter automation.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/stripe-openrouter-acquisition-ai-7-billion/828357/"
-      }
-    },
-    {
-      "title": "Egypt\u2019s CIB Wins Green Light for Digital Bank, Raising Stakes for Local Incumbents",
-      "body": "Commercial International Bank (CIB) secured preliminary approval to launch Egypt\u2019s first digital bank, setting a precedent for major lenders in the country. The move enables fintechs and digital-first challengers to target Egypt\u2019s large unbanked population, while legacy banks must accelerate digital transformation to defend their market share. The Central Bank\u2019s decision signals a broader regulatory shift toward digital finance in North Africa.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48284/egypts-cib-scores-preliminary-approval-for-new-digital-bank"
-      }
-    },
-    {
-      "title": "Helcim Raises $38M to Expand SMB Banking Platform in Canada",
-      "body": "Helcim closed a $38 million Series C to scale its payments and banking platform for small and medium-sized businesses across Canada. With this funding, Helcim aims to compete with both incumbent banks and fintechs by bundling payments, lending, and business banking into a single solution. Canadian SMBs gain more choice, while traditional banks face new competition in a segment long underserved by digital-first offerings.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/smbs/2026/helcim-raises-38-million-to-fill-small-business-banking-void/"
-      }
-    },
-    {
-      "title": "DeFi Lender Term Finance Loses $8.5M in Governance Exploit",
-      "body": "Term Finance, a decentralized lending protocol, lost $8.5 million after a governance exploit drained funds from its platform. The incident shakes DeFi investor confidence and highlights ongoing security risks in permissionless lending protocols. Calls for stronger governance controls and third-party audits are intensifying as regulators and users scrutinize DeFi platforms\u2019 risk management.",
+      "title": "Fasset Hits Unicorn Status With $68M Raise to Expand Stablecoin Infrastructure",
+      "body": "Fasset secured $68 million in Series C funding led by SBI Group, pushing its valuation past $1 billion and fueling expansion of its cross-border stablecoin infrastructure. By aggressively partnering with banks and fintechs seeking stablecoin integration, Fasset is intensifying competition with established digital asset providers. The funding highlights growing institutional demand for stablecoin rails in global payments as regulatory scrutiny mounts.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543"
+        "url": "https://www.theblock.co/news/business/2026-08-24-fasset-68-million-raise-sbi-group-412563"
+      }
+    },
+    {
+      "title": "Brazil\u2019s Ita\u00fa Gains OCC Approval for US Bank Charter, Targets Affluent Clients",
+      "body": "Ita\u00fa Unibanco received conditional OCC approval for a US bank charter, planning to serve high-net-worth clients with deposit accounts, mortgages, and credit cards from a Miami branch. This entry brings new competition to US banks targeting affluent customers, while opening cross-border financial flows between Latin America and the US. Other Latin American banks may follow Ita\u00fa\u2019s lead as regulatory pathways open.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/itau-brazil-us-bank-charter-occ-conditional-approval/828606/"
+      }
+    },
+    {
+      "title": "India to Tokenize Corporate Bond Market for Instant Settlement and Efficiency",
+      "body": "India is preparing to implement tokenization in its corporate bond market, aiming for instant settlement and greater market efficiency. Asset managers and institutional investors stand to benefit from faster settlement cycles and reduced counterparty risk, while regulators seek to attract new capital and modernize market infrastructure. Success in India could prompt other emerging markets to accelerate digital securities adoption.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48290/india-set-to-tokenise-corporate-bond-market---reuters"
+      }
+    },
+    {
+      "title": "Blockchain Association Backs GENIUS Act Rules, Pushing Stablecoin Regulatory Clarity",
+      "body": "The Blockchain Association voiced support for the US Treasury\u2019s proposed GENIUS Act rules, which would limit client ID requirements to direct issuer-customer stablecoin transactions. By advocating for streamlined compliance, the Association aims to lower onboarding barriers for stablecoin issuers and encourage banks and fintechs to expand stablecoin offerings. As US rules take shape, other jurisdictions may look to the GENIUS Act as a model for balancing innovation and oversight.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-08-25-blockchain-association-backs-genius-act-412668"
+      }
+    },
+    {
+      "title": "Franklin Templeton and HashKey Launch Asia\u2019s First Tokenized US Liquidity Fund",
+      "body": "Franklin Templeton and HashKey have launched a tokenized US Government Liquidity Fund in Asia, offering investors enhanced liquidity and transparency through blockchain-based shares. This launch enables asset managers to reach new investor segments and demonstrates the viability of tokenized funds in regulated markets. The move is likely to accelerate tokenization strategies among global asset managers seeking to modernize product offerings.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-08-25-franklin-templeton-hashkey-tokenized-fund-412675"
       }
     }
   ],
-  "perspective": "Stripe\u2019s OpenRouter acquisition and CIB\u2019s digital bank approval signal rapid AI and digital banking shifts in global payments.",
+  "perspective": "Fasset\u2019s unicorn funding and Franklin Templeton\u2019s tokenized fund show banks and asset managers rapidly advancing stablecoin and tokenization strategies across global markets.",
   "curiosity": {
-    "text": "In 2023, more than 60% of Canadian SMBs reported using at least two different fintech platforms for daily operations, a sharp rise from just 18% in 2018."
+    "text": "The first credit card transaction occurred in 1950 at a New York City restaurant, launching the Diners Club card and the concept of universal charge cards."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "type": "expansion",
+      "company": "Pay.com.au",
+      "description": "Raised $28M to launch rewards platform in the US.",
+      "source_url": "https://www.finextra.com/newsarticle/48293/paycomau-brings-aussie-rewards-platform-to-the-us"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "Neno",
+      "description": "Raised \u20ac6.6M to expand AI-native financial services in Europe.",
+      "source_url": "https://www.finextra.com/newsarticle/48292/ai-native-financial-services-startup-neno-raises-66-million"
+    },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Moss",
-      "description": "Crowned Europe's newest unicorn with \u20ac30m Series C.",
+      "description": "Crowned unicorn with \u20ac30M Series C funding.",
       "source_url": "https://sifted.eu/articles/moss-unicorn-series-c/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "executive change",
-      "company": "Klarna",
-      "description": "CFO and CMO to leave amid financial outlook adjustments.",
-      "source_url": "https://www.bankingdive.com/news/klarna-cfo-cmo-to-leave-reduced-outlook-new-york/828299/"
-    },
-    {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
+      "type": "regulatory",
       "company": "Revolut",
-      "description": "Granted French banking licence, expanding European operations.",
+      "description": "Granted French banking licence.",
       "source_url": "https://sifted.eu/articles/revolut-french-banking-licence/"
     },
     {
-      "flag": "\ud83c\udf10",
-      "type": "project collapse",
-      "company": "Tether",
-      "description": "Uruguay bitcoin mining project collapsed over power dispute.",
-      "source_url": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536"
+      "flag": "\ud83c\uddea\ud83c\uddec",
+      "type": "regulatory",
+      "company": "CIB",
+      "description": "Received approval for new digital bank.",
+      "source_url": "https://www.finextra.com/newsarticle/48284/egypts-cib-scores-preliminary-approval-for-new-digital-bank"
     }
   ]
 }
