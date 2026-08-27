@@ -1,64 +1,71 @@
 {
   "news": [
     {
-      "title": "Visa Joins MAS Stablecoin Settlement Pilot, Linking Card Networks to Digital Asset Rails",
-      "body": "Visa has joined the Monetary Authority of Singapore\u2019s pilot to settle payments using stablecoins, aiming to bridge traditional card networks with digital asset infrastructure. This move positions Visa at the forefront of integrating stablecoins into mainstream payment flows, challenging legacy cross-border settlement models. Competing networks such as Mastercard and major banks like DBS now face a direct test of their digital asset strategies as MAS\u2019s approach could become a template for other regulators.",
+      "title": "Revolut Launches Euro Stablecoin EURR in Denmark, Poland, and Portugal",
+      "body": "Revolut has begun rolling out its euro-backed stablecoin, EURR, to customers in Denmark, Poland, and Portugal. This move puts Revolut in direct competition with PayPal and Circle for digital currency adoption in Europe, while also pushing traditional banks to accelerate their own digital asset strategies. The phased launch will test regulatory responses and consumer appetite for stablecoins in the eurozone.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48300/visa-joins-mas-led-project-to-pilot-stablecoin-settlement?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48301/revolut-rolls-out-euro-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Revolut Launches In-House AI Research Unit to Power Super-App Personalization",
-      "body": "Revolut has established an AI research unit to build proprietary models focused on financial behavior and customer experience. By investing in internal AI capabilities, Revolut aims to differentiate its super-app with deeper personalization and smarter financial tools. Fintechs such as Monzo and N26 may need to accelerate their own AI development to maintain user engagement and retention.",
+      "title": "UK Treasury Mandates Bank of England to Prioritize Payments Innovation and Stablecoins",
+      "body": "The UK Treasury will require the Bank of England to support payments innovation, including digital currencies and stablecoins, and to report annually to parliament. This policy shift could attract more fintech investment to the UK and accelerate the development of new payment rails. Banks and fintechs now have a clearer mandate to pursue digital currency initiatives under regulatory oversight.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-ai-research-unit/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payments-innovation/2026/bank-of-england-welcomes-government-plan-to-drive-uk-payments-innovation/"
       }
     },
     {
-      "title": "Fasset Reaches Unicorn Status as Stablecoin Neobank Valued at $1 Billion",
-      "body": "Fasset, a US-based stablecoin neobank leveraging AI, has hit a $1 billion valuation after its latest funding round. The milestone highlights growing investor appetite for stablecoin-centric platforms and signals intensifying competition in the digital asset banking space. Neobanks such as Juno and fintechs like Circle may respond by launching new stablecoin products or seeking partnerships to attract similar investment.",
+      "title": "39 US State Bankers Associations Form BankChain Alliance for Industry-Owned Blockchain",
+      "body": "Thirty-nine state bankers associations have launched the BankChain Alliance to build a blockchain network owned by the banking industry, targeting a 2027 rollout. By reducing reliance on third-party blockchain providers, banks aim to gain more control over transaction processes and data. The alliance\u2019s progress will shape how US banks approach blockchain adoption and regulatory engagement.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/39-state-bankers-groups-join-forces-to-build-industry-owned-blockchain-network/"
+      }
+    },
+    {
+      "title": "Helcim Raises C$53M to Expand SME Payment Processing in Canada",
+      "body": "Canadian payment processor Helcim secured C$53 million in Series C funding to broaden its services for small and medium-sized businesses. The new capital will fuel product development and market expansion, intensifying competition for incumbents in the SME payments space. Incumbent processors may face margin compression as Helcim targets underserved segments with modernized solutions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48288/stablecoin-platform-fasset-hits-1bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48306/canadian-payment-processor-helcim-raises-c53m?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "CommBank\u2019s PaidIt Platform Targets Digital Payouts as Cheque Phase-Out Accelerates",
-      "body": "CommBank\u2019s x15ventures has launched PaidIt, a digital platform for managing remediation payments and refunds, ahead of Australia\u2019s planned cheque phase-out. This positions CommBank to capture enterprise and government payout flows as paper-based methods disappear. Australian banks such as Westpac and NAB, along with payout providers like EML Payments, will need to modernize quickly or risk losing relevance in the shift to digital disbursements.",
+      "title": "Open Finance Weakens Primary Account Loyalty as Consumers Spread Assets",
+      "body": "Open finance adoption is eroding the value of the 'primary account' as consumers increasingly distribute assets across multiple platforms. Banks risk losing customer stickiness unless they integrate open finance tools and partnerships to remain relevant. Banks and fintechs are responding by developing new integrations and services to retain customer engagement as regulatory frameworks evolve.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48294/commbank-rolls-out-payout-platform-in-advance-of-cheque-phase-out?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "RockawayX Acquires Relayer Capital, Expanding Crypto Fund Presence in US Market",
-      "body": "RockawayX has acquired Relayer Capital and rebranded it as the RockawayX Liquid Opportunities Fund to broaden its crypto investment offerings in the US. This move strengthens RockawayX\u2019s foothold in the competitive US crypto fund landscape and signals ongoing consolidation among digital asset investment firms. Firms such as Pantera Capital and Galaxy Digital may look to similar acquisitions to expand their US presence and product range.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-08-25-rockawayx-relayer-capital-412743"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/banking/2026/open-finance-exposes-the-limits-of-the-primary-account/"
       }
     }
   ],
-  "perspective": "Visa and Fasset\u2019s stablecoin moves intersect with AI and digital payout innovation from Revolut and CommBank, highlighting rapid shifts in payments infrastructure.",
+  "perspective": "Revolut\u2019s stablecoin launch and the UK\u2019s innovation mandate signal digital currency momentum, while US banks and Helcim drive new rails and SME competition.",
   "curiosity": {
-    "text": "Singapore\u2019s MAS stablecoin pilot is among the first regulator-led projects to directly involve a global card network like Visa in live digital asset settlement trials."
+    "text": "The first credit card transaction occurred in 1950, when Frank McNamara used a Diners Club card to pay for dinner in New York City."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Kalshi",
-      "description": "Raises $1.12 billion via private equity.",
-      "source_url": "https://www.theblock.co/news/web3/2026-08-26-kalshi-latest-form-d-412749"
+      "type": "expansion",
+      "company": "Anthropic",
+      "description": "$45 billion cloud computing agreement with Nscale.",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-escalates-cloud-spending-with-45-billion-nscale-agreement/"
     },
     {
-      "flag": "\ud83c\udde6\ud83c\uddfa",
-      "type": "expansion",
-      "company": "Pay.com.au",
-      "description": "Raises $28 million to launch in the US.",
-      "source_url": "https://www.finextra.com/newsarticle/48293/paycomau-brings-aussie-rewards-platform-to-the-us?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Multiplier",
+      "description": "Raised $6 million in seed financing for AI development.",
+      "source_url": "https://www.finextra.com/newsarticle/48307/multiplier-raises-6m-to-build-ai-for-asset-managers?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "type": "fundraising",
+      "company": "Repodo",
+      "description": "Raised \u20ac8.2 million to launch AI-native audit firm.",
+      "source_url": "https://www.finextra.com/newsarticle/48303/ex-lunar-founders-raise-82m-to-launch-ai-native-audit-firm-repodo?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
