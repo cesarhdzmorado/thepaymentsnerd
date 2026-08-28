@@ -1,71 +1,71 @@
 {
   "news": [
     {
-      "title": "Revolut Launches Euro Stablecoin EURR in Denmark, Poland, and Portugal",
-      "body": "Revolut has begun rolling out its euro-backed stablecoin, EURR, to customers in Denmark, Poland, and Portugal. This move puts Revolut in direct competition with PayPal and Circle for digital currency adoption in Europe, while also pushing traditional banks to accelerate their own digital asset strategies. The phased launch will test regulatory responses and consumer appetite for stablecoins in the eurozone.",
+      "title": "Socure Raises $156M and Acquires Fravity to Advance AI Fraud Detection",
+      "body": "Socure secured $156 million at a $5.2 billion valuation and acquired AI fraud startup Fravity, integrating its advanced generative AI and behavioral biometrics into the RiskOS platform. This technology enables Socure to detect synthetic identities and deepfake attacks with greater accuracy, addressing emerging fraud vectors that challenge rivals like Alloy and Onfido. Banks and fintechs can expect more robust identity verification tools, while Socure is likely to pursue direct integrations with core banking platforms and payment processors to expand its reach.",
+      "source": {
+        "name": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
+      }
+    },
+    {
+      "title": "Affirm and Shopify Bring Shop Pay Installments to Australia, Targeting Afterpay\u2019s Turf",
+      "body": "Affirm and Shopify have launched Shop Pay Installments in Australia, enabling consumers to use Affirm-powered BNPL at Shopify merchants. This expansion puts direct pressure on local BNPL leaders like Afterpay, intensifying competition for merchant integrations and consumer loyalty. Australian merchants now have more choice in installment providers, which could drive down fees and improve terms. Afterpay and Zip are expected to introduce new incentives or product features to defend their market share.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/bnpl/2026/affirm-and-shopify-take-shop-pay-installments-to-australia/"
+      }
+    },
+    {
+      "title": "BitGo Acquires NYDIG\u2019s Institutional Trading Arm to Expand Crypto Derivatives",
+      "body": "BitGo has acquired NYDIG\u2019s institutional trading business, adding 30 employees and broadening its derivatives offerings for institutional clients. With this move, BitGo can now offer a wider range of crypto trading and settlement services, positioning itself as a stronger competitor to Coinbase Prime and Galaxy. Asset managers and hedge funds will benefit from consolidated access to spot and derivatives trading, while BitGo focuses on integrating NYDIG\u2019s technology stack and client relationships.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-08-27-bitgo-buys-nydig-institutional-trading-412975"
+      }
+    },
+    {
+      "title": "UK Government Directs Bank of England to Prioritize Digital Currency Innovation",
+      "body": "The UK Government has formally instructed the Bank of England to support payment system innovation, including digital money and stablecoins. This directive is expected to accelerate regulatory frameworks, enabling fintechs and banks to launch digital currency products with clearer compliance guidelines. Payment processors and neobanks may accelerate stablecoin integration, while traditional banks will need to update legacy systems to remain competitive as new pilot programs and consultations roll out.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48301/revolut-rolls-out-euro-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48313/uk-government-tells-bank-of-england-to-support-innovation-in-payment-systems?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "UK Treasury Mandates Bank of England to Prioritize Payments Innovation and Stablecoins",
-      "body": "The UK Treasury will require the Bank of England to support payments innovation, including digital currencies and stablecoins, and to report annually to parliament. This policy shift could attract more fintech investment to the UK and accelerate the development of new payment rails. Banks and fintechs now have a clearer mandate to pursue digital currency initiatives under regulatory oversight.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payments-innovation/2026/bank-of-england-welcomes-government-plan-to-drive-uk-payments-innovation/"
-      }
-    },
-    {
-      "title": "39 US State Bankers Associations Form BankChain Alliance for Industry-Owned Blockchain",
-      "body": "Thirty-nine state bankers associations have launched the BankChain Alliance to build a blockchain network owned by the banking industry, targeting a 2027 rollout. By reducing reliance on third-party blockchain providers, banks aim to gain more control over transaction processes and data. The alliance\u2019s progress will shape how US banks approach blockchain adoption and regulatory engagement.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/39-state-bankers-groups-join-forces-to-build-industry-owned-blockchain-network/"
-      }
-    },
-    {
-      "title": "Helcim Raises C$53M to Expand SME Payment Processing in Canada",
-      "body": "Canadian payment processor Helcim secured C$53 million in Series C funding to broaden its services for small and medium-sized businesses. The new capital will fuel product development and market expansion, intensifying competition for incumbents in the SME payments space. Incumbent processors may face margin compression as Helcim targets underserved segments with modernized solutions.",
+      "title": "US State Bankers Launch Industry-Owned Blockchain Network to Modernize Payments",
+      "body": "Bankers associations from 39 US states are collaborating to build an industry-owned blockchain network designed to streamline interbank settlement and enhance transaction security. This network will allow regional banks and credit unions to bypass traditional clearinghouses like The Clearing House, enabling faster and lower-cost payments. Core banking vendors will need to adapt their systems for blockchain compatibility as pilot transactions and early bank onboarding begin.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48306/canadian-payment-processor-helcim-raises-c53m?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Open Finance Weakens Primary Account Loyalty as Consumers Spread Assets",
-      "body": "Open finance adoption is eroding the value of the 'primary account' as consumers increasingly distribute assets across multiple platforms. Banks risk losing customer stickiness unless they integrate open finance tools and partnerships to remain relevant. Banks and fintechs are responding by developing new integrations and services to retain customer engagement as regulatory frameworks evolve.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/open-finance-exposes-the-limits-of-the-primary-account/"
+        "url": "https://www.finextra.com/newsarticle/48316/us-state-bankers-associations-to-build-industry-owned-blockchain-network?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Revolut\u2019s stablecoin launch and the UK\u2019s innovation mandate signal digital currency momentum, while US banks and Helcim drive new rails and SME competition.",
+  "perspective": "Socure\u2019s Fravity deal and US state bankers\u2019 blockchain push show how AI and distributed tech are reshaping payments infrastructure and competition.",
   "curiosity": {
-    "text": "The first credit card transaction occurred in 1950, when Frank McNamara used a Diners Club card to pay for dinner in New York City."
+    "text": "The UK's Faster Payments Service, launched in 2008, was the first national system to enable 24/7 instant bank transfers for both consumers and businesses."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Anthropic",
-      "description": "$45 billion cloud computing agreement with Nscale.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-escalates-cloud-spending-with-45-billion-nscale-agreement/"
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Helcim",
+      "description": "Raises C$53M in Series C funding round",
+      "source_url": "https://www.finextra.com/newsarticle/48306/canadian-payment-processor-helcim-raises-c53m?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Multiplier",
-      "description": "Raised $6 million in seed financing for AI development.",
-      "source_url": "https://www.finextra.com/newsarticle/48307/multiplier-raises-6m-to-build-ai-for-asset-managers?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "RQD* Clearing",
+      "description": "Raises $74M led by Bain Capital",
+      "source_url": "https://www.finextra.com/newsarticle/48317/rqd-clearing-raises-74-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddf0",
-      "type": "fundraising",
-      "company": "Repodo",
-      "description": "Raised \u20ac8.2 million to launch AI-native audit firm.",
-      "source_url": "https://www.finextra.com/newsarticle/48303/ex-lunar-founders-raise-82m-to-launch-ai-native-audit-firm-repodo?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "Revolut",
+      "description": "Rolls out euro-backed stablecoin EURR",
+      "source_url": "https://www.finextra.com/newsarticle/48301/revolut-rolls-out-euro-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
