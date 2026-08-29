@@ -1,71 +1,71 @@
 {
   "news": [
     {
-      "title": "Socure Raises $156M and Acquires Fravity to Advance AI Fraud Detection",
-      "body": "Socure secured $156 million at a $5.2 billion valuation and acquired AI fraud startup Fravity, integrating its advanced generative AI and behavioral biometrics into the RiskOS platform. This technology enables Socure to detect synthetic identities and deepfake attacks with greater accuracy, addressing emerging fraud vectors that challenge rivals like Alloy and Onfido. Banks and fintechs can expect more robust identity verification tools, while Socure is likely to pursue direct integrations with core banking platforms and payment processors to expand its reach.",
+      "title": "PayPal Shares Drop 13% After Stripe-Advent Takeover Talks Collapse",
+      "body": "Stripe and Advent International ended takeover discussions with PayPal, prompting PayPal\u2019s stock to fall over 13% and intensifying scrutiny of its leadership\u2019s growth strategy. PayPal now faces direct pressure from shareholders to clarify its next moves, which could include restructuring, seeking new partners, or accelerating product launches to compete with digital wallet rivals.",
       "source": {
-        "name": "Crunchbase News",
-        "url": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48322/paypal-shares-sink-on-reported-collapse-of-stripe-advent-takeover-deal?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Affirm and Shopify Bring Shop Pay Installments to Australia, Targeting Afterpay\u2019s Turf",
-      "body": "Affirm and Shopify have launched Shop Pay Installments in Australia, enabling consumers to use Affirm-powered BNPL at Shopify merchants. This expansion puts direct pressure on local BNPL leaders like Afterpay, intensifying competition for merchant integrations and consumer loyalty. Australian merchants now have more choice in installment providers, which could drive down fees and improve terms. Afterpay and Zip are expected to introduce new incentives or product features to defend their market share.",
+      "title": "Revolut Secures French Banking Licence, Expanding Competitive Reach in Europe",
+      "body": "Revolut obtained a full banking licence in France, enabling it to offer deposits, lending, and a broader suite of financial services to French customers. This regulatory milestone allows Revolut to compete head-to-head with traditional banks and fintechs, supporting its super-app ambitions and paving the way for new product launches and primary account targeting across the EU.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-french-banking-licence/"
+      }
+    },
+    {
+      "title": "BIS Endorses Tokenized Deposits Over Stablecoins for Digital Payments Infrastructure",
+      "body": "The BIS General Manager urged banks and fintechs to prioritize tokenized deposit solutions over stablecoins, signaling that upcoming cross-border and B2B payment pilots will likely focus on bank-issued digital money. Stablecoin issuers may see reduced institutional engagement as regulators and central banks develop new frameworks and pilot programs centered on tokenized deposits.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/bnpl/2026/affirm-and-shopify-take-shop-pay-installments-to-australia/"
+        "url": "https://www.pymnts.com/digital-payments/2026/bis-general-manager-says-tokenized-deposits-beat-stablecoins-digital-payments/"
       }
     },
     {
-      "title": "BitGo Acquires NYDIG\u2019s Institutional Trading Arm to Expand Crypto Derivatives",
-      "body": "BitGo has acquired NYDIG\u2019s institutional trading business, adding 30 employees and broadening its derivatives offerings for institutional clients. With this move, BitGo can now offer a wider range of crypto trading and settlement services, positioning itself as a stronger competitor to Coinbase Prime and Galaxy. Asset managers and hedge funds will benefit from consolidated access to spot and derivatives trading, while BitGo focuses on integrating NYDIG\u2019s technology stack and client relationships.",
+      "title": "OCC Tightens Oversight With New Enforcement Focus on Big Bank Risks",
+      "body": "The OCC revised its enforcement approach to target significant risks at large US banks, increasing compliance demands and prompting banks to update risk management practices. This regulatory shift could drive banks to accelerate digital transformation and consider consolidation to meet stricter supervisory standards.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/occ-rewrites-enforcement-playbook-to-focus-on-big-bank-risks/"
+      }
+    },
+    {
+      "title": "SBI Holdings Invests $270M in Ajaib to Expand Asia Digital Asset Services",
+      "body": "SBI Holdings invested $270 million for a 20% stake in Indonesian fintech Ajaib, fueling its expansion in digital asset and brokerage services across Southeast Asia. The investment signals rising institutional interest in the region\u2019s digital asset sector and may prompt further capital inflows and closer regulatory attention as adoption grows.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-08-27-bitgo-buys-nydig-institutional-trading-412975"
-      }
-    },
-    {
-      "title": "UK Government Directs Bank of England to Prioritize Digital Currency Innovation",
-      "body": "The UK Government has formally instructed the Bank of England to support payment system innovation, including digital money and stablecoins. This directive is expected to accelerate regulatory frameworks, enabling fintechs and banks to launch digital currency products with clearer compliance guidelines. Payment processors and neobanks may accelerate stablecoin integration, while traditional banks will need to update legacy systems to remain competitive as new pilot programs and consultations roll out.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48313/uk-government-tells-bank-of-england-to-support-innovation-in-payment-systems?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "US State Bankers Launch Industry-Owned Blockchain Network to Modernize Payments",
-      "body": "Bankers associations from 39 US states are collaborating to build an industry-owned blockchain network designed to streamline interbank settlement and enhance transaction security. This network will allow regional banks and credit unions to bypass traditional clearinghouses like The Clearing House, enabling faster and lower-cost payments. Core banking vendors will need to adapt their systems for blockchain compatibility as pilot transactions and early bank onboarding begin.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48316/us-state-bankers-associations-to-build-industry-owned-blockchain-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.theblock.co/news/deals/2026-08-28-sbi-holdings-invests-270-million-in-ajaib-taking-20-stake-amid-asia-digital-asset-push-413023"
       }
     }
   ],
-  "perspective": "Socure\u2019s Fravity deal and US state bankers\u2019 blockchain push show how AI and distributed tech are reshaping payments infrastructure and competition.",
+  "perspective": "PayPal\u2019s failed Stripe-Advent talks and BIS\u2019s tokenization push underscore shifting strategies and regulatory priorities for payments leaders.",
   "curiosity": {
-    "text": "The UK's Faster Payments Service, launched in 2008, was the first national system to enable 24/7 instant bank transfers for both consumers and businesses."
+    "text": "In 1973, a London grocery chain introduced the first in-store electronic payment terminal, but customers initially distrusted the technology and preferred handwritten receipts."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Helcim",
-      "description": "Raises C$53M in Series C funding round",
-      "source_url": "https://www.finextra.com/newsarticle/48306/canadian-payment-processor-helcim-raises-c53m?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Socure",
+      "description": "Secured $156M at $5.2B valuation, acquires AI fraud startup Fravity.",
+      "source_url": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
+    },
+    {
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "type": "partnership",
+      "company": "Dunamu",
+      "description": "Partners with Visa on stablecoin and AI initiatives.",
+      "source_url": "https://www.theblock.co/news/business/2026-08-28-dunamu-visa-partner-stablecoin-ai-ousd-412988"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "RQD* Clearing",
-      "description": "Raises $74M led by Bain Capital",
-      "source_url": "https://www.finextra.com/newsarticle/48317/rqd-clearing-raises-74-million?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Revolut",
-      "description": "Rolls out euro-backed stablecoin EURR",
-      "source_url": "https://www.finextra.com/newsarticle/48301/revolut-rolls-out-euro-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "milestone",
+      "company": "Bitwise",
+      "description": "Solana ETF hits $1B AUM, first of its kind.",
+      "source_url": "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035"
     }
   ]
 }
