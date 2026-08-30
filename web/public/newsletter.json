@@ -1,71 +1,71 @@
 {
   "news": [
     {
-      "title": "PayPal Shares Drop 13% After Stripe-Advent Takeover Talks Collapse",
-      "body": "Stripe and Advent International ended takeover discussions with PayPal, prompting PayPal\u2019s stock to fall over 13% and intensifying scrutiny of its leadership\u2019s growth strategy. PayPal now faces direct pressure from shareholders to clarify its next moves, which could include restructuring, seeking new partners, or accelerating product launches to compete with digital wallet rivals.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48322/paypal-shares-sink-on-reported-collapse-of-stripe-advent-takeover-deal?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Revolut Secures French Banking Licence, Expanding Competitive Reach in Europe",
-      "body": "Revolut obtained a full banking licence in France, enabling it to offer deposits, lending, and a broader suite of financial services to French customers. This regulatory milestone allows Revolut to compete head-to-head with traditional banks and fintechs, supporting its super-app ambitions and paving the way for new product launches and primary account targeting across the EU.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-french-banking-licence/"
-      }
-    },
-    {
-      "title": "BIS Endorses Tokenized Deposits Over Stablecoins for Digital Payments Infrastructure",
-      "body": "The BIS General Manager urged banks and fintechs to prioritize tokenized deposit solutions over stablecoins, signaling that upcoming cross-border and B2B payment pilots will likely focus on bank-issued digital money. Stablecoin issuers may see reduced institutional engagement as regulators and central banks develop new frameworks and pilot programs centered on tokenized deposits.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/digital-payments/2026/bis-general-manager-says-tokenized-deposits-beat-stablecoins-digital-payments/"
-      }
-    },
-    {
-      "title": "OCC Tightens Oversight With New Enforcement Focus on Big Bank Risks",
-      "body": "The OCC revised its enforcement approach to target significant risks at large US banks, increasing compliance demands and prompting banks to update risk management practices. This regulatory shift could drive banks to accelerate digital transformation and consider consolidation to meet stricter supervisory standards.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/bank-regulation/2026/occ-rewrites-enforcement-playbook-to-focus-on-big-bank-risks/"
-      }
-    },
-    {
-      "title": "SBI Holdings Invests $270M in Ajaib to Expand Asia Digital Asset Services",
-      "body": "SBI Holdings invested $270 million for a 20% stake in Indonesian fintech Ajaib, fueling its expansion in digital asset and brokerage services across Southeast Asia. The investment signals rising institutional interest in the region\u2019s digital asset sector and may prompt further capital inflows and closer regulatory attention as adoption grows.",
+      "title": "Fogo Blockchain Halts Mainnet After $3M Token Exploit Exposes Smart Contract Flaws",
+      "body": "Layer 1 blockchain Fogo suspended its mainnet on August 28, 2026, after an attacker siphoned 400 million FOGO tokens\u201410% of supply and valued at $3 million\u2014by exploiting a vulnerability in its smart contract code. The breach eroded user trust and drew attention to risks like unchecked contract permissions and insufficient code audits. Competing chains and token issuers now face increased regulatory and user scrutiny, with comprehensive security reviews and insurance coverage becoming standard expectations.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/deals/2026-08-28-sbi-holdings-invests-270-million-in-ajaib-taking-20-stake-amid-asia-digital-asset-push-413023"
+        "url": "https://www.theblock.co/news/defi/2026-08-29-layer-1-blockchain-fogo-halts-mainnet-after-attacker-receives-400-million-fogo-tokens-10-of-circulating-supply-413064"
+      }
+    },
+    {
+      "title": "Visa and Mastercard Resume Syrian Operations as US Lifts Sanctions",
+      "body": "Visa and Mastercard processed their first international card transactions in Syria after the US removed Syria from its state sponsors of terrorism list. By reactivating their networks, Visa and Mastercard are expanding their reach and enabling new transaction flows for Syrian banks and merchants. Regional banks and local fintechs are expected to integrate with these networks, accelerating digital payment adoption and financial inclusion in Syria.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48321/visa-and-mastercard-complete-transactions-in-syria-after-us-lifts-state-terrorism-label?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Experian and JPMorgan Embed Account Verification to Combat Payment Fraud",
+      "body": "Experian and JPMorgan are integrating account and payee verification directly into payment workflows to strengthen authentication and reduce fraud. This initiative sets a new standard for payment security, prompting large US banks and major fintech payment platforms to consider similar upgrades. Merchants and smaller fintechs relying on legacy verification may face higher fraud exposure and customer churn if they do not modernize.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/authentication/2026/experian-jpmorgan-push-account-checks-into-payment-workflows/"
+      }
+    },
+    {
+      "title": "Bitwise Solana ETF Surpasses $1B AUM, Fueling Blockchain ETF Expansion",
+      "body": "The Bitwise Solana Staking ETF reached $1 billion in assets under management less than a year after launch, highlighting strong institutional and retail demand for blockchain-linked investment products. This milestone signals growing acceptance of crypto-native ETFs and is likely to accelerate the introduction of similar funds by asset managers and exchanges, broadening investor access to blockchain ecosystems.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035"
+      }
+    },
+    {
+      "title": "Ninth Circuit Ruling Weakens CFTC\u2019s Grip on Nevada Sports Betting Regulation",
+      "body": "A US appeals court ruled against Kalshi, challenging the CFTC\u2019s exclusive jurisdiction over Nevada sports betting markets. The decision paves the way for state-level regulatory frameworks, potentially fragmenting oversight of betting products. Sportsbooks and fintechs seeking US expansion must now navigate a complex mix of federal and state rules, increasing compliance demands and legal uncertainty.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-08-28-ninth-circuit-deals-blow-to-kalshi-in-nevada-sports-betting-fight-challenging-cftcs-exclusive-jurisdiction-claim-413046"
       }
     }
   ],
-  "perspective": "PayPal\u2019s failed Stripe-Advent talks and BIS\u2019s tokenization push underscore shifting strategies and regulatory priorities for payments leaders.",
+  "perspective": "Visa and Mastercard\u2019s Syrian relaunch and the Bitwise Solana ETF milestone illustrate shifting regulatory and institutional dynamics in payments and digital assets.",
   "curiosity": {
-    "text": "In 1973, a London grocery chain introduced the first in-store electronic payment terminal, but customers initially distrusted the technology and preferred handwritten receipts."
+    "text": "In 1998, PayPal launched its first referral program, offering $10 per new user, which helped drive viral adoption and shaped early fintech marketing tactics."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Socure",
-      "description": "Secured $156M at $5.2B valuation, acquires AI fraud startup Fravity.",
-      "source_url": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
-    },
-    {
-      "flag": "\ud83c\uddf0\ud83c\uddf7",
-      "type": "partnership",
-      "company": "Dunamu",
-      "description": "Partners with Visa on stablecoin and AI initiatives.",
-      "source_url": "https://www.theblock.co/news/business/2026-08-28-dunamu-visa-partner-stablecoin-ai-ousd-412988"
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "type": "M&A",
+      "company": "SBI Holdings",
+      "description": "Invests $270M in Ajaib for 20% stake amid Asia digital asset push.",
+      "source_url": "https://www.theblock.co/news/deals/2026-08-28-sbi-holdings-invests-270-million-in-ajaib-taking-20-stake-amid-asia-digital-asset-push-413023"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "milestone",
-      "company": "Bitwise",
-      "description": "Solana ETF hits $1B AUM, first of its kind.",
-      "source_url": "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035"
+      "type": "Expansion",
+      "company": "Affirm",
+      "description": "Launches Shop Pay Installments in Australia with Shopify.",
+      "source_url": "https://www.finextra.com/pressarticle/110751/affirm-and-shopify-launch-installments-payments-in-australia?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "Expansion",
+      "company": "Revolut",
+      "description": "Granted French banking licence, expanding EU operations.",
+      "source_url": "https://sifted.eu/articles/revolut-french-banking-licence/"
     }
   ]
 }
