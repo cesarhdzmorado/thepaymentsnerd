@@ -1,71 +1,57 @@
 {
   "news": [
     {
-      "title": "Fogo Blockchain Halts Mainnet After $3M Token Exploit Exposes Smart Contract Flaws",
-      "body": "Layer 1 blockchain Fogo suspended its mainnet on August 28, 2026, after an attacker siphoned 400 million FOGO tokens\u201410% of supply and valued at $3 million\u2014by exploiting a vulnerability in its smart contract code. The breach eroded user trust and drew attention to risks like unchecked contract permissions and insufficient code audits. Competing chains and token issuers now face increased regulatory and user scrutiny, with comprehensive security reviews and insurance coverage becoming standard expectations.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-08-29-layer-1-blockchain-fogo-halts-mainnet-after-attacker-receives-400-million-fogo-tokens-10-of-circulating-supply-413064"
-      }
-    },
-    {
-      "title": "Visa and Mastercard Resume Syrian Operations as US Lifts Sanctions",
-      "body": "Visa and Mastercard processed their first international card transactions in Syria after the US removed Syria from its state sponsors of terrorism list. By reactivating their networks, Visa and Mastercard are expanding their reach and enabling new transaction flows for Syrian banks and merchants. Regional banks and local fintechs are expected to integrate with these networks, accelerating digital payment adoption and financial inclusion in Syria.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48321/visa-and-mastercard-complete-transactions-in-syria-after-us-lifts-state-terrorism-label?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Experian and JPMorgan Embed Account Verification to Combat Payment Fraud",
-      "body": "Experian and JPMorgan are integrating account and payee verification directly into payment workflows to strengthen authentication and reduce fraud. This initiative sets a new standard for payment security, prompting large US banks and major fintech payment platforms to consider similar upgrades. Merchants and smaller fintechs relying on legacy verification may face higher fraud exposure and customer churn if they do not modernize.",
+      "title": "Nium Rolls Out USDC Funding, Letting Businesses Settle Cross-Border Payouts in Fiat",
+      "body": "Nium has launched a program enabling clients to fund accounts with USDC and pay out in fiat currencies, streamlining cross-border settlements for businesses. By leveraging stablecoin rails, Nium offers faster and lower-cost global payouts compared to traditional correspondent banking. Businesses seeking to reduce settlement times and fees should evaluate stablecoin-based solutions as an alternative to legacy wire transfers.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/authentication/2026/experian-jpmorgan-push-account-checks-into-payment-workflows/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/nium-debuts-usdc-funding-for-client-payouts/"
       }
     },
     {
-      "title": "Bitwise Solana ETF Surpasses $1B AUM, Fueling Blockchain ETF Expansion",
-      "body": "The Bitwise Solana Staking ETF reached $1 billion in assets under management less than a year after launch, highlighting strong institutional and retail demand for blockchain-linked investment products. This milestone signals growing acceptance of crypto-native ETFs and is likely to accelerate the introduction of similar funds by asset managers and exchanges, broadening investor access to blockchain ecosystems.",
+      "title": "Cronos Network Halts After $75M Tectonic Exploit, Exposing DeFi Security Gaps",
+      "body": "The Crypto.com-linked Cronos network suspended operations following a $75 million exploit involving Tectonic\u2019s TONIC token, disrupting users and DeFi participants. The incident undermines trust in Cronos and highlights persistent vulnerabilities in DeFi protocols. Competing networks with stronger security postures may attract liquidity as users seek safer alternatives. Renewed calls for technical audits and regulatory oversight are likely across DeFi platforms.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035"
+        "url": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069"
       }
     },
     {
-      "title": "Ninth Circuit Ruling Weakens CFTC\u2019s Grip on Nevada Sports Betting Regulation",
-      "body": "A US appeals court ruled against Kalshi, challenging the CFTC\u2019s exclusive jurisdiction over Nevada sports betting markets. The decision paves the way for state-level regulatory frameworks, potentially fragmenting oversight of betting products. Sportsbooks and fintechs seeking US expansion must now navigate a complex mix of federal and state rules, increasing compliance demands and legal uncertainty.",
+      "title": "VALT Bank Secures FDIC Insurance, Plans Q4 2026 Launch to Challenge Incumbents",
+      "body": "VALT Bank received FDIC approval for deposit insurance and plans to launch in Q4 2026, clearing a major regulatory hurdle for digital banks. This milestone enables VALT to compete directly with established banks for business deposits and lending relationships. Fintechs considering a banking license should monitor VALT\u2019s progress and assess their own regulatory strategies as digital banks gain ground in the US market.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-08-28-ninth-circuit-deals-blow-to-kalshi-in-nevada-sports-betting-fight-challenging-cftcs-exclusive-jurisdiction-claim-413046"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/valt-bank-gets-fdic-nod-deposit-insurance-gediman/829100/"
+      }
+    },
+    {
+      "title": "Shinhan Partners With Visa to Pilot Stablecoin Payments in South Korea",
+      "body": "Shinhan Financial Group signed an MOU with Visa to pilot Visa\u2019s stablecoin platform, aiming to embed stablecoin payments into Shinhan\u2019s digital offerings. This partnership strengthens Visa\u2019s foothold in Asia\u2019s stablecoin market and gives Shinhan early access to programmable money infrastructure. Regional banks should evaluate stablecoin pilots to remain competitive as programmable payments gain traction in mainstream financial services.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48323/south-koreas-shinhan-signs-for-visa-stablecoin-platform"
+      }
+    },
+    {
+      "title": "Revolut Forms In-House AI Research Unit to Build Proprietary Fintech Models",
+      "body": "Revolut has launched an internal AI research division to develop proprietary models for product and operational enhancements. By investing in in-house AI, Revolut aims to differentiate its offerings from rivals relying on third-party solutions. Fintechs seeking to improve personalization, fraud detection, and customer service should consider building or acquiring AI expertise to stay competitive.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-ai-research-unit/"
       }
     }
   ],
-  "perspective": "Visa and Mastercard\u2019s Syrian relaunch and the Bitwise Solana ETF milestone illustrate shifting regulatory and institutional dynamics in payments and digital assets.",
+  "perspective": "Nium and VALT Bank are driving change in digital payments as stablecoin adoption and new regulatory entrants reshape the competitive landscape.",
   "curiosity": {
-    "text": "In 1998, PayPal launched its first referral program, offering $10 per new user, which helped drive viral adoption and shaped early fintech marketing tactics."
+    "text": "The first coins resembling modern currency were minted in Lydia around 600 BCE, marking a shift from barter to standardized payments."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddef\ud83c\uddf5",
-      "type": "M&A",
-      "company": "SBI Holdings",
-      "description": "Invests $270M in Ajaib for 20% stake amid Asia digital asset push.",
-      "source_url": "https://www.theblock.co/news/deals/2026-08-28-sbi-holdings-invests-270-million-in-ajaib-taking-20-stake-amid-asia-digital-asset-push-413023"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Expansion",
-      "company": "Affirm",
-      "description": "Launches Shop Pay Installments in Australia with Shopify.",
-      "source_url": "https://www.finextra.com/pressarticle/110751/affirm-and-shopify-launch-installments-payments-in-australia?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "Expansion",
-      "company": "Revolut",
-      "description": "Granted French banking licence, expanding EU operations.",
-      "source_url": "https://sifted.eu/articles/revolut-french-banking-licence/"
+      "type": "fundraising",
+      "company": "Socure",
+      "description": "Raised $156M at $5.2B valuation, acquired AI startup Fravity.",
+      "source_url": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
     }
   ]
 }
