@@ -1,57 +1,71 @@
 {
   "news": [
     {
-      "title": "Nium Rolls Out USDC Funding, Letting Businesses Settle Cross-Border Payouts in Fiat",
-      "body": "Nium has launched a program enabling clients to fund accounts with USDC and pay out in fiat currencies, streamlining cross-border settlements for businesses. By leveraging stablecoin rails, Nium offers faster and lower-cost global payouts compared to traditional correspondent banking. Businesses seeking to reduce settlement times and fees should evaluate stablecoin-based solutions as an alternative to legacy wire transfers.",
+      "title": "London Stock Exchange to Launch Tokenised Stocks With Kraken Partnership",
+      "body": "The London Stock Exchange will introduce tokenised stocks as part of its digital markets initiative, collaborating with Kraken\u2019s parent company. This move positions the UK as a frontrunner in regulated crypto-asset trading, drawing institutional investors and challenging both traditional exchanges and crypto-native platforms. Competing exchanges may accelerate their own tokenisation projects to avoid losing institutional flows.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/nium-debuts-usdc-funding-for-client-payouts/"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/64511a2c-34e7-4f98-be24-9e8427b65027"
       }
     },
     {
-      "title": "Cronos Network Halts After $75M Tectonic Exploit, Exposing DeFi Security Gaps",
-      "body": "The Crypto.com-linked Cronos network suspended operations following a $75 million exploit involving Tectonic\u2019s TONIC token, disrupting users and DeFi participants. The incident undermines trust in Cronos and highlights persistent vulnerabilities in DeFi protocols. Competing networks with stronger security postures may attract liquidity as users seek safer alternatives. Renewed calls for technical audits and regulatory oversight are likely across DeFi platforms.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069"
-      }
-    },
-    {
-      "title": "VALT Bank Secures FDIC Insurance, Plans Q4 2026 Launch to Challenge Incumbents",
-      "body": "VALT Bank received FDIC approval for deposit insurance and plans to launch in Q4 2026, clearing a major regulatory hurdle for digital banks. This milestone enables VALT to compete directly with established banks for business deposits and lending relationships. Fintechs considering a banking license should monitor VALT\u2019s progress and assess their own regulatory strategies as digital banks gain ground in the US market.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/valt-bank-gets-fdic-nod-deposit-insurance-gediman/829100/"
-      }
-    },
-    {
-      "title": "Shinhan Partners With Visa to Pilot Stablecoin Payments in South Korea",
-      "body": "Shinhan Financial Group signed an MOU with Visa to pilot Visa\u2019s stablecoin platform, aiming to embed stablecoin payments into Shinhan\u2019s digital offerings. This partnership strengthens Visa\u2019s foothold in Asia\u2019s stablecoin market and gives Shinhan early access to programmable money infrastructure. Regional banks should evaluate stablecoin pilots to remain competitive as programmable payments gain traction in mainstream financial services.",
+      "title": "TD Bank Executes Tokenised Payment on Project Agor\u00e1 Blockchain Platform",
+      "body": "TD Bank has completed a tokenised payment using Project Agor\u00e1, advancing its adoption of blockchain for payment settlement. This establishes TD as an early mover among North American banks experimenting with tokenised money, raising the bar for peers still reliant on legacy rails. Banks that delay blockchain pilots may face higher costs and slower settlement compared to early adopters.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48323/south-koreas-shinhan-signs-for-visa-stablecoin-platform"
+        "url": "https://www.finextra.com/newsarticle/48326/td-tests-tokenised-payments-through-project-agor"
       }
     },
     {
-      "title": "Revolut Forms In-House AI Research Unit to Build Proprietary Fintech Models",
-      "body": "Revolut has launched an internal AI research division to develop proprietary models for product and operational enhancements. By investing in in-house AI, Revolut aims to differentiate its offerings from rivals relying on third-party solutions. Fintechs seeking to improve personalization, fraud detection, and customer service should consider building or acquiring AI expertise to stay competitive.",
+      "title": "Singapore Allocates S$220 Million to Accelerate Fintech Ecosystem Growth",
+      "body": "The Monetary Authority of Singapore will invest S$220 million over three years to support fintech innovation and attract global firms. This funding cements Singapore\u2019s status as a regional fintech hub, drawing startups and established financial technology companies seeking regulatory clarity and capital. Increased competition for talent and partnerships is expected as fintech firms prioritize Singapore for APAC expansion.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-ai-research-unit/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48327/singapore-commits-s220m-to-fintech-innovation"
+      }
+    },
+    {
+      "title": "BitGo Acquires NYDIG\u2019s Institutional Trading Arm to Expand Crypto Services",
+      "body": "BitGo has acquired NYDIG\u2019s institutional trading business, allowing NYDIG to focus on bitcoin mining and infrastructure. BitGo gains a stronger foothold in institutional crypto trading, prompting rivals like Coinbase and Gemini to consider new service offerings or pricing strategies to retain institutional clients.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/bitgo-acquires-nydig-institutional-trading-business-digital-assets-crypto-occ/829195/"
+      }
+    },
+    {
+      "title": "Ark Invest Bets $37 Million on Block Inc After Strong Q2 Results",
+      "body": "Ark Invest purchased $37 million in Block Inc shares following the company\u2019s positive second-quarter earnings. The investment signals renewed institutional confidence in Block\u2019s growth trajectory, potentially boosting its valuation and influencing fintech investor sentiment. Block may use this momentum to accelerate product launches or pursue new acquisitions.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-01-ark-invest-buys-37-million-block-413195"
       }
     }
   ],
-  "perspective": "Nium and VALT Bank are driving change in digital payments as stablecoin adoption and new regulatory entrants reshape the competitive landscape.",
+  "perspective": "LSE\u2019s tokenised stocks initiative and Ark Invest\u2019s Block Inc buy highlight institutional momentum in digital assets and fintech innovation.",
   "curiosity": {
-    "text": "The first coins resembling modern currency were minted in Lydia around 600 BCE, marking a shift from barter to standardized payments."
+    "text": "When the London Stock Exchange launches tokenised stocks, it will be among the first major global exchanges to offer blockchain-based equities under existing securities regulation."
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "Launches AI research unit.",
+      "source_url": "https://sifted.eu/articles/revolut-ai-research-unit/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Allica Bank",
+      "description": "Applies for Swedish banking license.",
+      "source_url": "https://www.finextra.com/newsarticle/48325/allica-bank-makes-european-push-with-swedish-license-application"
+    },
+    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Socure",
-      "description": "Raised $156M at $5.2B valuation, acquired AI startup Fravity.",
-      "source_url": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
+      "type": "product",
+      "company": "MoonPay",
+      "description": "Launches PayBox in Grok.",
+      "source_url": "https://www.finextra.com/pressarticle/110755/moonpays-paybox-launches-in-grok"
     }
   ]
 }
