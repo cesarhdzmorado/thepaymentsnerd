@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "London Stock Exchange to Launch Tokenised Stocks With Kraken Partnership",
-      "body": "The London Stock Exchange will introduce tokenised stocks as part of its digital markets initiative, collaborating with Kraken\u2019s parent company. This move positions the UK as a frontrunner in regulated crypto-asset trading, drawing institutional investors and challenging both traditional exchanges and crypto-native platforms. Competing exchanges may accelerate their own tokenisation projects to avoid losing institutional flows.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/64511a2c-34e7-4f98-be24-9e8427b65027"
-      }
-    },
-    {
-      "title": "TD Bank Executes Tokenised Payment on Project Agor\u00e1 Blockchain Platform",
-      "body": "TD Bank has completed a tokenised payment using Project Agor\u00e1, advancing its adoption of blockchain for payment settlement. This establishes TD as an early mover among North American banks experimenting with tokenised money, raising the bar for peers still reliant on legacy rails. Banks that delay blockchain pilots may face higher costs and slower settlement compared to early adopters.",
+      "title": "Citi, Lloyds, and MUFG Launch Stablecoin Venture Targeting Institutional Cross-Border Payments",
+      "body": "Citi, Lloyds, and MUFG have announced plans to form a joint stablecoin company focused on streamlining cross-border settlements for institutional clients. By entering the stablecoin market, these banks directly challenge established issuers such as Circle and PayPal, intensifying competition for blockchain-based settlement solutions. The initiative is expected to prompt financial regulators to examine how traditional banks manage digital asset issuance, particularly regarding capital requirements and anti-money laundering controls.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48326/td-tests-tokenised-payments-through-project-agor"
+        "url": "https://www.finextra.com/newsarticle/48334/global-banking-giants-prep-stablecoin-jv?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Singapore Allocates S$220 Million to Accelerate Fintech Ecosystem Growth",
-      "body": "The Monetary Authority of Singapore will invest S$220 million over three years to support fintech innovation and attract global firms. This funding cements Singapore\u2019s status as a regional fintech hub, drawing startups and established financial technology companies seeking regulatory clarity and capital. Increased competition for talent and partnerships is expected as fintech firms prioritize Singapore for APAC expansion.",
+      "title": "F\u00e9lix Raises $200M to Expand From Remittances Into Broader Latino Fintech Offerings",
+      "body": "Miami-based F\u00e9lix secured $200 million in Series C funding to diversify beyond remittances and offer a wider suite of financial products for Latino and immigrant communities. This capital injection positions F\u00e9lix to compete with both legacy remittance giants and digital-first fintechs targeting underserved segments. The expansion could drive down fees and increase product innovation for cross-border and domestic financial services in the US-Latin corridor.",
+      "source": {
+        "name": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/fintech-whatsapp-remittance-startup-felix-raises-200m-a16z-general-catalyst/"
+      }
+    },
+    {
+      "title": "Visa Upgrades A2A Fraud Detection, Raising the Bar for Bank Security Standards",
+      "body": "Visa has enhanced its account-to-account (A2A) fraud prevention technology, offering banks improved real-time detection and mitigation tools. The upgrade establishes a higher standard for fraud controls in A2A payments, prompting rival networks and processors to invest in advanced security. Banks adopting Visa\u2019s solution may benefit from lower fraud losses and increased consumer trust in instant payment channels.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48327/singapore-commits-s220m-to-fintech-innovation"
+        "url": "https://www.finextra.com/newsarticle/48336/visa-boosts-a2a-fraud-prevention-tech?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "BitGo Acquires NYDIG\u2019s Institutional Trading Arm to Expand Crypto Services",
-      "body": "BitGo has acquired NYDIG\u2019s institutional trading business, allowing NYDIG to focus on bitcoin mining and infrastructure. BitGo gains a stronger foothold in institutional crypto trading, prompting rivals like Coinbase and Gemini to consider new service offerings or pricing strategies to retain institutional clients.",
+      "title": "Sphere Labs Enters Mexico, Intensifying Cross-Border Payment Competition",
+      "body": "Sphere Labs is launching cross-border payment infrastructure in Mexico, targeting corridors traditionally dominated by Western Union and MoneyGram. The move introduces new technology-driven options for remittance and B2B payments, potentially lowering costs and increasing speed for Mexican businesses and consumers. Established providers may need to accelerate digital upgrades or risk losing share in a rapidly evolving market.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/bitgo-acquires-nydig-institutional-trading-business-digital-assets-crypto-occ/829195/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110774/sphere-labs-bring-cross-border-payment-infrastructure-to-mexico?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Ark Invest Bets $37 Million on Block Inc After Strong Q2 Results",
-      "body": "Ark Invest purchased $37 million in Block Inc shares following the company\u2019s positive second-quarter earnings. The investment signals renewed institutional confidence in Block\u2019s growth trajectory, potentially boosting its valuation and influencing fintech investor sentiment. Block may use this momentum to accelerate product launches or pursue new acquisitions.",
+      "title": "Singapore Central Bank Proposes Stablecoin Regulation to Attract Global Fintechs",
+      "body": "The Monetary Authority of Singapore has unveiled draft legislation to regulate stablecoins, aiming to provide legal clarity and consumer safeguards. This initiative positions Singapore as a leading jurisdiction for stablecoin innovation, likely drawing global projects seeking regulatory certainty. Competing fintech hubs may need to accelerate their own frameworks to avoid losing market share to Singapore\u2019s regulatory leadership.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-09-01-ark-invest-buys-37-million-block-413195"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110762/singapore-central-bank-proposes-legislative-framework-for-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "LSE\u2019s tokenised stocks initiative and Ark Invest\u2019s Block Inc buy highlight institutional momentum in digital assets and fintech innovation.",
+  "perspective": "Citi and Sphere Labs headline a week of banks and fintechs reshaping cross-border payments and digital asset competition.",
   "curiosity": {
-    "text": "When the London Stock Exchange launches tokenised stocks, it will be among the first major global exchanges to offer blockchain-based equities under existing securities regulation."
+    "text": "The first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe and North America."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Launches AI research unit.",
-      "source_url": "https://sifted.eu/articles/revolut-ai-research-unit/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "BitGo",
+      "description": "Acquired NYDIG's institutional trading business",
+      "source_url": "https://www.bankingdive.com/news/bitgo-acquires-nydig-institutional-trading-business-digital-assets-crypto-occ/829195/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
       "company": "Allica Bank",
-      "description": "Applies for Swedish banking license.",
-      "source_url": "https://www.finextra.com/newsarticle/48325/allica-bank-makes-european-push-with-swedish-license-application"
+      "description": "Applied for Swedish banking license",
+      "source_url": "https://www.finextra.com/newsarticle/48325/allica-bank-makes-european-push-with-swedish-license-application?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\udde8\ud83c\udded",
       "type": "product",
-      "company": "MoonPay",
-      "description": "Launches PayBox in Grok.",
-      "source_url": "https://www.finextra.com/pressarticle/110755/moonpays-paybox-launches-in-grok"
+      "company": "Incore Bank",
+      "description": "AI achieves 99% accuracy on KYC checks",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/incore-banks-ai-hits-99-accuracy-on-kyc-checks/"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "partnership",
+      "company": "DBS and Stripe",
+      "description": "Partnered to enhance cross-border payments in Asia",
+      "source_url": "https://www.finextra.com/pressarticle/110769/dbs-and-stripe-join-forces?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
