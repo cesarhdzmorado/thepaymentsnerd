@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "TabaPay Raises $155M and Moves to Acquire Denver Bank for OCC Charter",
-      "body": "TabaPay secured $155 million in growth financing led by FTV Capital and announced the recent acquisition of a Denver-based bank, aiming for an OCC charter. This positions TabaPay to expand beyond money movement into regulated banking services, directly challenging both neobanks and established regional banks. Fintechs like Brex and Mercury, which have signaled interest in direct banking capabilities, may pursue similar acquisitions as regulatory harmonization increases the complexity of market entry.",
+      "title": "Revolut Receives Conditional OCC Approval, Moves Closer to US National Bank Status",
+      "body": "Revolut has received conditional approval from the US Office of the Comptroller of the Currency to form a national bank, pending satisfaction of final requirements. This step enables Revolut to pursue offering insured deposits and lending in the US, positioning it to compete directly with established US banks and neobanks. Incumbent banks face a new digital-first rival with global reach as Revolut works to meet OCC conditions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48340/tabapay-closes-155m-financing-agrees-to-buy-a-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48345/revolut-achieves-conditional-occ-approval-for-us-national-bank-status?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "X Shifts US Creator Payouts from Stripe to In-House X Money Platform",
-      "body": "X has transitioned U.S. creator payouts from Stripe to its proprietary X Money service as of September 2, 2026. This recent change reduces Stripe\u2019s role in the creator economy and gives X direct oversight of payment flows and user data. The move reflects a growing trend of social and content platforms internalizing payments, with companies like Meta and TikTok also exploring in-house solutions to strengthen ecosystem control and data ownership.",
+      "title": "Bottomline and Chainlink Connect 600 Banks to Blockchain Settlement via Swift",
+      "body": "Bottomline has partnered with Chainlink to enable over 600 banks to access blockchain-based cross-border settlement through integration with the Swift network. Participating banks can now leverage blockchain efficiencies while maintaining their existing Swift infrastructure. Competing payment networks must respond as banks gain new options for faster, lower-cost settlement using blockchain rails.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/commerce/social-commerce/2026/x-replaces-stripe-united-states-creator-payouts/"
+        "url": "https://www.pymnts.com/blockchain/2026/bottomline-partners-with-chainlink-to-connect-600-banks-to-blockchain-settlement/"
       }
     },
     {
-      "title": "F\u00e9lix Raises $200M to Expand WhatsApp-Based Remittance Platform Into Broader Fintech",
-      "body": "F\u00e9lix, which enables remittances via WhatsApp, has raised $200 million in equity and debt to expand its financial product suite. With this funding, F\u00e9lix plans to offer credit and savings products to immigrant communities, directly competing with established remittance firms like Western Union and digital-first banks such as Varo. These incumbents now face a challenger leveraging chat-based distribution and embedded finance to reach underserved users.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48333/flix-raises-200m-in-equity-and-debt-to-expand-beyond-remittances?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Amazon Adds Scam Protection to Alexa Shopping Amid Rising Fraud Losses",
-      "body": "Amazon has launched a new feature in Alexa for Shopping that verifies the authenticity of messages to combat rising consumer fraud. This enhancement could increase consumer trust in voice-assisted commerce and differentiate Alexa from Google Assistant and Apple\u2019s Siri. Merchants and payment providers may benefit from fewer fraud-related chargebacks as consumers rely more on built-in verification tools, prompting other voice commerce platforms to enhance their security features.",
+      "title": "ACI Worldwide Acquires Cranium to Deliver Microservices Card Switching",
+      "body": "ACI Worldwide will acquire Cranium Ventures to add microservices-based card switching to its processing platform, allowing banks and fintechs to adopt more modular and scalable solutions. Card processors relying on legacy systems may lose clients to ACI if they cannot match the flexibility and speed of microservices architecture, shifting competitive dynamics in the card processing market.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/amazon/2026/amazon-adds-alexa-scam-protection-as-consumer-fraud-losses-rise/"
+        "url": "https://www.pymnts.com/news/payment-methods/2026/aci-worldwide-to-add-microservices-card-switching-through-cranium-acquisition/"
       }
     },
     {
-      "title": "ACI Worldwide Acquires Cranium Ventures to Add Cloud-Native Card Switching",
-      "body": "ACI Worldwide has acquired Cranium Ventures to integrate microservices-based card payment switching into its platform. This strengthens ACI\u2019s technology stack, enabling faster deployment of new card products and improved scalability for banks and merchants. Competing processors like FIS and Fiserv may need to accelerate their own modernization efforts as cloud-native architectures become essential for flexible, API-driven payments infrastructure.",
+      "title": "OpenPayd Secures 43 US Money Transmitter Licenses, Expanding Regulatory Reach",
+      "body": "OpenPayd has obtained 43 money transmitter licenses across the US, expanding its ability to offer embedded finance and payments services nationwide. This regulatory coverage enables OpenPayd to attract fintechs and platforms seeking compliant US payment infrastructure. Competing infrastructure providers must now broaden their own licensing or risk losing clients to OpenPayd\u2019s expanded reach.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48339/aci-worldwide-to-add-microservices-card-switching-via-cranium-ventures-acquisition?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110807/openpayd-secures-43-money-transmitter-licences-across-the-us?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Citi Executes Live Payments on Swift\u2019s Blockchain-Based Ledger",
+      "body": "Citi has processed live transactions using Swift\u2019s blockchain-based ledger, demonstrating production-level adoption of blockchain for cross-currency payments. This move signals that major banks are beginning to use blockchain for real-world settlement, offering faster and more cost-effective alternatives to traditional payment systems. Other global banks may accelerate blockchain adoption as these capabilities mature.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/110803/citi-processes-live-transactions-on-swifts-blockchain-based-ledger?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "TabaPay\u2019s bank acquisition and X\u2019s in-house payouts mark a shift as platforms and fintechs seek regulatory scale and direct control over payments.",
+  "perspective": "Revolut\u2019s OCC approval and Citi\u2019s blockchain settlement show banks and fintechs expanding US regulatory reach and adopting blockchain to compete in payments.",
   "curiosity": {
-    "text": "In 2023, over 60% of global fintech funding targeted embedded finance and payments infrastructure, reflecting a surge in demand for integrated financial services across industries."
+    "text": "In 2023, the number of US banks piloting or launching blockchain-based payment solutions doubled compared to the previous year, reflecting rapid institutional adoption."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "F\u00e9lix",
-      "description": "Raised $200M Series C to expand financial products",
-      "source_url": "https://news.crunchbase.com/venture/fintech-whatsapp-remittance-startup-felix-raises-200m-a16z-general-catalyst/"
+      "type": "M&A",
+      "company": "TabaPay",
+      "description": "Closes $155M financing and agrees to buy a Denver-based bank.",
+      "source_url": "https://www.finextra.com/newsarticle/48340/tabapay-closes-155m-financing-agrees-to-buy-a-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Lyte",
-      "description": "Raised $165M Series C at $1.6B valuation",
-      "source_url": "https://news.crunchbase.com/venture/robotics-ai-startup-lyte-seriesc-raise-maverick/"
+      "type": "Fundraising",
+      "company": "Diameter Pay",
+      "description": "Raises $10M for stablecoin payments infrastructure.",
+      "source_url": "https://www.theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\uddf4",
+      "type": "Fundraising",
+      "company": "Plenti",
+      "description": "Raises $3M in Tether-led seed round.",
+      "source_url": "https://www.finextra.com/newsarticle/48342/colombian-fintech-plenti-raises-3-million-in-tether-led-seed-round?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "OpenPayd",
-      "description": "Secured US state money transmitter licenses",
-      "source_url": "https://www.finextra.com/pressarticle/110790/openpayd-secures-us-state-money-transmitter-licences?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde7\ud83c\uddea\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Euroclear and HSBC",
-      "description": "Launched automated FX service for T+1 settlement",
-      "source_url": "https://www.finextra.com/newsarticle/48338/euroclear-and-hsbc-to-launch-automated-fx-service-for-t1-settlement?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Segpay",
-      "description": "Opened new global HQ in Boca Raton",
-      "source_url": "https://www.finextra.com/pressarticle/110793/segpay-picks-boca-raton-for-new-global-hq?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "Partnership",
+      "company": "SoFi",
+      "description": "Links banking network with Kraken infrastructure.",
+      "source_url": "https://www.theblock.co/news/business/2026-09-03-sofi-payward-agree-to-link-banking-network-with-kraken-infrastructure-413432"
     }
   ]
 }
