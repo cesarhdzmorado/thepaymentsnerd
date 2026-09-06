@@ -1,71 +1,71 @@
 {
   "news": [
     {
-      "title": "OpenReserve Wins OCC Bank Charter Nod, Pushing Blockchain Deeper Into US Banking",
-      "body": "OpenReserve Holdings, reported as backed by Andreessen Horowitz, secured preliminary OCC approval for a national bank charter focused on onchain settlement. This rare regulatory green light for blockchain-native banking in the US forces fintechs and traditional banks to enhance their digital asset offerings and consider new blockchain-based products. Large US banks such as JPMorgan Chase and Bank of America risk losing institutional clients seeking faster, programmable settlement if they delay blockchain adoption.",
+      "title": "Revolut Secures Conditional OCC Charter, Raising Stakes for US Digital Banking",
+      "body": "Revolut has received conditional approval for a U.S. banking charter from the OCC, positioning it to offer full-service banking in the American market. This move puts direct pressure on both incumbent banks and fintechs, as Revolut can now compete on deposits, lending, and regulatory trust. U.S. fintechs seeking similar charters will face heightened scrutiny and rising compliance costs. Watch for Revolut to accelerate product launches and for rivals to pursue their own charters or deepen partnerships with licensed banks.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-09-04-andreessen-horowitz-backed-openreserve-secures-preliminary-occ-approval-for-national-bank-charter-413528"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/revolut-nabs-conditional-occ-charter/829703/"
       }
     },
     {
-      "title": "ECB and Brazil\u2019s Pix Explore Instant Payment Link for Cross-Border Efficiency",
-      "body": "The European Central Bank is in talks to interlink its TIPS instant payment platform with Brazil\u2019s Pix, aiming to streamline cross-border payments. Connecting these two major real-time payment systems could allow banks and PSPs serving EU-LatAm corridors to offer faster settlement and lower costs, reducing reliance on legacy correspondent banking for euro-real flows. This initiative could prompt other central banks to pursue similar interoperability projects.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/partnerships/2026/ecb-explores-instant-payment-link-with-brazils-pix/"
-      }
-    },
-    {
-      "title": "BNP Paribas and HSBC Run Siemens Treasury Payments on Swift\u2019s Blockchain Ledger",
-      "body": "BNP Paribas and HSBC completed the first corporate treasury payments for Siemens using Swift\u2019s blockchain-based ledger, moving blockchain from pilot to production in corporate finance. This milestone enables multinational treasurers to access greater transparency and efficiency. Banks that delay blockchain integration\u2014such as Deutsche Bank and Citi\u2014now risk losing large corporate clients seeking real-time, auditable settlement.",
+      "title": "Ant International Gains Brazil Payment Licence, Targeting Mercado Pago and Nubank",
+      "body": "Ant International has secured a Payment Institution licence from Brazil\u2019s central bank, unlocking the ability to expand Alipay and digital wallet services in Latin America\u2019s largest market. Local leaders like Mercado Pago and Nubank now face a global competitor with deep pockets and proven wallet adoption playbooks. Expect a surge in digital payment infrastructure investment and new incentives for merchants and consumers as Ant ramps up. Incumbents may respond by doubling down on loyalty and local partnerships.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48347/bnp-paribas-and-hsbc-complete-first-corporate-treasury-transaction-on-swifts-blockchain-ledger?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110813/ant-international-secures-payment-institution-licence-from-the-central-bank-of-brazil"
       }
     },
     {
-      "title": "Ant International Secures Brazil Payment License, Escalating Fintech Competition",
-      "body": "Ant International received a Payment Institution license from Brazil\u2019s central bank, unlocking expanded payment services in Latin America\u2019s largest market. With Alipay\u2019s global scale entering Brazil, local fintechs like Nubank and Mercado Pago, as well as banks such as Ita\u00fa Unibanco, face new competition on pricing and technology. Ant is expected to focus on cross-border e-commerce and merchant acquiring, intensifying the race for market share.",
+      "title": "PicPay Integrates Anthropic Claude AI for Natural-Language Banking in Brazil",
+      "body": "Brazilian digital bank PicPay has launched Anthropic\u2019s Claude AI, enabling customers to access account information and support via natural-language chat. This sets a new bar for AI-powered customer service in Latin American banking, challenging rivals to match conversational interfaces. As AI adoption accelerates, expect regulatory attention on transparency and data use. Competitors will likely fast-track their own AI integrations to avoid losing digital engagement.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/2026/ant-international-secures-payment-institution-license-to-expand-capabilities-in-brazil/"
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/picpay-launches-anthropic-claude-integration-for-banking-inquiries/"
       }
     },
     {
-      "title": "Yuno and Revolut Partner to Deliver One-Click Checkout and Gateway Access for Merchants",
-      "body": "Yuno partnered with Revolut Business to let merchants access Revolut\u2019s biometric one-click checkout, acquiring, and gateway services via a single integration. This partnership streamlines onboarding for merchants and strengthens Revolut\u2019s competitive position against legacy PSPs and wallet providers. Payment processors unable to match this seamless experience may lose digital-first retailers to Revolut\u2019s expanding merchant stack.",
+      "title": "Revolut Launches In-House AI Research Unit to Build Proprietary Models",
+      "body": "Revolut has established an AI research division to develop proprietary models for product personalization and operational efficiency. By investing in in-house AI, Revolut aims to differentiate on speed and quality of digital services, raising the bar for fintech competitors. This move could accelerate industry-wide AI innovation and prompt regulators to revisit standards for AI deployment in financial services. Watch for new AI-driven features to roll out across Revolut\u2019s super-app ecosystem.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/partnerships/2026/yuno-fast-tracks-merchant-access-revolut-payment-stack/"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-ai-research-unit/"
+      }
+    },
+    {
+      "title": "Visa and Mastercard Face New EU Antitrust Probe Over Digital Wallet Fees",
+      "body": "The European Commission has opened a formal investigation into Visa and Mastercard\u2019s digital wallet fees, examining whether their practices restrict competition or inflate costs for merchants and consumers. The probe focuses on wallet transaction fees and potential barriers to entry for alternative payment providers. Depending on the findings, Visa and Mastercard may need to adjust fee structures or open access to rivals, potentially reshaping the digital wallet landscape in Europe.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/eu-antitrust-regulators-investigate-visa-mastercard-over-digital-wallet-fees-2024-06-12/"
       }
     }
   ],
-  "perspective": "OpenReserve\u2019s OCC approval and Swift\u2019s blockchain rollout signal banks and fintechs must rapidly adapt to regulatory and infrastructure shifts or risk losing key clients.",
+  "perspective": "Revolut\u2019s OCC charter and Ant International\u2019s Brazil license highlight global regulatory shifts as Visa and Mastercard face EU scrutiny.",
   "curiosity": {
-    "text": "Australia\u2019s 1983 launch of electronic funds transfer (EFT) marked a turning point, foreshadowing today\u2019s global push for real-time, digital-first payment systems."
+    "text": "Brazil\u2019s Pix instant payment system processed over 41 billion transactions in 2023, outpacing credit and debit card volumes and reshaping digital payments in Latin America."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde8\ud83c\uddf4",
-      "type": "fundraising",
-      "company": "Plenti",
-      "description": "Raised $3 million in Tether-led seed round",
-      "source_url": "https://www.finextra.com/newsarticle/48342/colombian-fintech-plenti-raises-3-million-in-tether-led-seed-round?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Diameter Pay",
-      "description": "Raised $10 million for stablecoin payments infrastructure",
-      "source_url": "https://www.theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454"
+      "company": "Crusoe",
+      "description": "Raised $3 billion for AI infrastructure.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Fluidstack",
+      "description": "Secured $1.5 billion for cloud services expansion.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "expansion",
-      "company": "OpenPayd",
-      "description": "Secured 43 money transmitter licenses across the US",
-      "source_url": "https://www.finextra.com/pressarticle/110807/openpayd-secures-43-money-transmitter-licences-across-the-us?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "OpenReserve",
+      "description": "Secured preliminary OCC approval for national bank charter.",
+      "source_url": "https://www.theblock.co/news/regulation/2026-09-04-andreessen-horowitz-backed-openreserve-secures-preliminary-occ-approval-for-national-bank-charter-413528"
     }
   ]
 }
