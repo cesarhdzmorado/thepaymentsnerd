@@ -1,49 +1,49 @@
 {
   "news": [
     {
-      "title": "Revolut Secures Conditional OCC Charter, Raising Stakes for US Digital Banking",
-      "body": "Revolut has received conditional approval for a U.S. banking charter from the OCC, positioning it to offer full-service banking in the American market. This move puts direct pressure on both incumbent banks and fintechs, as Revolut can now compete on deposits, lending, and regulatory trust. U.S. fintechs seeking similar charters will face heightened scrutiny and rising compliance costs. Watch for Revolut to accelerate product launches and for rivals to pursue their own charters or deepen partnerships with licensed banks.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/revolut-nabs-conditional-occ-charter/829703/"
-      }
-    },
-    {
-      "title": "Ant International Gains Brazil Payment Licence, Targeting Mercado Pago and Nubank",
-      "body": "Ant International has secured a Payment Institution licence from Brazil\u2019s central bank, unlocking the ability to expand Alipay and digital wallet services in Latin America\u2019s largest market. Local leaders like Mercado Pago and Nubank now face a global competitor with deep pockets and proven wallet adoption playbooks. Expect a surge in digital payment infrastructure investment and new incentives for merchants and consumers as Ant ramps up. Incumbents may respond by doubling down on loyalty and local partnerships.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110813/ant-international-secures-payment-institution-licence-from-the-central-bank-of-brazil"
-      }
-    },
-    {
-      "title": "PicPay Integrates Anthropic Claude AI for Natural-Language Banking in Brazil",
-      "body": "Brazilian digital bank PicPay has launched Anthropic\u2019s Claude AI, enabling customers to access account information and support via natural-language chat. This sets a new bar for AI-powered customer service in Latin American banking, challenging rivals to match conversational interfaces. As AI adoption accelerates, expect regulatory attention on transparency and data use. Competitors will likely fast-track their own AI integrations to avoid losing digital engagement.",
+      "title": "ByteDance Secures $29.6B Loan to Accelerate Global AI and Payments Ambitions",
+      "body": "ByteDance has raised $29.6 billion from nearly 30 banks to fund its AI initiatives, in what PYMNTS reports as a landmark tech financing for 2026. The capital injection enables ByteDance to challenge established tech giants in AI-driven payments, content, and commerce. Google and Meta may face faster product cycles and rising acquisition costs as ByteDance deploys new AI-powered financial services. ByteDance is expected to expand its digital wallet and embedded payments footprint in Asia and other international markets.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/picpay-launches-anthropic-claude-integration-for-banking-inquiries/"
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bytedance-lands-29-6-billion-loan-to-fuel-ai-advances/"
       }
     },
     {
-      "title": "Revolut Launches In-House AI Research Unit to Build Proprietary Models",
-      "body": "Revolut has established an AI research division to develop proprietary models for product personalization and operational efficiency. By investing in in-house AI, Revolut aims to differentiate on speed and quality of digital services, raising the bar for fintech competitors. This move could accelerate industry-wide AI innovation and prompt regulators to revisit standards for AI deployment in financial services. Watch for new AI-driven features to roll out across Revolut\u2019s super-app ecosystem.",
+      "title": "Hanwha Launches Tokenized Securities Platform on Avalanche Amid Regulatory Shift",
+      "body": "Hanwha has developed a tokenized securities platform using Avalanche, aligning with South Korea\u2019s updated digital asset regulations. This move positions Hanwha as an early leader in institutional tokenization, prompting other banks and brokerages to accelerate similar projects. South Korean banks and global asset managers are adopting tokenized assets to drive greater liquidity and efficiency in capital markets, seeking to capture new digital securities flows.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-ai-research-unit/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-07-south-korea-hanwha-tokenized-securities-platform-avalanche-413652"
       }
     },
     {
-      "title": "Visa and Mastercard Face New EU Antitrust Probe Over Digital Wallet Fees",
-      "body": "The European Commission has opened a formal investigation into Visa and Mastercard\u2019s digital wallet fees, examining whether their practices restrict competition or inflate costs for merchants and consumers. The probe focuses on wallet transaction fees and potential barriers to entry for alternative payment providers. Depending on the findings, Visa and Mastercard may need to adjust fee structures or open access to rivals, potentially reshaping the digital wallet landscape in Europe.",
+      "title": "Stablecoin Market Slowdown Undercuts U.S. Treasury Debt Demand",
+      "body": "A downturn in stablecoin issuance is reducing demand for U.S. Treasury debt, as stablecoin reserves have become a key buyer segment. The Treasury must now attract more traditional institutional investors and foreign central banks to fill the gap. This shift matters as it could increase funding costs for the U.S. government and prompt stablecoin issuers to compete more aggressively for market share.",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/eu-antitrust-regulators-investigate-visa-mastercard-over-digital-wallet-fees-2024-06-12/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-slowdown-could-hinder-government-plans-to-sell-debt/"
+      }
+    },
+    {
+      "title": "Harmony to Sunset Layer 1 Blockchain, Migrates AI Video Project to Ethereum",
+      "body": "Harmony will wind down its Layer 1 blockchain and migrate its new AI video initiative to Ethereum, citing scalability and developer network advantages. This move consolidates more decentralized application activity onto Ethereum, reinforcing its dominance as the preferred smart contract platform. Competing Layer 1 blockchains may see developer attrition and reduced ecosystem funding as consolidation accelerates.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/web3/2026-09-06-harmony-sunset-network-413635"
+      }
+    },
+    {
+      "title": "Iran Conflict Drives Banks to Upgrade Transaction Monitoring and Compliance",
+      "body": "The ongoing conflict involving Iran has prompted global banks to intensify monitoring of transactions linked to the region, navigating heightened regulatory scrutiny and complex sanctions regimes. Banks are increasing investment in compliance technology and analytics to avoid enforcement actions and reputational risk. Cross-border payment providers and correspondent banks operating in high-risk corridors must now meet stricter anti-money laundering and sanctions enforcement standards.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/iran-war-puts-new-pressure-on-banks-to-police-transactions/"
       }
     }
   ],
-  "perspective": "Revolut\u2019s OCC charter and Ant International\u2019s Brazil license highlight global regulatory shifts as Visa and Mastercard face EU scrutiny.",
+  "perspective": "ByteDance\u2019s $29.6B loan and Hanwha\u2019s tokenized securities launch signal intensifying competition in AI-powered payments, tokenization, and compliance innovation.",
   "curiosity": {
-    "text": "Brazil\u2019s Pix instant payment system processed over 41 billion transactions in 2023, outpacing credit and debit card volumes and reshaping digital payments in Latin America."
+    "text": "The first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe and North America."
   },
   "whats_hot": [
     {
@@ -57,15 +57,29 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Fluidstack",
-      "description": "Secured $1.5 billion for cloud services expansion.",
+      "description": "Secured $1.5 billion for cloud services.",
       "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "OpenReserve",
-      "description": "Secured preliminary OCC approval for national bank charter.",
-      "source_url": "https://www.theblock.co/news/regulation/2026-09-04-andreessen-horowitz-backed-openreserve-secures-preliminary-occ-approval-for-national-bank-charter-413528"
+      "type": "fundraising",
+      "company": "F\u00e9lix",
+      "description": "Raised $200 million for WhatsApp remittance platform.",
+      "source_url": "https://news.crunchbase.com/venture/fintech-whatsapp-remittance-startup-felix-raises-200m-a16z-general-catalyst/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Lyte",
+      "description": "Raised $165 million for AI robotics.",
+      "source_url": "https://news.crunchbase.com/venture/robotics-ai-startup-lyte-seriesc-raise-maverick/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "type": "fundraising",
+      "company": "Navi",
+      "description": "Received $100 million investment from Prosus.",
+      "source_url": "https://www.finextra.com/newsarticle/48275/prosus-invests-100m-in-indian-fintech-navi?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
