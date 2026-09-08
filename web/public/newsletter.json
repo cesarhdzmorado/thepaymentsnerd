@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "ByteDance Secures $29.6B Loan to Accelerate Global AI and Payments Ambitions",
-      "body": "ByteDance has raised $29.6 billion from nearly 30 banks to fund its AI initiatives, in what PYMNTS reports as a landmark tech financing for 2026. The capital injection enables ByteDance to challenge established tech giants in AI-driven payments, content, and commerce. Google and Meta may face faster product cycles and rising acquisition costs as ByteDance deploys new AI-powered financial services. ByteDance is expected to expand its digital wallet and embedded payments footprint in Asia and other international markets.",
+      "title": "DBS and Citi Complete First Weekend Tokenized Cross-Border Payment via Swift Ledger",
+      "body": "DBS and Citi executed the first Singapore-to-U.S. dollar payment on a weekend using tokenized deposits over the Swift Digital Ledger. This milestone demonstrates that tokenized deposits can enable 24/7 cross-border settlement, bypassing traditional banking cutoffs. Global banks now have a live precedent for integrating tokenized rails into mainstream payment flows, raising the bar for speed and availability in cross-border transactions.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bytedance-lands-29-6-billion-loan-to-fuel-ai-advances/"
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/citi-dbs-mark-1st-singapore-united-states-weekend-dollar-transaction/"
       }
     },
     {
-      "title": "Hanwha Launches Tokenized Securities Platform on Avalanche Amid Regulatory Shift",
-      "body": "Hanwha has developed a tokenized securities platform using Avalanche, aligning with South Korea\u2019s updated digital asset regulations. This move positions Hanwha as an early leader in institutional tokenization, prompting other banks and brokerages to accelerate similar projects. South Korean banks and global asset managers are adopting tokenized assets to drive greater liquidity and efficiency in capital markets, seeking to capture new digital securities flows.",
+      "title": "PayTabs Acquires Amazon Payments MENA, Expanding Middle East and North Africa Payments Control",
+      "body": "PayTabs is acquiring Amazon\u2019s Middle East and North Africa payments operations for $100 million, consolidating its position as a payments leader in the MENA region. The deal gives PayTabs direct access to Amazon\u2019s merchant network and infrastructure, challenging incumbents like Network International and Fawry. MENA acquirers and PSPs must now compete with a PayTabs-Amazon alliance that can offer deeper integration and scale.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48356/paytabs-to-acquire-amazon-payments-mena-operations?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Mastercard and Flowcart Embed Card Payments in East Africa Social Commerce",
+      "body": "Mastercard partnered with Kenya\u2019s Flowcart to enable secure card payments within social and conversational commerce channels across East Africa. This move embeds payments directly into chat and social platforms, making it easier for merchants to convert sales and for consumers to transact in-app. Local PSPs and banks now face a new competitive front as global card networks deepen their reach into digital-first commerce.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/commerce/social-commerce/2026/mastercard-flowcart-team-promote-social-commerce-africa/"
+      }
+    },
+    {
+      "title": "Liquid Network Attacker Returns 3,400 BTC After Security Flaw Exposed",
+      "body": "A hacker returned 3,400 BTC to the Liquid Network after exploiting a vulnerability, though they retained nearly 600 BTC. The incident forced Liquid to accelerate security upgrades and exposed risks such as private key compromise and incomplete incident response in blockchain-based payment networks. Exchanges and custodians using Liquid must now reassess their risk controls and incident response protocols.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-07-south-korea-hanwha-tokenized-securities-platform-avalanche-413652"
+        "url": "https://www.theblock.co/news/defi/2026-09-07-liquid-network-attacker-says-they-will-return-most-of-4000-btc-after-bug-fix-413673"
       }
     },
     {
-      "title": "Stablecoin Market Slowdown Undercuts U.S. Treasury Debt Demand",
-      "body": "A downturn in stablecoin issuance is reducing demand for U.S. Treasury debt, as stablecoin reserves have become a key buyer segment. The Treasury must now attract more traditional institutional investors and foreign central banks to fill the gap. This shift matters as it could increase funding costs for the U.S. government and prompt stablecoin issuers to compete more aggressively for market share.",
+      "title": "OpenReserve Secures OCC Approval for \u2018Continuous\u2019 Banking Model",
+      "body": "OpenReserve, founded by MoneyLion alumni, received conditional approval for a national banking license from the OCC, positioning itself as a \u2018continuous\u2019 banking platform. This regulatory green light allows OpenReserve to experiment with always-on banking services, challenging both traditional banks and digital-only competitors. U.S. fintechs now have a new template for pursuing full-stack banking charters with novel service models.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-slowdown-could-hinder-government-plans-to-sell-debt/"
-      }
-    },
-    {
-      "title": "Harmony to Sunset Layer 1 Blockchain, Migrates AI Video Project to Ethereum",
-      "body": "Harmony will wind down its Layer 1 blockchain and migrate its new AI video initiative to Ethereum, citing scalability and developer network advantages. This move consolidates more decentralized application activity onto Ethereum, reinforcing its dominance as the preferred smart contract platform. Competing Layer 1 blockchains may see developer attrition and reduced ecosystem funding as consolidation accelerates.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/web3/2026-09-06-harmony-sunset-network-413635"
-      }
-    },
-    {
-      "title": "Iran Conflict Drives Banks to Upgrade Transaction Monitoring and Compliance",
-      "body": "The ongoing conflict involving Iran has prompted global banks to intensify monitoring of transactions linked to the region, navigating heightened regulatory scrutiny and complex sanctions regimes. Banks are increasing investment in compliance technology and analytics to avoid enforcement actions and reputational risk. Cross-border payment providers and correspondent banks operating in high-risk corridors must now meet stricter anti-money laundering and sanctions enforcement standards.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/bank-regulation/2026/iran-war-puts-new-pressure-on-banks-to-police-transactions/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/openreserve-occ-conditional-approval-moneylion-alums-choubey-correia-continuous-banking/829705/"
       }
     }
   ],
-  "perspective": "ByteDance\u2019s $29.6B loan and Hanwha\u2019s tokenized securities launch signal intensifying competition in AI-powered payments, tokenization, and compliance innovation.",
+  "perspective": "DBS and Citi\u2019s tokenized payment and PayTabs\u2019 Amazon MENA deal signal new 24/7 settlement and regional consolidation trends in payments.",
   "curiosity": {
-    "text": "The first contactless payment card was introduced in South Korea in 1995, years before widespread adoption in Europe and North America."
+    "text": "Despite the rise of instant payments, Fedwire\u2014launched in 1970\u2014still processes over $4 trillion daily, underscoring the enduring role of legacy settlement rails."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Crusoe",
-      "description": "Raised $3 billion for AI infrastructure.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
-    },
-    {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Fluidstack",
-      "description": "Secured $1.5 billion for cloud services.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
+      "type": "Expansion",
+      "company": "Revolut",
+      "description": "Receives conditional OCC charter for U.S. banking.",
+      "source_url": "https://www.bankingdive.com/news/revolut-nabs-conditional-occ-charter/829703/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
+      "type": "Fundraising",
       "company": "F\u00e9lix",
-      "description": "Raised $200 million for WhatsApp remittance platform.",
+      "description": "Secures $200M Series C led by A16z and General Catalyst.",
       "source_url": "https://news.crunchbase.com/venture/fintech-whatsapp-remittance-startup-felix-raises-200m-a16z-general-catalyst/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Lyte",
-      "description": "Raised $165 million for AI robotics.",
-      "source_url": "https://news.crunchbase.com/venture/robotics-ai-startup-lyte-seriesc-raise-maverick/"
+      "type": "Fundraising",
+      "company": "Crusoe",
+      "description": "Raises $3 billion for AI infrastructure.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
     },
     {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "fundraising",
-      "company": "Navi",
-      "description": "Received $100 million investment from Prosus.",
-      "source_url": "https://www.finextra.com/newsarticle/48275/prosus-invests-100m-in-indian-fintech-navi?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "Fundraising",
+      "company": "Fluidstack",
+      "description": "Secures $1.5 billion for AI infrastructure.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
     }
   ]
 }
