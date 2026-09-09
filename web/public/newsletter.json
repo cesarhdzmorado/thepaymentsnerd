@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "DBS and Citi Complete First Weekend Tokenized Cross-Border Payment via Swift Ledger",
-      "body": "DBS and Citi executed the first Singapore-to-U.S. dollar payment on a weekend using tokenized deposits over the Swift Digital Ledger. This milestone demonstrates that tokenized deposits can enable 24/7 cross-border settlement, bypassing traditional banking cutoffs. Global banks now have a live precedent for integrating tokenized rails into mainstream payment flows, raising the bar for speed and availability in cross-border transactions.",
+      "title": "Chime Buys Stride Bank for $590M, Gaining Direct Banking Capabilities and Reducing Reliance on Partners",
+      "body": "Chime is acquiring Stride Bank for $590 million in cash, shifting from a partner-dependent model to direct banking operations. The acquisition allows Chime to gain greater control over deposits, compliance, and product development, narrowing the gap with fully licensed neobanks like Revolut and Nubank. Fintech competitors such as Current and Varo may pursue similar acquisitions to match Chime\u2019s new capabilities. Chime is likely to prioritize launching proprietary deposit and lending products that leverage its new charter.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-payments/2026/citi-dbs-mark-1st-singapore-united-states-weekend-dollar-transaction/"
+        "url": "https://www.pymnts.com/news/banking/2026/chime-inks-590-million-deal-to-buy-longtime-bank-partner-stride/"
       }
     },
     {
-      "title": "PayTabs Acquires Amazon Payments MENA, Expanding Middle East and North Africa Payments Control",
-      "body": "PayTabs is acquiring Amazon\u2019s Middle East and North Africa payments operations for $100 million, consolidating its position as a payments leader in the MENA region. The deal gives PayTabs direct access to Amazon\u2019s merchant network and infrastructure, challenging incumbents like Network International and Fawry. MENA acquirers and PSPs must now compete with a PayTabs-Amazon alliance that can offer deeper integration and scale.",
+      "title": "Block Seeks OCC Trust Bank Charter to Expand Bitcoin and Stablecoin Custody",
+      "body": "Block has applied for a national trust bank charter with the OCC, aiming to offer custody and fiduciary services for bitcoin and stablecoins. If approved, Block would join a select group of fintechs with direct regulatory oversight for crypto custody, challenging both banks and crypto-native custodians. The move pressures banks and established custodians to expand digital asset offerings, while fintechs may face higher compliance expectations as the OCC sets new standards for crypto-bank integrations.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/block-pursues-national-trust-bank-charter-to-custody-bitcoin-and-stablecoins/"
+      }
+    },
+    {
+      "title": "Visa and Revolut Complete France\u2019s First Passkey-Authenticated Agentic Card Payment",
+      "body": "Visa and Revolut have executed France\u2019s first passkey-authenticated agentic card payment, using biometric credentials instead of passwords or SMS codes. This authentication upgrade enables digital wallet users to complete transactions more securely and quickly, reducing the risk of account takeover fraud. Competing issuers and payment service providers must accelerate passkey adoption to meet rising user expectations and regulatory scrutiny around payment security.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48356/paytabs-to-acquire-amazon-payments-mena-operations?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48364/visa-and-revolut-carry-out-passkey-based-agentic-payment-in-france"
       }
     },
     {
-      "title": "Mastercard and Flowcart Embed Card Payments in East Africa Social Commerce",
-      "body": "Mastercard partnered with Kenya\u2019s Flowcart to enable secure card payments within social and conversational commerce channels across East Africa. This move embeds payments directly into chat and social platforms, making it easier for merchants to convert sales and for consumers to transact in-app. Local PSPs and banks now face a new competitive front as global card networks deepen their reach into digital-first commerce.",
+      "title": "Circle Acquires Tazapay to Bolster B2B Cross-Border Payments Infrastructure",
+      "body": "Circle is acquiring Singapore-based Tazapay, expanding its B2B cross-border payments and settlement capabilities. The deal strengthens Circle\u2019s infrastructure for stablecoin-powered payouts and treasury services, positioning it to compete more directly with Stripe, Wise, and Airwallex. B2B merchants and platforms now have more options for instant, multi-currency settlement, and Circle is expected to integrate Tazapay\u2019s network into its global stablecoin rails to attract enterprise clients.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/commerce/social-commerce/2026/mastercard-flowcart-team-promote-social-commerce-africa/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48363/circle-to-buy-singapore-based-cross-border-payments-platform-tazapay"
       }
     },
     {
-      "title": "Liquid Network Attacker Returns 3,400 BTC After Security Flaw Exposed",
-      "body": "A hacker returned 3,400 BTC to the Liquid Network after exploiting a vulnerability, though they retained nearly 600 BTC. The incident forced Liquid to accelerate security upgrades and exposed risks such as private key compromise and incomplete incident response in blockchain-based payment networks. Exchanges and custodians using Liquid must now reassess their risk controls and incident response protocols.",
+      "title": "Visa Integrates Settlement Data With Blockchain Lending to Power Stablecoin Card Programs",
+      "body": "Visa is linking its settlement data to blockchain lending platforms, enabling fintechs to launch stablecoin-linked card programs and access working capital. This integration gives fintechs new ways to fund card issuance and manage liquidity, while Visa strengthens its position as a bridge between traditional and onchain finance. Competing networks like Mastercard and major banks that serve fintechs must quickly develop similar blockchain integrations to retain these clients as demand for onchain solutions grows.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-09-07-liquid-network-attacker-says-they-will-return-most-of-4000-btc-after-bug-fix-413673"
-      }
-    },
-    {
-      "title": "OpenReserve Secures OCC Approval for \u2018Continuous\u2019 Banking Model",
-      "body": "OpenReserve, founded by MoneyLion alumni, received conditional approval for a national banking license from the OCC, positioning itself as a \u2018continuous\u2019 banking platform. This regulatory green light allows OpenReserve to experiment with always-on banking services, challenging both traditional banks and digital-only competitors. U.S. fintechs now have a new template for pursuing full-stack banking charters with novel service models.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/openreserve-occ-conditional-approval-moneylion-alums-choubey-correia-continuous-banking/829705/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48362/visa-makes-onchain-lending-move"
       }
     }
   ],
-  "perspective": "DBS and Citi\u2019s tokenized payment and PayTabs\u2019 Amazon MENA deal signal new 24/7 settlement and regional consolidation trends in payments.",
+  "perspective": "Chime\u2019s Stride Bank acquisition and Block\u2019s OCC charter bid signal fintechs intensifying efforts to secure direct banking and regulated crypto custody capabilities.",
   "curiosity": {
-    "text": "Despite the rise of instant payments, Fedwire\u2014launched in 1970\u2014still processes over $4 trillion daily, underscoring the enduring role of legacy settlement rails."
+    "text": "The first ATM was installed in London in 1967 and used paper vouchers instead of plastic cards for cash withdrawals."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "Expansion",
-      "company": "Revolut",
-      "description": "Receives conditional OCC charter for U.S. banking.",
-      "source_url": "https://www.bankingdive.com/news/revolut-nabs-conditional-occ-charter/829703/"
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "type": "M&A",
+      "company": "PayTabs",
+      "description": "Acquires Amazon Payments MENA operations for $100 million",
+      "source_url": "https://www.finextra.com/newsarticle/48356/paytabs-to-acquire-amazon-payments-mena-operations"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Fundraising",
-      "company": "F\u00e9lix",
-      "description": "Secures $200M Series C led by A16z and General Catalyst.",
-      "source_url": "https://news.crunchbase.com/venture/fintech-whatsapp-remittance-startup-felix-raises-200m-a16z-general-catalyst/"
+      "type": "fundraising",
+      "company": "Ramp",
+      "description": "Eyes $60 billion valuation in new funding round",
+      "source_url": "https://www.pymnts.com/spend-management/2026/ramp-eyes-60-billion-valuation-just-months-after-series-f/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "Fundraising",
-      "company": "Crusoe",
-      "description": "Raises $3 billion for AI infrastructure.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
+      "type": "fundraising",
+      "company": "Cognition",
+      "description": "Secures $48 billion valuation amid AI coding demand",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "Fundraising",
-      "company": "Fluidstack",
-      "description": "Secures $1.5 billion for AI infrastructure.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Meta",
+      "description": "Launches AI personal assistant Muse",
+      "source_url": "https://www.pymnts.com/facebook-meta/2026/meta-targets-mass-market-automation-with-new-muse-ai-agent/"
     }
   ]
 }
