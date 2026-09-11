@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "US Bank Pilots Proprietary Stablecoin for Faster Cross-Border Settlement",
-      "body": "US Bank completed a live pilot using its own US dollar-backed stablecoin, USBDC, to streamline intrabank cross-border payments. The bank directly enters stablecoin infrastructure, raising the bar for peers still reliant on legacy rails. Other banks now need to develop or adopt digital currency solutions to stay competitive in international settlement.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48372/us-bank-pilots-custom-built-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "MVB and Velocity Join Visa Direct Stablecoin Settlement Pilot for Push-to-Card Payouts",
-      "body": "MVB Financial partnered with Velocity to participate in a Visa Direct pilot enabling stablecoin-based funding and settlement for push-to-card payouts. The companies introduce stablecoin rails into mainstream payout flows, potentially lowering costs and speeding up B2B and cross-border transactions. Competing banks and fintechs may need to accelerate stablecoin integration to avoid losing high-volume payout business.",
+      "title": "Nasdaq Ventures Invests in Kraken Parent to Advance Tokenized Equity Markets",
+      "body": "Nasdaq Ventures has invested in Payward, the parent company of Kraken, to deepen collaboration on tokenized equity infrastructure. While the exact investment amount was not disclosed in the latest reports, this partnership signals Nasdaq\u2019s intent to accelerate the digitization of equity markets and compete with both traditional exchanges and crypto-native platforms. The U.S. Securities and Exchange Commission and other global securities regulators are likely to scrutinize these tokenized offerings for compliance with existing securities laws as institutional adoption grows.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/mvb-partners-with-velocity-for-visa-direct-stablecoin-settlement-pilot/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/nasdaq-invests-100-million-in-kraken-parent-payward-to-accelerate-tokenized-stock-push/"
       }
     },
     {
-      "title": "PayPal Opens PYUSD-Backed Stablecoin Infrastructure to Developers via MoonPay and M0",
-      "body": "PayPal is working with MoonPay and M0 to let developers create application-specific stablecoins backed by PYUSD. By enabling programmable money, PayPal positions itself as a foundational provider and challenges Stripe and other payment platforms to match its developer-facing stablecoin tools. Developers and merchants can now experiment with new payment and loyalty applications as regulatory frameworks evolve.",
+      "title": "Revolut Advances in US Banking License Process After Initial Regulatory Review",
+      "body": "Revolut has cleared an initial regulatory review in its pursuit of a US banking license, moving closer to offering deposits and lending directly to American customers. The company still faces further scrutiny from the Federal Reserve and the Office of the Comptroller of the Currency before any license is granted. If successful, Revolut would compete head-to-head with US banks and fintechs, leveraging its global platform to attract digitally native consumers.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48375/paypal-helps-developers-build-application-specific-pyusd-backed-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-us-banking-licence-2/"
       }
     },
     {
-      "title": "Block Seeks National Trust Bank Charter to Expand Regulated Crypto Custody",
-      "body": "Block filed to establish a federally regulated bank focused on crypto custody, joining fintechs like Chime in pursuing national charters. With approval, Block plans to offer regulated crypto services directly, bypassing third-party banks and strengthening its Cash App ecosystem. Banks and crypto custodians now face a new competitor with regulatory ambition and mass-market reach.",
+      "title": "Mastercard Unveils Wallet Pay to Boost Digital Wallet Interoperability",
+      "body": "Mastercard has launched Wallet Pay, a suite designed to make digital wallets more interoperable for merchants and issuers. By enabling easier integration and broader acceptance, Mastercard aims to reduce checkout friction and drive wallet adoption. Competing networks like Visa and digital wallet providers such as Apple Pay and Google Pay may need to expand their own interoperability initiatives or risk losing merchant and consumer engagement.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48370/block-files-to-set-up-national-trust-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48376/mastercard-to-boost-digital-wallet-uptake-with-wallet-pay?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Mastercard and Visa Back World Bank Push for Digital Payments in Emerging Markets",
-      "body": "Mastercard and Visa are supporting a World Bank initiative to expand digital payments in emerging markets using a risk-sharing model. This partnership drives infrastructure upgrades and financial inclusion for consumers and small businesses, while intensifying competition for local PSPs and banks as global networks deepen their reach.",
+      "title": "MoneyGram and Rain Launch Colombia\u2019s First Stablecoin Visa Card for Remittances",
+      "body": "MoneyGram, in partnership with Rain, has introduced Colombia\u2019s first Visa card backed by stablecoins, allowing users to spend and transfer funds directly in digital dollars. This initiative targets the remittance market, offering faster and potentially lower-cost cross-border payments. While tokenization is central, the focus here is on practical consumer access and remittance efficiency, prompting other remittance providers to consider stablecoin integrations for competitive parity.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-10-moneygram-card-stablecoin-visa-colombia-414137"
+      }
+    },
+    {
+      "title": "Ant International, Visa, and Mastercard Collaborate on Know-Your-Agent Standard",
+      "body": "Ant International, Visa, and Mastercard are jointly developing a Know-Your-Agent (KYA) framework to streamline agent onboarding and verification across their networks. The initiative aims to enhance security and compliance in agent-driven payment ecosystems, particularly in emerging markets. Payment networks and PSPs not participating may face increased regulatory and reputational risks as the framework sets a new industry benchmark.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48373/world-bank-targets-more-digital-payments-in-emerging-markets?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48377/ant-international-visa-and-mastercard-to-develop-know-your-agent-framework?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "US Bank and PayPal highlight how incumbents are shaping stablecoin adoption and programmable payments.",
+  "perspective": "Nasdaq and MoneyGram moves show digital asset rails and stablecoins are reshaping both capital markets and cross-border consumer payments.",
   "curiosity": {
-    "text": "The first commercial ACH payment in the U.S. was processed in 1972, but it took six more years before standardized rules enabled widespread business adoption."
+    "text": "A 2022 study found that PSD2 led to a 30% increase in new fintech entrants in Europe within two years, but only 5% of consumers switched their primary payment provider."
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\uddf2\ud83c\uddfd",
+      "type": "fundraising",
+      "company": "Kapital",
+      "description": "Raised $100 million in Series D funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48380/mexican-fintech-kapital-raises-100-million-in-new-financing"
+    },
+    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Chime",
-      "description": "Acquires Stride Bank for $590M to enhance banking capabilities.",
-      "source_url": "https://www.bankingdive.com/news/chime-buys-stride-bank-590m-acquisition-fintech/829857/"
+      "type": "fundraising",
+      "company": "Savvy Wealth",
+      "description": "Closed $100 million Series C round led by Halo Fund.",
+      "source_url": "https://www.finextra.com/pressarticle/110872/savvy-wealth-raises-100-million"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
       "company": "Circle",
-      "description": "Acquires Tazapay for $400M to expand cross-border payment infrastructure.",
+      "description": "Acquiring Tazapay for $400 million.",
       "source_url": "https://www.bankingdive.com/news/circle-to-buy-tazapay-for-400m/829954/"
     },
     {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "fundraising",
-      "company": "Mistral AI",
-      "description": "Raises \u20ac3.5B in Series D, valuing the company at \u20ac24B.",
-      "source_url": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Block",
-      "description": "Files to set up a national trust bank for crypto custody.",
-      "source_url": "https://www.bankingdive.com/news/block-seeks-occ-bank-charter/829934/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "HelmGuard",
-      "description": "Raises $7.3M for AI-driven governance, risk, and compliance platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48371/helmguard-raises-73m-to-for-agentic-grc-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "investment",
+      "company": "Nasdaq",
+      "description": "Invested $100 million in Kraken parent Payward.",
+      "source_url": "https://www.theblock.co/news/deals/2026-09-10-nasdaq-to-invest-100-million-in-kraken-parent-payward-as-firms-expand-partnership-414120"
     }
   ]
 }
