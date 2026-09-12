@@ -1,49 +1,49 @@
 {
   "news": [
     {
-      "title": "Nasdaq Ventures Invests in Kraken Parent to Advance Tokenized Equity Markets",
-      "body": "Nasdaq Ventures has invested in Payward, the parent company of Kraken, to deepen collaboration on tokenized equity infrastructure. While the exact investment amount was not disclosed in the latest reports, this partnership signals Nasdaq\u2019s intent to accelerate the digitization of equity markets and compete with both traditional exchanges and crypto-native platforms. The U.S. Securities and Exchange Commission and other global securities regulators are likely to scrutinize these tokenized offerings for compliance with existing securities laws as institutional adoption grows.",
+      "title": "Coinbase and Moov Bring Stablecoin Payments to Community Banks Ahead of CLARITY Vote",
+      "body": "Coinbase has partnered with Moov to enable stablecoin payment capabilities for community banks, coinciding with the US Senate\u2019s upcoming CLARITY Act vote. This partnership gives community banks access to digital asset rails previously limited to larger institutions, while strengthening Coinbase\u2019s foothold in regulated stablecoin payments. Traditional core processors now face direct competition as smaller banks gain new settlement options. Regional banks are expected to adopt stablecoins more widely if lawmakers provide regulatory clarity.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48384/coinbase-and-moov-partner-to-boost-stablecoin-payments-for-community-banks-ahead-of-clarity-vote"
+      }
+    },
+    {
+      "title": "GENIUS Act Spurs Banks to Prepare for New Stablecoin Compliance Demands",
+      "body": "The GENIUS Act, currently under Congressional review, would require banks to implement new compliance controls for stablecoin issuance if enacted. This proposal aims to align banks\u2019 risk management and reporting standards with those of fintechs, raising the bar for digital asset oversight. Large national banks and regional institutions are evaluating compliance system upgrades and vendor partnerships in anticipation of possible new requirements.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/nasdaq-invests-100-million-in-kraken-parent-payward-to-accelerate-tokenized-stock-push/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/genius-act-pushes-stablecoin-compliance-into-banks-back-offices/"
       }
     },
     {
-      "title": "Revolut Advances in US Banking License Process After Initial Regulatory Review",
-      "body": "Revolut has cleared an initial regulatory review in its pursuit of a US banking license, moving closer to offering deposits and lending directly to American customers. The company still faces further scrutiny from the Federal Reserve and the Office of the Comptroller of the Currency before any license is granted. If successful, Revolut would compete head-to-head with US banks and fintechs, leveraging its global platform to attract digitally native consumers.",
+      "title": "Federal Agencies Propose New Rules to Streamline Bank-Fintech Partnerships",
+      "body": "Four US federal agencies have released draft guidance to help banks manage risks in third-party fintech partnerships. The proposal aims to clarify oversight responsibilities, making it easier for banks to launch new products with fintech collaborators while maintaining regulatory compliance. Fintechs gain a clearer path to market, but must meet higher due diligence standards. The industry should prepare for faster partnership approvals and more robust vendor vetting processes.",
       "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-us-banking-licence-2/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/partnerships/2026/federal-agencies-overhaul-bank-partner-rules-drive-innovation/"
       }
     },
     {
-      "title": "Mastercard Unveils Wallet Pay to Boost Digital Wallet Interoperability",
-      "body": "Mastercard has launched Wallet Pay, a suite designed to make digital wallets more interoperable for merchants and issuers. By enabling easier integration and broader acceptance, Mastercard aims to reduce checkout friction and drive wallet adoption. Competing networks like Visa and digital wallet providers such as Apple Pay and Google Pay may need to expand their own interoperability initiatives or risk losing merchant and consumer engagement.",
+      "title": "Mercury Secures FDIC Approval, Paving Way for Virtual Bank Launch",
+      "body": "Mercury has received conditional approval for FDIC deposit insurance, clearing a key hurdle to launching its virtual bank. This positions Mercury to compete directly with both incumbent banks and digital challengers for primary business accounts. The move could accelerate innovation in SME banking as more fintechs pursue full-stack regulatory status. Mercury plans to introduce new deposit and lending products for startups and tech-forward businesses.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48376/mastercard-to-boost-digital-wallet-uptake-with-wallet-pay?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/mercury-gets-fdic-nod/830006/"
       }
     },
     {
-      "title": "MoneyGram and Rain Launch Colombia\u2019s First Stablecoin Visa Card for Remittances",
-      "body": "MoneyGram, in partnership with Rain, has introduced Colombia\u2019s first Visa card backed by stablecoins, allowing users to spend and transfer funds directly in digital dollars. This initiative targets the remittance market, offering faster and potentially lower-cost cross-border payments. While tokenization is central, the focus here is on practical consumer access and remittance efficiency, prompting other remittance providers to consider stablecoin integrations for competitive parity.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-10-moneygram-card-stablecoin-visa-colombia-414137"
-      }
-    },
-    {
-      "title": "Ant International, Visa, and Mastercard Collaborate on Know-Your-Agent Standard",
-      "body": "Ant International, Visa, and Mastercard are jointly developing a Know-Your-Agent (KYA) framework to streamline agent onboarding and verification across their networks. The initiative aims to enhance security and compliance in agent-driven payment ecosystems, particularly in emerging markets. Payment networks and PSPs not participating may face increased regulatory and reputational risks as the framework sets a new industry benchmark.",
+      "title": "Nacha Launches Industry Team to Set Standards for Stablecoins and Tokenized Deposits",
+      "body": "Nacha\u2019s Payments Innovation Alliance has formed a Next-Gen Currency Project Team focused on integrating stablecoins and tokenized deposits into mainstream payment systems. By convening banks, fintechs, and processors, Nacha aims to shape industry standards for digital asset settlement. This initiative could accelerate adoption of programmable money in ACH and B2B payments, with interoperability pilots and draft rulemaking proposals expected in the coming quarters.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48377/ant-international-visa-and-mastercard-to-develop-know-your-agent-framework?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110875/nacha-forms-next-gen-currency-project-team-focused-on-stablecoins-and-tokenized-deposits?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Nasdaq and MoneyGram moves show digital asset rails and stablecoins are reshaping both capital markets and cross-border consumer payments.",
+  "perspective": "Coinbase and Mercury drive digital asset integration as the CLARITY and GENIUS Acts push banks to prepare for new stablecoin and compliance standards.",
   "curiosity": {
-    "text": "A 2022 study found that PSD2 led to a 30% increase in new fintech entrants in Europe within two years, but only 5% of consumers switched their primary payment provider."
+    "text": "When the U.S. Treasury\u2019s 2015 FinCEN rules took effect, some early crypto exchanges exited the U.S. market entirely rather than comply with new AML requirements."
   },
   "whats_hot": [
     {
@@ -55,24 +55,31 @@
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Savvy Wealth",
-      "description": "Closed $100 million Series C round led by Halo Fund.",
-      "source_url": "https://www.finextra.com/pressarticle/110872/savvy-wealth-raises-100-million"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Circle",
-      "description": "Acquiring Tazapay for $400 million.",
-      "source_url": "https://www.bankingdive.com/news/circle-to-buy-tazapay-for-400m/829954/"
+      "company": "MoonPay",
+      "description": "Acquired Rhythm, an on-chain trading signals platform.",
+      "source_url": "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "investment",
       "company": "Nasdaq",
-      "description": "Invested $100 million in Kraken parent Payward.",
-      "source_url": "https://www.theblock.co/news/deals/2026-09-10-nasdaq-to-invest-100-million-in-kraken-parent-payward-as-firms-expand-partnership-414120"
+      "description": "Invested $100 million in Payward for tokenized equities partnership.",
+      "source_url": "https://www.finextra.com/newsarticle/48382/nasdaq-invests-100m-in-payward-as-part-of-tokenised-equities-partnership"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Cohere",
+      "description": "Targets $20 billion valuation in funding round.",
+      "source_url": "https://www.pymnts.com/startups/2026/ai-startup-cohere-targets-20-billion-dollar-valuation-funding-round/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "regulatory",
+      "company": "Revolut",
+      "description": "Cleared first hurdle for US banking license.",
+      "source_url": "https://sifted.eu/articles/revolut-us-banking-licence-2/"
     }
   ]
 }
