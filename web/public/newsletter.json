@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Coinbase and Moov Bring Stablecoin Payments to Community Banks Ahead of CLARITY Vote",
-      "body": "Coinbase has partnered with Moov to enable stablecoin payment capabilities for community banks, coinciding with the US Senate\u2019s upcoming CLARITY Act vote. This partnership gives community banks access to digital asset rails previously limited to larger institutions, while strengthening Coinbase\u2019s foothold in regulated stablecoin payments. Traditional core processors now face direct competition as smaller banks gain new settlement options. Regional banks are expected to adopt stablecoins more widely if lawmakers provide regulatory clarity.",
+      "title": "Revolut Data Breach Exposes KYC and Bitcoin Transactions, Raising Competitive Risks",
+      "body": "Revolut disclosed that a fake request from a government domain led to exposure of customer KYC and Bitcoin transaction data. High-net-worth clients are particularly affected, and the breach could prompt some customers to migrate to competitors like Monzo and N26, which have emphasized robust security practices. Regulatory scrutiny of Revolut\u2019s data handling is likely to intensify, and rivals may target security-conscious users in their marketing.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48384/coinbase-and-moov-partner-to-boost-stablecoin-payments-for-community-banks-ahead-of-clarity-vote"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516"
       }
     },
     {
-      "title": "GENIUS Act Spurs Banks to Prepare for New Stablecoin Compliance Demands",
-      "body": "The GENIUS Act, currently under Congressional review, would require banks to implement new compliance controls for stablecoin issuance if enacted. This proposal aims to align banks\u2019 risk management and reporting standards with those of fintechs, raising the bar for digital asset oversight. Large national banks and regional institutions are evaluating compliance system upgrades and vendor partnerships in anticipation of possible new requirements.",
+      "title": "AI Startup Cohere Eyes $20 Billion Valuation With Major Funding Round",
+      "body": "Cohere is in advanced talks to raise $2\u20133 billion at a $20 billion valuation, signaling investor confidence in AI\u2019s expanding role in financial services. The new capital could accelerate Cohere\u2019s development of large language models for banks and fintechs, intensifying competition with OpenAI and Anthropic for enterprise AI contracts.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/genius-act-pushes-stablecoin-compliance-into-banks-back-offices/"
+        "url": "https://www.pymnts.com/startups/2026/ai-startup-cohere-targets-20-billion-dollar-valuation-funding-round/"
       }
     },
     {
-      "title": "Federal Agencies Propose New Rules to Streamline Bank-Fintech Partnerships",
-      "body": "Four US federal agencies have released draft guidance to help banks manage risks in third-party fintech partnerships. The proposal aims to clarify oversight responsibilities, making it easier for banks to launch new products with fintech collaborators while maintaining regulatory compliance. Fintechs gain a clearer path to market, but must meet higher due diligence standards. The industry should prepare for faster partnership approvals and more robust vendor vetting processes.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/partnerships/2026/federal-agencies-overhaul-bank-partner-rules-drive-innovation/"
-      }
-    },
-    {
-      "title": "Mercury Secures FDIC Approval, Paving Way for Virtual Bank Launch",
-      "body": "Mercury has received conditional approval for FDIC deposit insurance, clearing a key hurdle to launching its virtual bank. This positions Mercury to compete directly with both incumbent banks and digital challengers for primary business accounts. The move could accelerate innovation in SME banking as more fintechs pursue full-stack regulatory status. Mercury plans to introduce new deposit and lending products for startups and tech-forward businesses.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/mercury-gets-fdic-nod/830006/"
-      }
-    },
-    {
-      "title": "Nacha Launches Industry Team to Set Standards for Stablecoins and Tokenized Deposits",
-      "body": "Nacha\u2019s Payments Innovation Alliance has formed a Next-Gen Currency Project Team focused on integrating stablecoins and tokenized deposits into mainstream payment systems. By convening banks, fintechs, and processors, Nacha aims to shape industry standards for digital asset settlement. This initiative could accelerate adoption of programmable money in ACH and B2B payments, with interoperability pilots and draft rulemaking proposals expected in the coming quarters.",
+      "title": "Unlimit Secures Hong Kong License to Expand Asia-Pacific Payments Reach",
+      "body": "Unlimit obtained a money service operator license from Hong Kong\u2019s Commissioner of Customs and Excise, deepening its Asia-Pacific footprint. This regulatory approval enables Unlimit to serve cross-border merchants and fintechs seeking access to Hong Kong\u2019s financial hub, and positions it to compete with established players like Airwallex and Payoneer.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110875/nacha-forms-next-gen-currency-project-team-focused-on-stablecoins-and-tokenized-deposits?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/110883/unlimit-expands-its-asia-pacific-presence-with-hong-kong-money-service-operator-licence"
+      }
+    },
+    {
+      "title": "Visa Trust Index: 72% of US Consumers Now Use AI Assistants in Payments",
+      "body": "Visa\u2019s Trust Index reports that 72% of US consumers have used an AI assistant during payment journeys, highlighting rapid adoption of conversational AI for transactions and support. Banks and wallet providers are integrating AI-powered features to personalize user experiences and automate fraud detection, driving a new wave of digital engagement.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48386/72-of-us-consumers-have-used-an-ai-assistant--visa-trust-index"
+      }
+    },
+    {
+      "title": "MoonPay Acquires Rhythm to Bolster On-Chain Trading Signal Capabilities",
+      "body": "MoonPay acquired Rhythm, an on-chain trading signals platform, to enhance its crypto trading services. The acquisition allows MoonPay to offer advanced analytics and trading tools to crypto traders, intensifying competition with Coinbase and Binance for active market participants.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/"
       }
     }
   ],
-  "perspective": "Coinbase and Mercury drive digital asset integration as the CLARITY and GENIUS Acts push banks to prepare for new stablecoin and compliance standards.",
+  "perspective": "Revolut\u2019s breach and Unlimit\u2019s Hong Kong license show how security lapses and regulatory wins shape competition as AI and crypto tools reshape payments.",
   "curiosity": {
-    "text": "When the U.S. Treasury\u2019s 2015 FinCEN rules took effect, some early crypto exchanges exited the U.S. market entirely rather than comply with new AML requirements."
+    "text": "The FedNow pilot program began in 2019, with the U.S. Federal Reserve launching nationwide instant payments in 2023 after several years of development and testing."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf2\ud83c\uddfd",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Kapital",
-      "description": "Raised $100 million in Series D funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48380/mexican-fintech-kapital-raises-100-million-in-new-financing"
+      "company": "The Boring Co.",
+      "description": "The Boring Co. leads with a $3B Series D.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "MoonPay",
-      "description": "Acquired Rhythm, an on-chain trading signals platform.",
-      "source_url": "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/"
+      "type": "fundraising",
+      "company": "Cognition",
+      "description": "AI coding startup Cognition raises $2B.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "investment",
-      "company": "Nasdaq",
-      "description": "Invested $100 million in Payward for tokenized equities partnership.",
-      "source_url": "https://www.finextra.com/newsarticle/48382/nasdaq-invests-100m-in-payward-as-part-of-tokenised-equities-partnership"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udde6",
       "type": "fundraising",
-      "company": "Cohere",
-      "description": "Targets $20 billion valuation in funding round.",
-      "source_url": "https://www.pymnts.com/startups/2026/ai-startup-cohere-targets-20-billion-dollar-valuation-funding-round/"
+      "company": "Motive",
+      "description": "Motive lands $1.3B for fleet management software.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "regulatory",
-      "company": "Revolut",
-      "description": "Cleared first hurdle for US banking license.",
-      "source_url": "https://sifted.eu/articles/revolut-us-banking-licence-2/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Stoke Space",
+      "description": "Stoke Space raises $1B for reusable rocket development.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
     }
   ]
 }
