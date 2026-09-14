@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Revolut Data Breach Exposes KYC and Bitcoin Transactions, Raising Competitive Risks",
-      "body": "Revolut disclosed that a fake request from a government domain led to exposure of customer KYC and Bitcoin transaction data. High-net-worth clients are particularly affected, and the breach could prompt some customers to migrate to competitors like Monzo and N26, which have emphasized robust security practices. Regulatory scrutiny of Revolut\u2019s data handling is likely to intensify, and rivals may target security-conscious users in their marketing.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516"
-      }
-    },
-    {
-      "title": "AI Startup Cohere Eyes $20 Billion Valuation With Major Funding Round",
-      "body": "Cohere is in advanced talks to raise $2\u20133 billion at a $20 billion valuation, signaling investor confidence in AI\u2019s expanding role in financial services. The new capital could accelerate Cohere\u2019s development of large language models for banks and fintechs, intensifying competition with OpenAI and Anthropic for enterprise AI contracts.",
+      "title": "PayPal\u2019s New CEO Charts Independent Course After $50B Buyout Deal Collapses",
+      "body": "PayPal\u2019s new CEO, Enrique Lores, is steering the company to operate independently after the collapse of a $50 billion buyout offer. This collapse forces PayPal to intensify its innovation efforts and defend its digital wallet position as Apple Pay and Google Pay ramp up competition. Investors are watching for strategic partnerships or acquisitions that could strengthen PayPal\u2019s standing and restore confidence, while the company focuses on launching new products and merchant integrations to maintain market share.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/startups/2026/ai-startup-cohere-targets-20-billion-dollar-valuation-funding-round/"
+        "url": "https://www.pymnts.com/consumer-payments/2026/paypals-new-ceo-bets-on-going-it-alone-after-50-billion-buyout-stalls/"
       }
     },
     {
-      "title": "Unlimit Secures Hong Kong License to Expand Asia-Pacific Payments Reach",
-      "body": "Unlimit obtained a money service operator license from Hong Kong\u2019s Commissioner of Customs and Excise, deepening its Asia-Pacific footprint. This regulatory approval enables Unlimit to serve cross-border merchants and fintechs seeking access to Hong Kong\u2019s financial hub, and positions it to compete with established players like Airwallex and Payoneer.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110883/unlimit-expands-its-asia-pacific-presence-with-hong-kong-money-service-operator-licence"
-      }
-    },
-    {
-      "title": "Visa Trust Index: 72% of US Consumers Now Use AI Assistants in Payments",
-      "body": "Visa\u2019s Trust Index reports that 72% of US consumers have used an AI assistant during payment journeys, highlighting rapid adoption of conversational AI for transactions and support. Banks and wallet providers are integrating AI-powered features to personalize user experiences and automate fraud detection, driving a new wave of digital engagement.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48386/72-of-us-consumers-have-used-an-ai-assistant--visa-trust-index"
-      }
-    },
-    {
-      "title": "MoonPay Acquires Rhythm to Bolster On-Chain Trading Signal Capabilities",
-      "body": "MoonPay acquired Rhythm, an on-chain trading signals platform, to enhance its crypto trading services. The acquisition allows MoonPay to offer advanced analytics and trading tools to crypto traders, intensifying competition with Coinbase and Binance for active market participants.",
+      "title": "Ripple Targets $13 Trillion Corporate Treasury Market to Scale Stablecoin Adoption",
+      "body": "Ripple is targeting the $13 trillion corporate treasury sector to drive growth for its stablecoin business, positioning itself against both crypto-native and traditional treasury providers. Large corporates may gain new settlement options, while banks and legacy treasury platforms face direct competition from programmable stablecoin rails. Ripple\u2019s next step is to secure enterprise partnerships and navigate regulatory scrutiny as stablecoins move deeper into mainstream finance.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/ripple-looks-to-13-trillion-corporate-treasury-space-for-stablecoin-growth/"
+      }
+    },
+    {
+      "title": "Circle Acquires Tazapay for $400M to Expand Cross-Border Payment Reach",
+      "body": "Circle is acquiring Tazapay for $400 million to strengthen its cross-border payment infrastructure and broaden its global footprint. The deal brings Tazapay\u2019s technology and network into Circle\u2019s stablecoin and payments ecosystem, intensifying competition with Stripe, PayPal, and traditional remittance providers. Circle plans to launch new B2B and merchant payout products using Tazapay\u2019s rails to capture more institutional flows.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/circle-to-buy-tazapay-for-400m/829954/"
+      }
+    },
+    {
+      "title": "Chime Acquires Stride Bank, Moves Beyond Partner Model for Direct Banking Control",
+      "body": "Chime is acquiring Stride Bank, shifting from a partner-bank model to direct ownership to streamline operations and accelerate product development. Chime gains greater control over compliance, deposits, and lending, but also takes on increased regulatory and operational responsibilities. The move positions Chime to compete more directly with both neobanks and traditional banks on product breadth and pricing, with new account types and lending products expected as Stride is integrated.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/chime-ceo-fintech-outgrew-bank-partner-model-stride/830044/"
+      }
+    },
+    {
+      "title": "Singapore Banks Complete Blockchain-Enabled SGD Transactions on Swift Ledger",
+      "body": "DBS, OCBC, and UOB have executed Singapore dollar transactions using Swift\u2019s blockchain-enabled ledger, marking a milestone for blockchain in domestic banking. The pilot demonstrates improved transaction speed and security, challenging legacy payment rails for high-value transfers. Singapore\u2019s banks are now positioned to expand blockchain use to cross-border corridors, while global banks evaluate similar integrations.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48388/singapore-banks-complete-blockchain-enabled-sgd-transactions-on-swift-ledger?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Revolut\u2019s breach and Unlimit\u2019s Hong Kong license show how security lapses and regulatory wins shape competition as AI and crypto tools reshape payments.",
+  "perspective": "PayPal\u2019s buyout collapse and Chime\u2019s Stride Bank acquisition highlight fintechs\u2019 strategic pivots amid Circle\u2019s Tazapay deal and Singapore\u2019s blockchain banking pilot.",
   "curiosity": {
-    "text": "The FedNow pilot program began in 2019, with the U.S. Federal Reserve launching nationwide instant payments in 2023 after several years of development and testing."
+    "text": "The U.S. Federal Reserve first proposed a real-time gross settlement system in 1996, but it took 27 years before FedNow launched in 2023."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
       "type": "fundraising",
-      "company": "The Boring Co.",
-      "description": "The Boring Co. leads with a $3B Series D.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+      "company": "Chift",
+      "description": "Raised \u20ac10.5M for AI financial connectivity layer.",
+      "source_url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "Cleared first hurdle for US banking license.",
+      "source_url": "https://sifted.eu/articles/revolut-us-banking-licence-2/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Cognition",
-      "description": "AI coding startup Cognition raises $2B.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Motive",
-      "description": "Motive lands $1.3B for fleet management software.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Stoke Space",
-      "description": "Stoke Space raises $1B for reusable rocket development.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+      "type": "regulatory",
+      "company": "Mercury",
+      "description": "Received FDIC approval for deposit insurance.",
+      "source_url": "https://www.bankingdive.com/news/mercury-gets-fdic-nod/830006/"
     }
   ]
 }
