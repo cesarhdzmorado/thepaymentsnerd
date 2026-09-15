@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "PayPal\u2019s New CEO Charts Independent Course After $50B Buyout Deal Collapses",
-      "body": "PayPal\u2019s new CEO, Enrique Lores, is steering the company to operate independently after the collapse of a $50 billion buyout offer. This collapse forces PayPal to intensify its innovation efforts and defend its digital wallet position as Apple Pay and Google Pay ramp up competition. Investors are watching for strategic partnerships or acquisitions that could strengthen PayPal\u2019s standing and restore confidence, while the company focuses on launching new products and merchant integrations to maintain market share.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/consumer-payments/2026/paypals-new-ceo-bets-on-going-it-alone-after-50-billion-buyout-stalls/"
-      }
-    },
-    {
-      "title": "Ripple Targets $13 Trillion Corporate Treasury Market to Scale Stablecoin Adoption",
-      "body": "Ripple is targeting the $13 trillion corporate treasury sector to drive growth for its stablecoin business, positioning itself against both crypto-native and traditional treasury providers. Large corporates may gain new settlement options, while banks and legacy treasury platforms face direct competition from programmable stablecoin rails. Ripple\u2019s next step is to secure enterprise partnerships and navigate regulatory scrutiny as stablecoins move deeper into mainstream finance.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/ripple-looks-to-13-trillion-corporate-treasury-space-for-stablecoin-growth/"
-      }
-    },
-    {
-      "title": "Circle Acquires Tazapay for $400M to Expand Cross-Border Payment Reach",
-      "body": "Circle is acquiring Tazapay for $400 million to strengthen its cross-border payment infrastructure and broaden its global footprint. The deal brings Tazapay\u2019s technology and network into Circle\u2019s stablecoin and payments ecosystem, intensifying competition with Stripe, PayPal, and traditional remittance providers. Circle plans to launch new B2B and merchant payout products using Tazapay\u2019s rails to capture more institutional flows.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/circle-to-buy-tazapay-for-400m/829954/"
-      }
-    },
-    {
-      "title": "Chime Acquires Stride Bank, Moves Beyond Partner Model for Direct Banking Control",
-      "body": "Chime is acquiring Stride Bank, shifting from a partner-bank model to direct ownership to streamline operations and accelerate product development. Chime gains greater control over compliance, deposits, and lending, but also takes on increased regulatory and operational responsibilities. The move positions Chime to compete more directly with both neobanks and traditional banks on product breadth and pricing, with new account types and lending products expected as Stride is integrated.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/chime-ceo-fintech-outgrew-bank-partner-model-stride/830044/"
-      }
-    },
-    {
-      "title": "Singapore Banks Complete Blockchain-Enabled SGD Transactions on Swift Ledger",
-      "body": "DBS, OCBC, and UOB have executed Singapore dollar transactions using Swift\u2019s blockchain-enabled ledger, marking a milestone for blockchain in domestic banking. The pilot demonstrates improved transaction speed and security, challenging legacy payment rails for high-value transfers. Singapore\u2019s banks are now positioned to expand blockchain use to cross-border corridors, while global banks evaluate similar integrations.",
+      "title": "Nubank Launches US Deposit Account Through Sponsor Bank Partnership",
+      "body": "Nubank has introduced a US deposit account via a sponsor bank, marking its first deposit product directly available to American consumers. This expansion puts Nubank in direct competition with US neobanks and traditional banks, as it adapts its Latin American strategy for the US market. Nubank\u2019s leadership is actively recruiting US customers and working with regulators to ensure compliance as it seeks to establish a foothold outside Brazil.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48388/singapore-banks-complete-blockchain-enabled-sgd-transactions-on-swift-ledger?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48397/nubank-launches-deposit-account-in-the-us?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Mastercard Pursues Stablecoin Partnerships and Acquisitions for Payments Growth",
+      "body": "Mastercard\u2019s CFO outlined a strategy focused on building stablecoin infrastructure and acquiring complementary businesses to capture new payment flows. Mastercard is actively seeking partnerships with merchants and issuers and engaging with regulators to advance stablecoin settlement, aiming to strengthen its position against Visa and fintech competitors.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/mastercard/2026/mastercard-cfo-outlines-growth-strategy-driven-by-stablecoins-and-value-added-services/"
+      }
+    },
+    {
+      "title": "Revolut Data Breach Raises Security Concerns After Government Email Scam",
+      "body": "Revolut reported a breach where fraudsters exploited a legitimate government email domain to access sensitive customer data. The incident exposes Revolut to increased regulatory scrutiny and could slow customer acquisition, as competitors highlight their own security measures to attract wary users.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48396/revolut-hit-by-data-breach-after-fake-government-email-scam?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Tabby Raises $233M, Reaches $6.5B Valuation to Accelerate Middle East BNPL Expansion",
+      "body": "Saudi-based BNPL fintech Tabby secured $233 million in new funding, raising its valuation to $6.5 billion. The investment will support product development and regional expansion, intensifying competition with other BNPL providers as Gulf consumers increasingly adopt installment payment options.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48395/saudi-fintech-tabby-raises-233m?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Bank of Ireland Partners With Stripe to Modernize Digital Banking",
+      "body": "Bank of Ireland announced a partnership with Stripe to upgrade its digital services, aiming to set a new benchmark for Irish banking. By integrating Stripe\u2019s payments infrastructure and developer tools, Bank of Ireland seeks to enhance customer experiences and prompt rivals to accelerate their own digital transformations.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48394/bank-of-ireland-and-stripe-strike-digital-transformation-deal?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "PayPal\u2019s buyout collapse and Chime\u2019s Stride Bank acquisition highlight fintechs\u2019 strategic pivots amid Circle\u2019s Tazapay deal and Singapore\u2019s blockchain banking pilot.",
+  "perspective": "Nubank\u2019s US entry and Mastercard\u2019s stablecoin push highlight how global fintechs and incumbents are reshaping US banking and payments security.",
   "curiosity": {
-    "text": "The U.S. Federal Reserve first proposed a real-time gross settlement system in 1996, but it took 27 years before FedNow launched in 2023."
+    "text": "The first magnetic stripe credit card was introduced by IBM in 1969, revolutionizing how payment data could be stored and read electronically."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddea\ud83c\uddfa",
       "type": "fundraising",
       "company": "Chift",
-      "description": "Raised \u20ac10.5M for AI financial connectivity layer.",
+      "description": "Raised \u20ac10.5M for AI financial connectivity",
       "source_url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Cleared first hurdle for US banking license.",
-      "source_url": "https://sifted.eu/articles/revolut-us-banking-licence-2/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Euno",
+      "description": "Raised $23M for AI corporate memory",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/euno-raises-23-million-to-give-ai-agents-corporate-memory/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "regulatory",
-      "company": "Mercury",
-      "description": "Received FDIC approval for deposit insurance.",
-      "source_url": "https://www.bankingdive.com/news/mercury-gets-fdic-nod/830006/"
+      "type": "acquisition",
+      "company": "OpenAI",
+      "description": "Acquired AI camera tech company Glass Imaging",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-accelerates-device-plan-with-ai-camera-tech-acquisition/"
+    },
+    {
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "closure",
+      "company": "CoinEx",
+      "description": "Shutting down due to market slump",
+      "source_url": "https://www.theblock.co/news/business/2026-09-15-coinex-shut-down-414788"
     }
   ]
 }
