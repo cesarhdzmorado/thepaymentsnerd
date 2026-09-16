@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Nubank Launches US Deposit Account Through Sponsor Bank Partnership",
-      "body": "Nubank has introduced a US deposit account via a sponsor bank, marking its first deposit product directly available to American consumers. This expansion puts Nubank in direct competition with US neobanks and traditional banks, as it adapts its Latin American strategy for the US market. Nubank\u2019s leadership is actively recruiting US customers and working with regulators to ensure compliance as it seeks to establish a foothold outside Brazil.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48397/nubank-launches-deposit-account-in-the-us?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Mastercard Pursues Stablecoin Partnerships and Acquisitions for Payments Growth",
-      "body": "Mastercard\u2019s CFO outlined a strategy focused on building stablecoin infrastructure and acquiring complementary businesses to capture new payment flows. Mastercard is actively seeking partnerships with merchants and issuers and engaging with regulators to advance stablecoin settlement, aiming to strengthen its position against Visa and fintech competitors.",
+      "title": "Revolut Gains Colombian Bank License, Expanding Latin American Presence",
+      "body": "Revolut has secured a full banking license in Colombia, its first in Latin America and fifth globally, enabling it to offer local deposit accounts and debit cards. Colombian banks and fintechs now face a global challenger with the ability to launch multi-currency accounts and fee-free international transfers. Local players may respond by enhancing digital onboarding, increasing cashback offers, or launching new cross-border payment features to retain customers. Regulatory authorities are expected to monitor Revolut\u2019s expansion closely for compliance and market stability.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/mastercard/2026/mastercard-cfo-outlines-growth-strategy-driven-by-stablecoins-and-value-added-services/"
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/revolut-secures-sixth-global-bank-license-in-colombia/"
       }
     },
     {
-      "title": "Revolut Data Breach Raises Security Concerns After Government Email Scam",
-      "body": "Revolut reported a breach where fraudsters exploited a legitimate government email domain to access sensitive customer data. The incident exposes Revolut to increased regulatory scrutiny and could slow customer acquisition, as competitors highlight their own security measures to attract wary users.",
+      "title": "Fin.com Raises $20M to Build Cross-Border Payments Infrastructure for Fintechs",
+      "body": "Payments infrastructure startup Fin.com has emerged from stealth with $20 million in funding to streamline cross-border money movement. The company aims to undercut traditional banks and legacy PSPs by offering faster, more efficient rails for fintech partners. Early traction could force incumbents to accelerate their own infrastructure upgrades or risk losing B2B flows. New partnerships are likely as fintechs seek to embed Fin.com\u2019s capabilities.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48396/revolut-hit-by-data-breach-after-fake-government-email-scam?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding"
       }
     },
     {
-      "title": "Tabby Raises $233M, Reaches $6.5B Valuation to Accelerate Middle East BNPL Expansion",
-      "body": "Saudi-based BNPL fintech Tabby secured $233 million in new funding, raising its valuation to $6.5 billion. The investment will support product development and regional expansion, intensifying competition with other BNPL providers as Gulf consumers increasingly adopt installment payment options.",
+      "title": "Visa, Circle, and Ripple Back $10M Round for Stablecoin Platform Velocity",
+      "body": "Velocity secured $10 million in a Series A extension from Visa, Circle, and Ripple to expand its stablecoin platform. The funding signals growing institutional appetite for stablecoin-based settlement and B2B payments. Established processors and banks now face a credible new player with heavyweight backers, accelerating stablecoin adoption in mainstream finance. Velocity is expected to pursue integrations with major payment networks and enterprise treasury systems.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48395/saudi-fintech-tabby-raises-233m?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48406/circle-ripple-and-visa-join-10-funding-round-for-stablecoin-platform-velocity"
       }
     },
     {
-      "title": "Bank of Ireland Partners With Stripe to Modernize Digital Banking",
-      "body": "Bank of Ireland announced a partnership with Stripe to upgrade its digital services, aiming to set a new benchmark for Irish banking. By integrating Stripe\u2019s payments infrastructure and developer tools, Bank of Ireland seeks to enhance customer experiences and prompt rivals to accelerate their own digital transformations.",
+      "title": "UK Payments Delivery Company Seeks \u00a350M to Build Next-Gen Retail Payments Infrastructure",
+      "body": "The UK Payments Delivery Company is raising \u00a350 million to develop new retail payments infrastructure aimed at merchants and consumers. By offering faster settlement and richer transaction data, the initiative threatens the fee-based revenue and data analytics edge of incumbent processors like Worldpay and Barclaycard. Competing PSPs and banks may need to accelerate their own infrastructure investments to maintain merchant relationships. The project is likely to draw regulatory scrutiny as the UK modernizes its payments backbone.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48394/bank-of-ireland-and-stripe-strike-digital-transformation-deal?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48407/uk-payments-delivery-company-embarks-on-equity-raise-for-new-retail-infrastructure"
+      }
+    },
+    {
+      "title": "Stripe Launches Tap to Pay on Android in Six New European Countries",
+      "body": "Stripe has expanded its Tap to Pay on Android service to six additional European countries, enabling merchants to accept contactless payments directly on Android devices without extra hardware. This move increases competition for traditional POS terminal providers and could accelerate mobile-first payment adoption among small businesses. Merchants may benefit from lower upfront costs and faster onboarding as digital acceptance options proliferate.",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2024/06/10/stripe-tap-to-pay-android-europe/"
       }
     }
   ],
-  "perspective": "Nubank\u2019s US entry and Mastercard\u2019s stablecoin push highlight how global fintechs and incumbents are reshaping US banking and payments security.",
+  "perspective": "Revolut\u2019s Colombian license and Stripe\u2019s Tap to Pay expansion show global fintechs reshaping payments competition and infrastructure across Latin America and Europe.",
   "curiosity": {
-    "text": "The first magnetic stripe credit card was introduced by IBM in 1969, revolutionizing how payment data could be stored and read electronically."
+    "text": "In 1994, Stanford Federal Credit Union became the first financial institution to offer online banking to all its customers, years before most banks embraced the internet."
   },
   "whats_hot": [
+    {
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Tabby",
+      "description": "Raised $233M, valuation rises to $6.5B.",
+      "source_url": "https://www.finextra.com/newsarticle/48395/saudi-fintech-tabby-raises-233m"
+    },
     {
       "flag": "\ud83c\uddea\ud83c\uddfa",
       "type": "fundraising",
       "company": "Chift",
-      "description": "Raised \u20ac10.5M for AI financial connectivity",
-      "source_url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Raised \u20ac10.5M to build financial connectivity layer for AI era.",
+      "source_url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Euno",
-      "description": "Raised $23M for AI corporate memory",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/euno-raises-23-million-to-give-ai-agents-corporate-memory/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "acquisition",
-      "company": "OpenAI",
-      "description": "Acquired AI camera tech company Glass Imaging",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-accelerates-device-plan-with-ai-camera-tech-acquisition/"
-    },
-    {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "closure",
-      "company": "CoinEx",
-      "description": "Shutting down due to market slump",
-      "source_url": "https://www.theblock.co/news/business/2026-09-15-coinex-shut-down-414788"
+      "type": "M&A",
+      "company": "Enova",
+      "description": "Scraps acquisition of Grasshopper Bank due to political pressure.",
+      "source_url": "https://www.bankingdive.com/news/enova-withdraw-application-acquire-grasshopper-bank-occ-fed/830423/"
     }
   ]
 }
