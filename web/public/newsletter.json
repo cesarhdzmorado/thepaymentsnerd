@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Revolut Gains Colombian Bank License, Expanding Latin American Presence",
-      "body": "Revolut has secured a full banking license in Colombia, its first in Latin America and fifth globally, enabling it to offer local deposit accounts and debit cards. Colombian banks and fintechs now face a global challenger with the ability to launch multi-currency accounts and fee-free international transfers. Local players may respond by enhancing digital onboarding, increasing cashback offers, or launching new cross-border payment features to retain customers. Regulatory authorities are expected to monitor Revolut\u2019s expansion closely for compliance and market stability.",
+      "title": "Grab to Acquire 60% of Atome for $1.49B, Intensifying APAC BNPL Race",
+      "body": "Grab has agreed to acquire a 60% stake in Atome Financial, a leading APAC BNPL platform, for $1.49 billion in cash. This deal strengthens Grab\u2019s position in Southeast Asian financial services and increases competition for regional BNPL providers and fintechs. Consumers and retailers can expect more integrated payment options and targeted incentives as Grab combines Atome\u2019s BNPL capabilities with its super-app ecosystem. Afterpay, Klarna, and local BNPL firms are likely to respond with new partnerships or product enhancements to defend market share.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48422/grab-agrees-149bn-deal-to-buy-majority-stake-in-apac-bnpl-platform-atome?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Circle Launches Arc Mainnet, Aiming for Real-Time Settlement in Financial Markets",
+      "body": "Circle has launched Arc Mainnet, an open Layer-1 blockchain network designed for financial markets and real-time money movement. By offering programmable money and cross-border settlement, Circle directly challenges established blockchain infrastructure providers. Payment processors and banks now have a new option for building tokenized settlement solutions, with Arc\u2019s success hinging on whether major financial institutions adopt its rails for large-scale transactions.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48419/circle-launches-arc-mainnet?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "American Express Unveils 2.95% APY Business Savings, Raising Stakes for SME Banking",
+      "body": "American Express has introduced a high-yield Business Savings account with a 2.95% APY and no minimum balance, targeting small and midsize enterprises. This move intensifies competition for SME deposits, prompting incumbent banks and fintechs to reassess their own business savings products. SMEs now have greater incentive to switch providers for higher yields and improved digital experiences, likely triggering a round of rate increases and feature enhancements from competitors.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/bank-regulation/2026/revolut-secures-sixth-global-bank-license-in-colombia/"
+        "url": "https://www.pymnts.com/news/banking/2026/american-express-escalates-business-banking-war-with-high-yield-savings-launch/"
       }
     },
     {
-      "title": "Fin.com Raises $20M to Build Cross-Border Payments Infrastructure for Fintechs",
-      "body": "Payments infrastructure startup Fin.com has emerged from stealth with $20 million in funding to streamline cross-border money movement. The company aims to undercut traditional banks and legacy PSPs by offering faster, more efficient rails for fintech partners. Early traction could force incumbents to accelerate their own infrastructure upgrades or risk losing B2B flows. New partnerships are likely as fintechs seek to embed Fin.com\u2019s capabilities.",
+      "title": "Deutsche Bank Prepares Digital Asset Custody Service for Institutional Clients",
+      "body": "Deutsche Bank is set to launch its digital asset custody business, initially supporting bitcoin, ether, and select stablecoins. This entry brings a major global bank into direct competition with crypto-native custodians and appeals to institutions seeking regulated, secure storage. Asset managers and corporates gain a new compliant custody option, and the launch will reveal whether traditional banks can earn institutional trust in digital asset infrastructure.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding"
+        "url": "https://www.finextra.com/newsarticle/48417/deutsche-bank-prepares-for-go-live-of-digital-asset-custody?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa, Circle, and Ripple Back $10M Round for Stablecoin Platform Velocity",
-      "body": "Velocity secured $10 million in a Series A extension from Visa, Circle, and Ripple to expand its stablecoin platform. The funding signals growing institutional appetite for stablecoin-based settlement and B2B payments. Established processors and banks now face a credible new player with heavyweight backers, accelerating stablecoin adoption in mainstream finance. Velocity is expected to pursue integrations with major payment networks and enterprise treasury systems.",
+      "title": "House Committee Advances Digital Asset Tax Bill, Clarifying US Crypto Rules",
+      "body": "The House Ways and Means Committee has advanced the Digital Asset Tax Certainty Act, which sets clear tax guidelines for crypto and treats digital assets like other financial instruments. By reducing regulatory ambiguity, the bill could encourage more institutional investment from US asset managers and exchanges. If enacted, the legislation may prompt other countries to pursue similar tax clarity, influencing how banks and fintechs structure crypto offerings for US clients.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48406/circle-ripple-and-visa-join-10-funding-round-for-stablecoin-platform-velocity"
-      }
-    },
-    {
-      "title": "UK Payments Delivery Company Seeks \u00a350M to Build Next-Gen Retail Payments Infrastructure",
-      "body": "The UK Payments Delivery Company is raising \u00a350 million to develop new retail payments infrastructure aimed at merchants and consumers. By offering faster settlement and richer transaction data, the initiative threatens the fee-based revenue and data analytics edge of incumbent processors like Worldpay and Barclaycard. Competing PSPs and banks may need to accelerate their own infrastructure investments to maintain merchant relationships. The project is likely to draw regulatory scrutiny as the UK modernizes its payments backbone.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48407/uk-payments-delivery-company-embarks-on-equity-raise-for-new-retail-infrastructure"
-      }
-    },
-    {
-      "title": "Stripe Launches Tap to Pay on Android in Six New European Countries",
-      "body": "Stripe has expanded its Tap to Pay on Android service to six additional European countries, enabling merchants to accept contactless payments directly on Android devices without extra hardware. This move increases competition for traditional POS terminal providers and could accelerate mobile-first payment adoption among small businesses. Merchants may benefit from lower upfront costs and faster onboarding as digital acceptance options proliferate.",
-      "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2024/06/10/stripe-tap-to-pay-android-europe/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/house-committee-advances-first-ever-crypto-tax-bill/"
       }
     }
   ],
-  "perspective": "Revolut\u2019s Colombian license and Stripe\u2019s Tap to Pay expansion show global fintechs reshaping payments competition and infrastructure across Latin America and Europe.",
+  "perspective": "Grab\u2019s Atome acquisition and Circle\u2019s Arc Mainnet launch highlight escalating competition among fintechs and blockchain providers in APAC and global markets.",
   "curiosity": {
-    "text": "In 1994, Stanford Federal Credit Union became the first financial institution to offer online banking to all its customers, years before most banks embraced the internet."
+    "text": "The first use of a mobile phone for a financial transaction occurred in 1997 when a Finnish teenager used a Nokia device to send money to a friend via SMS, marking a pivotal moment in the evolution of mobile payments."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf8\ud83c\udde6",
-      "type": "fundraising",
-      "company": "Tabby",
-      "description": "Raised $233M, valuation rises to $6.5B.",
-      "source_url": "https://www.finextra.com/newsarticle/48395/saudi-fintech-tabby-raises-233m"
-    },
-    {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "Chift",
-      "description": "Raised \u20ac10.5M to build financial connectivity layer for AI era.",
-      "source_url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Enova",
-      "description": "Scraps acquisition of Grasshopper Bank due to political pressure.",
-      "source_url": "https://www.bankingdive.com/news/enova-withdraw-application-acquire-grasshopper-bank-occ-fed/830423/"
+      "type": "fundraising",
+      "company": "Fin.com",
+      "description": "Emerges from stealth with $20M funding for payments infrastructure.",
+      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Quartz",
+      "description": "Raises \u00a32.7M to launch wealth management app.",
+      "source_url": "https://www.finextra.com/newsarticle/48415/former-revolut-and-n26-alumni-raise-27-million-to-launch-wealth-management-app?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Velocity",
+      "description": "Raises $10M in Series A extension with Circle and Visa.",
+      "source_url": "https://www.finextra.com/newsarticle/48406/circle-ripple-and-visa-join-10-million-funding-round-for-stablecoin-platform-velocity?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Integral",
+      "description": "Secures \u20ac18M for SME accounting and payroll services.",
+      "source_url": "https://www.finextra.com/newsarticle/48412/integral-raises-18-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udded",
+      "type": "fundraising",
+      "company": "ETFBook",
+      "description": "Raises $13M for US and APAC expansion.",
+      "source_url": "https://www.finextra.com/newsarticle/48410/etfbook-raises-13m-for-us-and-apac-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
