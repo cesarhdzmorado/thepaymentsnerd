@@ -1,85 +1,71 @@
 {
   "news": [
     {
-      "title": "Grab to Acquire 60% of Atome for $1.49B, Intensifying APAC BNPL Race",
-      "body": "Grab has agreed to acquire a 60% stake in Atome Financial, a leading APAC BNPL platform, for $1.49 billion in cash. This deal strengthens Grab\u2019s position in Southeast Asian financial services and increases competition for regional BNPL providers and fintechs. Consumers and retailers can expect more integrated payment options and targeted incentives as Grab combines Atome\u2019s BNPL capabilities with its super-app ecosystem. Afterpay, Klarna, and local BNPL firms are likely to respond with new partnerships or product enhancements to defend market share.",
+      "title": "Nubank Launches Multicurrency Digital Account in US, Partners with Local Bank",
+      "body": "Nubank has launched a multicurrency digital account for US customers through a partnership with a US-based bank, enabling cross-border transactions without requiring its own OCC charter. The offering puts Nubank in direct competition with Chime, SoFi, and JPMorgan Chase, targeting users seeking low-cost international transfers. Nubank\u2019s entry could pressure established US banks and neobanks to enhance their cross-border features.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48422/grab-agrees-149bn-deal-to-buy-majority-stake-in-apac-bnpl-platform-atome?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/nubank-us-launch-multicurrency-account-bank-partner-occ-charter-application/830583/"
       }
     },
     {
-      "title": "Circle Launches Arc Mainnet, Aiming for Real-Time Settlement in Financial Markets",
-      "body": "Circle has launched Arc Mainnet, an open Layer-1 blockchain network designed for financial markets and real-time money movement. By offering programmable money and cross-border settlement, Circle directly challenges established blockchain infrastructure providers. Payment processors and banks now have a new option for building tokenized settlement solutions, with Arc\u2019s success hinging on whether major financial institutions adopt its rails for large-scale transactions.",
+      "title": "Revolut Considers Dual Listing in New York and London to Attract Global Investors",
+      "body": "Revolut is exploring a dual public listing in New York and London, aiming to broaden its investor base and increase global visibility. This move may prompt fintechs like Monzo and N26 to evaluate similar strategies as public market access becomes more critical for growth. Regulatory and compliance demands will intensify as fintechs pursue listings in multiple jurisdictions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48419/circle-launches-arc-mainnet?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48425/revolut-exploring-dual-new-york-and-london-listing---storonsky"
       }
     },
     {
-      "title": "American Express Unveils 2.95% APY Business Savings, Raising Stakes for SME Banking",
-      "body": "American Express has introduced a high-yield Business Savings account with a 2.95% APY and no minimum balance, targeting small and midsize enterprises. This move intensifies competition for SME deposits, prompting incumbent banks and fintechs to reassess their own business savings products. SMEs now have greater incentive to switch providers for higher yields and improved digital experiences, likely triggering a round of rate increases and feature enhancements from competitors.",
+      "title": "Citi Rolls Out Mastercard Smart Subscriptions in UAE, Raising Stakes for Local Banks",
+      "body": "Citi has introduced Mastercard's Smart Subscriptions tool in the UAE, marking its first global deployment and giving Citi a head start in the region\u2019s subscription payments market. Local banks such as Emirates NBD and Mashreq Bank may need to accelerate their digital subscription offerings to remain competitive. Subscription-based merchants in the UAE gain new tools for payment management and customer retention.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/american-express-escalates-business-banking-war-with-high-yield-savings-launch/"
+        "url": "https://www.pymnts.com/mastercard/2026/citi-launches-mastercard-subscription-management-tool-in-uae/"
       }
     },
     {
-      "title": "Deutsche Bank Prepares Digital Asset Custody Service for Institutional Clients",
-      "body": "Deutsche Bank is set to launch its digital asset custody business, initially supporting bitcoin, ether, and select stablecoins. This entry brings a major global bank into direct competition with crypto-native custodians and appeals to institutions seeking regulated, secure storage. Asset managers and corporates gain a new compliant custody option, and the launch will reveal whether traditional banks can earn institutional trust in digital asset infrastructure.",
+      "title": "dtcpay Raises $25M Series A from SBI Group to Expand Stablecoin Payments",
+      "body": "dtcpay has secured $25 million in Series A funding led by SBI Group to grow its stablecoin payments platform for merchants and cross-border settlements. The funding enables dtcpay to expand in Asia and Europe, while merchant acquirers and payment processors may accelerate stablecoin integrations to keep pace. Regulatory agencies in these regions are likely to review oversight frameworks in response to increased stablecoin activity.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48417/deutsche-bank-prepares-for-go-live-of-digital-asset-custody?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483"
       }
     },
     {
-      "title": "House Committee Advances Digital Asset Tax Bill, Clarifying US Crypto Rules",
-      "body": "The House Ways and Means Committee has advanced the Digital Asset Tax Certainty Act, which sets clear tax guidelines for crypto and treats digital assets like other financial instruments. By reducing regulatory ambiguity, the bill could encourage more institutional investment from US asset managers and exchanges. If enacted, the legislation may prompt other countries to pursue similar tax clarity, influencing how banks and fintechs structure crypto offerings for US clients.",
+      "title": "S&P Global Acquires OpenZeppelin to Strengthen Blockchain Security Offerings",
+      "body": "S&P Global has agreed to acquire OpenZeppelin, a blockchain security firm, to enhance its onchain risk management capabilities. This acquisition reflects growing institutional demand for secure blockchain infrastructure and may lead data providers like Moody\u2019s and Fitch to pursue similar deals. Financial institutions adopting blockchain-based payments could face higher security expectations as a result.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/house-committee-advances-first-ever-crypto-tax-bill/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-17-sp-global-agrees-to-acquire-openzeppelin-in-onchain-security-push-415360"
       }
     }
   ],
-  "perspective": "Grab\u2019s Atome acquisition and Circle\u2019s Arc Mainnet launch highlight escalating competition among fintechs and blockchain providers in APAC and global markets.",
+  "perspective": "Nubank\u2019s US launch and S&P Global\u2019s OpenZeppelin acquisition show global players targeting cross-border payments and blockchain security in competitive markets.",
   "curiosity": {
-    "text": "The first use of a mobile phone for a financial transaction occurred in 1997 when a Finnish teenager used a Nokia device to send money to a friend via SMS, marking a pivotal moment in the evolution of mobile payments."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how payment data could be stored and read electronically at the point of sale."
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "type": "M&A",
+      "company": "Grab",
+      "description": "Acquires 60% stake in BNPL platform Atome for $1.49B.",
+      "source_url": "https://www.finextra.com/newsarticle/48422/grab-agrees-149bn-deal-to-buy-majority-stake-in-apac-bnpl-platform-atome"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Portage",
+      "description": "Closes US$600M fintech fund.",
+      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Fin.com",
-      "description": "Emerges from stealth with $20M funding for payments infrastructure.",
-      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Quartz",
-      "description": "Raises \u00a32.7M to launch wealth management app.",
-      "source_url": "https://www.finextra.com/newsarticle/48415/former-revolut-and-n26-alumni-raise-27-million-to-launch-wealth-management-app?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Velocity",
-      "description": "Raises $10M in Series A extension with Circle and Visa.",
-      "source_url": "https://www.finextra.com/newsarticle/48406/circle-ripple-and-visa-join-10-million-funding-round-for-stablecoin-platform-velocity?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Integral",
-      "description": "Secures \u20ac18M for SME accounting and payroll services.",
-      "source_url": "https://www.finextra.com/newsarticle/48412/integral-raises-18-million?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udded",
-      "type": "fundraising",
-      "company": "ETFBook",
-      "description": "Raises $13M for US and APAC expansion.",
-      "source_url": "https://www.finextra.com/newsarticle/48410/etfbook-raises-13m-for-us-and-apac-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "product",
+      "company": "Circle",
+      "description": "Launches Arc Mainnet for financial markets.",
+      "source_url": "https://www.finextra.com/newsarticle/48419/circle-launches-arc-mainnet"
     }
   ]
 }
