@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Nubank Launches Multicurrency Digital Account in US, Partners with Local Bank",
-      "body": "Nubank has launched a multicurrency digital account for US customers through a partnership with a US-based bank, enabling cross-border transactions without requiring its own OCC charter. The offering puts Nubank in direct competition with Chime, SoFi, and JPMorgan Chase, targeting users seeking low-cost international transfers. Nubank\u2019s entry could pressure established US banks and neobanks to enhance their cross-border features.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/nubank-us-launch-multicurrency-account-bank-partner-occ-charter-application/830583/"
-      }
-    },
-    {
-      "title": "Revolut Considers Dual Listing in New York and London to Attract Global Investors",
-      "body": "Revolut is exploring a dual public listing in New York and London, aiming to broaden its investor base and increase global visibility. This move may prompt fintechs like Monzo and N26 to evaluate similar strategies as public market access becomes more critical for growth. Regulatory and compliance demands will intensify as fintechs pursue listings in multiple jurisdictions.",
+      "title": "SEC Approves Tokenized Stock Trading, Opening Blockchain Rails to Traditional Markets",
+      "body": "The SEC has authorized trading of tokenized stocks, allowing blockchain-based representations of equities to be bought and sold on regulated platforms. This enables exchanges and fintechs to offer fractionalized, programmable stock access, challenging legacy brokers and broadening investor participation. Trading platforms must now adapt to new compliance and custody models for digital assets, with both retail and institutional investors gaining new ways to access equities.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48425/revolut-exploring-dual-new-york-and-london-listing---storonsky"
+        "url": "https://www.finextra.com/newsarticle/48432/sec-clears-way-for-tokenised-stock-trading?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Citi Rolls Out Mastercard Smart Subscriptions in UAE, Raising Stakes for Local Banks",
-      "body": "Citi has introduced Mastercard's Smart Subscriptions tool in the UAE, marking its first global deployment and giving Citi a head start in the region\u2019s subscription payments market. Local banks such as Emirates NBD and Mashreq Bank may need to accelerate their digital subscription offerings to remain competitive. Subscription-based merchants in the UAE gain new tools for payment management and customer retention.",
+      "title": "Stripe Integrates Meta and xAI Agents Into Link Wallet for Agentic Commerce",
+      "body": "Stripe has upgraded its Link digital wallet to support AI agents from Meta and xAI, enabling automated checkout and payment flows. Competing wallets like PayPal and Apple Pay now face a new standard for embedded intelligence and user experience. Merchants using Stripe can tap into agent-driven commerce, potentially reducing cart abandonment and boosting conversion. Rival payment providers may need to accelerate their own AI-powered features to retain merchants and meet rising consumer expectations for seamless, intelligent checkout.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/stripes-digital-wallet-paypal-embraces-ai-bots-agentic-commerce/830792/"
+      }
+    },
+    {
+      "title": "Avant Files for National Bank Charter, Targeting Direct Banking Expansion",
+      "body": "Avant has applied to the OCC and FDIC to launch Avant Bank, N.A., aiming to offer insured deposit accounts and lending directly to consumers. This move would allow Avant to expand beyond unsecured loans into deposits, credit cards, and embedded finance products, operating under its own charter rather than relying on partner banks. If approved, Avant could compete more directly with both fintechs and traditional banks on the range of financial products and regulatory compliance. Other digital lenders may pursue similar charters as regulatory harmonization becomes essential.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/mastercard/2026/citi-launches-mastercard-subscription-management-tool-in-uae/"
+        "url": "https://www.pymnts.com/news/banking/2026/avant-seeks-national-bank-charter-serve-customers-directly/"
       }
     },
     {
-      "title": "dtcpay Raises $25M Series A from SBI Group to Expand Stablecoin Payments",
-      "body": "dtcpay has secured $25 million in Series A funding led by SBI Group to grow its stablecoin payments platform for merchants and cross-border settlements. The funding enables dtcpay to expand in Asia and Europe, while merchant acquirers and payment processors may accelerate stablecoin integrations to keep pace. Regulatory agencies in these regions are likely to review oversight frameworks in response to increased stablecoin activity.",
+      "title": "ECB President Lagarde Blocks Binance\u2019s MiCA License, Raising Bar for EU Crypto Exchanges",
+      "body": "ECB chief Christine Lagarde intervened to prevent Binance from obtaining a Markets in Crypto-Assets (MiCA) license in Greece, signaling tougher scrutiny for crypto exchanges in the EU. Binance and similar platforms now face higher regulatory barriers, while smaller or compliant competitors may gain market share. Crypto firms seeking EU access must prepare for more direct oversight from central authorities. The episode underscores the EU\u2019s intent to enforce MiCA rigorously as stablecoins and tokenized assets go mainstream.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48434/ecb-chief-lagarde-helped-block-binances-mica-license---wsj?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "S&P Global Acquires OpenZeppelin to Strengthen Blockchain Security Offerings",
-      "body": "S&P Global has agreed to acquire OpenZeppelin, a blockchain security firm, to enhance its onchain risk management capabilities. This acquisition reflects growing institutional demand for secure blockchain infrastructure and may lead data providers like Moody\u2019s and Fitch to pursue similar deals. Financial institutions adopting blockchain-based payments could face higher security expectations as a result.",
+      "title": "CFTC Proposes New Crypto Market Rules After Congressional Stalemate",
+      "body": "The CFTC has advanced a proposal to regulate crypto asset transactions and markets, moving independently after the Clarity Act stalled in Congress. This initiative could bring greater legal certainty for US crypto exchanges and institutional investors, but also raises compliance costs and reporting requirements. Market participants must now track both CFTC and SEC rulemaking, as overlapping requirements for registration, reporting, and consumer protection create a complex regulatory landscape for US-based crypto firms.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-17-sp-global-agrees-to-acquire-openzeppelin-in-onchain-security-push-415360"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/cftc-files-crypto-regulation-proposal-after-clarity-act-fails/"
       }
     }
   ],
-  "perspective": "Nubank\u2019s US launch and S&P Global\u2019s OpenZeppelin acquisition show global players targeting cross-border payments and blockchain security in competitive markets.",
+  "perspective": "SEC tokenized stock approval and ECB\u2019s Binance decision highlight how regulators are reshaping access and compliance for digital assets and payments.",
   "curiosity": {
-    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how payment data could be stored and read electronically at the point of sale."
+    "text": "The first regulated tokenized stock trades in the US will require both blockchain and traditional clearing systems to work together, creating new operational challenges for exchanges."
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Ryft",
+      "description": "Raised \u00a320M for European expansion",
+      "source_url": "https://www.finextra.com/newsarticle/48426/uk-payments-firm-ryft-raises-20m-for-european-push?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
       "flag": "\ud83c\uddf8\ud83c\uddec",
-      "type": "M&A",
-      "company": "Grab",
-      "description": "Acquires 60% stake in BNPL platform Atome for $1.49B.",
-      "source_url": "https://www.finextra.com/newsarticle/48422/grab-agrees-149bn-deal-to-buy-majority-stake-in-apac-bnpl-platform-atome"
+      "type": "fundraising",
+      "company": "dtcpay",
+      "description": "Closed $25M Series A with SBI Group investment",
+      "source_url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483"
     },
     {
       "flag": "\ud83c\udde8\ud83c\udde6",
       "type": "fundraising",
       "company": "Portage",
-      "description": "Closes US$600M fintech fund.",
+      "description": "Closed $600M fintech fund",
       "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Skalar",
+      "description": "Emerged from stealth with $125M in committed deployments",
+      "source_url": "https://www.finextra.com/pressarticle/110953/latin-american-fintech-skalar-emerges-from-stealth?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Circle",
-      "description": "Launches Arc Mainnet for financial markets.",
-      "source_url": "https://www.finextra.com/newsarticle/48419/circle-launches-arc-mainnet"
+      "type": "M&A",
+      "company": "Envestnet",
+      "description": "To acquire portfolio management tech firm Vestmark",
+      "source_url": "https://www.finextra.com/newsarticle/48423/wealthtech-platform-envestnet-to-acquire-vestmark?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
