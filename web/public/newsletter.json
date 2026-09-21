@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Ex-PayPal CEO Launches Evergreen.ai to Deliver Scalable AI-Driven Financial Advice",
-      "body": "Former PayPal CEO Bill Harris has launched Evergreen.ai, an app that uses AI to provide personalized financial advice to consumers. Harris directly challenges both traditional financial advisors and fintechs by offering scalable, automated guidance at lower cost. Banks and fintechs may need to accelerate their own AI deployments or risk losing relevance in the personal finance space. The launch tests whether consumers will trust AI for complex financial decisions.",
+      "title": "OCC Approves Three New Trust Banks to Operate With Stablecoins and AI Agents",
+      "body": "The Office of the Comptroller of the Currency granted conditional approvals to Agora National Trust Bank, Catena Trust Bank, and Jiko Bank to operate as national trust banks with stablecoin and AI agent capabilities. These approvals allow the new banks to offer programmable money and AI-driven services, prompting traditional banks to accelerate their own digital product development to remain competitive against these tech-forward, regulator-backed entrants.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48428/ex-paypal-ceo-harris-unveils-ai-powered-personal-finance-app"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/occ-opens-three-bank-doors-to-stablecoins-and-ai-agents/"
       }
     },
     {
-      "title": "HitPay Rolls Out CFO Stack to Streamline SME Payments and Finance in Southeast Asia",
-      "body": "HitPay has introduced the CFO Stack, a suite of finance tools aimed at simplifying payment operations for SMEs across Southeast Asia. HitPay strengthens its position against other SME-focused fintechs by bundling payments, accounting, and cash flow management. Competing providers may need to match integrated offerings or risk losing SME market share. The move signals rising demand for all-in-one financial platforms among regional businesses.",
+      "title": "SBI Group Invests $25M in dtcpay to Expand Stablecoin Payments in Asia",
+      "body": "SBI Group joined a $25 million Series A funding round for Singapore-based dtcpay, a stablecoin payments provider. With this new capital, dtcpay plans to rapidly launch new products and onboard more merchants across Asia, intensifying competition for regional payment networks and prompting rivals to pursue similar expansion strategies.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110947/hitpay-launches-cfo-stack-to-simplify-sme-finance-operations"
+        "url": "https://www.finextra.com/newsarticle/48435/sbi-group-joins-25m-funding-round-for-dtcpay?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Riverty Opens Luxembourg Bank, Expanding Its European Financial Services Footprint",
-      "body": "Riverty has launched Riverty Bank S.A. in Luxembourg, marking a major step in its European expansion strategy. Riverty increases competition for both traditional banks and fintechs in the region, especially as more fintechs seek full banking licenses. Riverty\u2019s move may prompt rivals to accelerate their own licensing and cross-border growth plans. The Luxembourg launch tests whether fintechs can scale regulated banking services across Europe.",
+      "title": "Ant International Unveils AI-Native Stack for Payments, FX, and Treasury",
+      "body": "Ant International launched a comprehensive AI-native product suite covering payments, account management, FX, treasury, and growth operations. This rollout gives Ant a technological edge and sets a new bar for automation and intelligence in financial operations. Competing PSPs and banks will need to accelerate their own AI deployments or risk falling behind on efficiency and customer experience. The move signals a global race to embed AI deeper into core financial infrastructure.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110949/riverty-opens-bank-in-luxembourg"
+        "url": "https://www.finextra.com/newsarticle/48436/ant-international-launches-financial-ai-stack?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Sync Savings Secures Funding to Expand UK Payroll Savings Platform",
-      "body": "Sync Savings, a UK payroll savings fintech founded by ex-Monzo executives, has completed a funding round led by prominent female investors. The capital will support product expansion and intensify competition with established payroll and workplace savings providers. Lead investors highlight growing interest in payroll-linked savings as a differentiator in employee benefits. More fintechs may target this segment as employers seek new ways to boost financial wellness.",
+      "title": "Saudi Arabia Withdraws From China\u2019s mBridge Cross-Border Payments Program",
+      "body": "Saudi Arabia exited China's mBridge digital currency and cross-border payments initiative, citing concerns over bypassing dollar-based systems like Swift. The withdrawal undermines mBridge\u2019s credibility and may prompt other participating countries to reconsider their involvement, potentially slowing the project's expansion and increasing pressure on China to address compliance with global standards.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48429/ex-monzo-execs-sync-savings-completes-funding-round"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/saudi-arabia-exits-chinas-mbridge-cross-border-payments-program/"
       }
     },
     {
-      "title": "Visa to Shut Down Crossmint Memecoin Rewards Loophole After Compliance Review",
-      "body": "Visa will close a loophole in Crossmint\u2019s memecoin rewards program following an investigation by The Block. Visa strengthens its compliance posture and may force Crossmint to rethink its user engagement tactics. Other payment providers with crypto-linked rewards may now audit their own programs to avoid regulatory scrutiny. The episode underscores the tightening oversight of crypto incentives in mainstream payments.",
+      "title": "Polymarket Faces Compliance Allegations Amid Growth Push",
+      "body": "Polymarket is under fire for alleged compliance failures and legal risks as it prioritizes rapid growth, according to a Wall Street Journal report. The controversy threatens Polymarket\u2019s reputation and could drive users to competitors with stronger regulatory track records. Prediction market operators now face heightened scrutiny and may see rising compliance costs as regulators respond. The episode highlights the growing importance of robust compliance in crypto-adjacent financial products.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-09-19-visa-to-close-crossmint-memecoin-rewards-loophole-following-the-block-investigation-report-415866"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/economy/markets/2026/polymarket-accused-of-ignoring-fraud-in-pursuit-of-growth/"
       }
     }
   ],
-  "perspective": "Visa\u2019s crypto compliance action and Riverty\u2019s Luxembourg launch show how regulation and licensing are shaping fintech competition.",
+  "perspective": "OCC trust bank approvals and Saudi Arabia\u2019s mBridge exit signal pivotal shifts for Jiko Bank and China\u2019s cross-border payment ambitions.",
   "curiosity": {
-    "text": "In 2023, the UK saw a 30% rise in businesses offering payroll-linked savings, reflecting a shift toward embedding financial wellness tools directly into employee compensation."
+    "text": "A lesser-known effect of the Dodd-Frank Act\u2019s debit card rules: some small banks and credit unions were exempt from the interchange cap, creating a two-tier fee structure."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "flag": "\ud83c\udde8\ud83c\udde6",
       "type": "fundraising",
-      "company": "Skalar",
-      "description": "Emerged from stealth with $125M in committed deployments.",
-      "source_url": "https://www.finextra.com/pressarticle/110953/latin-american-fintech-skalar-emerges-from-stealth"
+      "company": "Portage",
+      "description": "Closes $600M fund for fintech investments.",
+      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Temporal Technologies",
-      "description": "Raised $550M for AI infrastructure.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
+      "company": "Fin.com",
+      "description": "Emerges from stealth with $20M funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "fundraising",
+      "company": "Chift",
+      "description": "Raises \u20ac10.5M for AI financial connectivity layer.",
+      "source_url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Impulse Space",
-      "description": "Secured $308M for space vehicle development.",
-      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Closed $95M fund for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Rillet",
+      "description": "Raises $100M Series C at $1B valuation for AI ERP.",
+      "source_url": "https://www.finextra.com/pressarticle/110702/ai-erp-platform-rillet-raises-100m-series-c-at-1bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
