@@ -1,92 +1,78 @@
 {
   "news": [
     {
-      "title": "ECB\u2019s Pontes Brings Central Bank Money Settlement to Tokenized Asset Markets",
-      "body": "The European Central Bank has launched Pontes, enabling wholesale transactions in tokenized assets to settle using central bank money. This gives banks and financial institutions a direct bridge between digital asset rails and traditional euro liquidity. Major banks can now participate in tokenized finance with regulatory backing, while fintechs must meet stricter compliance and integration requirements. Expect large European banks to pilot tokenized bond issuances and for the ECB to clarify supervisory expectations for digital asset settlement in the coming months.",
+      "title": "SoFi Bank and Mastercard Move $25B Card Program to Stablecoin Settlement",
+      "body": "SoFi Bank has partnered with Mastercard to settle its entire card program\u2014over $25 billion annually\u2014on blockchain rails using SoFiUSD stablecoin. This makes SoFi the first major US bank to fully migrate card settlement to a proprietary stablecoin, leapfrogging peers in blockchain adoption. Other banks and card issuers now face direct competitive pressure to modernize settlement infrastructure or risk falling behind on speed and cost.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48439/eurosystem-brings-central-bank-money-to-tokenised-finance"
+        "url": "https://www.finextra.com/newsarticle/48453/sofi-bank-goes-live-with-stablecoin-settlement-across-mastercard-network?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Paymob Raises $35 Million to Expand Digital Payments Across MENA Region",
-      "body": "Egypt\u2019s Paymob secured $35 million in pre-Series C funding from Mubadala and the EBRD to scale its digital payment solutions. The capital will support launches in Pakistan and the Gulf, and expand Paymob\u2019s merchant services. Regional banks and fintechs such as Fawry and Network International may seek alliances or acquisitions to defend market share as Paymob accelerates its rollout of new payment acceptance products for SMEs.",
+      "title": "Canadian Banks Unite to Build Tokenized Deposit System for Programmable Payments",
+      "body": "Canada\u2019s largest banks are collaborating on a tokenized Canadian dollar deposit platform to enable programmable payments and faster settlement. By jointly developing shared standards and interoperability for tokenized deposits, Canadian banks could provide a blueprint for other G7 countries seeking to modernize digital money infrastructure. If successful, programmable deposits could become a new baseline for digital banking and B2B payments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48438/paymob-garners-35-million-in-pre-series-c"
+        "url": "https://www.finextra.com/newsarticle/48456/canadian-banks-join-forces-on-tokenised-deposits?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Amazon Blocks Meta\u2019s Muse AI Agent From Making Purchases on Its Platform",
-      "body": "Amazon has barred Meta\u2019s Muse AI agent from transacting on its marketplace, citing concerns over third-party agents executing purchases for customers. This move blocks Meta\u2019s AI from a major commerce channel and signals a contest over who controls the consumer checkout experience. Merchants and fintechs integrating with Amazon or Meta must now reassess their risk exposure as platform owners tighten access. Regulatory attention and industry standards for AI agent commerce are likely to follow.",
+      "title": "Airtel Money Targets $800M in London IPO to Fund African Payments Expansion",
+      "body": "Airtel Money plans to raise at least $800 million in a London IPO, seeking a valuation between $8 billion and $9 billion. The listing would give Airtel Money fresh capital to expand its mobile payments footprint across Africa and beyond, intensifying competition with regional fintechs and global PSPs. Success could open the door for more African fintechs to pursue international public listings.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48444/amazon-blocks-metas-muse-agent"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/62a6939f-7e24-492e-bdf6-b9ab9e1d3578?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
       }
     },
     {
-      "title": "Danske Bank and Mastercard Complete First AI Agent-Powered Payment Transaction",
-      "body": "Danske Bank and Mastercard executed a live transaction using an AI agent to handle both purchase and payment on behalf of a consumer. This marks a shift from pilot projects to operational AI-driven payments by banks and card networks. Competing banks and PSPs now face a new benchmark for digital experience, while regulators will examine agent-driven transactions for compliance and security. More European banks are expected to announce AI-powered payment flows as adoption and regulatory guidance increase.",
+      "title": "Binance Invests $100M in Circle, Extends USDC Partnership for Five Years",
+      "body": "Binance has acquired a $100 million stake in Circle and renewed its USDC partnership through 2031, aiming to boost USDC adoption on its exchange. This move strengthens Binance\u2019s stablecoin strategy and positions USDC as a more prominent alternative to Tether within Binance\u2019s ecosystem. Competing stablecoins and exchanges are expected to respond by increasing USDC trading pairs or offering enhanced incentives to retain users.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/110960/danske-bank-performs-ai-agent-transaction-with-mastercard"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
       }
     },
     {
-      "title": "ISO 42001 Adoption Grows as Payments Industry Seeks AI Governance Clarity",
-      "body": "ISO/IEC 42001, published in late 2023, is being referenced by a growing number of payments firms and AI developers as a framework for managing AI systems. While adoption is still in early stages, some major PSPs and banks are beginning to cite the standard in compliance disclosures and AI product documentation. The standard\u2019s uptake signals a move toward more transparent and auditable AI governance as regulators and enterprise clients demand clearer risk management.",
+      "title": "Deutsche Bank Deploys AI to Boost KYC Onboarding Efficiency by 30%",
+      "body": "Deutsche Bank has rolled out an AI-powered solution for Know Your Customer (KYC) checks, reporting a 30% improvement in client onboarding speed. This gives Deutsche Bank a measurable edge in compliance and customer experience, prompting rivals to accelerate AI adoption or risk losing lucrative corporate clients to faster onboarding processes.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/iso-42001-may-become-payments-ai-governance-benchmark/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48452/deutsche-bank-estimates-30-uplift-in-client-onboarding-by-deploying-kyc-ai?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Amazon\u2019s block of Meta\u2019s AI agent and Danske Bank\u2019s AI-powered payment highlight how banks and platforms are reshaping digital commerce and AI integration.",
+  "perspective": "SoFi Bank and Binance moves show banks and exchanges are accelerating blockchain and programmable money adoption in mainstream payments.",
   "curiosity": {
-    "text": "The first EMV chip card payment occurred in France in 1992, decades before global adoption, illustrating how payments innovation often starts locally before scaling worldwide."
+    "text": "The first electronic data interchange (EDI) payment in 1983 replaced paper checks, marking a pivotal shift toward automated, digital business payments decades before APIs or blockchain."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "flag": "\ud83c\uddea\ud83c\uddec",
       "type": "fundraising",
-      "company": "dtcpay",
-      "description": "Raised $25 million in Series A funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48435/sbi-group-joins-25m-funding-round-for-dtcpay"
+      "company": "Paymob",
+      "description": "Raised $35 million in pre-Series C funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48438/paymob-garners-35-million-in-pre-series-c?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Baselayer",
+      "description": "Raised $35 million Series A to expand AI identity tech.",
+      "source_url": "https://news.crunchbase.com/ai/verifying-ai-agents-baselayer-35m-raise/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "CellPoint",
+      "description": "Secured $34 million investment from Toscafund.",
+      "source_url": "https://www.finextra.com/pressarticle/110965/cellpoint-appoints-new-leadership-and-secures-34m-from-toscafund?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Sprive",
-      "description": "Raised $10 million in Series A funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48437/ai-driven-cashback-to-mortgage-app-sprive-raises-10-million"
-    },
-    {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "FintechOS",
-      "description": "Raised $28 million for US expansion.",
-      "source_url": "https://www.finextra.com/newsarticle/48442/fintechos-raises-funds-for-us-push"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Kastle",
-      "description": "Raised $24 million for AI lending platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48441/kastle-raises-24m-to-build-ai-agents-for-lending"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Moir",
-      "description": "Seeking $50 million for deepfake defense startup.",
-      "source_url": "https://www.pymnts.com/startups/2026/former-xai-staffer-seeks-50-million-dollars-deepfake-defense-startup/"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "type": "product",
-      "company": "Ant International",
-      "description": "Launched AI-native financial product suite.",
-      "source_url": "https://www.finextra.com/newsarticle/48436/ant-international-launches-financial-ai-stack"
+      "description": "Raised $10 million for cashback-to-mortgage app.",
+      "source_url": "https://www.finextra.com/newsarticle/48437/ai-driven-cashback-to-mortgage-app-sprive-raises-10-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
