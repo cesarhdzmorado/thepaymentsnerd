@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "SoFi Bank and Mastercard Move $25B Card Program to Stablecoin Settlement",
-      "body": "SoFi Bank has partnered with Mastercard to settle its entire card program\u2014over $25 billion annually\u2014on blockchain rails using SoFiUSD stablecoin. This makes SoFi the first major US bank to fully migrate card settlement to a proprietary stablecoin, leapfrogging peers in blockchain adoption. Other banks and card issuers now face direct competitive pressure to modernize settlement infrastructure or risk falling behind on speed and cost.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48453/sofi-bank-goes-live-with-stablecoin-settlement-across-mastercard-network?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Canadian Banks Unite to Build Tokenized Deposit System for Programmable Payments",
-      "body": "Canada\u2019s largest banks are collaborating on a tokenized Canadian dollar deposit platform to enable programmable payments and faster settlement. By jointly developing shared standards and interoperability for tokenized deposits, Canadian banks could provide a blueprint for other G7 countries seeking to modernize digital money infrastructure. If successful, programmable deposits could become a new baseline for digital banking and B2B payments.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48456/canadian-banks-join-forces-on-tokenised-deposits?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Airtel Money Targets $800M in London IPO to Fund African Payments Expansion",
-      "body": "Airtel Money plans to raise at least $800 million in a London IPO, seeking a valuation between $8 billion and $9 billion. The listing would give Airtel Money fresh capital to expand its mobile payments footprint across Africa and beyond, intensifying competition with regional fintechs and global PSPs. Success could open the door for more African fintechs to pursue international public listings.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/62a6939f-7e24-492e-bdf6-b9ab9e1d3578?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
-      }
-    },
-    {
-      "title": "Binance Invests $100M in Circle, Extends USDC Partnership for Five Years",
-      "body": "Binance has acquired a $100 million stake in Circle and renewed its USDC partnership through 2031, aiming to boost USDC adoption on its exchange. This move strengthens Binance\u2019s stablecoin strategy and positions USDC as a more prominent alternative to Tether within Binance\u2019s ecosystem. Competing stablecoins and exchanges are expected to respond by increasing USDC trading pairs or offering enhanced incentives to retain users.",
+      "title": "Canadian Banks Collaborate on Tokenized Deposit System to Modernize Payments",
+      "body": "Canada's largest banks are jointly developing a tokenized deposit system to enable faster, programmable payments nationwide. By taking this step, the banks aim to set new standards for efficiency and interoperability, potentially influencing global regulatory frameworks and prompting other major banks to accelerate their own tokenization strategies.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+        "url": "https://www.theblock.co/news/business/2026-09-23-canada-banks-tokenized-deposit-system-416129"
       }
     },
     {
-      "title": "Deutsche Bank Deploys AI to Boost KYC Onboarding Efficiency by 30%",
-      "body": "Deutsche Bank has rolled out an AI-powered solution for Know Your Customer (KYC) checks, reporting a 30% improvement in client onboarding speed. This gives Deutsche Bank a measurable edge in compliance and customer experience, prompting rivals to accelerate AI adoption or risk losing lucrative corporate clients to faster onboarding processes.",
+      "title": "Blockchain.com and NYSE Partner to Tokenize US Stocks and ETFs",
+      "body": "Blockchain.com and the New York Stock Exchange are working to tokenize US stocks and ETFs, pending regulatory approval, to enable digital asset trading. This collaboration offers investors more flexible access to US securities, potentially sidelining traditional brokers and shifting trading volumes toward digital platforms if regulators approve the model.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/web3/2026-09-23-blockchain-com-nyse-tokenized-us-stocks-etfs-416176"
+      }
+    },
+    {
+      "title": "Revolut Rolls Out Facial Recognition Payments for UK Users",
+      "body": "Revolut has launched facial recognition payments in the UK, allowing customers to authorize transactions with a smile for added convenience and security. This feature forces competitors like PayPal and Apple Pay to enhance their biometric offerings to retain market share as biometric authentication becomes a new battleground in wallet innovation.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-facial-recognition-face-payments-pay-with-smile/"
+      }
+    },
+    {
+      "title": "Former Visa Crypto Lead Launches Atum, an Open Payments Network",
+      "body": "Atum, founded by former Visa crypto lead Pete Cooling, has launched with $13.5 million in funding to build an open payments network focused on interoperability. By promoting open standards and reducing transaction costs, Atum aims to challenge incumbent payment networks and accelerate open banking adoption. Competing networks and banks must adapt quickly to avoid losing market share to Atum's open payments network.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48452/deutsche-bank-estimates-30-uplift-in-client-onboarding-by-deploying-kyc-ai?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Citi Launches Commerce Media Platform Leveraging Transaction Data for Advertisers",
+      "body": "Citi has introduced a media platform that uses transaction data to help advertisers target customers more precisely, entering the commerce media space. This move leverages Citi\u2019s data assets to create new revenue streams and could force financial institutions to rethink their data privacy strategies in digital advertising.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48464/citi-launches-media-platform-for-advertisers?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "SoFi Bank and Binance moves show banks and exchanges are accelerating blockchain and programmable money adoption in mainstream payments.",
+  "perspective": "Canadian banks and Blockchain.com drive tokenization, while Citi and Revolut push data-driven and biometric innovation in payments and commerce.",
   "curiosity": {
-    "text": "The first electronic data interchange (EDI) payment in 1983 replaced paper checks, marking a pivotal shift toward automated, digital business payments decades before APIs or blockchain."
+    "text": "M-Pesa, launched in Kenya in 2003, not only enabled mobile remittances but also spurred central banks across Africa to rethink monetary policy and financial regulation."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddea\ud83c\uddec",
-      "type": "fundraising",
-      "company": "Paymob",
-      "description": "Raised $35 million in pre-Series C funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48438/paymob-garners-35-million-in-pre-series-c?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Baselayer",
-      "description": "Raised $35 million Series A to expand AI identity tech.",
-      "source_url": "https://news.crunchbase.com/ai/verifying-ai-agents-baselayer-35m-raise/"
+      "company": "Bird",
+      "description": "Secured $450 million in debt financing for AI infrastructure expansion.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/bird-secures-450-million-and-extends-communications-infrastructure-to-ai-agents/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "CellPoint",
-      "description": "Secured $34 million investment from Toscafund.",
-      "source_url": "https://www.finextra.com/pressarticle/110965/cellpoint-appoints-new-leadership-and-secures-34m-from-toscafund?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddf3\ud83c\uddec",
+      "type": "IPO",
+      "company": "Airtel Money",
+      "description": "Plans London IPO to raise $800 million at $9 billion valuation.",
+      "source_url": "https://www.finextra.com/newsarticle/48457/airtel-money-to-launch-london-ipo?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Sprive",
-      "description": "Raised $10 million for cashback-to-mortgage app.",
-      "source_url": "https://www.finextra.com/newsarticle/48437/ai-driven-cashback-to-mortgage-app-sprive-raises-10-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Tenora",
+      "description": "Raised \u00a37.5 million for fintech expansion into corporate treasury.",
+      "source_url": "https://www.finextra.com/newsarticle/48461/argentex-founder-harry-adams-raises-75-million-for-new-startup-tenora?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "type": "fundraising",
+      "company": "Duqu",
+      "description": "Raised \u20ac1.5 million to tackle Europe's late payment problem.",
+      "source_url": "https://www.finextra.com/pressarticle/110999/ai-fintech-duqu-raises-15m-to-tackle-europes-late-payment-problem?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
