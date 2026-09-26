@@ -1,85 +1,92 @@
 {
   "news": [
     {
-      "title": "FedNow to Pilot Cross-Border Real-Time Payments, Targeting SWIFT\u2019s Messaging and Ripple\u2019s Settlement Speed",
-      "body": "The US Federal Reserve is preparing FedNow to support cross-border real-time payments, with pilot programs involving major US banks and select international partners. By enabling instant settlement and direct bank-to-bank transfers, FedNow aims to bypass SWIFT\u2019s batch messaging delays and Ripple\u2019s reliance on intermediaries. Early participants like JPMorgan Chase and Wells Fargo are evaluating FedNow\u2019s potential to reduce costs and settlement times for US-to-Europe corridors.",
+      "title": "Bitget Halts Withdrawals After $387.5 Million Hack Linked to North Korea",
+      "body": "Crypto exchange Bitget suffered a $387.5 million theft after North Korean hackers infiltrated its systems. Bitget froze customer withdrawals immediately, cutting off user access and undermining trust in its security. Competing exchanges with stronger security may attract users leaving Bitget, while regulators increase scrutiny of crypto platforms. Bitget and its peers are now racing to upgrade security and improve transparency to retain both institutional and retail clients.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48472/fednow-to-enable-cross-border-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48481/bitget-hit-by-3875-million-hack?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Fed Proposes Reserve and Capital Standards for Stablecoin Issuers Under GENIUS Act",
-      "body": "The Federal Reserve has proposed new rules requiring stablecoin issuers to hold specific reserve assets and meet standardized capital requirements, as part of the GENIUS Act. This move brings stablecoin oversight closer to traditional banking standards, raising compliance costs for issuers like Circle and PayPal. Stablecoin providers must now adapt to tighter regulatory scrutiny or risk losing access to US markets.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-09-24-fed-proposes-reserve-limits-capital-standards-stablecoin-issuers-genius-act-416336"
-      }
-    },
-    {
-      "title": "The Clearing House Selects Quant to Launch Tokenized Deposit Network",
-      "body": "The Clearing House has chosen Quant to build an interoperable network for clearing and settling tokenized deposit transactions among US financial institutions. The new network will enable banks to transfer tokenized deposits instantly and securely, reducing reconciliation errors and operational costs. Major processors and regional banks must now accelerate digital infrastructure upgrades to remain competitive as tokenized money moves toward mainstream adoption.",
+      "title": "IBM Connects Digital Asset Platform to Swift Shared Ledger for Blockchain Interoperability",
+      "body": "IBM integrated its digital asset platform with Swift\u2019s shared ledger, enabling direct blockchain interoperability for financial institutions. IBM clients and Swift users now gain new options for digital asset settlement and cross-network transactions. Competing blockchain service providers must now match IBM\u2019s integration reach. Major banks such as Citi and Santander, along with PSPs like Worldline, are likely to prioritize platforms offering direct Swift connectivity to streamline global payments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48465/the-clearing-house-taps-quant-for-tokenised-deposit-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48469/ibm-integrates-digital-asset-platform-with-swift-shared-ledger?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "ARK Invest Tokenizes $1.3 Billion Venture Fund on Ethereum",
-      "body": "ARK Invest is moving its $1.3 billion ARK Venture Fund onchain via Securitize, with tokenized shares representing holdings in OpenAI, Anthropic, and Stripe. This marks one of the largest venture funds to adopt blockchain-based tokenization, potentially setting a new standard for fund accessibility and liquidity. Other asset managers may follow suit as tokenized funds gain traction with institutional and retail investors.",
+      "title": "Federal Reserve Proposes Redemption and Capital Rules for Stablecoin Issuers",
+      "body": "The Federal Reserve released draft rules requiring stablecoin issuers to meet strict redemption and capital standards. Leading stablecoin firms and their banking partners now face higher compliance costs and must quickly adapt operations to meet new requirements. Smaller issuers may struggle to keep pace, risking market exit or acquisition. Banks and fintechs considering stablecoin adoption must evaluate the regulatory timeline and prepare for increased due diligence.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/"
       }
     },
     {
-      "title": "Revolut Trials Facial Recognition Payments at London Caf\u00e9s",
-      "body": "Revolut is piloting a 'Pay with Smile' system, letting customers pay using facial recognition at select London caf\u00e9s. This biometric payment method introduces a new layer of convenience while intensifying privacy and data security debates among UK regulators and consumer advocates. Competing payment platforms are monitoring user feedback and regulatory responses as they consider their own biometric rollouts.",
+      "title": "US Prosecutors Seize Capstone Bank Accounts, Escalating Pressure on Tether and Bitfinex",
+      "body": "US authorities seized bank accounts belonging to Capstone, a payments firm linked to Tether and Bitfinex, as part of ongoing regulatory investigations. This seizure disrupts payment flows for Tether and Bitfinex users and signals intensifying enforcement against stablecoin intermediaries. Crypto-linked firms now face immediate banking risk and may need to rapidly seek alternative banking partners or strengthen compliance to avoid similar disruptions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48466/revolut-trials-pay-with-smile?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48478/us-prosecutors-seize-tether-linked-payment-firms-bank-accounts---ft?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Citi and HSBC Lead $16M Series A for Payment Intelligence Startup IPID",
+      "body": "IPID, a payment intelligence provider, raised $16 million in Series A funding led by Citi and HSBC. With this investment, IPID plans to accelerate product development and expand its reach among global banks and PSPs. Established payment intelligence vendors now face a challenger with significant backing from major financial institutions. Banks and fintechs can expect a broader range of advanced risk and routing tools as IPID scales up its offerings.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48471/citi-and-hsbc-back-ipid-series-a?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "FedNow\u2019s cross-border pilot and the Fed\u2019s stablecoin rules force banks and fintechs like JPMorgan and Circle to rethink global payment strategies.",
+  "perspective": "Bitget\u2019s $387.5M hack and the Fed\u2019s stablecoin rules put crypto exchanges and issuers under regulatory and security pressure.",
   "curiosity": {
-    "text": "The first POS terminal to process debit cards in the U.S. was so novel in 1986 that merchants initially worried it would slow down checkout lines, not speed them up."
+    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how banks and merchants processed transactions worldwide."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Atum",
-      "description": "Open payments network launches with $13.5M funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "HIFI",
-      "description": "Raises $37M Series A to expand tokenized capital markets.",
-      "source_url": "https://www.theblock.co/news/business/2026-09-24-hifi-raises-37-million-series-a-to-expand-tokenized-capital-markets-infrastructure-416242"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "fundraising",
-      "company": "Duqu",
-      "description": "Raises \u20ac1.5M to tackle Europe's late payment problem.",
-      "source_url": "https://www.finextra.com/pressarticle/110999/ai-fintech-duqu-raises-15m-to-tackle-europes-late-payment-problem?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
       "company": "Ando",
-      "description": "AI communications app raises $20M.",
+      "description": "AI communications app Ando raises $20 million.",
       "source_url": "https://www.finextra.com/pressarticle/111022/ai-communications-app-ando-raises-20-million?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Argentex",
-      "description": "Founder raises \u00a37.5M for new fintech startup Tenora.",
-      "source_url": "https://www.finextra.com/newsarticle/48461/argentex-founder-harry-adams-raises-75-million-for-new-startup-tenora?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Kredete",
+      "description": "Kredete acquires Gravv to build stablecoin infrastructure.",
+      "source_url": "https://www.finextra.com/pressarticle/111018/kredete-acquires-gravv-to-build-stablecoin-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "type": "expansion",
+      "company": "Ebanx",
+      "description": "Ebanx expands to Pakistan.",
+      "source_url": "https://www.finextra.com/pressarticle/111006/ebanx-expands-to-pakistan?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "type": "product",
+      "company": "Pine Labs",
+      "description": "Pine Labs to roll out soundboxes in rural India.",
+      "source_url": "https://www.finextra.com/pressarticle/111011/pine-labs-to-roll-out-soundboxes-to-rural-india-to-drive-digital-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "product",
+      "company": "Solaris",
+      "description": "Solaris goes live on ACI Worldwide platform for SEPA instant payments.",
+      "source_url": "https://www.finextra.com/pressarticle/111020/solaris-goes-live-on-aci-worldwide-platform-for-sepa-instant-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "type": "product",
+      "company": "Cleverbridge",
+      "description": "Completes France's first Passkey-authenticated agentic purchase.",
+      "source_url": "https://www.finextra.com/pressarticle/111023/cleverbridge-completes-frances-first-passkey-authenticated-agentic-purchase-on-a-revolut-card?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
