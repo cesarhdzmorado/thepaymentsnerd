@@ -1,92 +1,85 @@
 {
   "news": [
     {
-      "title": "Bitget Halts Withdrawals After $387.5 Million Hack Linked to North Korea",
-      "body": "Crypto exchange Bitget suffered a $387.5 million theft after North Korean hackers infiltrated its systems. Bitget froze customer withdrawals immediately, cutting off user access and undermining trust in its security. Competing exchanges with stronger security may attract users leaving Bitget, while regulators increase scrutiny of crypto platforms. Bitget and its peers are now racing to upgrade security and improve transparency to retain both institutional and retail clients.",
+      "title": "Monzo and Nubank Explore Sale Talks, Eyeing Transatlantic Digital Bank Consolidation",
+      "body": "Monzo is in discussions with Nubank about a potential sale, which could give Nubank direct entry into the UK and European markets. Monzo would gain access to Nubank\u2019s large Latin American customer base and resources. If the deal closes, it would represent one of the largest cross-market neobank consolidations to date, forcing rivals like Revolut and Chime to reassess their international strategies. Regulatory review will be a key hurdle for both banks.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48481/bitget-hit-by-3875-million-hack?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/e375ba2b-8033-426a-aa63-0f22dd06e689?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss"
       }
     },
     {
-      "title": "IBM Connects Digital Asset Platform to Swift Shared Ledger for Blockchain Interoperability",
-      "body": "IBM integrated its digital asset platform with Swift\u2019s shared ledger, enabling direct blockchain interoperability for financial institutions. IBM clients and Swift users now gain new options for digital asset settlement and cross-network transactions. Competing blockchain service providers must now match IBM\u2019s integration reach. Major banks such as Citi and Santander, along with PSPs like Worldline, are likely to prioritize platforms offering direct Swift connectivity to streamline global payments.",
+      "title": "Bitcoin ETFs Attract $2.4B Weekly Inflow, Reversing 2026 Outflows",
+      "body": "Bitcoin ETFs attracted $2.4 billion in net inflows last week, their largest since October, pushing year-to-date flows back into positive territory. This surge signals renewed confidence from institutional and retail investors, prompting ETF issuers to accelerate new product launches. Traditional asset managers now face direct competition for crypto allocations as new capital enters the market and product innovation intensifies.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48469/ibm-integrates-digital-asset-platform-with-swift-shared-ledger?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
       }
     },
     {
-      "title": "Federal Reserve Proposes Redemption and Capital Rules for Stablecoin Issuers",
-      "body": "The Federal Reserve released draft rules requiring stablecoin issuers to meet strict redemption and capital standards. Leading stablecoin firms and their banking partners now face higher compliance costs and must quickly adapt operations to meet new requirements. Smaller issuers may struggle to keep pace, risking market exit or acquisition. Banks and fintechs considering stablecoin adoption must evaluate the regulatory timeline and prepare for increased due diligence.",
+      "title": "NatWest Pilots Generative AI Tool for Audio-Visual Spending Insights",
+      "body": "NatWest is piloting a generative AI tool that lets customers explore their finances using both voice and text, delivering personalized audio-visual spending insights. This initiative pushes UK banks to accelerate AI-powered feature development to keep pace with evolving customer expectations. Competing banks and fintechs must respond quickly or risk losing digital market share, while regulators will closely monitor data privacy and transparency.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48480/natwest-unveils-ai-powered-audio-visual-spending-insights-tool?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "US Prosecutors Seize Capstone Bank Accounts, Escalating Pressure on Tether and Bitfinex",
-      "body": "US authorities seized bank accounts belonging to Capstone, a payments firm linked to Tether and Bitfinex, as part of ongoing regulatory investigations. This seizure disrupts payment flows for Tether and Bitfinex users and signals intensifying enforcement against stablecoin intermediaries. Crypto-linked firms now face immediate banking risk and may need to rapidly seek alternative banking partners or strengthen compliance to avoid similar disruptions.",
+      "title": "Bluwhale Launches AI Trading Agents for Tokenized Stocks and Real-World Assets",
+      "body": "Bluwhale launched AI-powered trading agents for tokenized stocks and real-world assets such as gold, silver, and oil, expanding its financial operating system. This expansion increases access to tokenized investments and compels traditional brokerages to accelerate automation and diversify asset offerings. Asset managers and fintechs now face heightened competition from AI-native platforms, while regulatory clarity on tokenized securities will shape adoption speed.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48478/us-prosecutors-seize-tether-linked-payment-firms-bank-accounts---ft?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/pressarticle/111025/bluwhale-announces-trading-agents-for-tokenised-stocks-and-real-world-assets?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Citi and HSBC Lead $16M Series A for Payment Intelligence Startup IPID",
-      "body": "IPID, a payment intelligence provider, raised $16 million in Series A funding led by Citi and HSBC. With this investment, IPID plans to accelerate product development and expand its reach among global banks and PSPs. Established payment intelligence vendors now face a challenger with significant backing from major financial institutions. Banks and fintechs can expect a broader range of advanced risk and routing tools as IPID scales up its offerings.",
+      "title": "Aave V4 Lets Non-U.S. Users Pledge Tokenized Stocks for USDC Loans",
+      "body": "Aave V4 now lets non-U.S. users use Coinbase tokenized stocks as collateral for USDC loans, expanding DeFi\u2019s reach into traditional asset classes. This integration increases Aave\u2019s liquidity and appeal, while DeFi protocols and tokenization platforms must adapt to new collateral types and cross-platform partnerships. Regulatory scrutiny will intensify as tokenized securities become more common in lending markets.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48471/citi-and-hsbc-back-ipid-series-a?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372"
       }
     }
   ],
-  "perspective": "Bitget\u2019s $387.5M hack and the Fed\u2019s stablecoin rules put crypto exchanges and issuers under regulatory and security pressure.",
+  "perspective": "Monzo and Nubank\u2019s potential merger highlights a week of cross-border expansion and digital asset innovation.",
   "curiosity": {
-    "text": "The first magnetic stripe payment card was introduced by IBM in 1969, revolutionizing how banks and merchants processed transactions worldwide."
+    "text": "Monzo and Nubank together would serve over 150 million customers\u2014more than the population of Japan\u2014making it one of the largest digital banking footprints globally."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Ando",
-      "description": "AI communications app Ando raises $20 million.",
-      "source_url": "https://www.finextra.com/pressarticle/111022/ai-communications-app-ando-raises-20-million?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Atum",
+      "description": "Open payments network launched with $13.5M funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Portage",
+      "description": "Closes $600M fintech fund.",
+      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Kredete",
-      "description": "Kredete acquires Gravv to build stablecoin infrastructure.",
-      "source_url": "https://www.finextra.com/pressarticle/111018/kredete-acquires-gravv-to-build-stablecoin-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "fundraising",
+      "company": "Fin.com",
+      "description": "Emerges from stealth with $20M funding for payments infrastructure.",
+      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
-      "type": "expansion",
-      "company": "Ebanx",
-      "description": "Ebanx expands to Pakistan.",
-      "source_url": "https://www.finextra.com/pressarticle/111006/ebanx-expands-to-pakistan?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "type": "fundraising",
+      "company": "Chift",
+      "description": "Raises \u20ac10.5M for financial connectivity layer.",
+      "source_url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddee\ud83c\uddf3",
-      "type": "product",
-      "company": "Pine Labs",
-      "description": "Pine Labs to roll out soundboxes in rural India.",
-      "source_url": "https://www.finextra.com/pressarticle/111011/pine-labs-to-roll-out-soundboxes-to-rural-india-to-drive-digital-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "product",
-      "company": "Solaris",
-      "description": "Solaris goes live on ACI Worldwide platform for SEPA instant payments.",
-      "source_url": "https://www.finextra.com/pressarticle/111020/solaris-goes-live-on-aci-worldwide-platform-for-sepa-instant-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "type": "product",
-      "company": "Cleverbridge",
-      "description": "Completes France's first Passkey-authenticated agentic purchase.",
-      "source_url": "https://www.finextra.com/pressarticle/111023/cleverbridge-completes-frances-first-passkey-authenticated-agentic-purchase-on-a-revolut-card?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Tenora",
+      "description": "Raises \u00a37.5M for corporate treasury platform.",
+      "source_url": "https://www.finextra.com/newsarticle/48461/argentex-founder-harry-adams-raises-75-million-for-new-startup-tenora?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
