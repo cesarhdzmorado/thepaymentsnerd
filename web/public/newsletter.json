@@ -1,92 +1,85 @@
 {
   "news": [
     {
-      "title": "Revolut Secures Approval to Acquire Banco Cetelem, Entering Latin American Banking",
-      "body": "Revolut has received regulatory approval to acquire Banco Cetelem, marking its first direct entry into the Latin American banking sector. Revolut now directly challenges local fintechs like Nubank and Mercado Pago, as well as incumbent banks in Argentina, by leveraging its global scale and diverse product suite. Expect intensified competition for customers and heightened regulatory attention as Revolut accelerates its regional expansion.",
+      "title": "Coinbase Secures DCO Approval, Unlocking Full In-House Crypto Derivatives Stack",
+      "body": "Coinbase has received Derivatives Clearing Organization (DCO) approval from the CFTC, enabling it to list, broker, and clear fully collateralized crypto derivatives products internally. This vertical integration allows Coinbase to offer a one-stop shop for institutional crypto derivatives trading, reducing reliance on third-party clearinghouses. Competing exchanges like CME and FTX US Derivatives may see institutional clients migrate to Coinbase for streamlined access and potentially lower costs.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48479/revolut-gets-green-light-to-buy-argentinian-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-28-coinbase-dco-approval-417105"
       }
     },
     {
-      "title": "Atum Launches Open Payments Network With $13.5M, Targeting Decentralized Infrastructure",
-      "body": "Atum, founded by former Visa crypto lead Pete Cooling, has launched from stealth with $13.5 million to build an open payments network. By offering lower transaction fees and programmable payment flows, Atum gives fintechs and merchants an alternative to Visa and Mastercard, potentially reducing costs and increasing flexibility for digital-first PSPs. Incumbent card networks now face a direct challenge from a new decentralized infrastructure designed to bypass traditional rails.",
+      "title": "BNY Mellon Debuts Pay-to-Wallet, Targeting Cross-Border Digital Wallet Payouts",
+      "body": "BNY Mellon has launched a Pay-to-Wallet feature, allowing banks to send cross-border payments directly to digital wallets instead of using SWIFT or other correspondent banking networks. This enables faster, lower-cost international transfers for remittances and gig economy payouts. Banks relying on traditional correspondent rails may lose transaction volume to wallet-enabled flows, prompting a strategic reassessment of cross-border offerings.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48487/bny-unveils-pay-to-wallet-technology-option-for-banks?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Fintech Avant Seeks OCC Charter to Expand Credit Offerings Nationwide",
-      "body": "Chicago-based Avant has applied for a national bank charter from the OCC, aiming to broaden its credit product suite and compete directly with traditional banks. If the OCC grants approval, Avant will originate loans nationwide without relying on partner banks, lowering compliance costs and accelerating product launches. This move puts pressure on fintechs still dependent on state licenses or BaaS partnerships and signals regulators\u2019 evolving stance on fintechs seeking full banking powers.",
+      "title": "Swift Connects PayID and Pix Users to Global Payments With New Gateway",
+      "body": "Swift has launched a cross-border gateway enabling users of domestic payment systems like PayID and Pix to send money internationally using mobile numbers or email addresses. This move brings global interoperability to mobile-first payment schemes and challenges traditional wire transfer providers such as Western Union and MoneyGram, who now face competition on speed and user experience. National payment networks gain new reach, while privacy standards for personal identifiers may draw regulatory scrutiny.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48488/swift-provides-cross-border-gateway-to-bizum-payid-and-pix-users?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Valley National Bank Acquires Bluevine for $340M to Bolster SME Banking",
+      "body": "Valley National Bank will acquire fintech Bluevine for $340 million, adding $2.1 billion in deposits and expanding its small business banking footprint. The deal brings Bluevine\u2019s digital lending and payments capabilities under Valley\u2019s regulated umbrella, signaling further convergence between banks and fintechs. SME-focused fintechs like Kabbage and Fundbox may see increased acquisition interest or pressure to partner with established banks.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/fintech-avant-applies-occ-charter/831172/"
+        "url": "https://www.bankingdive.com/news/valley-national-bank-acquire-fintech-bluevine-340m-small-business-banking/831503/"
       }
     },
     {
-      "title": "Singapore Launches AI Workforce Program for 80,000 Financial Services Employees",
-      "body": "Singapore\u2019s financial sector has launched an AI workforce co-lab to train 80,000 employees in AI skills, with banks, payments firms, and insurers integrating machine learning into their operations. This large-scale upskilling drive aims to accelerate AI-powered product launches and boost operational efficiency, drawing global fintech talent to Singapore. Regional competitors must now invest in similar training or risk lagging behind in AI-enabled services.",
+      "title": "FedNow Volume Surges as Businesses Embrace Instant Payments",
+      "body": "FedNow, the Federal Reserve\u2019s instant payments service, has reported a sharp increase in transaction volume as more U.S. businesses adopt real-time payments for payroll and supplier disbursements. This growth signals rising demand for instant settlement and puts pressure on banks and payment processors to upgrade legacy ACH and wire systems. Merchants and payroll providers are accelerating integration to meet customer expectations for speed.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48482/singapore-to-train-80000-fs-sector-employees-in-ai-skills?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Moov Launches P2P Payments Tool Using Card Network Rails, Challenging App-Based Platforms",
-      "body": "Moov has introduced a peer-to-peer payments tool leveraging Mastercard and Visa\u2019s digital infrastructure, allowing users to send money without both parties needing the same app. This model bypasses the closed-network limitations of Venmo and Zelle, making it easier for consumers and merchants to transact across platforms. Venmo and Zelle risk losing users as Moov\u2019s approach reduces switching barriers, while card networks benefit from increased transaction volumes.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/moov-adds-p2p-competition/831397/"
+        "name": "American Banker",
+        "url": "https://www.americanbanker.com/payments/news/fednow-transaction-volume-surges-as-businesses-adopt-instant-payments"
       }
     }
   ],
-  "perspective": "Revolut\u2019s Argentina entry and Moov\u2019s P2P launch show global fintechs and new rails reshaping competition for banks and legacy payment platforms.",
+  "perspective": "BNY Mellon\u2019s wallet payouts and Swift\u2019s gateway force banks and wire providers to adapt as instant and mobile-first payment rails gain global traction.",
   "curiosity": {
-    "text": "In 2023, Brazil\u2019s Pix instant payments system processed more daily transactions than credit and debit cards combined, illustrating how fast new rails can overtake legacy methods."
+    "text": "In Japan, over 60% of people aged 65 and older now use contactless payments, defying assumptions about digital adoption among older demographics."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Portage",
-      "description": "Fintech VC closes US$600m fund for startups.",
-      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "type": "fundraising",
-      "company": "Chift",
-      "description": "Raises \u20ac10.5m to build AI-era financial connectivity layer.",
-      "source_url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Atum",
+      "description": "Former Visa crypto lead launches open payments network with $13.5M funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Fin.com",
-      "description": "Payments infrastructure startup emerges with $20m funding.",
+      "description": "Payments infrastructure startup emerges from stealth with $20M funding.",
       "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Portage",
+      "description": "Canadian fintech VC closes $600M fund.",
+      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Tenora",
-      "description": "Argentex founder raises \u00a37.5m for new fintech venture.",
+      "description": "Argentex founder raises \u00a37.5M for new fintech venture.",
       "source_url": "https://www.finextra.com/newsarticle/48461/argentex-founder-harry-adams-raises-75-million-for-new-startup-tenora?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "HelmGuard",
-      "description": "Raises $7.3m for agentic GRC platform.",
-      "source_url": "https://www.finextra.com/newsarticle/48371/helmguard-raises-73m-for-agentic-grc-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Baselayer",
-      "description": "Raises $35M to verify AI agents.",
-      "source_url": "https://news.crunchbase.com/ai/verifying-ai-agents-baselayer-35m-raise/"
+      "company": "Quartz",
+      "description": "Former Revolut and N26 alumni raise \u00a32.7M for wealth management app.",
+      "source_url": "https://www.finextra.com/newsarticle/48415/former-revolut-and-n26-alumni-raise-27-million-to-launch-wealth-management-app?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
