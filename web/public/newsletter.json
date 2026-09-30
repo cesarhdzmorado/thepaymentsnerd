@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Coinbase Secures DCO Approval, Unlocking Full In-House Crypto Derivatives Stack",
-      "body": "Coinbase has received Derivatives Clearing Organization (DCO) approval from the CFTC, enabling it to list, broker, and clear fully collateralized crypto derivatives products internally. This vertical integration allows Coinbase to offer a one-stop shop for institutional crypto derivatives trading, reducing reliance on third-party clearinghouses. Competing exchanges like CME and FTX US Derivatives may see institutional clients migrate to Coinbase for streamlined access and potentially lower costs.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-28-coinbase-dco-approval-417105"
-      }
-    },
-    {
-      "title": "BNY Mellon Debuts Pay-to-Wallet, Targeting Cross-Border Digital Wallet Payouts",
-      "body": "BNY Mellon has launched a Pay-to-Wallet feature, allowing banks to send cross-border payments directly to digital wallets instead of using SWIFT or other correspondent banking networks. This enables faster, lower-cost international transfers for remittances and gig economy payouts. Banks relying on traditional correspondent rails may lose transaction volume to wallet-enabled flows, prompting a strategic reassessment of cross-border offerings.",
+      "title": "Circle and Volante Bring Stablecoin Settlement Directly Into Bank Payment Workflows",
+      "body": "Circle partners with Volante Technologies to let banks embed stablecoin payment capabilities into their core systems, enabling faster and more efficient cross-border settlements. By integrating directly with bank payment workflows, Circle challenges legacy correspondent banking networks and gives banks a clear path to retain high-margin cross-border flows that might otherwise shift to fintechs.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48487/bny-unveils-pay-to-wallet-technology-option-for-banks?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48496/circle-and-volante-partner-to-help-banks-integrate-stablecoins-into-payment-operations"
       }
     },
     {
-      "title": "Swift Connects PayID and Pix Users to Global Payments With New Gateway",
-      "body": "Swift has launched a cross-border gateway enabling users of domestic payment systems like PayID and Pix to send money internationally using mobile numbers or email addresses. This move brings global interoperability to mobile-first payment schemes and challenges traditional wire transfer providers such as Western Union and MoneyGram, who now face competition on speed and user experience. National payment networks gain new reach, while privacy standards for personal identifiers may draw regulatory scrutiny.",
+      "title": "Jeeves Secures $110M to Scale Stablecoin-Native Banking for Global Enterprises",
+      "body": "Jeeves raises $110 million to expand its stablecoin-native banking platform, targeting global enterprises that need programmable treasury and payment solutions. With this funding, Jeeves can offer stablecoin-based accounts and settlement, giving large corporates a direct alternative to traditional cross-border banking and prompting banks and fintechs to respond to growing demand for programmable B2B payments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48488/swift-provides-cross-border-gateway-to-bizum-payid-and-pix-users?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48498/jeeves-raises-110m-for-stablecoin-banking-platform"
       }
     },
     {
-      "title": "Valley National Bank Acquires Bluevine for $340M to Bolster SME Banking",
-      "body": "Valley National Bank will acquire fintech Bluevine for $340 million, adding $2.1 billion in deposits and expanding its small business banking footprint. The deal brings Bluevine\u2019s digital lending and payments capabilities under Valley\u2019s regulated umbrella, signaling further convergence between banks and fintechs. SME-focused fintechs like Kabbage and Fundbox may see increased acquisition interest or pressure to partner with established banks.",
+      "title": "Mission Lane Wins Conditional OCC Charter, Opening Door for More Fintech Bank Entrants",
+      "body": "Mission Lane receives conditional approval from the OCC to form a new credit card bank, a rare achievement for fintechs seeking US banking charters. This approval lowers the perceived regulatory barrier for fintechs aiming to offer insured deposits and credit products directly, and signals that more fintechs are likely to pursue OCC charters, increasing competition for both legacy banks and neobanks.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/valley-national-bank-acquire-fintech-bluevine-340m-small-business-banking/831503/"
+        "url": "https://www.bankingdive.com/news/mission-lane-gets-occ-conditional-approval-credit-card-bank-charter-ceba/831463/"
       }
     },
     {
-      "title": "FedNow Volume Surges as Businesses Embrace Instant Payments",
-      "body": "FedNow, the Federal Reserve\u2019s instant payments service, has reported a sharp increase in transaction volume as more U.S. businesses adopt real-time payments for payroll and supplier disbursements. This growth signals rising demand for instant settlement and puts pressure on banks and payment processors to upgrade legacy ACH and wire systems. Merchants and payroll providers are accelerating integration to meet customer expectations for speed.",
+      "title": "HSBC Launches Digital Transaction Banking Platform to Court Corporate Clients",
+      "body": "HSBC launches a new digital transaction banking platform to streamline services for corporate customers, aiming to attract and retain high-value enterprise accounts. By setting a higher standard for digital experience in corporate banking, HSBC pushes rivals to accelerate their own platform upgrades or risk losing business to more digitally advanced competitors.",
       "source": {
-        "name": "American Banker",
-        "url": "https://www.americanbanker.com/payments/news/fednow-transaction-volume-surges-as-businesses-adopt-instant-payments"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48493/hsbc-rolls-out-new-digital-transaction-banking-platform"
+      }
+    },
+    {
+      "title": "Brite Payments Debuts UK Pay-by-Bank Network After Securing EMI Licence",
+      "body": "Brite Payments launches its Pay-by-Bank network in the UK, using its new EMI licence to offer direct-from-account payments to merchants and consumers. This move increases pressure on established card networks and open banking providers, and UK merchant adoption will directly influence whether Pay-by-Bank can gain meaningful share from entrenched card rails in domestic and cross-border payments.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48489/brite-payments-brings-international-pay-by-bank-network-to-the-uk"
       }
     }
   ],
-  "perspective": "BNY Mellon\u2019s wallet payouts and Swift\u2019s gateway force banks and wire providers to adapt as instant and mobile-first payment rails gain global traction.",
+  "perspective": "Circle and Mission Lane drive stablecoin integration and fintech bank charters, reshaping how banks and fintechs compete in cross-border and credit markets.",
   "curiosity": {
-    "text": "In Japan, over 60% of people aged 65 and older now use contactless payments, defying assumptions about digital adoption among older demographics."
+    "text": "Despite the hype around instant payments, a 2020 ECB survey found that only 14% of euro area consumers even recognized the term 'instant payments.'"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Atum",
-      "description": "Former Visa crypto lead launches open payments network with $13.5M funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "M&A",
+      "company": "Valley National Bank",
+      "description": "Acquiring fintech Bluevine for $340M",
+      "source_url": "https://www.bankingdive.com/news/valley-national-bank-acquire-fintech-bluevine-340m-small-business-banking/831503/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Fin.com",
-      "description": "Payments infrastructure startup emerges from stealth with $20M funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Elio Mortgage",
+      "description": "Launched with $5.1M in pre-seed funding",
+      "source_url": "https://www.finextra.com/newsarticle/48495/elio-mortgage-launches-with-51m-in-pre-seed-funding"
     },
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "fundraising",
-      "company": "Portage",
-      "description": "Canadian fintech VC closes $600M fund.",
-      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Robinhood",
+      "description": "Launching perpetuals and weekend stock trading",
+      "source_url": "https://www.theblock.co/news/business/2026-09-29-robinhood-perps-trading-417242"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Tenora",
-      "description": "Argentex founder raises \u00a37.5M for new fintech venture.",
-      "source_url": "https://www.finextra.com/newsarticle/48461/argentex-founder-harry-adams-raises-75-million-for-new-startup-tenora?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Quartz",
-      "description": "Former Revolut and N26 alumni raise \u00a32.7M for wealth management app.",
-      "source_url": "https://www.finextra.com/newsarticle/48415/former-revolut-and-n26-alumni-raise-27-million-to-launch-wealth-management-app?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "regulatory",
+      "company": "Coinbase",
+      "description": "Received DCO approval from CFTC",
+      "source_url": "https://www.theblock.co/news/business/2026-09-28-coinbase-dco-approval-417105"
     }
   ]
 }
