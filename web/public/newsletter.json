@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Circle and Volante Bring Stablecoin Settlement Directly Into Bank Payment Workflows",
-      "body": "Circle partners with Volante Technologies to let banks embed stablecoin payment capabilities into their core systems, enabling faster and more efficient cross-border settlements. By integrating directly with bank payment workflows, Circle challenges legacy correspondent banking networks and gives banks a clear path to retain high-margin cross-border flows that might otherwise shift to fintechs.",
+      "title": "Citi Launches Multi-Market Instant Payments via Swift\u2019s gpi, Raising Stakes for Global Transaction Banks",
+      "body": "Citi has enabled multi-market instant payments for its clients using Swift\u2019s global payments innovation (gpi) rails, allowing access to several cross-border instant payment systems through a single account structure. This strengthens Citi\u2019s position in global payments and compels major correspondent banks such as JPMorgan and Deutsche Bank to accelerate their own instant settlement offerings to remain competitive.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48496/circle-and-volante-partner-to-help-banks-integrate-stablecoins-into-payment-operations"
+        "url": "https://www.finextra.com/newsarticle/48508/citi-launches-multi-market-instant-payments-on-swift-scheme?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Jeeves Secures $110M to Scale Stablecoin-Native Banking for Global Enterprises",
-      "body": "Jeeves raises $110 million to expand its stablecoin-native banking platform, targeting global enterprises that need programmable treasury and payment solutions. With this funding, Jeeves can offer stablecoin-based accounts and settlement, giving large corporates a direct alternative to traditional cross-border banking and prompting banks and fintechs to respond to growing demand for programmable B2B payments.",
+      "title": "Apple Pay Partners with Axis Bank to Enter India\u2019s Crowded Digital Wallet Market",
+      "body": "Apple Pay is launching in India through a partnership with Axis Bank, entering a market where Google Pay and Paytm currently lead. Apple\u2019s entry will drive wallet providers to compete on exclusive merchant partnerships and loyalty integrations, with Google Pay and Paytm likely to respond by expanding features and incentives to retain users.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48498/jeeves-raises-110m-for-stablecoin-banking-platform"
+        "url": "https://www.finextra.com/newsarticle/48512/apple-pay-arrives-in-india?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Mission Lane Wins Conditional OCC Charter, Opening Door for More Fintech Bank Entrants",
-      "body": "Mission Lane receives conditional approval from the OCC to form a new credit card bank, a rare achievement for fintechs seeking US banking charters. This approval lowers the perceived regulatory barrier for fintechs aiming to offer insured deposits and credit products directly, and signals that more fintechs are likely to pursue OCC charters, increasing competition for both legacy banks and neobanks.",
+      "title": "Visa and Lloyds Complete Live Stablecoin Settlement Pilot for Cross-Border Payments",
+      "body": "Visa and Lloyds Banking Group have completed a live pilot using stablecoins for cross-border settlement, aiming for faster and more transparent transactions. This gives both firms a potential edge in the evolving cross-border payments landscape and is likely to prompt UK-based banks such as Barclays and NatWest to explore similar pilots to keep pace with innovation.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/mission-lane-gets-occ-conditional-approval-credit-card-bank-charter-ceba/831463/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48503/visa-and-lloyds-complete-live-trials-of-stablecoin-settlement?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "HSBC Launches Digital Transaction Banking Platform to Court Corporate Clients",
-      "body": "HSBC launches a new digital transaction banking platform to streamline services for corporate customers, aiming to attract and retain high-value enterprise accounts. By setting a higher standard for digital experience in corporate banking, HSBC pushes rivals to accelerate their own platform upgrades or risk losing business to more digitally advanced competitors.",
+      "title": "Robinhood Expands Active Trading Suite with Advanced Agentic AI Tools",
+      "body": "Robinhood unveiled new active trading products and enhanced its agentic AI offerings at the HOOD Summit, targeting sophisticated retail traders. These AI-driven features are expected to attract users from platforms like E*TRADE and Charles Schwab, which currently lack comparable automation and analytics for active traders.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48493/hsbc-rolls-out-new-digital-transaction-banking-platform"
+        "url": "https://www.finextra.com/newsarticle/48507/robinhood-deepens-agentic-ai-offering-in-push-to-become-go-to-place-for-active-traders?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Brite Payments Debuts UK Pay-by-Bank Network After Securing EMI Licence",
-      "body": "Brite Payments launches its Pay-by-Bank network in the UK, using its new EMI licence to offer direct-from-account payments to merchants and consumers. This move increases pressure on established card networks and open banking providers, and UK merchant adoption will directly influence whether Pay-by-Bank can gain meaningful share from entrenched card rails in domestic and cross-border payments.",
+      "title": "UK\u2019s FCA Proposes New Rules for Buy Now, Pay Later Advertising",
+      "body": "The UK Financial Conduct Authority (FCA) has proposed stricter rules for Buy Now, Pay Later (BNPL) advertising, requiring clearer disclosures on costs and risks. BNPL providers such as Klarna and Clearpay will need to update their marketing materials and customer journeys to comply, or risk enforcement actions from the FCA.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48489/brite-payments-brings-international-pay-by-bank-network-to-the-uk"
+        "url": "https://www.finextra.com/newsarticle/48510/fca-proposes-new-rules-for-bnpl-advertising?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Circle and Mission Lane drive stablecoin integration and fintech bank charters, reshaping how banks and fintechs compete in cross-border and credit markets.",
+  "perspective": "Apple Pay\u2019s India launch and Citi\u2019s Swift gpi rollout highlight how global banks and wallet providers are reshaping payments competition in 2024.",
   "curiosity": {
-    "text": "Despite the hype around instant payments, a 2020 ECB survey found that only 14% of euro area consumers even recognized the term 'instant payments.'"
+    "text": "The first credit card transaction took place in 1950 at a New York City restaurant, when Diners Club founder Frank McNamara paid with a cardboard card."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Valley National Bank",
-      "description": "Acquiring fintech Bluevine for $340M",
-      "source_url": "https://www.bankingdive.com/news/valley-national-bank-acquire-fintech-bluevine-340m-small-business-banking/831503/"
+      "type": "fundraising",
+      "company": "Elio Mortgage",
+      "description": "Raised $5.1M in pre-seed funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48495/elio-mortgage-launches-with-51m-in-pre-seed-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Elio Mortgage",
-      "description": "Launched with $5.1M in pre-seed funding",
-      "source_url": "https://www.finextra.com/newsarticle/48495/elio-mortgage-launches-with-51m-in-pre-seed-funding"
+      "company": "Tiny Health",
+      "description": "Raised $33M in Series B funding.",
+      "source_url": "https://news.crunchbase.com/venture/tiny-health-33m-microbiome-tests-sew-hoy/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Robinhood",
-      "description": "Launching perpetuals and weekend stock trading",
-      "source_url": "https://www.theblock.co/news/business/2026-09-29-robinhood-perps-trading-417242"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "regulatory",
-      "company": "Coinbase",
-      "description": "Received DCO approval from CFTC",
-      "source_url": "https://www.theblock.co/news/business/2026-09-28-coinbase-dco-approval-417105"
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Raised $95M fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     }
   ]
 }
