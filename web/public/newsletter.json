@@ -1,71 +1,85 @@
 {
   "news": [
     {
-      "title": "Citi Launches Multi-Market Instant Payments via Swift\u2019s gpi, Raising Stakes for Global Transaction Banks",
-      "body": "Citi has enabled multi-market instant payments for its clients using Swift\u2019s global payments innovation (gpi) rails, allowing access to several cross-border instant payment systems through a single account structure. This strengthens Citi\u2019s position in global payments and compels major correspondent banks such as JPMorgan and Deutsche Bank to accelerate their own instant settlement offerings to remain competitive.",
+      "title": "Stripe Acquires Parafin to Deepen Embedded Finance and Challenge Bank-Fintech Models",
+      "body": "Stripe will acquire Parafin, a provider of embedded financial products, to expand its embedded finance offerings for platforms and marketplaces. Stripe aims to outpace fintechs and banks by bundling lending, payments, and capital solutions directly for its merchant and platform clients. As Stripe integrates Parafin\u2019s technology, banks and fintechs offering similar services risk losing share among vertical SaaS and marketplace ecosystems.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48508/citi-launches-multi-market-instant-payments-on-swift-scheme?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48518/stripe-to-buy-embedded-finance-platform-parafin?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Apple Pay Partners with Axis Bank to Enter India\u2019s Crowded Digital Wallet Market",
-      "body": "Apple Pay is launching in India through a partnership with Axis Bank, entering a market where Google Pay and Paytm currently lead. Apple\u2019s entry will drive wallet providers to compete on exclusive merchant partnerships and loyalty integrations, with Google Pay and Paytm likely to respond by expanding features and incentives to retain users.",
+      "title": "Fiserv and Bank of North Dakota Launch Dollar-Backed Stablecoin Platform",
+      "body": "Fiserv\u2019s digital asset platform now supports the Roughrider Coin, a dollar-backed stablecoin issued by the Bank of North Dakota, making it one of the first US banks to integrate stablecoins into core offerings. Banks and payment processors seeking to retain institutional and commercial clients must quickly develop stablecoin pilots or risk losing business to early movers like Fiserv. As more banks adopt digital assets, US regulators are expected to increase scrutiny of stablecoin integrations.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48512/apple-pay-arrives-in-india?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/fiserv-digital-asset-platform-goes-live-with-bank-of-north-dakota-stablecoin/"
       }
     },
     {
-      "title": "Visa and Lloyds Complete Live Stablecoin Settlement Pilot for Cross-Border Payments",
-      "body": "Visa and Lloyds Banking Group have completed a live pilot using stablecoins for cross-border settlement, aiming for faster and more transparent transactions. This gives both firms a potential edge in the evolving cross-border payments landscape and is likely to prompt UK-based banks such as Barclays and NatWest to explore similar pilots to keep pace with innovation.",
+      "title": "European Payments Groups Form Alliance to Counter Visa and Mastercard Dominance",
+      "body": "A coalition of European payments groups has launched a new network to compete with Visa and Mastercard, aiming to reclaim market share from US card schemes. The alliance plans to lower acceptance costs for merchants and introduce new local payment methods, directly challenging Visa and Mastercard\u2019s transaction volumes and pricing power in Europe. EU policymakers are likely to support the initiative as part of efforts to strengthen payments sovereignty.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48503/visa-and-lloyds-complete-live-trials-of-stablecoin-settlement?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48517/european-payments-groups-join-forces-to-take-on-us-giants?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Robinhood Expands Active Trading Suite with Advanced Agentic AI Tools",
-      "body": "Robinhood unveiled new active trading products and enhanced its agentic AI offerings at the HOOD Summit, targeting sophisticated retail traders. These AI-driven features are expected to attract users from platforms like E*TRADE and Charles Schwab, which currently lack comparable automation and analytics for active traders.",
+      "title": "BMO and Mastercard Roll Out Embedded Virtual Card Payments for Enterprises",
+      "body": "BMO and Mastercard have launched embedded commercial payments in Canada and the US, allowing enterprises to make virtual card payments directly through their software platforms. This integration lets corporates automate payables and streamline reconciliation, raising expectations for commercial payments innovation. Competing banks and SaaS vendors must accelerate their own embedded payment solutions or risk losing enterprise clients to more integrated offerings.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48507/robinhood-deepens-agentic-ai-offering-in-push-to-become-go-to-place-for-active-traders?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payments-innovation/2026/bmo-becomes-first-canadian-issuer-to-deploy-mastercard-embedded-commercial-payments/"
       }
     },
     {
-      "title": "UK\u2019s FCA Proposes New Rules for Buy Now, Pay Later Advertising",
-      "body": "The UK Financial Conduct Authority (FCA) has proposed stricter rules for Buy Now, Pay Later (BNPL) advertising, requiring clearer disclosures on costs and risks. BNPL providers such as Klarna and Clearpay will need to update their marketing materials and customer journeys to comply, or risk enforcement actions from the FCA.",
+      "title": "Ethereum Foundation Debuts zkAPI for Anonymous AI Model Payments",
+      "body": "The Ethereum Foundation has launched zkAPI, enabling users to pay for AI model access anonymously using zero-knowledge proofs. By offering privacy-centric payments for AI and data services, Ethereum expands its utility and sets a new standard for privacy in blockchain payments. Competing blockchain platforms must now invest in advanced privacy features to remain relevant as regulators examine the intersection of anonymous payments and AI.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48510/fca-proposes-new-rules-for-bnpl-advertising?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504"
       }
     }
   ],
-  "perspective": "Apple Pay\u2019s India launch and Citi\u2019s Swift gpi rollout highlight how global banks and wallet providers are reshaping payments competition in 2024.",
+  "perspective": "Stripe\u2019s Parafin acquisition and Fiserv\u2019s stablecoin launch signal a new phase in embedded finance and digital asset adoption across banking and payments.",
   "curiosity": {
-    "text": "The first credit card transaction took place in 1950 at a New York City restaurant, when Diners Club founder Frank McNamara paid with a cardboard card."
+    "text": "The Bank of North Dakota, the only state-owned bank in the US, is now among the first to issue a dollar-backed stablecoin for commercial use."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
+      "company": "Homeward",
+      "description": "Raised $120M Series D to help homeowners buy and sell quickly.",
+      "source_url": "https://news.crunchbase.com/real-estate-property-tech/startup-homeward-raises-120m-buy-sell-homes-ai-financing/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
       "company": "Elio Mortgage",
-      "description": "Raised $5.1M in pre-seed funding.",
+      "description": "Launched with $5.1M in pre-seed funding.",
       "source_url": "https://www.finextra.com/newsarticle/48495/elio-mortgage-launches-with-51m-in-pre-seed-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Tiny Health",
-      "description": "Raised $33M in Series B funding.",
-      "source_url": "https://news.crunchbase.com/venture/tiny-health-33m-microbiome-tests-sew-hoy/"
+      "company": "Atum",
+      "description": "Emerged from stealth with $13.5M funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raised $95M fund for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Argentex",
+      "description": "Raised \u00a37.5M for new fintech venture Tenora.",
+      "source_url": "https://www.finextra.com/newsarticle/48461/argentex-founder-harry-adams-raises-75-million-for-new-startup-tenora?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Portage",
+      "description": "Closed US$600M fintech fund.",
+      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
