@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Stripe Acquires Parafin to Deepen Embedded Finance and Challenge Bank-Fintech Models",
-      "body": "Stripe will acquire Parafin, a provider of embedded financial products, to expand its embedded finance offerings for platforms and marketplaces. Stripe aims to outpace fintechs and banks by bundling lending, payments, and capital solutions directly for its merchant and platform clients. As Stripe integrates Parafin\u2019s technology, banks and fintechs offering similar services risk losing share among vertical SaaS and marketplace ecosystems.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48518/stripe-to-buy-embedded-finance-platform-parafin?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Fiserv and Bank of North Dakota Launch Dollar-Backed Stablecoin Platform",
-      "body": "Fiserv\u2019s digital asset platform now supports the Roughrider Coin, a dollar-backed stablecoin issued by the Bank of North Dakota, making it one of the first US banks to integrate stablecoins into core offerings. Banks and payment processors seeking to retain institutional and commercial clients must quickly develop stablecoin pilots or risk losing business to early movers like Fiserv. As more banks adopt digital assets, US regulators are expected to increase scrutiny of stablecoin integrations.",
+      "title": "ICBA Lawsuit Challenges OCC\u2019s Fast-Track Crypto Bank Charter Policy",
+      "body": "The Independent Community Bankers of America (ICBA) has sued the Office of the Comptroller of the Currency, alleging the OCC is granting crypto firms expedited access to bank charters without subjecting them to the same scrutiny as community banks. This legal challenge targets the OCC\u2019s March 2 rule and could slow or complicate crypto firms\u2019 entry into the regulated banking system. Crypto applicants now face heightened legal and regulatory uncertainty, while community banks seek a more level playing field.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/fiserv-digital-asset-platform-goes-live-with-bank-of-north-dakota-stablecoin/"
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/icba-sues-occ-to-stop-alleged-fast-track-of-crypto-bank-charters/"
       }
     },
     {
-      "title": "European Payments Groups Form Alliance to Counter Visa and Mastercard Dominance",
-      "body": "A coalition of European payments groups has launched a new network to compete with Visa and Mastercard, aiming to reclaim market share from US card schemes. The alliance plans to lower acceptance costs for merchants and introduce new local payment methods, directly challenging Visa and Mastercard\u2019s transaction volumes and pricing power in Europe. EU policymakers are likely to support the initiative as part of efforts to strengthen payments sovereignty.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48517/european-payments-groups-join-forces-to-take-on-us-giants?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "BMO and Mastercard Roll Out Embedded Virtual Card Payments for Enterprises",
-      "body": "BMO and Mastercard have launched embedded commercial payments in Canada and the US, allowing enterprises to make virtual card payments directly through their software platforms. This integration lets corporates automate payables and streamline reconciliation, raising expectations for commercial payments innovation. Competing banks and SaaS vendors must accelerate their own embedded payment solutions or risk losing enterprise clients to more integrated offerings.",
+      "title": "BNY Mellon and Kraken Parent Payward Explore Digital Asset Infrastructure Tie-Up",
+      "body": "BNY Mellon and Payward, parent of crypto exchange Kraken, are in talks to partner on integrating digital assets with traditional financial market infrastructure. If finalized, the deal would expand BNY Mellon's digital asset custody and settlement capabilities, giving it a competitive edge as institutions demand seamless access to both fiat and crypto rails. Rival custodians and infrastructure providers may need to accelerate their own digital asset integrations to keep pace.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payments-innovation/2026/bmo-becomes-first-canadian-issuer-to-deploy-mastercard-embedded-commercial-payments/"
+        "url": "https://www.pymnts.com/partnerships/2026/bny-and-kraken-parent-payward-eye-global-financial-infrastructure-partnership/"
       }
     },
     {
-      "title": "Ethereum Foundation Debuts zkAPI for Anonymous AI Model Payments",
-      "body": "The Ethereum Foundation has launched zkAPI, enabling users to pay for AI model access anonymously using zero-knowledge proofs. By offering privacy-centric payments for AI and data services, Ethereum expands its utility and sets a new standard for privacy in blockchain payments. Competing blockchain platforms must now invest in advanced privacy features to remain relevant as regulators examine the intersection of anonymous payments and AI.",
+      "title": "Fiserv Launches Stablecoin Platform With North Dakota Digital Dollar",
+      "body": "Fiserv has gone live with its digital asset platform, debuting North Dakota\u2019s state-backed stablecoin as the first asset on the system. This move brings stablecoin-enabled payments and banking into commercial production, offering banks and merchants programmable settlement options outside legacy rails. Regional banks and fintechs now have a live reference point for stablecoin adoption, while regulators watch for compliance and risk management standards.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831985/"
+      }
+    },
+    {
+      "title": "Visa Expands Tap-to-Phone Payments to Micro-Merchants in Brazil",
+      "body": "Visa has rolled out its tap-to-phone technology to micro-merchants across Brazil, enabling smartphones to accept contactless payments without additional hardware. This initiative aims to boost digital acceptance among small businesses and informal vendors, potentially accelerating the shift away from cash in underserved markets. Competing card networks and acquirers may respond with similar low-cost acceptance solutions.",
+      "source": {
+        "name": "The Paypers",
+        "url": "https://thepaypers.com/mobile-payments/visa-expands-tap-to-phone-payments-to-micro-merchants-in-brazil--1267892"
+      }
+    },
+    {
+      "title": "Monarch Acquires HMBradley to Expand Digital Banking and PFM Capabilities",
+      "body": "Personal finance platform Monarch has acquired digital banking fintech HMBradley, aiming to deepen its product suite and compete more directly with neobanks and PFM apps. The deal brings deposit and lending features under Monarch\u2019s umbrella, challenging incumbents to match integrated money management and banking experiences. Further consolidation among fintechs is likely as they seek scale and broader customer engagement.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48523/monarch-acquires-hmbradley"
       }
     }
   ],
-  "perspective": "Stripe\u2019s Parafin acquisition and Fiserv\u2019s stablecoin launch signal a new phase in embedded finance and digital asset adoption across banking and payments.",
+  "perspective": "ICBA\u2019s lawsuit against the OCC and Fiserv\u2019s stablecoin launch highlight intensifying competition and regulatory scrutiny in digital banking and payments.",
   "curiosity": {
-    "text": "The Bank of North Dakota, the only state-owned bank in the US, is now among the first to issue a dollar-backed stablecoin for commercial use."
+    "text": "Despite NEFT\u2019s 24/7 availability, settlement batches in India still occur every half hour, a legacy of its origins as a business-hours-only system."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "fundraising",
-      "company": "Homeward",
-      "description": "Raised $120M Series D to help homeowners buy and sell quickly.",
-      "source_url": "https://news.crunchbase.com/real-estate-property-tech/startup-homeward-raises-120m-buy-sell-homes-ai-financing/"
+      "company": "NG.Cash",
+      "description": "Raised $15M for expanding credit and crypto services.",
+      "source_url": "https://www.finextra.com/newsarticle/48527/youtuber-raises-15m-for-brazils-cash-app"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Elio Mortgage",
-      "description": "Launched with $5.1M in pre-seed funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48495/elio-mortgage-launches-with-51m-in-pre-seed-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Atum",
-      "description": "Emerged from stealth with $13.5M funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Argentex",
-      "description": "Raised \u00a37.5M for new fintech venture Tenora.",
-      "source_url": "https://www.finextra.com/newsarticle/48461/argentex-founder-harry-adams-raises-75-million-for-new-startup-tenora?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "M&A",
+      "company": "Parafin",
+      "description": "Acquired by Stripe to enhance embedded finance offerings.",
+      "source_url": "https://www.bankingdive.com/news/stripe-swallows-parafin/831986/"
     },
     {
       "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "fundraising",
-      "company": "Portage",
-      "description": "Closed US$600M fintech fund.",
-      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "type": "expansion",
+      "company": "BMO",
+      "description": "Joined Project Agor\u00e1 to explore tokenization in cross-border payments.",
+      "source_url": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "AWS",
+      "description": "Launched AI agent for cloud environment audits.",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/aws-launches-ai-agent-to-audit-customer-cloud-environments/"
     }
   ]
 }
