@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "ICBA Lawsuit Challenges OCC\u2019s Fast-Track Crypto Bank Charter Policy",
-      "body": "The Independent Community Bankers of America (ICBA) has sued the Office of the Comptroller of the Currency, alleging the OCC is granting crypto firms expedited access to bank charters without subjecting them to the same scrutiny as community banks. This legal challenge targets the OCC\u2019s March 2 rule and could slow or complicate crypto firms\u2019 entry into the regulated banking system. Crypto applicants now face heightened legal and regulatory uncertainty, while community banks seek a more level playing field.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/bank-regulation/2026/icba-sues-occ-to-stop-alleged-fast-track-of-crypto-bank-charters/"
-      }
-    },
-    {
-      "title": "BNY Mellon and Kraken Parent Payward Explore Digital Asset Infrastructure Tie-Up",
-      "body": "BNY Mellon and Payward, parent of crypto exchange Kraken, are in talks to partner on integrating digital assets with traditional financial market infrastructure. If finalized, the deal would expand BNY Mellon's digital asset custody and settlement capabilities, giving it a competitive edge as institutions demand seamless access to both fiat and crypto rails. Rival custodians and infrastructure providers may need to accelerate their own digital asset integrations to keep pace.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/partnerships/2026/bny-and-kraken-parent-payward-eye-global-financial-infrastructure-partnership/"
-      }
-    },
-    {
-      "title": "Fiserv Launches Stablecoin Platform With North Dakota Digital Dollar",
-      "body": "Fiserv has gone live with its digital asset platform, debuting North Dakota\u2019s state-backed stablecoin as the first asset on the system. This move brings stablecoin-enabled payments and banking into commercial production, offering banks and merchants programmable settlement options outside legacy rails. Regional banks and fintechs now have a live reference point for stablecoin adoption, while regulators watch for compliance and risk management standards.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831985/"
-      }
-    },
-    {
-      "title": "Visa Expands Tap-to-Phone Payments to Micro-Merchants in Brazil",
-      "body": "Visa has rolled out its tap-to-phone technology to micro-merchants across Brazil, enabling smartphones to accept contactless payments without additional hardware. This initiative aims to boost digital acceptance among small businesses and informal vendors, potentially accelerating the shift away from cash in underserved markets. Competing card networks and acquirers may respond with similar low-cost acceptance solutions.",
-      "source": {
-        "name": "The Paypers",
-        "url": "https://thepaypers.com/mobile-payments/visa-expands-tap-to-phone-payments-to-micro-merchants-in-brazil--1267892"
-      }
-    },
-    {
-      "title": "Monarch Acquires HMBradley to Expand Digital Banking and PFM Capabilities",
-      "body": "Personal finance platform Monarch has acquired digital banking fintech HMBradley, aiming to deepen its product suite and compete more directly with neobanks and PFM apps. The deal brings deposit and lending features under Monarch\u2019s umbrella, challenging incumbents to match integrated money management and banking experiences. Further consolidation among fintechs is likely as they seek scale and broader customer engagement.",
+      "title": "BMO and Mastercard Integrate Virtual Card Payments Into Corporate Software Platforms",
+      "body": "BMO and Mastercard have launched a new capability allowing corporate clients to manage virtual card payments directly within their existing software platforms. This strengthens BMO\u2019s position in corporate payments and gives Mastercard deeper integration with enterprise workflows. Competing banks and card networks may need to accelerate their own embedded virtual card offerings to keep pace.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48523/monarch-acquires-hmbradley"
+        "url": "https://www.finextra.com/pressarticle/111110/bmo-and-mastercard-enable-corporate-card-clients-to-manage-virtual-card-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Nayax Acquires IPS Group for $350M to Expand Smart Parking Payments Platform",
+      "body": "Nayax has acquired smart parking company IPS Group for $350 million, aiming to lead in integrated parking and payment solutions. The deal expands Nayax\u2019s commerce enablement platform into the smart mobility sector, challenging legacy parking operators and payment processors. Further consolidation is likely as payments and IoT converge in urban infrastructure.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/111116/nayax-completes-acquisition-of-smart-parking-company-ips-group?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "ECB Proposes Three Onchain Models for Central Bank Money Settlement",
+      "body": "The European Central Bank has outlined three models for integrating central bank money onchain, including interoperable ledgers and tokenized settlement. The ECB plans to consult with banks and market infrastructures on technical standards and regulatory changes, which could reshape how wholesale payments are settled across Europe.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-02-ecb-outlines-three-models-for-putting-central-bank-money-onchain-417552"
+      }
+    },
+    {
+      "title": "Lloyds Survey: 71% of UK Financial Institutions Expect Tokenisation to Transform Sector",
+      "body": "A Lloyds survey finds that 71% of UK financial institutions believe tokenisation will reshape financial services, driving new product innovation and competition. This broad institutional consensus points to rising investment in tokenisation technologies and a likely surge in pilot projects across payments, lending, and capital markets. Regulators and incumbents will need to clarify standards as tokenised assets move toward mainstream adoption.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48526/lloyds-survey-reveals-71-of-uk-fis-believe-tokenisation-will-reshape-financial-services?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Mosaic Processing Calls on Platforms to Reassess Payment Acceptance Costs",
+      "body": "Mosaic Processing is urging software platforms to review their payment acceptance integrations, highlighting opportunities for cost savings and improved customer satisfaction. This push may prompt software platforms to renegotiate terms with payment processors to secure lower fees and better integration, directly impacting processor revenues and platform competitiveness.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/111109/mosaic-processing-asks-software-platforms-to-examine-payment-costs?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "ICBA\u2019s lawsuit against the OCC and Fiserv\u2019s stablecoin launch highlight intensifying competition and regulatory scrutiny in digital banking and payments.",
+  "perspective": "ECB\u2019s onchain settlement models and Mosaic\u2019s call for cost reviews show banks and platforms are rethinking infrastructure and economics in payments.",
   "curiosity": {
-    "text": "Despite NEFT\u2019s 24/7 availability, settlement batches in India still occur every half hour, a legacy of its origins as a business-hours-only system."
+    "text": "The first virtual credit card was introduced in 2000, enabling online shoppers to generate single-use card numbers for added security in digital payments."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "fundraising",
       "company": "NG.Cash",
-      "description": "Raised $15M for expanding credit and crypto services.",
-      "source_url": "https://www.finextra.com/newsarticle/48527/youtuber-raises-15m-for-brazils-cash-app"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Parafin",
-      "description": "Acquired by Stripe to enhance embedded finance offerings.",
-      "source_url": "https://www.bankingdive.com/news/stripe-swallows-parafin/831986/"
+      "description": "Raised $15M for 'Brazilian Cash App' targeting young, unbanked population",
+      "source_url": "https://www.finextra.com/newsarticle/48527/youtuber-raises-15m-for-brazils-cash-app?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "expansion",
-      "company": "BMO",
-      "description": "Joined Project Agor\u00e1 to explore tokenization in cross-border payments.",
-      "source_url": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor"
+      "type": "fundraising",
+      "company": "Portage",
+      "description": "Closed $600M fintech fund for Canadian VC firm",
+      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "AWS",
-      "description": "Launched AI agent for cloud environment audits.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/aws-launches-ai-agent-to-audit-customer-cloud-environments/"
+      "type": "fundraising",
+      "company": "Atum",
+      "description": "Emerged from stealth with $13.5M for open payments network",
+      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Elio Mortgage",
+      "description": "Launched with $5.1M in pre-seed funding for AI-native mortgage solutions",
+      "source_url": "https://www.finextra.com/newsarticle/48495/elio-mortgage-launches-with-51m-in-pre-seed-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Quartz",
+      "description": "Raised \u00a32.7M to launch wealth management app",
+      "source_url": "https://www.finextra.com/newsarticle/48415/former-revolut-and-n26-alumni-raise-27-million-to-launch-wealth-management-app?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Fin.com",
+      "description": "Emerged from stealth with $20M for payments infrastructure startup",
+      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
