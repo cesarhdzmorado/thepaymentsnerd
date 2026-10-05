@@ -1,92 +1,85 @@
 {
   "news": [
     {
-      "title": "BMO and Mastercard Integrate Virtual Card Payments Into Corporate Software Platforms",
-      "body": "BMO and Mastercard have launched a new capability allowing corporate clients to manage virtual card payments directly within their existing software platforms. This strengthens BMO\u2019s position in corporate payments and gives Mastercard deeper integration with enterprise workflows. Competing banks and card networks may need to accelerate their own embedded virtual card offerings to keep pace.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111110/bmo-and-mastercard-enable-corporate-card-clients-to-manage-virtual-card-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Nayax Acquires IPS Group for $350M to Expand Smart Parking Payments Platform",
-      "body": "Nayax has acquired smart parking company IPS Group for $350 million, aiming to lead in integrated parking and payment solutions. The deal expands Nayax\u2019s commerce enablement platform into the smart mobility sector, challenging legacy parking operators and payment processors. Further consolidation is likely as payments and IoT converge in urban infrastructure.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111116/nayax-completes-acquisition-of-smart-parking-company-ips-group?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "ECB Proposes Three Onchain Models for Central Bank Money Settlement",
-      "body": "The European Central Bank has outlined three models for integrating central bank money onchain, including interoperable ledgers and tokenized settlement. The ECB plans to consult with banks and market infrastructures on technical standards and regulatory changes, which could reshape how wholesale payments are settled across Europe.",
+      "title": "OKX and ICE Seek SEC Green Light for Tokenized US Stock Trading Platform",
+      "body": "OKX and NYSE parent ICE have announced plans to launch a US-based trading venue for tokenized securities, pending SEC approval under the innovation exemption. If granted, the platform would let investors trade blockchain-based representations of US stocks, potentially reducing settlement times and operational costs. The SEC\u2019s decision will shape how quickly digital asset rails can challenge traditional exchanges and brokers.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-10-02-ecb-outlines-three-models-for-putting-central-bank-money-onchain-417552"
+        "url": "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613"
       }
     },
     {
-      "title": "Lloyds Survey: 71% of UK Financial Institutions Expect Tokenisation to Transform Sector",
-      "body": "A Lloyds survey finds that 71% of UK financial institutions believe tokenisation will reshape financial services, driving new product innovation and competition. This broad institutional consensus points to rising investment in tokenisation technologies and a likely surge in pilot projects across payments, lending, and capital markets. Regulators and incumbents will need to clarify standards as tokenised assets move toward mainstream adoption.",
+      "title": "Revolut Launches Facial Recognition Payments for UK Customers",
+      "body": "Revolut has introduced facial recognition payments in the UK, allowing users to authenticate transactions with a biometric scan. This feature aims to enhance payment security and convenience, setting a new standard for digital wallet experiences. UK banks and fintechs may need to accelerate biometric adoption to retain tech-savvy customers as privacy and data protection debates intensify.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48526/lloyds-survey-reveals-71-of-uk-fis-believe-tokenisation-will-reshape-financial-services?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-facial-recognition-face-payments-pay-with-smile/"
       }
     },
     {
-      "title": "Mosaic Processing Calls on Platforms to Reassess Payment Acceptance Costs",
-      "body": "Mosaic Processing is urging software platforms to review their payment acceptance integrations, highlighting opportunities for cost savings and improved customer satisfaction. This push may prompt software platforms to renegotiate terms with payment processors to secure lower fees and better integration, directly impacting processor revenues and platform competitiveness.",
+      "title": "Nubank Halts Monzo Acquisition Talks Amid Market Volatility",
+      "body": "Nubank has paused its acquisition discussions with Monzo after a significant drop in its own share price, citing market volatility and the need to reassess capital allocation. The move stalls Nubank\u2019s plans for European expansion and leaves Monzo exploring other strategic options. Both fintechs face uncertainty as they monitor market conditions and reconsider cross-border growth strategies.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111109/mosaic-processing-asks-software-platforms-to-examine-payment-costs?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/nubank-halts-monzo-acquisition-talks-after-sales-plunge/"
+      }
+    },
+    {
+      "title": "Tokenized Securities Venture Faces SEC Scrutiny Over Investor Protections and Custody Rules",
+      "body": "The OKX-ICE joint venture\u2019s US tokenized stock trading proposal is under SEC review, with regulators focusing on investor protection standards and digital asset custody requirements. Traditional exchanges and digital asset firms must address compliance with existing securities laws and demonstrate robust safeguards before tokenized trading can scale in regulated markets.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613"
+      }
+    },
+    {
+      "title": "Biometric Payments Threaten PIN and Password Dominance in UK Digital Wallets",
+      "body": "Revolut\u2019s facial recognition payments enable users to bypass PINs and passwords, streamlining in-store and online transactions. As biometric authentication becomes more prevalent, UK banks and fintechs may see a rapid shift in consumer expectations, prompting a decline in traditional credential-based payment methods and driving industry-wide upgrades to biometric infrastructure.",
+      "source": {
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-facial-recognition-face-payments-pay-with-smile/"
       }
     }
   ],
-  "perspective": "ECB\u2019s onchain settlement models and Mosaic\u2019s call for cost reviews show banks and platforms are rethinking infrastructure and economics in payments.",
+  "perspective": "SEC scrutiny of OKX-ICE and Revolut\u2019s biometric rollout signal regulatory and competitive turning points for tokenized securities and UK digital payments.",
   "curiosity": {
-    "text": "The first virtual credit card was introduced in 2000, enabling online shoppers to generate single-use card numbers for added security in digital payments."
+    "text": "In 2004, PayPal introduced its 'PayPal Here' service, allowing merchants to accept payments via mobile devices, effectively laying the groundwork for today's mobile point-of-sale systems and shaping the future of retail payments."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "NG.Cash",
-      "description": "Raised $15M for 'Brazilian Cash App' targeting young, unbanked population",
-      "source_url": "https://www.finextra.com/newsarticle/48527/youtuber-raises-15m-for-brazils-cash-app?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "fundraising",
-      "company": "Portage",
-      "description": "Closed $600M fintech fund for Canadian VC firm",
-      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Instinct",
+      "description": "Instinct raises $1 billion for AI assistant development.",
+      "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Atum",
-      "description": "Emerged from stealth with $13.5M for open payments network",
-      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Homeward",
+      "description": "Homeward secures $120M Series D for real estate tech expansion.",
+      "source_url": "https://news.crunchbase.com/real-estate-property-tech/startup-homeward-raises-120m-buy-sell-homes-ai-financing/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Elio Mortgage",
-      "description": "Launched with $5.1M in pre-seed funding for AI-native mortgage solutions",
-      "source_url": "https://www.finextra.com/newsarticle/48495/elio-mortgage-launches-with-51m-in-pre-seed-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Quartz",
-      "description": "Raised \u00a32.7M to launch wealth management app",
-      "source_url": "https://www.finextra.com/newsarticle/48415/former-revolut-and-n26-alumni-raise-27-million-to-launch-wealth-management-app?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Tiny Health",
+      "description": "Tiny Health raises $33M Series B for microbiome testing.",
+      "source_url": "https://news.crunchbase.com/venture/tiny-health-33m-microbiome-tests-sew-hoy/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Fin.com",
-      "description": "Emerged from stealth with $20M for payments infrastructure startup",
-      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Collide Capital",
+      "description": "Collide Capital closes $95M fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "MAVI",
+      "description": "MAVI emerges from stealth with $4M for AI-driven accounting.",
+      "source_url": "https://techcrunch.com/2026/09/28/mavi-bets-on-the-ai-boom-creating-demand-for-a-new-kind-of-accountant/"
     }
   ]
 }
