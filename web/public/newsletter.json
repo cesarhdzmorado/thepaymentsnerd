@@ -1,71 +1,64 @@
 {
   "news": [
     {
-      "title": "ANZ Executes Live Cross-Border Tokenised Deposit Payment on Swift Blockchain Ledger",
-      "body": "Australia\u2019s ANZ completed a live corporate treasury transaction using tokenised deposits and Swift\u2019s blockchain ledger, integrating blockchain into mainstream banking operations. ANZ positions itself as a leader among traditional banks in blockchain adoption for treasury and cross-border payments, putting direct pressure on rivals to accelerate their own blockchain initiatives or risk losing institutional clients seeking programmable money solutions.",
+      "title": "JPMorgan Chase Tops Evident AI Index, Setting Benchmark for Banking AI Deployment",
+      "body": "Evident AI Index named JPMorgan Chase the world's most AI-advanced bank, citing its deep integration of AI across operations. This sets a new standard for global banks and fintechs, pushing them to accelerate AI investments to remain competitive in efficiency and customer experience. Rivals now face increased urgency to deliver AI-driven products and automation.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48542/jpmorgan-chase-extends-lead-as-worlds-most-ai-advanced-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "TikTok Launches In-App Checkout and AI Shopping Assistant for Social Commerce",
-      "body": "TikTok has rolled out Buy Direct, an in-app checkout solution, alongside an AI-powered shopping assistant, embedding agentic commerce directly into its platform. TikTok threatens traditional e-commerce players by shifting shopping and payments into the social media environment, where it controls both discovery and transaction. Instagram and YouTube must now accelerate their own embedded commerce strategies or risk losing merchant and consumer engagement.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/commerce/social-commerce/2026/tiktok-kicks-off-agentic-commerce-push-with-ai-shopping-assistant/"
-      }
-    },
-    {
-      "title": "Anchorage Digital and Standard Chartered Partner to Expand Institutional Crypto Access",
-      "body": "Anchorage Digital has partnered with Standard Chartered to provide USD accounts and Swift wire access for non-US institutional clients, broadening its global digital asset custody services. This partnership enhances Anchorage\u2019s appeal to institutions seeking regulated, bank-integrated crypto solutions. Competing custody providers must now match these global banking integrations or risk losing share among multinational asset managers and funds.",
+      "title": "Plaid Unveils AI Models to Boost Credit, Fraud, and Payment Risk Analytics",
+      "body": "Plaid launched new AI models to help financial firms improve lending decisions, detect fraud, and manage payment risk. Banks and fintechs seeking to strengthen risk controls and comply with evolving regulations are likely to adopt these tools quickly, raising the bar for open banking and analytics competitors. Plaid\u2019s move intensifies the race for advanced risk management solutions.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48535/anchorage-digital-expands-global-services-with-standard-chartered?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48545/plaid-launches-credit-fraud-and-payment-risk-ai-models?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Visa and CoinShares Report Surging Stablecoin Demand Among Asia Pacific Investors",
-      "body": "Surveys from Visa and CoinShares show rising appetite for stablecoins and digital assets among consumers and affluent investors in Asia Pacific. Banks and fintechs in the region are expanding crypto product offerings to capture this demand, intensifying competition for digital asset flows. Regulators in Singapore and Hong Kong are now accelerating work on stablecoin frameworks to address institutional and retail adoption.",
+      "title": "Revolut Pursues Philippines Banking License, Targeting Southeast Asia Expansion",
+      "body": "Revolut is seeking a banking license in the Philippines as part of its Southeast Asia expansion, directly challenging local banks and fintechs for digital deposits and payments. This move signals a shift as more international fintechs target regulatory approval in the region, prompting incumbents to accelerate digital transformation and defend market share.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48540/revolut-eyes-philippines-bank-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Circle, Ripple, and Standard Chartered Back OKX at $25B Valuation",
+      "body": "Crypto exchange OKX secured investment from Circle, Ripple, and Standard Chartered, raising its valuation to $25 billion. This support boosts OKX\u2019s credibility and signals growing institutional confidence in regulated digital asset platforms. Major exchanges like Binance and Coinbase are likely to pursue similar partnerships to strengthen their positions and expand payment capabilities.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48543/circle-ripple-and-standard-chartered-invest-in-okx?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "Spiko Raises $90M to Scale Tokenized Cash Funds Across New Markets",
+      "body": "Spiko closed a $90 million Series B to expand its tokenized cash fund business and enter new markets. The funding enables Spiko to compete for institutional and corporate clients seeking programmable, onchain cash management. As tokenized assets gain traction, established asset managers and fintechs are accelerating their own product launches to keep pace.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-10-05-visa-coinshares-find-growing-crypto-appetite-among-consumers-and-affluent-investors-417642"
-      }
-    },
-    {
-      "title": "Basware Acquires Trustpair to Bolster Payment Fraud Prevention in Invoice Management",
-      "body": "Basware has acquired Trustpair, a payment fraud prevention platform, to enhance its invoice lifecycle management suite. This acquisition enhances Basware\u2019s competitive position in the payment fraud prevention market and prompts invoice automation vendors to invest in integrated fraud controls as enterprise clients demand end-to-end risk mitigation.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48532/basware-buys-payment-fraud-prevention-platform-trustpair?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.theblock.co/news/business/2026-10-06-spiko-raises-90-million-to-expand-tokenized-cash-funds-across-markets-417774"
       }
     }
   ],
-  "perspective": "ANZ and TikTok headline a week of banks and platforms racing to integrate blockchain, crypto, and embedded commerce.",
+  "perspective": "JPMorgan\u2019s AI lead and OKX\u2019s $25B investment round spotlight the race for innovation in banking and digital assets.",
   "curiosity": {
-    "text": "TikTok\u2019s parent company, ByteDance, generated more global e-commerce revenue in 2023 than eBay, despite launching its shopping features only a few years prior."
+    "text": "The first ATM, installed in 1967 in London, used paper vouchers instead of plastic cards and required a special code for each withdrawal."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddeb\ud83c\uddee",
       "type": "fundraising",
-      "company": "Umia",
-      "description": "Raised $6.1M to help crypto projects launch tokens.",
-      "source_url": "https://www.theblock.co/news/business/2026-10-05-umia-raises-6-1-million-at-18-million-fdv-to-help-crypto-projects-launch-tokens-417717"
+      "company": "Comparables.ai",
+      "description": "Comparables.ai raises $6 million in seed funding.",
+      "source_url": "https://www.finextra.com/newsarticle/48544/ma-intelligence-platform-comparablesai-raises-6m?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
-      "flag": "\ud83c\uddf5\ud83c\udded",
-      "type": "IPO",
-      "company": "Mynt",
-      "description": "Valued at $7bn for upcoming IPO, largest in Philippines.",
-      "source_url": "https://www.finextra.com/newsarticle/48531/mynt-valued-at-7bn-for-upcoming-ipo?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Constructor",
-      "description": "Launched Agentic Checkout integrating Stripe for seamless shopping.",
-      "source_url": "https://www.finextra.com/pressarticle/111119/constructor-launches-agentic-payment-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "M&A",
+      "company": "Personio",
+      "description": "Personio acquires spend management platform Circula.",
+      "source_url": "https://www.finextra.com/newsarticle/48539/personio-acquires-spend-management-platform-circula?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
