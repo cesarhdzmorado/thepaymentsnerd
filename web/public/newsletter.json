@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "JPMorgan Chase Tops Evident AI Index, Setting Benchmark for Banking AI Deployment",
-      "body": "Evident AI Index named JPMorgan Chase the world's most AI-advanced bank, citing its deep integration of AI across operations. This sets a new standard for global banks and fintechs, pushing them to accelerate AI investments to remain competitive in efficiency and customer experience. Rivals now face increased urgency to deliver AI-driven products and automation.",
+      "title": "Ripple and Brevan Howard Partner on Blockchain Prime Brokerage for Institutional Clients",
+      "body": "Ripple has signed an agreement with Brevan Howard to provide blockchain-based prime brokerage and financing services, according to PYMNTS. This partnership brings Ripple\u2019s digital asset infrastructure into the institutional finance space, offering hedge funds and asset managers new access to tokenized assets. Competing prime brokers and custodians, such as BNY Mellon and State Street, may respond by evaluating blockchain integrations to retain institutional clients. Other asset managers are likely to explore similar partnerships as tokenized finance gains traction.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48542/jpmorgan-chase-extends-lead-as-worlds-most-ai-advanced-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/ripple-wins-wall-street-business-with-brevan-howard-deal/"
       }
     },
     {
-      "title": "Plaid Unveils AI Models to Boost Credit, Fraud, and Payment Risk Analytics",
-      "body": "Plaid launched new AI models to help financial firms improve lending decisions, detect fraud, and manage payment risk. Banks and fintechs seeking to strengthen risk controls and comply with evolving regulations are likely to adopt these tools quickly, raising the bar for open banking and analytics competitors. Plaid\u2019s move intensifies the race for advanced risk management solutions.",
+      "title": "North Dakota\u2019s State Stablecoin Accelerates Settlement for Regional Banks",
+      "body": "The Bank of North Dakota\u2019s Roughrider Coin is enabling faster settlement for local banks, marking a rare state-backed stablecoin deployment in the US. Regional banks can now clear payments more quickly, potentially attracting new business from commercial clients. In response, national banks and payment processors may pilot their own digital currency initiatives or partner with fintechs to maintain competitive settlement speeds.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48545/plaid-launches-credit-fraud-and-payment-risk-ai-models?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/north-dakota-lenders-report-faster-settlement-with-state-banks-stablecoin/"
       }
     },
     {
-      "title": "Revolut Pursues Philippines Banking License, Targeting Southeast Asia Expansion",
-      "body": "Revolut is seeking a banking license in the Philippines as part of its Southeast Asia expansion, directly challenging local banks and fintechs for digital deposits and payments. This move signals a shift as more international fintechs target regulatory approval in the region, prompting incumbents to accelerate digital transformation and defend market share.",
+      "title": "Noah Raises $38M to Expand Stablecoin Payments for B2B and Cross-Border Transactions",
+      "body": "Noah has raised $38 million in seed funding to grow its stablecoin payments platform, focusing on B2B and cross-border use cases. With this funding, Noah aims to challenge established players like Circle and Stripe by building programmable money solutions for enterprises. Large payment processors and fintechs may accelerate product development or seek partnerships to defend their market share as new entrants like Noah gain traction.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48540/revolut-eyes-philippines-bank-licence?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48548/noah-raises-38m-for-stablecoin-payments-platform"
       }
     },
     {
-      "title": "Circle, Ripple, and Standard Chartered Back OKX at $25B Valuation",
-      "body": "Crypto exchange OKX secured investment from Circle, Ripple, and Standard Chartered, raising its valuation to $25 billion. This support boosts OKX\u2019s credibility and signals growing institutional confidence in regulated digital asset platforms. Major exchanges like Binance and Coinbase are likely to pursue similar partnerships to strengthen their positions and expand payment capabilities.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48543/circle-ripple-and-standard-chartered-invest-in-okx?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Spiko Raises $90M to Scale Tokenized Cash Funds Across New Markets",
-      "body": "Spiko closed a $90 million Series B to expand its tokenized cash fund business and enter new markets. The funding enables Spiko to compete for institutional and corporate clients seeking programmable, onchain cash management. As tokenized assets gain traction, established asset managers and fintechs are accelerating their own product launches to keep pace.",
+      "title": "Samsung to Enable USDC Transfers on Solana for Galaxy Smartphone Users",
+      "body": "Samsung will soon allow US Galaxy smartphone users to transfer USDC on Solana directly within the Galaxy wallet. This move positions Samsung ahead of Apple Pay and Google Pay in supporting stablecoin payments on mobile devices. Competing smartphone manufacturers may accelerate their crypto wallet integrations to keep pace with Samsung\u2019s digital currency features.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-10-06-spiko-raises-90-million-to-expand-tokenized-cash-funds-across-markets-417774"
+        "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004"
+      }
+    },
+    {
+      "title": "Vitalik Buterin Warns of AI-Driven Cryptography Risks in Wallet Migration",
+      "body": "Ethereum co-founder Vitalik Buterin cautioned users about migrating wallets too quickly, highlighting new AI threats to cryptographic security. Wallet providers and crypto exchanges must now invest in advanced security protocols to counter AI-powered attacks. This warning could slow the adoption of new wallet formats and prompt research into post-quantum and AI-resistant cryptography.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007"
       }
     }
   ],
-  "perspective": "JPMorgan\u2019s AI lead and OKX\u2019s $25B investment round spotlight the race for innovation in banking and digital assets.",
+  "perspective": "Ripple\u2019s Brevan Howard deal and North Dakota\u2019s stablecoin show institutional and state actors accelerating digital asset adoption.",
   "curiosity": {
-    "text": "The first ATM, installed in 1967 in London, used paper vouchers instead of plastic cards and required a special code for each withdrawal."
+    "text": "The Federal Reserve\u2019s 1975 launch of Electronic Funds Transfer (EFT) laid the groundwork for today\u2019s instant payments, enabling banks to process transactions without paper checks."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
       "type": "fundraising",
-      "company": "Comparables.ai",
-      "description": "Comparables.ai raises $6 million in seed funding.",
-      "source_url": "https://www.finextra.com/newsarticle/48544/ma-intelligence-platform-comparablesai-raises-6m?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "Spiko",
+      "description": "raises $90M in Series B backed by Index Ventures",
+      "source_url": "https://sifted.eu/articles/spiko-series-b-fundraise-index-speedinvest/"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "M&A",
       "company": "Personio",
-      "description": "Personio acquires spend management platform Circula.",
-      "source_url": "https://www.finextra.com/newsarticle/48539/personio-acquires-spend-management-platform-circula?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "acquired spend management platform Circula",
+      "source_url": "https://www.finextra.com/newsarticle/48539/personio-acquires-spend-management-platform-circula"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Capitolis",
+      "description": "raises $220M for eSecLending acquisition",
+      "source_url": "https://www.finextra.com/newsarticle/48546/capitolis-raises-220m-for-eseclending-acquisition"
+    },
+    {
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "type": "fundraising",
+      "company": "Comparables.ai",
+      "description": "raises $6M for M&A intelligence platform",
+      "source_url": "https://www.finextra.com/newsarticle/48544/ma-intelligence-platform-comparablesai-raises-6m"
     }
   ]
 }
