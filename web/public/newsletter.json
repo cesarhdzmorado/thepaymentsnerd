@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Ripple and Brevan Howard Partner on Blockchain Prime Brokerage for Institutional Clients",
-      "body": "Ripple has signed an agreement with Brevan Howard to provide blockchain-based prime brokerage and financing services, according to PYMNTS. This partnership brings Ripple\u2019s digital asset infrastructure into the institutional finance space, offering hedge funds and asset managers new access to tokenized assets. Competing prime brokers and custodians, such as BNY Mellon and State Street, may respond by evaluating blockchain integrations to retain institutional clients. Other asset managers are likely to explore similar partnerships as tokenized finance gains traction.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/ripple-wins-wall-street-business-with-brevan-howard-deal/"
-      }
-    },
-    {
-      "title": "North Dakota\u2019s State Stablecoin Accelerates Settlement for Regional Banks",
-      "body": "The Bank of North Dakota\u2019s Roughrider Coin is enabling faster settlement for local banks, marking a rare state-backed stablecoin deployment in the US. Regional banks can now clear payments more quickly, potentially attracting new business from commercial clients. In response, national banks and payment processors may pilot their own digital currency initiatives or partner with fintechs to maintain competitive settlement speeds.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/north-dakota-lenders-report-faster-settlement-with-state-banks-stablecoin/"
-      }
-    },
-    {
-      "title": "Noah Raises $38M to Expand Stablecoin Payments for B2B and Cross-Border Transactions",
-      "body": "Noah has raised $38 million in seed funding to grow its stablecoin payments platform, focusing on B2B and cross-border use cases. With this funding, Noah aims to challenge established players like Circle and Stripe by building programmable money solutions for enterprises. Large payment processors and fintechs may accelerate product development or seek partnerships to defend their market share as new entrants like Noah gain traction.",
+      "title": "Mastercard Pilots Offline Payments in Europe, Raising Stakes for Card Networks",
+      "body": "Mastercard has begun piloting offline payment capabilities in select European markets, allowing transactions to process even when connectivity is lost. Merchants can continue accepting payments during network outages, reducing lost sales and operational disruptions. Mastercard\u2019s move prompts banks and payment service providers to upgrade infrastructure, while Visa faces direct competitive pressure to match the feature. Regulators may evaluate whether to encourage broader adoption of offline standards.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48548/noah-raises-38m-for-stablecoin-payments-platform"
+        "url": "https://www.finextra.com/newsarticle/48560/mastercard-to-enable-offline-payments-across-europe?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Samsung to Enable USDC Transfers on Solana for Galaxy Smartphone Users",
-      "body": "Samsung will soon allow US Galaxy smartphone users to transfer USDC on Solana directly within the Galaxy wallet. This move positions Samsung ahead of Apple Pay and Google Pay in supporting stablecoin payments on mobile devices. Competing smartphone manufacturers may accelerate their crypto wallet integrations to keep pace with Samsung\u2019s digital currency features.",
+      "title": "TrueLayer Raises $27M to Expand Pay by Bank, Challenging Card Dominance",
+      "body": "TrueLayer has raised $27 million to expand its Pay by Bank network across Europe, with support from CDP Venture Capital. The investment enables banks and fintechs to offer direct account-to-account payments, giving merchants a lower-cost alternative to card payments and reducing reliance on Visa and Mastercard. Merchants can expect lower interchange fees and faster settlement, while card networks must respond to growing competition from open banking solutions.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48559/truelayer-raises-27m-to-scale-pay-by-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "Vitalik Buterin Warns of AI-Driven Cryptography Risks in Wallet Migration",
-      "body": "Ethereum co-founder Vitalik Buterin cautioned users about migrating wallets too quickly, highlighting new AI threats to cryptographic security. Wallet providers and crypto exchanges must now invest in advanced security protocols to counter AI-powered attacks. This warning could slow the adoption of new wallet formats and prompt research into post-quantum and AI-resistant cryptography.",
+      "title": "Anyflo Launches Stablecoin Payments Platform, Acquires Native for B2B Growth",
+      "body": "Anyflo has launched a stablecoin payments orchestration platform and acquired bitcoin lending startup Native to expand its enterprise offering. By integrating stablecoin payments and lending, Anyflo enables businesses to streamline cross-border transactions and treasury management. Enterprises gain new tools for efficient settlement, while established providers like Circle and PayPal face increased competition for B2B clients. The acquisition signals growing demand for stablecoin solutions among corporates.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "JPMorgan Estimates $50 Billion in Crypto Inflows for 2026, Signaling Institutional Momentum",
+      "body": "JPMorgan analysts report that $50 billion has entered digital assets so far in 2026, driven by institutional investors increasing allocations to crypto. This influx boosts liquidity for exchanges and asset managers, while prompting regulators to scrutinize market practices more closely. Asset managers and custodians are expanding crypto product offerings to meet institutional demand, reshaping the competitive landscape for digital asset services.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007"
+        "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115"
+      }
+    },
+    {
+      "title": "Amex Fined $350M by Fed and OCC for Anti-Money Laundering Failures",
+      "body": "American Express received a $350 million fine from the Federal Reserve and OCC for shortcomings in its anti-money laundering controls. The penalty affects Amex\u2019s financial results and reputation, while competitors may attract clients seeking stronger compliance. The enforcement action highlights regulators\u2019 focus on AML standards, prompting banks and fintechs to review and strengthen their own compliance programs.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832570/"
       }
     }
   ],
-  "perspective": "Ripple\u2019s Brevan Howard deal and North Dakota\u2019s stablecoin show institutional and state actors accelerating digital asset adoption.",
+  "perspective": "Mastercard\u2019s offline payments pilot and TrueLayer\u2019s funding round underscore how European payment rails are evolving amid rising competition and regulatory scrutiny.",
   "curiosity": {
-    "text": "The Federal Reserve\u2019s 1975 launch of Electronic Funds Transfer (EFT) laid the groundwork for today\u2019s instant payments, enabling banks to process transactions without paper checks."
+    "text": "The Automated Clearing House (ACH) network processed its first electronic payroll deposit in 1972, paving the way for widespread adoption of direct deposit in the U.S."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Spiko",
-      "description": "raises $90M in Series B backed by Index Ventures",
-      "source_url": "https://sifted.eu/articles/spiko-series-b-fundraise-index-speedinvest/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "M&A",
-      "company": "Personio",
-      "description": "acquired spend management platform Circula",
-      "source_url": "https://www.finextra.com/newsarticle/48539/personio-acquires-spend-management-platform-circula"
+      "company": "Noah",
+      "description": "Raises $38M for stablecoin payments platform",
+      "source_url": "https://www.finextra.com/newsarticle/48548/noah-raises-38m-for-stablecoin-payments-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Capitolis",
-      "description": "raises $220M for eSecLending acquisition",
-      "source_url": "https://www.finextra.com/newsarticle/48546/capitolis-raises-220m-for-eseclending-acquisition"
+      "company": "Gudea",
+      "description": "Lands $7M to predict viral online narratives",
+      "source_url": "https://news.crunchbase.com/venture/gudea-lands-funding-predict-viral-online-narratives/"
     },
     {
-      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Comparables.ai",
-      "description": "raises $6M for M&A intelligence platform",
-      "source_url": "https://www.finextra.com/newsarticle/48544/ma-intelligence-platform-comparablesai-raises-6m"
+      "company": "Iridium Credit",
+      "description": "Raises $3M for verification infrastructure",
+      "source_url": "https://www.finextra.com/pressarticle/111183/iridium-credit-raises-3m?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Raises $95M fund for fintech and future-of-work startups",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     }
   ]
 }
