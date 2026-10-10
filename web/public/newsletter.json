@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Mastercard Pilots Offline Payments in Europe, Raising Stakes for Card Networks",
-      "body": "Mastercard has begun piloting offline payment capabilities in select European markets, allowing transactions to process even when connectivity is lost. Merchants can continue accepting payments during network outages, reducing lost sales and operational disruptions. Mastercard\u2019s move prompts banks and payment service providers to upgrade infrastructure, while Visa faces direct competitive pressure to match the feature. Regulators may evaluate whether to encourage broader adoption of offline standards.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48560/mastercard-to-enable-offline-payments-across-europe?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "TrueLayer Raises $27M to Expand Pay by Bank, Challenging Card Dominance",
-      "body": "TrueLayer has raised $27 million to expand its Pay by Bank network across Europe, with support from CDP Venture Capital. The investment enables banks and fintechs to offer direct account-to-account payments, giving merchants a lower-cost alternative to card payments and reducing reliance on Visa and Mastercard. Merchants can expect lower interchange fees and faster settlement, while card networks must respond to growing competition from open banking solutions.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48559/truelayer-raises-27m-to-scale-pay-by-bank?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "Anyflo Launches Stablecoin Payments Platform, Acquires Native for B2B Growth",
-      "body": "Anyflo has launched a stablecoin payments orchestration platform and acquired bitcoin lending startup Native to expand its enterprise offering. By integrating stablecoin payments and lending, Anyflo enables businesses to streamline cross-border transactions and treasury management. Enterprises gain new tools for efficient settlement, while established providers like Circle and PayPal face increased competition for B2B clients. The acquisition signals growing demand for stablecoin solutions among corporates.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises?utm_medium=rssfinextra&utm_source=finextrafeed"
-      }
-    },
-    {
-      "title": "JPMorgan Estimates $50 Billion in Crypto Inflows for 2026, Signaling Institutional Momentum",
-      "body": "JPMorgan analysts report that $50 billion has entered digital assets so far in 2026, driven by institutional investors increasing allocations to crypto. This influx boosts liquidity for exchanges and asset managers, while prompting regulators to scrutinize market practices more closely. Asset managers and custodians are expanding crypto product offerings to meet institutional demand, reshaping the competitive landscape for digital asset services.",
+      "title": "Blockchain.com Pursues CFTC Approval to Launch US Crypto Derivatives and Prediction Markets",
+      "body": "Blockchain.com has applied for DCM and FCM licenses to offer crypto derivatives and prediction markets in the US. If approved, Blockchain.com would directly challenge established US exchanges, giving US institutional and retail traders new regulated options for crypto-based financial products. Competing exchanges such as CME and CBOE may need to accelerate product innovation and licensing strategies to maintain market share.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115"
+        "url": "https://www.theblock.co/news/business/2026-10-09-blockchain-com-cftc-license-prediction-markets-derivatives-418192"
       }
     },
     {
-      "title": "Amex Fined $350M by Fed and OCC for Anti-Money Laundering Failures",
-      "body": "American Express received a $350 million fine from the Federal Reserve and OCC for shortcomings in its anti-money laundering controls. The penalty affects Amex\u2019s financial results and reputation, while competitors may attract clients seeking stronger compliance. The enforcement action highlights regulators\u2019 focus on AML standards, prompting banks and fintechs to review and strengthen their own compliance programs.",
+      "title": "DailyPay Securitises $200M in On-Demand Pay Receivables to Fund Expansion",
+      "body": "DailyPay completed a $200 million asset-backed securitisation of its On-Demand Pay receivables, unlocking new capital for growth. This financing enables DailyPay to expand its payroll solutions to more US employers, who are increasingly seeking flexible wage access to attract and retain workers in a competitive labor market. Traditional payroll providers like ADP and Paychex face mounting pressure to offer similar real-time pay features.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832570/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/111202/dailypay-competes-200m-securitisation"
+      }
+    },
+    {
+      "title": "Thailand SEC Sets October 16 Launch for Bitcoin and Ether ETF Rules",
+      "body": "Thailand's SEC will implement new rules for bitcoin and ether ETFs on October 16, establishing requirements for custody and trading safeguards. The scheduled rollout aims to position Thailand as a regional hub for regulated crypto investment products, drawing interest from global ETF issuers and institutional investors. Other Asian markets, such as Singapore and Hong Kong, may respond by advancing their own crypto ETF frameworks.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132"
+      }
+    },
+    {
+      "title": "Singapore Central Bank Mandates Independent AI Reviews for Banks",
+      "body": "Singapore\u2019s central bank now requires banks to conduct independent reviews of AI projects before deployment. Banks operating in Singapore must allocate resources for third-party audits and compliance, which could increase project costs but aims to prevent operational failures and reputational damage from unchecked AI use. International banks with Singapore branches, such as HSBC and Citi, must update their AI governance processes to meet the new standard.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48558/singapore-central-bank-issues-risk-rules-on-banks-ai-use"
+      }
+    },
+    {
+      "title": "Standard Chartered Expands Digital Asset Custody Services to Singapore",
+      "body": "Standard Chartered has launched digital asset custody services in Singapore, expanding its crypto infrastructure for institutional clients in Asia. This launch challenges local custodians and signals rising demand from asset managers and funds seeking secure crypto storage. Global banks such as HSBC and DBS may accelerate their digital asset custody offerings in Singapore to compete for institutional crypto mandates.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48555/standard-chartered-extends-digital-asset-custody-to-singapore"
       }
     }
   ],
-  "perspective": "Mastercard\u2019s offline payments pilot and TrueLayer\u2019s funding round underscore how European payment rails are evolving amid rising competition and regulatory scrutiny.",
+  "perspective": "Blockchain.com\u2019s CFTC application and Standard Chartered\u2019s Singapore custody launch signal regulatory and institutional shifts in US and Asian crypto markets.",
   "curiosity": {
-    "text": "The Automated Clearing House (ACH) network processed its first electronic payroll deposit in 1972, paving the way for widespread adoption of direct deposit in the U.S."
+    "text": "In 1987, the Bank of Scotland introduced the first online banking service, allowing customers to access their accounts via computer\u2014a milestone in digital banking history."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Noah",
-      "description": "Raises $38M for stablecoin payments platform",
-      "source_url": "https://www.finextra.com/newsarticle/48548/noah-raises-38m-for-stablecoin-payments-platform?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "company": "TrueLayer",
+      "description": "raises $27M to expand Pay by Bank network",
+      "source_url": "https://www.finextra.com/newsarticle/48559/truelayer-raises-27m-to-scale-pay-by-bank"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Anyflo",
+      "description": "launched stablecoin payments service for enterprises",
+      "source_url": "https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Gudea",
-      "description": "Lands $7M to predict viral online narratives",
-      "source_url": "https://news.crunchbase.com/venture/gudea-lands-funding-predict-viral-online-narratives/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Iridium Credit",
-      "description": "Raises $3M for verification infrastructure",
-      "source_url": "https://www.finextra.com/pressarticle/111183/iridium-credit-raises-3m?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raises $95M fund for fintech and future-of-work startups",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
+      "company": "Meanwhile",
+      "description": "raised $37.5M for bitcoin life insurance",
+      "source_url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131"
     }
   ]
 }
