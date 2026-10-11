@@ -1,71 +1,99 @@
 {
   "news": [
     {
-      "title": "Blockchain.com Pursues CFTC Approval to Launch US Crypto Derivatives and Prediction Markets",
-      "body": "Blockchain.com has applied for DCM and FCM licenses to offer crypto derivatives and prediction markets in the US. If approved, Blockchain.com would directly challenge established US exchanges, giving US institutional and retail traders new regulated options for crypto-based financial products. Competing exchanges such as CME and CBOE may need to accelerate product innovation and licensing strategies to maintain market share.",
+      "title": "Mastercard Adds Trust and Intelligence Layers to Agentic Payments Program",
+      "body": "Mastercard expanded its Agent Pay program with new trust and intelligence services for AI-initiated transactions, targeting fraud prevention and transaction transparency. By introducing these features, Mastercard aims to set a higher bar for security and reliability in agentic commerce. Competing networks and payment service providers must now develop similar trust layers to retain enterprise and fintech partners, as Mastercard\u2019s enhancements may prompt rapid adoption of comparable solutions across major payment rails.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/111213/mastercard-rolls-out-trust-and-intelligence-services-for-agentic-commerce"
+      }
+    },
+    {
+      "title": "Ledger Probes $86M Wallet Drain Linked to CryptoBilis Reseller in Southeast Asia",
+      "body": "Ledger is investigating reports of over $86 million in user fund losses tied to purchases from reseller CryptoBilis in Southeast Asia. The incident threatens Ledger\u2019s reputation for security and could drive hardware wallet customers to competitors emphasizing supply chain integrity. Hardware wallet makers and crypto exchanges may see increased scrutiny from both regulators and consumers, with a likely uptick in demand for direct-purchase and anti-tampering solutions.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-10-09-blockchain-com-cftc-license-prediction-markets-derivatives-418192"
+        "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163"
       }
     },
     {
-      "title": "DailyPay Securitises $200M in On-Demand Pay Receivables to Fund Expansion",
-      "body": "DailyPay completed a $200 million asset-backed securitisation of its On-Demand Pay receivables, unlocking new capital for growth. This financing enables DailyPay to expand its payroll solutions to more US employers, who are increasingly seeking flexible wage access to attract and retain workers in a competitive labor market. Traditional payroll providers like ADP and Paychex face mounting pressure to offer similar real-time pay features.",
+      "title": "AvaTrade Acquires Majority of FXCM, Accelerating Forex Platform Consolidation",
+      "body": "AvaTrade announced plans to acquire the majority of FXCM Group\u2019s business, consolidating two major players in the Forex and CFD trading sector. The deal expands AvaTrade\u2019s global reach and intensifies competition for both retail and institutional traders. Rival trading platforms may pursue mergers or broaden their product offerings as scale becomes increasingly important in the evolving trading market.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111202/dailypay-competes-200m-securitisation"
+        "url": "https://www.finextra.com/pressarticle/111207/avatrade-to-acquire-majority-of-fxcms-business"
       }
     },
     {
-      "title": "Thailand SEC Sets October 16 Launch for Bitcoin and Ether ETF Rules",
-      "body": "Thailand's SEC will implement new rules for bitcoin and ether ETFs on October 16, establishing requirements for custody and trading safeguards. The scheduled rollout aims to position Thailand as a regional hub for regulated crypto investment products, drawing interest from global ETF issuers and institutional investors. Other Asian markets, such as Singapore and Hong Kong, may respond by advancing their own crypto ETF frameworks.",
+      "title": "Revolut to Launch Agentic Shopping, Blending AI and Payments in E-Commerce",
+      "body": "Revolut is preparing to roll out agentic shopping, using AI to automate and personalize the e-commerce experience for its users. This move positions Revolut to compete directly with traditional e-commerce platforms and digital wallets by embedding payments and shopping into a single AI-driven flow. Merchants and rival fintechs may need to accelerate their own AI integrations to keep pace with rising consumer expectations for seamless, automated checkout.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132"
+        "name": "Sifted",
+        "url": "https://sifted.eu/articles/revolut-agentic-shopping/"
       }
     },
     {
-      "title": "Singapore Central Bank Mandates Independent AI Reviews for Banks",
-      "body": "Singapore\u2019s central bank now requires banks to conduct independent reviews of AI projects before deployment. Banks operating in Singapore must allocate resources for third-party audits and compliance, which could increase project costs but aims to prevent operational failures and reputational damage from unchecked AI use. International banks with Singapore branches, such as HSBC and Citi, must update their AI governance processes to meet the new standard.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48558/singapore-central-bank-issues-risk-rules-on-banks-ai-use"
-      }
-    },
-    {
-      "title": "Standard Chartered Expands Digital Asset Custody Services to Singapore",
-      "body": "Standard Chartered has launched digital asset custody services in Singapore, expanding its crypto infrastructure for institutional clients in Asia. This launch challenges local custodians and signals rising demand from asset managers and funds seeking secure crypto storage. Global banks such as HSBC and DBS may accelerate their digital asset custody offerings in Singapore to compete for institutional crypto mandates.",
+      "title": "Nivo Debuts AI Assistant to Streamline Lending from Broker to Underwriting",
+      "body": "Nivo launched Lender Collect, an AI assistant that automates the lending process from broker email intake to underwriting preparation. The tool enables lenders to process loans faster and reduce manual workloads, raising expectations for digital lending platforms. Competing fintechs and banks may accelerate their own AI deployments to maintain efficiency and customer satisfaction.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48555/standard-chartered-extends-digital-asset-custody-to-singapore"
+        "url": "https://www.finextra.com/pressarticle/111203/nivo-launches-ai-assistant-for-lending"
       }
     }
   ],
-  "perspective": "Blockchain.com\u2019s CFTC application and Standard Chartered\u2019s Singapore custody launch signal regulatory and institutional shifts in US and Asian crypto markets.",
+  "perspective": "Mastercard and Revolut drive AI-powered innovation in payments and commerce, prompting rivals to accelerate security and automation upgrades.",
   "curiosity": {
-    "text": "In 1987, the Bank of Scotland introduced the first online banking service, allowing customers to access their accounts via computer\u2014a milestone in digital banking history."
+    "text": "Mastercard\u2019s Agent Pay program is among the first to offer dedicated trust and intelligence layers for AI-initiated payments, reflecting a shift toward agentic commerce safeguards."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "TrueLayer",
-      "description": "raises $27M to expand Pay by Bank network",
-      "source_url": "https://www.finextra.com/newsarticle/48559/truelayer-raises-27m-to-scale-pay-by-bank"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Anyflo",
-      "description": "launched stablecoin payments service for enterprises",
-      "source_url": "https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises"
+      "type": "securitization",
+      "company": "DailyPay",
+      "description": "Completed $200M securitization of On-Demand Pay receivables",
+      "source_url": "https://www.finextra.com/pressarticle/111202/dailypay-competes-200m-securitisation"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Meanwhile",
-      "description": "raised $37.5M for bitcoin life insurance",
+      "description": "Raised $37.5M led by Bain Capital Crypto",
       "source_url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131"
+    },
+    {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "M&A",
+      "company": "Personio",
+      "description": "Acquired spend management platform Circula",
+      "source_url": "https://www.finextra.com/newsarticle/48539/personio-acquires-spend-management-platform-circula"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Atum",
+      "description": "Emerged from stealth with $13.5M funding",
+      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Fin.com",
+      "description": "Emerged from stealth with $20M funding",
+      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "fundraising",
+      "company": "Portage",
+      "description": "Closed $600M fintech fund",
+      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Quartz",
+      "description": "Raised \u00a32.7M for wealth management app",
+      "source_url": "https://www.finextra.com/newsarticle/48415/former-revolut-and-n26-alumni-raise-27-million-to-launch-wealth-management-app"
     }
   ]
 }
