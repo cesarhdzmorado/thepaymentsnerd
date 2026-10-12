@@ -1,99 +1,64 @@
 {
   "news": [
     {
-      "title": "Mastercard Adds Trust and Intelligence Layers to Agentic Payments Program",
-      "body": "Mastercard expanded its Agent Pay program with new trust and intelligence services for AI-initiated transactions, targeting fraud prevention and transaction transparency. By introducing these features, Mastercard aims to set a higher bar for security and reliability in agentic commerce. Competing networks and payment service providers must now develop similar trust layers to retain enterprise and fintech partners, as Mastercard\u2019s enhancements may prompt rapid adoption of comparable solutions across major payment rails.",
+      "title": "Ramp Hits $60B Valuation With $1.85B Raise, Escalating Spend Management Arms Race",
+      "body": "Investors poured $1.85 billion into Ramp, boosting its valuation to $60 billion and giving the company resources to accelerate product launches and global expansion. Brex and Coupa must now contend with Ramp\u2019s increased ability to invest in AI-driven spend controls, international payments, and integrations. Expect Brex, Coupa, and other fintechs to pursue acquisitions and roll out advanced analytics or automation features to keep pace.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111213/mastercard-rolls-out-trust-and-intelligence-services-for-agentic-commerce"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/investment-tracker/fintech-investments/2026/ramp-valued-at-60-billion-following-new-funding-round/"
       }
     },
     {
-      "title": "Ledger Probes $86M Wallet Drain Linked to CryptoBilis Reseller in Southeast Asia",
-      "body": "Ledger is investigating reports of over $86 million in user fund losses tied to purchases from reseller CryptoBilis in Southeast Asia. The incident threatens Ledger\u2019s reputation for security and could drive hardware wallet customers to competitors emphasizing supply chain integrity. Hardware wallet makers and crypto exchanges may see increased scrutiny from both regulators and consumers, with a likely uptick in demand for direct-purchase and anti-tampering solutions.",
+      "title": "Amazon Eyes $7B Decart Acquisition to Accelerate AI Integration Across Commerce Stack",
+      "body": "Amazon is negotiating to acquire AI startup Decart for about $7 billion, aiming to embed proprietary AI into its retail and payments systems. If the deal closes, Amazon could use Decart\u2019s technology to automate supply chain decisions and personalize checkout flows, forcing Walmart and Shopify to accelerate their own AI investments or risk losing ground in customer experience and operational efficiency.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-weighs-7-billion-purchase-of-ai-startup-decart/"
+      }
+    },
+    {
+      "title": "CFTC Moves to Regulate Prediction Markets by Redefining Swaps Scope",
+      "body": "The CFTC proposed expanding the definition of swaps to cover event contracts, targeting prediction market platforms like Kalshi and Polymarket. These companies would need to overhaul compliance programs, register with the CFTC, and potentially restrict certain markets, increasing costs and limiting product variety for users. Kalshi and Polymarket must now decide whether to adapt or exit the U.S. market.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/2026/cftc-wants-to-redefine-swaps-to-include-prediction-platforms/"
+      }
+    },
+    {
+      "title": "XRP Ledger Fixes Overflow Bug That Could Have Minted 18 Trillion XRP",
+      "body": "Developers patched a decade-old overflow bug in the XRP Ledger that could have let attackers mint up to 18 trillion XRP, averting a potential collapse in token value. The fix allows exchanges like Binance and payment processors using XRP to assure enterprise clients of improved protocol security, strengthening XRP\u2019s position against rivals like Stellar and Solana in institutional payments.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163"
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230"
       }
     },
     {
-      "title": "AvaTrade Acquires Majority of FXCM, Accelerating Forex Platform Consolidation",
-      "body": "AvaTrade announced plans to acquire the majority of FXCM Group\u2019s business, consolidating two major players in the Forex and CFD trading sector. The deal expands AvaTrade\u2019s global reach and intensifies competition for both retail and institutional traders. Rival trading platforms may pursue mergers or broaden their product offerings as scale becomes increasingly important in the evolving trading market.",
+      "title": "Sui Foundation Commits $30M to DATA Network, Deepening Blockchain Ecosystem Play",
+      "body": "The Sui Foundation invested $30 million in DATA Network, which will migrate to Sui\u2019s blockchain, expanding Sui\u2019s reach in data and smart contract services. This positions Sui to compete more directly with Solana and Avalanche for developer adoption and enterprise partnerships, while DATA Network\u2019s move could attract new projects to Sui\u2019s ecosystem and intensify competition among blockchain infrastructure providers.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111207/avatrade-to-acquire-majority-of-fxcms-business"
-      }
-    },
-    {
-      "title": "Revolut to Launch Agentic Shopping, Blending AI and Payments in E-Commerce",
-      "body": "Revolut is preparing to roll out agentic shopping, using AI to automate and personalize the e-commerce experience for its users. This move positions Revolut to compete directly with traditional e-commerce platforms and digital wallets by embedding payments and shopping into a single AI-driven flow. Merchants and rival fintechs may need to accelerate their own AI integrations to keep pace with rising consumer expectations for seamless, automated checkout.",
-      "source": {
-        "name": "Sifted",
-        "url": "https://sifted.eu/articles/revolut-agentic-shopping/"
-      }
-    },
-    {
-      "title": "Nivo Debuts AI Assistant to Streamline Lending from Broker to Underwriting",
-      "body": "Nivo launched Lender Collect, an AI assistant that automates the lending process from broker email intake to underwriting preparation. The tool enables lenders to process loans faster and reduce manual workloads, raising expectations for digital lending platforms. Competing fintechs and banks may accelerate their own AI deployments to maintain efficiency and customer satisfaction.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111203/nivo-launches-ai-assistant-for-lending"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243"
       }
     }
   ],
-  "perspective": "Mastercard and Revolut drive AI-powered innovation in payments and commerce, prompting rivals to accelerate security and automation upgrades.",
+  "perspective": "Ramp\u2019s $60B raise and Amazon\u2019s Decart talks spotlight the intensifying race for scale and AI leadership in fintech and commerce.",
   "curiosity": {
-    "text": "Mastercard\u2019s Agent Pay program is among the first to offer dedicated trust and intelligence layers for AI-initiated payments, reflecting a shift toward agentic commerce safeguards."
+    "text": "PSD2\u2019s requirement for banks to share customer data with licensed third parties led to some banks launching their own fintech subsidiaries to compete with new entrants."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "securitization",
-      "company": "DailyPay",
-      "description": "Completed $200M securitization of On-Demand Pay receivables",
-      "source_url": "https://www.finextra.com/pressarticle/111202/dailypay-competes-200m-securitisation"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Meanwhile",
-      "description": "Raised $37.5M led by Bain Capital Crypto",
-      "source_url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "M&A",
-      "company": "Personio",
-      "description": "Acquired spend management platform Circula",
-      "source_url": "https://www.finextra.com/newsarticle/48539/personio-acquires-spend-management-platform-circula"
+      "company": "Third Coast",
+      "description": "Acquires Oklahoma bank for $240 million.",
+      "source_url": "https://www.bankingdive.com/news/third-coast-texas-buy-oklahoma-bank-240-million/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Atum",
-      "description": "Emerged from stealth with $13.5M funding",
-      "source_url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Fin.com",
-      "description": "Emerged from stealth with $20M funding",
-      "source_url": "https://www.finextra.com/newsarticle/48408/payments-infrastructure-startup-fincom-emerges-from-stealth-with-20m-funding"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "fundraising",
-      "company": "Portage",
-      "description": "Closed $600M fintech fund",
-      "source_url": "https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Quartz",
-      "description": "Raised \u00a32.7M for wealth management app",
-      "source_url": "https://www.finextra.com/newsarticle/48415/former-revolut-and-n26-alumni-raise-27-million-to-launch-wealth-management-app"
+      "type": "M&A",
+      "company": "TowneBank",
+      "description": "Acquires Blueharbor in North Carolina.",
+      "source_url": "https://www.bankingdive.com/news/townebank-blueharbor-deal-north-carolina-bank-acquisition-targets/"
     }
   ]
 }
