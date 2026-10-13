@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "Ramp Hits $60B Valuation With $1.85B Raise, Escalating Spend Management Arms Race",
-      "body": "Investors poured $1.85 billion into Ramp, boosting its valuation to $60 billion and giving the company resources to accelerate product launches and global expansion. Brex and Coupa must now contend with Ramp\u2019s increased ability to invest in AI-driven spend controls, international payments, and integrations. Expect Brex, Coupa, and other fintechs to pursue acquisitions and roll out advanced analytics or automation features to keep pace.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/investment-tracker/fintech-investments/2026/ramp-valued-at-60-billion-following-new-funding-round/"
-      }
-    },
-    {
-      "title": "Amazon Eyes $7B Decart Acquisition to Accelerate AI Integration Across Commerce Stack",
-      "body": "Amazon is negotiating to acquire AI startup Decart for about $7 billion, aiming to embed proprietary AI into its retail and payments systems. If the deal closes, Amazon could use Decart\u2019s technology to automate supply chain decisions and personalize checkout flows, forcing Walmart and Shopify to accelerate their own AI investments or risk losing ground in customer experience and operational efficiency.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-weighs-7-billion-purchase-of-ai-startup-decart/"
-      }
-    },
-    {
-      "title": "CFTC Moves to Regulate Prediction Markets by Redefining Swaps Scope",
-      "body": "The CFTC proposed expanding the definition of swaps to cover event contracts, targeting prediction market platforms like Kalshi and Polymarket. These companies would need to overhaul compliance programs, register with the CFTC, and potentially restrict certain markets, increasing costs and limiting product variety for users. Kalshi and Polymarket must now decide whether to adapt or exit the U.S. market.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/2026/cftc-wants-to-redefine-swaps-to-include-prediction-platforms/"
-      }
-    },
-    {
-      "title": "XRP Ledger Fixes Overflow Bug That Could Have Minted 18 Trillion XRP",
-      "body": "Developers patched a decade-old overflow bug in the XRP Ledger that could have let attackers mint up to 18 trillion XRP, averting a potential collapse in token value. The fix allows exchanges like Binance and payment processors using XRP to assure enterprise clients of improved protocol security, strengthening XRP\u2019s position against rivals like Stellar and Solana in institutional payments.",
+      "title": "Binance Rolls Out AI Trading Tool Globally After 150,000-User Beta",
+      "body": "Binance launches its AI trading tool worldwide after a 150,000-user beta, giving its global customer base access to advanced AI-driven trading features. Binance cements its lead in crypto trading innovation, prompting rival exchanges such as Coinbase and Kraken to accelerate their own AI integrations or risk losing active traders to Binance\u2019s ecosystem.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230"
+        "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
       }
     },
     {
-      "title": "Sui Foundation Commits $30M to DATA Network, Deepening Blockchain Ecosystem Play",
-      "body": "The Sui Foundation invested $30 million in DATA Network, which will migrate to Sui\u2019s blockchain, expanding Sui\u2019s reach in data and smart contract services. This positions Sui to compete more directly with Solana and Avalanche for developer adoption and enterprise partnerships, while DATA Network\u2019s move could attract new projects to Sui\u2019s ecosystem and intensify competition among blockchain infrastructure providers.",
+      "title": "Bahrain Central Bank to Triple Tech Spend, Targeting Regional Banking Hub Status",
+      "body": "The Central Bank of Bahrain will triple its technology investment over the next three years to attract more fintech and banking operations. Regional banks and fintechs, including Gulf International Bank and Rain, are likely to fast-track partnerships and regional expansion to leverage Bahrain\u2019s upgraded infrastructure and regulatory support.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48570/bahrain-central-bank-to-treble-tech-budget?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "SBI Group, Mesh, and Money Forward Form Digital Asset Joint Venture in Japan",
+      "body": "SBI Group, Mesh Connect, and Money Forward are launching a digital asset joint venture to expand tokenized product offerings in Japan. The partnership enables institutional investors to access new digital asset classes, and Japanese regulators are expected to introduce updated guidelines to support these products as the venture launches.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48567/sbi-group-and-mesh-prep-digital-asset-jv?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "WEX and Mastercard Launch APAC Fleet Payments Network to Modernize Fleet Management",
+      "body": "WEX and Mastercard have launched a new fleet payments network across Asia-Pacific, offering integrated payment and management solutions for logistics companies. Fleet operators in the region can now streamline expense tracking and fuel payments, while local payment processors and banks must upgrade their digital fleet offerings to remain competitive.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/111222/wex-and-mastercard-launch-apac-fleet-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+      }
+    },
+    {
+      "title": "NZ Fintech Qippay Secures NZ$25M Investment to Accelerate Product Expansion",
+      "body": "Auckland-based Qippay has raised NZ$25 million from All Roads Wholesale Fund, which now holds a 25% stake in the company. As Qippay accelerates product development and market expansion, New Zealand banks and payment providers are likely to launch new digital payment features and loyalty integrations to defend market share.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/111221/nz-fintech-qippay-secures-nz25m-funding-boost?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     }
   ],
-  "perspective": "Ramp\u2019s $60B raise and Amazon\u2019s Decart talks spotlight the intensifying race for scale and AI leadership in fintech and commerce.",
+  "perspective": "Binance\u2019s global AI rollout and Bahrain\u2019s tech investment drive signal a new phase of fintech competition among exchanges and regional banking hubs.",
   "curiosity": {
-    "text": "PSD2\u2019s requirement for banks to share customer data with licensed third parties led to some banks launching their own fintech subsidiaries to compete with new entrants."
+    "text": "M-Pesa\u2019s early success in Kenya led to a 20% drop in households living below the poverty line, as entire communities began using mobile money for savings and microloans."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Third Coast",
-      "description": "Acquires Oklahoma bank for $240 million.",
-      "source_url": "https://www.bankingdive.com/news/third-coast-texas-buy-oklahoma-bank-240-million/"
+      "type": "fundraising",
+      "company": "Collide Capital",
+      "description": "Raised $95M fund for fintech and future-of-work startups.",
+      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "TowneBank",
-      "description": "Acquires Blueharbor in North Carolina.",
-      "source_url": "https://www.bankingdive.com/news/townebank-blueharbor-deal-north-carolina-bank-acquisition-targets/"
+      "type": "fundraising",
+      "company": "Gudea",
+      "description": "Raised $7M to predict viral online narratives.",
+      "source_url": "https://news.crunchbase.com/venture/gudea-lands-funding-predict-viral-online-narratives/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "MAVI",
+      "description": "Emerged from stealth with $4M funding for AI accounting.",
+      "source_url": "https://techcrunch.com/2026/09/28/mavi-bets-on-the-ai-boom-creating-demand-for-a-new-kind-of-accountant/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "investment",
+      "company": "Sui Foundation",
+      "description": "Invested $30M in DATA Network for AI data protocol.",
+      "source_url": "https://www.theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243"
     }
   ]
 }
