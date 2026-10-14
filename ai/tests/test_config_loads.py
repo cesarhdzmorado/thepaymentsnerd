@@ -46,6 +46,20 @@ class TestConfigLoads(unittest.TestCase):
             domains.extend(entry["domains"])
         self.assertEqual(len(domains), len(set(domains)))
 
+    def test_model_routing_is_well_formed(self):
+        models = self.config.get("models", {})
+        self.assertEqual(
+            set(models),
+            {"researcher", "writer", "editor", "utility"},
+        )
+        for role, spec in models.items():
+            self.assertTrue(spec.get("name"), role)
+            self.assertIn(
+                spec.get("reasoning_effort"),
+                {"none", "low", "medium", "high", "xhigh", "max"},
+                role,
+            )
+
     def test_at_least_one_trend(self):
         self.assertGreater(len(self.trends), 0, "current_trends must not be empty")
 

@@ -11,10 +11,11 @@ import os
 from datetime import datetime, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
-from langchain.agents import create_openai_functions_agent, AgentExecutor
+from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from supabase import create_client
+
+from .model_runtime import ModelRuntime
 
 # Import our custom tools
 from .tools import (
@@ -454,6 +455,7 @@ def main():
     # 1. Load Configuration from the YAML file
     with open('ai/config.yml', 'r') as file:
         config = yaml.safe_load(file)
+    model_runtime = ModelRuntime(config)
 
     # Get current date for context
     current_date = datetime.now().strftime("%B %d, %Y")  # e.g., "December 30, 2025"
@@ -475,9 +477,8 @@ def main():
     current_trends = config.get('current_trends', [])
     trends_context = format_trends_for_prompt(current_trends)
     
-    # 2. Initialize the Language Model and the tools list
-    # Using gpt-4o for latest knowledge (Oct 2023) and better reasoning
-    llm = ChatOpenAI(model="gpt-4o", temperature=0.3)
+    # 2. Initialize the role-routed language model and tools list.
+    llm = model_runtime.chat("researcher", tools=True)
     tools = [search_tool, scrape_tool, rss_tool]
 
     # 3. Create the Researcher Agent using a LangChain prompt template
@@ -674,7 +675,7 @@ Your final answer must include BOTH Part 1 (10 stories) and Part 2 (What's Hot i
         MessagesPlaceholder(variable_name="agent_scratchpad"),
     ])
     
-    researcher_agent = create_openai_functions_agent(llm, tools, researcher_prompt_template)
+    researcher_agent = create_tool_calling_agent(llm, tools, researcher_prompt_template)
     researcher_executor = AgentExecutor(agent=researcher_agent, tools=tools, verbose=True)
 
     # 4. Create the Writer Agent
@@ -792,8 +793,7 @@ CRITICAL
     
     # MODIFIED: Create a simple 'chain' for the writer, as it doesn't need tools.
     # This avoids the "empty functions" error.
-    # Using latest gpt-4o-mini for improved reasoning and structured output
-    writer_llm = ChatOpenAI(model="gpt-4.1", temperature=0.1)
+    writer_llm = model_runtime.chat("writer")
     writer_chain = writer_prompt_template | writer_llm
 
 
@@ -826,12 +826,12 @@ Return ONLY valid JSON in this exact shape:
 """),
         ("user", "Today's selected newsletter stories (context only):\n\n{input}"),
     ])
-    curiosity_llm = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0.8)
+    curiosity_llm = model_runtime.chat("utility", temperature=0.8)
     curiosity_chain = curiosity_prompt_template | curiosity_llm
 
     # 4.5. Create the Parser chain to structure Researcher output for deduplication
     # This parser now extracts BOTH news stories AND What's Hot items from the unified researcher output
-    parser_llm = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0)
+    parser_llm = model_runtime.chat("utility", temperature=0)
     parser_prompt_template = ChatPromptTemplate.from_messages([
         ("system", """You are a data extraction assistant. Your job is to parse the Researcher's free-text output into structured JSON.
 
@@ -918,7 +918,7 @@ CRITICAL:
     parser_chain = parser_prompt_template | parser_llm
 
     # 5. Create the Editor Agent for quality control
-    editor_llm = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0)
+    editor_llm = model_runtime.chat("editor")
 
     editor_prompt_template = ChatPromptTemplate.from_messages([
         ("system", f"""You are a senior editor for /thepaymentsnerd newsletter, responsible for quality control.

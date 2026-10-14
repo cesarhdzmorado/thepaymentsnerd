@@ -1,0 +1,45 @@
+name: GPT-6 Migration Canary
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "ai/**"
+      - "web/lib/emailTemplate.ts"
+      - "web/package.json"
+      - "web/package-lock.json"
+      - ".github/workflows/model_migration_canary.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r ai/requirements.txt
+
+      - name: Run unit tests
+        run: python -m unittest discover -s ai/tests -v
+
+      - name: Run no-publish model canary
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python -m ai.scripts.model_canary
+
+      - name: Upload model canary evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-canary-${{ github.run_id }}
+          path: ai/output/
+          if-no-files-found: warn
+          retention-days: 30

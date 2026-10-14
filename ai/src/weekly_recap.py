@@ -11,10 +11,11 @@ import json
 import os
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
-from langchain.agents import create_openai_functions_agent, AgentExecutor
+from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from supabase import create_client
+
+from .model_runtime import ModelRuntime
 
 # Import our custom tools
 from .tools import search_tool, scrape_tool, rss_tool, deduplicate_stories
@@ -115,6 +116,7 @@ def main():
     # 1. Load Configuration
     with open('ai/config.yml', 'r') as file:
         config = yaml.safe_load(file)
+    model_runtime = ModelRuntime(config)
 
     # Get current date
     current_date = datetime.now().strftime("%B %d, %Y")
@@ -131,7 +133,7 @@ def main():
     news_sources_str = "\n".join([f"- {s['url']} ({s['topic']})" for s in config['newsletters']])
 
     # 2. Initialize LLM and tools
-    llm = ChatOpenAI(model="gpt-4o", temperature=0.3)
+    llm = model_runtime.chat("researcher", tools=True)
     tools = [search_tool, scrape_tool, rss_tool]
 
     # 3. Create Researcher Agent for finding this week's best new stories
@@ -209,7 +211,7 @@ Return 3-5 stories maximum. Quality over quantity."""),
         MessagesPlaceholder(variable_name="agent_scratchpad"),
     ])
 
-    researcher_agent = create_openai_functions_agent(llm, tools, researcher_prompt)
+    researcher_agent = create_tool_calling_agent(llm, tools, researcher_prompt)
     researcher_executor = AgentExecutor(agent=researcher_agent, tools=tools, verbose=True)
 
     # 4. Create Writer Agent for weekly recap format
@@ -314,11 +316,11 @@ Return ONLY the JSON, no markdown formatting."""),
         ("user", "Here are this week's stories to analyze:\n\n{input}"),
     ])
 
-    writer_llm = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0.1)
+    writer_llm = model_runtime.chat("writer")
     writer_chain = writer_prompt | writer_llm
 
     # 5. Create Editor for quality control
-    editor_llm = ChatOpenAI(model="gpt-4o-mini-2024-07-18", temperature=0)
+    editor_llm = model_runtime.chat("editor")
 
     editor_prompt = ChatPromptTemplate.from_messages([
         ("system", f"""You are the senior editor reviewing a WEEKLY RECAP newsletter.
