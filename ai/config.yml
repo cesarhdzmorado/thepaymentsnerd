@@ -31,6 +31,38 @@ newsletters:
   - url: "https://news.crunchbase.com/feed/"
     topic: "Startup Funding Rounds & M&A"
 
+# Applied only after articles have been clustered into the same underlying event.
+# A lower tier number wins. This is deliberately not a global story-ranking score:
+# specialist outlets should still win when they have a unique story.
+source_ranking:
+  official_domains:
+    - "gov"
+    - "gov.uk"
+    - "europa.eu"
+    - "fca.org.uk"
+    - "bankofengland.co.uk"
+    - "ecb.europa.eu"
+    - "bis.org"
+  tiers:
+    - tier: 1
+      domains:
+        - "ft.com"
+        - "reuters.com"
+        - "bloomberg.com"
+        - "apnews.com"
+        - "wsj.com"
+        - "economist.com"
+    - tier: 2
+      domains:
+        - "bankingdive.com"
+        - "finextra.com"
+        - "pymnts.com"
+        - "theblock.co"
+        - "techcrunch.com"
+        - "sifted.eu"
+        - "crunchbase.com"
+  default_tier: 3
+
 # ============================================================================
 # CURRENT INDUSTRY TRENDS
 # ============================================================================
