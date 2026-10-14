@@ -8,11 +8,26 @@ from src.tools import (
     consolidate_story_sources,
     source_authority_tier,
     source_conflict_errors,
+    unverified_output_errors,
     validate_canonical_sources,
 )
 
 
 class TestSourceRanking(unittest.TestCase):
+    def test_release_gate_rejects_unverified_editorial_caveat(self):
+        stories = [{
+            "title": "Bank fine remains unverified",
+            "body": "The article text was not supplied for verification.",
+        }]
+        self.assertTrue(unverified_output_errors(stories))
+
+    def test_release_gate_allows_attributed_uncertainty(self):
+        stories = [{
+            "title": "Visa applies for domestic clearing approval",
+            "body": "The regulator has not announced a commercial launch date.",
+        }]
+        self.assertEqual(unverified_output_errors(stories), [])
+
     def setUp(self):
         self.banking_dive = {
             "title": "BofA Hit With $1.21B OCC Fine for Lapses in AML Transaction Monitoring",

@@ -112,6 +112,30 @@ _cache: Dict[Tuple[str, str], Tuple[float, str]] = {}
 _session = requests.Session()
 
 
+UNVERIFIED_OUTPUT_MARKERS = (
+    "article text was not supplied",
+    "source material was not supplied",
+    "could not be verified",
+    "remain unconfirmed",
+    "remains unconfirmed",
+)
+
+
+def unverified_output_errors(stories):
+    """Return publish-blocking source-verification caveats in final stories."""
+    errors = []
+    for index, story in enumerate(stories or []):
+        title = str(story.get("title", ""))
+        body = str(story.get("body", ""))
+        combined = f"{title} {body}".lower()
+        marker = next((item for item in UNVERIFIED_OUTPUT_MARKERS if item in combined), None)
+        if "unverified" in title.lower() or "unconfirmed" in title.lower():
+            marker = marker or "unverified headline"
+        if marker:
+            errors.append(f"story {index + 1} contains publish caveat: {marker}")
+    return errors
+
+
 def _get_cached(key: Tuple[str, str]) -> str | None:
     cached = _cache.get(key)
     if not cached:

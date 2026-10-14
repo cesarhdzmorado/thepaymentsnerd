@@ -27,6 +27,7 @@ from .tools import (
     filter_against_history,
     source_conflict_errors,
     validate_canonical_sources,
+    unverified_output_errors,
     _normalize_url,
 )
 
@@ -708,6 +709,9 @@ SELECTION RULES
 3) Keep at least 4/5 from top PASS-ranked stories unless diversity requires a swap.
 4) Never include `gate=REJECT` unless PASS stories are unavailable.
 5) Avoid PR-like/vague items and repetitive themes.
+6) Reject any candidate whose material facts could not be verified from supplied
+   source content. Select the next verified candidate; never publish verification
+   caveats such as "article text was not supplied", "unverified", or "unconfirmed".
 
 WRITING RULES (PER STORY)
 - Title: 10-14 words, insight-first, specific.
@@ -1171,6 +1175,12 @@ Revision rules:
     try:
         output_text = final_result_chain.content.strip().replace("```json", "").replace("```", "").strip()
         output_json = json.loads(output_text)
+        verification_errors = unverified_output_errors(output_json.get("news", []))
+        if verification_errors:
+            raise RuntimeError(
+                "Release blocked by unverified final story:\n- "
+                + "\n- ".join(verification_errors)
+            )
     except (json.JSONDecodeError, AttributeError, KeyError) as e:
         print("\n--- FAILED to parse writer JSON output. ---")
         print(f"Error: {e}")
