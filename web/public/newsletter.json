@@ -1,78 +1,85 @@
 {
   "news": [
     {
-      "title": "Binance Rolls Out AI Trading Tool Globally After 150,000-User Beta",
-      "body": "Binance launches its AI trading tool worldwide after a 150,000-user beta, giving its global customer base access to advanced AI-driven trading features. Binance cements its lead in crypto trading innovation, prompting rival exchanges such as Coinbase and Kraken to accelerate their own AI integrations or risk losing active traders to Binance\u2019s ecosystem.",
+      "title": "Ripple and Stripe-Owned Privy Enable Embedded Wallets on XRP Ledger for Developers",
+      "body": "Ripple's partnership with Stripe-owned Privy enables developers to build embedded wallets directly on the XRP Ledger, supporting XRP and other payment assets. By making it easier to integrate blockchain payments into mainstream apps, Ripple aims to attract more developers and businesses to its ecosystem. Competing blockchain platforms, such as Solana and Polygon, may now seek similar partnerships to maintain developer engagement.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
+        "url": "https://www.theblock.co/news/business/2026-10-13-stripe-privy-ripple-xrp-ledger-wallets-418463"
       }
     },
     {
-      "title": "Bahrain Central Bank to Triple Tech Spend, Targeting Regional Banking Hub Status",
-      "body": "The Central Bank of Bahrain will triple its technology investment over the next three years to attract more fintech and banking operations. Regional banks and fintechs, including Gulf International Bank and Rain, are likely to fast-track partnerships and regional expansion to leverage Bahrain\u2019s upgraded infrastructure and regulatory support.",
+      "title": "BofA Hit With $1.21B OCC Fine for Lapses in AML Transaction Monitoring",
+      "body": "Bank of America was fined $1.21 billion by the OCC for failing to monitor trillions of dollars in transactions for anti-money laundering compliance. The penalty highlights the urgency for large US banks\u2014including JPMorgan Chase, Wells Fargo, and Citigroup\u2014to upgrade transaction monitoring systems and strengthen internal controls. The scale of the fine signals that regulators are intensifying scrutiny of compliance programs at the largest financial institutions.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48570/bahrain-central-bank-to-treble-tech-budget?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/"
       }
     },
     {
-      "title": "SBI Group, Mesh, and Money Forward Form Digital Asset Joint Venture in Japan",
-      "body": "SBI Group, Mesh Connect, and Money Forward are launching a digital asset joint venture to expand tokenized product offerings in Japan. The partnership enables institutional investors to access new digital asset classes, and Japanese regulators are expected to introduce updated guidelines to support these products as the venture launches.",
+      "title": "Credit Agricole Enters German Market With New Digital-Only Bank",
+      "body": "Credit Agricole launched Credit Agricole Deutschland, a digital bank targeting German consumers with a fully online offering. This move increases competition for German incumbents like Deutsche Bank and Commerzbank, pushing them to accelerate digital transformation and improve user experience. Other international banks, such as ING and Santander, may consider expanding digital-only offerings in Germany to capture market share.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48567/sbi-group-and-mesh-prep-digital-asset-jv?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "url": "https://www.finextra.com/newsarticle/48576/credit-agricole-launches-digital-bank-for-german-market?utm_medium=rssfinextra&utm_source=finextrafeed"
       }
     },
     {
-      "title": "WEX and Mastercard Launch APAC Fleet Payments Network to Modernize Fleet Management",
-      "body": "WEX and Mastercard have launched a new fleet payments network across Asia-Pacific, offering integrated payment and management solutions for logistics companies. Fleet operators in the region can now streamline expense tracking and fuel payments, while local payment processors and banks must upgrade their digital fleet offerings to remain competitive.",
+      "title": "Interactive Brokers Adds Ethereum Staking, Expanding Crypto Services for Clients",
+      "body": "Adding Ethereum staking makes Interactive Brokers more attractive to crypto-focused investors, leveraging Zerohash infrastructure through its Client Portal. This move could draw assets from platforms like Charles Schwab and Fidelity that do not yet offer staking features. Competing brokerages are likely to accelerate their own staking integrations to retain crypto-active clients.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111222/wex-and-mastercard-launch-apac-fleet-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457"
       }
     },
     {
-      "title": "NZ Fintech Qippay Secures NZ$25M Investment to Accelerate Product Expansion",
-      "body": "Auckland-based Qippay has raised NZ$25 million from All Roads Wholesale Fund, which now holds a 25% stake in the company. As Qippay accelerates product development and market expansion, New Zealand banks and payment providers are likely to launch new digital payment features and loyalty integrations to defend market share.",
+      "title": "Coinbase Sets Bitcoin Post-Quantum Security as Strategic Priority",
+      "body": "Coinbase outlined its roadmap for preparing Bitcoin to migrate to post-quantum cryptography, prioritizing early adoption of new signature schemes. By taking a public lead on crypto security, Coinbase aims to attract users concerned about quantum threats. Major exchanges such as Kraken and Binance may soon announce their own quantum-readiness initiatives to reassure customers and keep pace with evolving security standards.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/pressarticle/111221/nz-fintech-qippay-secures-nz25m-funding-boost?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509"
       }
     }
   ],
-  "perspective": "Binance\u2019s global AI rollout and Bahrain\u2019s tech investment drive signal a new phase of fintech competition among exchanges and regional banking hubs.",
+  "perspective": "Ripple-Privy and BofA\u2019s OCC fine highlight how competition and regulatory scrutiny are reshaping priorities for banks, fintechs, and crypto platforms.",
   "curiosity": {
-    "text": "M-Pesa\u2019s early success in Kenya led to a 20% drop in households living below the poverty line, as entire communities began using mobile money for savings and microloans."
+    "text": "First Internet Bank, launched in 1999, was the first state-chartered, FDIC-insured institution to operate entirely online, influencing today\u2019s digital-only banking models."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Collide Capital",
-      "description": "Raised $95M fund for fintech and future-of-work startups.",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Gudea",
-      "description": "Raised $7M to predict viral online narratives.",
-      "source_url": "https://news.crunchbase.com/venture/gudea-lands-funding-predict-viral-online-narratives/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
       "company": "MAVI",
-      "description": "Emerged from stealth with $4M funding for AI accounting.",
+      "description": "Emerges from stealth with $4 million in funding.",
       "source_url": "https://techcrunch.com/2026/09/28/mavi-bets-on-the-ai-boom-creating-demand-for-a-new-kind-of-accountant/"
     },
     {
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "type": "M&A",
+      "company": "Plus500",
+      "description": "Agrees to acquire Hedge Global Markets.",
+      "source_url": "https://www.finextra.com/pressarticle/111232/plus500-agrees-to-acquire-hedge-global-markets?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\udded",
+      "type": "product",
+      "company": "Rain",
+      "description": "Launches embedded stablecoin wallets.",
+      "source_url": "https://www.finextra.com/pressarticle/111233/rain-launches-stablecoin-wallet?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "investment",
-      "company": "Sui Foundation",
-      "description": "Invested $30M in DATA Network for AI data protocol.",
-      "source_url": "https://www.theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243"
+      "type": "expansion",
+      "company": "WEX",
+      "description": "Launches APAC fleet payments network with Mastercard.",
+      "source_url": "https://www.finextra.com/pressarticle/111222/wex-and-mastercard-launch-apac-fleet-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
+    },
+    {
+      "flag": "\ud83c\uddf3\ud83c\uddff",
+      "type": "fundraising",
+      "company": "Qippay",
+      "description": "Secures NZ$5 million investment from All Roads Wholesale Fund.",
+      "source_url": "https://www.finextra.com/pressarticle/111221/nz-fintech-qippay-secures-nz5m-funding-boost?utm_medium=rssfinextra&utm_source=finextrafeed"
     }
   ]
 }
