@@ -35,6 +35,17 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python -m ai.scripts.model_canary
 
+      - name: Generate complete no-publish edition
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          TPN_USAGE_PATH: ai/output/full_edition_usage.json
+        run: |
+          python -m ai.src.main
+          cp web/public/newsletter.json ai/output/full_edition.json
+
       - name: Upload model canary evidence
         if: always()
         uses: actions/upload-artifact@v4
