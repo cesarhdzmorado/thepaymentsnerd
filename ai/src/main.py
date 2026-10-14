@@ -712,6 +712,8 @@ SELECTION RULES
 6) Reject any candidate whose material facts could not be verified from supplied
    source content. Select the next verified candidate; never publish verification
    caveats such as "article text was not supplied", "unverified", or "unconfirmed".
+   A publication homepage, press index, or generic news landing page is not a
+   valid source; require the specific article, filing, or release URL.
 
 WRITING RULES (PER STORY)
 - Title: 10-14 words, insight-first, specific.

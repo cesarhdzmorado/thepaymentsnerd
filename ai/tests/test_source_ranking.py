@@ -6,6 +6,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.tools import (
     consolidate_story_sources,
+    is_generic_source_url,
     source_authority_tier,
     source_conflict_errors,
     unverified_output_errors,
@@ -25,8 +26,30 @@ class TestSourceRanking(unittest.TestCase):
         stories = [{
             "title": "Visa applies for domestic clearing approval",
             "body": "The regulator has not announced a commercial launch date.",
+            "source": {
+                "name": "Finextra",
+                "url": "https://www.finextra.com/newsarticle/48584/visa-secures-china-card-business-green-light",
+            },
         }]
         self.assertEqual(unverified_output_errors(stories), [])
+
+    def test_generic_official_index_does_not_outrank_specific_ft_article(self):
+        treasury_index = {
+            "title": "Bank of America enforcement action",
+            "body": "Treasury enforcement action involving Bank of America.",
+            "source_name": "U.S. Treasury",
+            "source_url": "https://home.treasury.gov/news/press-releases",
+        }
+        self.assertTrue(is_generic_source_url(treasury_index))
+        self.assertGreater(source_authority_tier(treasury_index), source_authority_tier(self.ft))
+
+    def test_release_gate_rejects_generic_source_page(self):
+        stories = [{
+            "title": "Upgrade applies for a bank charter",
+            "body": "Upgrade applied for an industrial bank charter.",
+            "source": {"name": "Upgrade", "url": "https://www.upgrade.com/press/"},
+        }]
+        self.assertTrue(unverified_output_errors(stories))
 
     def setUp(self):
         self.banking_dive = {
