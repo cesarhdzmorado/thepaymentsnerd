@@ -6,6 +6,7 @@ import time
 import os
 import re
 from typing import Dict, Tuple, List, Set, Optional
+from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -466,6 +467,311 @@ def _normalize_url(url: str) -> str:
     # Strip trailing slash
     url = url.rstrip("/")
     return url
+
+
+DEFAULT_SOURCE_RANKING = {
+    "official_domains": [
+        "gov", "gov.uk", "europa.eu", "fca.org.uk", "bankofengland.co.uk",
+        "ecb.europa.eu", "bis.org",
+    ],
+    "tiers": [
+        {
+            "tier": 1,
+            "domains": [
+                "ft.com", "reuters.com", "bloomberg.com", "apnews.com",
+                "wsj.com", "economist.com",
+            ],
+        },
+        {
+            "tier": 2,
+            "domains": [
+                "bankingdive.com", "finextra.com", "pymnts.com", "theblock.co",
+                "techcrunch.com", "sifted.eu", "crunchbase.com",
+            ],
+        },
+    ],
+    "default_tier": 3,
+}
+
+
+_EVENT_TEXT_ALIASES = {
+    r"\bbofa\b": "bank of america",
+    r"\bbank of america corp(?:oration)?\b": "bank of america",
+    r"\baml\b": "money laundering",
+    r"\banti[- ]money laundering\b": "money laundering",
+    r"\bbsa\b": "bank secrecy act",
+}
+
+_REGULATOR_ALIASES = {
+    "occ": (r"\bocc\b", r"office of the comptroller of the currency"),
+    "fincen": (r"\bfincen\b", r"financial crimes enforcement network"),
+    "ofac": (r"\bofac\b", r"office of foreign assets control"),
+    "sec": (r"\bsec\b", r"securities and exchange commission"),
+    "ftc": (r"\bftc\b", r"federal trade commission"),
+    "fca": (r"\bfca\b", r"financial conduct authority"),
+    "cfpb": (r"\bcfpb\b", r"consumer financial protection bureau"),
+}
+
+_MONEY_RE = re.compile(
+    r"\$\s*(\d+(?:\.\d+)?)\s*(trillion|tn|billion|bn|million|mn|[tbm])?\b",
+    re.IGNORECASE,
+)
+
+
+def _source_domain(story: dict) -> str:
+    """Return the registrable-looking hostname used for deterministic source ranking."""
+    raw_url = _story_source_url(story)
+    if not raw_url:
+        return ""
+    parsed = urlparse(raw_url if "://" in raw_url else f"https://{raw_url}")
+    domain = (parsed.hostname or "").lower()
+    return domain[4:] if domain.startswith("www.") else domain
+
+
+def _domain_matches(domain: str, configured_domain: str) -> bool:
+    configured = configured_domain.lower().lstrip("*.")
+    if configured == "gov":
+        return domain.endswith(".gov")
+    return domain == configured or domain.endswith(f".{configured}")
+
+
+def source_authority_tier(story: dict, ranking: Optional[dict] = None) -> int:
+    """Return a deterministic source tier. Lower numbers are more authoritative."""
+    config = ranking or DEFAULT_SOURCE_RANKING
+    domain = _source_domain(story)
+    if not domain:
+        return int(config.get("default_tier", 3)) + 1
+
+    for configured_domain in config.get("official_domains", []):
+        if _domain_matches(domain, configured_domain):
+            return 0
+
+    for tier_config in sorted(config.get("tiers", []), key=lambda item: int(item.get("tier", 99))):
+        for configured_domain in tier_config.get("domains", []):
+            if _domain_matches(domain, configured_domain):
+                return int(tier_config.get("tier", 99))
+
+    return int(config.get("default_tier", 3))
+
+
+def _canonical_event_text(story: dict) -> str:
+    text = _story_text(story).lower()
+    for pattern, replacement in _EVENT_TEXT_ALIASES.items():
+        text = re.sub(pattern, replacement, text)
+    return re.sub(r"[^a-z0-9$]+", " ", text).strip()
+
+
+def _same_event(story1: dict, story2: dict) -> bool:
+    """Conservatively decide whether two current-run candidates describe the same event."""
+    url1 = _normalize_url(_story_source_url(story1))
+    url2 = _normalize_url(_story_source_url(story2))
+    if url1 and url1 == url2:
+        return True
+
+    text1 = _canonical_event_text(story1)
+    text2 = _canonical_event_text(story2)
+    entities1 = _extract_entities(text1)
+    entities2 = _extract_entities(text2)
+    common_companies = entities1["companies"] & entities2["companies"]
+    common_events = entities1["events"] & entities2["events"]
+    if not common_companies or not common_events:
+        return False
+
+    title1 = _canonical_event_text({"title": story1.get("title", "")})
+    title2 = _canonical_event_text({"title": story2.get("title", "")})
+    title_similarity = _calculate_similarity(title1, title2)
+    body_similarity = _calculate_similarity(text1, text2)
+    return title_similarity >= 0.22 or body_similarity >= 0.16
+
+
+def _candidate_from_source(parent: dict, source: dict) -> dict:
+    candidate = dict(parent)
+    candidate["source_name"] = source.get("name", "")
+    candidate["source_url"] = source.get("url", "")
+    if source.get("title"):
+        candidate["title"] = source["title"]
+    if source.get("body") or source.get("summary"):
+        candidate["body"] = source.get("body", source.get("summary", ""))
+    candidate.pop("source_candidates", None)
+    return candidate
+
+
+def _source_sort_key(story: dict, ranking: Optional[dict] = None) -> tuple:
+    """Stable ordering: authority first, then evidence/detail, score and URL."""
+    body = story.get("body", story.get("summary", "")) or ""
+    score = float(story.get("final_score", 0) or 0)
+    return (
+        source_authority_tier(story, ranking),
+        -len(_tokenize_words(body)),
+        -score,
+        _normalize_url(_story_source_url(story)),
+    )
+
+
+def _headline_money_values(story: dict) -> Set[float]:
+    values = set()
+    for amount, suffix in _MONEY_RE.findall(story.get("title", "") or ""):
+        multiplier = {
+            "trillion": 1_000_000_000_000,
+            "tn": 1_000_000_000_000,
+            "t": 1_000_000_000_000,
+            "billion": 1_000_000_000,
+            "bn": 1_000_000_000,
+            "b": 1_000_000_000,
+            "million": 1_000_000,
+            "mn": 1_000_000,
+            "m": 1_000_000,
+            "": 1,
+        }[suffix.lower()]
+        values.add(float(amount) * multiplier)
+    return values
+
+
+def _named_regulators(story: dict) -> Set[str]:
+    text = _story_text(story).lower()
+    return {
+        name
+        for name, patterns in _REGULATOR_ALIASES.items()
+        if any(re.search(pattern, text) for pattern in patterns)
+    }
+
+
+def _material_conflicts(candidates: list) -> List[str]:
+    """Find deterministic conflicts that are unsafe to break by feed order."""
+    conflicts = []
+    amount_sets = [_headline_money_values(candidate) for candidate in candidates]
+    non_empty_amounts = [amounts for amounts in amount_sets if amounts]
+    if len(non_empty_amounts) > 1:
+        flattened = sorted({amount for amounts in non_empty_amounts for amount in amounts})
+        if flattened and (flattened[-1] / max(flattened[0], 1)) > 1.05:
+            conflicts.append(
+                "Conflicting headline amounts: " + ", ".join(f"${amount:,.0f}" for amount in flattened)
+            )
+
+    regulator_sets = [_named_regulators(candidate) for candidate in candidates]
+    non_empty_regulators = [regulators for regulators in regulator_sets if regulators]
+    if len(non_empty_regulators) > 1 and any(
+        regulators != non_empty_regulators[0] for regulators in non_empty_regulators[1:]
+    ):
+        rendered = sorted({"/".join(sorted(regulators)) for regulators in non_empty_regulators})
+        conflicts.append("Conflicting regulator attribution: " + " vs ".join(rendered))
+
+    return conflicts
+
+
+def consolidate_story_sources(stories: list, ranking: Optional[dict] = None) -> Tuple[list, list]:
+    """
+    Cluster same-event candidates and retain the most authoritative source.
+
+    Stories may either arrive as separate duplicate candidates or include a
+    ``source_candidates`` list emitted by the researcher/parser contract.
+    Returns ``(canonical_stories, decisions)``. The result is independent of
+    candidate/feed order.
+    """
+    if not stories:
+        return [], []
+
+    expanded = []
+    for story in stories:
+        expanded.append(dict(story))
+        for source in story.get("source_candidates", []) or []:
+            if isinstance(source, dict) and source.get("url"):
+                expanded.append(_candidate_from_source(story, source))
+
+    clusters: List[List[dict]] = []
+    for story in expanded:
+        matching_indexes = [
+            index for index, cluster in enumerate(clusters)
+            if any(_same_event(story, existing) for existing in cluster)
+        ]
+        if not matching_indexes:
+            clusters.append([story])
+            continue
+
+        first = matching_indexes[0]
+        clusters[first].append(story)
+        for index in reversed(matching_indexes[1:]):
+            clusters[first].extend(clusters.pop(index))
+
+    canonical = []
+    decisions = []
+    for cluster in clusters:
+        unique_by_url = {}
+        for candidate in cluster:
+            normalized_url = _normalize_url(_story_source_url(candidate))
+            key = normalized_url or f"missing:{candidate.get('source_name', '')}:{candidate.get('title', '')}"
+            current = unique_by_url.get(key)
+            if current is None or _source_sort_key(candidate, ranking) < _source_sort_key(current, ranking):
+                unique_by_url[key] = candidate
+
+        candidates = sorted(unique_by_url.values(), key=lambda item: _source_sort_key(item, ranking))
+        winner = dict(candidates[0])
+        winner["source_candidates"] = [
+            {
+                "name": candidate.get("source_name", ""),
+                "url": _story_source_url(candidate),
+                "tier": source_authority_tier(candidate, ranking),
+            }
+            for candidate in candidates
+            if _story_source_url(candidate)
+        ]
+        canonical.append(winner)
+
+        if len(candidates) > 1:
+            winning_tier = source_authority_tier(winner, ranking)
+            peer_candidates = [
+                candidate for candidate in candidates
+                if source_authority_tier(candidate, ranking) == winning_tier
+            ]
+            decisions.append({
+                "title": winner.get("title", "Untitled"),
+                "selected": {
+                    "name": winner.get("source_name", ""),
+                    "url": _story_source_url(winner),
+                    "tier": source_authority_tier(winner, ranking),
+                },
+                "rejected": [
+                    {
+                        "name": candidate.get("source_name", ""),
+                        "url": _story_source_url(candidate),
+                        "tier": source_authority_tier(candidate, ranking),
+                    }
+                    for candidate in candidates[1:]
+                ],
+                "blocking_conflicts": _material_conflicts(peer_candidates),
+                "resolved_lower_tier_conflicts": _material_conflicts(candidates)
+                if len(peer_candidates) < len(candidates) else [],
+            })
+
+    return canonical, decisions
+
+
+def source_conflict_errors(decisions: list) -> List[str]:
+    """Convert unresolved same-tier source conflicts into release-blocking errors."""
+    errors = []
+    for decision in decisions or []:
+        for conflict in decision.get("blocking_conflicts", []) or []:
+            errors.append(f"{decision.get('title', 'Untitled')}: {conflict}")
+    return errors
+
+
+def validate_canonical_sources(news_items: list, canonical_stories: list) -> List[str]:
+    """Return release-blocking errors when the writer substitutes a non-canonical source."""
+    canonical_urls = {
+        _normalize_url(_story_source_url(story))
+        for story in canonical_stories
+        if _story_source_url(story)
+    }
+    errors = []
+    for item in news_items or []:
+        normalized_url = _normalize_url(_story_source_url(item))
+        if not normalized_url:
+            errors.append(f"Missing source URL for '{item.get('title', 'Untitled')}'")
+        elif normalized_url not in canonical_urls:
+            errors.append(
+                f"Non-canonical source for '{item.get('title', 'Untitled')}': {normalized_url}"
+            )
+    return errors
 
 
 def _story_text(story: dict) -> str:

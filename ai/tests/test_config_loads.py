@@ -29,6 +29,23 @@ class TestConfigLoads(unittest.TestCase):
         self.assertIn("current_trends", self.config)
         self.assertIn("newsletters", self.config)
 
+    def test_source_ranking_is_well_formed(self):
+        ranking = self.config.get("source_ranking")
+        self.assertIsInstance(ranking, dict)
+        self.assertIn("official_domains", ranking)
+        self.assertIn("tiers", ranking)
+        self.assertIsInstance(ranking.get("default_tier"), int)
+
+        tiers = [entry.get("tier") for entry in ranking["tiers"]]
+        self.assertEqual(tiers, sorted(tiers))
+        self.assertEqual(len(tiers), len(set(tiers)))
+
+        domains = list(ranking["official_domains"])
+        for entry in ranking["tiers"]:
+            self.assertIsInstance(entry.get("domains"), list)
+            domains.extend(entry["domains"])
+        self.assertEqual(len(domains), len(set(domains)))
+
     def test_at_least_one_trend(self):
         self.assertGreater(len(self.trends), 0, "current_trends must not be empty")
 

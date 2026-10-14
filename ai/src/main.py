@@ -17,7 +17,17 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from supabase import create_client
 
 # Import our custom tools
-from .tools import search_tool, scrape_tool, rss_tool, deduplicate_stories, filter_against_history, _normalize_url
+from .tools import (
+    search_tool,
+    scrape_tool,
+    rss_tool,
+    consolidate_story_sources,
+    deduplicate_stories,
+    filter_against_history,
+    source_conflict_errors,
+    validate_canonical_sources,
+    _normalize_url,
+)
 
 
 def normalize_text(text: str) -> str:
@@ -522,6 +532,19 @@ RESEARCH FRAMEWORK:
 
 2. **Story Evaluation** (Signal Scoring):
 
+   Before scoring, cluster articles that describe the same underlying event.
+   Do not let feed order decide which publication becomes the canonical source.
+   For each event, retain every source candidate and choose the canonical source
+   using this hierarchy:
+   1. Official regulator, court, or company filing
+   2. FT / Reuters / Bloomberg / AP / WSJ-tier original reporting
+   3. Reputable specialist trade press
+   4. Press releases, aggregators, and low-authority rewrites
+
+   Use a lower-ranked source only when it contributes material original facts
+   absent from stronger sources. For enforcement stories, cross-check the amount,
+   regulator(s), legal action, and affected entity before writing the headline.
+
    Score each story using this framework:
 
    BASE SIGNAL (0-24):
@@ -606,7 +629,10 @@ RESEARCH FRAMEWORK:
    ---
    STORY [N] - [COMPELLING HEADLINE]
 
-   Source: [Publication name] - [URL]
+   Source: [canonical publication name] - [URL]
+   Source candidates:
+   - [Publication name] | [URL] | [article headline] | [one-sentence factual summary]
+   - [Alternative publication] | [URL] | [article headline] | [one-sentence factual summary]
 
    WHAT HAPPENED:
    [2-3 sentences with facts and data]
@@ -663,6 +689,8 @@ SCOPE BOUNDARY
 - Do NOT invent new stories or re-run research.
 - Use provided score fields (`final_score`, `base_signal`, `gate`) as default ranking signal.
 - You may override ranking only to improve diversity/coherence.
+- Treat each story's `source_name` and `source_url` as canonical. The
+  `source_candidates` list is audit context only; never substitute from it.
 - Do NOT output a `whats_hot` field.
 
 CONTEXT
@@ -818,6 +846,9 @@ For each STORY, extract:
 - "body": Combine WHAT HAPPENED + WHO'S AFFECTED + COMPETITIVE DYNAMICS into a coherent summary (2-3 sentences)
 - "source_name": The publication name from "Source: [Name] - [URL]"
 - "source_url": The URL from "Source: [Name] - [URL]"
+- "source_candidates": Every publication, URL, article headline, and factual summary
+  from "Source candidates"; include the canonical source too. Preserve the order
+  emitted by the Researcher. Use keys "name", "url", "title", and "summary".
 - "second_order_effects": The SECOND-ORDER EFFECTS section
 - "base_signal": numeric from SCORECARD
 - "trend_bonus": numeric from SCORECARD
@@ -841,6 +872,20 @@ OUTPUT FORMAT (must be valid JSON):
       "body": "Combined summary of what happened, who's affected, and competitive dynamics.",
       "source_name": "Publication Name",
       "source_url": "https://example.com/article",
+      "source_candidates": [
+        {{
+          "name": "Publication Name",
+          "url": "https://example.com/article",
+          "title": "Original article headline",
+          "summary": "One-sentence factual summary from this source."
+        }},
+        {{
+          "name": "Alternative Source",
+          "url": "https://example.org/article",
+          "title": "Alternative article headline",
+          "summary": "One-sentence factual summary from this source."
+        }}
+      ],
       "second_order_effects": "What to watch for next",
       "base_signal": 18,
       "trend_bonus": 2,
@@ -1025,6 +1070,7 @@ Revision rules:
     parser_result = parser_chain.invoke({"input": research_result['output']})
 
     parsed_stories = None
+    canonical_stories = []
     whats_hot_items = []
     try:
         parsed_text = parser_result.content.strip().replace("```json", "").replace("```", "").strip()
@@ -1045,12 +1091,42 @@ Revision rules:
                 reverse=True,
             )
 
+            parsed_stories, source_decisions = consolidate_story_sources(
+                parsed_stories,
+                ranking=config.get('source_ranking'),
+            )
+            conflict_errors = source_conflict_errors(source_decisions)
+            if conflict_errors:
+                raise RuntimeError(
+                    "Release blocked by unresolved same-tier source conflicts:\n- "
+                    + "\n- ".join(conflict_errors)
+                )
+            canonical_stories = list(parsed_stories)
+            for decision in source_decisions:
+                selected = decision['selected']
+                print(
+                    f"✅ Canonical source for '{decision['title'][:55]}': "
+                    f"{selected['name']} (tier {selected['tier']})"
+                )
+                for rejected in decision['rejected']:
+                    print(
+                        f"   Rejected {rejected['name']} (tier {rejected['tier']}): "
+                        f"{rejected['url']}"
+                    )
+                for conflict in decision.get('resolved_lower_tier_conflicts', []):
+                    print(f"   Resolved against stronger source: {conflict}")
+
         print(f"✅ Parsed {len(parsed_stories)} stories and {len(whats_hot_items)} What's Hot items from Researcher output")
     except (json.JSONDecodeError, AttributeError) as e:
-        print(f"⚠️ Failed to parse Researcher output: {e}")
-        print("Falling back to raw Researcher output for Writer")
-        parsed_stories = None
-        whats_hot_items = []
+        raise RuntimeError(
+            "Release blocked: Researcher output could not be parsed for deterministic "
+            "source ranking"
+        ) from e
+
+    if not parsed_stories:
+        raise RuntimeError(
+            "Release blocked: no structured story candidates were available for source ranking"
+        )
 
     # 6.6. Deduplicate against recent stories (BEFORE Writer sees them)
     # Uses hybrid detection: entity extraction + word similarity + semantic embeddings
@@ -1174,6 +1250,13 @@ Revision rules:
         # Historical dedup is now handled BEFORE the Writer (see step 6.6)
         # This catches only nearly identical copies that might slip through
         if 'news' in output_json and isinstance(output_json['news'], list):
+            if canonical_stories:
+                source_errors = validate_canonical_sources(output_json['news'], canonical_stories)
+                if source_errors:
+                    raise RuntimeError(
+                        "Release blocked by canonical source gate:\n- " + "\n- ".join(source_errors)
+                    )
+
             original_count = len(output_json['news'])
             output_json['news'] = deduplicate_stories(output_json['news'], similarity_threshold=0.9)
             final_count = len(output_json['news'])
