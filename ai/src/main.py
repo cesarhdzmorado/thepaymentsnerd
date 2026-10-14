@@ -1059,9 +1059,12 @@ Revision rules:
 - Vary sentence structure across stories — not every body should follow the same fact→impact→pressure template.
 - For superlative factual claims (e.g., "first", "largest", "only"), either confirm from provided story context or hedge with attribution (e.g., "reported as").
 - Preserve source name and URL fields for each story.
+- If feedback says a story is unsupported or its source is a generic landing page,
+  replace it with a verified item from the supplied candidates. Do not turn the
+  story into an "unverified" or "publication hold" disclaimer.
 - Curiosity must remain independent from the news section.
 """),
-        ("user", "Editor feedback:\n\n{feedback}\n\nCurrent draft JSON:\n\n{draft}"),
+        ("user", "Editor feedback:\n\n{feedback}\n\nCurrent draft JSON:\n\n{draft}\n\nVerified candidate pool:\n\n{candidates}"),
     ])
     revision_chain = revision_prompt_template | writer_llm
 
@@ -1244,6 +1247,7 @@ Revision rules:
             revised_result = revision_chain.invoke({
                 "feedback": editor_result.content,
                 "draft": json.dumps(output_json, indent=2),
+                "candidates": writer_input,
             })
             revised_text = revised_result.content.strip().replace("```json", "").replace("```", "").strip()
             revised_json = json.loads(revised_text)
@@ -1262,6 +1266,12 @@ Revision rules:
         # Historical dedup is now handled BEFORE the Writer (see step 6.6)
         # This catches only nearly identical copies that might slip through
         if 'news' in output_json and isinstance(output_json['news'], list):
+            verification_errors = unverified_output_errors(output_json['news'])
+            if verification_errors:
+                raise RuntimeError(
+                    "Release blocked by final source-verification gate:\n- "
+                    + "\n- ".join(verification_errors)
+                )
             if canonical_stories:
                 source_errors = validate_canonical_sources(output_json['news'], canonical_stories)
                 if source_errors:
