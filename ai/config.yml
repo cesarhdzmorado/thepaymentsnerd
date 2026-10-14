@@ -31,6 +31,23 @@ newsletters:
   - url: "https://news.crunchbase.com/feed/"
     topic: "Startup Funding Rounds & M&A"
 
+# Model routing is role-based so editorial quality can be evaluated separately
+# from bounded extraction work. Every value can be overridden without a code
+# change via TPN_<ROLE>_MODEL and TPN_<ROLE>_REASONING_EFFORT.
+models:
+  researcher:
+    name: "gpt-6.1-sol"
+    reasoning_effort: "medium"
+  writer:
+    name: "gpt-6.1-sol"
+    reasoning_effort: "medium"
+  editor:
+    name: "gpt-6.1-sol"
+    reasoning_effort: "medium"
+  utility:
+    name: "gpt-6-luna"
+    reasoning_effort: "none"
+
 # Applied only after articles have been clustered into the same underlying event.
 # A lower tier number wins. This is deliberately not a global story-ranking score:
 # specialist outlets should still win when they have a unique story.

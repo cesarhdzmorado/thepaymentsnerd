@@ -64,7 +64,8 @@ export async function generateEmailSubject(news: NewsItem[]): Promise<string> {
 
     // Generate a creative, clever title based on the lead story
     const completion = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: process.env.OPENAI_SUBJECT_MODEL ?? "gpt-6-luna",
+      reasoning_effort: "none",
       messages: [
         {
           role: "system",
@@ -99,8 +100,17 @@ Return only the subject line text, no quotes or additional formatting.`
         }
       ],
       temperature: 0.7,
-      max_tokens: 200,
+      max_completion_tokens: 200,
     });
+
+    if (completion.usage) {
+      console.info("MODEL_USAGE", JSON.stringify({
+        role: "email_subject",
+        model: completion.model,
+        input_tokens: completion.usage.prompt_tokens,
+        output_tokens: completion.usage.completion_tokens,
+      }));
+    }
 
     const choice = completion.choices[0];
     const rawTitle = choice?.message?.content?.trim() ?? "";

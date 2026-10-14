@@ -72,6 +72,15 @@ jobs:
           echo "File size: $(wc -c < web/public/newsletter.json) bytes"
           echo "Preview: $(head -c 200 web/public/newsletter.json)..."
 
+      - name: Upload model usage evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-model-usage-${{ github.run_id }}
+          path: ai/output/model_usage.json
+          if-no-files-found: warn
+          retention-days: 30
+
       # =======================================================
       # STEP 2: COMMIT AND PUSH THE NEW FILE
       # =======================================================

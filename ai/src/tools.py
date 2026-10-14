@@ -112,6 +112,34 @@ _cache: Dict[Tuple[str, str], Tuple[float, str]] = {}
 _session = requests.Session()
 
 
+UNVERIFIED_OUTPUT_MARKERS = (
+    "article text was not supplied",
+    "source material was not supplied",
+    "could not be verified",
+    "remain unverified",
+    "remains unverified",
+    "remain unconfirmed",
+    "remains unconfirmed",
+)
+
+
+def unverified_output_errors(stories):
+    """Return publish-blocking source-verification caveats in final stories."""
+    errors = []
+    for index, story in enumerate(stories or []):
+        title = str(story.get("title", ""))
+        body = str(story.get("body", ""))
+        combined = f"{title} {body}".lower()
+        marker = next((item for item in UNVERIFIED_OUTPUT_MARKERS if item in combined), None)
+        if "unverified" in title.lower() or "unconfirmed" in title.lower():
+            marker = marker or "unverified headline"
+        if is_generic_source_url(story):
+            marker = marker or "generic source landing page"
+        if marker:
+            errors.append(f"story {index + 1} contains publish caveat: {marker}")
+    return errors
+
+
 def _get_cached(key: Tuple[str, str]) -> str | None:
     cached = _cache.get(key)
     if not cached:
@@ -535,11 +563,34 @@ def _domain_matches(domain: str, configured_domain: str) -> bool:
     return domain == configured or domain.endswith(f".{configured}")
 
 
+_GENERIC_SOURCE_PATHS = {
+    "",
+    "/",
+    "/news",
+    "/press",
+    "/press/",
+    "/media",
+    "/news/press-releases",
+    "/news/press-releases/",
+}
+
+
+def is_generic_source_url(story: dict) -> bool:
+    """Return True for landing/index pages that do not identify an article."""
+    raw_url = _story_source_url(story)
+    if not raw_url:
+        return True
+    parsed = urlparse(raw_url if "://" in raw_url else f"https://{raw_url}")
+    return parsed.path.lower() in _GENERIC_SOURCE_PATHS
+
+
 def source_authority_tier(story: dict, ranking: Optional[dict] = None) -> int:
     """Return a deterministic source tier. Lower numbers are more authoritative."""
     config = ranking or DEFAULT_SOURCE_RANKING
     domain = _source_domain(story)
     if not domain:
+        return int(config.get("default_tier", 3)) + 1
+    if is_generic_source_url(story):
         return int(config.get("default_tier", 3)) + 1
 
     for configured_domain in config.get("official_domains", []):
