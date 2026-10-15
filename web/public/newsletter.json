@@ -1,85 +1,64 @@
 {
   "news": [
     {
-      "title": "Ripple and Stripe-Owned Privy Enable Embedded Wallets on XRP Ledger for Developers",
-      "body": "Ripple's partnership with Stripe-owned Privy enables developers to build embedded wallets directly on the XRP Ledger, supporting XRP and other payment assets. By making it easier to integrate blockchain payments into mainstream apps, Ripple aims to attract more developers and businesses to its ecosystem. Competing blockchain platforms, such as Solana and Polygon, may now seek similar partnerships to maintain developer engagement.",
+      "title": "Bank of America Faces $1.2116 Billion in AML and Sanctions Penalties",
+      "body": "FinCEN assessed a $1.2 billion penalty against Bank of America on October 13 for failures in AML controls, foreign correspondent due diligence and suspicious activity reporting. The OCC\u2019s $750 million assessment counts toward that penalty rather than adding to it; OFAC\u2019s separate $11.6 million settlement brings the combined obligation to $1.2116 billion. The enforcement actions require transaction-monitoring, due-diligence and sanctions-control remediation. Bank compliance teams can benchmark their monitoring and escalation procedures against the enforcement orders\u2019 published remediation requirements.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-10-13-stripe-privy-ripple-xrp-ledger-wallets-418463"
+        "name": "FinCEN",
+        "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-of-america"
       }
     },
     {
-      "title": "BofA Hit With $1.21B OCC Fine for Lapses in AML Transaction Monitoring",
-      "body": "Bank of America was fined $1.21 billion by the OCC for failing to monitor trillions of dollars in transactions for anti-money laundering compliance. The penalty highlights the urgency for large US banks\u2014including JPMorgan Chase, Wells Fargo, and Citigroup\u2014to upgrade transaction monitoring systems and strengthen internal controls. The scale of the fine signals that regulators are intensifying scrutiny of compliance programs at the largest financial institutions.",
+      "title": "Qivalis Secures Dutch EMI Authorization Ahead of Euro Stablecoin Issuance",
+      "body": "Qivalis announced on October 14 that De Nederlandsche Bank authorized it as an electronic money institution, making it eligible to issue euro-denominated electronic money tokens under ongoing DNB supervision. Backed by 37 European banks across 15 countries, Qivalis plans a fully reserved token distributed through banks, exchanges and payment providers. Authorization does not mean issuance has begun. For treasury platforms and PSPs assessing integration, the remaining milestones include launch timing, supported networks, reserve disclosures and redemption arrangements.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/stablecoin-firm-qivalis-moves-closer-to-issuing-electronic-money-tokens/"
+      }
+    },
+    {
+      "title": "Kraken Parent Agrees to Buy Saldo Bank for European Banking Expansion",
+      "body": "Interest-bearing deposits, lending and card issuance form part of Payward\u2019s planned expansion through its acquisition of Lithuania-licensed Saldo Bank and its Finnish holding company. The Kraken parent expects the deal to close in 2027 and has not disclosed financial terms. Saldo\u2019s deposit business covers five European markets, while lending and card capabilities have narrower geographic availability. The proposed acquisition would add banking capabilities to Payward\u2019s electronic-money infrastructure; it does not immediately extend every Saldo product to Kraken customers.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/"
+        "url": "https://www.bankingdive.com/news/payward-kraken-eu-license-lithuania-bank-saldo/833019/"
       }
     },
     {
-      "title": "Credit Agricole Enters German Market With New Digital-Only Bank",
-      "body": "Credit Agricole launched Credit Agricole Deutschland, a digital bank targeting German consumers with a fully online offering. This move increases competition for German incumbents like Deutsche Bank and Commerzbank, pushing them to accelerate digital transformation and improve user experience. Other international banks, such as ING and Santander, may consider expanding digital-only offerings in Germany to capture market share.",
+      "title": "OCC Reviews Account-Access Decisions at Nine Banks",
+      "body": "The OCC\u2019s October 14 findings allege that policies or practices at nine banks influenced service denials or closures based on political or religious views or lawful business activity. Bank of America also features in this review, which concerns account-access decisions\u2014not its separate AML and sanctions enforcement. Banking Dive reports that the review covered nearly 100,000 complaints and 420,000 pages of documents; the CFPB announced further investigation. Merchant onboarding teams and sponsor-bank-dependent fintechs can review denial criteria, documented closure reasons and escalation procedures.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48576/credit-agricole-launches-digital-bank-for-german-market?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/occ-debanking-report-trump-gould-jpmorgan-bofa-capital-one-td-cfpb/832997/"
       }
     },
     {
-      "title": "Interactive Brokers Adds Ethereum Staking, Expanding Crypto Services for Clients",
-      "body": "Adding Ethereum staking makes Interactive Brokers more attractive to crypto-focused investors, leveraging Zerohash infrastructure through its Client Portal. This move could draw assets from platforms like Charles Schwab and Fidelity that do not yet offer staking features. Competing brokerages are likely to accelerate their own staking integrations to retain crypto-active clients.",
+      "title": "Fed Finds Consumer Spending Broadly Flat as Nine Districts Report Growth",
+      "body": "Nine of 12 Federal Reserve districts reported economic growth in the October 14 Beige Book, but most saw little or no change in consumer spending. More than half reported that high-income households drove spending, while businesses described price resistance and tighter margins. Based on contacts interviewed on or before October 5, the report provides qualitative evidence rather than measured payment volumes. Merchant acquirers, card issuers and BNPL lenders can use those segment differences when comparing transaction counts, nominal payment values and retail-category performance.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457"
-      }
-    },
-    {
-      "title": "Coinbase Sets Bitcoin Post-Quantum Security as Strategic Priority",
-      "body": "Coinbase outlined its roadmap for preparing Bitcoin to migrate to post-quantum cryptography, prioritizing early adoption of new signature schemes. By taking a public lead on crypto security, Coinbase aims to attract users concerned about quantum threats. Major exchanges such as Kraken and Binance may soon announce their own quantum-readiness initiatives to reassure customers and keep pace with evolving security standards.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509"
+        "name": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm"
       }
     }
   ],
-  "perspective": "Ripple-Privy and BofA\u2019s OCC fine highlight how competition and regulatory scrutiny are reshaping priorities for banks, fintechs, and crypto platforms.",
+  "perspective": "Qivalis gains euro-token authorization and Payward pursues banking capabilities, alongside separate compliance enforcement, account-access scrutiny and uneven consumer spending.",
   "curiosity": {
-    "text": "First Internet Bank, launched in 1999, was the first state-chartered, FDIC-insured institution to operate entirely online, influencing today\u2019s digital-only banking models."
+    "text": "The United States enacted the Equal Credit Opportunity Act in 1974, prohibiting creditors from discriminating in credit decisions on the basis of sex or marital status."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "MAVI",
-      "description": "Emerges from stealth with $4 million in funding.",
-      "source_url": "https://techcrunch.com/2026/09/28/mavi-bets-on-the-ai-boom-creating-demand-for-a-new-kind-of-accountant/"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "type": "M&A",
-      "company": "Plus500",
-      "description": "Agrees to acquire Hedge Global Markets.",
-      "source_url": "https://www.finextra.com/pressarticle/111232/plus500-agrees-to-acquire-hedge-global-markets?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\udde7\ud83c\udded",
       "type": "product",
       "company": "Rain",
-      "description": "Launches embedded stablecoin wallets.",
-      "source_url": "https://www.finextra.com/pressarticle/111233/rain-launches-stablecoin-wallet?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "description": "Introduces consumer wallet for saving, spending and sending stablecoin balances.",
+      "source_url": "https://www.bankingdive.com/news/stablecoin-startups-rain-masspay-verda-advance-payments/832935/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "WEX",
-      "description": "Launches APAC fleet payments network with Mastercard.",
-      "source_url": "https://www.finextra.com/pressarticle/111222/wex-and-mastercard-launch-apac-fleet-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddff",
-      "type": "fundraising",
-      "company": "Qippay",
-      "description": "Secures NZ$5 million investment from All Roads Wholesale Fund.",
-      "source_url": "https://www.finextra.com/pressarticle/111221/nz-fintech-qippay-secures-nz5m-funding-boost?utm_medium=rssfinextra&utm_source=finextrafeed"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "Barclaycard Payments",
+      "description": "Deploys Visa Unified Checkout for UK ecommerce merchants.",
+      "source_url": "https://www.finextra.com/pressarticle/111255/barclaycard-payments-deploys-visa-unified-checkout"
     }
   ]
 }
