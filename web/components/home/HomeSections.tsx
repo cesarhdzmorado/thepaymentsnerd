@@ -135,13 +135,20 @@ export function HomeHeader({
         </div>
 
         {/* 2. Display headline — the mockup's "Five critical…" at hero scale */}
-        <h1 className="mb-8 max-w-[16ch] text-[44px] sm:text-[64px] md:text-[84px] lg:text-[96px] font-extrabold leading-[0.95] tracking-[-0.035em] text-[var(--ink)]">
-          Five <span className="text-[var(--accent)]">critical</span> payments insights.
-          <br />
-          Zero noise.
-          <br />
-          Daily.
-        </h1>
+        {isArchive ? (
+          <h1 className="mb-8 max-w-[18ch] text-[44px] font-extrabold leading-[0.95] tracking-[-0.035em] text-[var(--ink)] sm:text-[64px] md:text-[84px] lg:text-[96px]">
+            {formattedDate}.<br />
+            Five payments stories that <span className="text-[var(--accent)]">matter.</span>
+          </h1>
+        ) : (
+          <h1 className="mb-8 max-w-[16ch] text-[44px] font-extrabold leading-[0.95] tracking-[-0.035em] text-[var(--ink)] sm:text-[64px] md:text-[84px] lg:text-[96px]">
+            Five <span className="text-[var(--accent)]">critical</span> payments insights.
+            <br />
+            Zero noise.
+            <br />
+            Daily.
+          </h1>
+        )}
 
         {/* 3. Deck — the 5-minute briefing line */}
         <p className="mb-10 max-w-[44ch] text-lg sm:text-xl text-[var(--muted)] leading-relaxed">

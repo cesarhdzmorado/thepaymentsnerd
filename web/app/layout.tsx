@@ -22,8 +22,15 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.thepaymentsnerd.co"),
   title: "/thepaymentsnerd - Daily Payments News",
   description: "Five critical payments insights. Zero noise. Daily.",
+  alternates: {
+    canonical: "/",
+    types: {
+      "application/rss+xml": "/feed.xml",
+    },
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

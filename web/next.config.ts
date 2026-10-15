@@ -1,7 +1,22 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: "/",
+        has: [
+          {
+            type: "query",
+            key: "date",
+            value: "(?<date>\\d{4}-\\d{2}-\\d{2})",
+          },
+        ],
+        destination: "/issues/:date",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
