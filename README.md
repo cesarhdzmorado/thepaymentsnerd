@@ -73,6 +73,8 @@ CRON_SECRET=your_cron_secret_here
 
 # Site configuration
 NEXT_PUBLIC_SITE_URL=https://yourdomain.com
+GOOGLE_SITE_VERIFICATION=your_google_verification_token
+BING_SITE_VERIFICATION=your_bing_verification_token
 ```
 
 See [docs/SETUP.md](docs/SETUP.md) for detailed configuration instructions.

@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 import { HeroAnimations } from "@/components/home/HeroAnimations";
@@ -154,6 +155,13 @@ export function HomeHeader({
         <p className="mb-10 max-w-[44ch] text-lg sm:text-xl text-[var(--muted)] leading-relaxed">
           The 5-minute briefing for payments professionals who need to know what happened,
           what it means, and what to do about it — before their 9am.
+        </p>
+
+        <p className="label-mono mb-8 text-[var(--muted)]">
+          Published by /thepaymentsnerd editorial desk · AI-assisted, source-linked ·{" "}
+          <Link href="/methodology" className="border-b border-current text-[var(--ink)] hover:text-[var(--accent)]">
+            How we work
+          </Link>
         </p>
 
         {/* 4. Subscribe — primary CTA, above-fold on desktop */}
