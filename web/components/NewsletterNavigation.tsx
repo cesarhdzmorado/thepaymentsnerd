@@ -48,9 +48,9 @@ export function NewsletterNavigation({
         return;
       }
       if (e.key === "ArrowLeft" && prevDate) {
-        router.push(`/?date=${prevDate}`);
+        router.push(`/issues/${prevDate}`);
       } else if (e.key === "ArrowRight" && nextDate) {
-        router.push(`/?date=${nextDate}`);
+        router.push(`/issues/${nextDate}`);
       }
     };
     window.addEventListener("keydown", handle);
@@ -78,9 +78,9 @@ export function NewsletterNavigation({
         <div>
           {prevDate ? (
             <button
-              onClick={() => router.push(`/?date=${prevDate}`)}
+              onClick={() => router.push(`/issues/${prevDate}`)}
               className={archiveButtonClasses()}
-              aria-label="Previous day's newsletter"
+              aria-label={`Previous issue: ${formatDateLabel(prevDate)}`}
             >
               <ChevronLeft className="h-3.5 w-3.5" />
               <span>{formatDateLabel(prevDate)}</span>
@@ -107,9 +107,9 @@ export function NewsletterNavigation({
           )}
           {nextDate ? (
             <button
-              onClick={() => router.push(`/?date=${nextDate}`)}
+              onClick={() => router.push(`/issues/${nextDate}`)}
               className={archiveButtonClasses()}
-              aria-label="Next day's newsletter"
+              aria-label={`Next issue: ${formatDateLabel(nextDate)}`}
             >
               <span>{formatDateLabel(nextDate)}</span>
               <ChevronRight className="h-3.5 w-3.5" />

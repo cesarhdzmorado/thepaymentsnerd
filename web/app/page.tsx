@@ -1,6 +1,6 @@
 export const revalidate = 900;
 
-import { Suspense } from "react";
+import { cache, Suspense } from "react";
 import { promises as fs } from "fs";
 import path from "path";
 import { Footer } from "@/components/Footer";
@@ -38,7 +38,7 @@ async function getLocalNewsletter(): Promise<Newsletter | null> {
   }
 }
 
-async function getLatestNewsletter(): Promise<Newsletter | null> {
+export const getLatestNewsletter = cache(async (): Promise<Newsletter | null> => {
   const { data, error } = await supabase
     .from("newsletters")
     .select("publication_date, content")
@@ -52,9 +52,9 @@ async function getLatestNewsletter(): Promise<Newsletter | null> {
   }
 
   return data as Newsletter;
-}
+});
 
-async function getNewsletterByDate(date: string): Promise<Newsletter | null> {
+export const getNewsletterByDate = cache(async (date: string): Promise<Newsletter | null> => {
   const { data, error } = await supabase
     .from("newsletters")
     .select("publication_date, content")
@@ -67,7 +67,7 @@ async function getNewsletterByDate(date: string): Promise<Newsletter | null> {
   }
 
   return data as Newsletter;
-}
+});
 
 async function getAdjacentDates(
   currentDate: string
