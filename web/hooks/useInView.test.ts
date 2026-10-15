@@ -37,6 +37,7 @@ describe("useInView (unit logic)", () => {
     // Verify the mock class captures options correctly
     const callback = vi.fn();
     const observer = new MockIntersectionObserver(callback, { threshold: 0.5 });
+    expect(observerCallback).toBe(callback);
     expect(observerOptions).toEqual({ threshold: 0.5 });
     expect(observer.observe).toBeDefined();
   });
