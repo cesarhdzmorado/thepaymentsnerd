@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { NavigationBar } from "@/components/NavigationBar";
 import { Analytics } from "@vercel/analytics/react";
+import { StructuredData } from "@/components/StructuredData";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/structuredData";
 import "./globals.css";
 
 // Primary typeface — body + display, weights 400–900.
@@ -21,10 +23,18 @@ const jetbrainsMono = JetBrains_Mono({
   weight: ["400", "500", "600"],
 });
 
+const verification: Metadata["verification"] = {
+  google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+  other: process.env.BING_SITE_VERIFICATION
+    ? { "msvalidate.01": [process.env.BING_SITE_VERIFICATION] }
+    : undefined,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.thepaymentsnerd.co"),
   title: "/thepaymentsnerd - Daily Payments News",
   description: "Five critical payments insights. Zero noise. Daily.",
+  verification,
   alternates: {
     canonical: "/",
     types: {
@@ -79,6 +89,7 @@ export default function RootLayout({
           "bg-[var(--background)] text-[var(--foreground)]",
         ].join(" ")}
       >
+        <StructuredData data={[organizationJsonLd(), websiteJsonLd()]} />
         <a
           href="#main-content"
           className="sr-only-focusable"

@@ -4,9 +4,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { ArchiveIssueList } from "@/components/ArchiveIssueList";
+import { StructuredData } from "@/components/StructuredData";
 import { supabase } from "@/lib/supabaseClient";
 import type { NewsletterContent } from "@/components/home/HomeSections";
 import { formatIssueDate } from "@/lib/archive";
+import { collectionPageJsonLd } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Archive | /thepaymentsnerd",
@@ -56,6 +58,13 @@ export default async function ArchivePage() {
   const months = getMonths(dates);
   return (
     <div className="min-h-screen bg-[var(--paper)] text-[var(--ink)] antialiased">
+      <StructuredData
+        data={collectionPageJsonLd(
+          "The Payments Nerd archive",
+          "https://www.thepaymentsnerd.co/archive",
+          recent.map((entry) => ({ publication_date: entry.publication_date, title: entry.content.news?.[0]?.title })),
+        )}
+      />
       <div className="mx-auto w-full max-w-[1240px] px-4 pt-12 sm:px-8 sm:pt-16 lg:px-16">
         <header className="mb-12 border-b-2 border-[var(--ink)] pb-6">
           <p className="label-mono label-mono--accent mb-3">Archive</p>

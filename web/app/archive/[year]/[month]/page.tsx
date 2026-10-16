@@ -3,9 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/Footer";
 import { ArchiveIssueList } from "@/components/ArchiveIssueList";
+import { StructuredData } from "@/components/StructuredData";
 import type { NewsletterContent } from "@/components/home/HomeSections";
 import { isArchiveMonth, monthBounds } from "@/lib/archive";
 import { supabase } from "@/lib/supabaseClient";
+import { collectionPageJsonLd } from "@/lib/structuredData";
 
 export const revalidate = 900;
 type MonthPageProps = { params: Promise<{ year: string; month: string }> };
@@ -41,6 +43,13 @@ export default async function ArchiveMonthPage({ params }: MonthPageProps) {
   const label = monthLabel(year, month);
   return (
     <div className="min-h-screen bg-[var(--paper)] text-[var(--ink)] antialiased">
+      <StructuredData
+        data={collectionPageJsonLd(
+          `${label} archive`,
+          `https://www.thepaymentsnerd.co/archive/${year}/${month}`,
+          entries.map((entry) => ({ publication_date: entry.publication_date, title: entry.content.news?.[0]?.title })),
+        )}
+      />
       <div className="mx-auto w-full max-w-[1240px] px-4 pt-12 sm:px-8 sm:pt-16 lg:px-16">
         <header className="mb-12 border-b-2 border-[var(--ink)] pb-6">
           <Link href="/archive" className="label-mono label-mono--accent mb-3 inline-block hover:underline">← Full archive</Link>
