@@ -20,7 +20,7 @@ const READ_LINKS: FooterLink[] = [
 
 const COMPANY_LINKS: FooterLink[] = [
   { name: "About", href: "/about" },
-  { name: "Methodology", href: "/methodology" },
+  { name: "The System", href: "/system" },
   {
     name: "Advertise",
     href: "mailto:cesar@thepaymentsnerd.co?subject=Sponsorship%20Inquiry%20%E2%80%94%20The%20Payments%20Nerd",

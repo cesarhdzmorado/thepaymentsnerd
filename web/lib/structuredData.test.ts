@@ -18,10 +18,7 @@ describe("structured data", () => {
       "@type": "Article",
       datePublished: "2026-10-15T07:00:00Z",
       mainEntityOfPage: { "@id": "https://www.thepaymentsnerd.co/issues/2026-10-15" },
-      author: {
-        "@id": "https://www.thepaymentsnerd.co/#editorial-desk",
-        parentOrganization: { "@id": "https://www.thepaymentsnerd.co/#organization" },
-      },
+      author: { "@id": "https://www.thepaymentsnerd.co/#organization" },
     });
   });
 

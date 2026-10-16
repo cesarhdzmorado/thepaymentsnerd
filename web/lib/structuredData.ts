@@ -3,8 +3,6 @@ import { issueDescription, issueTitle, issueUrl, SITE_URL } from "./seo";
 
 export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
-export const EDITORIAL_DESK_ID = `${SITE_URL}/#editorial-desk`;
-export const PUBLISHER_NAME = "/thepaymentsnerd editorial desk";
 
 export type JsonLdValue = Record<string, unknown>;
 
@@ -44,12 +42,7 @@ export function issueArticleJsonLd(newsletter: Newsletter): JsonLdValue {
     dateModified: `${newsletter.publication_date}T07:00:00Z`,
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     image: `${url}/opengraph-image`,
-    author: {
-      "@type": "Organization",
-      "@id": EDITORIAL_DESK_ID,
-      name: PUBLISHER_NAME,
-      parentOrganization: { "@id": ORGANIZATION_ID },
-    },
+    author: { "@id": ORGANIZATION_ID },
     publisher: { "@id": ORGANIZATION_ID },
     isPartOf: { "@id": WEBSITE_ID },
     about: [

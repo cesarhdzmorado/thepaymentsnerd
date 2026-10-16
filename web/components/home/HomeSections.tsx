@@ -158,9 +158,9 @@ export function HomeHeader({
         </p>
 
         <p className="label-mono mb-8 text-[var(--muted)]">
-          Published by /thepaymentsnerd editorial desk · AI-assisted, source-linked ·{" "}
-          <Link href="/methodology" className="border-b border-current text-[var(--ink)] hover:text-[var(--accent)]">
-            How we work
+          Independent · Autonomous research · Evidence-gated publishing ·{" "}
+          <Link href="/system" className="border-b border-current text-[var(--ink)] hover:text-[var(--accent)]">
+            See the system
           </Link>
         </p>
 
