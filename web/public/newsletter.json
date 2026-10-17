@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "EBA Sets November Handover for Supervision of USDC",
-      "body": "The European Banking Authority classified USDC, issued in the EU by Circle Internet Financial Europe SAS, as a significant e-money token on October 14\u2014the first among 45 notified EU e-money tokens. From November 12, 2026, the EBA assumes responsibility for own funds, reserves, liquidity, and recovery and redemption plans; France\u2019s ACPR retains responsibilities including governance and outsourcing. Banks and PSPs using USDC should reflect that split in issuer due diligence. The designation does not constitute a regulatory endorsement or a new payment-services authorization.",
-      "source": {
-        "name": "European Banking Authority",
-        "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union"
-      }
-    },
-    {
-      "title": "U.S. Bank Bundles Deposits, Merchant Processing and Cards for Small Businesses",
-      "body": "U.S. Bank identified small-business growth as a leading 2027 priority, combining checking, merchant processing, cards and spend management. Banking Dive reports that the bank serves approximately 2 million small businesses and that its small-business segment recorded $45 billion in average deposits, up 2% year over year, and $223 million in fee income, up 9%. New business-card benefits also depend on deposit balances, making the combined cost of banking, credit and payment acceptance relevant when merchants compare the bundle with standalone providers.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/us-bank-small-business-banking-growth-q3-earnings/833113/"
-      }
-    },
-    {
-      "title": "Ramp Raises $1.85 Billion at a $60 Billion Valuation",
-      "body": "Ramp raised $1.85 billion in primary financing led by Dragoneer Investment Group at a $60 billion valuation, Finextra reported on October 15. Primary financing puts capital into the company rather than solely funding shareholder liquidity. The report did not specify how Ramp would allocate the proceeds, so the round does not establish a particular product expansion or change in commercial terms.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48591/ramp-hits-60bn-valuation"
-      }
-    },
-    {
-      "title": "Google Rolls Out Universal Cart With Two Checkout Paths",
-      "body": "Shoppers in the United States began gaining access to Google\u2019s Universal Cart on October 15. The product collects items across retailers in Search and Gemini and tracks price and availability changes. Some participating stores support Google Pay checkout inside the cart; others send shoppers to the merchant\u2019s website. Merchants measuring the rollout\u2019s results need to distinguish native checkout from redirected sessions rather than treating both as the same purchase journey.",
+      "title": "Visa Brings USDC Prefunding to Commercial Payouts",
+      "body": "Visa moved stablecoin-enabled prefunding into commercial deployment through Inyo Global, letting eligible businesses fund Visa Direct cross-border payouts with USDC through existing APIs while recipients receive fiat. The service adds a funding option without requiring recipients to adopt crypto wallets. Available corridors, conversion costs and required balances will determine how it compares with existing funding arrangements; the announcement does not demonstrate liquidity savings.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/commerce/ecommerce/2026/google-launches-intelligent-shopping-cart-search-gemini-app/"
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/visa-direct-accelerates-cross-border-money-movement-with-stablecoin-prefunding/"
       }
     },
     {
-      "title": "Glance Names PayPal Its Sole Native In-App Checkout Partner",
-      "body": "Glance added real-time product information and native PayPal checkout to its personal-shopping platform on October 15. According to the announcement reported by PYMNTS, PayPal is the platform\u2019s only native in-app checkout partner, allowing shoppers to complete purchases without a website redirect. That exclusivity concerns native checkout on Glance, not a broader restriction on retailers\u2019 payment options. Glance\u2019s reported footprint of 60 million phones and connected TVs measures device distribution, not active shoppers or payment volume; the announcement did not disclose exclusivity duration.",
+      "title": "Upgrade Seeks Nevada Bank Charter Alongside Existing Partnerships",
+      "body": "After facilitating more than $53 billion in credit through its bank-and-loan-buyer model, Upgrade applied to establish a Nevada industrial loan bank. The company says an owned bank would complement those relationships rather than replace partners. Approval would give Upgrade an additional funding and origination option, but the application does not establish an approval timetable or the eventual division of business between its bank and external partners.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/commerce/ecommerce/2026/personal-shopping-platform-glance-adds-paypal-native-checkout/"
+        "url": "https://www.pymnts.com/news/banking/2026/upgrade-bank-ambitions-show-how-fintech-growth-expands-choices/"
+      }
+    },
+    {
+      "title": "Equifax Adds Mastercard Cash-Flow Data to Lenders\u2019 Credit Assessment Tools",
+      "body": "Lenders using Equifax will gain access to Mastercard Open Finance insights alongside consumer credit files, including cash-flow analytics covering up to 24 months of credits, debits and balances. The tools support assessments of thin-file and credit-invisible consumers within existing underwriting systems. Mastercard gains distribution through Equifax, which retains a multi-provider approach; the announcement provides no quantified improvement in approvals or default outcomes.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/consumer-finance/2026/equifax-equips-lenders-with-mastercard-open-finance-insights/"
+      }
+    },
+    {
+      "title": "Intuit Targets Usage-Based Billing With Sequence Acquisition",
+      "body": "Intuit announced plans to acquire Sequence for undisclosed terms, adding pricing, billing, collection and revenue-management capabilities for usage-, consumption-, seat- and milestone-based business models. The proposed deal targets B2B software and professional-services businesses within Intuit\u2019s mid-market offering. It would bring more of their contract-to-collection workflow into one platform, although the acquisition announcement does not make those capabilities immediately available.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/intuit-targets-b2b-software-space-with-sequence-acquisition/"
+      }
+    },
+    {
+      "title": "Scams and Stolen Credentials Account for Half of Surveyed Fraud Dollars",
+      "body": "Scams represented 22.4% of reported fraud dollars and account takeover through stolen credentials represented 28.2% in a July 2026 survey of 90 executives at U.S. banks, credit unions and fintechs. Together, the categories accounted for 50.6%. Separately, 78% of respondents cited new-system complexity as their leading innovation barrier. These findings describe the surveyed institutions, not a census of national fraud losses, and do not establish which interventions reduce losses.",
+      "source": {
+        "name": "PYMNTS Intelligence",
+        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/scams-capture-22-4percent-of-fraud-dollars-as-banks-adjust-defenses/"
       }
     }
   ],
-  "perspective": "Circle\u2019s supervisory handover and Ramp\u2019s financing span a day of stablecoin regulation, fintech funding, small-business banking and embedded checkout.",
+  "perspective": "Visa expands payout funding as Upgrade seeks a bank charter, alongside cash-flow underwriting, billing consolidation and fraud-loss survey findings.",
   "curiosity": {
-    "text": "In 1958, Bank of America mailed 60,000 BankAmericards to residents of Fresno, California, in an experiment known as the \u201cFresno Drop\u201d that helped establish the revolving credit-card model."
+    "text": "Western Union introduced its money-transfer service in 1871. Telegraphic transfers communicated payment instructions over the telegraph network rather than physically transporting the sender\u2019s cash to the recipient\u2014a distinction between moving information and moving money. Historical source: Encyclopaedia Britannica, https://www.britannica.com/money/Western-Union-Corporation"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Stripe / Plasma",
-      "description": "Announced multi-currency stablecoin cards, with availability across more than 30 countries.",
-      "source_url": "https://www.pymnts.com/news/payment-methods/2026/stripe-teams-with-plasma-to-unveil-multi-currency-stablecoin-cards/"
+      "type": "fundraising",
+      "company": "Ramp",
+      "description": "Reported $1.85 billion primary financing led by Dragoneer at a $60 billion valuation.",
+      "source_url": "https://www.finextra.com/newsarticle/48591/ramp-hits-60bn-valuation"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddfe",
-      "type": "expansion",
-      "company": "dLocal / Western Union",
-      "description": "Expanded their African remittance partnership to include payouts.",
-      "source_url": "https://www.finextra.com/pressarticle/111290/western-union-and-dlocal-expand-africa-remittances"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Acorns / Frich",
+      "description": "Acquires financial-education community Frich, adding 1.6 million community members and its creator network.",
+      "source_url": "https://www.pymnts.com/news/acquiring/2026/acorns-acquires-frich-to-scale-financial-education/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Mastercard / BVNK",
-      "description": "Launched a single-API platform combining fiat payments and BVNK stablecoin infrastructure.",
-      "source_url": "https://www.finextra.com/newsarticle/48590/mastercard-and-bvnk-bring-fiat-and-stablecoin-payments-together-in-global-money-platform"
+      "company": "Marqeta / Coinbase",
+      "description": "Enterprise stablecoin-backed card offering combines Coinbase custody and conversion with Marqeta issuing.",
+      "source_url": "https://www.pymnts.com/blockchain/2026/marqeta-and-coinbase-take-stablecoin-spending-mainstream/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Google",
+      "description": "Begins U.S. Universal Cart rollout across Search and Gemini, including selected Google Pay checkouts.",
+      "source_url": "https://www.pymnts.com/commerce/ecommerce/2026/google-launches-intelligent-shopping-cart-search-gemini-app/"
     }
   ]
 }
