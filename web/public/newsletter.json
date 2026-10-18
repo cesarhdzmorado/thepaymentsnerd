@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Visa Brings USDC Prefunding to Commercial Payouts",
-      "body": "Visa moved stablecoin-enabled prefunding into commercial deployment through Inyo Global, letting eligible businesses fund Visa Direct cross-border payouts with USDC through existing APIs while recipients receive fiat. The service adds a funding option without requiring recipients to adopt crypto wallets. Available corridors, conversion costs and required balances will determine how it compares with existing funding arrangements; the announcement does not demonstrate liquidity savings.",
+      "title": "Inyo Global Enables USDC-to-Fiat Funding for Payment Prefunding",
+      "body": "Inyo Global is enabling a USDC-to-fiat workflow for payment prefunding, targeting cash that payment providers hold ahead of payouts. The workflow connects stablecoin funding with fiat payment delivery. The reviewed coverage disclosed no quantified customer liquidity savings; eligible corridors, funding limits and redemption arrangements determine how much prefunded cash providers can release.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-payments/2026/visa-direct-accelerates-cross-border-money-movement-with-stablecoin-prefunding/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoins-take-aim-cash-locked-prefunding/"
       }
     },
     {
-      "title": "Upgrade Seeks Nevada Bank Charter Alongside Existing Partnerships",
-      "body": "After facilitating more than $53 billion in credit through its bank-and-loan-buyer model, Upgrade applied to establish a Nevada industrial loan bank. The company says an owned bank would complement those relationships rather than replace partners. Approval would give Upgrade an additional funding and origination option, but the application does not establish an approval timetable or the eventual division of business between its bank and external partners.",
+      "title": "SEB Agrees to $33 Million NYDFS Penalty Over AML Failures",
+      "body": "NYDFS announced October 15 that SEB and its New York branch agreed to a $33 million penalty under a consent order. The regulator identified inadequate customer and correspondent-bank due diligence, deficient client files, incorrect AML risk assessments and transaction-monitoring backlogs in Baltic subsidiaries. SEB said it would record the penalty in fourth-quarter operating expenses without changing its full-year cost target.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/upgrade-bank-ambitions-show-how-fintech-growth-expands-choices/"
+        "name": "New York Department of Financial Services",
+        "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20261015"
       }
     },
     {
-      "title": "Equifax Adds Mastercard Cash-Flow Data to Lenders\u2019 Credit Assessment Tools",
-      "body": "Lenders using Equifax will gain access to Mastercard Open Finance insights alongside consumer credit files, including cash-flow analytics covering up to 24 months of credits, debits and balances. The tools support assessments of thin-file and credit-invisible consumers within existing underwriting systems. Mastercard gains distribution through Equifax, which retains a multi-provider approach; the announcement provides no quantified improvement in approvals or default outcomes.",
+      "title": "Truist Pairs $7.7 Billion Loan Sale With Payments and Deposit Investment",
+      "body": "Truist agreed to sell $7.7 billion of LightStream consumer loans to Carlyle, expecting approximately $7.2 billion in net proceeds and a fourth-quarter close. In October 16 earnings commentary, management outlined additional investment in mobile banking, payments, cards, rewards and treasury management as it redirects resources toward primary-account relationships. Quarterly debit and credit card spending reached $32 billion, up 4.5% year over year.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/consumer-finance/2026/equifax-equips-lenders-with-mastercard-open-finance-insights/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/truist-lyons-wilson-consumer-banking-leadership-shakeup-earnings/833247/"
       }
     },
     {
-      "title": "Intuit Targets Usage-Based Billing With Sequence Acquisition",
-      "body": "Intuit announced plans to acquire Sequence for undisclosed terms, adding pricing, billing, collection and revenue-management capabilities for usage-, consumption-, seat- and milestone-based business models. The proposed deal targets B2B software and professional-services businesses within Intuit\u2019s mid-market offering. It would bring more of their contract-to-collection workflow into one platform, although the acquisition announcement does not make those capabilities immediately available.",
+      "title": "Marqeta and Coinbase Enable Stablecoin-Backed Cards for Enterprise Customers",
+      "body": "Marqeta and Coinbase announced October 16 that Marqeta enterprise customers could offer stablecoin-backed cards. Coinbase handles custody and digital-asset conversion, while Marqeta supplies issuing, processing, and bank and network relationships. Cardholders can spend stablecoin balances through existing card acceptance without merchants accepting stablecoins directly. The announcement did not disclose commercial volumes, pricing or named enterprise adopters.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/intuit-targets-b2b-software-space-with-sequence-acquisition/"
+        "url": "https://www.pymnts.com/blockchain/2026/marqeta-and-coinbase-take-stablecoin-spending-mainstream/"
       }
     },
     {
-      "title": "Scams and Stolen Credentials Account for Half of Surveyed Fraud Dollars",
-      "body": "Scams represented 22.4% of reported fraud dollars and account takeover through stolen credentials represented 28.2% in a July 2026 survey of 90 executives at U.S. banks, credit unions and fintechs. Together, the categories accounted for 50.6%. Separately, 78% of respondents cited new-system complexity as their leading innovation barrier. These findings describe the surveyed institutions, not a census of national fraud losses, and do not establish which interventions reduce losses.",
+      "title": "Regions Plans Real-Time Deposit Pilot Ahead of 2027 Customer Conversion",
+      "body": "Regions said October 16 that it expected to begin piloting its cloud-based deposit platform within one to two weeks. The bank plans to expand testing in first-quarter 2027 and complete customer conversion in late second-quarter or early third-quarter 2027. Management described the platform as a real-time system that would provide capabilities unavailable on its current platform.",
       "source": {
-        "name": "PYMNTS Intelligence",
-        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/scams-capture-22-4percent-of-fraud-dollars-as-banks-adjust-defenses/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/earnings/2026/regions-bank-says-ai-cybersecurity-drives-up-costs-1-5percent-to-3-5percent/"
       }
     }
   ],
-  "perspective": "Visa expands payout funding as Upgrade seeks a bank charter, alongside cash-flow underwriting, billing consolidation and fraud-loss survey findings.",
+  "perspective": "Inyo Global advances stablecoin prefunding as Truist redirects investment toward payments and deposits, alongside AML enforcement, stablecoin-backed cards and deposit-platform modernization.",
   "curiosity": {
-    "text": "Western Union introduced its money-transfer service in 1871. Telegraphic transfers communicated payment instructions over the telegraph network rather than physically transporting the sender\u2019s cash to the recipient\u2014a distinction between moving information and moving money. Historical source: Encyclopaedia Britannica, https://www.britannica.com/money/Western-Union-Corporation"
+    "text": "Same Day ACH launched for U.S. credit payments on September 23, 2016, but the network did not add same-day debit payments until September 2017."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Ramp",
-      "description": "Reported $1.85 billion primary financing led by Dragoneer at a $60 billion valuation.",
-      "source_url": "https://www.finextra.com/newsarticle/48591/ramp-hits-60bn-valuation"
+      "type": "M&A",
+      "company": "Intuit",
+      "description": "Agrees to acquire Sequence for usage-based billing and mid-market revenue management.",
+      "source_url": "https://www.pymnts.com/acquisitions/2026/intuit-targets-b2b-software-space-with-sequence-acquisition/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Acorns / Frich",
-      "description": "Acquires financial-education community Frich, adding 1.6 million community members and its creator network.",
-      "source_url": "https://www.pymnts.com/news/acquiring/2026/acorns-acquires-frich-to-scale-financial-education/"
+      "company": "Acorns",
+      "description": "Acquires Frich, adding its 1.6 million-person financial education community and creator network.",
+      "source_url": "https://www.acorns.com/learn/acorns/acorns-acquires-frich/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Marqeta / Coinbase",
-      "description": "Enterprise stablecoin-backed card offering combines Coinbase custody and conversion with Marqeta issuing.",
-      "source_url": "https://www.pymnts.com/blockchain/2026/marqeta-and-coinbase-take-stablecoin-spending-mainstream/"
+      "company": "Equifax",
+      "description": "Adds Mastercard consumer-permissioned cash-flow analytics and payment-risk insights alongside credit files.",
+      "source_url": "https://www.pymnts.com/consumer-finance/2026/equifax-equips-lenders-with-mastercard-open-finance-insights/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Google",
-      "description": "Begins U.S. Universal Cart rollout across Search and Gemini, including selected Google Pay checkouts.",
-      "source_url": "https://www.pymnts.com/commerce/ecommerce/2026/google-launches-intelligent-shopping-cart-search-gemini-app/"
+      "company": "BNY",
+      "description": "Enables bank-to-wallet cross-border payments; September launch highlighted in October earnings.",
+      "source_url": "https://www.pymnts.com/news/banking/2026/bny-extends-reach-into-tokenized-funds-and-pay-to-wallet-service/"
     }
   ]
 }
