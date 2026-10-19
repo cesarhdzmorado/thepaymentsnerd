@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Inyo Global Enables USDC-to-Fiat Funding for Payment Prefunding",
-      "body": "Inyo Global is enabling a USDC-to-fiat workflow for payment prefunding, targeting cash that payment providers hold ahead of payouts. The workflow connects stablecoin funding with fiat payment delivery. The reviewed coverage disclosed no quantified customer liquidity savings; eligible corridors, funding limits and redemption arrangements determine how much prefunded cash providers can release.",
+      "title": "BNY Gives Banks Cross-Border Wallet Reach Without Building Their Own Infrastructure",
+      "body": "BNY used its October 15 earnings call to detail Pay-to-Wallet, introduced in the third quarter, which lets banks send cross-border payments from bank accounts to retail digital wallets. Banks can retain the originating customer relationship while using BNY\u2019s infrastructure to reach recipients outside bank-account payout channels. Banks evaluating the service can focus procurement on supported wallets, currencies, corridors and payout limits rather than building their own wallet connections.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoins-take-aim-cash-locked-prefunding/"
+        "url": "https://www.pymnts.com/news/banking/2026/bny-extends-reach-into-tokenized-funds-and-pay-to-wallet-service/"
       }
     },
     {
-      "title": "SEB Agrees to $33 Million NYDFS Penalty Over AML Failures",
-      "body": "NYDFS announced October 15 that SEB and its New York branch agreed to a $33 million penalty under a consent order. The regulator identified inadequate customer and correspondent-bank due diligence, deficient client files, incorrect AML risk assessments and transaction-monitoring backlogs in Baltic subsidiaries. SEB said it would record the penalty in fourth-quarter operating expenses without changing its full-year cost target.",
-      "source": {
-        "name": "New York Department of Financial Services",
-        "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20261015"
-      }
-    },
-    {
-      "title": "Truist Pairs $7.7 Billion Loan Sale With Payments and Deposit Investment",
-      "body": "Truist agreed to sell $7.7 billion of LightStream consumer loans to Carlyle, expecting approximately $7.2 billion in net proceeds and a fourth-quarter close. In October 16 earnings commentary, management outlined additional investment in mobile banking, payments, cards, rewards and treasury management as it redirects resources toward primary-account relationships. Quarterly debit and credit card spending reached $32 billion, up 4.5% year over year.",
+      "title": "Kraken Parent Targets Deposits And Card Issuance Through Saldo Bank Deal",
+      "body": "Payward, Kraken\u2019s parent, agreed to acquire Lithuania-based Saldo Bank and its Finnish holding company, with closing expected in 2027 and financial terms undisclosed. The acquisition would add banking capabilities beyond Payward\u2019s Irish electronic-money license, supporting its plans for interest-bearing deposits, lending and banking-as-a-service, including card issuance. Regulatory clearance and country-specific product plans now determine how much of that offering Payward can deliver across Saldo\u2019s five European markets.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/truist-lyons-wilson-consumer-banking-leadership-shakeup-earnings/833247/"
+        "url": "https://www.bankingdive.com/news/payward-kraken-eu-license-lithuania-bank-saldo/833019/"
       }
     },
     {
-      "title": "Marqeta and Coinbase Enable Stablecoin-Backed Cards for Enterprise Customers",
-      "body": "Marqeta and Coinbase announced October 16 that Marqeta enterprise customers could offer stablecoin-backed cards. Coinbase handles custody and digital-asset conversion, while Marqeta supplies issuing, processing, and bank and network relationships. Cardholders can spend stablecoin balances through existing card acceptance without merchants accepting stablecoins directly. The announcement did not disclose commercial volumes, pricing or named enterprise adopters.",
+      "title": "Spiko\u2019s $90 Million Round Backs Tokenized Funds Competing For Surplus Cash",
+      "body": "Spiko announced a $90 million Series B led by NEA and reported $2.7 billion placed in its funds, more than five times the level a year earlier. Its app- and API-accessible funds give treasury platforms another way to distribute surplus-cash investments across euros, dollars, sterling and Swiss francs, competing with money left in bank accounts. Distributors evaluating an integration must distinguish fund investments from insured deposits and assess liquidity, currency coverage and customer disclosures.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/marqeta-and-coinbase-take-stablecoin-spending-mainstream/"
+        "name": "Spiko",
+        "url": "https://www.spiko.io/blog/weve-raised-90m-to-make-cash-earn-for-everyone"
       }
     },
     {
-      "title": "Regions Plans Real-Time Deposit Pilot Ahead of 2027 Customer Conversion",
-      "body": "Regions said October 16 that it expected to begin piloting its cloud-based deposit platform within one to two weeks. The bank plans to expand testing in first-quarter 2027 and complete customer conversion in late second-quarter or early third-quarter 2027. Management described the platform as a real-time system that would provide capabilities unavailable on its current platform.",
+      "title": "Intuit Targets Usage-Based Billing And Collections With Proposed Sequence Acquisition",
+      "body": "Intuit announced plans to acquire Sequence, whose revenue-management tools support consumption-, usage-, seat- and milestone-based pricing, billing and collections. The proposed deal would broaden Enterprise Suite\u2019s mid-market offering, bringing more billing functionality into the accounting platform used by B2B software and professional-services businesses. For finance teams evaluating the combined product, the practical questions are whether integration preserves payment-provider choice and how it connects collections with reconciliation.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/regions-bank-says-ai-cybersecurity-drives-up-costs-1-5percent-to-3-5percent/"
+        "url": "https://www.pymnts.com/acquisitions/2026/intuit-targets-b2b-software-space-with-sequence-acquisition/"
+      }
+    },
+    {
+      "title": "Ledger Investigation Puts Hardware Wallet Distribution Chains Under Renewed Security Scrutiny",
+      "body": "PYMNTS, citing Bloomberg, reported that Ledger was investigating hardware tampering associated with $90 million in drained cryptocurrency and had asked distributors in Southeast Asia and Hong Kong to halt sales. Ledger said it had no indication that its infrastructure, systems, services or direct-sales channel had been compromised, putting distribution-chain integrity at the center of the investigation. Crypto businesses and custody teams can tighten approved purchasing channels and device-provenance checks while awaiting findings on affected batches and remediation.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-hardware-wallets-become-new-entry-point-for-hackers/"
       }
     }
   ],
-  "perspective": "Inyo Global advances stablecoin prefunding as Truist redirects investment toward payments and deposits, alongside AML enforcement, stablecoin-backed cards and deposit-platform modernization.",
+  "perspective": "BNY details wallet payouts as Kraken\u2019s parent pursues banking capabilities, alongside tokenized cash funds, billing consolidation and hardware-wallet security.",
   "curiosity": {
-    "text": "Same Day ACH launched for U.S. credit payments on September 23, 2016, but the network did not add same-day debit payments until September 2017."
+    "text": "SWIFT began live messaging in 1977. The network securely transmits payment instructions between financial institutions; it does not hold or move money itself. Banks use those instructions to settle payments through their accounts and payment systems."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Intuit",
-      "description": "Agrees to acquire Sequence for usage-based billing and mid-market revenue management.",
-      "source_url": "https://www.pymnts.com/acquisitions/2026/intuit-targets-b2b-software-space-with-sequence-acquisition/"
+      "type": "product",
+      "company": "Marqeta / Coinbase",
+      "description": "Enterprise stablecoin-backed cards combine Coinbase custody and conversion with Marqeta issuing.",
+      "source_url": "https://www.pymnts.com/blockchain/2026/marqeta-and-coinbase-take-stablecoin-spending-mainstream/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Acorns",
-      "description": "Acquires Frich, adding its 1.6 million-person financial education community and creator network.",
-      "source_url": "https://www.acorns.com/learn/acorns/acorns-acquires-frich/"
+      "company": "Acorns / Frich",
+      "description": "Acquires Frich, adding a 1.6-million-person financial education community and creator network.",
+      "source_url": "https://www.pymnts.com/news/acquiring/2026/acorns-acquires-frich-to-scale-financial-education/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Equifax",
-      "description": "Adds Mastercard consumer-permissioned cash-flow analytics and payment-risk insights alongside credit files.",
+      "company": "Equifax / Mastercard",
+      "description": "Adds consumer-permissioned cash-flow analytics and payment-risk insights to Equifax underwriting distribution.",
       "source_url": "https://www.pymnts.com/consumer-finance/2026/equifax-equips-lenders-with-mastercard-open-finance-insights/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "BNY",
-      "description": "Enables bank-to-wallet cross-border payments; September launch highlighted in October earnings.",
-      "source_url": "https://www.pymnts.com/news/banking/2026/bny-extends-reach-into-tokenized-funds-and-pay-to-wallet-service/"
+      "company": "World / Tools for Humanity",
+      "description": "Launches banking identity suite; AgentKit remains beta, while Zoom verification becomes generally available.",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/sam-altmans-world-debuts-id-verification-for-ai-agents/"
     }
   ]
 }
