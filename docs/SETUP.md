@@ -109,48 +109,36 @@ Run this SQL in the Supabase SQL Editor:
 
 ```sql
 -- Create subscribers table
-CREATE TABLE IF NOT EXISTS subscribers (
+CREATE TABLE IF NOT EXISTS public.subscribers (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   email TEXT UNIQUE NOT NULL,
   active BOOLEAN DEFAULT true,
   confirmed BOOLEAN DEFAULT false,
   subscribed_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   confirmed_at TIMESTAMP WITH TIME ZONE,
-  referrer_id UUID REFERENCES subscribers(id),
+  referrer_id UUID REFERENCES public.subscribers(id),
   referral_count INTEGER DEFAULT 0,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
 -- Add indexes for performance
-CREATE INDEX IF NOT EXISTS idx_subscribers_email ON subscribers(email);
-CREATE INDEX IF NOT EXISTS idx_subscribers_active ON subscribers(active);
-CREATE INDEX IF NOT EXISTS idx_subscribers_confirmed ON subscribers(confirmed);
-CREATE INDEX IF NOT EXISTS idx_subscribers_referrer ON subscribers(referrer_id);
+CREATE INDEX IF NOT EXISTS idx_subscribers_email ON public.subscribers(email);
+CREATE INDEX IF NOT EXISTS idx_subscribers_active ON public.subscribers(active);
+CREATE INDEX IF NOT EXISTS idx_subscribers_confirmed ON public.subscribers(confirmed);
+CREATE INDEX IF NOT EXISTS idx_subscribers_referrer ON public.subscribers(referrer_id);
 
--- Add RLS policies (Row Level Security)
-ALTER TABLE subscribers ENABLE ROW LEVEL SECURITY;
-
--- Allow public to insert new subscribers (for signup)
-CREATE POLICY "Allow public insert" ON subscribers
-  FOR INSERT TO anon
-  WITH CHECK (true);
-
--- Allow public to read their own subscription status (for confirmation)
-CREATE POLICY "Allow public read own" ON subscribers
-  FOR SELECT TO anon
-  USING (true);
-
--- Allow service role full access
-CREATE POLICY "Allow service role all" ON subscribers
-  FOR ALL TO service_role
-  USING (true);
+-- Subscriber operations are server-side only. Explicit grants are required
+-- for Supabase Data API access from 30 October 2026.
+REVOKE ALL PRIVILEGES ON TABLE public.subscribers FROM anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE public.subscribers TO service_role;
+ALTER TABLE public.subscribers ENABLE ROW LEVEL SECURITY;
 ```
 
 #### Create Newsletters Table (Optional, for tracking sent newsletters)
 
 ```sql
-CREATE TABLE IF NOT EXISTS newsletters (
+CREATE TABLE IF NOT EXISTS public.newsletters (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   publication_date DATE UNIQUE NOT NULL,
   title TEXT NOT NULL,
@@ -159,7 +147,15 @@ CREATE TABLE IF NOT EXISTS newsletters (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
-CREATE INDEX IF NOT EXISTS idx_newsletters_publication_date ON newsletters(publication_date);
+CREATE INDEX IF NOT EXISTS idx_newsletters_publication_date ON public.newsletters(publication_date);
+
+-- The website reads newsletters anonymously; writes remain server-side.
+REVOKE ALL PRIVILEGES ON TABLE public.newsletters FROM anon, authenticated;
+GRANT SELECT ON TABLE public.newsletters TO anon;
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE public.newsletters TO service_role;
+ALTER TABLE public.newsletters ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Allow public newsletter reads" ON public.newsletters
+  FOR SELECT TO anon USING (true);
 ```
 
 ### 5. Email Domain Setup (Resend)

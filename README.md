@@ -408,7 +408,7 @@ CREATE TABLE newsletters (
 );
 ```
 
-**Note:** Row Level Security (RLS) is enabled on the `subscribers` table. Server-side operations requiring full access should use the Supabase admin client (service role key).
+**Note:** Row Level Security (RLS) is enabled on the `subscribers` table. Server-side operations use the Supabase admin client (service role key); anonymous access is limited to reading `newsletters`. Creation migrations must include explicit Data API grants. See [`db/migrations/20261020_explicit_data_api_grants.sql`](db/migrations/20261020_explicit_data_api_grants.sql).
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for complete schema.
 
