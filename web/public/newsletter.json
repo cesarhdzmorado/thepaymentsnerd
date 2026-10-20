@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "BNY Gives Banks Cross-Border Wallet Reach Without Building Their Own Infrastructure",
-      "body": "BNY used its October 15 earnings call to detail Pay-to-Wallet, introduced in the third quarter, which lets banks send cross-border payments from bank accounts to retail digital wallets. Banks can retain the originating customer relationship while using BNY\u2019s infrastructure to reach recipients outside bank-account payout channels. Banks evaluating the service can focus procurement on supported wallets, currencies, corridors and payout limits rather than building their own wallet connections.",
+      "title": "JPMorgan Takes Bank Deposit Tokens Toward Ethereum for Institutional Settlement",
+      "body": "JPMorgan said JPM Coin would become available to institutional clients on Ethereum for blockchain payments, tokenized-asset settlement and collateralization. The extension brings commercial-bank money onto public blockchain infrastructure, but JPM Coin remains a deposit token rather than a stablecoin, with different eligibility and legal claims. Institutional treasury teams evaluating it must map eligible counterparties and supported settlement workflows before moving funds.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/bny-extends-reach-into-tokenized-funds-and-pay-to-wallet-service/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/jpmorgan-brings-its-deposit-token-to-the-ethereum-blockchain/"
       }
     },
     {
-      "title": "Kraken Parent Targets Deposits And Card Issuance Through Saldo Bank Deal",
-      "body": "Payward, Kraken\u2019s parent, agreed to acquire Lithuania-based Saldo Bank and its Finnish holding company, with closing expected in 2027 and financial terms undisclosed. The acquisition would add banking capabilities beyond Payward\u2019s Irish electronic-money license, supporting its plans for interest-bearing deposits, lending and banking-as-a-service, including card issuance. Regulatory clearance and country-specific product plans now determine how much of that offering Payward can deliver across Saldo\u2019s five European markets.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/payward-kraken-eu-license-lithuania-bank-saldo/833019/"
-      }
-    },
-    {
-      "title": "Spiko\u2019s $90 Million Round Backs Tokenized Funds Competing For Surplus Cash",
-      "body": "Spiko announced a $90 million Series B led by NEA and reported $2.7 billion placed in its funds, more than five times the level a year earlier. Its app- and API-accessible funds give treasury platforms another way to distribute surplus-cash investments across euros, dollars, sterling and Swiss francs, competing with money left in bank accounts. Distributors evaluating an integration must distinguish fund investments from insured deposits and assess liquidity, currency coverage and customer disclosures.",
-      "source": {
-        "name": "Spiko",
-        "url": "https://www.spiko.io/blog/weve-raised-90m-to-make-cash-earn-for-everyone"
-      }
-    },
-    {
-      "title": "Intuit Targets Usage-Based Billing And Collections With Proposed Sequence Acquisition",
-      "body": "Intuit announced plans to acquire Sequence, whose revenue-management tools support consumption-, usage-, seat- and milestone-based pricing, billing and collections. The proposed deal would broaden Enterprise Suite\u2019s mid-market offering, bringing more billing functionality into the accounting platform used by B2B software and professional-services businesses. For finance teams evaluating the combined product, the practical questions are whether integration preserves payment-provider choice and how it connects collections with reconciliation.",
+      "title": "Ramp Seeks Custody and Investment Powers Without Becoming a Deposit Bank",
+      "body": "Ramp applied to the OCC to establish a national trust bank for fiduciary investment management and digital-asset custody, without accepting deposits or making commercial loans. Approval would let Ramp bring those activities under its own charter, not replace the banking partners supporting its broader business. For those partners, the practical question is how Ramp would divide custody, investment management and banking responsibilities under any OCC operating conditions.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/acquisitions/2026/intuit-targets-b2b-software-space-with-sequence-acquisition/"
+        "url": "https://www.pymnts.com/bank-regulation/2026/ramp-seeks-national-trust-bank-charter-for-digital-asset-custody/"
       }
     },
     {
-      "title": "Ledger Investigation Puts Hardware Wallet Distribution Chains Under Renewed Security Scrutiny",
-      "body": "PYMNTS, citing Bloomberg, reported that Ledger was investigating hardware tampering associated with $90 million in drained cryptocurrency and had asked distributors in Southeast Asia and Hong Kong to halt sales. Ledger said it had no indication that its infrastructure, systems, services or direct-sales channel had been compromised, putting distribution-chain integrity at the center of the investigation. Crypto businesses and custody teams can tighten approved purchasing channels and device-provenance checks while awaiting findings on affected batches and remediation.",
+      "title": "Relay and Nium Reach $500 Million Through Embedded Cross-Border Payments",
+      "body": "Relay and Nium reported more than $500 million in cross-border payments across 153 countries during approximately their partnership\u2019s first year, with more than 500 Relay customers currently using the service. Relay adds international transfers inside its business-banking interface, while Nium gains distribution without acquiring each SMB directly. The next commercial test is whether customer growth and repeat payments broaden that volume beyond a concentrated group of businesses and corridors.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-hardware-wallets-become-new-entry-point-for-hackers/"
+        "url": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/relay-and-nium-handle-500-million-in-cross-border-payments-in-partnerships-first-year/"
+      }
+    },
+    {
+      "title": "Fiserv Bundles Global Acquiring and Local Payment Methods Through Commerce Hub",
+      "body": "Fiserv announced global availability of Commerce Hub, combining acquiring, market-specific payment methods and commerce services through one connection. The common integration gives enterprise merchants and marketplaces an alternative to assembling separate connections; Klarna\u2019s integration accompanies a distinct rollout to 100,000 U.S. physical merchant locations through Clover. Merchants evaluating migration should compare country-level payment coverage and integration requirements, rather than treat Clover\u2019s location count as Commerce Hub adoption.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/retail/2026/fiserv-aims-to-simplify-cross-border-commerce-with-commerce-hub/"
+      }
+    },
+    {
+      "title": "Square Consolidates Card Processing on Marqeta With Business Credit Migration",
+      "body": "Square migrated its existing business credit-card program to Marqeta, which already supported its debit and prepaid programs; the credit card continues to run on the American Express Network. Marqeta deepens its role with an existing customer, while Square brings three card programs onto a common technology provider. Subsequent credit-feature releases and servicing performance will test whether that consolidation delivers Square\u2019s stated goal of faster product development.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/square-shifts-business-credit-cards-to-marqeta-platform-to-speed-credit-innovation/"
       }
     }
   ],
-  "perspective": "BNY details wallet payouts as Kraken\u2019s parent pursues banking capabilities, alongside tokenized cash funds, billing consolidation and hardware-wallet security.",
+  "perspective": "JPMorgan extends deposit tokens to Ethereum as Ramp seeks custody powers, while payment providers expand cross-border distribution and consolidate card infrastructure.",
   "curiosity": {
-    "text": "SWIFT began live messaging in 1977. The network securely transmits payment instructions between financial institutions; it does not hold or move money itself. Banks use those instructions to settle payments through their accounts and payment systems."
+    "text": "France introduced Minitel nationally in 1982 and added Kiosque billing in 1984, letting users pay for online services through their telephone bills\u2014years before the World Wide Web. Kiosque\u2019s micropayment model helped make paid online content viable by adding small charges to users\u2019 existing phone bills."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Marqeta / Coinbase",
-      "description": "Enterprise stablecoin-backed cards combine Coinbase custody and conversion with Marqeta issuing.",
-      "source_url": "https://www.pymnts.com/blockchain/2026/marqeta-and-coinbase-take-stablecoin-spending-mainstream/"
+      "flag": "",
+      "type": "fundraising",
+      "company": "Salmon Group",
+      "description": "Raises $90 million in financing plus $50 million in bond proceeds.",
+      "source_url": "https://www.finextra.com/newsarticle/48608/salmon-raises-funds-to-double-down-in-the-philippines"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Meow Technologies",
+      "description": "Raises $31.6 million Series B led by Stifel, alongside white-label treasury agreement.",
+      "source_url": "https://www.finextra.com/newsarticle/48609/stifel-invests-in-meow-preps-white-label-treasury-platform"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "ScribeUp",
+      "description": "Secures $10 million equity and $3 million venture debt for embedded bill management.",
+      "source_url": "https://www.bankingdive.com/news/recurring-bill-service-scribeup-raises-13-million-mackler/833304/"
+    },
+    {
+      "flag": "\ud83c\uddf2\ud83c\uddfd",
       "type": "M&A",
-      "company": "Acorns / Frich",
-      "description": "Acquires Frich, adding a 1.6-million-person financial education community and creator network.",
-      "source_url": "https://www.pymnts.com/news/acquiring/2026/acorns-acquires-frich-to-scale-financial-education/"
+      "company": "Kapital",
+      "description": "Announces $30 million Woz acquisition to expand enterprise financial AI capabilities.",
+      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/kapital-looks-to-enhance-finance-platform-with-30-million-woz-deal/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Equifax / Mastercard",
-      "description": "Adds consumer-permissioned cash-flow analytics and payment-risk insights to Equifax underwriting distribution.",
-      "source_url": "https://www.pymnts.com/consumer-finance/2026/equifax-equips-lenders-with-mastercard-open-finance-insights/"
+      "company": "U.S. Bank",
+      "description": "Launches Atomic-powered recurring-payment switching within its mobile banking app.",
+      "source_url": "https://www.pymnts.com/news/banking/2026/u-s-bank-debuts-tool-to-streamline-consumers-recurring-bills/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "World / Tools for Humanity",
-      "description": "Launches banking identity suite; AgentKit remains beta, while Zoom verification becomes generally available.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/sam-altmans-world-debuts-id-verification-for-ai-agents/"
+      "company": "Huntington Bank",
+      "description": "Launches 1866 Studio business-management platform, with base access available to noncustomers.",
+      "source_url": "https://www.bankingdive.com/news/huntington-launches-small-biz-operating-platform/833339/"
     }
   ]
 }
