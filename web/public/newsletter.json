@@ -1,92 +1,78 @@
 {
   "news": [
     {
-      "title": "JPMorgan Takes Bank Deposit Tokens Toward Ethereum for Institutional Settlement",
-      "body": "JPMorgan said JPM Coin would become available to institutional clients on Ethereum for blockchain payments, tokenized-asset settlement and collateralization. The extension brings commercial-bank money onto public blockchain infrastructure, but JPM Coin remains a deposit token rather than a stablecoin, with different eligibility and legal claims. Institutional treasury teams evaluating it must map eligible counterparties and supported settlement workflows before moving funds.",
+      "title": "UK Proposes Lower-Cost iPhone Contactless Access for Competing Wallets",
+      "body": "The CMA proposed requiring Apple to support secure-element and host-based card emulation access for competing contactless services. Its proposed pricing principles aim to substantially lower charges without setting prices directly. The regulator says no competing wallet-type product has launched under current UK arrangements, contrasting that with launches in the EU. The consultation closes November 17, 2026; the final technical requirements and fees would shape how UK banks and wallet providers offer competing services.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/jpmorgan-brings-its-deposit-token-to-the-ethereum-blockchain/"
+        "name": "Competition and Markets Authority",
+        "url": "https://www.gov.uk/government/news/cma-outlines-proposals-to-unlock-contactless-technology-on-apple-iphone"
       }
     },
     {
-      "title": "Ramp Seeks Custody and Investment Powers Without Becoming a Deposit Bank",
-      "body": "Ramp applied to the OCC to establish a national trust bank for fiduciary investment management and digital-asset custody, without accepting deposits or making commercial loans. Approval would let Ramp bring those activities under its own charter, not replace the banking partners supporting its broader business. For those partners, the practical question is how Ramp would divide custody, investment management and banking responsibilities under any OCC operating conditions.",
+      "title": "JPMorgan Extends Deposit Token to Ethereum for Institutional Customers",
+      "body": "JPMorgan is bringing JPM Coin to Ethereum for institutional customers, PYMNTS reported, citing Bloomberg interviews. Bank representatives identified blockchain payments and settlement or collateralization of tokenized assets as intended uses. The expansion brings a commercial-bank deposit instrument to public blockchain infrastructure: the token remains a liability of its issuing bank, distinct from a nonbank stablecoin.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/bank-regulation/2026/ramp-seeks-national-trust-bank-charter-for-digital-asset-custody/"
+        "name": "PYMNTS, citing Bloomberg interviews",
+        "url": "https://www.pymnts.com/blockchain/2026/jpmorgan-brings-its-deposit-token-to-the-ethereum-blockchain/"
       }
     },
     {
-      "title": "Relay and Nium Reach $500 Million Through Embedded Cross-Border Payments",
-      "body": "Relay and Nium reported more than $500 million in cross-border payments across 153 countries during approximately their partnership\u2019s first year, with more than 500 Relay customers currently using the service. Relay adds international transfers inside its business-banking interface, while Nium gains distribution without acquiring each SMB directly. The next commercial test is whether customer growth and repeat payments broaden that volume beyond a concentrated group of businesses and corridors.",
+      "title": "TabaPay Plans Bank Ownership While Retaining Banking Partners",
+      "body": "TabaPay plans to retain its roughly 20 partner banks as it pursues the acquisition of Transact Bank. CEO Rodney Robinson expects the deal to close in the fourth quarter of 2026, subject to final regulatory approvals, and the renamed TabaBank to become operational by April 2027. Partner banks would continue handling cross-border business and processing for some large merchants, while TabaBank would support additional products and acquiring capabilities. Bank ownership would therefore expand TabaPay\u2019s capabilities without bringing every service in-house.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/relay-and-nium-handle-500-million-in-cross-border-payments-in-partnerships-first-year/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/ill-fated-synapse-talks-led-tabapay-to-pursue-denver-transact-bank/833470/"
       }
     },
     {
-      "title": "Fiserv Bundles Global Acquiring and Local Payment Methods Through Commerce Hub",
-      "body": "Fiserv announced global availability of Commerce Hub, combining acquiring, market-specific payment methods and commerce services through one connection. The common integration gives enterprise merchants and marketplaces an alternative to assembling separate connections; Klarna\u2019s integration accompanies a distinct rollout to 100,000 U.S. physical merchant locations through Clover. Merchants evaluating migration should compare country-level payment coverage and integration requirements, rather than treat Clover\u2019s location count as Commerce Hub adoption.",
+      "title": "Mobile Wallets\u2019 Share of Latest US In-Store Purchases Nearly Doubles",
+      "body": "A survey of 2,458 US consumers found that 8.2% used a mobile wallet for their latest in-store purchase, up from 4.3% in 2023. Researchers fielded the survey August 20\u2013September 9, 2026; the results describe self-reported latest purchases, not overall wallet adoption or total payment value. Wallet use does not erase issuer competition: 70% of wallet users said they were likely to choose the card offering the most rewards.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/retail/2026/fiserv-aims-to-simplify-cross-border-commerce-with-commerce-hub/"
+        "name": "PYMNTS Intelligence",
+        "url": "https://www.pymnts.com/digital-payments/2026/at-12-apple-pay-has-yet-to-break-the-card-habit-in-store/"
       }
     },
     {
-      "title": "Square Consolidates Card Processing on Marqeta With Business Credit Migration",
-      "body": "Square migrated its existing business credit-card program to Marqeta, which already supported its debit and prepaid programs; the credit card continues to run on the American Express Network. Marqeta deepens its role with an existing customer, while Square brings three card programs onto a common technology provider. Subsequent credit-feature releases and servicing performance will test whether that consolidation delivers Square\u2019s stated goal of faster product development.",
+      "title": "Visa, BILL and Billtrust Pilot Authenticated Agents for Invoice Payments",
+      "body": "Visa announced a live pilot on October 20 allowing authorized BILL agents to complete approved invoice payments through Billtrust supplier portals. Billtrust authenticates the agents and permits access under supplier acceptance policies; tokenized payment credentials align payments with buyer instructions. The workflow combines agent identification with payment controls to let authorized agents use portals that otherwise block bots. The companies disclosed no transaction volumes or performance results.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/square-shifts-business-credit-cards-to-marqeta-platform-to-speed-credit-innovation/"
+        "url": "https://www.pymnts.com/b2b-payments/2026/visa-launches-agentic-payments-pilot-with-bill-and-billtrust/"
       }
     }
   ],
-  "perspective": "JPMorgan extends deposit tokens to Ethereum as Ramp seeks custody powers, while payment providers expand cross-border distribution and consolidate card infrastructure.",
+  "perspective": "UK proposals for Apple and TabaPay\u2019s bank acquisition plan put infrastructure access alongside wallet use, tokenized deposits and authenticated invoice payments.",
   "curiosity": {
-    "text": "France introduced Minitel nationally in 1982 and added Kiosque billing in 1984, letting users pay for online services through their telephone bills\u2014years before the World Wide Web. Kiosque\u2019s micropayment model helped make paid online content viable by adding small charges to users\u2019 existing phone bills."
+    "text": "India\u2019s 2016 Unified Payments Interface was designed to let users send money using a virtual payment address\u2014such as a name-like ID\u2014instead of sharing bank account details; the system routes payments between accounts across participating banks."
   },
   "whats_hot": [
     {
-      "flag": "",
-      "type": "fundraising",
-      "company": "Salmon Group",
-      "description": "Raises $90 million in financing plus $50 million in bond proceeds.",
-      "source_url": "https://www.finextra.com/newsarticle/48608/salmon-raises-funds-to-double-down-in-the-philippines"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Meow Technologies",
-      "description": "Raises $31.6 million Series B led by Stifel, alongside white-label treasury agreement.",
-      "source_url": "https://www.finextra.com/newsarticle/48609/stifel-invests-in-meow-preps-white-label-treasury-platform"
+      "company": "Ramp",
+      "description": "Raised $1.85 billion at $60 billion valuation before seeking a national trust charter.",
+      "source_url": "https://www.bankingdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833434/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "ScribeUp",
-      "description": "Secures $10 million equity and $3 million venture debt for embedded bill management.",
+      "description": "Secured $10 million equity and $3 million venture debt for embedded bill management.",
       "source_url": "https://www.bankingdive.com/news/recurring-bill-service-scribeup-raises-13-million-mackler/833304/"
     },
     {
-      "flag": "\ud83c\uddf2\ud83c\uddfd",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Kapital",
-      "description": "Announces $30 million Woz acquisition to expand enterprise financial AI capabilities.",
-      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/kapital-looks-to-enhance-finance-platform-with-30-million-woz-deal/"
+      "company": "Cross River / CRB Group",
+      "description": "Agreed to acquire Accrue, adding branded wallets, stored value and loyalty technology.",
+      "source_url": "https://www.pymnts.com/b2b-payments/2026/cross-river-plans-to-buy-accrue-to-merge-payments-with-loyalty/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "U.S. Bank",
-      "description": "Launches Atomic-powered recurring-payment switching within its mobile banking app.",
-      "source_url": "https://www.pymnts.com/news/banking/2026/u-s-bank-debuts-tool-to-streamline-consumers-recurring-bills/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Huntington Bank",
-      "description": "Launches 1866 Studio business-management platform, with base access available to noncustomers.",
-      "source_url": "https://www.bankingdive.com/news/huntington-launches-small-biz-operating-platform/833339/"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Hyperlayer",
+      "description": "Raised \u00a319.5 million at \u00a3195 million valuation for programmable banking infrastructure.",
+      "source_url": "https://www.finextra.com/newsarticle/48620/programmable-banking-platform-hyperlayer--raises-195m"
     }
   ]
 }
