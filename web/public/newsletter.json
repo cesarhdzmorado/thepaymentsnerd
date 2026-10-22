@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "UK Proposes Lower-Cost iPhone Contactless Access for Competing Wallets",
-      "body": "The CMA proposed requiring Apple to support secure-element and host-based card emulation access for competing contactless services. Its proposed pricing principles aim to substantially lower charges without setting prices directly. The regulator says no competing wallet-type product has launched under current UK arrangements, contrasting that with launches in the EU. The consultation closes November 17, 2026; the final technical requirements and fees would shape how UK banks and wallet providers offer competing services.",
-      "source": {
-        "name": "Competition and Markets Authority",
-        "url": "https://www.gov.uk/government/news/cma-outlines-proposals-to-unlock-contactless-technology-on-apple-iphone"
-      }
-    },
-    {
-      "title": "JPMorgan Extends Deposit Token to Ethereum for Institutional Customers",
-      "body": "JPMorgan is bringing JPM Coin to Ethereum for institutional customers, PYMNTS reported, citing Bloomberg interviews. Bank representatives identified blockchain payments and settlement or collateralization of tokenized assets as intended uses. The expansion brings a commercial-bank deposit instrument to public blockchain infrastructure: the token remains a liability of its issuing bank, distinct from a nonbank stablecoin.",
-      "source": {
-        "name": "PYMNTS, citing Bloomberg interviews",
-        "url": "https://www.pymnts.com/blockchain/2026/jpmorgan-brings-its-deposit-token-to-the-ethereum-blockchain/"
-      }
-    },
-    {
-      "title": "TabaPay Plans Bank Ownership While Retaining Banking Partners",
-      "body": "TabaPay plans to retain its roughly 20 partner banks as it pursues the acquisition of Transact Bank. CEO Rodney Robinson expects the deal to close in the fourth quarter of 2026, subject to final regulatory approvals, and the renamed TabaBank to become operational by April 2027. Partner banks would continue handling cross-border business and processing for some large merchants, while TabaBank would support additional products and acquiring capabilities. Bank ownership would therefore expand TabaPay\u2019s capabilities without bringing every service in-house.",
+      "title": "OCC Bans Direct Stablecoin Yield While Leaving Third-Party Rewards Under Review",
+      "body": "The OCC finalized its GENIUS Act implementing rule on October 21, with an effective date of January 18, 2027. The rule prohibits issuers from paying direct yield to stablecoin holders and subjects third-party rewards to case-by-case review, giving distributors no blanket clearance for yield-like offers. The effective date does not itself authorize prospective issuers to launch: application timing and separate financial-crime rulemaking remain outstanding.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/ill-fated-synapse-talks-led-tabapay-to-pursue-denver-transact-bank/833470/"
+        "url": "https://www.bankingdive.com/news/occ-final-rule-genius-stablecoin-yield-gould-bessent-icba/833638/"
       }
     },
     {
-      "title": "Mobile Wallets\u2019 Share of Latest US In-Store Purchases Nearly Doubles",
-      "body": "A survey of 2,458 US consumers found that 8.2% used a mobile wallet for their latest in-store purchase, up from 4.3% in 2023. Researchers fielded the survey August 20\u2013September 9, 2026; the results describe self-reported latest purchases, not overall wallet adoption or total payment value. Wallet use does not erase issuer competition: 70% of wallet users said they were likely to choose the card offering the most rewards.",
+      "title": "Cross River Targets Merchant Wallets and Loyalty With Planned Accrue Acquisition",
+      "body": "Cross River\u2019s parent agreed to acquire Accrue, whose branded wallets combine stored value, payments, rewards and customer engagement. The acquisition would add merchant-facing wallet technology to Cross River\u2019s accounts, cards, payments and lending capabilities. The companies have not disclosed a purchase price or closing date, and the announcement does not establish merchant migration plans or processing-cost savings.",
       "source": {
-        "name": "PYMNTS Intelligence",
-        "url": "https://www.pymnts.com/digital-payments/2026/at-12-apple-pay-has-yet-to-break-the-card-habit-in-store/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833611/"
       }
     },
     {
-      "title": "Visa, BILL and Billtrust Pilot Authenticated Agents for Invoice Payments",
-      "body": "Visa announced a live pilot on October 20 allowing authorized BILL agents to complete approved invoice payments through Billtrust supplier portals. Billtrust authenticates the agents and permits access under supplier acceptance policies; tokenized payment credentials align payments with buyer instructions. The workflow combines agent identification with payment controls to let authorized agents use portals that otherwise block bots. The companies disclosed no transaction volumes or performance results.",
+      "title": "Relay and Nium Report Over $500 Million in First-Year Cross-Border Payment Volume",
+      "body": "More than 500 Relay customers sent over $500 million to 153 countries during the first year of its Nium partnership, the companies reported. The figures measure usage of international payments embedded in Relay\u2019s business-banking platform, not growth against an earlier period. Relay and Nium plan to expand the partnership but have not disclosed a quantified expansion target, payments margins or comparative FX pricing.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/b2b-payments/2026/visa-launches-agentic-payments-pilot-with-bill-and-billtrust/"
+        "url": "https://www.pymnts.com/news/international/2026/relay-and-nium-handle-500-million-in-cross-border-payments-in-partnerships-first-year/"
+      }
+    },
+    {
+      "title": "UK Proposes Lower iPhone Contactless Access Costs for Rival Payment Wallets",
+      "body": "The UK competition watchdog is consulting on proposals to lower fees and remove technical barriers for competing payment providers accessing iPhone contactless technology. The measures would reduce access barriers for rival wallets, but the consultation does not itself implement new access terms. Final eligibility requirements, fees and implementation dates will determine the terms available to card issuers and wallet providers.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48618/uk-sets-out-proposal-to-open-up-access-to-iphone-contactless-payments"
+      }
+    },
+    {
+      "title": "Global Fintech Funding Falls to $10.6 Billion, Down 28.4% From Q2",
+      "body": "Fintech startups raised $10.6 billion globally in Q3 2026, Crunchbase reports, compared with $14.9 billion in Q2 and $13.5 billion a year earlier. Those totals represent declines of 28.4% quarter over quarter and 21.4% year over year. The aggregate decline does not establish financial distress at individual fintech suppliers or uniform deterioration across regions, funding stages and subsectors.",
+      "source": {
+        "name": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/q3-2026-fintech-startup-funding-deal-count-fell-ai/"
       }
     }
   ],
-  "perspective": "UK proposals for Apple and TabaPay\u2019s bank acquisition plan put infrastructure access alongside wallet use, tokenized deposits and authenticated invoice payments.",
+  "perspective": "Relay\u2013Nium payment volumes accompany merchant-wallet acquisitions, stablecoin rulemaking, UK contactless access proposals and lower fintech funding.",
   "curiosity": {
-    "text": "India\u2019s 2016 Unified Payments Interface was designed to let users send money using a virtual payment address\u2014such as a name-like ID\u2014instead of sharing bank account details; the system routes payments between accounts across participating banks."
+    "text": "Japan\u2019s Zengin interbank network launched in 1973. Its 2018 More Time System extended participating banks\u2019 domestic transfer services to nights, weekends and holidays."
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Ramp",
-      "description": "Raised $1.85 billion at $60 billion valuation before seeking a national trust charter.",
+      "description": "Raised $1.85 billion at a $60 billion valuation, led by Dragoneer.",
       "source_url": "https://www.bankingdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833434/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "ScribeUp",
-      "description": "Secured $10 million equity and $3 million venture debt for embedded bill management.",
-      "source_url": "https://www.bankingdive.com/news/recurring-bill-service-scribeup-raises-13-million-mackler/833304/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Cross River / CRB Group",
-      "description": "Agreed to acquire Accrue, adding branded wallets, stored value and loyalty technology.",
-      "source_url": "https://www.pymnts.com/b2b-payments/2026/cross-river-plans-to-buy-accrue-to-merge-payments-with-loyalty/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Hyperlayer",
-      "description": "Raised \u00a319.5 million at \u00a3195 million valuation for programmable banking infrastructure.",
+      "description": "Raised \u00a319.5 million at a reported \u00a3195 million valuation for banking modernization.",
       "source_url": "https://www.finextra.com/newsarticle/48620/programmable-banking-platform-hyperlayer--raises-195m"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "M&A",
+      "company": "Standard Chartered / Zodia Custody",
+      "description": "Signed definitive custody-acquisition agreements, subject to regulatory approval.",
+      "source_url": "https://www.theblock.co/news/business/2026-10-21-standard-chartered-signs-definitive-agreements-to-acquire-zodia-custody-421535"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "Checkout.com",
+      "description": "Announced expansion into in-person payments for enterprise merchants.",
+      "source_url": "https://www.finextra.com/pressarticle/111375/checkoutcom-expands-into-in-person-payments"
     }
   ]
 }
