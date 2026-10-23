@@ -1,78 +1,92 @@
 {
   "news": [
     {
-      "title": "OCC Bans Direct Stablecoin Yield While Leaving Third-Party Rewards Under Review",
-      "body": "The OCC finalized its GENIUS Act implementing rule on October 21, with an effective date of January 18, 2027. The rule prohibits issuers from paying direct yield to stablecoin holders and subjects third-party rewards to case-by-case review, giving distributors no blanket clearance for yield-like offers. The effective date does not itself authorize prospective issuers to launch: application timing and separate financial-crime rulemaking remain outstanding.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/occ-final-rule-genius-stablecoin-yield-gould-bessent-icba/833638/"
-      }
-    },
-    {
-      "title": "Cross River Targets Merchant Wallets and Loyalty With Planned Accrue Acquisition",
-      "body": "Cross River\u2019s parent agreed to acquire Accrue, whose branded wallets combine stored value, payments, rewards and customer engagement. The acquisition would add merchant-facing wallet technology to Cross River\u2019s accounts, cards, payments and lending capabilities. The companies have not disclosed a purchase price or closing date, and the announcement does not establish merchant migration plans or processing-cost savings.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833611/"
-      }
-    },
-    {
-      "title": "Relay and Nium Report Over $500 Million in First-Year Cross-Border Payment Volume",
-      "body": "More than 500 Relay customers sent over $500 million to 153 countries during the first year of its Nium partnership, the companies reported. The figures measure usage of international payments embedded in Relay\u2019s business-banking platform, not growth against an earlier period. Relay and Nium plan to expand the partnership but have not disclosed a quantified expansion target, payments margins or comparative FX pricing.",
+      "title": "Large Scams Drive Older Americans\u2019 Reported Fraud Losses to $3 Billion",
+      "body": "FTC data show reported fraud losses among Americans aged 60 and over rose from $600 million in 2020 to $3 billion in 2025, with losses exceeding $100,000 driving much of the increase. Investment, romance and impersonation scams featured prominently. For banks and transfer providers, that concentration makes high-value transfers a focus for social-engineering checks and vulnerable-customer escalation procedures. The figures capture reported losses, not an estimate of all fraud losses.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/international/2026/relay-and-nium-handle-500-million-in-cross-border-payments-in-partnerships-first-year/"
+        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/ftc-data-shows-investment-scams-fuel-fivefold-surge-in-seniors-fraud-losses/"
       }
     },
     {
-      "title": "UK Proposes Lower iPhone Contactless Access Costs for Rival Payment Wallets",
-      "body": "The UK competition watchdog is consulting on proposals to lower fees and remove technical barriers for competing payment providers accessing iPhone contactless technology. The measures would reduce access barriers for rival wallets, but the consultation does not itself implement new access terms. Final eligibility requirements, fees and implementation dates will determine the terms available to card issuers and wallet providers.",
+      "title": "Card Delinquencies Rise While Charge-Offs Decline",
+      "body": "September\u2019s average card delinquency rate rose to 2.62% from 2.51% in August across a seven-issuer tracker, while average net charge-offs fell to 2.09% from 2.15%. The measures show repayment stress and realized losses moving in different directions; lower charge-offs alone do not establish healthier portfolios. PYMNTS also quoted Equifax management saying it had not observed institutions increasing portfolio reviews or reducing credit lines.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48618/uk-sets-out-proposal-to-open-up-access-to-iphone-contactless-payments"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/credit-cards/2026/credit-card-delinquencies-creep-up-to-2-6percent-among-major-issuers/"
       }
     },
     {
-      "title": "Global Fintech Funding Falls to $10.6 Billion, Down 28.4% From Q2",
-      "body": "Fintech startups raised $10.6 billion globally in Q3 2026, Crunchbase reports, compared with $14.9 billion in Q2 and $13.5 billion a year earlier. Those totals represent declines of 28.4% quarter over quarter and 21.4% year over year. The aggregate decline does not establish financial distress at individual fintech suppliers or uniform deterioration across regions, funding stages and subsectors.",
+      "title": "Enova Exceeds $1 Billion Quarterly Revenue Without Completing Grasshopper Acquisition",
+      "body": "Enova reported its first quarter above $1 billion in revenue, with revenue up 26% and originations up 31% year over year. The results followed its September 14 withdrawal of regulatory applications for the proposed $369 million Grasshopper Bancorp acquisition. Small-business products accounted for 68% of its $5.9 billion portfolio, while its net charge-off ratio declined to 8.1% from 8.5%. Growth without the acquisition does not establish equivalent funding economics without bank ownership.",
       "source": {
-        "name": "Crunchbase News",
-        "url": "https://news.crunchbase.com/venture/q3-2026-fintech-startup-funding-deal-count-fell-ai/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/consumer-insights/2026/enova-tops-1-billion-quarterly-revenue-as-online-lending-surges/"
+      }
+    },
+    {
+      "title": "American Airlines\u2019 Citi Card Spending Rises Nearly 10%",
+      "body": "American Airlines reported nearly 10% year-over-year growth in Citi co-branded card spending and 27.4% growth in AAdvantage enrollments during Q3. Its cash-and-miles checkout rollout began October 2, after the quarter ended, so that feature cannot explain the reported Q3 gains. The results document expanding loyalty enrollment and card spending, but do not establish market-share gains against competing travel-card programs.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/loyalty-and-rewards-news/2026/american-airlines-says-loyalty-program-drives-revenues-margins/"
+      }
+    },
+    {
+      "title": "Barclays Targets Approximately 5,000 Job Reductions in 2026",
+      "body": "Barclays expects to reduce full-time employment by approximately 5,000 during 2026. Around 1,000 reductions occurred in the first half, leaving approximately 4,000 as of the end of June\u2014not a current remaining-cut figure for October. About 60% of the planned reductions concern support functions, including developers. The bank reported \u00a3307 million in restructuring expenditure through September and expects another \u00a3300 million by year-end; the announcement does not establish payments-specific productivity gains.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/barclays-cut-5000-employees-ai-q3-earnings-venkat/833747/"
       }
     }
   ],
-  "perspective": "Relay\u2013Nium payment volumes accompany merchant-wallet acquisitions, stablecoin rulemaking, UK contactless access proposals and lower fintech funding.",
+  "perspective": "Enova\u2019s lending growth and American Airlines\u2019 co-brand spending gains accompany higher card delinquencies, concentrated fraud losses and Barclays\u2019 restructuring.",
   "curiosity": {
-    "text": "Japan\u2019s Zengin interbank network launched in 1973. Its 2018 More Time System extended participating banks\u2019 domestic transfer services to nights, weekends and holidays."
+    "text": "According to the Social Security Administration, the first monthly Social Security retirement benefit check went to Ida May Fuller on January 31, 1940, for $22.54. Source: Social Security Administration, \u201cHistorical Background and Development of Social Security\u201d \u2014 https://www.ssa.gov/history/briefhistory3.html"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Ramp",
-      "description": "Raised $1.85 billion at a $60 billion valuation, led by Dragoneer.",
-      "source_url": "https://www.bankingdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833434/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Hyperlayer",
-      "description": "Raised \u00a319.5 million at a reported \u00a3195 million valuation for banking modernization.",
-      "source_url": "https://www.finextra.com/newsarticle/48620/programmable-banking-platform-hyperlayer--raises-195m"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "M&A",
-      "company": "Standard Chartered / Zodia Custody",
-      "description": "Signed definitive custody-acquisition agreements, subject to regulatory approval.",
-      "source_url": "https://www.theblock.co/news/business/2026-10-21-standard-chartered-signs-definitive-agreements-to-acquire-zodia-custody-421535"
+      "company": "Cross River / Accrue",
+      "description": "Agrees to acquire branded-wallet and loyalty platform; consideration undisclosed.",
+      "source_url": "https://www.bankingdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833611/"
+    },
+    {
+      "flag": "\ud83c\udded\ud83c\uddf0",
+      "type": "product",
+      "company": "HSBC Hong Kong",
+      "description": "Launches Hong Kong dollar stablecoin RedCoin through PayMe.",
+      "source_url": "https://www.about.hsbc.com.hk/news-and-media"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "SoFi",
+      "description": "Announces SOFIE, a consumer tokenized bank deposit.",
+      "source_url": "https://www.sofi.com/press/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Cognitive Credit",
+      "description": "Raises $40 million led by Summit Partners, with ETFS Capital participating.",
+      "source_url": "https://www.finextra.com/newsarticle/48635/cognitive-credit-raises-40m-to-scale-specialist-data-and-ai-for-credit-markets"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Slingshot Insurance",
+      "description": "Raises $27 million seed round for embedded insurance sold at checkout.",
+      "source_url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
       "type": "product",
-      "company": "Checkout.com",
-      "description": "Announced expansion into in-person payments for enterprise merchants.",
-      "source_url": "https://www.finextra.com/pressarticle/111375/checkoutcom-expands-into-in-person-payments"
+      "company": "EBANX",
+      "description": "Launches recurring wallet payments through OPay Direct Debit in Nigeria.",
+      "source_url": "https://www.finextra.com/pressarticle/111408/ebanx-launches-recurring-payments-through-opay-in-nigeria"
     }
   ]
 }
