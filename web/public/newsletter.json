@@ -1,92 +1,85 @@
 {
   "news": [
     {
-      "title": "Large Scams Drive Older Americans\u2019 Reported Fraud Losses to $3 Billion",
-      "body": "FTC data show reported fraud losses among Americans aged 60 and over rose from $600 million in 2020 to $3 billion in 2025, with losses exceeding $100,000 driving much of the increase. Investment, romance and impersonation scams featured prominently. For banks and transfer providers, that concentration makes high-value transfers a focus for social-engineering checks and vulnerable-customer escalation procedures. The figures capture reported losses, not an estimate of all fraud losses.",
+      "title": "HSBC Launches Hong Kong Dollar Stablecoin, With Banking Integration Planned",
+      "body": "PYMNTS reports that HSBC launched a Hong Kong dollar stablecoin for everyday payments, with banking-app and institutional uses planned rather than live at launch. Those integrations would extend its uses beyond purchases. Merchant acceptance depends on settlement arrangements and redemption conditions; HSBC\u2019s next test is sustained repeat usage.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/ftc-data-shows-investment-scams-fuel-fivefold-surge-in-seniors-fraud-losses/"
+        "url": "https://www.pymnts.com/blockchain/2026/hsbc-launches-hong-kong-dollar-stablecoin-for-everyday-payments/"
       }
     },
     {
-      "title": "Card Delinquencies Rise While Charge-Offs Decline",
-      "body": "September\u2019s average card delinquency rate rose to 2.62% from 2.51% in August across a seven-issuer tracker, while average net charge-offs fell to 2.09% from 2.15%. The measures show repayment stress and realized losses moving in different directions; lower charge-offs alone do not establish healthier portfolios. PYMNTS also quoted Equifax management saying it had not observed institutions increasing portfolio reviews or reducing credit lines.",
+      "title": "Same Day ACH Volume Rises 36.7% to 470.4 Million Quarterly Payments",
+      "body": "Nacha reported 470.4 million Same Day ACH payments worth $1.3 trillion in Q3 2026, with volume rising 36.7% and value approximately 32% year over year. B2B ACH volume also grew 9.7% to nearly 2.3 billion payments. For banks, payroll providers and accounts-payable platforms, the growth reinforces the importance of banking-day cutoffs, payment routing and reconciliation alongside instant-payment services. The figures do not establish share gains against instant rails, wires or checks.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/credit-cards/2026/credit-card-delinquencies-creep-up-to-2-6percent-among-major-issuers/"
+        "name": "Nacha",
+        "url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026"
       }
     },
     {
-      "title": "Enova Exceeds $1 Billion Quarterly Revenue Without Completing Grasshopper Acquisition",
-      "body": "Enova reported its first quarter above $1 billion in revenue, with revenue up 26% and originations up 31% year over year. The results followed its September 14 withdrawal of regulatory applications for the proposed $369 million Grasshopper Bancorp acquisition. Small-business products accounted for 68% of its $5.9 billion portfolio, while its net charge-off ratio declined to 8.1% from 8.5%. Growth without the acquisition does not establish equivalent funding economics without bank ownership.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/consumer-insights/2026/enova-tops-1-billion-quarterly-revenue-as-online-lending-surges/"
-      }
-    },
-    {
-      "title": "American Airlines\u2019 Citi Card Spending Rises Nearly 10%",
-      "body": "American Airlines reported nearly 10% year-over-year growth in Citi co-branded card spending and 27.4% growth in AAdvantage enrollments during Q3. Its cash-and-miles checkout rollout began October 2, after the quarter ended, so that feature cannot explain the reported Q3 gains. The results document expanding loyalty enrollment and card spending, but do not establish market-share gains against competing travel-card programs.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/loyalty-and-rewards-news/2026/american-airlines-says-loyalty-program-drives-revenues-margins/"
-      }
-    },
-    {
-      "title": "Barclays Targets Approximately 5,000 Job Reductions in 2026",
-      "body": "Barclays expects to reduce full-time employment by approximately 5,000 during 2026. Around 1,000 reductions occurred in the first half, leaving approximately 4,000 as of the end of June\u2014not a current remaining-cut figure for October. About 60% of the planned reductions concern support functions, including developers. The bank reported \u00a3307 million in restructuring expenditure through September and expects another \u00a3300 million by year-end; the announcement does not establish payments-specific productivity gains.",
+      "title": "Paze Targets Top 100 U.S. Merchants After Checkout Rebuild",
+      "body": "Early Warning Services said Paze is prioritizing the 100 largest U.S. merchants following a checkout rebuild launched June 15. Paze says its wallet now contains approximately 220 million cards, but card availability does not establish active usage. Executives acknowledged inadequate conversion and approval rates before the rebuild and reported improvements after the changes and incentives. Merchant-level comparisons remain undisclosed, leaving sustained demand after the September 11 end of its summer promotion a separate measure of adoption.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/barclays-cut-5000-employees-ai-q3-earnings-venkat/833747/"
+        "url": "https://www.bankingdive.com/news/paze-digital-wallet-sets-big-targets-revamp-fowler-elkiner/833746/"
+      }
+    },
+    {
+      "title": "Sezzle Applies for Bank Charter and Deposit Insurance",
+      "body": "Sezzle applied to the OCC for a national bank charter and the FDIC for deposit insurance, and plans to seek Federal Reserve approval to become a bank holding company. If regulators approve the applications, the proposed Sezzle Bank would offer checking, savings and credit products, extending its business beyond installment purchases. Sezzle disclosed no launch date, deposit pricing or proposed capitalization; product availability remains contingent on regulatory approval and implementation.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/sezzle-pursues-national-bank-charter-to-add-fdic-insured-deposit-accounts/"
+      }
+    },
+    {
+      "title": "LianLian Adds PayPal Payouts in 96 Countries and U.S. Venmo Disbursements",
+      "body": "LianLian Global announced an October 22 partnership powered by PayPal Payouts that enables clients to send funds to PayPal accounts in 96 countries and make U.S. domestic payouts to Venmo. Marketplaces and other platforms gain wallet destinations for mass disbursements, offering an alternative to collecting recipients\u2019 bank-account details. Neither company disclosed pricing, FX spreads or measured settlement times, so the announcement does not establish a cost or speed advantage over bank payouts.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/lianlian-taps-paypal-venmo-speed-up-cross-border-payouts/"
       }
     }
   ],
-  "perspective": "Enova\u2019s lending growth and American Airlines\u2019 co-brand spending gains accompany higher card delinquencies, concentrated fraud losses and Barclays\u2019 restructuring.",
+  "perspective": "HSBC\u2019s stablecoin launch and Sezzle\u2019s charter application illustrate distinct expansion paths: adding a payment instrument and seeking authority to offer deposit accounts.",
   "curiosity": {
-    "text": "According to the Social Security Administration, the first monthly Social Security retirement benefit check went to Ida May Fuller on January 31, 1940, for $22.54. Source: Social Security Administration, \u201cHistorical Background and Development of Social Security\u201d \u2014 https://www.ssa.gov/history/briefhistory3.html"
+    "text": "The U.S. Federal Reserve\u2019s 1918 wire-transfer system used Morse code over telegraph lines to move funds between banks; it later became Fedwire, which now settles payments electronically. Source: Federal Reserve History, https://www.federalreservehistory.org/essays/fedwire"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Cross River / Accrue",
-      "description": "Agrees to acquire branded-wallet and loyalty platform; consideration undisclosed.",
-      "source_url": "https://www.bankingdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833611/"
-    },
-    {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "product",
-      "company": "HSBC Hong Kong",
-      "description": "Launches Hong Kong dollar stablecoin RedCoin through PayMe.",
-      "source_url": "https://www.about.hsbc.com.hk/news-and-media"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "SoFi",
-      "description": "Announces SOFIE, a consumer tokenized bank deposit.",
-      "source_url": "https://www.sofi.com/press/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Cognitive Credit",
-      "description": "Raises $40 million led by Summit Partners, with ETFS Capital participating.",
-      "source_url": "https://www.finextra.com/newsarticle/48635/cognitive-credit-raises-40m-to-scale-specialist-data-and-ai-for-credit-markets"
+      "company": "Coast",
+      "description": "Raised $35 million to launch a payments platform for physical-economy businesses.",
+      "source_url": "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Slingshot Insurance",
-      "description": "Raises $27 million seed round for embedded insurance sold at checkout.",
+      "description": "Raised $27 million seed funding for embedded insurance, co-led by Rally and Skyward.",
       "source_url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/"
     },
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Cognitive Credit",
+      "description": "Secured $40 million, led by Summit Partners, for U.S. expansion and credit-analysis products.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/fintech-investments/2026/cognitive-credit-lands-40-million-dollar-investment-expand-united-states-operations/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "EBANX",
-      "description": "Launches recurring wallet payments through OPay Direct Debit in Nigeria.",
-      "source_url": "https://www.finextra.com/pressarticle/111408/ebanx-launches-recurring-payments-through-opay-in-nigeria"
+      "company": "Affirm",
+      "description": "Secured exclusive Sam\u2019s Club installment-payment partnership; online rollout precedes planned 2027 store expansion.",
+      "source_url": "https://www.pymnts.com/news/buy-now-pay-later/2026/affirm-inks-exclusive-deal-with-sams-club/"
+    },
+    {
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "type": "M&A",
+      "company": "Tech Mahindra",
+      "description": "Acquired Finastra\u2019s cash management, virtual accounts and liquidity management product suite.",
+      "source_url": "https://www.finextra.com/pressarticle/111427/tech-mahindra-acquires-finastras-cash-management-division"
     }
   ]
 }
