@@ -64,7 +64,9 @@ There are also `send_analysis.yml` and `weekly_recap.yml` workflows.
 - **`?local=true` query param** loads homepage from `public/newsletter.json` instead of Supabase — useful for local dev.
 - **Chroma/SQLite hack**: `ai/src/main.py` replaces sqlite3 with pysqlite3 at import time. Don't remove it.
 - **Email tokens**: HMAC-SHA256 with `SUBSCRIBE_TOKEN_SECRET`. Confirmation expires in 48h, unsubscribe in 1 year.
-- **Subscribe rate limit**: `/api/subscribe` enforces 5 requests per 15 min per IP (in-memory store, resets on cold start).
+- **Subscribe rate limit**: `/api/subscribe` enforces 5 requests per 15 min per IP (in-memory store, resets on cold start), plus a durable per-address cap of 1 email per 10 min and 3 per day via the `claim_subscribe_email_slot` Postgres function (`db/migrations/add_subscribe_email_throttle.sql`). Optional Turnstile when `TURNSTILE_SECRET_KEY` is set.
+- **Confirmation is two-step**: `GET /api/confirm` only redirects to `/confirm`; the page POSTs to activate. Never activate on GET — email scanners pre-fetch links.
+- **Fail-closed auth**: cron routes use `isCronAuthorized` (`web/lib/cronAuth.ts`); the Resend webhook requires a Svix signature (`RESEND_WEBHOOK_SECRET`).
 
 ## Code Conventions
 

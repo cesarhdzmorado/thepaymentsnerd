@@ -229,6 +229,16 @@ def deduplicate_whats_hot_against_news(news_items: list, whats_hot_items: list):
     return filtered, removed
 
 
+def _supabase_read_key():
+    """Return the least-privileged Supabase key available for reading newsletters.
+
+    The `newsletters` table is publicly readable under RLS, so the anon key is
+    enough. The service-role key is only a fallback for environments that have
+    not been given the anon key yet.
+    """
+    return os.getenv("NEXT_PUBLIC_SUPABASE_ANON_KEY") or os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+
+
 def get_recent_stories(days_back: int = 2):
     """
     Fetch stories and editorial context from recent newsletters.
@@ -242,7 +252,7 @@ def get_recent_stories(days_back: int = 2):
     try:
         # Initialize Supabase client
         supabase_url = os.getenv("NEXT_PUBLIC_SUPABASE_URL")
-        supabase_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+        supabase_key = _supabase_read_key()
 
         if not supabase_url or not supabase_key:
             print("⚠️ Supabase credentials not found, skipping historical deduplication")
@@ -329,7 +339,7 @@ def get_curiosity_history(days_back: int = 120):
     """
     try:
         supabase_url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL")
-        supabase_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+        supabase_key = _supabase_read_key()
 
         if not supabase_url or not supabase_key:
             print("⚠️ Supabase credentials not found, skipping curiosity history fetch")

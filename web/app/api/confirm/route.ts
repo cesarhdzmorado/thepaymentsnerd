@@ -6,7 +6,37 @@ import { verifyToken, makeToken } from "@/lib/emailTokens";
 import { Resend } from "resend";
 import { renderWelcomeEmail } from "@/lib/transactionalEmails";
 
+/**
+ * GET handler - validates the emailed link and redirects to a confirmation page.
+ * It never activates the subscription: corporate email scanners pre-fetch links,
+ * which would otherwise confirm subscriptions nobody asked for.
+ */
 export async function GET(req: Request) {
+  const url = new URL(req.url);
+  const token = url.searchParams.get("token");
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
+
+  try {
+    if (!token) throw new Error("Missing token");
+
+    const payload = verifyToken<{ email: string; purpose: string; exp: number }>(
+      token,
+      process.env.SUBSCRIBE_TOKEN_SECRET!
+    );
+    if (payload.purpose !== "confirm") throw new Error("Wrong token purpose");
+
+    return NextResponse.redirect(`${siteUrl}/confirm?token=${encodeURIComponent(token)}`);
+  } catch (e: any) {
+    console.error("Confirm GET error:", e?.message || e);
+    return NextResponse.redirect(`${siteUrl}/?subscribed=0`);
+  }
+}
+
+/**
+ * POST handler - activates the subscription and sends the welcome email.
+ * Only triggered when the user clicks "Confirm" on the /confirm page.
+ */
+export async function POST(req: Request) {
   const url = new URL(req.url);
   const token = url.searchParams.get("token");
 
@@ -25,7 +55,7 @@ export async function GET(req: Request) {
         RESEND_API_KEY: !!resendApiKey,
         EMAIL_FROM: !!from,
       });
-      return NextResponse.redirect(`${siteUrl || ""}/?subscribed=0`);
+      return NextResponse.json({ ok: false, message: "Server configuration error." }, { status: 500 });
     }
 
     const payload = verifyToken<{ email: string; purpose: string; exp: number }>(token, secret);
@@ -40,7 +70,7 @@ export async function GET(req: Request) {
       .eq("email", email)
       .single();
 
-    // If already active/confirmed, just redirect without sending another email
+    // If already active/confirmed, succeed without sending another email
     const alreadyConfirmed = existingSubscriber?.status === "active" && existingSubscriber?.confirmed_at;
 
     if (!alreadyConfirmed) {
@@ -76,9 +106,12 @@ export async function GET(req: Request) {
       });
     }
 
-    return NextResponse.redirect(`${siteUrl}/?subscribed=1`);
+    return NextResponse.json({ ok: true });
   } catch (e: any) {
-    console.error("Confirm route error:", e?.message || e);
-    return NextResponse.redirect(`${process.env.NEXT_PUBLIC_SITE_URL || ""}/?subscribed=0`);
+    console.error("Confirm POST error:", e?.message || e);
+    return NextResponse.json(
+      { ok: false, message: "This confirmation link is invalid or has expired." },
+      { status: 400 }
+    );
   }
 }

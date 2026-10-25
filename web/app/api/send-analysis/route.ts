@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { NextResponse } from "next/server";
+import { isCronAuthorized } from "@/lib/cronAuth";
 import { Resend } from "resend";
 import { readFileSync } from "fs";
 import { join } from "path";
@@ -10,8 +11,7 @@ import { parseAnalysisMarkdown, generateAnalysisEmail } from "@/lib/analysisTemp
 
 export async function POST(req: Request) {
   try {
-    const auth = req.headers.get("authorization");
-    if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
+    if (!isCronAuthorized(req)) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 

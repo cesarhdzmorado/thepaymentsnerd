@@ -2,6 +2,7 @@
 
 import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
+import { verifySvixSignature } from "@/lib/webhookSignature";
 
 /**
  * Resend webhook handler for email analytics
@@ -11,17 +12,27 @@ import { supabaseAdmin } from "@/lib/supabaseAdmin";
  * 1. Go to https://resend.com/webhooks
  * 2. Add webhook URL: https://yourdomain.com/api/webhooks/resend
  * 3. Subscribe to: delivered, opened, clicked, bounced, complained
+ * 4. Copy the webhook's signing secret into RESEND_WEBHOOK_SECRET
+ *
+ * Every request must carry a valid Svix signature; without the secret the
+ * endpoint rejects everything.
  */
 export async function POST(req: Request) {
   try {
-    const payload = await req.json();
+    const rawBody = await req.text();
+
+    if (!verifySvixSignature(rawBody, req.headers, process.env.RESEND_WEBHOOK_SECRET)) {
+      return NextResponse.json({ error: "Invalid signature" }, { status: 401 });
+    }
+
+    const payload = JSON.parse(rawBody);
 
     // Extract event data
     const eventType = payload.type; // e.g., "email.delivered", "email.opened"
     const data = payload.data;
 
     if (!eventType || !data) {
-      console.error("Invalid webhook payload:", payload);
+      console.error("Invalid webhook payload: missing type or data");
       return NextResponse.json({ error: "Invalid payload" }, { status: 400 });
     }
 

@@ -1,4 +1,4 @@
-import { describe, expect, it, vi, beforeEach } from "vitest";
+import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
 
 // Mock next/server
 vi.mock("next/server", () => ({
@@ -19,6 +19,7 @@ const mockSelect = vi.fn();
 const mockEq = vi.fn();
 const mockSingle = vi.fn();
 const mockSend = vi.fn();
+const mockRpc = vi.fn();
 
 vi.mock("@/lib/supabaseAdmin", () => ({
   supabaseAdmin: {
@@ -34,6 +35,7 @@ vi.mock("@/lib/supabaseAdmin", () => ({
       },
       upsert: (...args: unknown[]) => mockUpsert(...args),
     }),
+    rpc: (...args: unknown[]) => mockRpc(...args),
   },
 }));
 
@@ -50,6 +52,9 @@ vi.mock("@/lib/emailTokens", () => ({
 vi.mock("@/lib/referrals", () => ({
   generateReferralCode: () => "TESTCODE",
 }));
+
+// Use the real Turnstile verifier (no "@/" alias under vitest); fetch is stubbed per test.
+vi.mock("@/lib/turnstile", () => import("../../../lib/turnstile"));
 
 vi.mock("@/lib/transactionalEmails", () => ({
   renderAlreadySubscribedEmail: async () => "<html>already-subscribed</html>",
@@ -78,6 +83,7 @@ function makeRequest(body: Record<string, unknown>, ip?: string) {
 describe("POST /api/subscribe", () => {
   beforeEach(() => {
     vi.resetAllMocks();
+    mockRpc.mockResolvedValue({ data: true, error: null });
   });
 
   it("rejects invalid email with 400", async () => {
@@ -131,6 +137,7 @@ describe("POST /api/subscribe", () => {
     const activeData = await activeRes.json();
 
     vi.resetAllMocks();
+    mockRpc.mockResolvedValue({ data: true, error: null });
 
     // New subscriber
     mockSingle.mockResolvedValueOnce({ data: null });
@@ -243,6 +250,119 @@ describe("POST /api/subscribe", () => {
 
     // Restore
     vi.stubEnv("NEXT_PUBLIC_SITE_URL", SITE_URL);
+  });
+
+  it("claims a per-address email slot before sending the confirmation", async () => {
+    mockSingle.mockResolvedValueOnce({ data: null });
+    mockUpsert.mockResolvedValueOnce({ error: null });
+    mockSend.mockResolvedValueOnce({});
+
+    await POST(makeRequest({ email: "new@test.com" }, "10.0.0.50"));
+
+    expect(mockRpc).toHaveBeenCalledWith("claim_subscribe_email_slot", {
+      p_email: "new@test.com",
+      p_min_interval: "10 minutes",
+      p_max_per_day: 3,
+    });
+    expect(mockSend).toHaveBeenCalledTimes(1);
+  });
+
+  it("skips the confirmation email when throttled but returns the same response", async () => {
+    mockSingle.mockResolvedValueOnce({ data: null });
+    mockUpsert.mockResolvedValueOnce({ error: null });
+    mockRpc.mockResolvedValueOnce({ data: false, error: null });
+
+    const res = await POST(makeRequest({ email: "victim@test.com" }, "10.0.0.51"));
+    const data = await res.json();
+
+    expect(res.status).toBe(200);
+    expect(data).toEqual({ ok: true, referralUrl: `${SITE_URL}?ref=TESTCODE` });
+    expect(mockSend).not.toHaveBeenCalled();
+  });
+
+  it("skips the 'already subscribed' email when throttled", async () => {
+    mockSingle.mockResolvedValueOnce({
+      data: { status: "active", confirmed_at: "2026-01-01", referral_code: "EXISTING" },
+    });
+    mockRpc.mockResolvedValueOnce({ data: false, error: null });
+
+    const res = await POST(makeRequest({ email: "active@test.com" }, "10.0.0.52"));
+
+    expect(res.status).toBe(200);
+    expect(mockSend).not.toHaveBeenCalled();
+  });
+
+  it("fails closed with 500 when the throttle check errors", async () => {
+    mockSingle.mockResolvedValueOnce({ data: null });
+    mockUpsert.mockResolvedValueOnce({ error: null });
+    mockRpc.mockResolvedValueOnce({ data: null, error: { message: "function does not exist" } });
+
+    const res = await POST(makeRequest({ email: "new@test.com" }, "10.0.0.53"));
+
+    expect(res.status).toBe(500);
+    expect(mockSend).not.toHaveBeenCalled();
+  });
+
+  it("truncates an oversized source value", async () => {
+    mockSingle.mockResolvedValueOnce({ data: null });
+    mockUpsert.mockResolvedValueOnce({ error: null });
+    mockSend.mockResolvedValueOnce({});
+
+    await POST(makeRequest({ email: "new@test.com", source: "x".repeat(500) }, "10.0.0.54"));
+
+    expect(mockUpsert.mock.calls[0][0].source).toHaveLength(64);
+  });
+
+  describe("with Turnstile enabled", () => {
+    const fetchMock = vi.fn();
+
+    beforeEach(() => {
+      vi.stubEnv("TURNSTILE_SECRET_KEY", "turnstile-secret");
+      vi.stubGlobal("fetch", fetchMock);
+    });
+
+    afterEach(() => {
+      vi.stubEnv("TURNSTILE_SECRET_KEY", "");
+      vi.unstubAllGlobals();
+    });
+
+    it("rejects a request without a Turnstile token", async () => {
+      const res = await POST(makeRequest({ email: "new@test.com" }, "10.0.0.60"));
+
+      expect(res.status).toBe(400);
+      expect(fetchMock).not.toHaveBeenCalled();
+      expect(mockSingle).not.toHaveBeenCalled();
+      expect(mockSend).not.toHaveBeenCalled();
+    });
+
+    it("rejects a token Cloudflare does not accept", async () => {
+      fetchMock.mockResolvedValueOnce({ ok: true, json: async () => ({ success: false }) });
+
+      const res = await POST(
+        makeRequest({ email: "new@test.com", turnstileToken: "bad" }, "10.0.0.61")
+      );
+
+      expect(res.status).toBe(400);
+      expect(mockSend).not.toHaveBeenCalled();
+    });
+
+    it("accepts a verified token", async () => {
+      fetchMock.mockResolvedValueOnce({ ok: true, json: async () => ({ success: true }) });
+      mockSingle.mockResolvedValueOnce({ data: null });
+      mockUpsert.mockResolvedValueOnce({ error: null });
+      mockSend.mockResolvedValueOnce({});
+
+      const res = await POST(
+        makeRequest({ email: "new@test.com", turnstileToken: "good" }, "10.0.0.62")
+      );
+
+      expect(res.status).toBe(200);
+      const body = fetchMock.mock.calls[0][1].body as URLSearchParams;
+      expect(body.get("secret")).toBe("turnstile-secret");
+      expect(body.get("response")).toBe("good");
+      expect(body.get("remoteip")).toBe("10.0.0.62");
+      expect(mockSend).toHaveBeenCalledTimes(1);
+    });
   });
 
   it("returns 429 after exceeding rate limit from same IP", async () => {

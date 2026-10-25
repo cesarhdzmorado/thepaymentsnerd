@@ -1,11 +1,11 @@
-langchain==0.3.27
+langchain==0.3.30
 langchain-openai==0.3.35
-python-dotenv==1.0.1
+python-dotenv==1.2.2
 pyyaml==6.0.1
 beautifulsoup4==4.12.3
-lxml==5.2.2
+lxml==6.1.0
 feedparser==6.0.11
-requests==2.32.3
+requests==2.33.0
 pysqlite3-binary==0.5.4
 duckduckgo-search==6.1.8
 supabase==2.10.0

@@ -40,7 +40,9 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # Read-only public key: this step runs PR code, so it must never get
+          # the service-role key. Without this secret, dedup is skipped.
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
           TPN_USAGE_PATH: ai/output/full_edition_usage.json
         run: |
           python -m ai.src.main

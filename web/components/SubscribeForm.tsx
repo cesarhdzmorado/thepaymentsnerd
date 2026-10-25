@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { track } from "@vercel/analytics";
 import { CheckCircle2, AlertCircle, Loader2, Copy, Share2 } from "lucide-react";
 import { Button, LinkButton, Input, cardClasses } from "./ui";
+import { TurnstileWidget, TURNSTILE_SITE_KEY } from "./TurnstileWidget";
 
 function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -57,6 +58,8 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
   const [message, setMessage] = useState<string>("");
   const [referralUrl, setReferralUrl] = useState<string | null>(null);
   const [linkCopied, setLinkCopied] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
+  const [turnstileResetKey, setTurnstileResetKey] = useState(0);
   const hasFeedbackMessage = message.length > 0;
   const referralInputRef = useRef<HTMLInputElement>(null);
   const copyTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -79,6 +82,12 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
       return;
     }
 
+    if (TURNSTILE_SITE_KEY && !turnstileToken) {
+      setStatus("error");
+      setMessage("Verifying you're human. Please try again in a moment.");
+      return;
+    }
+
     setStatus("loading");
     setMessage("");
     setReferralUrl(null);
@@ -91,8 +100,12 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
           email: cleanEmail,
           source,
           referralCode: referralCode || undefined,
+          turnstileToken: turnstileToken || undefined,
         }),
       });
+
+      // Turnstile tokens are single-use; get a fresh one for any retry.
+      if (TURNSTILE_SITE_KEY) setTurnstileResetKey((k) => k + 1);
 
       const data = await res.json().catch(() => ({}));
 
@@ -211,6 +224,7 @@ export function SubscribeForm({ source = "homepage", idPrefix = "subscribe" }: {
             )}
           </Button>
         </div>
+        <TurnstileWidget onToken={setTurnstileToken} resetKey={turnstileResetKey} />
       </form>
 
       {/* Error message */}

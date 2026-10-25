@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { NextResponse } from "next/server";
+import { isCronAuthorized } from "@/lib/cronAuth";
 import { Resend } from "resend";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import { makeToken } from "@/lib/emailTokens";
@@ -8,9 +9,7 @@ import { generateDailyNewsletterEmail, generateEmailSubject } from "@/lib/emailT
 
 export async function GET(req: Request) {
   try {
-    // Optional protection: secret token
-    const auth = req.headers.get("authorization");
-    if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
+    if (!isCronAuthorized(req)) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 

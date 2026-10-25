@@ -10,6 +10,10 @@ const mockRedirect = vi.fn((url: string) => ({
 vi.mock("next/server", () => ({
   NextResponse: {
     redirect: (url: string) => mockRedirect(url),
+    json: (body: unknown, init?: { status?: number }) => ({
+      status: init?.status ?? 200,
+      json: async () => body,
+    }),
   },
 }));
 
@@ -66,13 +70,13 @@ vi.stubEnv("RESEND_API_KEY", "re_test");
 vi.stubEnv("SUBSCRIBE_TOKEN_SECRET", "secret");
 vi.stubEnv("EMAIL_FROM", "test@thepaymentsnerd.co");
 
-import { GET } from "./route";
+import { GET, POST } from "./route";
 
-function makeRequest(token?: string) {
+function makeRequest(token?: string, method: "GET" | "POST" = "POST") {
   const url = token
     ? `https://localhost/api/confirm?token=${token}`
     : "https://localhost/api/confirm";
-  return new Request(url, { method: "GET" });
+  return new Request(url, { method });
 }
 
 describe("GET /api/confirm", () => {
@@ -81,18 +85,50 @@ describe("GET /api/confirm", () => {
   });
 
   it("redirects to error page when token is missing", async () => {
-    await GET(makeRequest());
+    await GET(makeRequest(undefined, "GET"));
     expect(mockRedirect).toHaveBeenCalledWith(`${SITE_URL}/?subscribed=0`);
   });
 
   it("redirects to error page for invalid token", async () => {
-    await GET(makeRequest("bad-token"));
+    await GET(makeRequest("bad-token", "GET"));
     expect(mockRedirect).toHaveBeenCalledWith(`${SITE_URL}/?subscribed=0`);
   });
 
   it("redirects to error page for wrong token purpose", async () => {
-    await GET(makeRequest("wrong-purpose"));
+    await GET(makeRequest("wrong-purpose", "GET"));
     expect(mockRedirect).toHaveBeenCalledWith(`${SITE_URL}/?subscribed=0`);
+  });
+
+  it("redirects a valid link to the confirm page without activating (scanner-safe)", async () => {
+    await GET(makeRequest("valid-token", "GET"));
+
+    expect(mockRedirect).toHaveBeenCalledWith(`${SITE_URL}/confirm?token=valid-token`);
+    expect(mockSingle).not.toHaveBeenCalled();
+    expect(mockUpdate).not.toHaveBeenCalled();
+    expect(mockSend).not.toHaveBeenCalled();
+  });
+});
+
+describe("POST /api/confirm", () => {
+  beforeEach(() => {
+    vi.resetAllMocks();
+  });
+
+  it("returns 400 when token is missing", async () => {
+    const res = await POST(makeRequest());
+    expect(res.status).toBe(400);
+  });
+
+  it("returns 400 for invalid token", async () => {
+    const res = await POST(makeRequest("bad-token"));
+    expect(res.status).toBe(400);
+    expect(mockUpdate).not.toHaveBeenCalled();
+  });
+
+  it("returns 400 for wrong token purpose", async () => {
+    const res = await POST(makeRequest("wrong-purpose"));
+    expect(res.status).toBe(400);
+    expect(mockUpdate).not.toHaveBeenCalled();
   });
 
   it("activates pending subscriber and sends welcome email", async () => {
@@ -101,14 +137,14 @@ describe("GET /api/confirm", () => {
     });
     mockSend.mockResolvedValueOnce({});
 
-    await GET(makeRequest("valid-token"));
+    const res = await POST(makeRequest("valid-token"));
 
     expect(mockUpdate).toHaveBeenCalledWith(
       expect.objectContaining({ status: "active" })
     );
     expect(mockSend).toHaveBeenCalledTimes(1);
     expect(mockSend.mock.calls[0][0].subject).toBe("Welcome to /thepaymentsnerd");
-    expect(mockRedirect).toHaveBeenCalledWith(`${SITE_URL}/?subscribed=1`);
+    expect(res.status).toBe(200);
   });
 
   it("does NOT send duplicate welcome email for already-confirmed subscriber", async () => {
@@ -116,11 +152,11 @@ describe("GET /api/confirm", () => {
       data: { status: "active", confirmed_at: "2026-01-01", referral_code: "REF123" },
     });
 
-    await GET(makeRequest("valid-token"));
+    const res = await POST(makeRequest("valid-token"));
 
     expect(mockUpdate).not.toHaveBeenCalled();
     expect(mockSend).not.toHaveBeenCalled();
-    expect(mockRedirect).toHaveBeenCalledWith(`${SITE_URL}/?subscribed=1`);
+    expect(res.status).toBe(200);
   });
 
   it("passes referral URL to welcome email when referral_code exists", async () => {
@@ -129,7 +165,7 @@ describe("GET /api/confirm", () => {
     });
     mockSend.mockResolvedValueOnce({});
 
-    await GET(makeRequest("valid-token"));
+    await POST(makeRequest("valid-token"));
 
     const sentHtml = mockSend.mock.calls[0][0].html;
     expect(sentHtml).toContain(`referralUrl=${SITE_URL}?ref=MYCODE`);
@@ -141,19 +177,19 @@ describe("GET /api/confirm", () => {
     });
     mockSend.mockResolvedValueOnce({});
 
-    await GET(makeRequest("valid-token"));
+    await POST(makeRequest("valid-token"));
 
     const sentHtml = mockSend.mock.calls[0][0].html;
     expect(sentHtml).toContain("referralUrl=none");
   });
 
   // Keep env var test last to avoid stub leaking to other tests
-  it("redirects to error page when env vars are missing", async () => {
+  it("returns 500 when env vars are missing", async () => {
     vi.stubEnv("RESEND_API_KEY", "");
 
-    await GET(makeRequest("valid-token"));
+    const res = await POST(makeRequest("valid-token"));
 
-    expect(mockRedirect).toHaveBeenCalledWith(`${SITE_URL}/?subscribed=0`);
+    expect(res.status).toBe(500);
     expect(mockSingle).not.toHaveBeenCalled();
   });
 });

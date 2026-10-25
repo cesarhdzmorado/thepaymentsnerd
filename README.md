@@ -211,11 +211,11 @@ thepaymentsnerd/
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/api/subscribe` | POST | Subscribe new email with confirmation flow |
-| `/api/confirm` | GET | Confirm email subscription via token |
+| `/api/confirm` | GET / POST | GET redirects to the `/confirm` page; POST activates the subscription |
 | `/api/unsubscribe` | POST | Unsubscribe email address |
 | `/api/send-daily` | POST | Trigger daily newsletter send (cron) |
 | `/api/test-email` | GET | Send test email (dev only, requires secret) |
-| `/api/webhooks/resend` | POST | Handle Resend webhooks (bounces, complaints) |
+| `/api/webhooks/resend` | POST | Handle Resend webhooks (Svix signature required, `RESEND_WEBHOOK_SECRET`) |
 
 ## Development
 
