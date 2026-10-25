@@ -1,85 +1,85 @@
 {
   "news": [
     {
-      "title": "HSBC Launches Hong Kong Dollar Stablecoin, With Banking Integration Planned",
-      "body": "PYMNTS reports that HSBC launched a Hong Kong dollar stablecoin for everyday payments, with banking-app and institutional uses planned rather than live at launch. Those integrations would extend its uses beyond purchases. Merchant acceptance depends on settlement arrangements and redemption conditions; HSBC\u2019s next test is sustained repeat usage.",
+      "title": "Same Day ACH Transaction Limit Set to Rise to $10 Million in 2027",
+      "body": "The Same Day ACH per-transaction limit is scheduled to increase from $1 million to $10 million on September 17, 2027. The higher ceiling will make larger corporate payments eligible for same-day processing, expanding the service\u2019s role between traditional batch ACH and instant payments. Banks and payment providers can assess affected payment flows, origination capacity, cutoff management and reconciliation ahead of the change; the current $1 million limit still applies.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/2026/hsbc-launches-hong-kong-dollar-stablecoin-for-everyday-payments/"
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/same-day-ach-volume-jumps-37percent-businesses-fill-gap-between-batch-instant/"
       }
     },
     {
-      "title": "Same Day ACH Volume Rises 36.7% to 470.4 Million Quarterly Payments",
-      "body": "Nacha reported 470.4 million Same Day ACH payments worth $1.3 trillion in Q3 2026, with volume rising 36.7% and value approximately 32% year over year. B2B ACH volume also grew 9.7% to nearly 2.3 billion payments. For banks, payroll providers and accounts-payable platforms, the growth reinforces the importance of banking-day cutoffs, payment routing and reconciliation alongside instant-payment services. The figures do not establish share gains against instant rails, wires or checks.",
+      "title": "Polygon Completes Coinme Acquisition, Adding Regulated US Payment Access",
+      "body": "Polygon completed its Coinme acquisition, according to its October 14 announcement. The company says its resulting U.S. payments business covers 48 states through 37 money-transmitter licenses and 11 applicable extensions. Open Money Stack combines that access with wallets, cross-chain routing, settlement and banking connections. Fintechs evaluating the platform still need to confirm supported flows and state-level availability: money-transmitter permissions and FinCEN registration do not confer a banking charter or deposit insurance.",
       "source": {
-        "name": "Nacha",
-        "url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/blockchain/2026/polygon-secures-us-money-transmitter-licenses/"
       }
     },
     {
-      "title": "Paze Targets Top 100 U.S. Merchants After Checkout Rebuild",
-      "body": "Early Warning Services said Paze is prioritizing the 100 largest U.S. merchants following a checkout rebuild launched June 15. Paze says its wallet now contains approximately 220 million cards, but card availability does not establish active usage. Executives acknowledged inadequate conversion and approval rates before the rebuild and reported improvements after the changes and incentives. Merchant-level comparisons remain undisclosed, leaving sustained demand after the September 11 end of its summer promotion a separate measure of adoption.",
+      "title": "BitGo Reports Bank Custody Interest Following Charter and Listing",
+      "body": "In an October 23 interview, BitGo executive Frank Wang cited two recent requests for proposals from large financial institutions, describing stronger interest following its December 2025 national trust charter and January 2026 public listing. Banks can use BitGo software to manage custody themselves or outsource custody to BitGo Bank & Trust. Those models offer different allocations of operational responsibility; the reported RFPs do not establish signed contracts or revenue.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/paze-digital-wallet-sets-big-targets-revamp-fowler-elkiner/833746/"
+        "url": "https://www.bankingdive.com/news/chartered-december-public-january-how-bitgos-growing/833857/"
       }
     },
     {
-      "title": "Sezzle Applies for Bank Charter and Deposit Insurance",
-      "body": "Sezzle applied to the OCC for a national bank charter and the FDIC for deposit insurance, and plans to seek Federal Reserve approval to become a bank holding company. If regulators approve the applications, the proposed Sezzle Bank would offer checking, savings and credit products, extending its business beyond installment purchases. Sezzle disclosed no launch date, deposit pricing or proposed capitalization; product availability remains contingent on regulatory approval and implementation.",
+      "title": "TD Bank Selects Akoya for Credential-Free Data Connections",
+      "body": "TD Bank U.S. selected Akoya\u2019s Open Finance Solution, with app and data-aggregator onboarding scheduled to begin in Q4 2026. Customers will be able to authorize and revoke data access without sharing bank login credentials with third parties. Connecting fintechs and aggregators gain a standardized API route into TD, with data coverage and consent flows to validate during onboarding. The deployment concerns data access, not payment initiation.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/bank-regulation/2026/sezzle-pursues-national-bank-charter-to-add-fdic-insured-deposit-accounts/"
+        "url": "https://www.pymnts.com/partnerships/2026/td-bank-taps-akoya-power-secure-open-banking-api-access/"
       }
     },
     {
-      "title": "LianLian Adds PayPal Payouts in 96 Countries and U.S. Venmo Disbursements",
-      "body": "LianLian Global announced an October 22 partnership powered by PayPal Payouts that enables clients to send funds to PayPal accounts in 96 countries and make U.S. domestic payouts to Venmo. Marketplaces and other platforms gain wallet destinations for mass disbursements, offering an alternative to collecting recipients\u2019 bank-account details. Neither company disclosed pricing, FX spreads or measured settlement times, so the announcement does not establish a cost or speed advantage over bank payouts.",
+      "title": "Amex Adds More Than One Million Airbnb Listings to Its Travel Platform",
+      "body": "American Express and Airbnb announced October 22 that eligible U.S. cardmembers can book more than one million Airbnb listings through AmexTravel.com and the Amex Travel App. Eligible prepaid bookings can earn Membership Rewards points. The announcement also describes a $600 annual Lodging Credit and a new $250 statement credit for eligible U.S. Consumer and Business Platinum cardmembers, each subject to its own terms. Airbnb gains a premium-card distribution channel, while Amex expands accommodation inventory within its booking platform.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-payments/2026/lianlian-taps-paypal-venmo-speed-up-cross-border-payouts/"
+        "url": "https://www.pymnts.com/transportation/travel-payments/2026/american-express-expands-travel-platform-with-airbnb-integration/"
       }
     }
   ],
-  "perspective": "HSBC\u2019s stablecoin launch and Sezzle\u2019s charter application illustrate distinct expansion paths: adding a payment instrument and seeking authority to offer deposit accounts.",
+  "perspective": "TD Bank expands API-based data access as American Express adds Airbnb inventory, connecting bank infrastructure and cardholder travel distribution.",
   "curiosity": {
-    "text": "The U.S. Federal Reserve\u2019s 1918 wire-transfer system used Morse code over telegraph lines to move funds between banks; it later became Fedwire, which now settles payments electronically. Source: Federal Reserve History, https://www.federalreservehistory.org/essays/fedwire"
+    "text": "On September 18, 2000, the EU adopted its first Electronic Money Directive, 2000/46/EC. It established a prudential framework for electronic money institutions, including initial-capital requirements, restrictions on investments and rules allowing holders to redeem electronic money at par value. Source: EUR-Lex, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32000L0046"
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Coast",
-      "description": "Raised $35 million to launch a payments platform for physical-economy businesses.",
-      "source_url": "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Slingshot Insurance",
-      "description": "Raised $27 million seed funding for embedded insurance, co-led by Rally and Skyward.",
-      "source_url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/"
-    },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Cognitive Credit",
-      "description": "Secured $40 million, led by Summit Partners, for U.S. expansion and credit-analysis products.",
+      "description": "Raises $40 million, led by Summit Partners, for U.S. expansion and credit-analysis products.",
       "source_url": "https://www.pymnts.com/news/investment-tracker/fintech-investments/2026/cognitive-credit-lands-40-million-dollar-investment-expand-united-states-operations/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Coast",
+      "description": "Raises $35 million for a payments platform serving physical-economy businesses.",
+      "source_url": "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "product",
-      "company": "Affirm",
-      "description": "Secured exclusive Sam\u2019s Club installment-payment partnership; online rollout precedes planned 2027 store expansion.",
-      "source_url": "https://www.pymnts.com/news/buy-now-pay-later/2026/affirm-inks-exclusive-deal-with-sams-club/"
+      "company": "HSBC",
+      "description": "Launches HKD-denominated RedCoin through PayMe for consumer transfers and merchant payments.",
+      "source_url": "https://www.about.hsbc.com.hk/news-and-media/hsbc-redcoin-launches-today"
     },
     {
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "type": "M&A",
       "company": "Tech Mahindra",
-      "description": "Acquired Finastra\u2019s cash management, virtual accounts and liquidity management product suite.",
+      "description": "Acquires Finastra\u2019s cash management, virtual accounts and liquidity management product suite.",
       "source_url": "https://www.finextra.com/pressarticle/111427/tech-mahindra-acquires-finastras-cash-management-division"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "type": "product",
+      "company": "LianLian Global",
+      "description": "Adds PayPal payouts across 96 countries and domestic U.S. Venmo disbursements.",
+      "source_url": "https://www.pymnts.com/news/cross-border-payments/2026/lianlian-taps-paypal-venmo-speed-up-cross-border-payouts/"
     }
   ]
 }
