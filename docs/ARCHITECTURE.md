@@ -220,8 +220,8 @@ web/
 
 | Route | Method | Auth | Description |
 |-------|--------|------|-------------|
-| `/api/subscribe` | POST | Public (rate-limited) | Accept email, send confirmation (5 req/15 min/IP) |
-| `/api/confirm` | GET | Token | Verify email and activate subscription |
+| `/api/subscribe` | POST | Public (rate-limited, optional Turnstile) | Accept email, send confirmation (5 req/15 min/IP; max 1 email per 10 min and 3/day per address) |
+| `/api/confirm` | GET / POST | Token | GET: validate link, redirect to `/confirm`. POST: activate subscription |
 | `/api/unsubscribe` | POST | Token | Deactivate subscription |
 | `/api/send-daily` | POST | Bearer | Send newsletter to all active subscribers |
 | `/api/test-email` | GET | Secret param | Send test email |
@@ -244,7 +244,11 @@ Send confirmation email via Resend
     ↓
 User clicks link in email
     ↓
-GET /api/confirm?email=...&token=...
+GET /api/confirm?token=...  (validates, redirects; safe for link scanners)
+    ↓
+/confirm page → user clicks "Confirm Subscription"
+    ↓
+POST /api/confirm?token=...
     ↓
 Verify token signature
     ↓

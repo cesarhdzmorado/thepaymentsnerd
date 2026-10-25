@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { isCronAuthorized } from "@/lib/cronAuth";
 
 // Triggered by Vercel Cron (see web/vercel.json). Vercel's scheduled runs are
 // minute-accurate, unlike GitHub Actions' `schedule:` trigger, which is
@@ -16,8 +17,7 @@ const REF = "main";
 export async function GET(req: Request) {
   // Vercel Cron automatically sends `Authorization: Bearer <CRON_SECRET>`
   // when the CRON_SECRET env var is set on the project.
-  const auth = req.headers.get("authorization");
-  if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
+  if (!isCronAuthorized(req)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

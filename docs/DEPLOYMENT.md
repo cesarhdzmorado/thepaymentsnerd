@@ -287,7 +287,7 @@ For detailed email setup, see [EMAIL_SYSTEM.md](EMAIL_SYSTEM.md).
    - `email.complained`
    - `email.delivered` (optional)
 5. Click **"Create"**
-6. Copy webhook signing secret
+6. Copy webhook signing secret into the `RESEND_WEBHOOK_SECRET` Vercel env var (without it, the endpoint rejects every request)
 7. Add to Vercel env vars: `RESEND_WEBHOOK_SECRET=whsec_xxx`
 
 ## Step 5: Database Setup

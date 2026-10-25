@@ -3,6 +3,7 @@ import { Resend } from "resend";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import { makeToken } from "@/lib/emailTokens";
 import { generateReferralCode } from "@/lib/referrals";
+import { verifyTurnstileToken } from "@/lib/turnstile";
 import {
   renderAlreadySubscribedEmail,
   renderConfirmSubscriptionEmail,
@@ -31,6 +32,22 @@ function isRateLimited(ip: string): boolean {
   return entry.count > RATE_LIMIT_MAX;
 }
 
+// Durable per-address throttle on the emails this route sends, enforced in
+// Postgres (see db/migrations/add_subscribe_email_throttle.sql). This is what
+// stops the endpoint being used to mail-bomb a third party from rotating IPs.
+const EMAIL_MIN_INTERVAL = "10 minutes";
+const EMAIL_MAX_PER_DAY = 3;
+
+async function claimEmailSlot(email: string): Promise<boolean> {
+  const { data, error } = await supabaseAdmin.rpc("claim_subscribe_email_slot", {
+    p_email: email,
+    p_min_interval: EMAIL_MIN_INTERVAL,
+    p_max_per_day: EMAIL_MAX_PER_DAY,
+  });
+  if (error) throw new Error(`Email throttle check failed: ${error.message}`);
+  return data === true;
+}
+
 export async function POST(req: Request) {
   try {
     const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || null;
@@ -43,11 +60,18 @@ export async function POST(req: Request) {
       );
     }
 
-    const { email, source, referralCode } = await req.json();
+    const { email, source, referralCode, turnstileToken } = await req.json();
     const cleanEmail = String(email || "").toLowerCase().trim();
 
     if (!isValidEmail(cleanEmail)) {
       return NextResponse.json({ ok: false, message: "Enter a valid email." }, { status: 400 });
+    }
+
+    if (!(await verifyTurnstileToken(turnstileToken, ip))) {
+      return NextResponse.json(
+        { ok: false, message: "Verification failed. Please refresh the page and try again." },
+        { status: 400 }
+      );
     }
 
     // Check if subscriber already exists and is active
@@ -93,12 +117,16 @@ export async function POST(req: Request) {
         unsubscribeUrl: unsubUrl,
       });
 
-      await resend.emails.send({
-        from,
-        to: cleanEmail,
-        subject: "You're already subscribed",
-        html: alreadySubHtml,
-      });
+      if (await claimEmailSlot(cleanEmail)) {
+        await resend.emails.send({
+          from,
+          to: cleanEmail,
+          subject: "You're already subscribed",
+          html: alreadySubHtml,
+        });
+      } else {
+        console.warn("Subscribe email throttled for:", cleanEmail);
+      }
 
       const referralUrl = existingRefCode ? `${siteUrl}?ref=${existingRefCode}` : siteUrl;
       return NextResponse.json({ ok: true, referralUrl });
@@ -127,7 +155,7 @@ export async function POST(req: Request) {
         {
           email: cleanEmail,
           status: "pending",
-          source: source || "unknown",
+          source: typeof source === "string" && source ? source.slice(0, 64) : "unknown",
           consent_ip: ip,
           consent_user_agent: ua,
           unsubscribed_at: null,
@@ -154,12 +182,17 @@ export async function POST(req: Request) {
       unsubscribeUrl: unsubUrl,
     });
 
-    await resend.emails.send({
-      from,
-      to: cleanEmail,
-      subject: "Confirm your subscription",
-      html: confirmHtml,
-    });
+    // Same response whether or not the email was throttled (no state leak).
+    if (await claimEmailSlot(cleanEmail)) {
+      await resend.emails.send({
+        from,
+        to: cleanEmail,
+        subject: "Confirm your subscription",
+        html: confirmHtml,
+      });
+    } else {
+      console.warn("Subscribe email throttled for:", cleanEmail);
+    }
 
     return NextResponse.json({ ok: true, referralUrl: `${siteUrl}?ref=${newReferralCode}` });
   } catch (e) {
