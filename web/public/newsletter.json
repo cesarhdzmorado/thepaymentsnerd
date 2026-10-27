@@ -1,64 +1,78 @@
 {
   "news": [
     {
-      "title": "OCC Finalizes Stablecoin Rule, Leaving Third-Party Rewards Under Review",
-      "body": "The OCC finalized its GENIUS Act implementation rule, effective January 18, 2027, prohibiting issuers from directly paying stablecoin yield. Third-party reward arrangements remain subject to case-by-case evaluation; the distinction between issuance and distribution does not give wallet providers or distributors blanket permission to offer incentives. Separate rulemaking will address BSA, AML and sanctions requirements.",
+      "title": "Debit Interchange Ruling Sends Covered Issuers\u2019 Fee Standard Back to Fed",
+      "body": "An Eighth Circuit panel ruled October 26 that the Federal Reserve must establish a debit interchange standard consistent with the Durbin Amendment\u2019s permitted cost categories, PYMNTS reports. The decision challenges the existing formula for issuers with $10 billion or more in assets, subject to Regulation II\u2019s asset-measurement and exemption rules. It sets no replacement rate and does not establish immediate merchant savings; changes to issuer revenue and merchant costs depend on subsequent legal proceedings, the Fed\u2019s response and contractual pass-through terms.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/legal/2026/feds-debit-card-swipe-fee-rule-quashed-by-appeals-court/"
+      }
+    },
+    {
+      "title": "Citi Offers Savings Rates Up to 4.35% to Attract Customers\u2019 Outside Assets",
+      "body": "Citi launched Premium Boost on October 26, offering eligible relationship-banking customers variable savings APYs ranging from 3.50% to 4.35%. Relationship tiers begin at $30,000, $200,000 and $1 million in combined balances. Citi says its customers hold approximately $3 trillion elsewhere. By linking savings rates to broader banking and investment relationships, the program gives customers a financial incentive to consolidate qualifying balances at Citi rather than simply open another account.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/occ-final-rule-genius-stablecoin-yield-gould-bessent-icba/833638/"
+        "url": "https://www.bankingdive.com/news/citi-premium-boost-retail-bank-rate-customer-relationships/872758/"
       }
     },
     {
-      "title": "Amex Announces 3,500 Job Cuts as Quarterly Card Spending Reaches $454 Billion",
-      "body": "American Express announced approximately 3,500 job cuts alongside third-quarter revenue of $20 billion, up 9%, and billed business of $454 billion, up 8% on an FX-adjusted basis. Management emphasized automation and expense management amid competition from Ramp and Brex, and plans to add agents to its commercial platform. The announcement pairs workforce reductions with growing card spending; it does not establish that AI directly caused every eliminated role.",
+      "title": "Revolut Begins Phased UK Personal-Loan Rollout",
+      "body": "A limited portion of Revolut\u2019s 14 million UK customers can initially access its new unsecured personal loans of \u00a32,000\u2013\u00a325,000, repayable over one to five years. Revolut plans to expand availability over several months and says approved borrowers receive near-instant funding with no early-repayment fee. The launch adds lending to its existing app distribution, but the initial eligibility limits mean its full UK customer base cannot yet access the product.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/amex-american-express-cut-3500-employees-ai-squeri/833861/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/personal-loans/2026/revolut-expands-united-kingdom-banking-business-with-personal-loans/"
       }
     },
     {
-      "title": "Slingshot Raises $27 Million for Insurance Sold at Checkout",
-      "body": "Minneapolis-based Slingshot Insurance emerged from stealth with $27 million in seed funding, co-led by Rally Ventures and Skyward Group, Crunchbase News reported. The company plans to develop small insurance policies sold at checkout, adding insurance distribution to merchant purchase flows. The funding announcement does not establish live merchant integrations, premium volume or underwriting economics.",
+      "title": "Canada\u2019s Stablecoin Proposal Retains Yield Ban and Reserve Custody With Canadian Financial Institutions",
+      "body": "Canada opened a 60-day consultation on draft stablecoin regulations that retain a yield-payment ban and require nonbank issuers to hold reserves with Canadian financial institutions, according to PYMNTS. The proposed custody requirement assigns a role to that broader institution category, not exclusively to banks, while the yield ban limits how issuers can compensate holders. The consultation covers implementation requirements including Bank of Canada registration; December 23 marks the comment deadline, not the rules\u2019 commencement.",
       "source": {
-        "name": "Crunchbase News",
-        "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/canada-draft-stablecoin-rules-uphold-ban-yield-payments/"
       }
     },
     {
-      "title": "Citi Restricts External Agents While Expanding Embedded Corporate Banking",
-      "body": "Corporate clients can pilot self-initiated U.S. account opening through CitiDirect as Citi develops embedded banking experiences in SAP and Oracle. The bank nevertheless blocks external agentic access beyond certain existing read-only open-banking connections. Those embedded workflows therefore do not authorize third-party agents to initiate transactions or move money.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/citi-takes-cautious-approach-ai-agent-access/833849/"
-      }
-    },
-    {
-      "title": "Parents Differ on Financing Costs and Monthly Payments When Choosing Credit",
-      "body": "Pay-later research found that 34% of married parents prioritize monthly payment size, versus 26% prioritizing cost; single parents favor cost over payment size, 29% to 25%. BNPL availability was very or extremely influential in medical or dental provider selection for 47% of single parents, compared with 35% of married parents. These figures describe respondents\u2019 stated preferences, not provider market-share gains. The research\u2019s broader pay-later category includes regular credit-card payments and card installments alongside BNPL.",
+      "title": "Customer-Manipulation Scams Account for 22.4% of Surveyed Institutions\u2019 Fraud Dollars",
+      "body": "Customer-manipulation scams accounted for 22.4% of fraud dollars at surveyed institutions, compared with 12% in 2025. The research surveyed 90 executives at U.S. banks, credit unions and fintechs in July; it does not represent a national census of fraud losses. These scams distinguish customer authentication from payment intent: a legitimate account holder can authorize a payment under manipulation. Among respondents, 78% cited customer communication as a planned investment, up from 41% in 2025.",
       "source": {
         "name": "PYMNTS Intelligence",
-        "url": "https://www.pymnts.com/bnpl/2026/parents-split-on-what-makes-buy-now-pay-later-options-attractive/"
+        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/scams-gain-10-percentage-points-in-share-of-fraud-dollars/"
       }
     }
   ],
-  "perspective": "Amex pairs spending growth with job cuts as Slingshot raises funding for insurance sold at checkout.",
+  "perspective": "Citi raises relationship-linked savings rates and Revolut adds UK loans alongside a debit-fee ruling, Canada\u2019s stablecoin consultation and rising surveyed scam losses.",
   "curiosity": {
-    "text": "Nacha formed in 1974 to bring regional ACH associations together and standardize rules for exchanging electronic payments nationwide. Its formation was an industry initiative, not the creation of a U.S. government agency. Source: Nacha, \u201cThe ACH Network: A Brief History\u201d \u2014 https://www.nacha.org/content/ach-network-brief-history"
+    "text": "Hong Kong launched its Hong Kong-dollar Real Time Gross Settlement system in December 1996. It settles interbank payments individually in real time rather than accumulating them for later net settlement, reducing interbank settlement exposure. The Faster Payment System launched separately in 2018; it did not replace the RTGS system, and the two serve different purposes. Source: Hong Kong Monetary Authority, \u201cPayment Systems\u201d \u2014 https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/financial-market-infrastructure/payment-systems/"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "type": "product",
-      "company": "LianLian Global",
-      "description": "Adds global PayPal and U.S. Venmo payouts through a new partnership.",
-      "source_url": "https://www.pymnts.com/?s=LianLian+Taps+PayPal"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "CapitalOS",
+      "description": "Raises $21.9 million Series A led by LGVP for embedded B2B financial infrastructure.",
+      "source_url": "https://www.capitalos.com/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Cognitive Credit",
-      "description": "Secures $40 million growth investment to expand U.S. operations and develop products.",
-      "source_url": "https://www.pymnts.com/?s=Cognitive+Credit+40"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Elavon",
+      "description": "Plans embedded SAP payments through PartnerEdge; production availability remains undisclosed.",
+      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/elavon-readies-b2b-push-with-embedded-payments-for-sap-solutions/"
+    },
+    {
+      "flag": "",
+      "type": "M&A",
+      "company": "PayTabs",
+      "description": "Signs MOU to acquire 100% of Saudi SeaPay; transaction is not completed.",
+      "source_url": "https://www.finextra.com/pressarticle/111444/paytabs-agrees-to-buy-seapay-in-saudi-arabia"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Ripple",
+      "description": "Introduces 24/7 Returns for eligible corporate digital-asset balances, including RLUSD.",
+      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/ripple-equips-its-treasury-tool-with-new-capabilities/"
     }
   ]
 }
