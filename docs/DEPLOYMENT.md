@@ -298,36 +298,29 @@ Run this SQL in Supabase SQL Editor:
 
 ```sql
 -- Create subscribers table
-CREATE TABLE IF NOT EXISTS subscribers (
+CREATE TABLE IF NOT EXISTS public.subscribers (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   email TEXT UNIQUE NOT NULL,
   active BOOLEAN DEFAULT true,
   confirmed BOOLEAN DEFAULT false,
   subscribed_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   confirmed_at TIMESTAMP WITH TIME ZONE,
-  referrer_id UUID REFERENCES subscribers(id),
+  referrer_id UUID REFERENCES public.subscribers(id),
   referral_count INTEGER DEFAULT 0,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
 -- Add indexes
-CREATE INDEX idx_subscribers_email ON subscribers(email);
-CREATE INDEX idx_subscribers_active ON subscribers(active);
-CREATE INDEX idx_subscribers_confirmed ON subscribers(confirmed);
+CREATE INDEX idx_subscribers_email ON public.subscribers(email);
+CREATE INDEX idx_subscribers_active ON public.subscribers(active);
+CREATE INDEX idx_subscribers_confirmed ON public.subscribers(confirmed);
 
--- Enable RLS
-ALTER TABLE subscribers ENABLE ROW LEVEL SECURITY;
-
--- RLS Policies
-CREATE POLICY "Allow public insert" ON subscribers
-  FOR INSERT TO anon WITH CHECK (true);
-
-CREATE POLICY "Allow public read own" ON subscribers
-  FOR SELECT TO anon USING (true);
-
-CREATE POLICY "Allow service role all" ON subscribers
-  FOR ALL TO service_role USING (true);
+-- Subscriber operations are server-side only. Explicit grants are required
+-- for Supabase Data API access from 30 October 2026.
+REVOKE ALL PRIVILEGES ON TABLE public.subscribers FROM anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE public.subscribers TO service_role;
+ALTER TABLE public.subscribers ENABLE ROW LEVEL SECURITY;
 ```
 
 ### 5.2 Get Supabase API Keys

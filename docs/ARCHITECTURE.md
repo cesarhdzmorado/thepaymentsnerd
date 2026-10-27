@@ -297,43 +297,33 @@ Return JSON: { sent: N, failed: M }
 Primary table for email subscribers.
 
 ```sql
-CREATE TABLE subscribers (
+CREATE TABLE public.subscribers (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   email TEXT UNIQUE NOT NULL,
   active BOOLEAN DEFAULT true,
   confirmed BOOLEAN DEFAULT false,
   subscribed_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   confirmed_at TIMESTAMP WITH TIME ZONE,
-  referrer_id UUID REFERENCES subscribers(id),
+  referrer_id UUID REFERENCES public.subscribers(id),
   referral_count INTEGER DEFAULT 0,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
 -- Indexes
-CREATE INDEX idx_subscribers_email ON subscribers(email);
-CREATE INDEX idx_subscribers_active ON subscribers(active);
-CREATE INDEX idx_subscribers_confirmed ON subscribers(confirmed);
-CREATE INDEX idx_subscribers_referrer ON subscribers(referrer_id);
+CREATE INDEX idx_subscribers_email ON public.subscribers(email);
+CREATE INDEX idx_subscribers_active ON public.subscribers(active);
+CREATE INDEX idx_subscribers_confirmed ON public.subscribers(confirmed);
+CREATE INDEX idx_subscribers_referrer ON public.subscribers(referrer_id);
 ```
 
 **Row Level Security (RLS):**
 
 ```sql
--- Enable RLS
-ALTER TABLE subscribers ENABLE ROW LEVEL SECURITY;
-
--- Allow public insert (for signup)
-CREATE POLICY "Allow public insert" ON subscribers
-  FOR INSERT TO anon WITH CHECK (true);
-
--- Allow public read own (for confirmation)
-CREATE POLICY "Allow public read own" ON subscribers
-  FOR SELECT TO anon USING (true);
-
--- Allow service role full access
-CREATE POLICY "Allow service role all" ON subscribers
-  FOR ALL TO service_role USING (true);
+-- Subscriber access is server-side only.
+REVOKE ALL PRIVILEGES ON TABLE public.subscribers FROM anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE public.subscribers TO service_role;
+ALTER TABLE public.subscribers ENABLE ROW LEVEL SECURITY;
 ```
 
 **Columns Explained:**
@@ -352,7 +342,7 @@ CREATE POLICY "Allow service role all" ON subscribers
 Track sent newsletters for analytics.
 
 ```sql
-CREATE TABLE newsletters (
+CREATE TABLE public.newsletters (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   publication_date DATE UNIQUE NOT NULL,
   title TEXT NOT NULL,
@@ -360,6 +350,10 @@ CREATE TABLE newsletters (
   recipient_count INTEGER DEFAULT 0,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
+
+REVOKE ALL PRIVILEGES ON TABLE public.newsletters FROM anon, authenticated;
+GRANT SELECT ON TABLE public.newsletters TO anon;
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE public.newsletters TO service_role;
 ```
 
 ### 4. Email Delivery (Resend)
