@@ -407,22 +407,14 @@ def format_trends_for_prompt(trends):
         companies = trend.get('companies_to_watch', [])
         watch_for = trend.get('watch_for', '')
 
-        trend_text = f"{i}. **{name}** (Priority: {weight}/10)\n"
+        trend_text = f"{i}. **{name}** (Structural importance: {weight}/10)\n"
         trend_text += f"   {description}\n"
 
         if signals:
-            trend_text += f"   Signals: {', '.join(signals[:5])}"
-            if len(signals) > 5:
-                trend_text += f" (+{len(signals)-5} more)\n"
-            else:
-                trend_text += "\n"
+            trend_text += f"   Signals: {', '.join(signals)}\n"
 
         if companies:
-            trend_text += f"   Key Players (context only): {', '.join(companies[:4])}"
-            if len(companies) > 4:
-                trend_text += f" (+{len(companies)-4} more)\n"
-            else:
-                trend_text += "\n"
+            trend_text += f"   Key Players (context only): {', '.join(companies)}\n"
 
         if watch_for:
             trend_text += f"   Watch For: {watch_for}"
@@ -511,6 +503,8 @@ These trends represent what's happening NOW in the payments industry. Use this c
 - Boost the STRATEGIC IMPORTANCE score for trend-aligned stories
 - Identify second-order effects related to these trends
 - Connect dots between stories and larger industry shifts
+- Treat weights as structural importance, not story quotas; do not repeat a theme
+  merely because its weight is high
 
 {trends_context}
 

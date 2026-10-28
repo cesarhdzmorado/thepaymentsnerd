@@ -86,6 +86,8 @@ source_ranking:
 # These provide context to agents for better story selection and analysis.
 # Trends are sorted by weight (highest first) for readability; the agent
 # also sorts by weight before injecting into the prompt.
+# Weights express structural editorial importance, not story quotas. Do not
+# repeat a theme simply because its weight is high.
 #
 # WEIGHT RUBRIC (calibrate against this — don't grade-inflate):
 #   10 = redefining the industry RIGHT NOW (max 1 trend at a time)
@@ -108,297 +110,179 @@ source_ranking:
 # `trend_diff.py` output in the PR description. Run:
 #   python ai/scripts/trend_diff.py --old git:main --new ai/config.yml
 # ============================================================================
+trend_radar:
+  as_of: "2026-10-27"
+  review_frequency: monthly
+  weight_semantics: "structural editorial importance, not story quotas"
+
 current_trends:
-  - name: "Digital Wallet Ascendancy"
+  - name: "Stablecoins, Tokenized Money & Settlement"
     weight: 8
-    last_reviewed: "2026-04-26"
+    last_reviewed: "2026-10-27"
     added: "2026-04-26"
     status: active
-    description: "Digital wallets are displacing traditional checkout methods such as guest checkout and saved card credentials. PayPal remains the dominant wallet but competition is intensifying from Apple Pay, Cash App, and Google Pay. Guest checkout preference is declining, indicating deeper wallet penetration and growing consumer comfort with embedded payment solutions."
-    signals:
-      - "digital wallet"
-      - "guest checkout"
-      - "wallet on file"
-      - "card on file"
-      - "one-click checkout"
-      - "Apple Pay"
-      - "Google Pay"
-      - "Cash App"
-      - "Revolut Pay"
-      - "wallet adoption"
-    companies_to_watch:
-      - "PayPal"
-      - "Apple Pay"
-      - "Google Pay"
-      - "Cash App"
-      - "Revolut Pay"
-    watch_for: "Shifts in merchant adoption rates across wallet providers; whether Apple Pay or Google Pay can erode PayPal's dominant share; expansions of Revolut Pay's one-click checkout into new geographies; declining guest-checkout preference as a leading indicator of wallet penetration."
-
-  - name: "Regulatory Harmonization and Banking Licensing"
-    weight: 8
-    last_reviewed: "2026-04-26"
-    added: "2026-04-26"
-    status: active
-    description: "Fintechs are increasingly pursuing full banking licenses as they expand from point solutions into deposits, lending, and broader financial services. Regulators globally are tightening oversight, requiring fintechs to meet the same capital, reserve, and cybersecurity standards as incumbents. This is creating a more level playing field but also raising the cost of doing business for digital challengers."
-    signals:
-      - "banking license"
-      - "OCC approval"
-      - "bank charter"
-      - "FCA"
-      - "PSD2"
-      - "consumer duty"
-      - "capital requirements"
-      - "fintech regulation"
-      - "compliance costs"
-      - "regulatory scrutiny"
-    companies_to_watch:
-      - "Nubank"
-      - "Revolut"
-      - "Plata"
-      - "Klar"
-      - "Ualá"
-      - "Mercado Pago"
-    watch_for: "Speed of regulatory approvals in key markets (US, UK, EU); Nubank's conditional OCC approval and other US bank charter pursuits; whether rising compliance costs slow fintech growth or trigger consolidation; incumbent banks' digital transformation progress."
-
-  - name: "Stablecoins, Mainstreaming & Tokenization"
-    weight: 7
-    last_reviewed: "2026-04-26"
-    added: "2026-04-26"
-    status: active
-    description: "Stablecoins are crossing from crypto-native infrastructure into mainstream payment rails, particularly for cross-border settlement, B2B treasury, and merchant payouts. PYUSD, USDC, and bank-issued stablecoins are gaining institutional adoption alongside regulatory clarity (MiCA in EU, GENIUS Act discussions in US). Tokenized deposits and programmable money are moving from pilots to production at JPMorgan, BofA, and global banks."
+    description: "Stablecoins are moving beyond crypto-native activity into commercial payments, treasury, payouts, and programmable settlement. US rulemaking is under way under the GENIUS Act while MiCA shapes the European market. Judge adoption by recurring payment usage, economics, and interoperability rather than issuance or announced pilots."
     signals:
       - "stablecoin"
-      - "USDC"
-      - "PYUSD"
-      - "USDT"
-      - "MiCA"
-      - "tokenized deposits"
-      - "programmable money"
-      - "on-chain settlement"
-      - "JPM Coin"
-      - "stablecoin payments"
+      - "stablecoin settlement"
+      - "deposit token"
+      - "GENIUS Act"
+      - "stablecoin cards"
     companies_to_watch:
       - "Circle"
-      - "PayPal (PYUSD)"
-      - "Stripe"
-      - "Ripple"
-      - "Paxos"
-      - "JPMorgan (JPM Coin)"
-      - "Visa"
-      - "Mastercard"
-    watch_for: "Bank-issued stablecoin launches; regulatory clarity in the US (GENIUS Act, OCC guidance); MiCA enforcement effects in the EU; payment processors integrating stablecoin rails for B2B and cross-border; institutional treasury use cases."
+      - "Tether"
+      - "Stripe / Bridge"
+      - "PayPal"
+    watch_for: "Production volumes and recurring use cases; issuer licensing; bank deposit tokens versus nonbank stablecoins; stablecoin-funded cards; merchant adoption; reserve economics; settlement costs; and integration with or displacement of traditional rails."
 
-  - name: "Super-App Convergence"
-    weight: 7
-    last_reviewed: "2026-04-26"
+  - name: "Real-Time Payments & Cross-Border Infrastructure"
+    weight: 8
+    last_reviewed: "2026-10-27"
     added: "2026-04-26"
     status: active
-    description: "Fintechs like Revolut are aggressively pursuing the 'super-app' model, consolidating fragmented financial behaviors — payments, banking, investing, insurance, travel, and loyalty — into a single platform. While consumer demand signals are strong, no Western fintech has yet replicated the success of WeChat or Alipay. Big tech companies (Apple, Google, Amazon, Meta) are embedding financial services at the point of engagement, which could pressure standalone neobank models."
+    description: "Instant-payment systems are mature or scaling across major markets. Competition is shifting toward interoperability, recurring payments, request-to-pay, fraud controls, liquidity, and cross-border connectivity. ISO 20022 and payment-system upgrades enable richer data and automation, but speed and cost claims require corridor-level evidence."
     signals:
-      - "super app"
-      - "super-app"
-      - "RevPoints"
-      - "neobank"
-      - "WeChat"
-      - "Alipay"
-      - "single-app banking"
-      - "embedded finance"
-      - "loyalty program"
-      - "AIR assistant"
+      - "real-time payments"
+      - "instant payments"
+      - "SEPA Instant"
+      - "FedNow"
+      - "Pix Automático"
+    companies_to_watch:
+      - "NPCI"
+      - "SWIFT"
+      - "Wise"
+      - "Airwallex"
+    watch_for: "Active usage and recurring-payment functionality; UPI and Pix expansion; payment-system interoperability; instant-payment rules; cross-border speed and cost by corridor; ISO 20022 implementation; and bank or fintech multi-rail orchestration."
+
+  - name: "Payment Fraud, Trust & Digital Identity"
+    weight: 8
+    last_reviewed: "2026-10-27"
+    added: "2026-10-27"
+    status: active
+    description: "Fraud prevention and authentication directly affect payment cost, conversion, and regulation. Instant rails reduce intervention time, while APP-scam reimbursement, verification of payee, passkeys, tokenization, digital identity, and AI-enabled detection are redistributing responsibility across consumers, banks, networks, and merchants."
+    signals:
+      - "APP fraud"
+      - "scam reimbursement"
+      - "verification of payee"
+      - "fraud losses"
+      - "deepfake fraud"
+    companies_to_watch:
+      - "Visa"
+      - "Mastercard"
+      - "Feedzai"
+      - "Featurespace"
+    watch_for: "Fraud-loss rates; reimbursement outcomes; liability allocation; passkey and digital-identity adoption; false-positive rates; real-time controls; agent authentication; and merchant fraud economics."
+
+  - name: "Merchant Acquiring & Payment Orchestration"
+    weight: 7
+    last_reviewed: "2026-10-27"
+    added: "2026-04-26"
+    status: active
+    description: "Merchant payment providers are expanding across online acquiring, in-person acceptance, issuing, orchestration, lending, payouts, and embedded merchant banking. Unified commerce combines channels, data, and settlement while orchestration seeks better authorization performance and routing control. Economics and reliability matter more than feature breadth alone."
+    signals:
+      - "merchant acquiring"
+      - "payment orchestration"
+      - "authorization optimization"
+      - "unified commerce"
+      - "acquiring"
+    companies_to_watch:
+      - "Stripe"
+      - "Adyen"
+      - "Checkout.com"
+      - "Worldpay"
+    watch_for: "Direct acquiring expansion; online-to-POS convergence; orchestration adoption; measured authorization improvements; pricing pressure; profitability and take rates; payment optimization; and processor M&A."
+
+  - name: "Digital Wallets & Checkout Competition"
+    weight: 7
+    last_reviewed: "2026-10-27"
+    added: "2026-04-26"
+    status: active
+    description: "Digital wallets lead global ecommerce by transaction value. Competition is shifting from wallet availability toward merchant conversion, authentication, repeat use, distribution, and the underlying funding rail. Card-backed wallets, account-to-account wallets, and ecosystem super-apps have different economics and adoption patterns."
+    signals:
+      - "digital wallet"
+      - "express checkout"
+      - "branded checkout"
+      - "wallet conversion"
+      - "passkey checkout"
+    companies_to_watch:
+      - "PayPal"
+      - "Apple"
+      - "Google"
+      - "Stripe"
+    watch_for: "Branded-checkout growth versus overall wallet growth; online and physical-commerce adoption; measured merchant conversion; wallet monetization and funding mix; passkey adoption; distribution partnerships; and shifts from stored cards toward tokenized credentials."
+
+  - name: "Banking Licences, Regulation & Market Access"
+    weight: 7
+    last_reviewed: "2026-10-27"
+    added: "2026-04-26"
+    status: active
+    description: "Fintech expansion increasingly depends on licences, prudential and conduct requirements, and supervisory-grade controls. Banking licences can deepen deposits, lending, and primary-account relationships, while payment firms pursue direct acquiring and other infrastructure permissions. Regulatory capability can be both a moat and a growth constraint."
+    signals:
+      - "bank charter"
+      - "banking licence"
+      - "banking license"
+      - "OCC conditional approval"
+      - "direct acquiring licence"
     companies_to_watch:
       - "Revolut"
       - "Nubank"
-      - "WeChat Pay"
-      - "Alipay"
-      - "Apple"
-      - "Google"
-      - "Amazon"
-      - "Meta"
-    watch_for: "Whether any Western fintech can durably replicate the Asian super-app model; big tech's continued embedding of financial services at the point of engagement; pressure on standalone neobank models as bundling intensifies; Revolut's expansion into investing, insurance, and AI assistants (AIR)."
+      - "Monzo"
+      - "Checkout.com"
+    watch_for: "Approval versus operational launch; capital and compliance requirements; supervisory reviews; national expansion; US charter applications; EU payments legislation; cross-border licensing; and effects on profitability and competitive barriers."
 
-  - name: "Open Banking and Embedded Finance Infrastructure"
-    weight: 7
-    last_reviewed: "2026-04-26"
+  - name: "Open Banking & Embedded Finance Infrastructure"
+    weight: 6
+    last_reviewed: "2026-10-27"
     added: "2026-04-26"
     status: active
-    description: "Open banking regulations, particularly Europe's PSD2, have enabled fintechs to securely access customer accounts and initiate payments, fueling rapid product innovation. Fintechs are leveraging API-first platforms and partnerships with card networks (Visa, Mastercard), open banking providers (Plaid, TrueLayer, Yapily), and embedded payments infrastructure (Currencycloud) to deliver seamless cross-border payments, multi-currency accounts, and instant financial services."
+    description: "Open banking and embedded finance support account connectivity, payment initiation, verification, and financial distribution, but commercial development remains uneven. US CFPB Section 1033 compliance dates are stayed while the rule is reconsidered. Sustainable value depends on API reliability, data quality, regulatory access, adoption, and margins."
     signals:
       - "open banking"
-      - "open finance"
-      - "PSD2"
-      - "embedded finance"
-      - "embedded payments"
-      - "API banking"
-      - "financial APIs"
-      - "account aggregation"
+      - "pay by bank"
       - "CFPB 1033"
-      - "data portability"
+      - "financial data rights"
+      - "account-to-account payments"
     companies_to_watch:
       - "Plaid"
       - "TrueLayer"
-      - "Yapily"
-      - "Currencycloud"
+      - "Tink"
+      - "Trustly"
+    watch_for: "Publication and substance of a revised US data-access rule; PSD3 and PSR; pay-by-bank adoption; enterprise API usage; pricing and margins; embedded-finance unit economics; consolidation; and measured card substitution at checkout."
+
+  - name: "Agentic Commerce & Autonomous Payments"
+    weight: 6
+    last_reviewed: "2026-10-27"
+    added: "2026-10-27"
+    status: active
+    description: "AI agents are beginning to initiate commerce and payment workflows under delegated authority. Commerce protocols, agent authentication, and financial APIs aim to support automated checkout, invoices, transfers, and treasury. The market remains early, so announced integrations and pilots must be separated from repeatable production usage."
+    signals:
+      - "agentic commerce"
+      - "agentic payments"
+      - "Universal Commerce Protocol"
+      - "Agent Payments Protocol"
+      - "Trusted Agent Protocol"
+    companies_to_watch:
+      - "Stripe"
       - "Visa"
       - "Mastercard"
-      - "Stripe Financial Connections"
-      - "Tink"
-    watch_for: "Evolution of open banking regulation beyond PSD2; CFPB 1033 implementation in the US; consolidation among open banking providers; whether embedded finance infrastructure becomes commoditized or remains a defensible layer."
+      - "Google"
+    watch_for: "Production transaction volume; merchant integrations; protocol interoperability; liability for agent errors; delegated identity and approval; spending controls; agent-operated business payments; and fraud prevention."
 
-  - name: "Enterprise Payments Platform Expansion"
-    weight: 7
-    last_reviewed: "2026-04-26"
-    added: "2026-04-26"
-    status: active
-    description: "Enterprise payment processors like Adyen are expanding their offerings beyond merchant acquiring into issuing, capital lending, and accounts for SME customers. Fintechs like Revolut compete with digital processors (Stripe, PayPal, Adyen, Checkout.com) by offering flexible routing, broad local payment method coverage, and integrated POS solutions. Traditional acquirers and global banks also remain significant in the B2B payment processing ecosystem."
-    signals:
-      - "merchant acquiring"
-      - "payment processor"
-      - "POS terminal"
-      - "card issuing"
-      - "SME payments"
-      - "B2B payments"
-      - "payment orchestration"
-      - "merchant services"
-      - "Adyen"
-      - "Checkout.com"
-    companies_to_watch:
-      - "Adyen"
-      - "Stripe"
-      - "PayPal"
-      - "Checkout.com"
-      - "Worldpay"
-      - "Revolut"
-      - "Nasdaq (FinTech segment)"
-    watch_for: "Adyen guidance for ~20% sales growth and expansion into issuing/capital; Revolut launching POS apps and terminals; whether Stripe and Adyen can maintain premium growth as competition intensifies; Nasdaq FinTech ARR as a barometer for capital markets tech demand."
-
-  - name: "Buy Now, Pay Later (BNPL) Maturation"
+  - name: "BNPL & Embedded Credit"
     weight: 6
-    last_reviewed: "2026-04-26"
+    last_reviewed: "2026-10-27"
     added: "2026-04-26"
     status: active
-    description: "BNPL has moved past the hypergrowth phase and is now stabilizing, with consumers increasingly engaging with longer-duration installment plans rather than short-term pay-in-four products. Product awareness improvements are expected to drive future adoption, particularly among lower-income demographics. Banks are increasingly securitizing loans from BNPL originators."
+    description: "BNPL is becoming a regulated component of consumer credit, with broader wallet distribution and longer-duration products. Those products increase underwriting, funding, and loss sensitivity. Embedded-capital products also use payment data to connect merchant activity with financing decisions."
     signals:
-      - "BNPL"
       - "buy now pay later"
       - "pay in four"
-      - "installment plan"
-      - "Affirm"
-      - "Klarna"
-      - "Afterpay"
-      - "BNPL securitization"
       - "BNPL regulation"
       - "checkout financing"
+      - "embedded lending"
     companies_to_watch:
       - "PayPal"
-      - "Afterpay"
-      - "Affirm"
       - "Klarna"
-    watch_for: "Regulatory scrutiny on BNPL credit risk; whether longer-duration BNPL products lead to higher default rates; competitive dynamics as PayPal leverages wallet dominance to cross-sell BNPL; PayPal maintaining BNPL leadership against Afterpay and Affirm."
-
-  - name: "Latin American Fintech Battleground"
-    weight: 6
-    last_reviewed: "2026-04-26"
-    added: "2026-04-26"
-    status: active
-    description: "Latin America has become a key battleground for fintech expansion. In Mexico, intense competition among Nubank, Mercado Pago, Revolut, Klar, and Ualá is driving rising customer acquisition costs and richer incentives such as cashback and no-interest installments. Incumbent banks are responding by focusing on middle- and high-income segments while fintechs target retail and lower-income customers."
-    signals:
-      - "Latin America"
-      - "Mexico fintech"
-      - "Brazil fintech"
-      - "Nubank"
-      - "Mercado Pago"
-      - "Plata"
-      - "Klar"
-      - "Ualá"
-      - "LatAm payments"
-      - "neobank LATAM"
-    companies_to_watch:
-      - "Nubank"
-      - "Mercado Pago"
-      - "Plata"
-      - "Revolut"
-      - "Klar"
-      - "Ualá"
-    watch_for: "Plata's $405M Series C and $5B valuation milestone; whether rising acquisition costs compress margins and force consolidation; Revolut's traction against deeply entrenched local players; regulatory developments in Mexico and Brazil that could reshape the competitive landscape."
-
-  - name: "The Trust-Satisfaction Gap"
-    weight: 6
-    last_reviewed: "2026-04-26"
-    added: "2026-04-26"
-    status: active
-    description: "Neobanks consistently outperform incumbents on customer satisfaction metrics, driven by lower fees, clearer terms, and easier onboarding. However, incumbents retain significant advantages in trust, perceived security, and product breadth — which remain key hurdles for neobanks seeking to become the primary financial relationship. Most consumers maintain relationships with two or more providers, indicating neobank accounts often complement rather than replace incumbents."
-    signals:
-      - "neobank"
-      - "customer satisfaction"
-      - "primary banking"
-      - "deposit insurance"
-      - "trust gap"
-      - "challenger bank"
-      - "Chime"
-      - "Monzo"
-      - "N26"
-      - "fintech adoption"
-    companies_to_watch:
-      - "Revolut"
-      - "Nubank"
-      - "Chime"
-      - "Monzo"
-      - "N26"
-      - "JPMorgan Chase"
-      - "Bank of America"
-      - "HSBC"
-    watch_for: "Whether neobanks can close the trust gap through banking licenses and deposit insurance; shifts in primary account designation from incumbents to neobanks; incumbent digital transformation efforts that narrow the satisfaction gap; ~78% US fintech app penetration plateau or expansion."
-
-  - name: "AI Integration in Fintech"
-    weight: 5
-    last_reviewed: "2026-04-26"
-    added: "2026-04-26"
-    status: active
-    description: "Fintechs are deploying AI-powered assistants and tools to enhance customer experience and operational efficiency. Revolut's AIR assistant helps customers manage cards, subscriptions, investments, budgets, and travel essentials through conversational chat. More broadly, AI is being used for fraud detection, credit underwriting, and personalized financial recommendations. NOTE: AI is intentionally weighted at 5 (below mid) as a corrective lens — prior agent prompts over-indexed on AI/agentic commerce coverage. This weight reflects that AI is one of many forces reshaping fintech, not the dominant one."
-    signals:
-      - "AI assistant"
-      - "AI agent"
-      - "agentic AI"
-      - "AI fraud"
-      - "machine learning"
-      - "AI underwriting"
-      - "conversational AI"
-      - "AI chatbot"
-      - "fintech AI"
-      - "AIR assistant"
-    companies_to_watch:
-      - "Revolut (AIR)"
-      - "Nubank"
-      - "PayPal"
-      - "Stripe"
-      - "Adyen"
-    watch_for: "Consumer adoption rates of AI-powered financial assistants; whether AI meaningfully reduces customer acquisition and servicing costs; regulatory frameworks for AI in financial services; agentic commerce protocols (ACP, MCP) reaching production scale."
-
-  - name: "Real-Time Payments and Cross-Border Rails"
-    weight: 5
-    last_reviewed: "2026-04-26"
-    added: "2026-04-26"
-    status: active
-    description: "Real-time payment rails (FedNow, RTP, SEPA Instant, PIX, UPI) are becoming baseline infrastructure, shifting competition to value-added overlays such as request-to-pay, liquidity management, and multi-rail orchestration. Cross-border payments are being re-architected for speed and FX transparency, with ISO 20022 migration, virtual accounts, and stablecoin corridors challenging legacy correspondent banking."
-    signals:
-      - "FedNow"
-      - "RTP"
-      - "SEPA Instant"
-      - "PIX"
-      - "ISO 20022"
-      - "request to pay"
-      - "cross-border payments"
-      - "correspondent banking"
-      - "instant settlement"
-      - "SWIFT gpi"
-    companies_to_watch:
-      - "The Clearing House (RTP)"
-      - "Federal Reserve (FedNow)"
-      - "Wise"
-      - "Airwallex"
-      - "Nium"
-      - "Thunes"
-      - "SWIFT"
-      - "J.P. Morgan"
-      - "Form3"
-    watch_for: "Bank adoption of FedNow/RTP; request-to-pay rollouts; ISO 20022 migration milestones; new cross-border corridors via stablecoin or alternative rails; embedded FX in B2B platforms; SWIFT alternatives gaining traction."
+      - "Affirm"
+      - "Block / Afterpay"
+    watch_for: "Regulatory implementation; delinquencies and loss rates; funding economics; longer-term financing adoption; wallet distribution; measured merchant conversion; and embedded-capital growth."
