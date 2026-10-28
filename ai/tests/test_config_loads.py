@@ -1,5 +1,6 @@
 import unittest
 from collections import Counter
+from datetime import date, datetime
 from pathlib import Path
 
 import yaml
@@ -28,6 +29,32 @@ class TestConfigLoads(unittest.TestCase):
         self.assertIsInstance(self.config, dict)
         self.assertIn("current_trends", self.config)
         self.assertIn("newsletters", self.config)
+
+    def test_trend_radar_metadata_is_current(self):
+        radar = self.config.get("trend_radar", {})
+        self.assertEqual(radar.get("review_frequency"), "monthly")
+        self.assertEqual(
+            radar.get("weight_semantics"),
+            "structural editorial importance, not story quotas",
+        )
+        reviewed = datetime.strptime(radar["as_of"], "%Y-%m-%d").date()
+        self.assertLessEqual(reviewed, date.today(), "Trend radar as_of is in the future")
+        self.assertLessEqual(
+            (date.today() - reviewed).days,
+            45,
+            "Trend radar is stale: monthly review is overdue",
+        )
+        for trend in self.trends:
+            trend_reviewed = datetime.strptime(
+                trend["last_reviewed"], "%Y-%m-%d"
+            ).date()
+            self.assertLessEqual(trend_reviewed, reviewed, trend["name"])
+            if trend["status"] == "active":
+                self.assertLessEqual(
+                    (reviewed - trend_reviewed).days,
+                    45,
+                    f"Active trend review is stale: {trend['name']}",
+                )
 
     def test_source_ranking_is_well_formed(self):
         ranking = self.config.get("source_ranking")
@@ -121,6 +148,17 @@ class TestConfigLoads(unittest.TestCase):
             self.assertGreater(
                 len(trend.get("signals", [])), 0,
                 f"Trend '{trend['name']}' has no signals — won't fire in eval harness",
+            )
+
+    def test_prompt_context_is_not_silently_truncated(self):
+        for trend in self.trends:
+            self.assertLessEqual(
+                len(trend.get("signals", [])), 5,
+                f"Trend '{trend['name']}' has more than 5 prompt signals",
+            )
+            self.assertLessEqual(
+                len(trend.get("companies_to_watch", [])), 4,
+                f"Trend '{trend['name']}' has more than 4 context companies",
             )
 
 
