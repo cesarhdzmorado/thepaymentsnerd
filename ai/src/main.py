@@ -1299,8 +1299,17 @@ Revision rules:
             revised_json = json.loads(revised_text)
 
             if isinstance(revised_json, dict) and isinstance(revised_json.get('news'), list) and len(revised_json['news']) == 5:
-                output_json = revised_json
-                print("✅ Applied one revision pass based on editor feedback")
+                revision_selection_errors = required_selection_errors(
+                    revised_json['news'], writer_candidates
+                )
+                if revision_selection_errors:
+                    print(
+                        "⚠️ Revision removed a required critical incident; "
+                        "keeping the verified Writer draft"
+                    )
+                else:
+                    output_json = revised_json
+                    print("✅ Applied one revision pass based on editor feedback")
             else:
                 print("⚠️ Revision pass returned invalid shape/count; keeping original writer output")
         except Exception as e:
