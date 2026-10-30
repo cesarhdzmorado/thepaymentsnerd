@@ -47,6 +47,29 @@ class TestSourceRanking(unittest.TestCase):
         self.assertEqual(ranked[2]["selection_score"], 25)
         self.assertIn(binance["source_url"], [story["source_url"] for story in ranked[:5]])
 
+    def test_binance_reports_consolidate_to_one_canonical_incident(self):
+        ft = {
+            "title": "Binance halts withdrawals after record $6.3bn heist",
+            "body": "Binance halted withdrawals after a compromised laptop caused a breach.",
+            "source_name": "Financial Times",
+            "source_url": "https://www.ft.com/content/binance-heist",
+            "final_score": 27,
+        }
+        the_block = {
+            "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
+            "body": "Binance is investigating suspicious outflows after a security incident.",
+            "source_name": "The Block",
+            "source_url": "https://www.theblock.co/news/binance-hack",
+            "final_score": 27,
+        }
+
+        stories, decisions = consolidate_story_sources([the_block, ft])
+
+        self.assertEqual(len(stories), 1)
+        self.assertEqual(stories[0]["source_url"], ft["source_url"])
+        self.assertEqual(len(decisions), 1)
+        self.assertEqual(source_conflict_errors(decisions), [])
+
     def test_small_exploit_does_not_trigger_critical_incident_floor(self):
         story = {
             "title": "Exchange pauses trading after $2.5m exploit",

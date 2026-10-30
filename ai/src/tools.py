@@ -232,6 +232,7 @@ EVENT_PATTERNS = {
     "ipo": r"\b(ipo|initial\s+public\s+offering|go(?:es|ing)?\s+public|public\s+listing)\b",
     "expansion": r"\b(expand(?:s|ed|ing)?|expansion|enter(?:s|ed|ing)?|growth|grow(?:s|ing)?|scale[sd]?|scaling)\b",
     "regulation": r"\b(regulat(?:es?|ed?|ion|ory|ing)|compliance|fine[sd]?|penalt(?:y|ies)|enforcement|licens(?:e[sd]?|ing)|approv(?:es?|ed?|al|ing))\b",
+    "security_incident": r"\b(security incident|hack(?:ed)?|breach|heist|cyberattack|cyber attack|exploit|unauthori[sz]ed outflows?|suspicious outflows?)\b",
 }
 
 
@@ -528,6 +529,8 @@ _EVENT_TEXT_ALIASES = {
     r"\baml\b": "money laundering",
     r"\banti[- ]money laundering\b": "money laundering",
     r"\bbsa\b": "bank secrecy act",
+    r"\b(?:hack(?:ed)?|breach|heist|cyberattack|cyber attack|exploit)\b": "security incident",
+    r"\b(?:unauthori[sz]ed|suspicious) outflows?\b": "security incident outflows",
 }
 
 _REGULATOR_ALIASES = {
@@ -632,6 +635,13 @@ def _same_event(story1: dict, story2: dict) -> bool:
     title2 = _canonical_event_text({"title": story2.get("title", "")})
     title_similarity = _calculate_similarity(title1, title2)
     body_similarity = _calculate_similarity(text1, text2)
+    if "security_incident" in common_events:
+        amounts = sorted(
+            _headline_money_values(story1) | _headline_money_values(story2)
+        )
+        if len(amounts) >= 2 and amounts[-1] / max(amounts[0], 1) <= 1.25:
+            return True
+        return title_similarity >= 0.14 or body_similarity >= 0.12
     return title_similarity >= 0.22 or body_similarity >= 0.16
 
 
