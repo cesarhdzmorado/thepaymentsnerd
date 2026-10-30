@@ -839,6 +839,90 @@ def _story_source_url(story: dict) -> str:
     return source.get('url', '') if isinstance(source, dict) else ''
 
 
+def is_priority_operational_incident(story: dict) -> bool:
+    """Identify severe, live incidents that must not lose to routine corporate news.
+
+    Keep this deliberately narrow: the event must combine a cyber/security incident,
+    customer access or payment disruption, and at least $1bn of reported exposure.
+    The exact final loss may remain unsettled; that uncertainty belongs in the copy,
+    not in a demotion below funding rounds or licence applications.
+    """
+    text = _story_text(story).lower()
+    security_event = re.search(
+        r"\b(hack(?:ed)?|breach|heist|cyberattack|cyber attack|"
+        r"unauthori[sz]ed outflows?|suspicious outflows?)\b",
+        text,
+    )
+    live_disruption = re.search(
+        r"\b(halt(?:ed|s|ing)?|suspend(?:ed|s|ing)?|pause(?:d|s|ing)?|"
+        r"freeze|froze|frozen|outage|unavailable|unable to (?:withdraw|pay)|"
+        r"withdrawals? (?:halted|suspended|paused|frozen))\b",
+        text,
+    )
+    money_values = []
+    for amount, suffix in _MONEY_RE.findall(text):
+        multiplier = {
+            "trillion": 1_000_000_000_000,
+            "tn": 1_000_000_000_000,
+            "t": 1_000_000_000_000,
+            "billion": 1_000_000_000,
+            "bn": 1_000_000_000,
+            "b": 1_000_000_000,
+            "million": 1_000_000,
+            "mn": 1_000_000,
+            "m": 1_000_000,
+            "": 1,
+        }[suffix.lower()]
+        money_values.append(float(amount) * multiplier)
+
+    return bool(security_event and live_disruption and any(v >= 1_000_000_000 for v in money_values))
+
+
+def rank_stories_for_selection(stories: list, incident_score_floor: float = 25) -> list:
+    """Add deterministic selection metadata and rank severe live incidents fairly."""
+    ranked = []
+    for story in stories or []:
+        candidate = dict(story)
+        final_score = float(candidate.get("final_score", 0) or 0)
+        if is_priority_operational_incident(candidate):
+            candidate["selection_priority"] = "critical_operational_incident"
+            candidate["selection_score"] = max(final_score, incident_score_floor)
+        else:
+            candidate["selection_priority"] = "standard"
+            candidate["selection_score"] = final_score
+        ranked.append(candidate)
+
+    return sorted(
+        ranked,
+        key=lambda story: (
+            float(story.get("selection_score", 0) or 0),
+            float(story.get("final_score", 0) or 0),
+        ),
+        reverse=True,
+    )
+
+
+def required_selection_errors(news_items: list, candidate_stories: list, limit: int = 2) -> List[str]:
+    """Return errors when the final brief omits a qualifying critical incident."""
+    required = [
+        story for story in candidate_stories or []
+        if story.get("selection_priority") == "critical_operational_incident"
+    ][:limit]
+    published_urls = {
+        _normalize_url(_story_source_url(story))
+        for story in news_items or []
+        if _story_source_url(story)
+    }
+    errors = []
+    for story in required:
+        source_url = _normalize_url(_story_source_url(story))
+        if source_url and source_url not in published_urls:
+            errors.append(
+                f"Required critical incident omitted: {story.get('title', 'Untitled')} ({source_url})"
+            )
+    return errors
+
+
 def _build_historical_index(historical_stories: list) -> Tuple[list, list, Set[str], Dict[str, str]]:
     """Pre-compute reusable historical structures for deduplication checks."""
     historical_texts = []
