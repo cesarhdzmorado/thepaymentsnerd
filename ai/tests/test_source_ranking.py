@@ -6,7 +6,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.tools import (
     consolidate_story_sources,
+    is_priority_operational_incident,
     is_generic_source_url,
+    rank_stories_for_selection,
+    required_selection_errors,
     source_authority_tier,
     source_conflict_errors,
     unverified_output_errors,
@@ -15,6 +18,87 @@ from src.tools import (
 
 
 class TestSourceRanking(unittest.TestCase):
+    def test_binance_scale_incident_outranks_routine_corporate_news(self):
+        binance = {
+            "title": "Binance halts withdrawals after record $6.3bn heist",
+            "body": (
+                "Binance halted withdrawals after a breach. Another report measured "
+                "up to $5.8 billion in suspicious outflows; the final loss is unsettled."
+            ),
+            "source_name": "Financial Times",
+            "source_url": "https://www.ft.com/content/binance-heist",
+            "final_score": 21,
+        }
+        routine = [
+            {
+                "title": f"Company {index} announces a strategic expansion",
+                "body": "The company announced a routine corporate development.",
+                "source_name": "Finextra",
+                "source_url": f"https://www.finextra.com/newsarticle/{index}/routine",
+                "final_score": score,
+            }
+            for index, score in enumerate((26, 25, 24, 24, 23, 23), start=1)
+        ]
+
+        ranked = rank_stories_for_selection(routine + [binance])
+
+        self.assertTrue(is_priority_operational_incident(binance))
+        self.assertEqual(ranked[2]["source_url"], binance["source_url"])
+        self.assertEqual(ranked[2]["selection_score"], 25)
+        self.assertIn(binance["source_url"], [story["source_url"] for story in ranked[:5]])
+
+    def test_binance_reports_consolidate_to_one_canonical_incident(self):
+        ft = {
+            "title": "Binance halts withdrawals after record $6.3bn heist",
+            "body": "Binance halted withdrawals after a compromised laptop caused a breach.",
+            "source_name": "Financial Times",
+            "source_url": "https://www.ft.com/content/binance-heist",
+            "final_score": 27,
+        }
+        the_block = {
+            "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
+            "body": "Binance is investigating suspicious outflows after a security incident.",
+            "source_name": "The Block",
+            "source_url": "https://www.theblock.co/news/binance-hack",
+            "final_score": 27,
+        }
+
+        stories, decisions = consolidate_story_sources([the_block, ft])
+
+        self.assertEqual(len(stories), 1)
+        self.assertEqual(stories[0]["source_url"], ft["source_url"])
+        self.assertEqual(len(decisions), 1)
+        self.assertEqual(source_conflict_errors(decisions), [])
+
+    def test_small_exploit_does_not_trigger_critical_incident_floor(self):
+        story = {
+            "title": "Exchange pauses trading after $2.5m exploit",
+            "body": "Trading resumed after the exploit was contained.",
+            "final_score": 20,
+        }
+        self.assertFalse(is_priority_operational_incident(story))
+
+    def test_release_gate_rejects_omitted_priority_incident(self):
+        candidate = rank_stories_for_selection([{
+            "title": "Binance halts withdrawals after record $6.3bn heist",
+            "body": "A breach forced Binance to halt withdrawals after $6.3 billion moved.",
+            "source_name": "Financial Times",
+            "source_url": "https://www.ft.com/content/binance-heist",
+            "final_score": 21,
+        }])
+        published = [{
+            "title": "Routine funding story",
+            "body": "A company raised funding.",
+            "source": {"name": "Finextra", "url": "https://www.finextra.com/routine"},
+        }]
+
+        self.assertTrue(required_selection_errors(published, candidate))
+        self.assertEqual(required_selection_errors([{
+            "title": "Binance withdrawal halt",
+            "body": "Withdrawals halted while the exchange investigated.",
+            "source": {"name": "Financial Times", "url": candidate[0]["source_url"]},
+        }], candidate), [])
+
     def test_release_gate_rejects_unverified_editorial_caveat(self):
         stories = [{
             "title": "Bank fine remains unverified",

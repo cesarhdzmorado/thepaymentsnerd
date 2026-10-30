@@ -25,6 +25,8 @@ from .tools import (
     consolidate_story_sources,
     deduplicate_stories,
     filter_against_history,
+    rank_stories_for_selection,
+    required_selection_errors,
     source_conflict_errors,
     validate_canonical_sources,
     unverified_output_errors,
@@ -568,6 +570,14 @@ RESEARCH FRAMEWORK:
    - PR fluff / vague announcement / no concrete numbers: -3 to -8
    - Weak evidence despite famous company mention: -2 to -5
 
+   MATERIAL INCIDENT FLOOR:
+   - A live cyber/security incident that interrupts withdrawals, payments, or
+     customer access and has at least $1bn of reported exposure is operationally
+     material. Score material impact at 6/6 and actionability at least 3/4.
+   - Uncertainty about the exact final loss belongs in the wording and source-quality
+     score. It must not demote the verified core incident below routine funding,
+     product, expansion, or licence-application news.
+
    FINAL SCORE (0-30):
    - `final_score = base_signal + trend_bonus + operator_relevance - penalties`
 
@@ -693,7 +703,9 @@ Turn ranked research candidates into a sharp daily brief for payments operators.
 SCOPE BOUNDARY
 - You own final Top-5 selection + narrative synthesis.
 - Do NOT invent new stories or re-run research.
-- Use provided score fields (`final_score`, `base_signal`, `gate`) as default ranking signal.
+- Use `selection_score` as the ranking signal. It normally equals `final_score`,
+  but applies a deterministic floor for severe live operational incidents.
+- Use `final_score`, `base_signal`, and `gate` as supporting audit context.
 - You may override ranking only to improve diversity/coherence.
 - Treat each story's `source_name` and `source_url` as canonical. The
   `source_candidates` list is audit context only; never substitute from it.
@@ -709,7 +721,7 @@ CONTEXT
 
 SELECTION RULES
 1) Choose exactly 5 stories.
-2) Start with highest `final_score` among `gate=PASS`.
+2) Start with highest `selection_score` among `gate=PASS`.
 3) Keep at least 4/5 from top PASS-ranked stories unless diversity requires a swap.
 4) Never include `gate=REJECT` unless PASS stories are unavailable.
 5) Avoid PR-like/vague items and repetitive themes.
@@ -718,6 +730,9 @@ SELECTION RULES
    caveats such as "article text was not supplied", "unverified", or "unconfirmed".
    A publication homepage, press index, or generic news landing page is not a
    valid source; require the specific article, filing, or release URL.
+7) Include every candidate marked `selection_priority=critical_operational_incident`
+   (up to two). Uncertainty about the exact loss does not justify omission when the
+   core breach and customer-access disruption are supported; state the uncertainty.
 
 WRITING RULES (PER STORY)
 - Title: 10-14 words, insight-first, specific.
@@ -1108,6 +1123,7 @@ Revision rules:
                 parsed_stories,
                 ranking=config.get('source_ranking'),
             )
+            parsed_stories = rank_stories_for_selection(parsed_stories)
             conflict_errors = source_conflict_errors(source_decisions)
             if conflict_errors:
                 raise RuntimeError(
@@ -1143,6 +1159,7 @@ Revision rules:
 
     # 6.6. Deduplicate against recent stories (BEFORE Writer sees them)
     # Uses hybrid detection: entity extraction + word similarity + semantic embeddings
+    writer_candidates = list(parsed_stories)
     if parsed_stories and recent_stories:
         print(f"\n🔍 Deduplication: Checking {len(parsed_stories)} stories against {len(recent_stories)} recent stories...")
         print("   Using hybrid detection (entities + words + embeddings)")
@@ -1167,9 +1184,11 @@ Revision rules:
         if not filtered_stories:
             print("⚠️ All stories were duplicates! Falling back to raw Researcher output")
             writer_input = research_result['output']
+            writer_candidates = []
         else:
             print(f"✅ {len(filtered_stories)} unique stories passed to Writer")
             writer_input = json.dumps(filtered_stories, indent=2)
+            writer_candidates = filtered_stories
     elif parsed_stories:
         print("ℹ️ No recent stories to deduplicate against")
         writer_input = json.dumps(parsed_stories, indent=2)
@@ -1178,24 +1197,47 @@ Revision rules:
         writer_input = research_result['output']
 
     print("\n--- Starting Writer Agent ---")
-    final_result_chain = writer_chain.invoke({"input": writer_input})
+    writer_payload = writer_input
+    final_result_chain = None
+    output_json = None
+    for writer_attempt in range(1, 3):
+        final_result_chain = writer_chain.invoke({"input": writer_payload})
 
-    # 7. Parse writer output and independently generate curiosity
-    try:
-        output_text = final_result_chain.content.strip().replace("```json", "").replace("```", "").strip()
-        output_json = json.loads(output_text)
-        verification_errors = unverified_output_errors(output_json.get("news", []))
-        if verification_errors:
-            raise RuntimeError(
-                "Release blocked by unverified final story:\n- "
-                + "\n- ".join(verification_errors)
+        # 7. Parse writer output and independently generate curiosity
+        try:
+            output_text = final_result_chain.content.strip().replace("```json", "").replace("```", "").strip()
+            output_json = json.loads(output_text)
+            verification_errors = unverified_output_errors(output_json.get("news", []))
+            if verification_errors:
+                raise RuntimeError(
+                    "Release blocked by unverified final story:\n- "
+                    + "\n- ".join(verification_errors)
+                )
+
+            selection_errors = required_selection_errors(
+                output_json.get("news", []), writer_candidates
             )
-    except (json.JSONDecodeError, AttributeError, KeyError) as e:
-        print("\n--- FAILED to parse writer JSON output. ---")
-        print(f"Error: {e}")
-        print("Raw Writer Output:")
-        print(final_result_chain.content if hasattr(final_result_chain, 'content') else final_result_chain)
-        return
+            if selection_errors and writer_attempt == 1:
+                print("⚠️ Writer omitted a required critical incident; retrying once")
+                writer_payload = (
+                    writer_input
+                    + "\n\nMANDATORY CORRECTION:\n- "
+                    + "\n- ".join(selection_errors)
+                    + "\nReturn exactly five stories and include the omitted critical incident."
+                )
+                continue
+            if selection_errors:
+                raise RuntimeError(
+                    "Release blocked by critical-incident selection gate:\n- "
+                    + "\n- ".join(selection_errors)
+                )
+            break
+        except (json.JSONDecodeError, AttributeError, KeyError) as e:
+            print("\n--- FAILED to parse writer JSON output. ---")
+            print(f"Error: {e}")
+            print("Raw Writer Output:")
+            print(final_result_chain.content if hasattr(final_result_chain, 'content') else final_result_chain)
+            return
 
     print("\n--- Starting Curiosity Agent ---")
     curiosity_payload = json.dumps(output_json.get('news', []), indent=2)
@@ -1257,8 +1299,17 @@ Revision rules:
             revised_json = json.loads(revised_text)
 
             if isinstance(revised_json, dict) and isinstance(revised_json.get('news'), list) and len(revised_json['news']) == 5:
-                output_json = revised_json
-                print("✅ Applied one revision pass based on editor feedback")
+                revision_selection_errors = required_selection_errors(
+                    revised_json['news'], writer_candidates
+                )
+                if revision_selection_errors:
+                    print(
+                        "⚠️ Revision removed a required critical incident; "
+                        "keeping the verified Writer draft"
+                    )
+                else:
+                    output_json = revised_json
+                    print("✅ Applied one revision pass based on editor feedback")
             else:
                 print("⚠️ Revision pass returned invalid shape/count; keeping original writer output")
         except Exception as e:
@@ -1282,6 +1333,12 @@ Revision rules:
                     raise RuntimeError(
                         "Release blocked by canonical source gate:\n- " + "\n- ".join(source_errors)
                     )
+            selection_errors = required_selection_errors(output_json['news'], writer_candidates)
+            if selection_errors:
+                raise RuntimeError(
+                    "Release blocked by final critical-incident selection gate:\n- "
+                    + "\n- ".join(selection_errors)
+                )
 
             original_count = len(output_json['news'])
             output_json['news'] = deduplicate_stories(output_json['news'], similarity_threshold=0.9)
