@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Adyen\u2019s Q3 Payment Volume Rises 30% as Platforms Lead Revenue Growth",
-      "body": "Adyen reported Q3 processed volume of \u20ac451 billion, up 30% year over year, while net revenue rose 23% to \u20ac738 million. Platforms revenue grew 46%, ahead of Unified Commerce at 29% and Digital at 16%. Management attributed growth to increased payment volumes from existing merchants, new enterprise customers and acquisitions. Orb customers have begun moving payments to Adyen, extending the acquisition into payment processing relationships.",
+      "title": "FCA Settlement Ends HTX\u2019s Active UK Business",
+      "body": "The FCA announced an October 29 settlement with Huobi Global S.A., securing High Court undertakings concerning unlawful UK cryptoasset promotions. HTX no longer operates actively in the UK: consumers cannot deposit, new UK users cannot register, and the platform cannot target or solicit UK consumers. The settlement does not constitute an admission of liability or wrongdoing.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/adyen-adds-1100-tech-and-sales-hires-to-capture-growth-opportunities/"
+        "name": "Financial Conduct Authority",
+        "url": "https://www.fca.org.uk/news/press-releases/fca-stops-htxs-crypto-promotions"
       }
     },
     {
-      "title": "Valley Plans One Small-Business Segment With Bluevine",
-      "body": "Valley plans to combine Bluevine and its existing small-business banking business into one segment rather than maintain separate traditional and digital businesses. Executives outlined the approach following September\u2019s announcement of the $340 million cash-and-stock acquisition. Bluevine brings 175,000 active small-business clients and $2.1 billion in deposits. Valley says the acquisition would increase its small-business customer base twentyfold and give the bank national digital distribution.",
+      "title": "PhotonPay Raises $40 Million for Stablecoin-Centered Financial Infrastructure",
+      "body": "Blockchain Capital led PhotonPay\u2019s $40 million Series C, with SBI Group joining as a new investor. PhotonPay says it will use the funding to expand local clearing, global card issuing, embedded finance and automated execution capabilities within its stablecoin-centered financial platform.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48671/photonpay-raises-40m-for-stablecoin-centric-financial-os"
+      }
+    },
+    {
+      "title": "Monzo Launches in Spain, Its First Continental European Market",
+      "body": "Spain marks Monzo\u2019s first market launch in continental Europe, extending the bank\u2019s geographic footprint. The launch brings Monzo into competition for Spanish customers\u2019 accounts and everyday banking activity; the supplied coverage does not quantify funded accounts, salary deposits or payment usage.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48665/monzo-launches-in-spain"
+      }
+    },
+    {
+      "title": "Wealthsimple Raises $302 Million as Checking Openings Surpass Investing",
+      "body": "Wealthsimple raised US$302 million at a US$9.8 billion valuation. The company said new checking-account openings exceeded new investment-account openings for the first time in the second quarter, marking a shift in account acquisition beyond its original investment offering. The figures do not establish how many customers use Wealthsimple as their primary bank.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/investments/2026/wealthsimple-raises-302-million-for-financial-platform/"
+      }
+    },
+    {
+      "title": "Galaxy Applies for Federal Trust Charter Without Deposit-Taking Powers",
+      "body": "Galaxy Digital applied to the OCC for a national trust bank charter to bring digital-asset custody, trading, staking and fiduciary investment advisory services under a single federal framework. The proposed structure builds on more than 50 existing licences. Galaxy still needs OCC approval, and the charter would not permit deposit-taking or commercial lending.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/bluevine-valley-bank-execs-talk-integration-approach/873084/"
-      }
-    },
-    {
-      "title": "RBC Blocks Personal AI Agents From Direct Online Banking Access",
-      "body": "Customers who connect external personal AI assistants directly to RBC\u2019s authenticated digital properties will lose that access. RBC told customers it would block third-party personal AI agents from those properties, including online banking, and stop existing connections. The restriction targets authenticated website access; it does not establish a blanket ban on third-party financial-data access or API integrations.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/rbc-blocks-third-party-personal-ai-agents-over-fraud-risks/"
-      }
-    },
-    {
-      "title": "Monzo Launches Spanish Accounts With Local IBANs and Bizum",
-      "body": "Monzo launched in Spain with Spanish IBANs and Bizum integration, allowing customers to apply for personal, joint, under-18, business and instant-access savings accounts. The expansion follows its European banking licence from the Central Bank of Ireland in 2025. Local account identifiers and Bizum give Spanish consumers and businesses domestic account and payment functionality; the launch reporting did not disclose customer acquisition or deposit balances.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/monzo-expands-eu-banking-footprint-with-spain-launch/"
-      }
-    },
-    {
-      "title": "Happen Grows Deposits 22% as Loan Issuance Through Its App Doubles",
-      "body": "Happen, formerly LendingClub, reported Q3 deposits of $11.5 billion, up 22% year over year, and loan originations of $3.3 billion, up 26%. Loan issuance through its app doubled, while the number of active borrowers holding deposit accounts tripled. Management also plans to reduce thinner-margin auto refinancing and reprice loans where possible, with Q4 originations guidance of $3.1\u2013$3.2 billion.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/happen-doubles-loan-issuance-through-app-as-deposits-grow-22percent/"
+        "url": "https://www.bankingdive.com/news/galaxy-digital-applies-occ-national-trust-bank-charter/873209/"
       }
     }
   ],
-  "perspective": "Adyen\u2019s payment growth and RBC\u2019s AI access restrictions accompany bank acquisitions, domestic payment launches and expanding borrower deposit relationships.",
+  "perspective": "Monzo\u2019s Spain launch and Wealthsimple\u2019s shift toward checking highlight expansion in everyday banking alongside funding and regulatory developments in digital assets.",
   "curiosity": {
-    "text": "Under the Fair Credit Billing Act\u2019s billing-error procedure, consumers generally must send a written dispute within 60 days after the creditor sends the first statement containing the error\u2014even if they already disputed it by phone. The FTC advises sending the letter to the creditor\u2019s billing-inquiries address, which may differ from its payment address. Source: Federal Trade Commission, \u201cDisputing Credit Card Charges\u201d \u2014 https://consumer.ftc.gov/articles/disputing-credit-card-charges"
+    "text": "Singapore launched PayNow domestically in 2017. Singapore and Thailand linked PayNow and PromptPay in 2021, allowing users to send money between the countries using recipients\u2019 mobile numbers rather than bank-account details. Source: Monetary Authority of Singapore, \u201cPayNow\u201d \u2014 https://www.mas.gov.sg/development/fintech/paynow"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
+      "flag": "\ud83c\udded\ud83c\uddf0",
       "type": "fundraising",
-      "company": "Wealthsimple",
-      "description": "Raises C$425 million at C$13.8 billion valuation to expand its financial platform.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/wealthsimple-raises-302-million-for-financial-platform/"
+      "company": "PhotonPay",
+      "description": "Raises $40 million Series C led by Blockchain Capital, with SBI joining.",
+      "source_url": "https://www.photonpay.com/en/news"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Casap",
-      "description": "Raises $56 million Series B led by Base10, with Experian and Synchrony participating.",
-      "source_url": "https://www.finextra.com/pressarticle/111485/ai-powered-payment-dispute-platform-casap-raises-56m"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Hummingbird",
-      "description": "Acquires Quantimon, adding machine-learning AML detection and federated learning capabilities.",
-      "source_url": "https://www.pymnts.com/legal/aml/2026/hummingbird-buys-quantimon-to-prioritize-high-risk-aml-alerts/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "PNC Bank / ADP",
-      "description": "Announces embedded payroll and HR capabilities within PNC\u2019s small-business digital banking platform.",
-      "source_url": "https://www.pymnts.com/back-office/payroll/2026/pnc-bank-to-expand-small-business-offerings-with-embedded-adp-payroll/"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Monzo",
+      "description": "Launches Spanish banking accounts with local IBANs and Bizum integration.",
+      "source_url": "https://www.pymnts.com/news/banking/2026/monzo-expands-eu-banking-footprint-with-spain-launch/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
       "company": "Stripe",
-      "description": "Introduces free instant B2B transfers between eligible financial accounts using Stripe handles.",
+      "description": "Introduces free instant B2B transfers between eligible Stripe financial accounts.",
       "source_url": "https://www.pymnts.com/news/b2b-payments/2026/stripe-pay-targets-instant-b2b-payments/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "UMB Financial",
+      "description": "Agrees to acquire El Dorado Savings Bank for $506 million.",
+      "source_url": "https://www.bankingdive.com/news/umb-buy-california-bank-el-dorado-506-million-kemper-acquisitions/873021/"
     }
   ]
 }
