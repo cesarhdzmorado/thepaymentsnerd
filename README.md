@@ -199,6 +199,8 @@ thepaymentsnerd/
 
 ## Documentation
 
+- [Theme Compiler](docs/THEME_COMPILER.md) — governed, recursive market-theme discovery and weekly config proposals.
+
 - **[SETUP.md](docs/SETUP.md)** - Environment setup, API keys, DNS configuration
 - **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - System design, data flow, component details
 - **[EMAIL_SYSTEM.md](docs/EMAIL_SYSTEM.md)** - Email delivery, authentication, compliance

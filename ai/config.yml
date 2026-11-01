@@ -115,6 +115,15 @@ trend_radar:
   review_frequency: monthly
   weight_semantics: "structural editorial importance, not story quotas"
 
+theme_compiler:
+  evidence_lookback_days: 90
+  momentum_window_days: 7
+  structural_review_frequency: monthly
+  proposal_frequency: weekly
+  max_proposals_per_run: 3
+  minimum_independent_events: 2
+  policy: "Automation may refresh dynamic state and propose taxonomy changes; structural changes require human approval."
+
 current_trends:
   - name: "Stablecoins, Tokenized Money & Settlement"
     weight: 8

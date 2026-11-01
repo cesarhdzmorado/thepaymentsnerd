@@ -1,9 +1,13 @@
 # ai/src/main.py
 
-# This is the system-level hack for sqlite3
-__import__('pysqlite3')
+# Prefer the bundled newer SQLite on Linux; local macOS development can use the
+# standard library implementation because the theme compiler does not need Chroma.
 import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+try:
+    __import__('pysqlite3')
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass
 
 import yaml
 import json
@@ -16,6 +20,12 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from supabase import create_client
 
 from .model_runtime import ModelRuntime
+from .evidence_collector import clear_observations, get_observations
+from .theme_intelligence import (
+    build_evidence_records,
+    persist_evidence_records,
+    write_evidence_artifact,
+)
 
 # Import our custom tools
 from .tools import (
@@ -397,19 +407,30 @@ def format_trends_for_prompt(trends):
     if not trends:
         return "No specific trends configured."
 
-    # Sort by weight (descending) to prioritize most important trends
-    sorted_trends = sorted(trends, key=lambda x: x.get('weight', 0), reverse=True)
+    # Structural importance moves slowly; the compiler's effective priority adds
+    # current market momentum without rewriting that structural judgment.
+    sorted_trends = sorted(
+        trends,
+        key=lambda x: x.get('effective_priority', x.get('weight', 0)),
+        reverse=True,
+    )
 
     formatted = []
     for i, trend in enumerate(sorted_trends, 1):
         name = trend.get('name', 'Unnamed Trend')
         weight = trend.get('weight', 0)
+        momentum = trend.get('momentum')
+        confidence = trend.get('confidence')
+        effective_priority = trend.get('effective_priority', weight)
         description = trend.get('description', '')
         signals = trend.get('signals', [])
         companies = trend.get('companies_to_watch', [])
         watch_for = trend.get('watch_for', '')
 
-        trend_text = f"{i}. **{name}** (Structural importance: {weight}/10)\n"
+        trend_text = f"{i}. **{name}** (Structural importance: {weight}/10; Effective priority: {effective_priority}/10"
+        if momentum is not None and confidence is not None:
+            trend_text += f"; Momentum: {momentum}/100; Evidence confidence: {confidence}/100"
+        trend_text += ")\n"
         trend_text += f"   {description}\n"
 
         if signals:
@@ -456,6 +477,7 @@ def format_narrative_context(recent_data):
 def main():
     """The main function that runs the agent-based workflow."""
     load_dotenv()
+    clear_observations()
 
     # 1. Load Configuration from the YAML file
     with open('ai/config.yml', 'r') as file:
@@ -1376,6 +1398,24 @@ Revision rules:
             curiosity_history,
         )
         save_local_curiosity_history(updated_curiosity_history, limit=365)
+
+        evidence_records = build_evidence_records(
+            get_observations(),
+            config,
+            researched_candidates=canonical_stories,
+            published_news=output_json.get("news", []),
+        )
+        evidence_path = write_evidence_artifact(
+            evidence_records, "ai/output/theme_evidence.json"
+        )
+        persisted = persist_evidence_records(
+            evidence_records,
+            strict=os.getenv("TPN_EVIDENCE_STRICT", "").lower() in {"1", "true", "yes"},
+        )
+        print(
+            f"THEME_EVIDENCE captured={len(evidence_records)} "
+            f"persisted={persisted} artifact={evidence_path}"
+        )
 
         print(f"\n--- Newsletter successfully saved to {output_path} ---")
         print("Final JSON output:")

@@ -72,14 +72,29 @@ jobs:
           echo "File size: $(wc -c < web/public/newsletter.json) bytes"
           echo "Preview: $(head -c 200 web/public/newsletter.json)..."
 
+      - name: Encrypt private theme evidence
+        if: always()
+        env:
+          TPN_EVIDENCE_ARCHIVE_KEY: ${{ secrets.TPN_EVIDENCE_ARCHIVE_KEY }}
+        run: |
+          if [ -f ai/output/theme_evidence.json ]; then
+            test -n "$TPN_EVIDENCE_ARCHIVE_KEY"
+            openssl enc -aes-256-cbc -pbkdf2 -salt \
+              -in ai/output/theme_evidence.json \
+              -out ai/output/theme_evidence.json.enc \
+              -pass env:TPN_EVIDENCE_ARCHIVE_KEY
+          fi
+
       - name: Upload model usage evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: daily-model-usage-${{ github.run_id }}
-          path: ai/output/model_usage.json
+          path: |
+            ai/output/model_usage.json
+            ai/output/theme_evidence.json.enc
           if-no-files-found: warn
-          retention-days: 30
+          retention-days: 90
 
       # =======================================================
       # STEP 2: COMMIT AND PUSH THE NEW FILE
