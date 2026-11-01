@@ -10,9 +10,10 @@ from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
-from duckduckgo_search import DDGS
 import feedparser
 from openai import OpenAI
+
+from .evidence_collector import record_rss_entries
 
 # Retry configuration
 MAX_RETRIES = 3
@@ -22,6 +23,10 @@ RETRY_DELAY = 2  # seconds
 def search_tool(query: str) -> str:
     """Performs a web search to find relevant URLs."""
     try:
+        # Lazy import keeps deterministic tests and non-search compiler jobs free
+        # from the platform-specific browser-impersonation dependency.
+        from duckduckgo_search import DDGS
+
         cached = _get_cached(("search", query))
         if cached is not None:
             return cached
@@ -87,6 +92,12 @@ def rss_tool(rss_feed_url: str) -> str:
             entries = _filter_recent_entries(feed.entries, hours=48)[:15]
             if not entries:
                 return f"No recent articles found in {rss_feed_url}"
+
+            record_rss_entries(
+                rss_feed_url,
+                entries,
+                feed_title=str(feed.feed.get("title", "") or ""),
+            )
 
             summaries = [
                 # Truncate summary to 1000 chars to prevent runaway RSS feeds that include full article text

@@ -1,0 +1,103 @@
+name: Weekly Theme Compiler
+
+on:
+  schedule:
+    - cron: "0 7 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-theme-compiler
+  cancel-in-progress: false
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r ai/requirements.txt
+
+      - name: Download retained daily evidence artifacts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TPN_EVIDENCE_ARCHIVE_KEY: ${{ secrets.TPN_EVIDENCE_ARCHIVE_KEY }}
+        run: |
+          mkdir -p ai/output/evidence-history
+          gh api --paginate "/repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" \
+            --jq '.artifacts[] | select(.expired == false) | select(.name | startswith("daily-model-usage-")) | .id' \
+            | head -90 \
+            | while read -r artifact_id; do
+                archive="/tmp/theme-evidence-${artifact_id}.zip"
+                gh api "/repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}/zip" > "$archive"
+                encrypted="/tmp/theme-evidence-${artifact_id}.enc"
+                if unzip -p "$archive" '*theme_evidence.json.enc' > "$encrypted" 2>/dev/null; then
+                  openssl enc -d -aes-256-cbc -pbkdf2 \
+                    -in "$encrypted" \
+                    -out "ai/output/evidence-history/${artifact_id}.json" \
+                    -pass env:TPN_EVIDENCE_ARCHIVE_KEY
+                  test -s "ai/output/evidence-history/${artifact_id}.json" || rm "ai/output/evidence-history/${artifact_id}.json"
+                fi
+              done
+          echo "Evidence batches: $(find ai/output/evidence-history -name '*.json' | wc -l)"
+
+      - name: Compile and critique proposed taxonomy
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          mapfile -t evidence_files < <(find ai/output/evidence-history -name '*.json' -type f | sort)
+          evidence_args=()
+          for evidence_file in "${evidence_files[@]}"; do
+            evidence_args+=(--evidence-file "$evidence_file")
+          done
+          python -m ai.scripts.theme_compiler \
+            --with-model \
+            "${evidence_args[@]}" \
+            --write-config ai/output/theme-compiler/proposed-config.yml
+
+      - name: Install proposed config and validate
+        run: |
+          cp ai/output/theme-compiler/proposed-config.yml ai/config.yml
+          python -m unittest discover -s ai/tests -v
+          python ai/scripts/trend_diff.py --old git:main --new ai/config.yml --days 90 \
+            | tee ai/output/theme-compiler/historical-trend-diff.md
+
+      - name: Append historical backtest to review
+        run: |
+          printf '\n## Repository historical trend diff\n\n```text\n' >> ai/output/theme-compiler/review.md
+          cat ai/output/theme-compiler/historical-trend-diff.md >> ai/output/theme-compiler/review.md
+          printf '\n```\n' >> ai/output/theme-compiler/review.md
+
+      - name: Upload compiler evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: theme-compiler-${{ github.run_id }}
+          path: ai/output/theme-compiler/
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Open or update human-approval PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/theme-compiler
+          delete-branch: true
+          commit-message: "chore: compile weekly payments themes"
+          title: "Theme compiler: weekly evidence review"
+          body-path: ai/output/theme-compiler/review.md
+          add-paths: ai/config.yml
+          labels: human-approval-required
+          draft: true

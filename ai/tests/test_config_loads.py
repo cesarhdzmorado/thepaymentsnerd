@@ -5,6 +5,8 @@ from pathlib import Path
 
 import yaml
 
+from ai.src.main import format_trends_for_prompt
+
 CONFIG_PATH = Path(__file__).resolve().parents[2] / "ai" / "config.yml"
 
 REQUIRED_TREND_FIELDS = {
@@ -89,6 +91,31 @@ class TestConfigLoads(unittest.TestCase):
 
     def test_at_least_one_trend(self):
         self.assertGreater(len(self.trends), 0, "current_trends must not be empty")
+
+    def test_theme_compiler_policy_is_configured(self):
+        compiler = self.config.get("theme_compiler", {})
+        self.assertEqual(compiler.get("proposal_frequency"), "weekly")
+        self.assertEqual(compiler.get("structural_review_frequency"), "monthly")
+        self.assertLessEqual(compiler.get("max_proposals_per_run", 99), 3)
+
+    def test_dynamic_theme_state_is_bounded_when_present(self):
+        for trend in self.trends:
+            for field in ("momentum", "confidence"):
+                if field in trend:
+                    self.assertGreaterEqual(trend[field], 0)
+                    self.assertLessEqual(trend[field], 100)
+            if "effective_priority" in trend:
+                self.assertGreaterEqual(trend["effective_priority"], 1)
+                self.assertLessEqual(trend["effective_priority"], 10)
+
+    def test_rendered_prompt_exposes_dynamic_state_when_present(self):
+        sample = dict(self.trends[0])
+        sample.update({"momentum": 81, "confidence": 72, "effective_priority": 9})
+        rendered = format_trends_for_prompt([sample])
+        self.assertIn("Structural importance:", rendered)
+        self.assertIn("Effective priority: 9/10", rendered)
+        self.assertIn("Momentum: 81/100", rendered)
+        self.assertIn("Evidence confidence: 72/100", rendered)
 
     def test_every_trend_has_required_fields(self):
         for i, trend in enumerate(self.trends):
