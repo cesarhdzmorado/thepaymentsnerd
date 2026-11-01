@@ -1,85 +1,64 @@
 {
   "news": [
     {
-      "title": "ECB Selects Connectivity Providers for Digital-Euro Infrastructure",
-      "body": "The ECB has selected two network service providers to connect payment service providers and national central banks to the digital-euro service platform, according to Finextra. The procurement defines a connectivity layer for participating institutions, rather than merchant acceptance or consumer distribution. It does not constitute a decision to issue a digital euro or establish a public launch date.",
+      "title": "LTVCo-Led Investors Acquire Kipp Ahead of US Expansion",
+      "body": "An investor group led by LTVCo acquired Kipp ahead of a planned US expansion, Finextra reported. Kipp connects card issuers and merchants to support additional transaction approvals. The report did not disclose the acquisition price, customer scale or measured authorization improvements, leaving the commercial results of the expansion to future deployments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48678/ecb-picks-digital-euro-network-service-providers"
+        "url": "https://www.finextra.com/newsarticle/48679/kipp-acquired-by-ltvco-led-investor-group-for-us-push"
       }
     },
     {
-      "title": "Warren Requests Criminal Investigation Into Bank of America\u2019s AML Failures",
-      "body": "Senator Elizabeth Warren asked the Justice Department to investigate Bank of America\u2019s anti-money-laundering failures and prosecute if warranted, requesting a response by November 12. The underlying enforcement concerns include foreign correspondent-account due diligence and suspicious-activity reporting\u2014controls that govern how the bank assesses counterparties and reports suspicious transactions. Warren\u2019s request does not establish that the DOJ has opened a criminal investigation or filed charges.",
+      "title": "Ripple Reports Final Trust-Bank Approval; RLUSD Issuance Stays With Standard Custody",
+      "body": "PYMNTS reported that Ripple announced final OCC approval for Ripple National Trust Bank on October 26. That reported authorization is distinct from the commencement of banking operations, which the supplied reporting does not establish. Standard Custody & Trust Company remains the RLUSD issuer; the approval does not itself transfer issuance to the national trust bank.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/warren-urges-doj-probe-bofa-aml-issues-blanche/873326/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/ripple-moves-deeper-into-banking-with-stablecoin-deals/"
       }
     },
     {
-      "title": "Bank of England Consults on Tokenized Collateral in Central Clearing",
-      "body": "Central counterparties could gain a route to accepting tokenized versions of otherwise eligible collateral under a Bank of England consultation reported by Finextra. The distinction concerns how eligible assets are represented, not blanket eligibility for cryptoassets or privately issued stablecoins. For clearing members and custodians, the proposal connects tokenization with existing collateral-management processes; it does not establish lower margin requirements or production adoption.",
+      "title": "Toast Lawsuit Challenges Merchant Billing, Cancellation and Financing Terms",
+      "body": "The FTC, seven state attorneys general and authorities representing Los Angeles County and San Francisco sued Toast over alleged unauthorized optional-service charges, inadequate fee disclosures, cancellation obstacles and financing repayment requirements. The reported complaint includes requirements that some merchants immediately repay outstanding financing when they leave, directly connecting processor switching with loan obligations. Toast reportedly intends to defend itself; the allegations are not adjudicated findings.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48670/bofe-consults-on-tokenised-collateral-in-central-clearing"
+        "name": "Competition Policy International / PYMNTS",
+        "url": "https://www.pymnts.com/cpi-posts/toast-faces-ftc-lawsuit-over-alleged-hidden-fees-and-subscription-practices/"
       }
     },
     {
-      "title": "Uzbekistan Announces Apple Pay and Google Pay Availability",
-      "body": "Uzbekistan has announced the arrival of Apple Pay and Google Pay in its banking system, according to Finextra. The wallets add a distribution channel for eligible payment credentials and a way for cardholders to pay at merchants with compatible contactless acceptance. The available reporting does not identify participating issuers, eligible card portfolios or provisioning dates, so the announcement does not establish availability across all Uzbek banks.",
+      "title": "Coinbase Services Account for 49% of Q3 2026 Net Revenue",
+      "body": "For the third quarter of 2026, Coinbase reported $570 million in subscription and services revenue, up 3% quarter over quarter and accounting for 49% of net revenue, versus 41% a year earlier. Transaction revenue totaled approximately $590 million; executives attributed 25% of that segment to prediction markets and derivatives. The larger services share reduces dependence on transaction fees, not necessarily exposure to crypto-market activity: services include stablecoin revenue, blockchain rewards, interest and financing income, rather than payments alone.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48676/apple-pay-and-google-pay-launch-in-uzbekistan"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/coinbase-cuts-trading-reliance-as-subscription-and-services-revenue-nears-50/"
       }
     },
     {
-      "title": "CIBC Combines Thought Machine Adoption With \u00a330 Million Investment",
-      "body": "CIBC has selected Thought Machine as a core-banking supplier, and Finextra identifies the bank as the institution behind a previously announced \u00a330 million investment. The relationship combines a banking-client commitment with financial backing, giving Thought Machine both a major-bank customer and capital. The disclosed scope stops short of naming covered products or migrated account volumes; it does not establish an enterprise-wide replacement of CIBC\u2019s core or measured operating savings.",
+      "title": "CD&R Reportedly Targets Global Payments Buyout",
+      "body": "Finextra, citing the Financial Times, reported that CD&R is targeting a buyout of Global Payments, which carries approximately $40 billion in enterprise value. That figure is not an offer price, and the report establishes neither a signed agreement nor committed financing or a closing timetable. The potential ownership change does not establish any change to merchant pricing, processing services or distribution contracts.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48668/cibc-rolls-out-thought-machine-core-platform"
+        "url": "https://www.finextra.com/newsarticle/48681/pe-firm-cdr-targets-buyout-of-40bn-global-payments---ft"
       }
     }
   ],
-  "perspective": "The ECB\u2019s digital-euro procurement and CIBC\u2019s core-banking investment accompany developments in financial-crime enforcement, tokenized collateral and mobile-wallet access.",
+  "perspective": "Toast\u2019s billing lawsuit and Kipp\u2019s acquisition highlight two sides of merchant payments: contractual costs and card acceptance.",
   "curiosity": {
-    "text": "Hong Kong launched the Octopus card in 1997 for public-transport payments before expanding its use to shops and other everyday purchases. Octopus is the English brand; \u516b\u9054\u901a is its Chinese name. Source: Octopus, \u201cOur History\u201d \u2014 https://www.octopus.com.hk/en/consumer/about-us/history/index.html"
+    "text": "The U.S. Treasury launched the Electronic Federal Tax Payment System (EFTPS) in 1996, allowing taxpayers to pay federal taxes electronically. Source: IRS, 1996 IRS Data Book \u2014 https://www.irs.gov/statistics/soi-tax-stats-irs-data-book-1996"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udded\ud83c\uddf0",
-      "type": "fundraising",
-      "company": "PhotonPay",
-      "description": "Raised $40 million Series C led by Blockchain Capital, with SBI joining.",
-      "source_url": "https://www.photonpay.com/en/news"
-    },
-    {
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "type": "M&A",
-      "company": "Kipp",
-      "description": "Acquired by an LTVCo-led investor group ahead of a US expansion.",
-      "source_url": "https://www.finextra.com/newsarticle/48679/kipp-acquired-by-ltvco-led-investor-group-for-us-push"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Apple / Google",
+      "description": "Apple Pay and Google Pay enter Uzbekistan; participating-bank coverage requires confirmation.",
+      "source_url": "https://www.finextra.com/newsarticle/48676/apple-pay-and-google-pay-launch-in-uzbekistan"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Kalshi",
-      "description": "Raised $1 billion Series G at $40 billion valuation, co-led by Wellington and Sequoia.",
-      "source_url": "https://www.finextra.com/newsarticle/48673/kalshi-valuation-jumps-to-40-billion-on-latest-raise"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "product",
-      "company": "Mollie",
-      "description": "Introduced ChatGPT and Claude integrations for businesses\u2019 daily financial operations.",
-      "source_url": "https://www.finextra.com/pressarticle/111506/mollie-introduces-chatgpt-and-claude-integrations"
-    },
-    {
-      "flag": "",
-      "type": "product",
-      "company": "Neonomics",
-      "description": "Integrated Movitz verification-of-payee technology into Nello Pay in Finland.",
-      "source_url": "https://www.finextra.com/pressarticle/111501/neonomics-and-movitz-payments-strengthen-pay-by-bank-security"
+      "company": "ACI Worldwide / Circle",
+      "description": "Colombia pilot demonstrates USDC settlement alongside existing payment operations.",
+      "source_url": "https://www.finextra.com/pressarticle/111519/aci-worldwide-and-circle-collaborate-on-latam-payments"
     }
   ]
 }
