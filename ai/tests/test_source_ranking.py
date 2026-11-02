@@ -1,11 +1,14 @@
 import sys
+import time
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.tools import (
+    _filter_recent_entries,
     consolidate_story_sources,
+    freshness_output_errors,
     is_priority_operational_incident,
     is_generic_source_url,
     rank_stories_for_selection,
@@ -228,6 +231,108 @@ class TestSourceRanking(unittest.TestCase):
         self.assertEqual(stories[0]["source_name"], "Financial Times")
         self.assertEqual(stories[0]["title"], self.ft["title"])
         self.assertIn("OFAC", stories[0]["body"])
+
+    def test_fresh_follow_up_outranks_older_official_background(self):
+        story = {
+            "title": "Warren requests criminal investigation of BofA after AML resolutions",
+            "body": "Warren asked DOJ on October 30 to investigate Bank of America.",
+            "source_name": "FinCEN",
+            "source_url": "https://www.fincen.gov/news/news-releases/bofa-penalty",
+            "event_date": "2026-10-30",
+            "source_published_at": "2026-10-13",
+            "final_score": 27,
+            "source_candidates": [
+                {
+                    "name": "FinCEN",
+                    "url": "https://www.fincen.gov/news/news-releases/bofa-penalty",
+                    "published_at": "2026-10-13",
+                    "title": "FinCEN assesses penalty against Bank of America",
+                    "summary": "FinCEN announced the original enforcement action.",
+                },
+                {
+                    "name": "Banking Dive",
+                    "url": "https://www.bankingdive.com/news/warren-probe-bofa/873326/",
+                    "published_at": "2026-10-30",
+                    "title": "Warren urges DOJ to probe BofA's AML issues",
+                    "summary": "Warren asked DOJ to investigate and set a November deadline.",
+                },
+            ],
+        }
+
+        stories, decisions = consolidate_story_sources([story])
+
+        self.assertEqual(len(stories), 1)
+        self.assertEqual(stories[0]["source_name"], "Banking Dive")
+        self.assertEqual(stories[0]["source_published_at"], "2026-10-30")
+        self.assertEqual(decisions[0]["selected"]["name"], "Banking Dive")
+
+    def test_different_dated_follow_up_is_not_same_event(self):
+        original = dict(
+            self.ft,
+            event_date="2026-10-13",
+            source_published_at="2026-10-13",
+        )
+        follow_up = {
+            "title": "Warren asks DOJ to investigate Bank of America AML failures",
+            "body": "Warren sought a criminal investigation of the BofA enforcement case.",
+            "source_name": "Banking Dive",
+            "source_url": "https://www.bankingdive.com/news/warren-probe-bofa/873326/",
+            "event_date": "2026-10-30",
+            "source_published_at": "2026-10-30",
+        }
+
+        stories, _ = consolidate_story_sources([original, follow_up])
+
+        self.assertEqual(len(stories), 2)
+
+    def test_release_gate_blocks_old_background_for_fresh_hook(self):
+        canonical = [{
+            "title": "Warren requests criminal investigation",
+            "source_name": "FinCEN",
+            "source_url": "https://www.fincen.gov/news/news-releases/bofa-penalty",
+            "event_date": "2026-10-30",
+            "source_published_at": "2026-10-13",
+        }]
+        published = [{
+            "title": "FinCEN assesses BofA penalty",
+            "body": "FinCEN announced the penalty on October 13.",
+            "source": {
+                "name": "FinCEN",
+                "url": canonical[0]["source_url"],
+            },
+        }]
+
+        errors = freshness_output_errors(published, canonical, "2026-11-02")
+
+        self.assertTrue(errors)
+        self.assertIn("predates the news hook", errors[0])
+
+    def test_release_gate_allows_weekend_fresh_follow_up(self):
+        canonical = [{
+            "title": "Warren requests criminal investigation",
+            "source_name": "Banking Dive",
+            "source_url": "https://www.bankingdive.com/news/warren-probe-bofa/873326/",
+            "event_date": "2026-10-30",
+            "source_published_at": "2026-10-30",
+        }]
+        published = [{
+            "title": canonical[0]["title"],
+            "body": "Warren asked DOJ to investigate the bank.",
+            "source": {
+                "name": "Banking Dive",
+                "url": canonical[0]["source_url"],
+            },
+        }]
+
+        self.assertEqual(
+            freshness_output_errors(published, canonical, "2026-11-02"),
+            [],
+        )
+
+    def test_rss_filter_does_not_fall_back_to_stale_entries(self):
+        stale = {"published_parsed": time.gmtime(time.time() - 72 * 60 * 60)}
+
+        self.assertEqual(_filter_recent_entries([stale], hours=48), [])
 
     def test_release_gate_rejects_writer_source_substitution(self):
         canonical, _ = consolidate_story_sources([self.banking_dive, self.ft])

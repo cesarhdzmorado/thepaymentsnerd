@@ -5,6 +5,8 @@ from langchain_core.tools import tool
 import time
 import os
 import re
+from datetime import date, datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from typing import Dict, Tuple, List, Set, Optional
 from urllib.parse import urlparse
 
@@ -102,7 +104,10 @@ def rss_tool(rss_feed_url: str) -> str:
             summaries = [
                 # Truncate summary to 1000 chars to prevent runaway RSS feeds that include full article text
                 # This prevents token overflow while preserving key information
-                f"Title: {e.get('title', 'N/A')}\nLink: {e.get('link', 'N/A')}\nSummary: {BeautifulSoup(e.get('summary', ''), 'lxml').get_text(strip=True)[:1000]}"
+                f"Title: {e.get('title', 'N/A')}\n"
+                f"Link: {e.get('link', 'N/A')}\n"
+                f"Published: {e.get('published', e.get('updated', 'N/A'))}\n"
+                f"Summary: {BeautifulSoup(e.get('summary', ''), 'lxml').get_text(strip=True)[:1000]}"
                 for e in entries
             ]
             output = "\n\n".join(summaries)
@@ -176,7 +181,43 @@ def _filter_recent_entries(entries, hours: int) -> list:
             published_ts = time.mktime(published)
             if published_ts >= cutoff:
                 recent.append(entry)
-    return recent or list(entries)
+    return recent
+
+
+def _parse_story_date(value) -> Optional[datetime]:
+    """Parse normalized story dates plus common RSS/HTTP date strings."""
+    if not value:
+        return None
+    if isinstance(value, datetime):
+        parsed = value
+    elif isinstance(value, date):
+        parsed = datetime.combine(value, datetime.min.time())
+    else:
+        raw = str(value).strip()
+        if not raw:
+            return None
+        parsed = None
+        for candidate in (raw, raw.replace("Z", "+00:00")):
+            try:
+                parsed = datetime.fromisoformat(candidate)
+                break
+            except ValueError:
+                continue
+        if parsed is None:
+            for date_format in ("%B %d, %Y", "%b %d, %Y"):
+                try:
+                    parsed = datetime.strptime(raw, date_format)
+                    break
+                except ValueError:
+                    continue
+        if parsed is None:
+            try:
+                parsed = parsedate_to_datetime(raw)
+            except (TypeError, ValueError, OverflowError):
+                return None
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
 
 
 def _calculate_similarity(text1: str, text2: str) -> float:
@@ -628,10 +669,20 @@ def _canonical_event_text(story: dict) -> str:
 
 def _same_event(story1: dict, story2: dict) -> bool:
     """Conservatively decide whether two current-run candidates describe the same event."""
+    source_group1 = story1.get("_source_group")
+    source_group2 = story2.get("_source_group")
+    if source_group1 and source_group1 == source_group2:
+        return True
+
     url1 = _normalize_url(_story_source_url(story1))
     url2 = _normalize_url(_story_source_url(story2))
     if url1 and url1 == url2:
         return True
+
+    event_date1 = _parse_story_date(story1.get("event_date"))
+    event_date2 = _parse_story_date(story2.get("event_date"))
+    if event_date1 and event_date2 and abs((event_date1.date() - event_date2.date()).days) > 1:
+        return False
 
     text1 = _canonical_event_text(story1)
     text2 = _canonical_event_text(story2)
@@ -664,20 +715,48 @@ def _candidate_from_source(parent: dict, source: dict) -> dict:
         candidate["title"] = source["title"]
     if source.get("body") or source.get("summary"):
         candidate["body"] = source.get("body", source.get("summary", ""))
+    candidate["source_published_at"] = source.get(
+        "published_at", source.get("publication_date", "")
+    )
     candidate.pop("source_candidates", None)
     return candidate
 
 
+def _event_alignment_bucket(story: dict) -> int:
+    """Prefer sources that actually report the dated event over older background."""
+    event_date = _parse_story_date(story.get("event_date"))
+    source_date = _parse_story_date(
+        story.get("source_published_at", story.get("publication_date"))
+    )
+    if event_date and source_date:
+        lag_days = (event_date.date() - source_date.date()).days
+        return 0 if lag_days <= 1 else 2
+    return 1
+
+
 def _source_sort_key(story: dict, ranking: Optional[dict] = None) -> tuple:
-    """Stable ordering: authority first, then evidence/detail, score and URL."""
+    """Stable ordering: event alignment, then authority, evidence and URL."""
     body = story.get("body", story.get("summary", "")) or ""
     score = float(story.get("final_score", 0) or 0)
     return (
+        _event_alignment_bucket(story),
         source_authority_tier(story, ranking),
         -len(_tokenize_words(body)),
         -score,
         _normalize_url(_story_source_url(story)),
     )
+
+
+def _source_audit_record(story: dict, ranking: Optional[dict] = None) -> dict:
+    record = {
+        "name": story.get("source_name", ""),
+        "url": _story_source_url(story),
+        "tier": source_authority_tier(story, ranking),
+    }
+    published_at = story.get("source_published_at", "")
+    if published_at:
+        record["published_at"] = published_at
+    return record
 
 
 def _headline_money_values(story: dict) -> Set[float]:
@@ -744,11 +823,16 @@ def consolidate_story_sources(stories: list, ranking: Optional[dict] = None) -> 
         return [], []
 
     expanded = []
-    for story in stories:
-        expanded.append(dict(story))
+    for story_index, story in enumerate(stories):
+        source_group = f"story:{story_index}"
+        parent = dict(story)
+        parent["_source_group"] = source_group
+        expanded.append(parent)
         for source in story.get("source_candidates", []) or []:
             if isinstance(source, dict) and source.get("url"):
-                expanded.append(_candidate_from_source(story, source))
+                candidate = _candidate_from_source(story, source)
+                candidate["_source_group"] = source_group
+                expanded.append(candidate)
 
     clusters: List[List[dict]] = []
     for story in expanded:
@@ -778,12 +862,9 @@ def consolidate_story_sources(stories: list, ranking: Optional[dict] = None) -> 
 
         candidates = sorted(unique_by_url.values(), key=lambda item: _source_sort_key(item, ranking))
         winner = dict(candidates[0])
+        winner.pop("_source_group", None)
         winner["source_candidates"] = [
-            {
-                "name": candidate.get("source_name", ""),
-                "url": _story_source_url(candidate),
-                "tier": source_authority_tier(candidate, ranking),
-            }
+            _source_audit_record(candidate, ranking)
             for candidate in candidates
             if _story_source_url(candidate)
         ]
@@ -843,6 +924,59 @@ def validate_canonical_sources(news_items: list, canonical_stories: list) -> Lis
             errors.append(
                 f"Non-canonical source for '{item.get('title', 'Untitled')}': {normalized_url}"
             )
+    return errors
+
+
+def freshness_output_errors(
+    news_items: list,
+    canonical_stories: list,
+    edition_date,
+    max_age_hours: int = 96,
+    max_source_lag_hours: int = 24,
+) -> List[str]:
+    """Block stale hooks and old background promoted as a current source."""
+    edition = _parse_story_date(edition_date)
+    if edition is None:
+        return [f"Unparseable edition date: {edition_date}"]
+
+    canonical_by_url = {
+        _normalize_url(_story_source_url(story)): story
+        for story in canonical_stories or []
+        if _story_source_url(story)
+    }
+    errors = []
+    for item in news_items or []:
+        title = item.get("title", "Untitled")
+        source_url = _normalize_url(_story_source_url(item))
+        candidate = canonical_by_url.get(source_url)
+        if candidate is None:
+            continue
+
+        event_date = _parse_story_date(candidate.get("event_date"))
+        source_date = _parse_story_date(
+            candidate.get("source_published_at", candidate.get("publication_date"))
+        )
+        if event_date is None:
+            errors.append(f"Missing or invalid event date for '{title}'")
+            continue
+        if source_date is None:
+            errors.append(f"Missing or invalid canonical source date for '{title}'")
+            continue
+
+        age_hours = (edition - event_date).total_seconds() / 3600
+        source_lag_hours = (event_date - source_date).total_seconds() / 3600
+        if age_hours > max_age_hours:
+            errors.append(
+                f"Stale event for '{title}': {event_date.date()} is "
+                f"{age_hours:.0f}h before the edition"
+            )
+        if source_lag_hours > max_source_lag_hours:
+            errors.append(
+                f"Canonical source predates the news hook for '{title}': "
+                f"source {source_date.date()}, event {event_date.date()}"
+            )
+        if age_hours < -24 or source_date - edition > timedelta(hours=24):
+            errors.append(f"Future-dated event or source for '{title}'")
     return errors
 
 

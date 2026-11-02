@@ -80,6 +80,14 @@ source_ranking:
         - "crunchbase.com"
   default_tier: 3
 
+# Daily-news freshness is enforced again at the release boundary. Four days
+# covers Friday-to-Monday editions without allowing old background releases to
+# masquerade as the current event. A canonical source may predate the event by
+# at most one day for timezone and embargo differences.
+news_freshness:
+  max_age_hours: 96
+  max_source_lag_hours: 24
+
 # ============================================================================
 # CURRENT INDUSTRY TRENDS
 # ============================================================================
