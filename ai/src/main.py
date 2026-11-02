@@ -35,6 +35,7 @@ from .tools import (
     consolidate_story_sources,
     deduplicate_stories,
     filter_against_history,
+    freshness_output_errors,
     rank_stories_for_selection,
     required_selection_errors,
     source_conflict_errors,
@@ -483,6 +484,9 @@ def main():
     with open('ai/config.yml', 'r') as file:
         config = yaml.safe_load(file)
     model_runtime = ModelRuntime(config)
+    freshness_config = config.get("news_freshness", {})
+    max_age_hours = int(freshness_config.get("max_age_hours", 96))
+    max_source_lag_hours = int(freshness_config.get("max_source_lag_hours", 24))
 
     # Get current date for context
     current_date = datetime.now().strftime("%B %d, %Y")  # e.g., "December 30, 2025"
@@ -563,9 +567,12 @@ RESEARCH FRAMEWORK:
 2. **Story Evaluation** (Signal Scoring):
 
    Before scoring, cluster articles that describe the same underlying event.
+   Define the event by both action and date. A new investigation, court filing,
+   response, launch, outage restoration, or other follow-up is a new event even
+   when it discusses an older announcement.
    Do not let feed order decide which publication becomes the canonical source.
    For each event, retain every source candidate and choose the canonical source
-   using this hierarchy:
+   using this hierarchy, but only among sources that report the same dated event:
    1. Official regulator, court, or company filing
    2. FT / Reuters / Bloomberg / AP / WSJ-tier original reporting
    3. Reputable specialist trade press
@@ -574,6 +581,9 @@ RESEARCH FRAMEWORK:
    Use a lower-ranked source only when it contributes material original facts
    absent from stronger sources. For enforcement stories, cross-check the amount,
    regulator(s), legal action, and affected entity before writing the headline.
+   Never replace the source reporting a fresh development with an older official
+   release used only as background. Keep the fresh source canonical and list the
+   older primary document as supporting evidence.
 
    Score each story using this framework:
 
@@ -668,9 +678,11 @@ RESEARCH FRAMEWORK:
    STORY [N] - [COMPELLING HEADLINE]
 
    Source: [canonical publication name] - [URL]
+   Event date: [YYYY-MM-DD]
+   Source published: [YYYY-MM-DD]
    Source candidates:
-   - [Publication name] | [URL] | [article headline] | [one-sentence factual summary]
-   - [Alternative publication] | [URL] | [article headline] | [one-sentence factual summary]
+   - [Publication name] | [URL] | [YYYY-MM-DD] | [article headline] | [one-sentence factual summary]
+   - [Alternative publication] | [URL] | [YYYY-MM-DD] | [article headline] | [one-sentence factual summary]
 
    WHAT HAPPENED:
    [2-3 sentences with facts and data]
@@ -893,9 +905,11 @@ For each STORY, extract:
 - "body": Combine WHAT HAPPENED + WHO'S AFFECTED + COMPETITIVE DYNAMICS into a coherent summary (2-3 sentences)
 - "source_name": The publication name from "Source: [Name] - [URL]"
 - "source_url": The URL from "Source: [Name] - [URL]"
-- "source_candidates": Every publication, URL, article headline, and factual summary
+- "event_date": The normalized YYYY-MM-DD date from "Event date"
+- "source_published_at": The normalized YYYY-MM-DD date from "Source published"
+- "source_candidates": Every publication, URL, publication date, article headline, and factual summary
   from "Source candidates"; include the canonical source too. Preserve the order
-  emitted by the Researcher. Use keys "name", "url", "title", and "summary".
+  emitted by the Researcher. Use keys "name", "url", "published_at", "title", and "summary".
 - "second_order_effects": The SECOND-ORDER EFFECTS section
 - "base_signal": numeric from SCORECARD
 - "trend_bonus": numeric from SCORECARD
@@ -919,16 +933,20 @@ OUTPUT FORMAT (must be valid JSON):
       "body": "Combined summary of what happened, who's affected, and competitive dynamics.",
       "source_name": "Publication Name",
       "source_url": "https://example.com/article",
+      "event_date": "2026-11-02",
+      "source_published_at": "2026-11-02",
       "source_candidates": [
         {{
           "name": "Publication Name",
           "url": "https://example.com/article",
+          "published_at": "2026-11-02",
           "title": "Original article headline",
           "summary": "One-sentence factual summary from this source."
         }},
         {{
           "name": "Alternative Source",
           "url": "https://example.org/article",
+          "published_at": "2026-11-02",
           "title": "Alternative article headline",
           "summary": "One-sentence factual summary from this source."
         }}
@@ -1236,6 +1254,28 @@ Revision rules:
                     + "\n- ".join(verification_errors)
                 )
 
+            freshness_errors = freshness_output_errors(
+                output_json.get("news", []),
+                canonical_stories,
+                current_date,
+                max_age_hours=max_age_hours,
+                max_source_lag_hours=max_source_lag_hours,
+            )
+            if freshness_errors and writer_attempt == 1:
+                print("⚠️ Writer selected a stale or mis-sourced story; retrying once")
+                writer_payload = (
+                    writer_input
+                    + "\n\nMANDATORY FRESHNESS CORRECTION:\n- "
+                    + "\n- ".join(freshness_errors)
+                    + "\nReturn exactly five stories using current, event-aligned canonical sources."
+                )
+                continue
+            if freshness_errors:
+                raise RuntimeError(
+                    "Release blocked by freshness gate:\n- "
+                    + "\n- ".join(freshness_errors)
+                )
+
             selection_errors = required_selection_errors(
                 output_json.get("news", []), writer_candidates
             )
@@ -1330,8 +1370,18 @@ Revision rules:
                         "keeping the verified Writer draft"
                     )
                 else:
-                    output_json = revised_json
-                    print("✅ Applied one revision pass based on editor feedback")
+                    revision_freshness_errors = freshness_output_errors(
+                        revised_json['news'],
+                        canonical_stories,
+                        current_date,
+                        max_age_hours=max_age_hours,
+                        max_source_lag_hours=max_source_lag_hours,
+                    )
+                    if revision_freshness_errors:
+                        print("⚠️ Revision introduced a freshness error; keeping the Writer draft")
+                    else:
+                        output_json = revised_json
+                        print("✅ Applied one revision pass based on editor feedback")
             else:
                 print("⚠️ Revision pass returned invalid shape/count; keeping original writer output")
         except Exception as e:
@@ -1354,6 +1404,18 @@ Revision rules:
                 if source_errors:
                     raise RuntimeError(
                         "Release blocked by canonical source gate:\n- " + "\n- ".join(source_errors)
+                    )
+                freshness_errors = freshness_output_errors(
+                    output_json['news'],
+                    canonical_stories,
+                    current_date,
+                    max_age_hours=max_age_hours,
+                    max_source_lag_hours=max_source_lag_hours,
+                )
+                if freshness_errors:
+                    raise RuntimeError(
+                        "Release blocked by final freshness gate:\n- "
+                        + "\n- ".join(freshness_errors)
                     )
             selection_errors = required_selection_errors(output_json['news'], writer_candidates)
             if selection_errors:
