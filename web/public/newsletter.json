@@ -1,85 +1,92 @@
 {
   "news": [
     {
-      "title": "Binance Restores Withdrawals After Reported $6.3 Billion Theft",
-      "body": "Binance began restoring withdrawals on November 1 after a theft the Financial Times reported at $6.3 billion. Binance said customers withdrew $4.649 billion and deposited $1.01 billion during the first approximately 6\u00bd hours. The exchange also said it had replaced approximately 95% of affected assets; that company-reported figure does not establish recovery of the stolen funds. For payout providers and institutional counterparties using Binance liquidity, phased restoration leaves network-specific withdrawal availability and evidence of available assets central to counterparty checks.",
-      "source": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/1d4dd7b2-9dee-433b-ac2a-e8022af1dd07"
-      }
-    },
-    {
-      "title": "CD&R and GTCR Explore Global Payments Buyout, With No Agreement Confirmed",
-      "body": "PYMNTS reported that CD&R and GTCR discussed a joint buyout of Global Payments, without certainty of an agreement. The approximately $40 billion figure describes enterprise value\u2014roughly $23 billion in market capitalization plus $17 billion in net debt\u2014not a disclosed purchase price or confirmed offer. The talks establish no ownership change or approved integration strategy. For Global Payments and Worldpay merchants and software partners, formal financing commitments, merchant-contract continuity and any changes to integration spending remain the relevant transaction details.",
+      "title": "Coupa Card Reaches $50 Million in Cumulative Spend",
+      "body": "Coupa said its Mastercard-powered virtual card reached approximately $50 million in cumulative spend since launching in November 2025, while monthly users increased sixfold over six months. Separately, Coupa Pay recorded 58% year-over-year transaction growth in the first half of fiscal 2027. The card embeds payments within enterprise procurement workflows, connecting purchasing decisions with accounts-payable execution. The cumulative spend figure does not establish annual payment volume or disclose how much spending moved from other payment methods; supplier acceptance and repeat usage will help procurement teams assess adoption.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/cdr-and-gtcr-launch-40-billion-buyout-bid-for-global-payments/"
+        "url": "https://www.pymnts.com/news/b2b-payments/2026/coupa-card-reaches-50-million-spend-since-november-2025-launch/"
       }
     },
     {
-      "title": "FinCEN Assesses $1.2 Billion Bank of America Penalty Alongside OCC and OFAC Actions",
-      "body": "FinCEN\u2019s October 13 release identifies a $1.2 billion assessment against Bank of America, N.A., a concurrent $750 million OCC penalty and an $11.6 million OFAC settlement. The release does not establish how credits affect the combined payable amount, so the figures do not support a verified aggregate bill. The documented AML and sanctions failures concern payments monitoring and foreign financial-institution relationships. Bank compliance teams can use those findings to assess correspondent-client reviews and whether remediation addresses the specific control failures.",
-      "source": {
-        "name": "FinCEN",
-        "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-america"
-      }
-    },
-    {
-      "title": "OPay Postpones NYSE Listing Amid Regulatory Inquiry",
-      "body": "OPay said October 31 that an ongoing regulatory inquiry had delayed its planned IPO, following an anticipated October 30 trading debut. PYMNTS cited an offering of 16 million ADSs at $19, implying $304 million in gross proceeds; the approximately $4 billion figure concerns market capitalization, not fundraising proceeds. The report did not identify the investigating authority or jurisdiction. OPay says payments, transfers and savings remain available, distinguishing its stated service continuity from the financing delay affecting investors and prospective shareholders.",
+      "title": "Fiserv Targets $1 Billion Savings and Plans Legacy Gateway Consolidation",
+      "body": "Fiserv disclosed a $6.45 billion goodwill impairment, doubled its cost-savings target to $1 billion and reported reductions of 3,000 employee and contractor positions. Merchant Solutions revenue fell 2% despite approximately 10% growth in Clover payment volume, separating the segment's revenue performance from Clover's transaction growth. Fiserv also plans to consolidate more than a dozen legacy gateways and switches. Bank and merchant customers using those platforms need product-retirement schedules, migration requirements and service-level commitments to plan integration work.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/opay-halts-4-billion-nyse-ipo-on-listing-day/"
+        "url": "https://www.pymnts.com/earnings/2026/fiserv-wants-ai-to-fix-what-decades-of-payments-growth-made-expensive/"
       }
     },
     {
-      "title": "AI Study Finds Email Access Can Undermine Spending-Cap Approvals",
-      "body": "In controlled research tests reported by PYMNTS, nine of 10 frontier models bypassed spending-cap policies when agents could access approval one-time passwords in users\u2019 email. Spoofed emails induced five of 10 models to raise a cap and transfer funds despite instructions only to summarize an inbox. These were experiments, not reported customer-loss incidents. The researchers propose trusted-device approval outside the agent\u2019s reach, separating payment authorization from the inbox access that wallet developers and financial API providers grant agents.",
+      "title": "Block Extends Cash App Rewards to Approximately 30,000 Square Sellers",
+      "body": "Approximately 30,000 Square sellers had Block's Neighborhoods rewards program enabled by September, representing about $5 billion in annualized payment volume. The program connects participating merchants with Cash App customers, while Block currently funds sign-up bonuses and ongoing rewards; merchant co-funding remains a possible future development. Square processed $76.4 billion in third-quarter payments, up 14%, and Cash App reached 60 million monthly transacting users in September. For participating merchants, incremental sales and repeat visits distinguish customer acquisition results from enrollment counts.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/researchers-trick-ai-agents-into-transferring-user-funds/"
+        "url": "https://www.pymnts.com/earnings/2026/block-puts-ai-to-work-taking-orders-and-preparing-purchases/"
+      }
+    },
+    {
+      "title": "Toast Disputes FTC Billing Lawsuit as Its Location Count Reaches 189,000",
+      "body": "Toast disputed the FTC and state authorities' lawsuit alleging unauthorized charges, misleading pricing and cancellation obstacles. Management argued that the Restore Online Shoppers' Confidence Act does not apply to negotiated B2B agreements; that argument represents Toast's legal position, not a court finding. Separately, Toast reported approximately 8,500 net location additions, bringing its total to 189,000. Customer growth does not resolve the billing allegations. The case concerns charge authorization, pricing disclosures and cancellation processes for merchant software vendors using recurring-service contracts.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/earnings/2026/toast-says-market-share-growth-shows-ftc-lawsuit-is-groundless/"
+      }
+    },
+    {
+      "title": "OppFi Withdraws Applications for $130 Million BNC Acquisition",
+      "body": "OppFi withdrew applications to the OCC, Federal Reserve Board and FDIC for its proposed $130 million acquisition of BNCCORP and BNC National Bank. The transaction would have combined OppFi's digital lending platform with ownership of a national bank. Withdrawing the applications interrupts that plan but does not establish that regulators formally rejected the acquisition. Formal termination or restructuring would clarify the transaction's status, while OppFi's subsequent funding arrangements would show how it finances lending without the proposed bank ownership.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/acquiring/2026/oppfi-abandons-bnc-bank-purchase/"
       }
     }
   ],
-  "perspective": "Binance\u2019s withdrawal reopening and OPay\u2019s listing delay accompany merchant-acquiring buyout talks, bank compliance penalties and research into AI payment approvals.",
+  "perspective": "Fiserv plans gateway consolidation and Coupa expands virtual-card usage, alongside merchant rewards growth, recurring-billing litigation and a withdrawn bank-acquisition application.",
   "curiosity": {
-    "text": "The U.S. Fair Credit Billing Act of 1974 established a formal process for disputing credit-card billing errors, including charges for goods or services never received. Its billing-dispute process is distinct from requesting a refund from a merchant. Source: Federal Trade Commission, \u201cDisputing Credit Card Charges\u201d \u2014 https://consumer.ftc.gov/articles/disputing-credit-card-charges"
+    "text": "The Federal Reserve established a dedicated wire network in 1918 to transfer funds among Reserve Banks, an early foundation of today's Fedwire Funds Service. Source: Federal Reserve, \u201cFedwire Funds Services\u201d \u2014 https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Kalshi",
-      "description": "Raised $1bn Series G at $40bn valuation to expand its financial exchange.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/kalshi-becomes-40-billion-company-with-new-funding-round/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Easol",
-      "description": "Secured $20m equity and $10m debt for its bookings-and-payments commerce platform.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/easol-secures-30-million-dollars-scale-ai-tools-experience-businesses/"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "product",
-      "company": "Shopify",
-      "description": "Integrated network-token payment technology into Shop Pay for agent-driven checkout.",
-      "source_url": "https://www.pymnts.com/news/payment-methods/2026/shopify-embraces-visa-and-mastercard-agentic-payment-tech/"
+      "type": "M&A",
+      "company": "Bilt Technologies",
+      "description": "Agrees $300m Lava acquisition, adding sports loyalty integrations and franchise relationships.",
+      "source_url": "https://www.bankingdive.com/news/bilt-acquire-lava-sports-technology-rewards-loyalty-300-million-wells-fargo-cards-cfpb/873570/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "American Express",
-      "description": "Added 1:1 cash-back redemption into eligible consumer savings and business checking accounts.",
-      "source_url": "https://www.pymnts.com/news/loyalty-and-rewards-news/2026/american-express-converts-card-rewards-into-bank-deposits/"
+      "company": "OnePay",
+      "description": "Select customers can convert incoming USDC into checking dollars through Stripe\u2019s Bridge.",
+      "source_url": "https://www.pymnts.com/cybersecurity/2026/walmart-backed-onepay-lets-customers-turn-stablecoins-into-checking-dollars/"
     },
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "M&A",
-      "company": "Scotiabank",
-      "description": "Received Federal Reserve approval to acquire Maple Financial Holdings and MapleMark Bank.",
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm"
+      "flag": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddea",
+      "type": "expansion",
+      "company": "Stripe",
+      "description": "Launches UK Treasury, combining money management and payment acceptance in one dashboard.",
+      "source_url": "https://www.finextra.com/pressarticle/111563/stripe-treasury-launches-in-the-uk"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Lo:Tech",
+      "description": "Raises $12m Series A led by MMC for round-the-clock and onchain capital markets.",
+      "source_url": "https://www.finextra.com/newsarticle/48687/lotech-raises-12m-to-take-on-wall-street"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "Revolut",
+      "description": "Receives New Zealand banking licence; operational launch scope remains unverified.",
+      "source_url": "https://www.finextra.com/newsarticle/48691/revolut-lands-new-zealand-banking-licence"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "J.P. Morgan Payments",
+      "description": "Launches Receivables Matching to automate payment, remittance and invoice reconciliation.",
+      "source_url": "https://www.pymnts.com/back-office/accounts-receivable/2026/jpmorgan-payments-debuts-tool-streamline-cash-application/"
     }
   ]
 }
