@@ -1,92 +1,78 @@
 {
   "news": [
     {
-      "title": "Coupa Card Reaches $50 Million in Cumulative Spend",
-      "body": "Coupa said its Mastercard-powered virtual card reached approximately $50 million in cumulative spend since launching in November 2025, while monthly users increased sixfold over six months. Separately, Coupa Pay recorded 58% year-over-year transaction growth in the first half of fiscal 2027. The card embeds payments within enterprise procurement workflows, connecting purchasing decisions with accounts-payable execution. The cumulative spend figure does not establish annual payment volume or disclose how much spending moved from other payment methods; supplier acceptance and repeat usage will help procurement teams assess adoption.",
+      "title": "Binance Reports 98% Asset Replenishment After $6.34 Billion Theft",
+      "body": "Binance said its October 29 theft followed a campaign beginning in June involving a compromised AI coding-tool installer, a fake recruitment assignment and stolen deployment credentials. In its November 3 report, the exchange said it had replenished 98% of affected token assets and frozen or intercepted approximately $2.85 billion of the $6.34 billion affected. These company-reported figures do not represent independently audited recoveries: replenishment includes replacement assets funded by Binance, while freezing or interception does not establish their return to customers. Binance restored withdrawals in phases.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/b2b-payments/2026/coupa-card-reaches-50-million-spend-since-november-2025-launch/"
+        "url": "https://www.pymnts.com/cybersecurity/2026/binance-reports-hackers-infiltrated-systems-months-before-stealing-6-billion-dollars/"
       }
     },
     {
-      "title": "Fiserv Targets $1 Billion Savings and Plans Legacy Gateway Consolidation",
-      "body": "Fiserv disclosed a $6.45 billion goodwill impairment, doubled its cost-savings target to $1 billion and reported reductions of 3,000 employee and contractor positions. Merchant Solutions revenue fell 2% despite approximately 10% growth in Clover payment volume, separating the segment's revenue performance from Clover's transaction growth. Fiserv also plans to consolidate more than a dozen legacy gateways and switches. Bank and merchant customers using those platforms need product-retirement schedules, migration requirements and service-level commitments to plan integration work.",
+      "title": "FIS Cuts Banking Growth Forecast as Client Conversions Slip",
+      "body": "Delayed conversions involving fewer than 10 clients prompted FIS to reduce its 2026 pro forma Banking Solutions revenue-growth forecast to 3.5\u20134%, from 5\u20135.5%. FIS also lowered companywide growth guidance to 3.1\u20133.6%, from 4.5\u20135%. Management said some implementations now extend into the third quarter of 2027, although almost all delayed conversions remain contractually required. The delays push revenue into later delivery windows despite those commitments. Payments revenue grew 3%, with debit and credit issuer volumes consistent with preceding quarters.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/fiserv-wants-ai-to-fix-what-decades-of-payments-growth-made-expensive/"
+        "url": "https://www.pymnts.com/earnings/2026/fis-cuts-banking-growth-outlook-amid-project-delays/"
       }
     },
     {
-      "title": "Block Extends Cash App Rewards to Approximately 30,000 Square Sellers",
-      "body": "Approximately 30,000 Square sellers had Block's Neighborhoods rewards program enabled by September, representing about $5 billion in annualized payment volume. The program connects participating merchants with Cash App customers, while Block currently funds sign-up bonuses and ongoing rewards; merchant co-funding remains a possible future development. Square processed $76.4 billion in third-quarter payments, up 14%, and Cash App reached 60 million monthly transacting users in September. For participating merchants, incremental sales and repeat visits distinguish customer acquisition results from enrollment counts.",
+      "title": "OCC Sets Bank AI Examination Framework Without New Supervisory Expectations",
+      "body": "The OCC issued a framework for examiners reviewing banks\u2019 use of AI and agentic AI in ordinary business activities. Rather than establish a separate AI risk category, the framework supplements existing model-risk, governance, technology, compliance and operational-risk practices. It creates no new supervisory expectations and does not require banks to adopt a separate AI risk appetite. For payment-initiation and fraud-decision tools, examinations remain within existing safety-and-soundness practices; the framework does not grant approval to particular vendors.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/block-puts-ai-to-work-taking-orders-and-preparing-purchases/"
+        "url": "https://www.pymnts.com/news/banking/2026/occ-releases-supervisory-framework-for-bank-ai-use/"
       }
     },
     {
-      "title": "Toast Disputes FTC Billing Lawsuit as Its Location Count Reaches 189,000",
-      "body": "Toast disputed the FTC and state authorities' lawsuit alleging unauthorized charges, misleading pricing and cancellation obstacles. Management argued that the Restore Online Shoppers' Confidence Act does not apply to negotiated B2B agreements; that argument represents Toast's legal position, not a court finding. Separately, Toast reported approximately 8,500 net location additions, bringing its total to 189,000. Customer growth does not resolve the billing allegations. The case concerns charge authorization, pricing disclosures and cancellation processes for merchant software vendors using recurring-service contracts.",
+      "title": "Bilt Agrees to Buy Sports Loyalty Company Lava for $300 Million",
+      "body": "Bilt agreed to acquire Lava for $300 million, connecting its residential and merchant rewards network with sports loyalty technology. Lava has relationships with 56 professional sports franchises and more than 300 technology adapters spanning POS, identity, ticketing, loyalty and payments. Bilt reports approximately seven million members across residential communities and partnerships with about 50,000 merchants. The proposed combination would link venue integrations with Bilt\u2019s existing network, but the announcement does not quantify incremental payment volume, customer overlap or acquisition synergies.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/toast-says-market-share-growth-shows-ftc-lawsuit-is-groundless/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/bilt-acquire-lava-sports-technology-rewards-loyalty-300-million-wells-fargo-cards-cfpb/873570/"
       }
     },
     {
-      "title": "OppFi Withdraws Applications for $130 Million BNC Acquisition",
-      "body": "OppFi withdrew applications to the OCC, Federal Reserve Board and FDIC for its proposed $130 million acquisition of BNCCORP and BNC National Bank. The transaction would have combined OppFi's digital lending platform with ownership of a national bank. Withdrawing the applications interrupts that plan but does not establish that regulators formally rejected the acquisition. Formal termination or restructuring would clarify the transaction's status, while OppFi's subsequent funding arrangements would show how it finances lending without the proposed bank ownership.",
+      "title": "Yellow Card Adds Brazilian Pix Capabilities Through GoMoney Acquisition",
+      "body": "Yellow Card completed its acquisition of Brazilian virtual asset provider GoMoney in October, adding real-denominated collections and disbursements, including Pix, alongside stablecoin settlement. GoMoney has applied for central-bank authorization and continues operating under Brazil\u2019s transitional regime; it has not completed full authorization. The company remains a wholly owned subsidiary led by its founders. Yellow Card gains domestic payment capabilities for Brazil-linked cross-border flows, although the announcement disclosed neither a transaction-cost advantage nor an increase in processing volume.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/oppfi-abandons-bnc-bank-purchase/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/yellow-card-expands-stablecoin-payments-to-brazil-with-gomoney-acquisition/"
       }
     }
   ],
-  "perspective": "Fiserv plans gateway consolidation and Coupa expands virtual-card usage, alongside merchant rewards growth, recurring-billing litigation and a withdrawn bank-acquisition application.",
+  "perspective": "Binance\u2019s asset replenishment and FIS\u2019s conversion delays distinguish customer commitments from completed recovery and delivery.",
   "curiosity": {
-    "text": "The Federal Reserve established a dedicated wire network in 1918 to transfer funds among Reserve Banks, an early foundation of today's Fedwire Funds Service. Source: Federal Reserve, \u201cFedwire Funds Services\u201d \u2014 https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm"
+    "text": "In 1861, the U.S. Treasury issued Demand Notes to help finance the Civil War; holders could redeem them on demand in coin. Source: U.S. Bureau of Engraving and Printing, \u201cHistory of U.S. Currency\u201d \u2014 https://www.bep.gov/currency/history"
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Pliant",
+      "description": "Raises $80 million Series C for expansion and AI-connected B2B payment infrastructure.",
+      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/pliant-raises-80-million-to-open-b2b-payments-to-ai-agents/"
+    },
+    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Bilt Technologies",
-      "description": "Agrees $300m Lava acquisition, adding sports loyalty integrations and franchise relationships.",
-      "source_url": "https://www.bankingdive.com/news/bilt-acquire-lava-sports-technology-rewards-loyalty-300-million-wells-fargo-cards-cfpb/873570/"
+      "company": "Circle",
+      "description": "Signs Tazapay acquisition agreement to expand cross-border payments and local payout coverage.",
+      "source_url": "https://www.circle.com/pressroom/circle-reports-third-quarter-2026-results"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "OnePay",
-      "description": "Select customers can convert incoming USDC into checking dollars through Stripe\u2019s Bridge.",
-      "source_url": "https://www.pymnts.com/cybersecurity/2026/walmart-backed-onepay-lets-customers-turn-stablecoins-into-checking-dollars/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddea",
-      "type": "expansion",
-      "company": "Stripe",
-      "description": "Launches UK Treasury, combining money management and payment acceptance in one dashboard.",
-      "source_url": "https://www.finextra.com/pressarticle/111563/stripe-treasury-launches-in-the-uk"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddea\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Lo:Tech",
-      "description": "Raises $12m Series A led by MMC for round-the-clock and onchain capital markets.",
-      "source_url": "https://www.finextra.com/newsarticle/48687/lotech-raises-12m-to-take-on-wall-street"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Revolut",
-      "description": "Receives New Zealand banking licence; operational launch scope remains unverified.",
-      "source_url": "https://www.finextra.com/newsarticle/48691/revolut-lands-new-zealand-banking-licence"
+      "company": "Kabilio",
+      "description": "Raises \u20ac10 million for AI accounting, led by Picus Capital and Visionaries.",
+      "source_url": "https://www.finextra.com/newsarticle/48704/ai-accounting-platform-kabilio-raises-10m"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "J.P. Morgan Payments",
-      "description": "Launches Receivables Matching to automate payment, remittance and invoice reconciliation.",
-      "source_url": "https://www.pymnts.com/back-office/accounts-receivable/2026/jpmorgan-payments-debuts-tool-streamline-cash-application/"
+      "company": "Truist",
+      "description": "Launches faster merchant onboarding, additional Clover tools and Paze checkout.",
+      "source_url": "https://www.bankingdive.com/news/truist-expands-merchant-tools-chris-ward/873584/"
     }
   ]
 }
