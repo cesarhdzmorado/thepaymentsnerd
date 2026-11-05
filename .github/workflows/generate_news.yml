@@ -16,7 +16,9 @@ permissions:
 
 jobs:
   build-and-publish:
-    runs-on: ubuntu-latest
+    # Pin the runner: ubuntu-latest moved to 26.04 on 2026-11-05 and broke
+    # pyreqwest-impersonate's native BoringSSL build before generation began.
+    runs-on: ubuntu-24.04
 
     steps:
       # =======================================================
