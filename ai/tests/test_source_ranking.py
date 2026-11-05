@@ -365,6 +365,33 @@ class TestSourceRanking(unittest.TestCase):
         self.assertTrue(errors)
         self.assertIn("Conflicting headline amounts", errors[0])
 
+    def test_same_event_different_financial_metrics_do_not_conflict(self):
+        circle_results = {
+            "title": "Circle reports $13.9 trillion in USDC transfers",
+            "body": "Circle reported USDC transfer volume and reserve economics.",
+            "source_name": "PYMNTS",
+            "source_url": "https://www.pymnts.com/circle-results",
+            "source_candidates": [
+                {
+                    "name": "PYMNTS",
+                    "url": "https://www.pymnts.com/circle-results",
+                    "title": "Circle reports $13.9 trillion in USDC transfers",
+                    "summary": "Circle reported USDC transfer volume and reserve economics.",
+                },
+                {
+                    "name": "The Block",
+                    "url": "https://www.theblock.co/circle-results",
+                    "title": "Circle reports $865 million in Q3 revenue and reserve income",
+                    "summary": "Circle reported quarterly results and USDC activity.",
+                },
+            ],
+        }
+
+        _, decisions = consolidate_story_sources([circle_results])
+
+        self.assertTrue(decisions)
+        self.assertEqual(source_conflict_errors(decisions), [])
+
 
 if __name__ == "__main__":
     unittest.main()

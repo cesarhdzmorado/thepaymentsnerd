@@ -778,6 +778,32 @@ def _headline_money_values(story: dict) -> Set[float]:
     return values
 
 
+def _headline_money_mentions(story: dict) -> List[Tuple[float, Set[str]]]:
+    """Return headline amounts with the metric words that immediately follow them."""
+    title = story.get("title", "") or ""
+    ignored = {"a", "an", "and", "at", "for", "from", "in", "of", "on", "over", "plus", "the", "to", "with"}
+    mentions = []
+    for match in _MONEY_RE.finditer(title):
+        amount = float(match.group(1))
+        suffix = (match.group(2) or "").lower()
+        multiplier = {
+            "trillion": 1_000_000_000_000,
+            "tn": 1_000_000_000_000,
+            "t": 1_000_000_000_000,
+            "billion": 1_000_000_000,
+            "bn": 1_000_000_000,
+            "b": 1_000_000_000,
+            "million": 1_000_000,
+            "mn": 1_000_000,
+            "m": 1_000_000,
+            "": 1,
+        }[suffix]
+        following_words = re.findall(r"[a-z0-9]+", title[match.end():].lower())[:5]
+        context = {word for word in following_words if word not in ignored}
+        mentions.append((amount * multiplier, context))
+    return mentions
+
+
 def _named_regulators(story: dict) -> Set[str]:
     text = _story_text(story).lower()
     return {
@@ -790,14 +816,27 @@ def _named_regulators(story: dict) -> Set[str]:
 def _material_conflicts(candidates: list) -> List[str]:
     """Find deterministic conflicts that are unsafe to break by feed order."""
     conflicts = []
-    amount_sets = [_headline_money_values(candidate) for candidate in candidates]
-    non_empty_amounts = [amounts for amounts in amount_sets if amounts]
-    if len(non_empty_amounts) > 1:
-        flattened = sorted({amount for amounts in non_empty_amounts for amount in amounts})
-        if flattened and (flattened[-1] / max(flattened[0], 1)) > 1.05:
-            conflicts.append(
-                "Conflicting headline amounts: " + ", ".join(f"${amount:,.0f}" for amount in flattened)
-            )
+    mention_sets = [_headline_money_mentions(candidate) for candidate in candidates]
+    conflicting_amounts = set()
+    for index, left_mentions in enumerate(mention_sets):
+        for right_mentions in mention_sets[index + 1:]:
+            for left_amount, left_context in left_mentions:
+                for right_amount, right_context in right_mentions:
+                    # Different headline metrics can legitimately describe the same event
+                    # (for example, transfer volume versus quarterly revenue). Only block
+                    # when the nearby metric words show that the amounts describe the same
+                    # thing, such as two reports of the size of one fine or breach.
+                    if not left_context.intersection(right_context):
+                        continue
+                    larger = max(left_amount, right_amount)
+                    smaller = max(min(left_amount, right_amount), 1)
+                    if larger / smaller > 1.05:
+                        conflicting_amounts.update((left_amount, right_amount))
+    if conflicting_amounts:
+        conflicts.append(
+            "Conflicting headline amounts: "
+            + ", ".join(f"${amount:,.0f}" for amount in sorted(conflicting_amounts))
+        )
 
     regulator_sets = [_named_regulators(candidate) for candidate in candidates]
     non_empty_regulators = [regulators for regulators in regulator_sets if regulators]
