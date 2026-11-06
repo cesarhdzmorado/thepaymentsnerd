@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Binance Reports 98% Asset Replenishment After $6.34 Billion Theft",
-      "body": "Binance said its October 29 theft followed a campaign beginning in June involving a compromised AI coding-tool installer, a fake recruitment assignment and stolen deployment credentials. In its November 3 report, the exchange said it had replenished 98% of affected token assets and frozen or intercepted approximately $2.85 billion of the $6.34 billion affected. These company-reported figures do not represent independently audited recoveries: replenishment includes replacement assets funded by Binance, while freezing or interception does not establish their return to customers. Binance restored withdrawals in phases.",
+      "title": "Bank Supervisors Check Exposures After Binance\u2019s Reported $6.34 Billion Breach",
+      "body": "Federal Reserve and OCC supervisors reportedly contacted banks about unusual activity or service disruptions following Binance\u2019s October 29 breach. Binance said affected digital assets totaled $6.34 billion and that it had replenished 98% of affected token assets. It was restoring withdrawals in phases; the coverage did not establish completion. Banks serving digital-asset businesses must distinguish reported exposure, asset replenishment and customers\u2019 ability to withdraw funds: the replenishment figure does not establish the final unrecovered loss.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/binance-reports-hackers-infiltrated-systems-months-before-stealing-6-billion-dollars/"
+        "name": "PYMNTS, citing Reuters",
+        "url": "https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/"
       }
     },
     {
-      "title": "FIS Cuts Banking Growth Forecast as Client Conversions Slip",
-      "body": "Delayed conversions involving fewer than 10 clients prompted FIS to reduce its 2026 pro forma Banking Solutions revenue-growth forecast to 3.5\u20134%, from 5\u20135.5%. FIS also lowered companywide growth guidance to 3.1\u20133.6%, from 4.5\u20135%. Management said some implementations now extend into the third quarter of 2027, although almost all delayed conversions remain contractually required. The delays push revenue into later delivery windows despite those commitments. Payments revenue grew 3%, with debit and credit issuer volumes consistent with preceding quarters.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/fis-cuts-banking-growth-outlook-amid-project-delays/"
-      }
-    },
-    {
-      "title": "OCC Sets Bank AI Examination Framework Without New Supervisory Expectations",
-      "body": "The OCC issued a framework for examiners reviewing banks\u2019 use of AI and agentic AI in ordinary business activities. Rather than establish a separate AI risk category, the framework supplements existing model-risk, governance, technology, compliance and operational-risk practices. It creates no new supervisory expectations and does not require banks to adopt a separate AI risk appetite. For payment-initiation and fraud-decision tools, examinations remain within existing safety-and-soundness practices; the framework does not grant approval to particular vendors.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/occ-releases-supervisory-framework-for-bank-ai-use/"
-      }
-    },
-    {
-      "title": "Bilt Agrees to Buy Sports Loyalty Company Lava for $300 Million",
-      "body": "Bilt agreed to acquire Lava for $300 million, connecting its residential and merchant rewards network with sports loyalty technology. Lava has relationships with 56 professional sports franchises and more than 300 technology adapters spanning POS, identity, ticketing, loyalty and payments. Bilt reports approximately seven million members across residential communities and partnerships with about 50,000 merchants. The proposed combination would link venue integrations with Bilt\u2019s existing network, but the announcement does not quantify incremental payment volume, customer overlap or acquisition synergies.",
+      "title": "Block\u2019s Preliminary DOJ Deal Includes $764 Million Payment and $200 Million in Credits",
+      "body": "Block disclosed an agreement in principle with the Department of Justice concerning an allegedly ineffective anti-money-laundering program under the Bank Secrecy Act. The proposed $964 million resolution comprises a $764 million payment and $200 million in credits for previous regulatory resolutions\u2014not a $964 million cash fine. The contemplated arrangement would defer charges for three years, but Block had not finalized the agreement. Definitive documents would establish the remediation obligations relevant to Cash App and its banking partners; the coverage did not establish operating restrictions or a finalized compliance-monitor mandate.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/bilt-acquire-lava-sports-technology-rewards-loyalty-300-million-wells-fargo-cards-cfpb/873570/"
+        "url": "https://www.bankingdive.com/news/block-pay-964-million-doj/873765/"
       }
     },
     {
-      "title": "Yellow Card Adds Brazilian Pix Capabilities Through GoMoney Acquisition",
-      "body": "Yellow Card completed its acquisition of Brazilian virtual asset provider GoMoney in October, adding real-denominated collections and disbursements, including Pix, alongside stablecoin settlement. GoMoney has applied for central-bank authorization and continues operating under Brazil\u2019s transitional regime; it has not completed full authorization. The company remains a wholly owned subsidiary led by its founders. Yellow Card gains domestic payment capabilities for Brazil-linked cross-border flows, although the announcement disclosed neither a transaction-cost advantage nor an increase in processing volume.",
+      "title": "Affirm Card Spending More Than Doubles as Delinquencies Reach 2.9 Percent",
+      "body": "Affirm Card spending more than doubled to $3.3 billion across six million active cardholders, extending distribution beyond individual merchant checkout integrations. Affirm reported quarterly gross merchandise volume (GMV) of $14.4 billion, up 34%, with interest-bearing loans accounting for 72% of GMV. US balances at least 30 days past due reached 2.9%, up 35 basis points sequentially, excluding short-term Pay in X and Peloton loans. The results give funding partners separate measures of distribution growth and repayment performance as Affirm expands its loan book.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/yellow-card-expands-stablecoin-payments-to-brazil-with-gomoney-acquisition/"
+        "url": "https://www.pymnts.com/earnings/2026/affirm-ceo-expects-ai-shopping-agents-to-favor-interest-free-installments/"
+      }
+    },
+    {
+      "title": "Payoneer\u2019s B2B Growth Outruns Revenue Ahead of Acquisition by Nuvei",
+      "body": "Payoneer reported $25.3 billion in quarterly payment volume, up 13%, while revenue increased 5% to $222 million. B2B volume rose 59% to $5 billion, contrasting with 1% growth to $12.6 billion in its marketplace-SMB business. Management reiterated a targeted mid-2027 close for Nuvei\u2019s previously announced $2.75 billion acquisition of Payoneer, subject to approvals. The proposed combination would join Payoneer\u2019s wallet and payout capabilities with Nuvei\u2019s payment processing; the earnings update did not announce a new transaction.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/earnings/2026/payoneer-b2b-volume-surges-59-ahead-of-nuvei-acquisition/"
+      }
+    },
+    {
+      "title": "Yellow Card Adds Brazilian Pix Access Through Completed GoMoney Acquisition",
+      "body": "Yellow Card completed its acquisition of Brazil\u2019s GoMoney, establishing direct local operations with real-denominated collections and disbursements, including Pix, alongside stablecoin settlement and treasury services. The purchase adds an existing local business and payment-rail connectivity rather than a prospective integration. GoMoney continues operating under Brazil\u2019s transitional regime while Banco Central do Brasil reviews its authorization application, and its founders remain in leadership. The reviewed coverage did not disclose production payment volumes or corridor-level pricing.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/acquiring/2026/yellow-card-expands-stablecoin-payments-to-brazil-with-gomoney-acquisition/"
       }
     }
   ],
-  "perspective": "Binance\u2019s asset replenishment and FIS\u2019s conversion delays distinguish customer commitments from completed recovery and delivery.",
+  "perspective": "Binance\u2019s breach and Block\u2019s preliminary AML resolution accompany growth in installment credit, cross-border payments and Brazilian stablecoin connectivity.",
   "curiosity": {
-    "text": "In 1861, the U.S. Treasury issued Demand Notes to help finance the Civil War; holders could redeem them on demand in coin. Source: U.S. Bureau of Engraving and Printing, \u201cHistory of U.S. Currency\u201d \u2014 https://www.bep.gov/currency/history"
+    "text": "On June 26, 1974, a pack of Wrigley\u2019s chewing gum became the first product scanned with a UPC barcode at a supermarket checkout, at Marsh Supermarket in Troy, Ohio. Source: GS1, \u201cOur history\u201d \u2014 https://www.gs1.org/about/our-history"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
-      "company": "Pliant",
-      "description": "Raises $80 million Series C for expansion and AI-connected B2B payment infrastructure.",
-      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/pliant-raises-80-million-to-open-b2b-payments-to-ai-agents/"
+      "company": "firmly",
+      "description": "Raises $15 million Series A led by Squarepoint, with JPMorgan Payments and Mastercard participating.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/firmly-lands-15-million-as-investors-back-the-merchant-side-of-agentic-commerce/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Circle",
-      "description": "Signs Tazapay acquisition agreement to expand cross-border payments and local payout coverage.",
-      "source_url": "https://www.circle.com/pressroom/circle-reports-third-quarter-2026-results"
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "type": "product",
+      "company": "Samsung",
+      "description": "Launches USDC accounts on Solana within Samsung Wallet for eligible US Galaxy users.",
+      "source_url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523"
     },
     {
       "flag": "\ud83c\uddea\ud83c\uddf8",
       "type": "fundraising",
       "company": "Kabilio",
-      "description": "Raises \u20ac10 million for AI accounting, led by Picus Capital and Visionaries.",
+      "description": "Raises \u20ac10 million for its AI accounting platform, led by Picus Capital and Visionaries.",
       "source_url": "https://www.finextra.com/newsarticle/48704/ai-accounting-platform-kabilio-raises-10m"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "product",
-      "company": "Truist",
-      "description": "Launches faster merchant onboarding, additional Clover tools and Paze checkout.",
-      "source_url": "https://www.bankingdive.com/news/truist-expands-merchant-tools-chris-ward/873584/"
+      "company": "Cardstream Group",
+      "description": "Launches Flowes, a white-label payment-facilitation service for acquirers, platforms, PSPs and software providers.",
+      "source_url": "https://www.finextra.com/pressarticle/111582/cardstream-group-launches-flowes-a-white-label-payment-facilitation-as-a-service-proposition"
     }
   ]
 }
