@@ -16,7 +16,9 @@ permissions:
 
 jobs:
   canary:
-    runs-on: ubuntu-latest
+    # Match the production newsletter runner. ubuntu-latest moved to 26.04
+    # and cannot build pyreqwest-impersonate's BoringSSL dependency.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
 
