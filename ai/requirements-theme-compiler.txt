@@ -1,0 +1,15 @@
+# The compiler imports shared pipeline modules, but it never performs web search.
+# Keep duckduckgo-search out of this environment: its pyreqwest-impersonate
+# dependency builds BoringSSL from source and is not deterministic on hosted
+# runners.
+langchain==0.3.30
+langchain-openai==0.3.35
+python-dotenv==1.2.2
+pyyaml==6.0.1
+ruamel.yaml==0.18.17
+beautifulsoup4==4.12.3
+lxml==6.1.0
+feedparser==6.0.11
+requests==2.33.0
+pysqlite3-binary==0.5.4
+supabase==2.10.0

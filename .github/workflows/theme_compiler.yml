@@ -15,7 +15,9 @@ concurrency:
 
 jobs:
   compile:
-    runs-on: ubuntu-latest
+    # Keep hosted builds on the production-proven image. ubuntu-latest moved
+    # to 26.04 and broke native dependencies before the compiler could start.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,7 +28,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r ai/requirements.txt
+        run: pip install -r ai/requirements-theme-compiler.txt
 
       - name: Download retained daily evidence artifacts
         env:
