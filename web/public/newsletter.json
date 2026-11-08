@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Marqeta\u2019s Processing Volume Grows 29%, Outpacing Its 8% Revenue Increase",
-      "body": "Marqeta reported third-quarter processing volume of $126.5 billion, up 29%, while revenue rose 8% to $176.2 million. CEO Mike Milotich described enterprise demand for bundled financial services alongside card issuance. The figures show transaction scale growing faster than revenue, but the reporting does not establish the cause of that gap. Block accounted for 41% of quarterly revenue, leaving customer concentration a separate measure of Marqeta\u2019s enterprise expansion.",
+      "title": "BPI Finds Only Two Major Stablecoins Meet Its Historical Reserve Test",
+      "body": "The Bank Policy Institute examined June 2026 holdings for ten dollar stablecoins covering 97% of the market and found only USDC and PYUSD aligned with GENIUS Act reserve-asset requirements. Those two represented 26% of tokens outstanding, but the industry association\u2019s assessment does not establish current regulatory noncompliance or redemption reliability. The comparison gives banks, payment processors and treasury teams a historical due-diligence input, rather than a substitute for current reserve disclosures.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/marqeta-cards-milotich-q3-earnings/873964/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/2026/study-finds-most-stablecoins-fail-genius-act-requirements/"
       }
     },
     {
-      "title": "JPMorgan Payments and Mastercard Back firmly\u2019s $15 Million Funding Round",
-      "body": "JPMorgan Payments and Mastercard participated in a $15 million Series A for firmly, a no-code platform for agentic commerce\u2014commerce in which AI agents make purchases for users. The financing establishes investment relationships, not a production integration or demonstrated merchant adoption. For merchants evaluating agent-enabled checkout, delegated spending limits and liability for agent errors determine what purchases an AI agent can authorize and who bears the cost of mistakes.",
+      "title": "Nubank and Mercado Pago Restrict Crypto Transfers After Reported Provider Problems",
+      "body": "Nubank suspended Brazilian crypto deposits and withdrawals after a partner problem, while Mercado Pago blocked some external-wallet transfers following instability involving a risk-monitoring and AML provider. Nubank said customer assets and information remained protected; the report did not establish whether the incidents shared a provider or cause. Customers faced restricted transfers and potentially delayed deposits, highlighting crypto platforms\u2019 dependence on external monitoring services for transaction availability.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48712/jp-morgan-payments-and-mastercard-invest-in-agentic-commerce-startup-firmly"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/nubank-mercado-pago-pause-crypto-operations-following-provider-issues/"
       }
     },
     {
-      "title": "California Seeks $4.8 Million From CoinFlip Over Alleged Crypto-ATM Control Failures",
-      "body": "California\u2019s Department of Financial Protection and Innovation demanded $4.8 million in restitution for scam victims in a November 5 notice to CoinFlip. The regulator alleged failures to detect, prevent, report and mitigate suspicious activity over five years. CoinFlip operates approximately 500 California kiosks, according to state information cited by Banking Dive. The notice targets alleged failures in those controls; it does not impose an industry-wide crypto-ATM prohibition.",
+      "title": "BMO Targets Shorter Card-Service Calls With Employee-Facing AI and Human Review",
+      "body": "BMO announced AI Agent Assist for Canadian credit-card transaction inquiries, combining transaction matching, policy retrieval and case preparation with human review. Against more than 500,000 annual calls averaging 12\u201314 minutes, the bank targets a 20\u201330% handling-time reduction and automatic processing of approximately 40% of eligible credit-refund requests. These are targets rather than demonstrated results; the deployment supports employees handling card inquiries, not autonomous consumer purchasing or unrestricted payment initiation.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/california-coinflip-crypto-atm-enforcement-fraud/874015/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/"
       }
     },
     {
-      "title": "Pliant Announces $80 Million Series C for Modular B2B Payments",
-      "body": "Seaya Nova and Speedinvest led Pliant\u2019s $80 million Series C, with Illuminate Financial, Motive Partners and Molten Ventures also participating. The corporate-payments company announced the financing on November 6. The round adds capital for its business, but does not itself establish new issuing-market coverage or regulatory permissions. Enterprise payment buyers assessing Pliant\u2019s reach still need service availability and issuing coverage for their intended markets.",
+      "title": "Synctera Raises $24.5 Million to Fund Sponsor-Bank Infrastructure and Compliance Tools",
+      "body": "Following its April 2026 acquisition of continuous-control-testing provider Cable, Synctera raised $24.5 million to support its sponsor-bank and fintech infrastructure business. The funding adds resources for program management and compliance tooling, but does not itself demonstrate stronger controls or a recovery in banking-as-a-service demand. Control-testing coverage, remediation evidence and onboarding performance provide sponsor banks with more direct measures of the platform\u2019s capabilities than the financing total.",
       "source": {
-        "name": "Finextra, company press release",
-        "url": "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/startups/2026/synctera-raises-25-million-dollars-support-new-baas-demand/"
       }
     },
     {
-      "title": "Mukuru Adds 170,000 South African Cash Pay-In Points Through Flash",
-      "body": "Mukuru announced a partnership with Flash that adds 170,000 cash pay-in points across South Africa. Customers can fund Mukuru remittance orders at participating locations, including spaza shops. The expansion broadens cash-funding access; it does not establish faster cross-border settlement or additional payout destinations. The announced location count measures network availability, while completed transactions and active locations will show how extensively customers use it.",
+      "title": "PayFacto Plans Konek Integration to Add Account-Based Payments Across Canadian Merchants",
+      "body": "Canadian merchants in PayFacto\u2019s network are the intended recipients of a new account-based checkout option: Interac announced that PayFacto is integrating Konek across its merchant and partner networks alongside card payments. The announcement establishes integration plans, not completed merchant rollout, transaction volumes or demonstrated savings. Live availability, pricing, settlement timing and refund handling remain necessary details for merchants assessing the option.",
       "source": {
-        "name": "Finextra, company press release",
-        "url": "https://www.finextra.com/pressarticle/111601/mukuru-adds-170000-remittance-pay-in-points-across-south-africa"
+        "name": "Finextra \u2014 company release",
+        "url": "https://www.finextra.com/pressarticle/111608/payfacto-intergrates-interac-konek-digital-wallet-across-merchant-network"
       }
     }
   ],
-  "perspective": "Marqeta\u2019s processing growth and firmly\u2019s funding track payment commercialization at different stages: expanding transaction volumes and financing AI-enabled checkout.",
+  "perspective": "Nubank\u2019s transfer restrictions and BMO\u2019s AI plans put service reliability and controls alongside new funding and checkout integrations.",
   "curiosity": {
-    "text": "M-Pesa launched in Kenya in March 2007 with agent-based cash deposits and withdrawals. Local shops served as cash-in/cash-out points, connecting physical cash with mobile-money balances without requiring customers to visit a bank branch. Source: CGAP, \u201cM-PESA: A Mobile Money Revolution for the Poor That\u2019s a Lot More Than Just a Payment Service\u201d \u2014 https://www.cgap.org/research/publication/m-pesa-mobile-money-revolution-poor"
+    "text": "Barclays installed a cash dispenser in Enfield, London, on June 27, 1967. Instead of inserting a plastic bank card, customers used special paper vouchers that the machine retained\u2014a different access mechanism from today\u2019s ATMs. Source: Smithsonian Magazine, \u201cA Brief History of the ATM\u201d \u2014 https://www.smithsonianmag.com/history/brief-history-atm-180953547/"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Yellow Card",
-      "description": "Acquires Brazilian virtual-asset business GoMoney; financial terms undisclosed.",
-      "source_url": "https://www.finextra.com/newsarticle/48710/stablecoin-firm-yellow-card-target-brazil-through-gomoney-acquisition"
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Pliant",
+      "description": "Raises $80 million Series C led by Seaya Nova and Speedinvest.",
+      "source_url": "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Starling Bank",
-      "description": "Announces first business credit card with 1% cashback and no annual or FX fees.",
-      "source_url": "https://www.finextra.com/pressarticle/111593/starling-launches-fee-free-business-credit-card"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddff\ud83c\udde6",
       "type": "expansion",
-      "company": "Segpay",
-      "description": "Expands Pay by Bank availability to eight European markets.",
-      "source_url": "https://www.finextra.com/pressarticle/111591/segpay-expands-pay-by-bank-service-to-eight-european-markets"
+      "company": "Mukuru",
+      "description": "Adds 170,000 South African remittance cash pay-in points through Flash.",
+      "source_url": "https://www.finextra.com/pressarticle/111601/mukuru-adds-170000-remittance-pay-in-points-across-south-africa"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Tabs",
-      "description": "Announces Tabs Pay with Adyen processing embedded into invoicing and revenue workflows.",
-      "source_url": "https://www.finextra.com/pressarticle/111597/tabs-partners-adyen-to-bring-payment-processing-directly-into-invoicing-and-revenue-platform"
+      "company": "Huntington National Bank",
+      "description": "Launches Kyriba-powered treasury platform combining multibank visibility, forecasting and payment workflows.",
+      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/huntington-platform-unifies-distributed-treasury-operations/"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "product",
+      "company": "Klarna",
+      "description": "Extends in-app caller verification to all 26 operating markets.",
+      "source_url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/klarna-targets-scam-calls-with-new-verification-tool/"
     }
   ]
 }
