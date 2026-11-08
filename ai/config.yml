@@ -119,7 +119,7 @@ news_freshness:
 #   python ai/scripts/trend_diff.py --old git:main --new ai/config.yml
 # ============================================================================
 trend_radar:
-  as_of: "2026-10-27"
+  as_of: "2026-11-08"
   review_frequency: monthly
   weight_semantics: "structural editorial importance, not story quotas"
 
@@ -133,44 +133,6 @@ theme_compiler:
   policy: "Automation may refresh dynamic state and propose taxonomy changes; structural changes require human approval."
 
 current_trends:
-  - name: "Stablecoins, Tokenized Money & Settlement"
-    weight: 8
-    last_reviewed: "2026-10-27"
-    added: "2026-04-26"
-    status: active
-    description: "Stablecoins are moving beyond crypto-native activity into commercial payments, treasury, payouts, and programmable settlement. US rulemaking is under way under the GENIUS Act while MiCA shapes the European market. Judge adoption by recurring payment usage, economics, and interoperability rather than issuance or announced pilots."
-    signals:
-      - "stablecoin"
-      - "stablecoin settlement"
-      - "deposit token"
-      - "GENIUS Act"
-      - "stablecoin cards"
-    companies_to_watch:
-      - "Circle"
-      - "Tether"
-      - "Stripe / Bridge"
-      - "PayPal"
-    watch_for: "Production volumes and recurring use cases; issuer licensing; bank deposit tokens versus nonbank stablecoins; stablecoin-funded cards; merchant adoption; reserve economics; settlement costs; and integration with or displacement of traditional rails."
-
-  - name: "Real-Time Payments & Cross-Border Infrastructure"
-    weight: 8
-    last_reviewed: "2026-10-27"
-    added: "2026-04-26"
-    status: active
-    description: "Instant-payment systems are mature or scaling across major markets. Competition is shifting toward interoperability, recurring payments, request-to-pay, fraud controls, liquidity, and cross-border connectivity. ISO 20022 and payment-system upgrades enable richer data and automation, but speed and cost claims require corridor-level evidence."
-    signals:
-      - "real-time payments"
-      - "instant payments"
-      - "SEPA Instant"
-      - "FedNow"
-      - "Pix Automático"
-    companies_to_watch:
-      - "NPCI"
-      - "SWIFT"
-      - "Wise"
-      - "Airwallex"
-    watch_for: "Active usage and recurring-payment functionality; UPI and Pix expansion; payment-system interoperability; instant-payment rules; cross-border speed and cost by corridor; ISO 20022 implementation; and bank or fintech multi-rail orchestration."
-
   - name: "Payment Fraud, Trust & Digital Identity"
     weight: 8
     last_reviewed: "2026-10-27"
@@ -190,44 +152,53 @@ current_trends:
       - "Featurespace"
     watch_for: "Fraud-loss rates; reimbursement outcomes; liability allocation; passkey and digital-identity adoption; false-positive rates; real-time controls; agent authentication; and merchant fraud economics."
 
-  - name: "Merchant Acquiring & Payment Orchestration"
-    weight: 7
+    momentum: 68
+    confidence: 41
+    effective_priority: 8
+  - name: "Real-Time Payments & Cross-Border Infrastructure"
+    weight: 8
     last_reviewed: "2026-10-27"
     added: "2026-04-26"
     status: active
-    description: "Merchant payment providers are expanding across online acquiring, in-person acceptance, issuing, orchestration, lending, payouts, and embedded merchant banking. Unified commerce combines channels, data, and settlement while orchestration seeks better authorization performance and routing control. Economics and reliability matter more than feature breadth alone."
+    description: "Instant-payment systems are mature or scaling across major markets. Competition is shifting toward interoperability, recurring payments, request-to-pay, fraud controls, liquidity, and cross-border connectivity. ISO 20022 and payment-system upgrades enable richer data and automation, but speed and cost claims require corridor-level evidence."
     signals:
-      - "merchant acquiring"
-      - "payment orchestration"
-      - "authorization optimization"
-      - "unified commerce"
-      - "acquiring"
+      - "real-time payments"
+      - "instant payments"
+      - "SEPA Instant"
+      - "FedNow"
+      - "Pix Automático"
     companies_to_watch:
-      - "Stripe"
-      - "Adyen"
-      - "Checkout.com"
-      - "Worldpay"
-    watch_for: "Direct acquiring expansion; online-to-POS convergence; orchestration adoption; measured authorization improvements; pricing pressure; profitability and take rates; payment optimization; and processor M&A."
+      - "NPCI"
+      - "SWIFT"
+      - "Wise"
+      - "Airwallex"
+    watch_for: "Active usage and recurring-payment functionality; UPI and Pix expansion; payment-system interoperability; instant-payment rules; cross-border speed and cost by corridor; ISO 20022 implementation; and bank or fintech multi-rail orchestration."
 
-  - name: "Digital Wallets & Checkout Competition"
-    weight: 7
+    momentum: 68
+    confidence: 41
+    effective_priority: 8
+  - name: "Stablecoins, Tokenized Money & Settlement"
+    weight: 8
     last_reviewed: "2026-10-27"
     added: "2026-04-26"
     status: active
-    description: "Digital wallets lead global ecommerce by transaction value. Competition is shifting from wallet availability toward merchant conversion, authentication, repeat use, distribution, and the underlying funding rail. Card-backed wallets, account-to-account wallets, and ecosystem super-apps have different economics and adoption patterns."
+    description: "Stablecoins are moving beyond crypto-native activity into commercial payments, treasury, payouts, and programmable settlement. US rulemaking is under way under the GENIUS Act while MiCA shapes the European market. Judge adoption by recurring payment usage, economics, and interoperability rather than issuance or announced pilots."
     signals:
-      - "digital wallet"
-      - "express checkout"
-      - "branded checkout"
-      - "wallet conversion"
-      - "passkey checkout"
+      - "stablecoin"
+      - "stablecoin settlement"
+      - "deposit token"
+      - "GENIUS Act"
+      - "stablecoin cards"
     companies_to_watch:
+      - "Circle"
+      - "Tether"
+      - "Stripe / Bridge"
       - "PayPal"
-      - "Apple"
-      - "Google"
-      - "Stripe"
-    watch_for: "Branded-checkout growth versus overall wallet growth; online and physical-commerce adoption; measured merchant conversion; wallet monetization and funding mix; passkey adoption; distribution partnerships; and shifts from stored cards toward tokenized credentials."
+    watch_for: "Production volumes and recurring use cases; issuer licensing; bank deposit tokens versus nonbank stablecoins; stablecoin-funded cards; merchant adoption; reserve economics; settlement costs; and integration with or displacement of traditional rails."
 
+    momentum: 95
+    confidence: 77
+    effective_priority: 10
   - name: "Banking Licences, Regulation & Market Access"
     weight: 7
     last_reviewed: "2026-10-27"
@@ -247,25 +218,53 @@ current_trends:
       - "Checkout.com"
     watch_for: "Approval versus operational launch; capital and compliance requirements; supervisory reviews; national expansion; US charter applications; EU payments legislation; cross-border licensing; and effects on profitability and competitive barriers."
 
-  - name: "Open Banking & Embedded Finance Infrastructure"
-    weight: 6
+    momentum: 68
+    confidence: 47
+    effective_priority: 7
+  - name: "Digital Wallets & Checkout Competition"
+    weight: 7
     last_reviewed: "2026-10-27"
     added: "2026-04-26"
     status: active
-    description: "Open banking and embedded finance support account connectivity, payment initiation, verification, and financial distribution, but commercial development remains uneven. US CFPB Section 1033 compliance dates are stayed while the rule is reconsidered. Sustainable value depends on API reliability, data quality, regulatory access, adoption, and margins."
+    description: "Digital wallets lead global ecommerce by transaction value. Competition is shifting from wallet availability toward merchant conversion, authentication, repeat use, distribution, and the underlying funding rail. Card-backed wallets, account-to-account wallets, and ecosystem super-apps have different economics and adoption patterns."
     signals:
-      - "open banking"
-      - "pay by bank"
-      - "CFPB 1033"
-      - "financial data rights"
-      - "account-to-account payments"
+      - "digital wallet"
+      - "express checkout"
+      - "branded checkout"
+      - "wallet conversion"
+      - "passkey checkout"
     companies_to_watch:
-      - "Plaid"
-      - "TrueLayer"
-      - "Tink"
-      - "Trustly"
-    watch_for: "Publication and substance of a revised US data-access rule; PSD3 and PSR; pay-by-bank adoption; enterprise API usage; pricing and margins; embedded-finance unit economics; consolidation; and measured card substitution at checkout."
+      - "PayPal"
+      - "Apple"
+      - "Google"
+      - "Stripe"
+    watch_for: "Branded-checkout growth versus overall wallet growth; online and physical-commerce adoption; measured merchant conversion; wallet monetization and funding mix; passkey adoption; distribution partnerships; and shifts from stored cards toward tokenized credentials."
 
+    momentum: 68
+    confidence: 41
+    effective_priority: 7
+  - name: "Merchant Acquiring & Payment Orchestration"
+    weight: 7
+    last_reviewed: "2026-10-27"
+    added: "2026-04-26"
+    status: active
+    description: "Merchant payment providers are expanding across online acquiring, in-person acceptance, issuing, orchestration, lending, payouts, and embedded merchant banking. Unified commerce combines channels, data, and settlement while orchestration seeks better authorization performance and routing control. Economics and reliability matter more than feature breadth alone."
+    signals:
+      - "merchant acquiring"
+      - "payment orchestration"
+      - "authorization optimization"
+      - "unified commerce"
+      - "acquiring"
+    companies_to_watch:
+      - "Stripe"
+      - "Adyen"
+      - "Checkout.com"
+      - "Worldpay"
+    watch_for: "Direct acquiring expansion; online-to-POS convergence; orchestration adoption; measured authorization improvements; pricing pressure; profitability and take rates; payment optimization; and processor M&A."
+
+    momentum: 83
+    confidence: 73
+    effective_priority: 8
   - name: "Agentic Commerce & Autonomous Payments"
     weight: 6
     last_reviewed: "2026-10-27"
@@ -285,6 +284,9 @@ current_trends:
       - "Google"
     watch_for: "Production transaction volume; merchant integrations; protocol interoperability; liability for agent errors; delegated identity and approval; spending controls; agent-operated business payments; and fraud prevention."
 
+    momentum: 53
+    confidence: 65
+    effective_priority: 6
   - name: "BNPL & Embedded Credit"
     weight: 6
     last_reviewed: "2026-10-27"
@@ -303,3 +305,28 @@ current_trends:
       - "Affirm"
       - "Block / Afterpay"
     watch_for: "Regulatory implementation; delinquencies and loss rates; funding economics; longer-term financing adoption; wallet distribution; measured merchant conversion; and embedded-capital growth."
+    momentum: 0
+    confidence: 0
+    effective_priority: 6
+  - name: "Open Banking & Embedded Finance Infrastructure"
+    weight: 6
+    last_reviewed: "2026-10-27"
+    added: "2026-04-26"
+    status: active
+    description: "Open banking and embedded finance support account connectivity, payment initiation, verification, and financial distribution, but commercial development remains uneven. US CFPB Section 1033 compliance dates are stayed while the rule is reconsidered. Sustainable value depends on API reliability, data quality, regulatory access, adoption, and margins."
+    signals:
+      - "open banking"
+      - "pay by bank"
+      - "CFPB 1033"
+      - "financial data rights"
+      - "account-to-account payments"
+    companies_to_watch:
+      - "Plaid"
+      - "TrueLayer"
+      - "Tink"
+      - "Trustly"
+    watch_for: "Publication and substance of a revised US data-access rule; PSD3 and PSR; pay-by-bank adoption; enterprise API usage; pricing and margins; embedded-finance unit economics; consolidation; and measured card substitution at checkout."
+
+    momentum: 83
+    confidence: 49
+    effective_priority: 7
