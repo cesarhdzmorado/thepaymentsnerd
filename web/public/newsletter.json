@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "BPI Finds Only Two Major Stablecoins Meet Its Historical Reserve Test",
-      "body": "The Bank Policy Institute examined June 2026 holdings for ten dollar stablecoins covering 97% of the market and found only USDC and PYUSD aligned with GENIUS Act reserve-asset requirements. Those two represented 26% of tokens outstanding, but the industry association\u2019s assessment does not establish current regulatory noncompliance or redemption reliability. The comparison gives banks, payment processors and treasury teams a historical due-diligence input, rather than a substitute for current reserve disclosures.",
+      "title": "The Block Reports Partial Binance Withdrawal Restoration After Estimated $6.3 Billion Theft",
+      "body": "The Block reported that Binance suspended withdrawals after an October 30 theft estimated at $6.3 billion and subsequently restored access in stages. Its account distinguishes withdrawals already reopened from additional reopenings still planned; it does not establish restored access across every asset. The report also attributed to Elliptic a finding that attackers exchanged stolen tokens for $124 million in bitcoin. For payment providers and liquidity counterparties, asset-specific withdrawal availability and pending-transaction records remain necessary checks before moving funds or retrying transfers.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/2026/study-finds-most-stablecoins-fail-genius-act-requirements/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930"
       }
     },
     {
-      "title": "Nubank and Mercado Pago Restrict Crypto Transfers After Reported Provider Problems",
-      "body": "Nubank suspended Brazilian crypto deposits and withdrawals after a partner problem, while Mercado Pago blocked some external-wallet transfers following instability involving a risk-monitoring and AML provider. Nubank said customer assets and information remained protected; the report did not establish whether the incidents shared a provider or cause. Customers faced restricted transfers and potentially delayed deposits, highlighting crypto platforms\u2019 dependence on external monitoring services for transaction availability.",
+      "title": "FinCEN and Fed Withdraw Proposed $250 Cross-Border Recordkeeping Threshold",
+      "body": "Banks and remittance providers no longer need to prepare for this proposed expansion of federal transfer-record requirements. FinCEN and the Federal Reserve withdrew amendments that would have lowered the relevant cross-border Recordkeeping and Travel Rule threshold from $3,000 to $250 and expanded coverage of digital-asset transactions. The withdrawal removes those proposed changes, not existing anti-money-laundering, suspicious-activity reporting or Travel Rule obligations.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/nubank-mercado-pago-pause-crypto-operations-following-provider-issues/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/feds-pull-proposals-for-reporting-crypto-transactions/"
       }
     },
     {
-      "title": "BMO Targets Shorter Card-Service Calls With Employee-Facing AI and Human Review",
-      "body": "BMO announced AI Agent Assist for Canadian credit-card transaction inquiries, combining transaction matching, policy retrieval and case preparation with human review. Against more than 500,000 annual calls averaging 12\u201314 minutes, the bank targets a 20\u201330% handling-time reduction and automatic processing of approximately 40% of eligible credit-refund requests. These are targets rather than demonstrated results; the deployment supports employees handling card inquiries, not autonomous consumer purchasing or unrestricted payment initiation.",
+      "title": "BILL Reports 12-Minute Underwriting Turnaround With Human Decisions Retained",
+      "body": "BILL CEO Ren\u00e9 Lacerte said its three-agent Robin underwriting suite reduced case turnaround from three hours to approximately 12 minutes. Humans still make the credit decision. Lacerte also said more than 100 AI agents save BILL teams over 1,400 hours monthly. These management-reported figures describe faster processing, not independently verified cash savings or improved credit outcomes; approval quality, exception handling and subsequent losses remain separate measures for embedded-credit providers evaluating similar workflows.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/"
+        "url": "https://www.pymnts.com/earnings/2026/bill-slashes-underwriting-times-from-3-hours-to-12-minutes-with-ai/"
       }
     },
     {
-      "title": "Synctera Raises $24.5 Million to Fund Sponsor-Bank Infrastructure and Compliance Tools",
-      "body": "Following its April 2026 acquisition of continuous-control-testing provider Cable, Synctera raised $24.5 million to support its sponsor-bank and fintech infrastructure business. The funding adds resources for program management and compliance tooling, but does not itself demonstrate stronger controls or a recovery in banking-as-a-service demand. Control-testing coverage, remediation evidence and onboarding performance provide sponsor banks with more direct measures of the platform\u2019s capabilities than the financing total.",
+      "title": "Gnosis Pay Breach Exposes Customer Identity and Wallet Links",
+      "body": "A Gnosis Pay customer notification listed exposure of a name, home address, card number and connected wallet addresses following unauthorized access to its branded consumer-card system. Linking identity details to wallets creates targeted-phishing risks beyond card misuse. Gnosis Pay said its enterprise white-label platform remained unaffected and made 3D Secure mandatory for online card payments. The affected consumer system was already scheduled for retirement on December 20, leaving customer migration and continued protection of the legacy system as distinct tasks for the company and its card-program partners.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/startups/2026/synctera-raises-25-million-dollars-support-new-baas-demand/"
+        "url": "https://www.pymnts.com/cybersecurity/2026/gnosis-pay-breach-reveals-crypto-customer-home-addresses/"
       }
     },
     {
-      "title": "PayFacto Plans Konek Integration to Add Account-Based Payments Across Canadian Merchants",
-      "body": "Canadian merchants in PayFacto\u2019s network are the intended recipients of a new account-based checkout option: Interac announced that PayFacto is integrating Konek across its merchant and partner networks alongside card payments. The announcement establishes integration plans, not completed merchant rollout, transaction volumes or demonstrated savings. Live availability, pricing, settlement timing and refund handling remain necessary details for merchants assessing the option.",
+      "title": "Claude Adds Plaid-Connected Account Analysis, Not Payment Execution",
+      "body": "Anthropic introduced a U.S. Personal Finance beta that connects accounts through Plaid for eligible paid subscribers, supplying balances, credit limits and up to 24 months of transactions. The service cannot move or invest money. That places the launch in financial information and analysis rather than payment initiation, with personal-finance apps and banks\u2019 digital channels as competing interfaces. PYMNTS notes that balances may lag by one or two days, limiting how current an account picture the assistant can provide.",
       "source": {
-        "name": "Finextra \u2014 company release",
-        "url": "https://www.finextra.com/pressarticle/111608/payfacto-intergrates-interac-konek-digital-wallet-across-merchant-network"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-launches-claude-personal-finance-ahead-of-nasdaq-listing/"
       }
     }
   ],
-  "perspective": "Nubank\u2019s transfer restrictions and BMO\u2019s AI plans put service reliability and controls alongside new funding and checkout integrations.",
+  "perspective": "BILL reports faster AI-assisted underwriting as FinCEN and the Federal Reserve withdraw proposed cross-border transfer-record requirements.",
   "curiosity": {
-    "text": "Barclays installed a cash dispenser in Enfield, London, on June 27, 1967. Instead of inserting a plastic bank card, customers used special paper vouchers that the machine retained\u2014a different access mechanism from today\u2019s ATMs. Source: Smithsonian Magazine, \u201cA Brief History of the ATM\u201d \u2014 https://www.smithsonianmag.com/history/brief-history-atm-180953547/"
+    "text": "The U.S. Treasury introduced Series I savings bonds in 1998, but their inflation protection works through interest rates\u2014not inflation-indexed principal. Each bond combines a fixed rate with an inflation component that Treasury recalculates every May and November. The counterintuitive safeguard: deflation can reduce the composite interest rate to zero, but never below zero. Source: U.S. Treasury, \u201cAbout I Bonds\u201d \u2014 https://www.treasurydirect.gov/savings-bonds/i-bonds/"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Pliant",
-      "description": "Raises $80 million Series C led by Seaya Nova and Speedinvest.",
-      "source_url": "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80"
-    },
-    {
-      "flag": "\ud83c\uddff\ud83c\udde6",
-      "type": "expansion",
-      "company": "Mukuru",
-      "description": "Adds 170,000 South African remittance cash pay-in points through Flash.",
-      "source_url": "https://www.finextra.com/pressarticle/111601/mukuru-adds-170000-remittance-pay-in-points-across-south-africa"
-    },
-    {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Huntington National Bank",
-      "description": "Launches Kyriba-powered treasury platform combining multibank visibility, forecasting and payment workflows.",
-      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/huntington-platform-unifies-distributed-treasury-operations/"
+      "type": "fundraising",
+      "company": "Synctera",
+      "description": "Raised $24.5 million to support sponsor-bank infrastructure and compliance capabilities.",
+      "source_url": "https://www.pymnts.com/startups/2026/synctera-raises-25-million-dollars-support-new-baas-demand/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "flag": "\ud83c\udde8\ud83c\udde6",
       "type": "product",
-      "company": "Klarna",
-      "description": "Extends in-app caller verification to all 26 operating markets.",
-      "source_url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/klarna-targets-scam-calls-with-new-verification-tool/"
+      "company": "BMO",
+      "description": "Introduced employee-facing AI assistance for Canadian credit-card inquiries and eligible refund processing.",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "M&A",
+      "company": "Aave Labs",
+      "description": "Acquired Avon\u2019s team and technology, prioritizing fixed-rate on-chain lending capabilities.",
+      "source_url": "https://www.pymnts.com/blockchain/2026/aave-labs-acquires-avon-tech-to-take-on-chain-lending-mainstream/"
     }
   ]
 }
