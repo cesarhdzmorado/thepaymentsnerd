@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "The Block Reports Partial Binance Withdrawal Restoration After Estimated $6.3 Billion Theft",
-      "body": "The Block reported that Binance suspended withdrawals after an October 30 theft estimated at $6.3 billion and subsequently restored access in stages. Its account distinguishes withdrawals already reopened from additional reopenings still planned; it does not establish restored access across every asset. The report also attributed to Elliptic a finding that attackers exchanged stolen tokens for $124 million in bitcoin. For payment providers and liquidity counterparties, asset-specific withdrawal availability and pending-transaction records remain necessary checks before moving funds or retrying transfers.",
+      "title": "Canada Launches Real-Time Payments System",
+      "body": "Finextra reports that Canada launched its real-time payments system on November 9 after years of delays. The launch establishes a new payment rail, but does not by itself establish availability across every bank or business account. Participant activation and customer-facing services will determine which businesses can use it; transaction volumes and fraud outcomes will provide evidence of adoption beyond the launch announcement.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches"
       }
     },
     {
-      "title": "FinCEN and Fed Withdraw Proposed $250 Cross-Border Recordkeeping Threshold",
-      "body": "Banks and remittance providers no longer need to prepare for this proposed expansion of federal transfer-record requirements. FinCEN and the Federal Reserve withdrew amendments that would have lowered the relevant cross-border Recordkeeping and Travel Rule threshold from $3,000 to $250 and expanded coverage of digital-asset transactions. The withdrawal removes those proposed changes, not existing anti-money-laundering, suspicious-activity reporting or Travel Rule obligations.",
+      "title": "Binance Investigation Traces Stolen Funds Through Disposable Memecoins",
+      "body": "Attackers created disposable memecoins to disguise movements of stolen Binance funds, according to Elliptic research reported by PYMNTS. Elliptic says the transactions remain traceable, making updated wallet attribution relevant to exchanges, custodians and stablecoin payment providers screening incoming transfers. Binance separately reported freezing or intercepting funds; that does not establish that customers received reimbursement. The reported dollar estimates lack a reconciled valuation basis and should not be combined into a recovery total.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/feds-pull-proposals-for-reporting-crypto-transactions/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/binance-heist-crew-employs-meme-coins-to-launder-funds/"
       }
     },
     {
-      "title": "BILL Reports 12-Minute Underwriting Turnaround With Human Decisions Retained",
-      "body": "BILL CEO Ren\u00e9 Lacerte said its three-agent Robin underwriting suite reduced case turnaround from three hours to approximately 12 minutes. Humans still make the credit decision. Lacerte also said more than 100 AI agents save BILL teams over 1,400 hours monthly. These management-reported figures describe faster processing, not independently verified cash savings or improved credit outcomes; approval quality, exception handling and subsequent losses remain separate measures for embedded-credit providers evaluating similar workflows.",
+      "title": "Coinbase Receives Unconditional Trust Charter Approval, Starting With Custody",
+      "body": "Banking Dive reports that Coinbase National Trust Co. received unconditional OCC approval on November 6, following conditional approval in April. The federal framework covers digital-asset custody, settlement and stablecoin reserve management, while Coinbase says its initial offering will focus on custody. The approval concerns trust activities, not a general-purpose insured retail deposit bank. Institutional customers must distinguish the initial custody service from settlement and reserve-management capabilities that still require evidence of operational rollout.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/bill-slashes-underwriting-times-from-3-hours-to-12-minutes-with-ai/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/coinbase-secures-unconditional-trust-charter/874135/"
       }
     },
     {
-      "title": "Gnosis Pay Breach Exposes Customer Identity and Wallet Links",
-      "body": "A Gnosis Pay customer notification listed exposure of a name, home address, card number and connected wallet addresses following unauthorized access to its branded consumer-card system. Linking identity details to wallets creates targeted-phishing risks beyond card misuse. Gnosis Pay said its enterprise white-label platform remained unaffected and made 3D Secure mandatory for online card payments. The affected consumer system was already scheduled for retirement on December 20, leaving customer migration and continued protection of the legacy system as distinct tasks for the company and its card-program partners.",
+      "title": "Affirm Agrees to Acquire Ratepay From Nexi",
+      "body": "Nexi agreed to sell Ratepay to Affirm, with closing expected in the first half of 2027, subject to regulatory approvals. Alongside the proposed acquisition, the companies signed a memorandum to expand their partnership in Germany, Austria and Switzerland. Nexi will provide transitional operational and technology support. For Ratepay merchants, the ownership change makes invoice-payment continuity, migration terms and funding arrangements concrete implementation questions; the announcement does not demonstrate improved conversion or underwriting.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/2026/gnosis-pay-breach-reveals-crypto-customer-home-addresses/"
+        "url": "https://www.pymnts.com/news/acquiring/2026/nexi-sells-payment-provider-ratepay-to-affirm/"
       }
     },
     {
-      "title": "Claude Adds Plaid-Connected Account Analysis, Not Payment Execution",
-      "body": "Anthropic introduced a U.S. Personal Finance beta that connects accounts through Plaid for eligible paid subscribers, supplying balances, credit limits and up to 24 months of transactions. The service cannot move or invest money. That places the launch in financial information and analysis rather than payment initiation, with personal-finance apps and banks\u2019 digital channels as competing interfaces. PYMNTS notes that balances may lag by one or two days, limiting how current an account picture the assistant can provide.",
+      "title": "Global Payments Adds Visa Data Exchange to Authentication",
+      "body": "Eligible domestic transactions in the United States and Canada can carry additional context to issuers through Global Payments\u2019 integration of Visa\u2019s Intelligent Data Exchange API into Adaptive Authentication. Global Payments\u2019 cited 4%\u20136% approval-rate gains relate to existing Data Only authentication and AI optimization implementations, not the new integration. Controlled comparisons of approval rates, fraud losses, challenge rates and fees would separate the API\u2019s incremental contribution from existing authentication tools.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-launches-claude-personal-finance-ahead-of-nasdaq-listing/"
+        "url": "https://www.pymnts.com/authentication/2026/global-payments-expands-authentication-platform-with-visa-data-sharing-tool/"
       }
     }
   ],
-  "perspective": "BILL reports faster AI-assisted underwriting as FinCEN and the Federal Reserve withdraw proposed cross-border transfer-record requirements.",
+  "perspective": "Canada\u2019s real-time payments launch adds payment infrastructure, while Affirm\u2019s proposed Ratepay acquisition changes ownership in European invoice payments.",
   "curiosity": {
-    "text": "The U.S. Treasury introduced Series I savings bonds in 1998, but their inflation protection works through interest rates\u2014not inflation-indexed principal. Each bond combines a fixed rate with an inflation component that Treasury recalculates every May and November. The counterintuitive safeguard: deflation can reduce the composite interest rate to zero, but never below zero. Source: U.S. Treasury, \u201cAbout I Bonds\u201d \u2014 https://www.treasurydirect.gov/savings-bonds/i-bonds/"
+    "text": "U.S. postal money orders began in 1864, more than a century before today\u2019s U.S. Postal Service was established in 1971. They offered a safer alternative to mailing cash, allowing senders to purchase an order payable to a named recipient. Source: USPS, \u201cMoney Orders\u201d postal history \u2014 https://about.usps.com/who/profile/history/postal-history/money-orders.pdf"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "PNC Bank",
+      "description": "Introduces incoming Ethereum-based USDC payments for corporate and institutional clients.",
+      "source_url": "https://www.pymnts.com/news/banking/2026/pnc-opens-usdc-stablecoin-payments-to-corporate-clients/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "fundraising",
       "company": "Synctera",
-      "description": "Raised $24.5 million to support sponsor-bank infrastructure and compliance capabilities.",
-      "source_url": "https://www.pymnts.com/startups/2026/synctera-raises-25-million-dollars-support-new-baas-demand/"
+      "description": "Raises $24.5 million for embedded-banking infrastructure; detailed financing terms remain unverified.",
+      "source_url": "https://www.finextra.com/newsarticle/48720/embedded-finance-platform-synctera-raises-245m"
     },
     {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "product",
-      "company": "BMO",
-      "description": "Introduced employee-facing AI assistance for Canadian credit-card inquiries and eligible refund processing.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Aave Labs",
-      "description": "Acquired Avon\u2019s team and technology, prioritizing fixed-rate on-chain lending capabilities.",
-      "source_url": "https://www.pymnts.com/blockchain/2026/aave-labs-acquires-avon-tech-to-take-on-chain-lending-mainstream/"
+      "company": "Morgan Stanley / Vinyl Equity",
+      "description": "Agrees to acquire digital transfer agent Vinyl Equity; closing expected in Q1 2027.",
+      "source_url": "https://www.bankingdive.com/news/morgan-stanley-acquire-vinyl-equity-ipo-wealth/874136/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Chase UK / PayPoint",
+      "description": "Adds UK cash deposits through PayPoint\u2019s network of more than 30,000 locations.",
+      "source_url": "https://www.finextra.com/newsarticle/48723/chase-customers-can-now-deposit-cash-into-their-accounts-at-uk-paypoint-locations"
     }
   ]
 }
