@@ -1,78 +1,64 @@
 {
   "news": [
     {
-      "title": "Canada Launches Real-Time Payments System",
-      "body": "Finextra reports that Canada launched its real-time payments system on November 9 after years of delays. The launch establishes a new payment rail, but does not by itself establish availability across every bank or business account. Participant activation and customer-facing services will determine which businesses can use it; transaction volumes and fraud outcomes will provide evidence of adoption beyond the launch announcement.",
+      "title": "Guinea Implements Mojaloop Technology for NimbaPay Instant Payments",
+      "body": "The Mojaloop Foundation announced that its technology now powers NimbaPay, Guinea\u2019s national inclusive instant-payment system. The deployment introduces infrastructure for interoperable domestic transfers, connecting the story of instant payments to banks, mobile-money providers and merchants in Guinea. The announcement did not identify connected institutions or disclose transaction volumes and active-user figures, so it does not establish universal availability or the extent of bank-to-wallet connectivity.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches"
+        "url": "https://www.finextra.com/pressarticle/111628/mojaloop-powers-the-launch-of-guineas-nimbapay"
       }
     },
     {
-      "title": "Binance Investigation Traces Stolen Funds Through Disposable Memecoins",
-      "body": "Attackers created disposable memecoins to disguise movements of stolen Binance funds, according to Elliptic research reported by PYMNTS. Elliptic says the transactions remain traceable, making updated wallet attribution relevant to exchanges, custodians and stablecoin payment providers screening incoming transfers. Binance separately reported freezing or intercepting funds; that does not establish that customers received reimbursement. The reported dollar estimates lack a reconciled valuation basis and should not be combined into a recovery total.",
+      "title": "US Card Balances Reach $1.29 Trillion as New Delinquencies Edge Lower",
+      "body": "US credit-card balances increased $22 billion to $1.29 trillion in the third quarter, PYMNTS reported, while the shares newly entering early or serious delinquency edged down. Across household debt, however, the delinquent share rose from 4.7% to 5%. The figures separate two developments for card issuers: customers carried larger card balances, but a smaller share of those balances newly crossed delinquency thresholds.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/binance-heist-crew-employs-meme-coins-to-launder-funds/"
+        "url": "https://www.pymnts.com/consumer-finance/2026/fed-data-shows-household-debt-hits-19-1-trillion-as-bill-payers-lose-confidence/"
       }
     },
     {
-      "title": "Coinbase Receives Unconditional Trust Charter Approval, Starting With Custody",
-      "body": "Banking Dive reports that Coinbase National Trust Co. received unconditional OCC approval on November 6, following conditional approval in April. The federal framework covers digital-asset custody, settlement and stablecoin reserve management, while Coinbase says its initial offering will focus on custody. The approval concerns trust activities, not a general-purpose insured retail deposit bank. Institutional customers must distinguish the initial custody service from settlement and reserve-management capabilities that still require evidence of operational rollout.",
+      "title": "Banks Reportedly Commit $270 Million to Project Faro Stablecoin Venture",
+      "body": "Banks including Goldman Sachs, Citi, Santander and Deutsche Bank reportedly pledged approximately $270 million to Project Faro, a planned US-incorporated stablecoin issuer targeting a dollar-token launch in the first half of 2027. PYMNTS, citing Bloomberg, said the financing would cover five years of operations. The banks would fund an issuer rather than simply distribute an existing token; the reported commitment represents operating capital, not stablecoin reserves or circulating supply. Participating banks declined to comment to Bloomberg, and the report establishes neither regulatory approval nor live payment usage.",
+      "source": {
+        "name": "PYMNTS, reporting Bloomberg\u2019s findings",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/goldman-and-citi-help-fund-270-million-stablecoin-venture/"
+      }
+    },
+    {
+      "title": "PNC Pilots USDC Receipts That Convert Into Corporate Dollar Deposits",
+      "body": "Corporate and institutional customers in PNC\u2019s pilot can receive USDC on Ethereum through the bank\u2019s Coinbase relationship. The service automatically converts incoming USDC 1-to-1 into dollars and deposits them in a PNC account, adding a collection channel without requiring customers to retain stablecoins. PNC disclosed neither participant numbers nor payment volumes. The pilot supports incoming payments only, not outbound transfers.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/coinbase-secures-unconditional-trust-charter/874135/"
+        "url": "https://www.bankingdive.com/news/pnc-stablecoin-payments-corporate-clients-coinbase-usdc/874229/"
       }
     },
     {
-      "title": "Affirm Agrees to Acquire Ratepay From Nexi",
-      "body": "Nexi agreed to sell Ratepay to Affirm, with closing expected in the first half of 2027, subject to regulatory approvals. Alongside the proposed acquisition, the companies signed a memorandum to expand their partnership in Germany, Austria and Switzerland. Nexi will provide transitional operational and technology support. For Ratepay merchants, the ownership change makes invoice-payment continuity, migration terms and funding arrangements concrete implementation questions; the announcement does not demonstrate improved conversion or underwriting.",
+      "title": "Sage Develops Business Accounts and Debit Cards With Adyen and Mastercard",
+      "body": "Sage selected Adyen and Mastercard to support embedded financial services for European small businesses, with the first implementation planned for France. Adyen will provide banking-as-a-service infrastructure and onboarding; Mastercard will support debit-card capabilities. The partnerships give account and card providers a distribution channel through accounting software. Sage has not announced general availability, customer eligibility or pricing, leaving the scope of small-business access undefined.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/nexi-sells-payment-provider-ratepay-to-affirm/"
-      }
-    },
-    {
-      "title": "Global Payments Adds Visa Data Exchange to Authentication",
-      "body": "Eligible domestic transactions in the United States and Canada can carry additional context to issuers through Global Payments\u2019 integration of Visa\u2019s Intelligent Data Exchange API into Adaptive Authentication. Global Payments\u2019 cited 4%\u20136% approval-rate gains relate to existing Data Only authentication and AI optimization implementations, not the new integration. Controlled comparisons of approval rates, fraud losses, challenge rates and fees would separate the API\u2019s incremental contribution from existing authentication tools.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/authentication/2026/global-payments-expands-authentication-platform-with-visa-data-sharing-tool/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/pressarticle/111623/sage-partners-with-adyen-and-mastercard-to-deliver-business-accounts-with-debit-cards-for-small-busi"
       }
     }
   ],
-  "perspective": "Canada\u2019s real-time payments launch adds payment infrastructure, while Affirm\u2019s proposed Ratepay acquisition changes ownership in European invoice payments.",
+  "perspective": "PNC tests stablecoin-to-deposit receipts as Guinea\u2019s NimbaPay introduces national instant-payment infrastructure.",
   "curiosity": {
-    "text": "U.S. postal money orders began in 1864, more than a century before today\u2019s U.S. Postal Service was established in 1971. They offered a safer alternative to mailing cash, allowing senders to purchase an order payable to a named recipient. Source: USPS, \u201cMoney Orders\u201d postal history \u2014 https://about.usps.com/who/profile/history/postal-history/money-orders.pdf"
+    "text": "The Check 21 Act, effective October 28, 2004, made qualifying paper \u201csubstitute checks\u201d legally equivalent to original checks\u2014it did not require banks to accept electronic images. A substitute check is a paper reproduction, not the electronic image itself. Source: Federal Reserve, \u201cCheck 21 FAQs\u201d \u2014 https://www.federalreserve.gov/paymentsystems/regcc-faq-check21.htm"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "PNC Bank",
-      "description": "Introduces incoming Ethereum-based USDC payments for corporate and institutional clients.",
-      "source_url": "https://www.pymnts.com/news/banking/2026/pnc-opens-usdc-stablecoin-payments-to-corporate-clients/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "fundraising",
-      "company": "Synctera",
-      "description": "Raises $24.5 million for embedded-banking infrastructure; detailed financing terms remain unverified.",
-      "source_url": "https://www.finextra.com/newsarticle/48720/embedded-finance-platform-synctera-raises-245m"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Morgan Stanley / Vinyl Equity",
-      "description": "Agrees to acquire digital transfer agent Vinyl Equity; closing expected in Q1 2027.",
-      "source_url": "https://www.bankingdive.com/news/morgan-stanley-acquire-vinyl-equity-ipo-wealth/874136/"
+      "company": "Affirm",
+      "description": "Agrees to acquire Ratepay and expand Nexi partnership across three European markets.",
+      "source_url": "https://www.nexigroup.com/en/media-relations/press-releases/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Chase UK / PayPoint",
-      "description": "Adds UK cash deposits through PayPoint\u2019s network of more than 30,000 locations.",
-      "source_url": "https://www.finextra.com/newsarticle/48723/chase-customers-can-now-deposit-cash-into-their-accounts-at-uk-paypoint-locations"
+      "company": "Bilt",
+      "description": "Launches neighborhood-commerce platform extending merchant distribution beyond residential communities.",
+      "source_url": "https://www.pymnts.com/smbs/2026/bilt-seeks-slice-of-6-trillion-neighborhood-commerce-space/"
     }
   ]
 }
