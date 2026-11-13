@@ -1,85 +1,71 @@
 {
   "news": [
     {
-      "title": "Western Union Abandons Intermex Acquisition After Rejecting California\u2019s Conditions",
-      "body": "Western Union terminated its $500 million Intermex acquisition, saying California\u2019s conditions would require material changes to its business model, agent relationships and strategy. California\u2019s DFPI said its conditions addressed fraud, scams, money laundering and competitive access. The cancellation prevents the companies from combining their agent networks and customer relationships, ending a deal intended to expand Western Union\u2019s US retail footprint and digital customer acquisition.",
+      "title": "Visa Adds Western Union\u2019s USDPT to Stablecoin Settlement Initiative",
+      "body": "Visa and Anchorage Digital announced support for selected Anchorage-issued stablecoins as native settlement assets on Visa\u2019s network, beginning with Western Union\u2019s USDPT. The arrangement connects USDPT to card-network settlement infrastructure; it does not establish merchant acceptance or displacement of bank settlement. The reports do not identify participating institutions, corridor coverage, pricing or settlement volumes, leaving banks without those inputs for comparing the option with existing arrangements.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/western-union-scraps-intermex-deal-after-regulatory-fight/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520"
       }
     },
     {
-      "title": "Square Opens Bitcoin Acceptance to Eligible Merchants Ahead of January Fees",
-      "body": "Eligible US Square merchants can now accept Bitcoin through the Lightning Network and receive dollars without holding cryptocurrency; New York businesses remain excluded. Square completed the rollout within its existing merchant software and settlement relationship, removing the need for a separate crypto-payment provider. Processing remains free through December 31, 2026, before a 1% fee begins on January 1, 2027.",
+      "title": "Fiserv Moves Debit Clients Ahead of Potential Network Sale",
+      "body": "Fiserv is moving clients to one of its two debit networks as it prepares to sell the other, according to Finextra\u2019s account of comments by Takis Georgakopoulos. The report does not identify the network, buyer, transaction value or timetable. For banks and processors using the networks, client migration makes this more than a portfolio-review announcement, but the report does not confirm changes to routing, network participation or contractual terms.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/blockchain/bitcoin/2026/square-makes-bitcoin-payments-free-will-merchants-pay-when-promotion-ends/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48750/fiserv-lays-groundwork-to-offload-a-debit-network"
       }
     },
     {
-      "title": "US Card Balances Reach $1.29 Trillion as Delinquency Transitions Edge Lower",
-      "body": "US credit-card balances rose $22 billion to approximately $1.29 trillion in the third quarter, while transitions into early and serious delinquency edged down, according to PYMNTS\u2019 account of New York Fed data. A companion analysis found median opening credit scores of 688 for cards issued in 2020\u20132022, compared with 699 for 2017\u20132019 originations. Those differences distinguish aggregate repayment trends from the credit profiles of newer borrowers; the headline delinquency decline does not establish uniformly stronger performance across account cohorts.",
+      "title": "Hancock Whitney Agrees to $3.2 Billion Trustmark Acquisition",
+      "body": "An approximately $3.2 billion all-stock agreement would combine Hancock Whitney and Trustmark into a bank with roughly $58 billion in assets and $48 billion in deposits, Banking Dive reports. Closing is expected in the first quarter of 2027. Management projects $205.5 million in pre-tax run-rate net expense savings\u2014not realized savings. The acquisition would expand Hancock Whitney\u2019s deposit base and geographic coverage, while the article does not establish which payment platforms the combined bank would retain.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/credit-cards/2026/credit-card-limits-climb-115-billion-as-delinquencies-ease/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/hancock-whitney-buy-trustmark-3b-deal-bank-acquisition/874522/"
       }
     },
     {
-      "title": "OCC Reassigns Bank Examiners to Charter Reviews as Its Workforce Shrinks",
-      "body": "The OCC is assigning bank examiners to charter and merger reviews alongside licensing specialists, according to Bloomberg reporting summarized by PYMNTS. The agency reportedly employed approximately 2,600 people in August after losing more than 1,000 since January 2025, while at least 50 firms applied for charters from early 2025 through October 2026. The reassignment adds examiners to application reviews, but the report does not quantify application delays and says the agency had not canceled or delayed examinations.",
+      "title": "Imprint Raises $130 Million and Adds $1.5 Billion in Borrowing Capacity",
+      "body": "Imprint raised $130 million in a round led by Khosla Ventures at an approximately $1.9 billion valuation, according to PYMNTS. Separately, it added $1.5 billion in borrowing capacity to fund card balances; that capacity is not additional equity or a measure of borrowing already drawn. The company reports more than two million members and 2026 program launches with Albertsons, Fanatics, Kroger and Shell. The financing supports both company investment and receivables funding for its retailer card programs.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/legal/bank-regulation/2026/occ-staffing-crunch-tests-bank-charter-push/"
+        "url": "https://www.pymnts.com/news/payments-innovation/2026/imprint-raises-130-million-as-brands-race-to-keep-customers-in-the-ai-era/"
       }
     },
     {
-      "title": "United Allows AI Flight Search but Keeps Agents Out of Checkout",
-      "body": "United Airlines allows personal AI agents to search flights and display prices but blocks them from completing bookings on its website. The airline cited sensitive-data exposure, unintended purchases and mandatory customer disclosures; CEO Scott Kirby also said he did not want another intermediary between United and its customers. The policy separates permission to discover flights from permission to purchase them, keeping checkout under United\u2019s control even when an agent handles the search.",
+      "title": "Unocoin\u2019s Multiday Login Suspension Blocks Customer Account Access",
+      "body": "Customers of Indian crypto exchange Unocoin remained unable to log in across multiple days, The Block reports. The exchange also flagged outgoing ether transactions associated with BitGo, but the reported transfers do not establish unauthorized activity, custody-provider fault or customer losses. The confirmed operational issue is interrupted account access; the report does not establish total exposure or support assigning responsibility to BitGo.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/united-airlines-blocks-ai-bots-from-booking-flights/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-12-unocoin-login-suspension-continues-as-exchange-flags-outgoing-bitgo-eth-transactions-438654"
       }
     }
   ],
-  "perspective": "Western Union\u2019s canceled acquisition and United\u2019s AI booking restrictions highlight the permissions governing distribution, checkout and access to financial services.",
+  "perspective": "Visa adds USDPT settlement support as Fiserv moves debit clients ahead of a potential network sale.",
   "curiosity": {
-    "text": "Congress enacted the Electronic Fund Transfer Act in 1978, establishing consumer rights and responsibilities for electronic fund transfers. Regulation E implements the act, covering transactions such as ATM withdrawals, debit-card payments and preauthorized transfers, with rules for disclosures, unauthorized-transfer liability and error resolution. Source: Federal Reserve, \u201cElectronic Fund Transfer Act (Regulation E)\u201d \u2014 https://www.federalreserve.gov/supervisionreg/rege-about.htm"
+    "text": "The U.S. Treasury launched the modern TreasuryDirect system in 2002 with electronic savings bonds\u2014not in 1999. Earlier electronic holdings of marketable Treasury securities belonged to a different stage of Treasury\u2019s digital history. Source: U.S. Treasury, \u201cHistorical Perspective\u201d \u2014 https://www.treasurydirect.gov/about/historical-perspective/"
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\uddf2\ud83c\uddfd",
+      "type": "fundraising",
+      "company": "Clara",
+      "description": "Raises $65 million Series C for Latin American corporate spend management.",
+      "source_url": "https://www.finextra.com/newsarticle/48753/mexicos-clara-raises-65m-for-spend-management-platform"
+    },
+    {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Zilch",
-      "description": "Adds \u00a3165 million in debt facilities, lifting available commitments to \u00a3395 million.",
-      "source_url": "https://www.finextra.com/newsarticle/48741/zilch-expands-debt-facilities-to-395m-in-round-led-by-deutsche-bank"
-    },
-    {
-      "flag": "",
-      "type": "fundraising",
-      "company": "Palomma",
-      "description": "Raises $10 million Series A led by Cometa for rental financial services.",
-      "source_url": "https://news.crunchbase.com/fintech/nubank-alum-colombia-startup-palomma-ai-rental-services/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8 / \ud83c\udde9\ud83c\uddea",
-      "type": "M&A",
-      "company": "Affirm / Ratepay",
-      "description": "Agrees to acquire Ratepay from Nexi; financial terms undisclosed.",
-      "source_url": "https://www.finextra.com/newsarticle/48736/nexi-to-sell-ratepay-to-affirm"
+      "company": "Griffin",
+      "description": "Raises \u00a320 million Series B to add cards and stablecoin capabilities.",
+      "source_url": "https://www.finextra.com/newsarticle/48746/baas-bank-griffin-raises-20m-to-add-cards-and-stablecoin-capabilities"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "product",
-      "company": "HSBC UK / Stripe",
-      "description": "Launches smartphone contactless acceptance for eligible HSBC UK small-business customers.",
-      "source_url": "https://www.pymnts.com/smbs/2026/hsbc-uses-stripe-small-business-tap-to-pay-offering/"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Sage",
-      "description": "Announces embedded business accounts and debit cards with Adyen and Mastercard, starting in France.",
-      "source_url": "https://www.finextra.com/pressarticle/111623/sage-partners-with-adyen-and-mastercard-to-deliver-business-accounts-with-debit-cards-for-small-busi"
+      "company": "Starling Bank",
+      "description": "Introduces AI-powered spoken payment setup in its retail banking app.",
+      "source_url": "https://www.finextra.com/newsarticle/48748/starling-unveils-ai-powered-talk-to-transact-feature"
     }
   ]
 }
