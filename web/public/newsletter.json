@@ -1,49 +1,49 @@
 {
   "news": [
     {
-      "title": "Visa Adds Western Union\u2019s USDPT to Stablecoin Settlement Initiative",
-      "body": "Visa and Anchorage Digital announced support for selected Anchorage-issued stablecoins as native settlement assets on Visa\u2019s network, beginning with Western Union\u2019s USDPT. The arrangement connects USDPT to card-network settlement infrastructure; it does not establish merchant acceptance or displacement of bank settlement. The reports do not identify participating institutions, corridor coverage, pricing or settlement volumes, leaving banks without those inputs for comparing the option with existing arrangements.",
-      "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520"
-      }
-    },
-    {
-      "title": "Fiserv Moves Debit Clients Ahead of Potential Network Sale",
-      "body": "Fiserv is moving clients to one of its two debit networks as it prepares to sell the other, according to Finextra\u2019s account of comments by Takis Georgakopoulos. The report does not identify the network, buyer, transaction value or timetable. For banks and processors using the networks, client migration makes this more than a portfolio-review announcement, but the report does not confirm changes to routing, network participation or contractual terms.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48750/fiserv-lays-groundwork-to-offload-a-debit-network"
-      }
-    },
-    {
-      "title": "Hancock Whitney Agrees to $3.2 Billion Trustmark Acquisition",
-      "body": "An approximately $3.2 billion all-stock agreement would combine Hancock Whitney and Trustmark into a bank with roughly $58 billion in assets and $48 billion in deposits, Banking Dive reports. Closing is expected in the first quarter of 2027. Management projects $205.5 million in pre-tax run-rate net expense savings\u2014not realized savings. The acquisition would expand Hancock Whitney\u2019s deposit base and geographic coverage, while the article does not establish which payment platforms the combined bank would retain.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/hancock-whitney-buy-trustmark-3b-deal-bank-acquisition/874522/"
-      }
-    },
-    {
-      "title": "Imprint Raises $130 Million and Adds $1.5 Billion in Borrowing Capacity",
-      "body": "Imprint raised $130 million in a round led by Khosla Ventures at an approximately $1.9 billion valuation, according to PYMNTS. Separately, it added $1.5 billion in borrowing capacity to fund card balances; that capacity is not additional equity or a measure of borrowing already drawn. The company reports more than two million members and 2026 program launches with Albertsons, Fanatics, Kroger and Shell. The financing supports both company investment and receivables funding for its retailer card programs.",
+      "title": "Binance Reports $6.34 Billion in Loss Coverage as Withdrawals Reopen in Phases",
+      "body": "Binance said it committed more than $6.34 billion to replace assets affected by the late-October theft. PYMNTS reported that authorities and private-sector firms had frozen more than $2.7 billion in stolen assets while the exchange reopened withdrawals in phases. Committed replacement funding, frozen assets and money returned to customers measure different things; the coverage announcement alone does not establish how much stolen money Binance has recovered.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payments-innovation/2026/imprint-raises-130-million-as-brands-race-to-keep-customers-in-the-ai-era/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/united-states-private-sector-freeze-3-billion-dollars-crypto-stolen-binance-heist/"
       }
     },
     {
-      "title": "Unocoin\u2019s Multiday Login Suspension Blocks Customer Account Access",
-      "body": "Customers of Indian crypto exchange Unocoin remained unable to log in across multiple days, The Block reports. The exchange also flagged outgoing ether transactions associated with BitGo, but the reported transfers do not establish unauthorized activity, custody-provider fault or customer losses. The confirmed operational issue is interrupted account access; the report does not establish total exposure or support assigning responsibility to BitGo.",
+      "title": "Fed Sets 2027 Payment-Service Prices With a 1.4% Average Increase",
+      "body": "Banks and credit unions will receive new wholesale payment-service prices on January 1, 2027. The Federal Reserve estimates an average increase of 1.4% across its established, mature services. That aggregate is not a uniform increase for every service: each institution\u2019s processing mix determines its cost change. The schedules establish wholesale costs, not equivalent increases in the fees banks charge customers.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/ecosystems/2026-11-12-unocoin-login-suspension-continues-as-exchange-flags-outgoing-bitgo-eth-transactions-438654"
+        "name": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm"
+      }
+    },
+    {
+      "title": "OpenAI Introduces Tokenized ChatGPT Wallet Requiring User Approval for Every Purchase",
+      "body": "OpenAI introduced ChatGPT Wallet with American Express, Mastercard and Visa for eligible adult U.S. ChatGPT Pro subscribers using eligible U.S.-issued cards. Users review every purchase and complete a security check; payment networks supply tokens rather than exposing card details to the agent. The wallet uses existing card acceptance and preserves card rewards and protections, making this AI-assisted checkout rather than unrestricted delegated spending.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-gives-ai-agents-a-wallet-while-blocking-them-from-seeing-the-card/"
+      }
+    },
+    {
+      "title": "Three Central Banks Test Coordinated FX Settlement Across Different Systems",
+      "body": "Project Meridian FX APAC demonstrated coordination between real-time gross settlement (RTGS) systems, which settle payments individually, and distributed-ledger test environments. The Bank of England, Monetary Authority of Singapore and Bank of Thailand tested payment-versus-payment\u2014exchanging both currencies only when both sides can settle\u2014and multilateral net settlement, which offsets obligations among participants. Partior developed and tested the synchronization prototype. The trial did not launch a production service or establish production cost or speed savings; further development requires legal arrangements, oversight and an operating model.",
+      "source": {
+        "name": "Bank of England, joint central-bank release",
+        "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release"
+      }
+    },
+    {
+      "title": "PayPal Links Pending Bank Charter to Deposit Funding for Merchant Lending",
+      "body": "PayPal CFO and operating chief Jamie Miller said a bank subsidiary would support merchant lending and diversify funding through consumer or commercial deposits. PayPal filed its application with the FDIC and Utah regulators in December 2025; it remains pending. Miller\u2019s comments explain the proposed bank\u2019s funding model, not a regulatory approval. Any financing advantage would depend on deposit costs, capital requirements and approval conditions, and PayPal has not announced that it will discontinue existing lending partnerships or loan-sale arrangements.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/why-paypal-wants-bank-ilc/874639/"
       }
     }
   ],
-  "perspective": "Visa adds USDPT settlement support as Fiserv moves debit clients ahead of a potential network sale.",
+  "perspective": "OpenAI adds user-approved card checkout, while PayPal outlines deposit-funded merchant lending under its pending bank application.",
   "curiosity": {
-    "text": "The U.S. Treasury launched the modern TreasuryDirect system in 2002 with electronic savings bonds\u2014not in 1999. Earlier electronic holdings of marketable Treasury securities belonged to a different stage of Treasury\u2019s digital history. Source: U.S. Treasury, \u201cHistorical Perspective\u201d \u2014 https://www.treasurydirect.gov/about/historical-perspective/"
+    "text": "Japan\u2019s Zengin interbank network began operating in April 1973, linking banks to exchange domestic credit-transfer instructions; that milestone was not the origin of furikomi bank transfers. Source: BIS/CPSS, \u201cPayment, clearing and settlement systems in Japan\u201d \u2014 https://www.bis.org/cpmi/publ/d105_jp.pdf"
   },
   "whats_hot": [
     {
@@ -61,10 +61,24 @@
       "source_url": "https://www.finextra.com/newsarticle/48746/baas-bank-griffin-raises-20m-to-add-cards-and-stablecoin-capabilities"
     },
     {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Hancock Whitney / Trustmark",
+      "description": "Agrees $3.2 billion all-stock acquisition, targeting first-quarter 2027 closing.",
+      "source_url": "https://www.bankingdive.com/news/hancock-whitney-buy-trustmark-3b-deal-bank-acquisition/"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "product",
+      "company": "Revolut",
+      "description": "Expands Uber partnership with Revolut Pay checkout option.",
+      "source_url": "https://www.finextra.com/pressarticle/111658/uber-adds-revolut-pay-option"
+    },
+    {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "product",
       "company": "Starling Bank",
-      "description": "Introduces AI-powered spoken payment setup in its retail banking app.",
+      "description": "Announces voice-driven payment setup through its retail banking app.",
       "source_url": "https://www.finextra.com/newsarticle/48748/starling-unveils-ai-powered-talk-to-transact-feature"
     }
   ]
