@@ -1,85 +1,78 @@
 {
   "news": [
     {
-      "title": "Binance Reports $6.34 Billion in Loss Coverage as Withdrawals Reopen in Phases",
-      "body": "Binance said it committed more than $6.34 billion to replace assets affected by the late-October theft. PYMNTS reported that authorities and private-sector firms had frozen more than $2.7 billion in stolen assets while the exchange reopened withdrawals in phases. Committed replacement funding, frozen assets and money returned to customers measure different things; the coverage announcement alone does not establish how much stolen money Binance has recovered.",
+      "title": "Paysafe\u2019s Wallet Growth Meets Slower Payments And A Debt-Heavy Balance Sheet",
+      "body": "Paysafe reported a third-quarter payments slowdown alongside growth in digital wallets. The company disclosed $2.5 billion of debt and $250.7 million of cash at September 30 following refinancing, making the earnings contribution from that wallet growth particularly important. The next test is whether enterprise-merchant activation and wallet revenue per user improve\u2014not simply whether wallet activity rises.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/united-states-private-sector-freeze-3-billion-dollars-crypto-stolen-binance-heist/"
+        "url": "https://www.pymnts.com/earnings/2026/paysafe-flags-payments-slowdown-digital-wallets-volume-rises-1percent-q3/"
       }
     },
     {
-      "title": "Fed Sets 2027 Payment-Service Prices With a 1.4% Average Increase",
-      "body": "Banks and credit unions will receive new wholesale payment-service prices on January 1, 2027. The Federal Reserve estimates an average increase of 1.4% across its established, mature services. That aggregate is not a uniform increase for every service: each institution\u2019s processing mix determines its cost change. The schedules establish wholesale costs, not equivalent increases in the fees banks charge customers.",
+      "title": "Chase Blocks Shared-Card AI Purchases As Virtual Workarounds Add Merchant Costs",
+      "body": "JPMorgan Chase is blocking AI-agent purchases made with card numbers customers give agents, according to Wall Street Journal reporting relayed by PYMNTS. Stripe\u2019s Link can instead issue single-use virtual cards, but merchants reported higher acceptance costs from commercial-card classification and difficulties processing returns. Merchants evaluating agent checkout must distinguish issuer-supported agentic tokens from virtual-card fallbacks and test acceptance costs and refund matching separately.",
       "source": {
-        "name": "Federal Reserve Board",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm"
+        "name": "PYMNTS, reporting on The Wall Street Journal",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/jpmorgan-stops-ai-agents-from-using-customer-credit-cards/"
       }
     },
     {
-      "title": "OpenAI Introduces Tokenized ChatGPT Wallet Requiring User Approval for Every Purchase",
-      "body": "OpenAI introduced ChatGPT Wallet with American Express, Mastercard and Visa for eligible adult U.S. ChatGPT Pro subscribers using eligible U.S.-issued cards. Users review every purchase and complete a security check; payment networks supply tokens rather than exposing card details to the agent. The wallet uses existing card acceptance and preserves card rewards and protections, making this AI-assisted checkout rather than unrestricted delegated spending.",
+      "title": "Griffin Raises $20 Million For Planned Card And Stablecoin Expansion",
+      "body": "Griffin raised $20 million and outlined plans to expand into cards and stablecoins. The financing supports a broader product ambition, but planned services do not yet give fintech customers additional live payment capabilities. Prospective customers should tie integration decisions to actual card availability, processing arrangements and permissions for stablecoin reserve services.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-gives-ai-agents-a-wallet-while-blocking-them-from-seeing-the-card/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/griffin-eyes-stablecoin-expansion-after-raising-20-million-dollars/"
       }
     },
     {
-      "title": "Three Central Banks Test Coordinated FX Settlement Across Different Systems",
-      "body": "Project Meridian FX APAC demonstrated coordination between real-time gross settlement (RTGS) systems, which settle payments individually, and distributed-ledger test environments. The Bank of England, Monetary Authority of Singapore and Bank of Thailand tested payment-versus-payment\u2014exchanging both currencies only when both sides can settle\u2014and multilateral net settlement, which offsets obligations among participants. Partior developed and tested the synchronization prototype. The trial did not launch a production service or establish production cost or speed savings; further development requires legal arrangements, oversight and an operating model.",
+      "title": "Microsoft\u2019s Second-Day Recovery Puts Backup Communications Workflows On The Payments Checklist",
+      "body": "Microsoft said it had addressed the technical cause of a disruption affecting services including Outlook, Teams and Copilot across more than 70 countries, while restoration continued for remaining customers and regions. For banks, payment companies and merchants, the documented exposure concerns communications and operating workflows\u2014not a reported clearing or settlement outage. Payments teams should test approved backup channels for payment approvals, customer support and fraud callbacks, then compare their dependencies with Microsoft\u2019s promised post-incident report.",
       "source": {
-        "name": "Bank of England, joint central-bank release",
-        "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/connectedeconomy/2026/microsoft-continues-broad-recovery-during-second-day-of-outage/"
       }
     },
     {
-      "title": "PayPal Links Pending Bank Charter to Deposit Funding for Merchant Lending",
-      "body": "PayPal CFO and operating chief Jamie Miller said a bank subsidiary would support merchant lending and diversify funding through consumer or commercial deposits. PayPal filed its application with the FDIC and Utah regulators in December 2025; it remains pending. Miller\u2019s comments explain the proposed bank\u2019s funding model, not a regulatory approval. Any financing advantage would depend on deposit costs, capital requirements and approval conditions, and PayPal has not announced that it will discontinue existing lending partnerships or loan-sale arrangements.",
+      "title": "Thailand\u2019s Proposed Stablecoin Limits Distinguish Own-Account Transfers From Third-Party Payments",
+      "body": "Thailand has proposed rules that would cap certain stablecoin transfers at approximately $148,000 daily and permit transfers only between accounts or wallets belonging to the same person, The Block reported. Within the proposal\u2019s scope, that same-owner condition would separate moving a customer\u2019s own funds from paying another person or business. Thai digital-asset platforms should map those two transaction types separately and establish covered assets, exemptions and implementation dates before changing customer access.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/why-paypal-wants-bank-ilc/874639/"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676"
       }
     }
   ],
-  "perspective": "OpenAI adds user-approved card checkout, while PayPal outlines deposit-funded merchant lending under its pending bank application.",
+  "perspective": "Chase\u2019s AI purchase blocks and Thailand\u2019s proposed stablecoin limits put payment permissions alongside funding and service reliability on today\u2019s agenda.",
   "curiosity": {
-    "text": "Japan\u2019s Zengin interbank network began operating in April 1973, linking banks to exchange domestic credit-transfer instructions; that milestone was not the origin of furikomi bank transfers. Source: BIS/CPSS, \u201cPayment, clearing and settlement systems in Japan\u201d \u2014 https://www.bis.org/cpmi/publ/d105_jp.pdf"
+    "text": "In 1987, the U.S. Federal Reserve began requiring banks to use nine-digit routing numbers in electronic payments, adding a check digit that helps detect mistyped numbers. The final digit is calculated from the preceding eight using a weighted formula, so it can catch many\u2014but not all\u2014keying errors. Source: Federal Reserve Financial Services, \u201cRouting Number Policy\u201d \u2014 https://www.frbservices.org/resources/routing-number-policy"
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddf2\ud83c\uddfd",
-      "type": "fundraising",
-      "company": "Clara",
-      "description": "Raises $65 million Series C for Latin American corporate spend management.",
-      "source_url": "https://www.finextra.com/newsarticle/48753/mexicos-clara-raises-65m-for-spend-management-platform"
-    },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
       "company": "Griffin",
-      "description": "Raises \u00a320 million Series B to add cards and stablecoin capabilities.",
-      "source_url": "https://www.finextra.com/newsarticle/48746/baas-bank-griffin-raises-20m-to-add-cards-and-stablecoin-capabilities"
+      "description": "Raises $20 million Series B to expand card issuing and stablecoin infrastructure.",
+      "source_url": "https://griffin.com/blog/series-b-announcement"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Hancock Whitney / Trustmark",
-      "description": "Agrees $3.2 billion all-stock acquisition, targeting first-quarter 2027 closing.",
-      "source_url": "https://www.bankingdive.com/news/hancock-whitney-buy-trustmark-3b-deal-bank-acquisition/"
+      "type": "product",
+      "company": "OpenAI",
+      "description": "Introduces tokenized ChatGPT Wallet with purchase approvals for eligible U.S. Pro subscribers.",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-gives-ai-agents-a-wallet-while-blocking-them-from-seeing-the-card/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "product",
-      "company": "Revolut",
-      "description": "Expands Uber partnership with Revolut Pay checkout option.",
-      "source_url": "https://www.finextra.com/pressarticle/111658/uber-adds-revolut-pay-option"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "expansion",
+      "company": "Amazon",
+      "description": "Expands Alexa shopping to 13 countries, plus two beta markets; broadens text shopping.",
+      "source_url": "https://www.pymnts.com/news/mobile-commerce/2026/amazon-expands-alexa-for-shopping-to-15-countries-and-lets-anyone-shop-by-text/"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "product",
-      "company": "Starling Bank",
-      "description": "Announces voice-driven payment setup through its retail banking app.",
-      "source_url": "https://www.finextra.com/newsarticle/48748/starling-unveils-ai-powered-talk-to-transact-feature"
+      "company": "Deutsche Bank",
+      "description": "Makes digital-asset custody available to paying clients.",
+      "source_url": "https://www.pymnts.com/cryptocurrency/2026/deutsche-bank-brings-crypto-custody-service-online/"
     }
   ]
 }
