@@ -35,6 +35,19 @@ class ThemeCompilerWorkflowTests(unittest.TestCase):
 
         self.assertIn("runs-on: ubuntu-24.04", workflow)
 
+    def test_expensive_canaries_only_run_for_model_pipeline_changes(self):
+        workflow = (
+            REPOSITORY_ROOT / ".github/workflows/model_migration_canary.yml"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("id: model_pipeline", workflow)
+        self.assertIn("ai/src/", workflow)
+        self.assertNotIn(r"ai/config\.yml", workflow)
+        self.assertEqual(
+            workflow.count("if: steps.model_pipeline.outputs.run == 'true'"),
+            2,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
