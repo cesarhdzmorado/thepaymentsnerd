@@ -1117,6 +1117,29 @@ def required_selection_errors(news_items: list, candidate_stories: list, limit: 
     return errors
 
 
+def revision_output_errors(
+    news_items: list,
+    canonical_stories: list,
+    candidate_stories: list,
+    edition_date,
+    max_age_hours: int = 96,
+    max_source_lag_hours: int = 24,
+) -> List[str]:
+    """Return every release-blocking error introduced by an editor revision."""
+    return [
+        *unverified_output_errors(news_items),
+        *validate_canonical_sources(news_items, canonical_stories),
+        *freshness_output_errors(
+            news_items,
+            canonical_stories,
+            edition_date,
+            max_age_hours=max_age_hours,
+            max_source_lag_hours=max_source_lag_hours,
+        ),
+        *required_selection_errors(news_items, candidate_stories),
+    ]
+
+
 def _build_historical_index(historical_stories: list) -> Tuple[list, list, Set[str], Dict[str, str]]:
     """Pre-compute reusable historical structures for deduplication checks."""
     historical_texts = []

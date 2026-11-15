@@ -13,6 +13,7 @@ from src.tools import (
     is_generic_source_url,
     rank_stories_for_selection,
     required_selection_errors,
+    revision_output_errors,
     source_authority_tier,
     source_conflict_errors,
     unverified_output_errors,
@@ -349,6 +350,32 @@ class TestSourceRanking(unittest.TestCase):
 
         self.assertEqual(len(errors), 1)
         self.assertIn("Non-canonical source", errors[0])
+
+    def test_editor_revision_cannot_replace_canonical_source(self):
+        canonical = [{
+            "title": "Acima settlement",
+            "source_name": "Connecticut Attorney General",
+            "source_url": "https://portal.ct.gov/ag/press-releases/2026/acima-settlement",
+            "event_date": "2026-11-12",
+            "source_published_at": "2026-11-12",
+        }]
+        revised = [{
+            "title": "Acima settlement",
+            "body": "Acima reached a multistate settlement.",
+            "source": {
+                "name": "PYMNTS",
+                "url": "https://www.pymnts.com/legal/2026/acima-settlement/",
+            },
+        }]
+
+        errors = revision_output_errors(
+            revised,
+            canonical,
+            candidate_stories=[],
+            edition_date="2026-11-15",
+        )
+
+        self.assertTrue(any("Non-canonical source" in error for error in errors))
 
     def test_same_tier_material_conflict_blocks_release(self):
         reuters = dict(self.ft)

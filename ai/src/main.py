@@ -38,6 +38,7 @@ from .tools import (
     freshness_output_errors,
     rank_stories_for_selection,
     required_selection_errors,
+    revision_output_errors,
     source_conflict_errors,
     validate_canonical_sources,
     unverified_output_errors,
@@ -1361,27 +1362,24 @@ Revision rules:
             revised_json = json.loads(revised_text)
 
             if isinstance(revised_json, dict) and isinstance(revised_json.get('news'), list) and len(revised_json['news']) == 5:
-                revision_selection_errors = required_selection_errors(
-                    revised_json['news'], writer_candidates
+                revision_errors = revision_output_errors(
+                    revised_json['news'],
+                    canonical_stories,
+                    writer_candidates,
+                    current_date,
+                    max_age_hours=max_age_hours,
+                    max_source_lag_hours=max_source_lag_hours,
                 )
-                if revision_selection_errors:
+                if revision_errors:
                     print(
-                        "⚠️ Revision removed a required critical incident; "
+                        "⚠️ Revision failed a release gate; "
                         "keeping the verified Writer draft"
                     )
+                    for error in revision_errors:
+                        print(f"   - {error}")
                 else:
-                    revision_freshness_errors = freshness_output_errors(
-                        revised_json['news'],
-                        canonical_stories,
-                        current_date,
-                        max_age_hours=max_age_hours,
-                        max_source_lag_hours=max_source_lag_hours,
-                    )
-                    if revision_freshness_errors:
-                        print("⚠️ Revision introduced a freshness error; keeping the Writer draft")
-                    else:
-                        output_json = revised_json
-                        print("✅ Applied one revision pass based on editor feedback")
+                    output_json = revised_json
+                    print("✅ Applied one revision pass based on editor feedback")
             else:
                 print("⚠️ Revision pass returned invalid shape/count; keeping original writer output")
         except Exception as e:
