@@ -21,6 +21,28 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect model-pipeline changes
+        id: model_pipeline
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          changed_files="$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")"
+          echo "$changed_files"
+          if grep -Eq '^(ai/src/|ai/scripts/model_canary\.py$|ai/requirements\.txt$|web/lib/emailTemplate\.ts$|web/package(-lock)?\.json$|\.github/workflows/model_migration_canary\.yml$)' <<< "$changed_files"; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/setup-python@v5
         with:
@@ -33,11 +55,13 @@ jobs:
         run: python -m unittest discover -s ai/tests -v
 
       - name: Run no-publish model canary
+        if: steps.model_pipeline.outputs.run == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python -m ai.scripts.model_canary
 
       - name: Generate complete no-publish edition
+        if: steps.model_pipeline.outputs.run == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
