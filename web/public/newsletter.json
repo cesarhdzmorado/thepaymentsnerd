@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Paysafe\u2019s Wallet Growth Meets Slower Payments And A Debt-Heavy Balance Sheet",
-      "body": "Paysafe reported a third-quarter payments slowdown alongside growth in digital wallets. The company disclosed $2.5 billion of debt and $250.7 million of cash at September 30 following refinancing, making the earnings contribution from that wallet growth particularly important. The next test is whether enterprise-merchant activation and wallet revenue per user improve\u2014not simply whether wallet activity rises.",
+      "title": "Binance Restores Withdrawals Across 87 Networks After Reported $6.3 Billion Theft",
+      "body": "Binance said on November 14 that it had reopened withdrawals across 87 networks after a late-October attack; PYMNTS puts the theft at approximately $6.3 billion. Binance says corporate funds and emergency reserves will cover customer losses, but replacing balances does not restore customers\u2019 ability to transfer every asset. The exchange targeted restoration of remaining networks and assets by the end of the following week. Treasury counterparties should check asset-level withdrawal availability and transfer limits before treating access as fully restored.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/earnings/2026/paysafe-flags-payments-slowdown-digital-wallets-volume-rises-1percent-q3/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/binance-aims-to-reopen-withdrawals-after-6-3-billion-hack/"
       }
     },
     {
-      "title": "Chase Blocks Shared-Card AI Purchases As Virtual Workarounds Add Merchant Costs",
-      "body": "JPMorgan Chase is blocking AI-agent purchases made with card numbers customers give agents, according to Wall Street Journal reporting relayed by PYMNTS. Stripe\u2019s Link can instead issue single-use virtual cards, but merchants reported higher acceptance costs from commercial-card classification and difficulties processing returns. Merchants evaluating agent checkout must distinguish issuer-supported agentic tokens from virtual-card fallbacks and test acceptance costs and refund matching separately.",
-      "source": {
-        "name": "PYMNTS, reporting on The Wall Street Journal",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/jpmorgan-stops-ai-agents-from-using-customer-credit-cards/"
-      }
-    },
-    {
-      "title": "Griffin Raises $20 Million For Planned Card And Stablecoin Expansion",
-      "body": "Griffin raised $20 million and outlined plans to expand into cards and stablecoins. The financing supports a broader product ambition, but planned services do not yet give fintech customers additional live payment capabilities. Prospective customers should tie integration decisions to actual card availability, processing arrangements and permissions for stablecoin reserve services.",
+      "title": "Three Central Banks Test Coordinated FX Settlement Across Different Payment Systems",
+      "body": "The Bank of England, Monetary Authority of Singapore and Bank of Thailand published tests of synchronized payment-versus-payment and multilateral net FX settlement across RTGS and distributed-ledger environments. The results demonstrate technical coordination across different systems, not a live service or proven corridor-level savings. Settlement banks evaluating participation should focus on legal finality, operating hours and liquidity requirements ahead of the Bank of England\u2019s planned synchronization interface in 2028.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/griffin-eyes-stablecoin-expansion-after-raising-20-million-dollars/"
+        "url": "https://www.pymnts.com/news/cross-border-payments/2026/uk-tests-cross-border-settlement-with-singapore-and-thailand/"
       }
     },
     {
-      "title": "Microsoft\u2019s Second-Day Recovery Puts Backup Communications Workflows On The Payments Checklist",
-      "body": "Microsoft said it had addressed the technical cause of a disruption affecting services including Outlook, Teams and Copilot across more than 70 countries, while restoration continued for remaining customers and regions. For banks, payment companies and merchants, the documented exposure concerns communications and operating workflows\u2014not a reported clearing or settlement outage. Payments teams should test approved backup channels for payment approvals, customer support and fraud callbacks, then compare their dependencies with Microsoft\u2019s promised post-incident report.",
+      "title": "Metro Bank Opens Sale Process Despite Having No Active Buyer Talks",
+      "body": "Metro Bank launched a strategic review including a formal sale process after reporting 37% loan growth, while saying it had no active discussions with potential buyers. The process puts its current-account relationships, business lending and distribution in play for potential consolidation, but no bidder or valuation establishes a likely outcome. Business customers and payment suppliers should track bidder disclosures and any proposed changes to account servicing, technology contracts and payment-service continuity.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/connectedeconomy/2026/microsoft-continues-broad-recovery-during-second-day-of-outage/"
+        "url": "https://www.pymnts.com/news/banking/2026/metro-bank-searches-for-a-buyer-as-lending-grows/"
       }
     },
     {
-      "title": "Thailand\u2019s Proposed Stablecoin Limits Distinguish Own-Account Transfers From Third-Party Payments",
-      "body": "Thailand has proposed rules that would cap certain stablecoin transfers at approximately $148,000 daily and permit transfers only between accounts or wallets belonging to the same person, The Block reported. Within the proposal\u2019s scope, that same-owner condition would separate moving a customer\u2019s own funds from paying another person or business. Thai digital-asset platforms should map those two transaction types separately and establish covered assets, exemptions and implementation dates before changing customer access.",
+      "title": "Stolen-Card Rental Scheme Leaves Legitimate Merchants Exposed After Delivering the Service",
+      "body": "Dumpster Rental Enterprises reported 312 stolen-card orders in 2026, versus 15 in 2024, describing scammers who collect renters\u2019 payments and use stolen cards to pay legitimate suppliers. Merchants can complete the rental and still receive a cardholder dispute; the figures describe one broker, not industry-wide losses. Rental firms and their acquirers can target checks at renter-cardholder mismatches and repeated card attempts before dispatch, rather than discovering the mismatch after service delivery.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/scammers-use-stolen-cards-to-fulfill-fake-dumpster-rental-ads/"
+      }
+    },
+    {
+      "title": "CSI Integrates Acquired Payment Tools to Expand Community Banks\u2019 Commercial Offering",
+      "body": "CSI CEO Nancy Langer said the company has integrated acquired Qolo and Apiture capabilities into its core platform, including cash management, payment orchestration, virtual accounts and real-time account ledgers. That gives community banks access to more commercial-payment functionality through an existing core relationship rather than a separate vendor purchase. Banks assessing the offering should request live deployment references, migration requirements and implementation timelines before counting on deposit retention or new business-account revenue.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/csi-core-provider-community-banks-commercial-banking/874508/"
       }
     }
   ],
-  "perspective": "Chase\u2019s AI purchase blocks and Thailand\u2019s proposed stablecoin limits put payment permissions alongside funding and service reliability on today\u2019s agenda.",
+  "perspective": "Today: Binance restores withdrawals and Metro Bank seeks a buyer, alongside cross-border settlement tests, merchant fraud and community-bank payment integration.",
   "curiosity": {
-    "text": "In 1987, the U.S. Federal Reserve began requiring banks to use nine-digit routing numbers in electronic payments, adding a check digit that helps detect mistyped numbers. The final digit is calculated from the preceding eight using a weighted formula, so it can catch many\u2014but not all\u2014keying errors. Source: Federal Reserve Financial Services, \u201cRouting Number Policy\u201d \u2014 https://www.frbservices.org/resources/routing-number-policy"
+    "text": "In 1998, the U.S. Federal Reserve began offering FedACH International, enabling banks to send cross-border ACH payments through the U.S. ACH network to participating destinations. The service uses local clearing systems abroad for the final leg, so a payment can cross borders without every bank needing a direct international connection. Source: Federal Reserve Financial Services, \u201cFedACH International\u201d \u2014 https://www.frbservices.org/financial-services/ach/fedach-international"
   },
   "whats_hot": [
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Griffin",
-      "description": "Raises $20 million Series B to expand card issuing and stablecoin infrastructure.",
-      "source_url": "https://griffin.com/blog/series-b-announcement"
-    },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
       "company": "OpenAI",
-      "description": "Introduces tokenized ChatGPT Wallet with purchase approvals for eligible U.S. Pro subscribers.",
+      "description": "Introduces tokenized ChatGPT Wallet with card-network partners and purchase-by-purchase security approval.",
       "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-gives-ai-agents-a-wallet-while-blocking-them-from-seeing-the-card/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Hancock Whitney",
+      "description": "Agrees $3.2 billion all-stock Trustmark acquisition; closing targeted for Q1 2027.",
+      "source_url": "https://www.bankingdive.com/news/hancock-whitney-buy-trustmark-3b-deal-bank-acquisition/874522/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "InComm Payments / SKUx",
+      "description": "Completes integration linking product-specific digital offers with verified retail purchases.",
+      "source_url": "https://www.pymnts.com/news/retail/2026/incomm-payments-and-skux-tie-digital-offers-directly-to-verified-store-purchases/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "expansion",
       "company": "Amazon",
-      "description": "Expands Alexa shopping to 13 countries, plus two beta markets; broadens text shopping.",
+      "description": "Expands Alexa shopping to 13 countries, with two additional markets in beta.",
       "source_url": "https://www.pymnts.com/news/mobile-commerce/2026/amazon-expands-alexa-for-shopping-to-15-countries-and-lets-anyone-shop-by-text/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "product",
-      "company": "Deutsche Bank",
-      "description": "Makes digital-asset custody available to paying clients.",
-      "source_url": "https://www.pymnts.com/cryptocurrency/2026/deutsche-bank-brings-crypto-custody-service-online/"
     }
   ]
 }
