@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Binance Restores Withdrawals Across 87 Networks After Reported $6.3 Billion Theft",
-      "body": "Binance said on November 14 that it had reopened withdrawals across 87 networks after a late-October attack; PYMNTS puts the theft at approximately $6.3 billion. Binance says corporate funds and emergency reserves will cover customer losses, but replacing balances does not restore customers\u2019 ability to transfer every asset. The exchange targeted restoration of remaining networks and assets by the end of the following week. Treasury counterparties should check asset-level withdrawal availability and transfer limits before treating access as fully restored.",
+      "title": "Visa and Mastercard Settlement Awaits Ruling on Merchant Acceptance Changes",
+      "body": "U.S. District Judge Brian Cogan ended the November 16 hearing on Visa and Mastercard\u2019s proposed merchant settlement without ruling, PYMNTS reported. If approved, the proposal would give selected stores 90 days to revise rules for premium-card refusal pilots, limited to 180 days in a 12-month period. It would also cap posted interchange rates for standard consumer credit cards\u2014not all cards\u2014at 1.25% for eight years. Walmart, Circle K and the National Retail Federation oppose the settlement. Neither the proposed acceptance changes nor the interchange cap is effective yet.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/binance-aims-to-reopen-withdrawals-after-6-3-billion-hack/"
+        "url": "https://www.pymnts.com/credit-cards/2026/visa-and-mastercard-hearing-puts-premium-card-pilots-on-the-line/"
       }
     },
     {
-      "title": "Three Central Banks Test Coordinated FX Settlement Across Different Payment Systems",
-      "body": "The Bank of England, Monetary Authority of Singapore and Bank of Thailand published tests of synchronized payment-versus-payment and multilateral net FX settlement across RTGS and distributed-ledger environments. The results demonstrate technical coordination across different systems, not a live service or proven corridor-level savings. Settlement banks evaluating participation should focus on legal finality, operating hours and liquidity requirements ahead of the Bank of England\u2019s planned synchronization interface in 2028.",
+      "title": "Chase Reports Transaction Delays; Zelle Says Network Operations Remain Normal",
+      "body": "Chase acknowledged an internal technical issue delaying some transactions on November 16, while saying customers retained access to accounts and funds and ruling out a cyberattack. Separately, U.S. Bank said its systems were unaffected but Zelle payments involving another institution could be delayed; the reporting does not identify that institution as Chase. Zelle reported normal network operations. Although customers reported problems at several banks, those complaints do not establish simultaneous bank outages or a shared infrastructure failure.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/cross-border-payments/2026/uk-tests-cross-border-settlement-with-singapore-and-thailand/"
+        "url": "https://www.pymnts.com/news/banking/2026/customers-report-problems-accessing-online-accounts-at-chase-bank-of-america-and-wells-fargo/"
       }
     },
     {
-      "title": "Metro Bank Opens Sale Process Despite Having No Active Buyer Talks",
-      "body": "Metro Bank launched a strategic review including a formal sale process after reporting 37% loan growth, while saying it had no active discussions with potential buyers. The process puts its current-account relationships, business lending and distribution in play for potential consolidation, but no bidder or valuation establishes a likely outcome. Business customers and payment suppliers should track bidder disclosures and any proposed changes to account servicing, technology contracts and payment-service continuity.",
+      "title": "Stablecoin Supply Falls $12 Billion as Trading Balances Contract",
+      "body": "Stablecoin market capitalization declined approximately $12 billion over 30 days, according to Bloomberg reporting summarized by PYMNTS. Kaiko\u2019s Anastasia Melachrinos said USDT and USDC each contracted roughly 4%. The coverage places much of the contraction on exchanges and Ethereum, linking the decline to trading-related balances without establishing a fall in commercial stablecoin payments. For issuers, exchanges and redemption providers, the reported change concerns outstanding supply and trading liquidity; it does not measure merchant payment activity or settlement costs.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/metro-bank-searches-for-a-buyer-as-lending-grows/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-traders-cash-out-stablecoins-as-bitcoin-hits-4-month-low/"
       }
     },
     {
-      "title": "Stolen-Card Rental Scheme Leaves Legitimate Merchants Exposed After Delivering the Service",
-      "body": "Dumpster Rental Enterprises reported 312 stolen-card orders in 2026, versus 15 in 2024, describing scammers who collect renters\u2019 payments and use stolen cards to pay legitimate suppliers. Merchants can complete the rental and still receive a cardholder dispute; the figures describe one broker, not industry-wide losses. Rental firms and their acquirers can target checks at renter-cardholder mismatches and repeated card attempts before dispatch, rather than discovering the mismatch after service delivery.",
+      "title": "Apple Reportedly Selects Corey Fugman to Lead Pay and Wallet",
+      "body": "Apple has selected Corey Fugman, a 26-year company veteran and senior director of Apple Pay and Wallet, to lead the unit, according to Bloomberg reporting summarized by PYMNTS. Jennifer Bailey is retiring and is expected to provide consulting support during the transition. Fugman has reportedly worked on the Apple Card partnership transition from Goldman Sachs to JPMorgan Chase. Apple declined Bloomberg\u2019s request for comment. The personnel report includes no announced changes to merchant terms, wallet pricing or funding rails.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/scammers-use-stolen-cards-to-fulfill-fake-dumpster-rental-ads/"
+        "url": "https://www.pymnts.com/news/payment-methods/mobile-payments/2026/apple-taps-26-year-insider-corey-fugman-to-lead-apple-pay-and-wallet/"
       }
     },
     {
-      "title": "CSI Integrates Acquired Payment Tools to Expand Community Banks\u2019 Commercial Offering",
-      "body": "CSI CEO Nancy Langer said the company has integrated acquired Qolo and Apiture capabilities into its core platform, including cash management, payment orchestration, virtual accounts and real-time account ledgers. That gives community banks access to more commercial-payment functionality through an existing core relationship rather than a separate vendor purchase. Banks assessing the offering should request live deployment references, migration requirements and implementation timelines before counting on deposit retention or new business-account revenue.",
+      "title": "PayPal Treasury Case Study Reports Nearly Complete Cash Visibility",
+      "body": "A Deutsche Bank case study covered PayPal\u2019s management of $53 billion in corporate cash and customer funds across approximately 1,000 accounts and 160 currency pairs, PYMNTS reported. The company-reported results included cash visibility increasing from 78% to nearly 100% and cash-positioning accuracy exceeding 99%. A conversational AI agent sits above the consolidated treasury system, but the coverage does not isolate the agent\u2019s contribution from the broader overhaul, disclose realized cost savings or establish autonomous fund movement.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/csi-core-provider-community-banks-commercial-banking/874508/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/paypal-tracks-53-billion-in-treasury-cash-with-an-ai-agent/"
       }
     }
   ],
-  "perspective": "Today: Binance restores withdrawals and Metro Bank seeks a buyer, alongside cross-border settlement tests, merchant fraud and community-bank payment integration.",
+  "perspective": "Chase reports transaction delays, while PayPal\u2019s treasury case study documents gains in cash visibility across roughly 1,000 accounts.",
   "curiosity": {
-    "text": "In 1998, the U.S. Federal Reserve began offering FedACH International, enabling banks to send cross-border ACH payments through the U.S. ACH network to participating destinations. The service uses local clearing systems abroad for the final leg, so a payment can cross borders without every bank needing a direct international connection. Source: Federal Reserve Financial Services, \u201cFedACH International\u201d \u2014 https://www.frbservices.org/financial-services/ach/fedach-international"
+    "text": "Instant customer payments do not necessarily mean instant interbank settlement. The UK\u2019s Faster Payments Service launched in 2008 using deferred multilateral net settlement: customers could receive payments within seconds while participating banks settled their net obligations later. Prefunding arrived in 2015 to cover those settlement obligations; it was not part of the original model and did not turn each customer payment into a separate real-time central-bank settlement. Source: Bank of England, Annual Report and Accounts 2015\u201316 \u2014 https://www.bankofengland.co.uk/annual-report/2016"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
       "company": "OpenAI",
-      "description": "Introduces tokenized ChatGPT Wallet with card-network partners and purchase-by-purchase security approval.",
-      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-gives-ai-agents-a-wallet-while-blocking-them-from-seeing-the-card/"
+      "description": "Limited ChatGPT Wallet rollout enables agent purchases using tokenized payment cards.",
+      "source_url": "https://www.bankingdive.com/news/openai-wallet-taps-card-networks-visa-mastercard-american-express-amex/874776/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
-      "company": "Hancock Whitney",
-      "description": "Agrees $3.2 billion all-stock Trustmark acquisition; closing targeted for Q1 2027.",
-      "source_url": "https://www.bankingdive.com/news/hancock-whitney-buy-trustmark-3b-deal-bank-acquisition/874522/"
+      "company": "Ameris Bancorp",
+      "description": "Agrees $180 million all-stock acquisition of Bank of Central Florida.",
+      "source_url": "https://www.bankingdive.com/news/ameris-bancorp-buy-bank-central-florida-180-million-orlando-tampa/874771/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "InComm Payments / SKUx",
-      "description": "Completes integration linking product-specific digital offers with verified retail purchases.",
-      "source_url": "https://www.pymnts.com/news/retail/2026/incomm-payments-and-skux-tie-digital-offers-directly-to-verified-store-purchases/"
+      "type": "M&A",
+      "company": "Kalshi",
+      "description": "July broker acquisition newly reported; stock and ETF trading planned within months.",
+      "source_url": "https://www.pymnts.com/economy/markets/2026/kalshi-readies-stock-trading-launch-after-quietly-buying-broker-in-july/"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "expansion",
-      "company": "Amazon",
-      "description": "Expands Alexa shopping to 13 countries, with two additional markets in beta.",
-      "source_url": "https://www.pymnts.com/news/mobile-commerce/2026/amazon-expands-alexa-for-shopping-to-15-countries-and-lets-anyone-shop-by-text/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8 \ud83c\uddf8\ud83c\uddea",
+      "type": "M&A",
+      "company": "Majority / Rebtel",
+      "description": "Sifted reports planned merger between fintech Majority and communications provider Rebtel.",
+      "source_url": "https://sifted.eu/articles/thiel-fintech-majority-rebtel-merge/"
     }
   ]
 }
