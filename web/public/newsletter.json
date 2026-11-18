@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "Visa and Mastercard Settlement Awaits Ruling on Merchant Acceptance Changes",
-      "body": "U.S. District Judge Brian Cogan ended the November 16 hearing on Visa and Mastercard\u2019s proposed merchant settlement without ruling, PYMNTS reported. If approved, the proposal would give selected stores 90 days to revise rules for premium-card refusal pilots, limited to 180 days in a 12-month period. It would also cap posted interchange rates for standard consumer credit cards\u2014not all cards\u2014at 1.25% for eight years. Walmart, Circle K and the National Retail Federation oppose the settlement. Neither the proposed acceptance changes nor the interchange cap is effective yet.",
+      "title": "Qonto Wins Banking Licence to Expand Beyond Payments for European SMBs",
+      "body": "Qonto secured a banking licence from France\u2019s ACPR and the European Central Bank, with initial banking offerings scheduled before November ends. Its base of more than 750,000 SMBs across eight European markets gives it an existing audience for lending and savings products that compete with incumbent business banks. The next test is the rollout: country availability, lending eligibility and deposit terms will determine how much business customers can move to Qonto.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/credit-cards/2026/visa-and-mastercard-hearing-puts-premium-card-pilots-on-the-line/"
+        "url": "https://www.pymnts.com/news/banking/2026/qonto-wins-european-banking-license-and-targets-small-business-lending/"
       }
     },
     {
-      "title": "Chase Reports Transaction Delays; Zelle Says Network Operations Remain Normal",
-      "body": "Chase acknowledged an internal technical issue delaying some transactions on November 16, while saying customers retained access to accounts and funds and ruling out a cyberattack. Separately, U.S. Bank said its systems were unaffected but Zelle payments involving another institution could be delayed; the reporting does not identify that institution as Chase. Zelle reported normal network operations. Although customers reported problems at several banks, those complaints do not establish simultaneous bank outages or a shared infrastructure failure.",
+      "title": "JPMorgan Restores Processing After Software Bug Delays Payments Across Bank Boundaries",
+      "body": "JPMorgan said a software bug in on-premise hardware systems delayed transactions on November 16 before normal processing resumed that evening. The disruption also affected counterparties sending or receiving payments involving JPMorgan, showing how a bank-level failure can delay transactions for customers elsewhere without establishing a failure of Zelle itself. Banks reviewing the incident should separate internal processing failures from network outages in customer communications and verify that delayed payments reconcile correctly.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/customers-report-problems-accessing-online-accounts-at-chase-bank-of-america-and-wells-fargo/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/jpmorgan-chase-banking-service-disruption-app-website-bofa-wells-capital-one-zelle/874922/"
       }
     },
     {
-      "title": "Stablecoin Supply Falls $12 Billion as Trading Balances Contract",
-      "body": "Stablecoin market capitalization declined approximately $12 billion over 30 days, according to Bloomberg reporting summarized by PYMNTS. Kaiko\u2019s Anastasia Melachrinos said USDT and USDC each contracted roughly 4%. The coverage places much of the contraction on exchanges and Ethereum, linking the decline to trading-related balances without establishing a fall in commercial stablecoin payments. For issuers, exchanges and redemption providers, the reported change concerns outstanding supply and trading liquidity; it does not measure merchant payment activity or settlement costs.",
+      "title": "TPG Nears Reported BILL Deal, Adding Another Potential Accounts-Payable Software Investment",
+      "body": "TPG was reportedly nearing a take-private agreement for BILL Holdings, whose market capitalization stood at approximately $4.8 billion; negotiations remained ongoing, with no agreed price disclosed. TPG already has ownership exposure to AvidXchange following its $2.2 billion acquisition, making its interest relevant to competing accounts-payable platforms and accounting-firm partners. A definitive agreement is the next milestone; customers have no announced product combination or integration plan on which to base purchasing decisions.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-traders-cash-out-stablecoins-as-bitcoin-hits-4-month-low/"
+        "name": "PYMNTS, citing Financial Times",
+        "url": "https://www.pymnts.com/news/acquiring/2026/tpg-eyes-take-private-deal-bill-holdings-within-days/"
       }
     },
     {
-      "title": "Apple Reportedly Selects Corey Fugman to Lead Pay and Wallet",
-      "body": "Apple has selected Corey Fugman, a 26-year company veteran and senior director of Apple Pay and Wallet, to lead the unit, according to Bloomberg reporting summarized by PYMNTS. Jennifer Bailey is retiring and is expected to provide consulting support during the transition. Fugman has reportedly worked on the Apple Card partnership transition from Goldman Sachs to JPMorgan Chase. Apple declined Bloomberg\u2019s request for comment. The personnel report includes no announced changes to merchant terms, wallet pricing or funding rails.",
+      "title": "KeyBank Adds Zact Expense Tools to Compete With Corporate-Card Fintechs",
+      "body": "KeyBank launched KeyExpenseIQ with Zact, combining employee cards, real-time spending controls, receipt capture and automated expense workflows after evaluating 23 providers over two years. The partnership lets KeyBank offer commercial clients capabilities associated with Brex and Ramp while retaining its banking relationships and distribution. Customer activation, card spending and retention\u2014not the feature list\u2014will establish whether the product helps KeyBank retain business that might otherwise go to fintech rivals.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/payment-methods/mobile-payments/2026/apple-taps-26-year-insider-corey-fugman-to-lead-apple-pay-and-wallet/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/keybank-adds-commercial-tool-beat-back-fintech-competition-zact/874812/"
       }
     },
     {
-      "title": "PayPal Treasury Case Study Reports Nearly Complete Cash Visibility",
-      "body": "A Deutsche Bank case study covered PayPal\u2019s management of $53 billion in corporate cash and customer funds across approximately 1,000 accounts and 160 currency pairs, PYMNTS reported. The company-reported results included cash visibility increasing from 78% to nearly 100% and cash-positioning accuracy exceeding 99%. A conversational AI agent sits above the consolidated treasury system, but the coverage does not isolate the agent\u2019s contribution from the broader overhaul, disclose realized cost savings or establish autonomous fund movement.",
+      "title": "FIS Integration Gives Banks Access to Splitit Instalments Using Existing Credit",
+      "body": "Splitit announced an integration with FIS Total Issuing Solutions that gives financial institutions access to instalments funded through consumers\u2019 existing credit. That offers participating banks a route into checkout financing without requiring cardholders to establish a separate lending relationship with a third-party BNPL provider. Named issuer activations, merchant coverage and consumer terms are the next milestones; the announcement disclosed neither participating-bank counts nor launch volumes.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/paypal-tracks-53-billion-in-treasury-cash-with-an-ai-agent/"
+        "url": "https://www.pymnts.com/bnpl/2026/splitit-launches-bnpl-partnership-with-fis/"
       }
     }
   ],
-  "perspective": "Chase reports transaction delays, while PayPal\u2019s treasury case study documents gains in cash visibility across roughly 1,000 accounts.",
+  "perspective": "Qonto expands into banking and KeyBank adds expense tools, alongside JPMorgan\u2019s processing recovery, reported accounts-payable deal talks and card-linked instalments.",
   "curiosity": {
-    "text": "Instant customer payments do not necessarily mean instant interbank settlement. The UK\u2019s Faster Payments Service launched in 2008 using deferred multilateral net settlement: customers could receive payments within seconds while participating banks settled their net obligations later. Prefunding arrived in 2015 to cover those settlement obligations; it was not part of the original model and did not turn each customer payment into a separate real-time central-bank settlement. Source: Bank of England, Annual Report and Accounts 2015\u201316 \u2014 https://www.bankofengland.co.uk/annual-report/2016"
+    "text": "In 1974, France\u2019s Carte Bleue and six other banks formed the Groupement des Cartes Bancaires to create a shared card-payment network, helping cards work across banks rather than only within the issuing bank\u2019s own system. The network later became known as CB, a reminder that payment interoperability often starts with competitors agreeing on common rules. Source: CB, \u201cThe history of CB\u201d \u2014 https://www.cartes-bancaires.com/en/our-history/"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "fundraising",
+      "company": "Ramp",
+      "description": "Reportedly seeks at least $1 billion; valuation talks reach $75 billion. Not closed.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/ramp-eyes-75-billion-valuation-in-third-funding-round-this-year/"
+    },
+    {
+      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "type": "fundraising",
+      "company": "Avenia",
+      "description": "Secures $25 million Series A extension for stablecoin payments infrastructure.",
+      "source_url": "https://www.pymnts.com/cryptocurrency/2026/stablecoins-are-becoming-commodities-the-infrastructure-around-them-isnt/"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
       "company": "OpenAI",
-      "description": "Limited ChatGPT Wallet rollout enables agent purchases using tokenized payment cards.",
+      "description": "Launches limited ChatGPT Wallet access for tokenized, agent-initiated card purchases.",
       "source_url": "https://www.bankingdive.com/news/openai-wallet-taps-card-networks-visa-mastercard-american-express-amex/874776/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "M&A",
       "company": "Ameris Bancorp",
-      "description": "Agrees $180 million all-stock acquisition of Bank of Central Florida.",
+      "description": "Agrees $180 million all-stock Bank of Central Florida acquisition; closing expected Q1 2027.",
       "source_url": "https://www.bankingdive.com/news/ameris-bancorp-buy-bank-central-florida-180-million-orlando-tampa/874771/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Kalshi",
-      "description": "July broker acquisition newly reported; stock and ETF trading planned within months.",
-      "source_url": "https://www.pymnts.com/economy/markets/2026/kalshi-readies-stock-trading-launch-after-quietly-buying-broker-in-july/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8 \ud83c\uddf8\ud83c\uddea",
-      "type": "M&A",
-      "company": "Majority / Rebtel",
-      "description": "Sifted reports planned merger between fintech Majority and communications provider Rebtel.",
-      "source_url": "https://sifted.eu/articles/thiel-fintech-majority-rebtel-merge/"
     }
   ]
 }
