@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Qonto Wins Banking Licence to Expand Beyond Payments for European SMBs",
-      "body": "Qonto secured a banking licence from France\u2019s ACPR and the European Central Bank, with initial banking offerings scheduled before November ends. Its base of more than 750,000 SMBs across eight European markets gives it an existing audience for lending and savings products that compete with incumbent business banks. The next test is the rollout: country availability, lending eligibility and deposit terms will determine how much business customers can move to Qonto.",
+      "title": "Binance Secures Recovery Order, but Frozen Assets Do Not Establish Customer Repayment",
+      "body": "Binance obtained an Abu Dhabi Global Market Courts order to support recovery after the October 29 attack. PYMNTS reports $6.3 billion stolen and more than $2.7 billion frozen through public- and private-sector efforts; freezing does not establish customer repayment. The publication separately reports a $6.5 billion freezing order\u2014not assets located or recovered, or a revised loss estimate\u2014but does not establish its full scope or explain the $200 million difference from the reported theft. Withdrawals had reopened on 87 networks as of November 14. As of November 19, the supplied reporting does not confirm whether Binance met its target to restore the remaining networks this week.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/qonto-wins-european-banking-license-and-targets-small-business-lending/"
+        "url": "https://www.pymnts.com/cryptocurrency/2026/binance-wins-adgm-court-order-to-claw-back-stolen-crypto/"
       }
     },
     {
-      "title": "JPMorgan Restores Processing After Software Bug Delays Payments Across Bank Boundaries",
-      "body": "JPMorgan said a software bug in on-premise hardware systems delayed transactions on November 16 before normal processing resumed that evening. The disruption also affected counterparties sending or receiving payments involving JPMorgan, showing how a bank-level failure can delay transactions for customers elsewhere without establishing a failure of Zelle itself. Banks reviewing the incident should separate internal processing failures from network outages in customer communications and verify that delayed payments reconcile correctly.",
+      "title": "Supreme Court Declines Custodia Appeal, Leaving Fed Master-Account Discretion Intact",
+      "body": "The Supreme Court declined to hear Custodia Bank\u2019s master-account petition, leaving lower-court rulings intact rather than issuing a merits decision barring crypto-focused institutions from Fed access. Custodia remains without direct settlement access and dependent on intermediary banks. Limited-function \u201cskinny\u201d accounts represent a separate potential route, but the report identifies no new Custodia application or approval for one.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/jpmorgan-chase-banking-service-disruption-app-website-bofa-wells-capital-one-zelle/874922/"
+        "url": "https://www.bankingdive.com/news/custodia-supreme-court-deny-petition-fed-master-account-access-waller/875102/"
       }
     },
     {
-      "title": "TPG Nears Reported BILL Deal, Adding Another Potential Accounts-Payable Software Investment",
-      "body": "TPG was reportedly nearing a take-private agreement for BILL Holdings, whose market capitalization stood at approximately $4.8 billion; negotiations remained ongoing, with no agreed price disclosed. TPG already has ownership exposure to AvidXchange following its $2.2 billion acquisition, making its interest relevant to competing accounts-payable platforms and accounting-firm partners. A definitive agreement is the next milestone; customers have no announced product combination or integration plan on which to base purchasing decisions.",
-      "source": {
-        "name": "PYMNTS, citing Financial Times",
-        "url": "https://www.pymnts.com/news/acquiring/2026/tpg-eyes-take-private-deal-bill-holdings-within-days/"
-      }
-    },
-    {
-      "title": "KeyBank Adds Zact Expense Tools to Compete With Corporate-Card Fintechs",
-      "body": "KeyBank launched KeyExpenseIQ with Zact, combining employee cards, real-time spending controls, receipt capture and automated expense workflows after evaluating 23 providers over two years. The partnership lets KeyBank offer commercial clients capabilities associated with Brex and Ramp while retaining its banking relationships and distribution. Customer activation, card spending and retention\u2014not the feature list\u2014will establish whether the product helps KeyBank retain business that might otherwise go to fintech rivals.",
+      "title": "Klarna Expands Longer-Term Financing to 283,000 Merchants and Invites Users to AI Concierge",
+      "body": "Approximately 283,000 merchants now offer Klarna\u2019s longer-term financing, up from about 150,000 a year earlier. Separately, Klarna began inviting users to an AI shopping assistant that supports Klarna payment methods or a user\u2019s debit card; a spokesperson said it cannot complete purchases without human payment authorization. Third-quarter revenue rose 12% to $1 billion while the net loss narrowed to $65 million. Klarna\u2019s 3%\u20134% transaction-margin target for longer-term financing remains a target, not a reported portfolio result.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/keybank-adds-commercial-tool-beat-back-fintech-competition-zact/874812/"
+        "url": "https://www.bankingdive.com/news/klarna-launches-ai-concierge/875099/"
       }
     },
     {
-      "title": "FIS Integration Gives Banks Access to Splitit Instalments Using Existing Credit",
-      "body": "Splitit announced an integration with FIS Total Issuing Solutions that gives financial institutions access to instalments funded through consumers\u2019 existing credit. That offers participating banks a route into checkout financing without requiring cardholders to establish a separate lending relationship with a third-party BNPL provider. Named issuer activations, merchant coverage and consumer terms are the next milestones; the announcement disclosed neither participating-bank counts nor launch volumes.",
+      "title": "OneMain Wins Bank Approvals With $341 Million Initial-Capital Requirement",
+      "body": "FDIC and Utah regulators approved OneMain\u2019s proposed industrial bank, with launch anticipated in approximately one year. Before opening, OneMain must satisfy conditions including at least $341 million in initial capital and a 15% minimum leverage ratio. The planned bank would support deposit-funded personal loans, auto finance and credit cards. It is not yet operating, and OneMain has not disclosed realized funding savings from the structure.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/onemain-fdic-approves-ilc-charter-subprime-lender-cfpb-13-ag-lawsuit-ncrc/875075/"
+      }
+    },
+    {
+      "title": "Chargebee Adds Human-Reviewed AI Workflows for Contracts, Receivables and Revenue Recognition",
+      "body": "Chargebee launched Arc agents for contract ingestion, receivables and revenue recognition, alongside an Agent Studio for custom workflows. According to the company announcement reported by PYMNTS, the described agent actions include citations and logs and remain subject to review before commitment. That description establishes approval controls for those workflows, not a product-wide prohibition on autonomous collections or payment execution. Chargebee provided no measured collection or productivity gains.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/bnpl/2026/splitit-launches-bnpl-partnership-with-fis/"
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/chargebee-launches-ai-agents-that-help-audit-contracts-and-collect-cash/"
       }
     }
   ],
-  "perspective": "Qonto expands into banking and KeyBank adds expense tools, alongside JPMorgan\u2019s processing recovery, reported accounts-payable deal talks and card-linked instalments.",
+  "perspective": "OneMain\u2019s conditional bank approvals and Chargebee\u2019s reviewed billing workflows anchor today\u2019s thread on funding access and financial automation.",
   "curiosity": {
-    "text": "In 1974, France\u2019s Carte Bleue and six other banks formed the Groupement des Cartes Bancaires to create a shared card-payment network, helping cards work across banks rather than only within the issuing bank\u2019s own system. The network later became known as CB, a reminder that payment interoperability often starts with competitors agreeing on common rules. Source: CB, \u201cThe history of CB\u201d \u2014 https://www.cartes-bancaires.com/en/our-history/"
+    "text": "Japan\u2019s Zengin interbank clearing system launched in 1973, more than half a century ago."
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Ramp",
-      "description": "Reportedly seeks at least $1 billion; valuation talks reach $75 billion. Not closed.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/ramp-eyes-75-billion-valuation-in-third-funding-round-this-year/"
+      "company": "Payhawk",
+      "description": "Raised $280 million Series C at $2 billion valuation; Goldman Sachs led.",
+      "source_url": "https://www.finextra.com/newsarticle/48775/goldman-sachs-leads-280m-series-c-for-payhawk"
     },
     {
-      "flag": "\ud83c\udde7\ud83c\uddf7",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "fundraising",
-      "company": "Avenia",
-      "description": "Secures $25 million Series A extension for stablecoin payments infrastructure.",
-      "source_url": "https://www.pymnts.com/cryptocurrency/2026/stablecoins-are-becoming-commodities-the-infrastructure-around-them-isnt/"
+      "company": "Model ML",
+      "description": "Raised $250 million at $1.5 billion valuation for financial-services AI agents.",
+      "source_url": "https://www.finextra.com/newsarticle/48776/model-ml-raises-250m-to-give-bankers-their-own-personal-agents"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "OpenAI",
-      "description": "Launches limited ChatGPT Wallet access for tokenized, agent-initiated card purchases.",
-      "source_url": "https://www.bankingdive.com/news/openai-wallet-taps-card-networks-visa-mastercard-american-express-amex/874776/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Ameris Bancorp",
-      "description": "Agrees $180 million all-stock Bank of Central Florida acquisition; closing expected Q1 2027.",
-      "source_url": "https://www.bankingdive.com/news/ameris-bancorp-buy-bank-central-florida-180-million-orlando-tampa/874771/"
+      "type": "expansion",
+      "company": "Visa",
+      "description": "Plans Asia-Pacific stablecoin prefunding for eligible Visa Direct cross-border payout clients.",
+      "source_url": "https://www.theblock.co/news/business/2026-11-18-visa-direct-extend-stablecoin-prefunding-cross-border-payouts-asia-pacific-443457"
     }
   ]
 }
