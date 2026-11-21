@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "FDIC Proposes Limited Brokered-Deposit Exception for Small Banks",
-      "body": "The FDIC proposed allowing certain banks with less than $10 billion in assets to exclude qualifying custodial deposits from brokered-deposit treatment, capped at 20% of total liabilities. PYMNTS reports that compensation for placing deposits would disqualify those deposits, while separately paid recordkeeping services could remain compatible. The distinction makes placement fees and service arrangements material to bank-fintech contracts; the proposal does not create a blanket fintech-deposit exception. Comments would remain open for 60 days following Federal Register publication.",
+      "title": "OakNorth Wins US Banking Approval After Building $3.5 Billion Lending Business",
+      "body": "The Federal Reserve and OCC approved OakNorth\u2019s acquisition of Michigan-based Community Unity Bank, enabling US deposit-taking and direct lending through the bank. OakNorth has lent approximately $3.5 billion to US businesses since entering the market in 2023, giving it an established lending base against which to build deposit relationships. The next milestone is deposit-account availability and pricing\u2014and how much US lending those deposits fund.",
       "source": {
-        "name": "FDIC",
-        "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-approves-proposed-rule-custodial-deposits"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/oaknorth-fed-occ-approve-charter-application-michigan-bank-acquisition-digital-uk/875357/"
       }
     },
     {
-      "title": "Alipay+ Connects Overseas Wallets to Brazil\u2019s Pix QR Codes",
-      "body": "Visitors using supported Alipay+ payment apps can scan Pix QR codes in Brazil without downloading another app, Ant International announced. The integration connects participating international wallets to domestic QR acceptance, adding a payment route for travelers and Pix-accepting merchants. The announcement did not provide corridor-level pricing or measured card substitution. Alipay+\u2019s global merchant and account totals describe its broader network, not adoption of the Brazil connection.",
+      "title": "MoonPay Seeks Trust Charter for Stablecoin Issuance, Redemption and Reserve Management",
+      "body": "MoonPay filed an OCC national trust bank charter application on November 17 covering fiduciary custody, stablecoin issuance, redemption, reserve management and fiat-to-crypto conversion. The proposed institution would not take deposits or make commercial loans, distinguishing its intended role from a commercial bank. OCC approval and operating conditions would determine which services MoonPay can provide directly; the application itself does not change customer access.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/digital-payments/2026/alipay-links-its-global-wallet-gateway-to-brazils-pix/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/moonpay-crypto-applies-national-trust-bank-charter-occ-pham/875330/"
       }
     },
     {
-      "title": "Payhawk Raises $280 Million at a $2 Billion Valuation",
-      "body": "TechCrunch reports that Payhawk raised $280 million in Series C funding at a $2 billion valuation, bringing total funding above $515 million. Growth Equity at Goldman Sachs Alternatives led the round, and managing director James Hayward is joining the board. Payhawk says the proceeds will support finance workflows combining AI agents, payments infrastructure and enterprise approval controls, extending its scope across procurement, accounts payable and expenses. The announcement describes planned expansion, not measured improvements in payment economics.",
+      "title": "PayPal Reassigns Venmo, Payments and Crypto Leadership as Finance Chief Departs",
+      "body": "PayPal named Xero CFO Claire Bramley to replace Jamie Miller, who remains in her role until February 1, 2027, and reassigned leadership across consumer finance, Venmo, payments and crypto. Kartik Mani takes consumer financial services and Venmo, Suzan Kereere takes payment services and crypto, and Frank Keller retains branded checkout. Merchants and partners now have distinct business heads to assess against delivery schedules, while Aaron Webster\u2019s departure leaves Ratinder Bedi leading risk on an interim basis.",
       "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/paypal-ceo-remakes-team-cfo-coo-venmo/875355/"
       }
     },
     {
-      "title": "Four New Zealand Banks Join BioCatch Fraud-Intelligence Network",
-      "body": "ANZ New Zealand, ASB, BNZ and Westpac NZ joined BioCatch Trust New Zealand, which will share receiving-account risk intelligence with sending banks before funds move. BioCatch says the network will take several months to become operational. Its design adds cross-bank behavioral and device signals to existing fraud checks, giving participating banks more information for transfer-intervention decisions. The announcement does not establish live nationwide coverage, and New Zealand fraud-reduction results are not yet available.",
+      "title": "Elliptic Links $149 Million in Bitcoin Mixing to Binance Hack",
+      "body": "Elliptic identified $149 million in bitcoin coinjoin mixing linked to the Binance hack, with activity increasing sharply after November 17, according to The Block. Elliptic\u2019s assessment that little stolen value has likely been cashed out makes subsequent transfers relevant to exchanges, custodians and crypto payment gateways screening incoming funds. Compliance teams can use updated wallet attribution to review exposure and monitor off-ramp activity; the $149 million measures mixing activity, not total theft or realized cash proceeds.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48779/new-zealand-banks-form-fraud-intelligence-sharing-network"
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758"
       }
     },
     {
-      "title": "Vendor Breaches Expose Customer Information at Visa, Mastercard and JPMorgan",
-      "body": "The Wall Street Journal reported that attackers leaked information belonging to thousands of customers through third-party service providers. Visa said card numbers and its own systems were unaffected. Mastercard described limited information from a specific benefits program and no network disruption. JPMorgan described marketing information potentially including names and emails, separating the incident from its earlier service disruption. Those disclosures distinguish third-party customer-data exposure from a payment-processing outage and identify different notification scopes for the three companies.",
+      "title": "BILL Agrees to $6 Billion TPG Acquisition With Corpay as Partner",
+      "body": "BILL announced a definitive agreement for TPG to acquire it in partnership with Corpay in a deal described as worth $6 billion. The transaction puts a finance platform serving nearly 500,000 businesses at the center of an ownership change relevant to accounting partners and business-payment providers. Customers and partners should assess closing conditions and Corpay\u2019s precise participation before treating the agreement as a commitment to combine products or distribution.",
       "source": {
-        "name": "The Wall Street Journal",
-        "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87"
+        "name": "Finextra, company-release syndication",
+        "url": "https://www.finextra.com/pressarticle/111752/bill-agrees-to-be-acquired-by-tpg-in-6bn-deal"
       }
     }
   ],
-  "perspective": "The FDIC\u2019s custodial-deposit proposal and Alipay+\u2019s Pix connection lead today\u2019s developments in deposit eligibility, cross-border acceptance, finance software and customer protection.",
+  "perspective": "OakNorth\u2019s US approval and MoonPay\u2019s trust-charter application lead today\u2019s developments in banking access, payments leadership, crypto screening and business-finance consolidation.",
   "curiosity": {
-    "text": "California established the first U.S. automated clearing house association in 1972, two years before Nacha formed in 1974. Source: Nacha, \u201cHistory of Nacha and the ACH Network\u201d \u2014 https://www.nacha.org/content/history-nacha-and-ach-network"
+    "text": "In 1974, the U.S. Federal Reserve began routing government payments through an electronic funds transfer system, allowing federal agencies to send recurring benefits directly to recipients\u2019 bank accounts. That early program helped demonstrate how electronic payments could replace mailed paper checks at national scale. Source: Federal Reserve History, \u201cThe Fed\u2019s Role in the Payment System\u201d \u2014 https://www.federalreservehistory.org/essays/feds-role-in-the-payment-system"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "BILL Holdings",
-      "description": "WSJ reports approximately $6 billion acquisition involving TPG and Corpay; completion unverified.",
-      "source_url": "https://www.wsj.com/business/deals/tpg-corpay-to-buy-finance-platform-bill-for-about-6-billion-9f8be10c"
+      "flag": "\ud83c\uddf3\ud83c\uddf1 / \ud83c\uddf8\ud83c\uddea",
+      "type": "product",
+      "company": "Adyen / Klarna",
+      "description": "Adds Klarna payment choices to agent checkout, retaining shopper confirmation.",
+      "source_url": "https://www.pymnts.com/commerce/ecommerce/2026/adyen-taps-klarna-to-enable-agentic-commerce-payment-options-beyond-cards/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "flag": "\ud83c\uddf8\ud83c\uddec / \ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Klarna",
-      "description": "Introduces invitation-based AI concierge; human authorization remains required for purchases.",
-      "source_url": "https://www.bankingdive.com/news/klarna-launches-ai-concierge/875099/"
+      "company": "DBS / Circle",
+      "description": "Offers eligible institutions direct USDC minting and redemption with round-the-clock settlement.",
+      "source_url": "https://www.circle.com/pressroom/dbs-and-circle-expand-institutional-access-to-usdc-in-asia"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddec",
+      "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "product",
-      "company": "Pine Labs",
-      "description": "Announces Staq Web3 Orchestrator connecting stablecoin balances with card-payment infrastructure.",
-      "source_url": "https://www.finextra.com/pressarticle/111733/pine-labs-unveils-platform-to-connect-stablecoins-and-card-payments"
+      "company": "N26",
+      "description": "Announces N26 Aura, a new premium banking account.",
+      "source_url": "https://www.finextra.com/pressarticle/111745/n26-launches-premium-account"
     },
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Visa",
-      "description": "Announces Visa Recurrent subscription-management solution across Asia Pacific.",
-      "source_url": "https://www.finextra.com/pressarticle/111729/visa-rolls-out-subscription-management-tech-across-asia-pacific"
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "expansion",
+      "company": "Float Financial",
+      "description": "Commits $5 million to its first establishment in Quebec.",
+      "source_url": "https://www.finextra.com/pressarticle/111754/canadian-fintech-float-commits-5m-to-quebec"
     }
   ]
 }
