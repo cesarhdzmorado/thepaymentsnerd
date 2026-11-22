@@ -1,64 +1,85 @@
 {
   "news": [
     {
-      "title": "OakNorth Wins US Banking Approval After Building $3.5 Billion Lending Business",
-      "body": "The Federal Reserve and OCC approved OakNorth\u2019s acquisition of Michigan-based Community Unity Bank, enabling US deposit-taking and direct lending through the bank. OakNorth has lent approximately $3.5 billion to US businesses since entering the market in 2023, giving it an established lending base against which to build deposit relationships. The next milestone is deposit-account availability and pricing\u2014and how much US lending those deposits fund.",
+      "title": "Citi Revises Digital-Banking Terms for Third-Party AI Agents",
+      "body": "Citi amended its online user agreement covering customers\u2019 access to online and mobile banking, treating third-party AI-agent actions as customer-authorized even when agents contradict instructions or exceed delegated authority. The terms distinguish external agents from Citi-provided agents and allow Citi to terminate external-agent access; applicable law still governs transaction disputes. Customers using these digital-banking services and providers automating access to their accounts must account for those contractual restrictions, rather than assume permission to use credentials also authorizes third-party agents.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/oaknorth-fed-occ-approve-charter-application-michigan-bank-acquisition-digital-uk/875357/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/citi-cautions-customers-against-using-third-party-ai-agents/"
       }
     },
     {
-      "title": "MoonPay Seeks Trust Charter for Stablecoin Issuance, Redemption and Reserve Management",
-      "body": "MoonPay filed an OCC national trust bank charter application on November 17 covering fiduciary custody, stablecoin issuance, redemption, reserve management and fiat-to-crypto conversion. The proposed institution would not take deposits or make commercial loans, distinguishing its intended role from a commercial bank. OCC approval and operating conditions would determine which services MoonPay can provide directly; the application itself does not change customer access.",
+      "title": "Worldline Shares Fall Up to 20% After Report on Historical Cash Practices",
+      "body": "Worldline shares fell as much as 20% on November 20 after FT reporting described delayed supplier payments and requests for customer cash advances before financial results in the years preceding its 2023 profit warning. Finextra attributed the selloff to that reporting. The reported practices concern corporate working capital; they do not establish a current interruption to merchant settlements or a failure to safeguard merchant funds.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/moonpay-crypto-applies-national-trust-bank-charter-occ-pham/875330/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances"
       }
     },
     {
-      "title": "PayPal Reassigns Venmo, Payments and Crypto Leadership as Finance Chief Departs",
-      "body": "PayPal named Xero CFO Claire Bramley to replace Jamie Miller, who remains in her role until February 1, 2027, and reassigned leadership across consumer finance, Venmo, payments and crypto. Kartik Mani takes consumer financial services and Venmo, Suzan Kereere takes payment services and crypto, and Frank Keller retains branded checkout. Merchants and partners now have distinct business heads to assess against delivery schedules, while Aaron Webster\u2019s departure leaves Ratinder Bedi leading risk on an interim basis.",
+      "title": "PayPo Reportedly Hires Banks for Potential Warsaw IPO",
+      "body": "Polish BNPL provider PayPo reportedly hired Citigroup, JPMorgan and Ipopema Securities for a potential Warsaw IPO that could raise several hundred million dollars as early as 2027. The report puts its user base at approximately 2.5 million; the company and banks declined to comment. Size and timing remain unsettled, and the proposed listing does not yet provide fresh lending capital. A prospectus would clarify credit losses, funding costs and the split between growth funding and shareholder sales.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/paypal-ceo-remakes-team-cfo-coo-venmo/875355/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/paypo-taps-citigroup-and-jpmorgan-for-possible-warsaw-ipo/"
       }
     },
     {
-      "title": "Elliptic Links $149 Million in Bitcoin Mixing to Binance Hack",
-      "body": "Elliptic identified $149 million in bitcoin coinjoin mixing linked to the Binance hack, with activity increasing sharply after November 17, according to The Block. Elliptic\u2019s assessment that little stolen value has likely been cashed out makes subsequent transfers relevant to exchanges, custodians and crypto payment gateways screening incoming funds. Compliance teams can use updated wallet attribution to review exposure and monitor off-ramp activity; the $149 million measures mixing activity, not total theft or realized cash proceeds.",
+      "title": "Chainflip Vault Loses $4.86 Million in Suspected Key Compromise",
+      "body": "An attacker drained $4.86 million from a Chainflip vault in an apparently automated attack involving a suspected key compromise, The Block reported; its price data showed FLIP falling 34%. Final recoveries, customer losses and the operational status of all services remain undetermined. For users and liquidity providers, the unresolved questions concern which keys and services the attacker compromised and whether recovery or compensation arrangements will cover their exposure.",
       "source": {
         "name": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758"
+        "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
       }
     },
     {
-      "title": "BILL Agrees to $6 Billion TPG Acquisition With Corpay as Partner",
-      "body": "BILL announced a definitive agreement for TPG to acquire it in partnership with Corpay in a deal described as worth $6 billion. The transaction puts a finance platform serving nearly 500,000 businesses at the center of an ownership change relevant to accounting partners and business-payment providers. Customers and partners should assess closing conditions and Corpay\u2019s precise participation before treating the agreement as a commitment to combine products or distribution.",
+      "title": "CBI, Bancomat and Nexi Coordinate Italian Digital-Euro Infrastructure",
+      "body": "CBI, Bancomat and Nexi announced a collaboration to build Italian infrastructure supporting a digital euro. The agreement coordinates infrastructure preparation; it does not launch digital-euro issuance or production payments. The announcement did not disclose investment, implementation dates or participating-bank commitments, leaving Italian banks and PSPs without a confirmed onboarding schedule or allocation of commercial responsibilities.",
       "source": {
-        "name": "Finextra, company-release syndication",
-        "url": "https://www.finextra.com/pressarticle/111752/bill-agrees-to-be-acquired-by-tpg-in-6bn-deal"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48792/cbi-bancomat-and-nexi--to-build-italian-digital-euro-infrastructure"
       }
     }
   ],
-  "perspective": "OakNorth\u2019s US approval and MoonPay\u2019s trust-charter application lead today\u2019s developments in banking access, payments leadership, crypto screening and business-finance consolidation.",
+  "perspective": "Citi\u2019s AI-agent terms and PayPo\u2019s potential IPO frame developments spanning digital-banking access, consumer-credit funding, payment-provider finances and digital-money infrastructure.",
   "curiosity": {
-    "text": "In 1974, the U.S. Federal Reserve began routing government payments through an electronic funds transfer system, allowing federal agencies to send recurring benefits directly to recipients\u2019 bank accounts. That early program helped demonstrate how electronic payments could replace mailed paper checks at national scale. Source: Federal Reserve History, \u201cThe Fed\u2019s Role in the Payment System\u201d \u2014 https://www.federalreservehistory.org/essays/feds-role-in-the-payment-system"
+    "text": "Treasury launched Direct Express in 2008 so federal benefit recipients could receive payments electronically without opening a conventional bank account. Source: U.S. Treasury, Bureau of the Fiscal Service, \u201cDirect Express\u201d \u2014 https://fiscal.treasury.gov/direct-express/"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf3\ud83c\uddf1 / \ud83c\uddf8\ud83c\uddea",
-      "type": "product",
-      "company": "Adyen / Klarna",
-      "description": "Adds Klarna payment choices to agent checkout, retaining shopper confirmation.",
-      "source_url": "https://www.pymnts.com/commerce/ecommerce/2026/adyen-taps-klarna-to-enable-agentic-commerce-payment-options-beyond-cards/"
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "BILL",
+      "description": "Agrees to $6 billion acquisition by TPG in partnership with Corpay.",
+      "source_url": "https://www.finextra.com/pressarticle/111752/bill-agrees-to-be-acquired-by-tpg-in-6bn-deal"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddec / \ud83c\uddfa\ud83c\uddf8",
+      "flag": "\ud83c\uddf8\ud83c\uddea / \ud83c\uddf3\ud83c\uddf1",
       "type": "product",
-      "company": "DBS / Circle",
-      "description": "Offers eligible institutions direct USDC minting and redemption with round-the-clock settlement.",
-      "source_url": "https://www.circle.com/pressroom/dbs-and-circle-expand-institutional-access-to-usdc-in-asia"
+      "company": "Klarna / Adyen",
+      "description": "Enables Klarna payments through Adyen Agentic checkout.",
+      "source_url": "https://www.finextra.com/pressarticle/111751/adyen-merchants-can-offer-klarna-in-ai-agent-checkout"
+    },
+    {
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "product",
+      "company": "Google",
+      "description": "Launches Google Wallet on US iOS for passes, tickets and purchase organization.",
+      "source_url": "https://www.finextra.com/pressarticle/111753/google-wallet-lands-on-ios-in-the-us"
+    },
+    {
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "type": "expansion",
+      "company": "Float Financial",
+      "description": "Commits $5 million to Quebec, establishing its first provincial presence.",
+      "source_url": "https://www.finextra.com/pressarticle/111754/canadian-fintech-float-commits-5m-to-quebec"
+    },
+    {
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "expansion",
+      "company": "OakNorth",
+      "description": "Gains US charter approval, enabling deposits and broader business banking expansion.",
+      "source_url": "https://www.bankingdive.com/news/oaknorth-fed-occ-approve-charter-application-michigan-bank-acquisition-digital-uk/875357/"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
@@ -66,13 +87,6 @@
       "company": "N26",
       "description": "Announces N26 Aura, a new premium banking account.",
       "source_url": "https://www.finextra.com/pressarticle/111745/n26-launches-premium-account"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "expansion",
-      "company": "Float Financial",
-      "description": "Commits $5 million to its first establishment in Quebec.",
-      "source_url": "https://www.finextra.com/pressarticle/111754/canadian-fintech-float-commits-5m-to-quebec"
     }
   ]
 }
