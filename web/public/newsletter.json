@@ -1,92 +1,78 @@
 {
   "news": [
     {
-      "title": "Citi Revises Digital-Banking Terms for Third-Party AI Agents",
-      "body": "Citi amended its online user agreement covering customers\u2019 access to online and mobile banking, treating third-party AI-agent actions as customer-authorized even when agents contradict instructions or exceed delegated authority. The terms distinguish external agents from Citi-provided agents and allow Citi to terminate external-agent access; applicable law still governs transaction disputes. Customers using these digital-banking services and providers automating access to their accounts must account for those contractual restrictions, rather than assume permission to use credentials also authorizes third-party agents.",
+      "title": "GTCR Reopens Global Payments Buyout Evaluation",
+      "body": "GTCR disclosed that it is evaluating a potential Global Payments acquisition after an earlier consortium effort with CD&R ended. PYMNTS attributed an approximately $50 billion transaction estimate, including debt, to Bloomberg\u2014not to an agreed offer. GTCR already owns approximately 16%, and any acquisition would encompass a processor integrating Worldpay after selling Issuer Solutions to FIS. GTCR has announced neither an acquisition agreement nor changes to merchant services.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/citi-cautions-customers-against-using-third-party-ai-agents/"
+        "url": "https://www.pymnts.com/news/acquiring/2026/gtcr-weighs-buyout-of-global-payments-days-after-earlier-effort-ended/"
       }
     },
     {
-      "title": "Worldline Shares Fall Up to 20% After Report on Historical Cash Practices",
-      "body": "Worldline shares fell as much as 20% on November 20 after FT reporting described delayed supplier payments and requests for customer cash advances before financial results in the years preceding its 2023 profit warning. Finextra attributed the selloff to that reporting. The reported practices concern corporate working capital; they do not establish a current interruption to merchant settlements or a failure to safeguard merchant funds.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances"
-      }
-    },
-    {
-      "title": "PayPo Reportedly Hires Banks for Potential Warsaw IPO",
-      "body": "Polish BNPL provider PayPo reportedly hired Citigroup, JPMorgan and Ipopema Securities for a potential Warsaw IPO that could raise several hundred million dollars as early as 2027. The report puts its user base at approximately 2.5 million; the company and banks declined to comment. Size and timing remain unsettled, and the proposed listing does not yet provide fresh lending capital. A prospectus would clarify credit losses, funding costs and the split between growth funding and shareholder sales.",
+      "title": "TPG and Corpay Agree to Buy BILL for Approximately $6 Billion",
+      "body": "BILL agreed to a $63.25-per-share cash acquisition valuing the business at approximately $6 billion, with TPG taking a majority interest and Corpay a minority stake. Closing is expected in the first half of 2027, subject to shareholder and regulatory approvals, with Ren\u00e9 Lacerte remaining CEO. The buyers previously agreed to acquire AvidXchange, but have announced no combination or shared product roadmap for BILL\u2019s nearly 500,000 business customers.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/paypo-taps-citigroup-and-jpmorgan-for-possible-warsaw-ipo/"
+        "url": "https://www.pymnts.com/news/acquiring/2026/tpg-and-corpay-agree-to-buy-bill-in-6-billion-deal/"
       }
     },
     {
-      "title": "Chainflip Vault Loses $4.86 Million in Suspected Key Compromise",
-      "body": "An attacker drained $4.86 million from a Chainflip vault in an apparently automated attack involving a suspected key compromise, The Block reported; its price data showed FLIP falling 34%. Final recoveries, customer losses and the operational status of all services remain undetermined. For users and liquidity providers, the unresolved questions concern which keys and services the attacker compromised and whether recovery or compensation arrangements will cover their exposure.",
+      "title": "Mexico Revises Proposed Card Interchange Caps",
+      "body": "Mexico\u2019s revised proposal would phase in annual average interchange caps of 1% for credit cards and 0.3% for debit cards by 2029, easing the earlier proposed 0.6% credit cap. The government estimates roughly 20 billion pesos in annual savings, predominantly for acquirers. Merchant savings would depend on whether acquirers pass through the reductions in their commercial pricing. The caps remain proposed rather than final requirements.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/digital-payments/2026/mexico-relaxes-card-fee-rules-to-promote-digital-payments/"
       }
     },
     {
-      "title": "CBI, Bancomat and Nexi Coordinate Italian Digital-Euro Infrastructure",
-      "body": "CBI, Bancomat and Nexi announced a collaboration to build Italian infrastructure supporting a digital euro. The agreement coordinates infrastructure preparation; it does not launch digital-euro issuance or production payments. The announcement did not disclose investment, implementation dates or participating-bank commitments, leaving Italian banks and PSPs without a confirmed onboarding schedule or allocation of commercial responsibilities.",
+      "title": "Worldline Rejects Accounting Allegations and Reiterates Cash-Flow Forecast",
+      "body": "Following FT reporting on historical supplier-payment delays and customer cash advances, Worldline rejected allegations of accounting irregularities and reiterated its 2026 free-cash-flow forecast of negative \u20ac60 million to negative \u20ac40 million. According to PYMNTS\u2019 account, a late-2023 PwC assessment estimated that 2022 free cash flow would have been \u20ac200 million below the reported \u20ac520 million without those practices. The reporting concerns historical cash generation; it does not establish a current settlement interruption or merchant-funds shortfall.",
       "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48792/cbi-bancomat-and-nexi--to-build-italian-digital-euro-infrastructure"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/business/2026/worldline-defends-financial-transparency-after-financial-times-report-on-past-cash-flow-tactics/"
+      }
+    },
+    {
+      "title": "Stablecoin Advisory Flags January Approval Deadline",
+      "body": "Payment-stablecoin issuers generally need approval to continue issuing after January 18, 2027, with no automatic grandfathering, according to PYMNTS. Eligible existing issuers with substantially complete OCC applications pending by that date may request up to 12 months of discretionary relief. The report distinguishes legal issuers responsible for reserves and redemption from distributors and branded front ends, so a customer-facing platform\u2019s obligations depend on its role. Application forms were still awaiting federal clearance, the article reported.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-issuers-face-january-approval-deadline-under-genius-act/"
       }
     }
   ],
-  "perspective": "Citi\u2019s AI-agent terms and PayPo\u2019s potential IPO frame developments spanning digital-banking access, consumer-credit funding, payment-provider finances and digital-money infrastructure.",
+  "perspective": "GTCR\u2019s Global Payments evaluation and BILL\u2019s agreed sale lead developments spanning payments ownership, merchant fees, processor cash reporting and stablecoin approvals.",
   "curiosity": {
-    "text": "Treasury launched Direct Express in 2008 so federal benefit recipients could receive payments electronically without opening a conventional bank account. Source: U.S. Treasury, Bureau of the Fiscal Service, \u201cDirect Express\u201d \u2014 https://fiscal.treasury.gov/direct-express/"
+    "text": "The Bank of Finland launched Avant in 1993 through its subsidiary Toimiraha; commercial banks acquired the system in 1995. The original electronic purse used contact-based smart cards: offline payments updated the value stored on the chip locally, rather than waiting for a later balance update. Source: Bank of Finland, \u201cThe world\u2019s first central bank digital currency \u2013 Avant\u201d \u2014 https://publications.bof.fi/bitstream/handle/10024/43886/BoFER_8_2020.pdf"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "BILL",
-      "description": "Agrees to $6 billion acquisition by TPG in partnership with Corpay.",
-      "source_url": "https://www.finextra.com/pressarticle/111752/bill-agrees-to-be-acquired-by-tpg-in-6bn-deal"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Payhawk",
+      "description": "Raises $280 million Series C led by Goldman Sachs at $2 billion valuation.",
+      "source_url": "https://www.finextra.com/newsarticle/48775/goldman-sachs-leads-280m-series-c-for-payhawk"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea / \ud83c\uddf3\ud83c\uddf1",
+      "flag": "\ud83c\uddf8\ud83c\uddea",
       "type": "product",
       "company": "Klarna / Adyen",
-      "description": "Enables Klarna payments through Adyen Agentic checkout.",
-      "source_url": "https://www.finextra.com/pressarticle/111751/adyen-merchants-can-offer-klarna-in-ai-agent-checkout"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "product",
-      "company": "Google",
-      "description": "Launches Google Wallet on US iOS for passes, tickets and purchase organization.",
-      "source_url": "https://www.finextra.com/pressarticle/111753/google-wallet-lands-on-ios-in-the-us"
-    },
-    {
-      "flag": "\ud83c\udde8\ud83c\udde6",
-      "type": "expansion",
-      "company": "Float Financial",
-      "description": "Commits $5 million to Quebec, establishing its first provincial presence.",
-      "source_url": "https://www.finextra.com/pressarticle/111754/canadian-fintech-float-commits-5m-to-quebec"
+      "description": "Enables Klarna payments through Adyen\u2019s AI-agent checkout for existing integrated merchants.",
+      "source_url": "https://www.pymnts.com/commerce/ecommerce/2026/adyen-taps-klarna-to-enable-agentic-commerce-payment-options-beyond-cards/"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
       "company": "OakNorth",
-      "description": "Gains US charter approval, enabling deposits and broader business banking expansion.",
+      "description": "Secures US banking approval, enabling expansion beyond lending into deposits and payments.",
       "source_url": "https://www.bankingdive.com/news/oaknorth-fed-occ-approve-charter-application-michigan-bank-acquisition-digital-uk/875357/"
     },
     {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "product",
-      "company": "N26",
-      "description": "Announces N26 Aura, a new premium banking account.",
-      "source_url": "https://www.finextra.com/pressarticle/111745/n26-launches-premium-account"
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "type": "fundraising",
+      "company": "Model ML",
+      "description": "Raises $250 million at $1.5 billion valuation for financial-services AI agents.",
+      "source_url": "https://www.finextra.com/newsarticle/48776/model-ml-raises-250m-to-give-bankers-their-own-personal-agents"
     }
   ]
 }
