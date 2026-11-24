@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "GTCR Reopens Global Payments Buyout Evaluation",
-      "body": "GTCR disclosed that it is evaluating a potential Global Payments acquisition after an earlier consortium effort with CD&R ended. PYMNTS attributed an approximately $50 billion transaction estimate, including debt, to Bloomberg\u2014not to an agreed offer. GTCR already owns approximately 16%, and any acquisition would encompass a processor integrating Worldpay after selling Issuer Solutions to FIS. GTCR has announced neither an acquisition agreement nor changes to merchant services.",
+      "title": "PayPal Sets Settlement and Dispute Rules for Agentic Virtual Cards",
+      "body": "PayPal\u2019s newly effective merchant terms govern settlement, fees, refunds and disputes for virtual cards used in agentic commerce. For merchants, these contractual rules determine acceptance costs and how payment teams handle refunds and chargebacks\u2014not simply whether an AI agent can complete checkout.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/gtcr-weighs-buyout-of-global-payments-days-after-earlier-effort-ended/"
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/paypal-sets-virtual-card-rules-for-agentic-commerce/"
       }
     },
     {
-      "title": "TPG and Corpay Agree to Buy BILL for Approximately $6 Billion",
-      "body": "BILL agreed to a $63.25-per-share cash acquisition valuing the business at approximately $6 billion, with TPG taking a majority interest and Corpay a minority stake. Closing is expected in the first half of 2027, subject to shareholder and regulatory approvals, with Ren\u00e9 Lacerte remaining CEO. The buyers previously agreed to acquire AvidXchange, but have announced no combination or shared product roadmap for BILL\u2019s nearly 500,000 business customers.",
+      "title": "Payoneer Receives Conditional Approval for Trust Bank",
+      "body": "Payoneer received conditional approval for a trust bank, but the decision does not authorize an operational launch. Proposed bank CEO Rob Morgan discussed issuance, reserves and the opening examination with Banking Dive. The examination and final authorization remain milestones before prospective partners can treat the proposed banking services as available.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/tpg-and-corpay-agree-to-buy-bill-in-6-billion-deal/"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/payoneer-gets-conditional-approval-trust-bank-occ-payo-digital/875506/"
       }
     },
     {
-      "title": "Mexico Revises Proposed Card Interchange Caps",
-      "body": "Mexico\u2019s revised proposal would phase in annual average interchange caps of 1% for credit cards and 0.3% for debit cards by 2029, easing the earlier proposed 0.6% credit cap. The government estimates roughly 20 billion pesos in annual savings, predominantly for acquirers. Merchant savings would depend on whether acquirers pass through the reductions in their commercial pricing. The caps remain proposed rather than final requirements.",
+      "title": "Klarna Expands Distribution Through Visa Acceptance Platform",
+      "body": "Klarna\u2019s expanded Visa partnership broadens access to its offering for Visa Acceptance Platform merchants, according to the companies\u2019 announcement. The agreement adds a distribution channel; it does not establish how many merchants have activated Klarna or what conversion results they have achieved. Country eligibility and pricing will determine the option\u2019s availability and cost for individual merchants.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/digital-payments/2026/mexico-relaxes-card-fee-rules-to-promote-digital-payments/"
+        "name": "Finextra \u2014 press release",
+        "url": "https://www.finextra.com/pressarticle/111763/klarna-expands-visa-partnership"
       }
     },
     {
-      "title": "Worldline Rejects Accounting Allegations and Reiterates Cash-Flow Forecast",
-      "body": "Following FT reporting on historical supplier-payment delays and customer cash advances, Worldline rejected allegations of accounting irregularities and reiterated its 2026 free-cash-flow forecast of negative \u20ac60 million to negative \u20ac40 million. According to PYMNTS\u2019 account, a late-2023 PwC assessment estimated that 2022 free cash flow would have been \u20ac200 million below the reported \u20ac520 million without those practices. The reporting concerns historical cash generation; it does not establish a current settlement interruption or merchant-funds shortfall.",
+      "title": "Adyen Moves to Sole-CEO Leadership as Van der Does Retires",
+      "body": "Pieter van der Does is retiring as Adyen\u2019s co-CEO, leaving Ingo Uytdehaage as sole chief executive, Finextra reports. The transition consolidates executive leadership rather than bringing in an outside successor. The announcement alone does not establish a change to Adyen\u2019s strategy or financial guidance.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/business/2026/worldline-defends-financial-transparency-after-financial-times-report-on-past-cash-flow-tactics/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48801/adyen-co-ceo-van-der-does-retires"
       }
     },
     {
-      "title": "Stablecoin Advisory Flags January Approval Deadline",
-      "body": "Payment-stablecoin issuers generally need approval to continue issuing after January 18, 2027, with no automatic grandfathering, according to PYMNTS. Eligible existing issuers with substantially complete OCC applications pending by that date may request up to 12 months of discretionary relief. The report distinguishes legal issuers responsible for reserves and redemption from distributors and branded front ends, so a customer-facing platform\u2019s obligations depend on its role. Application forms were still awaiting federal clearance, the article reported.",
+      "title": "Canada Selects FDX for Open-Banking Technical Standards",
+      "body": "Canada selected Financial Data Exchange as the technical standards body for open banking. Banks and fintechs now have a designated organization around which to coordinate connectivity work, although the selection does not itself establish production access. Canadian technical specifications, certification requirements and implementation dates will define the scope of integration work.",
       "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-issuers-face-january-approval-deadline-under-genius-act/"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48795/canada-picks-fdx-for-open-banking-technical-standards"
       }
     }
   ],
-  "perspective": "GTCR\u2019s Global Payments evaluation and BILL\u2019s agreed sale lead developments spanning payments ownership, merchant fees, processor cash reporting and stablecoin approvals.",
+  "perspective": "PayPal\u2019s agentic-card terms and Payoneer\u2019s conditional trust bank approval accompany changes in merchant distribution, payments leadership and Canadian open-banking standards.",
   "curiosity": {
-    "text": "The Bank of Finland launched Avant in 1993 through its subsidiary Toimiraha; commercial banks acquired the system in 1995. The original electronic purse used contact-based smart cards: offline payments updated the value stored on the chip locally, rather than waiting for a later balance update. Source: Bank of Finland, \u201cThe world\u2019s first central bank digital currency \u2013 Avant\u201d \u2014 https://publications.bof.fi/bitstream/handle/10024/43886/BoFER_8_2020.pdf"
+    "text": "Nacha formed in 1974 to administer the ACH Network\u2014not to introduce electronic check conversion. ACH stands for Automated Clearing House, and the network carries both credit entries, such as payroll deposits, and debit entries, such as authorized bill payments. Source: Nacha, \u201cThe ACH Network: A Brief History\u201d \u2014 https://www.nacha.org/content/ach-network-brief-history"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
-      "company": "Payhawk",
-      "description": "Raises $280 million Series C led by Goldman Sachs at $2 billion valuation.",
-      "source_url": "https://www.finextra.com/newsarticle/48775/goldman-sachs-leads-280m-series-c-for-payhawk"
+      "company": "CommerzVentures",
+      "description": "Announces \u20ac50 million early-stage fund targeting AI and financial services.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/fintech-investments/2026/commerzbank-backed-commerzventures-pursues-european-ai-startups-54-5m-fund/"
     },
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "product",
-      "company": "Klarna / Adyen",
-      "description": "Enables Klarna payments through Adyen\u2019s AI-agent checkout for existing integrated merchants.",
-      "source_url": "https://www.pymnts.com/commerce/ecommerce/2026/adyen-taps-klarna-to-enable-agentic-commerce-payment-options-beyond-cards/"
+      "company": "Silverflow",
+      "description": "Launches modular in-person payment processing for acquirers.",
+      "source_url": "https://www.finextra.com/pressarticle/111761/silverflow-launches-modular-in-person-payments-tech"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
       "type": "expansion",
-      "company": "OakNorth",
-      "description": "Secures US banking approval, enabling expansion beyond lending into deposits and payments.",
-      "source_url": "https://www.bankingdive.com/news/oaknorth-fed-occ-approve-charter-application-michigan-bank-acquisition-digital-uk/875357/"
+      "company": "Trust Payments",
+      "description": "Partners with OKTO for local payment methods and card processing across six Latin American markets.",
+      "source_url": "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam"
     },
     {
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "fundraising",
-      "company": "Model ML",
-      "description": "Raises $250 million at $1.5 billion valuation for financial-services AI agents.",
-      "source_url": "https://www.finextra.com/newsarticle/48776/model-ml-raises-250m-to-give-bankers-their-own-personal-agents"
+      "type": "product",
+      "company": "Form3",
+      "description": "Adds Coinbase infrastructure for stablecoin money movement alongside account-to-account payments.",
+      "source_url": "https://www.finextra.com/pressarticle/111760/form3-partners-picks-coinbase-infrastructure-for-stablecoin-money-movement"
     }
   ]
 }
