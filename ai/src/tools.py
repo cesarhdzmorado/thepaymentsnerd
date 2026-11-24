@@ -877,14 +877,24 @@ def consolidate_story_sources(stories: list, ranking: Optional[dict] = None) -> 
     expanded = []
     for story_index, story in enumerate(stories):
         source_group = f"story:{story_index}"
-        parent = dict(story)
-        parent["_source_group"] = source_group
-        expanded.append(parent)
-        for source in story.get("source_candidates", []) or []:
-            if isinstance(source, dict) and source.get("url"):
+        attached_sources = [
+            source
+            for source in story.get("source_candidates", []) or []
+            if isinstance(source, dict) and source.get("url")
+        ]
+        if attached_sources:
+            # The parent title/body are parser synthesis, not independent source
+            # evidence. When explicit source records exist, compare only their
+            # reported facts; otherwise a rounded summary headline can create a
+            # false same-tier conflict with its own underlying source.
+            for source in attached_sources:
                 candidate = _candidate_from_source(story, source)
                 candidate["_source_group"] = source_group
                 expanded.append(candidate)
+        else:
+            parent = dict(story)
+            parent["_source_group"] = source_group
+            expanded.append(parent)
 
     clusters: List[List[dict]] = []
     for story in expanded:
