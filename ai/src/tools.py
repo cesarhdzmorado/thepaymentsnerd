@@ -778,8 +778,8 @@ def _headline_money_values(story: dict) -> Set[float]:
     return values
 
 
-def _headline_money_mentions(story: dict) -> List[Tuple[float, Set[str]]]:
-    """Return headline amounts with the metric words that immediately follow them."""
+def _headline_money_mentions(story: dict) -> List[Tuple[float, Set[str], float]]:
+    """Return headline amounts, nearby metric words, and implied precision."""
     title = story.get("title", "") or ""
     ignored = {"a", "an", "and", "at", "for", "from", "in", "of", "on", "over", "plus", "the", "to", "with"}
     mentions = []
@@ -800,7 +800,9 @@ def _headline_money_mentions(story: dict) -> List[Tuple[float, Set[str]]]:
         }[suffix]
         following_words = re.findall(r"[a-z0-9]+", title[match.end():].lower())[:5]
         context = {word for word in following_words if word not in ignored}
-        mentions.append((amount * multiplier, context))
+        decimal_places = len(match.group(1).partition(".")[2])
+        resolution = multiplier * (10 ** -decimal_places)
+        mentions.append((amount * multiplier, context, resolution))
     return mentions
 
 
@@ -820,8 +822,8 @@ def _material_conflicts(candidates: list) -> List[str]:
     conflicting_amounts = set()
     for index, left_mentions in enumerate(mention_sets):
         for right_mentions in mention_sets[index + 1:]:
-            for left_amount, left_context in left_mentions:
-                for right_amount, right_context in right_mentions:
+            for left_amount, left_context, left_resolution in left_mentions:
+                for right_amount, right_context, right_resolution in right_mentions:
                     # Different headline metrics can legitimately describe the same event
                     # (for example, transfer volume versus quarterly revenue). Only block
                     # when the nearby metric words show that the amounts describe the same
@@ -830,7 +832,18 @@ def _material_conflicts(candidates: list) -> List[str]:
                         continue
                     larger = max(left_amount, right_amount)
                     smaller = max(min(left_amount, right_amount), 1)
-                    if larger / smaller > 1.05:
+                    difference = larger - smaller
+                    # Headlines routinely round the same figure at different precision
+                    # (for example, $1.10bn versus $1.17bn). Allow at most three
+                    # quarters of the coarser source's implied unit, bounded to a
+                    # narrow 7.5% relative tolerance. Material discrepancies still
+                    # block publication.
+                    rounding_tolerance = min(
+                        max(left_resolution, right_resolution) * 0.75,
+                        smaller * 0.075,
+                    )
+                    tolerance = max(smaller * 0.05, rounding_tolerance)
+                    if difference > tolerance:
                         conflicting_amounts.update((left_amount, right_amount))
     if conflicting_amounts:
         conflicts.append(

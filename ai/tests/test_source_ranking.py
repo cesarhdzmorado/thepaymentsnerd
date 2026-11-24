@@ -392,6 +392,33 @@ class TestSourceRanking(unittest.TestCase):
         self.assertTrue(errors)
         self.assertIn("Conflicting headline amounts", errors[0])
 
+    def test_same_tier_coarse_headline_rounding_does_not_block_release(self):
+        doj_story = {
+            "title": "DOJ seeks approximately $1.17 billion tied to Binance theft",
+            "body": "The DOJ initiated a forfeiture effort tied to the Binance theft.",
+            "source_name": "The Block",
+            "source_url": "https://www.theblock.co/binance-forfeiture",
+            "source_candidates": [
+                {
+                    "name": "The Block",
+                    "url": "https://www.theblock.co/binance-forfeiture",
+                    "title": "DOJ seeks approximately $1.17 billion tied to Binance theft",
+                    "summary": "The DOJ initiated a forfeiture effort tied to the Binance theft.",
+                },
+                {
+                    "name": "PYMNTS",
+                    "url": "https://www.pymnts.com/binance-forfeiture",
+                    "title": "DOJ aims to recover $1.1 billion from Binance theft",
+                    "summary": "The DOJ initiated a forfeiture effort tied to the Binance theft.",
+                },
+            ],
+        }
+
+        _, decisions = consolidate_story_sources([doj_story])
+
+        self.assertTrue(decisions)
+        self.assertEqual(source_conflict_errors(decisions), [])
+
     def test_same_event_different_financial_metrics_do_not_conflict(self):
         circle_results = {
             "title": "Circle reports $13.9 trillion in USDC transfers",
