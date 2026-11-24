@@ -394,10 +394,10 @@ class TestSourceRanking(unittest.TestCase):
 
     def test_same_tier_coarse_headline_rounding_does_not_block_release(self):
         doj_story = {
-            "title": "DOJ seeks approximately $1.17 billion tied to Binance theft",
+            "title": "DOJ seeks recovery of more than $1 billion following Binance theft",
             "body": "The DOJ initiated a forfeiture effort tied to the Binance theft.",
-            "source_name": "The Block",
-            "source_url": "https://www.theblock.co/binance-forfeiture",
+            "source_name": "PYMNTS",
+            "source_url": "https://www.pymnts.com/binance-forfeiture",
             "source_candidates": [
                 {
                     "name": "The Block",
@@ -414,10 +414,11 @@ class TestSourceRanking(unittest.TestCase):
             ],
         }
 
-        _, decisions = consolidate_story_sources([doj_story])
+        stories, decisions = consolidate_story_sources([doj_story])
 
         self.assertTrue(decisions)
         self.assertEqual(source_conflict_errors(decisions), [])
+        self.assertNotEqual(stories[0]["title"], doj_story["title"])
 
     def test_same_event_different_financial_metrics_do_not_conflict(self):
         circle_results = {
