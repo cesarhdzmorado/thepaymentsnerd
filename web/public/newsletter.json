@@ -1,78 +1,78 @@
 {
   "news": [
     {
-      "title": "PayPal Sets Settlement and Dispute Rules for Agentic Virtual Cards",
-      "body": "PayPal\u2019s newly effective merchant terms govern settlement, fees, refunds and disputes for virtual cards used in agentic commerce. For merchants, these contractual rules determine acceptance costs and how payment teams handle refunds and chargebacks\u2014not simply whether an AI agent can complete checkout.",
+      "title": "Investors Discuss Backing GTCR\u2019s Potential $50 Billion Global Payments Acquisition",
+      "body": "Blackstone, Warburg Pincus and Apollo are discussing backing GTCR\u2019s potential $50 billion acquisition of Global Payments, according to Reuters reporting cited by PYMNTS. The figure describes the potential acquisition value, not a financing commitment. For merchants and processing partners, any subsequent changes to Worldpay integration schedules, platform migrations or service contracts would determine the operational impact.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/paypal-sets-virtual-card-rules-for-agentic-commerce/"
+        "url": "https://www.pymnts.com/news/acquiring/2026/blackstone-warburg-pincus-and-apollo-weigh-backing-50-billion-global-payments-acquisition/"
       }
     },
     {
-      "title": "Payoneer Receives Conditional Approval for Trust Bank",
-      "body": "Payoneer received conditional approval for a trust bank, but the decision does not authorize an operational launch. Proposed bank CEO Rob Morgan discussed issuance, reserves and the opening examination with Banking Dive. The examination and final authorization remain milestones before prospective partners can treat the proposed banking services as available.",
+      "title": "Adyen Co-Founder Steps Down as Company Moves to Sole-CEO Leadership",
+      "body": "Adyen co-founder Pieter van der Does is stepping down, Banking Dive reports, as the payments company transitions to sole-CEO leadership. The succession changes executive responsibility at the merchant payments provider. Its next reporting cycle will provide a comparison point for product investment, commercial priorities and operating performance under the new leadership structure.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/payoneer-gets-conditional-approval-trust-bank-occ-payo-digital/875506/"
+        "url": "https://www.bankingdive.com/news/adyen-co-founder-van-der-does-step-down-uytdehaage/875640/"
       }
     },
     {
-      "title": "Klarna Expands Distribution Through Visa Acceptance Platform",
-      "body": "Klarna\u2019s expanded Visa partnership broadens access to its offering for Visa Acceptance Platform merchants, according to the companies\u2019 announcement. The agreement adds a distribution channel; it does not establish how many merchants have activated Klarna or what conversion results they have achieved. Country eligibility and pricing will determine the option\u2019s availability and cost for individual merchants.",
+      "title": "Former OCC Staff Warn Job Cuts Could Weaken Bank Supervision",
+      "body": "Former OCC staff members say workforce cuts leave the bank regulator vulnerable, according to Banking Dive\u2019s reporting, which also includes the agency\u2019s response. The concerns span examination continuity, specialist staffing and capacity to implement stablecoin oversight. For banks and charter applicants, examination scheduling and application-processing times offer concrete measures of how staffing changes affect supervision.",
       "source": {
-        "name": "Finextra \u2014 press release",
-        "url": "https://www.finextra.com/pressarticle/111763/klarna-expands-visa-partnership"
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/occ-job-cuts-bank-supervision-gould/875550/"
       }
     },
     {
-      "title": "Adyen Moves to Sole-CEO Leadership as Van der Does Retires",
-      "body": "Pieter van der Does is retiring as Adyen\u2019s co-CEO, leaving Ingo Uytdehaage as sole chief executive, Finextra reports. The transition consolidates executive leadership rather than bringing in an outside successor. The announcement alone does not establish a change to Adyen\u2019s strategy or financial guidance.",
+      "title": "Wells Fargo Assigns Customers Responsibility for AI Agents",
+      "body": "Customers must oversee AI agents acting on their behalf under Wells Fargo\u2019s customer terms, PYMNTS reports. The provisions address agent monitoring, revoking authorization and possible registration requirements. For agent developers, those responsibilities make customer-facing activity monitoring and access-revocation controls concrete design requirements; the terms do not themselves authorize every proposed banking workflow.",
+      "source": {
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/banking/2026/wells-fargo-tells-customers-they-are-responsible-for-ai-agents/"
+      }
+    },
+    {
+      "title": "Trustly Raises $60 Million From Existing Shareholders for AI Growth Plan",
+      "body": "Existing shareholders supplied Trustly with $60 million for an AI-powered growth plan following recent workforce reductions, Finextra reports. The investment funds development as Trustly reshapes its workforce. Named product releases, paying deployments and revenue from the financed capabilities will show how the new spending translates into services for banks and merchants.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48801/adyen-co-ceo-van-der-does-retires"
-      }
-    },
-    {
-      "title": "Canada Selects FDX for Open-Banking Technical Standards",
-      "body": "Canada selected Financial Data Exchange as the technical standards body for open banking. Banks and fintechs now have a designated organization around which to coordinate connectivity work, although the selection does not itself establish production access. Canadian technical specifications, certification requirements and implementation dates will define the scope of integration work.",
-      "source": {
-        "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48795/canada-picks-fdx-for-open-banking-technical-standards"
+        "url": "https://www.finextra.com/newsarticle/48802/trustly-raises-60m-from-shareholders-for-ai-powered-growth-plan"
       }
     }
   ],
-  "perspective": "PayPal\u2019s agentic-card terms and Payoneer\u2019s conditional trust bank approval accompany changes in merchant distribution, payments leadership and Canadian open-banking standards.",
+  "perspective": "Global Payments\u2019 potential buyout and Wells Fargo\u2019s AI-agent terms address who owns payment infrastructure and who controls access to bank accounts.",
   "curiosity": {
-    "text": "Nacha formed in 1974 to administer the ACH Network\u2014not to introduce electronic check conversion. ACH stands for Automated Clearing House, and the network carries both credit entries, such as payroll deposits, and debit entries, such as authorized bill payments. Source: Nacha, \u201cThe ACH Network: A Brief History\u201d \u2014 https://www.nacha.org/content/ach-network-brief-history"
+    "text": "The U.S. Federal Reserve launched FedNow in July 2023, but participation is voluntary and the service is a settlement rail\u2014not a consumer-facing payment app. Banks and credit unions connect through it to send and receive instant payments around the clock, with funds settling individually in central-bank money. Source: Federal Reserve, \u201cFedNow Service\u201d \u2014 https://www.federalreserve.gov/paymentsystems/fednow_about.htm"
   },
   "whats_hot": [
     {
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "fundraising",
+      "company": "Trustly",
+      "description": "Raised $60 million from existing shareholders for payment, data and AI product development.",
+      "source_url": "https://www.pymnts.com/news/investments/2026/trustly-raises-60-million-for-ai-driven-financial-intel/"
+    },
+    {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
-      "company": "CommerzVentures",
-      "description": "Announces \u20ac50 million early-stage fund targeting AI and financial services.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/fintech-investments/2026/commerzbank-backed-commerzventures-pursues-european-ai-startups-54-5m-fund/"
+      "company": "Pliant",
+      "description": "Secured over \u20ac200 million in additional debt capacity from Ascory Bank and Viola Credit.",
+      "source_url": "https://www.finextra.com/pressarticle/111768/pliant-secures-200m-in-debt-financing"
     },
     {
       "flag": "\ud83c\uddf3\ud83c\uddf1",
       "type": "product",
       "company": "Silverflow",
-      "description": "Launches modular in-person payment processing for acquirers.",
+      "description": "Launched a modular in-person payments offering for acquirers.",
       "source_url": "https://www.finextra.com/pressarticle/111761/silverflow-launches-modular-in-person-payments-tech"
     },
     {
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "type": "expansion",
-      "company": "Trust Payments",
-      "description": "Partners with OKTO for local payment methods and card processing across six Latin American markets.",
-      "source_url": "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam"
-    },
-    {
-      "flag": "\ud83c\uddec\ud83c\udde7",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Form3",
-      "description": "Adds Coinbase infrastructure for stablecoin money movement alongside account-to-account payments.",
-      "source_url": "https://www.finextra.com/pressarticle/111760/form3-partners-picks-coinbase-infrastructure-for-stablecoin-money-movement"
+      "company": "Krak / Payward",
+      "description": "Opened US credit-card waitlists, including a USDC-collateralized product planned for early 2027.",
+      "source_url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498"
     }
   ]
 }
