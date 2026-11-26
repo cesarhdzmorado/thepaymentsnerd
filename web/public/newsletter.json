@@ -1,78 +1,71 @@
 {
   "news": [
     {
-      "title": "Investors Discuss Backing GTCR\u2019s Potential $50 Billion Global Payments Acquisition",
-      "body": "Blackstone, Warburg Pincus and Apollo are discussing backing GTCR\u2019s potential $50 billion acquisition of Global Payments, according to Reuters reporting cited by PYMNTS. The figure describes the potential acquisition value, not a financing commitment. For merchants and processing partners, any subsequent changes to Worldpay integration schedules, platform migrations or service contracts would determine the operational impact.",
+      "title": "Afterpay Reaches $2.68 Million California Underwriting Settlement",
+      "body": "PYMNTS reports that California\u2019s Department of Financial Protection and Innovation reached a $2.68 million settlement with Afterpay over underwriting failures. The amount describes the settlement total, not an established penalty-only figure. The underwriting action concerns Afterpay\u2019s lending practices and is separate from the Block AML matter referenced in the report.",
       "source": {
         "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/acquiring/2026/blackstone-warburg-pincus-and-apollo-weigh-backing-50-billion-global-payments-acquisition/"
+        "url": "https://www.pymnts.com/news/buy-now-pay-later/2026/calif-fines-afterpay-2-7-million-for-underwriting-failures/"
       }
     },
     {
-      "title": "Adyen Co-Founder Steps Down as Company Moves to Sole-CEO Leadership",
-      "body": "Adyen co-founder Pieter van der Does is stepping down, Banking Dive reports, as the payments company transitions to sole-CEO leadership. The succession changes executive responsibility at the merchant payments provider. Its next reporting cycle will provide a comparison point for product investment, commercial priorities and operating performance under the new leadership structure.",
+      "title": "Highnote Applies to Establish a National Bank",
+      "body": "Highnote filed applications with the OCC and FDIC to establish a national bank, Banking Dive reports. The applications seek regulatory approval; they do not establish an approved charter or launch date. The report establishes no immediate change to existing customer programs or sponsor-bank relationships.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/adyen-co-founder-van-der-does-step-down-uytdehaage/875640/"
+        "url": "https://www.bankingdive.com/news/highnote-applies-national-bank-charter-occ-fdic/875785/"
       }
     },
     {
-      "title": "Former OCC Staff Warn Job Cuts Could Weaken Bank Supervision",
-      "body": "Former OCC staff members say workforce cuts leave the bank regulator vulnerable, according to Banking Dive\u2019s reporting, which also includes the agency\u2019s response. The concerns span examination continuity, specialist staffing and capacity to implement stablecoin oversight. For banks and charter applicants, examination scheduling and application-processing times offer concrete measures of how staffing changes affect supervision.",
+      "title": "Capital One Details Payments Modernization and Fraud-Model Work",
+      "body": "In an interview with Banking Dive, a Capital One executive described the bank\u2019s payment-rail architecture and remaining modernization work, including ACH and wire migration. The executive also outlined fraud-model work aimed at reducing false positives and increasing approvals. Those are stated objectives: the interview supplied no measured improvements.",
       "source": {
         "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/occ-job-cuts-bank-supervision-gould/875550/"
+        "url": "https://www.bankingdive.com/news/capital-one-pursues-payments-modernization-real-time-cloud-avik-chatterjee/875712/"
       }
     },
     {
-      "title": "Wells Fargo Assigns Customers Responsibility for AI Agents",
-      "body": "Customers must oversee AI agents acting on their behalf under Wells Fargo\u2019s customer terms, PYMNTS reports. The provisions address agent monitoring, revoking authorization and possible registration requirements. For agent developers, those responsibilities make customer-facing activity monitoring and access-revocation controls concrete design requirements; the terms do not themselves authorize every proposed banking workflow.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/banking/2026/wells-fargo-tells-customers-they-are-responsible-for-ai-agents/"
-      }
-    },
-    {
-      "title": "Trustly Raises $60 Million From Existing Shareholders for AI Growth Plan",
-      "body": "Existing shareholders supplied Trustly with $60 million for an AI-powered growth plan following recent workforce reductions, Finextra reports. The investment funds development as Trustly reshapes its workforce. Named product releases, paying deployments and revenue from the financed capabilities will show how the new spending translates into services for banks and merchants.",
+      "title": "South Korea Proposes Rules for Bank-Issued Won Stablecoins",
+      "body": "South Korea has proposed rules allowing local banks to issue won-pegged stablecoins, according to Finextra. The proposal would create a bank-issuance route rather than establish that banks have already launched tokens. Issuer eligibility, redemption obligations and distribution permissions will define how banks can offer the proposed instruments.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48802/trustly-raises-60m-from-shareholders-for-ai-powered-growth-plan"
+        "url": "https://www.finextra.com/newsarticle/48809/south-korea-proposes-new-stablecoin-rules-for-local-bank-issuance"
+      }
+    },
+    {
+      "title": "Aave Labs Publicly Launches Savings App With Reported Balances Above $63 Million",
+      "body": "Aave Labs has publicly launched its savings app, with balances exceeding $63 million, The Block reports. The launch expands public access, but the reported balance does not measure net inflows or withdrawal performance. Customers assessing the app need to distinguish its yield sources and protection arrangements from those of an insured bank deposit.",
+      "source": {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
       }
     }
   ],
-  "perspective": "Global Payments\u2019 potential buyout and Wells Fargo\u2019s AI-agent terms address who owns payment infrastructure and who controls access to bank accounts.",
+  "perspective": "Highnote seeks banking authorization while Capital One outlines payment-rail modernization, spanning charter applications and infrastructure investment.",
   "curiosity": {
-    "text": "The U.S. Federal Reserve launched FedNow in July 2023, but participation is voluntary and the service is a settlement rail\u2014not a consumer-facing payment app. Banks and credit unions connect through it to send and receive instant payments around the clock, with funds settling individually in central-bank money. Source: Federal Reserve, \u201cFedNow Service\u201d \u2014 https://www.federalreserve.gov/paymentsystems/fednow_about.htm"
+    "text": "In 1946, Flatbush National Bank of Brooklyn introduced its \u201cCharge-It\u201d plan: customers charged purchases at participating local merchants, who submitted the sales slips to the bank for payment. Unlike a modern card network, the arrangement served the bank\u2019s own customers and nearby merchants. Source: Smithsonian National Museum of American History \u2014 https://americanhistory.si.edu/collections/object-groups/credit-cards"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddf8\ud83c\uddea",
       "type": "fundraising",
       "company": "Trustly",
-      "description": "Raised $60 million from existing shareholders for payment, data and AI product development.",
-      "source_url": "https://www.pymnts.com/news/investments/2026/trustly-raises-60-million-for-ai-driven-financial-intel/"
+      "description": "Raises approximately $60 million from existing shareholders for payment, data and AI development.",
+      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/trustly-raises-60-million-for-ai-driven-financial-intel/"
     },
     {
       "flag": "\ud83c\udde9\ud83c\uddea",
       "type": "fundraising",
       "company": "Pliant",
-      "description": "Secured over \u20ac200 million in additional debt capacity from Ascory Bank and Viola Credit.",
+      "description": "Secures over \u20ac200 million additional debt capacity through Ascory Bank and Viola Credit transactions.",
       "source_url": "https://www.finextra.com/pressarticle/111768/pliant-secures-200m-in-debt-financing"
-    },
-    {
-      "flag": "\ud83c\uddf3\ud83c\uddf1",
-      "type": "product",
-      "company": "Silverflow",
-      "description": "Launched a modular in-person payments offering for acquirers.",
-      "source_url": "https://www.finextra.com/pressarticle/111761/silverflow-launches-modular-in-person-payments-tech"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "type": "product",
-      "company": "Krak / Payward",
-      "description": "Opened US credit-card waitlists, including a USDC-collateralized product planned for early 2027.",
-      "source_url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498"
+      "company": "Deel",
+      "description": "Launches a card allowing contractors to spend their DLUSD stablecoin balance.",
+      "source_url": "https://www.finextra.com/pressarticle/111773/deel-launches-card-that-lets-contractors-spend-stablecoin-balance"
     }
   ]
 }
