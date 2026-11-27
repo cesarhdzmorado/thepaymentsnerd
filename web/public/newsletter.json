@@ -1,71 +1,78 @@
 {
   "news": [
     {
-      "title": "Afterpay Reaches $2.68 Million California Underwriting Settlement",
-      "body": "PYMNTS reports that California\u2019s Department of Financial Protection and Innovation reached a $2.68 million settlement with Afterpay over underwriting failures. The amount describes the settlement total, not an established penalty-only figure. The underwriting action concerns Afterpay\u2019s lending practices and is separate from the Block AML matter referenced in the report.",
-      "source": {
-        "name": "PYMNTS",
-        "url": "https://www.pymnts.com/news/buy-now-pay-later/2026/calif-fines-afterpay-2-7-million-for-underwriting-failures/"
-      }
-    },
-    {
-      "title": "Highnote Applies to Establish a National Bank",
-      "body": "Highnote filed applications with the OCC and FDIC to establish a national bank, Banking Dive reports. The applications seek regulatory approval; they do not establish an approved charter or launch date. The report establishes no immediate change to existing customer programs or sponsor-bank relationships.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/highnote-applies-national-bank-charter-occ-fdic/875785/"
-      }
-    },
-    {
-      "title": "Capital One Details Payments Modernization and Fraud-Model Work",
-      "body": "In an interview with Banking Dive, a Capital One executive described the bank\u2019s payment-rail architecture and remaining modernization work, including ACH and wire migration. The executive also outlined fraud-model work aimed at reducing false positives and increasing approvals. Those are stated objectives: the interview supplied no measured improvements.",
-      "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/capital-one-pursues-payments-modernization-real-time-cloud-avik-chatterjee/875712/"
-      }
-    },
-    {
-      "title": "South Korea Proposes Rules for Bank-Issued Won Stablecoins",
-      "body": "South Korea has proposed rules allowing local banks to issue won-pegged stablecoins, according to Finextra. The proposal would create a bank-issuance route rather than establish that banks have already launched tokens. Issuer eligibility, redemption obligations and distribution permissions will define how banks can offer the proposed instruments.",
+      "title": "FinCEN Takes Systems Offline, Making Reporting Continuity an Immediate Compliance Task",
+      "body": "FinCEN took some systems offline following a suspected cyberattack, disrupting access to regulatory infrastructure. Banks and payment firms must distinguish unavailable submission channels from obligations that remain in force. Compliance teams should map any reporting relief to specific filings, preserve failed-submission evidence and track service restoration before clearing submission backlogs.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48809/south-korea-proposes-new-stablecoin-rules-for-local-bank-issuance"
+        "url": "https://www.finextra.com/newsarticle/48816/fincen-takes-some-systems-offline-after-suspected-cyber-attack"
       }
     },
     {
-      "title": "Aave Labs Publicly Launches Savings App With Reported Balances Above $63 Million",
-      "body": "Aave Labs has publicly launched its savings app, with balances exceeding $63 million, The Block reports. The launch expands public access, but the reported balance does not measure net inflows or withdrawal performance. Customers assessing the app need to distinguish its yield sources and protection arrangements from those of an insured bank deposit.",
+      "title": "AfricaNenda Report Separates Instant-Payment System Coverage From Meaningful Access and Usage",
+      "body": "AfricaNenda Foundation released its State of Inclusive Payments in Africa 2026 report, examining payment-system reach, inclusion and trust. Its 89% adult-population coverage figure measures availability at the country level, not individual access or active usage\u2014a material distinction for banks and PSPs sizing markets. Expansion plans should pair coverage estimates with active-use data, recipient-name validation, complaint handling and refund performance.",
       "source": {
-        "name": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48810/africanenda-foundation-launches-state-of-inclusive-payments-in-africa-2026"
+      }
+    },
+    {
+      "title": "CFTC Crypto Advisory Keeps Operating Resources and Liquidity Requirements Distinct",
+      "body": "CFTC staff issued an advisory on using crypto assets to satisfy financial-resource requirements, defining eligible institutions and distinguishing operating resources from liquidity requirements. Firms evaluating crypto holdings cannot treat those two requirements as interchangeable. Treasury and compliance teams should maintain separate calculations and assess issuer eligibility, reserve composition and custody arrangements before relying on crypto assets to meet requirements.",
+      "source": {
+        "name": "CFTC",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9331-26"
+      }
+    },
+    {
+      "title": "California\u2019s $2.7 Million Afterpay Fine Makes Underwriting Documentation a Compliance Priority",
+      "body": "California fined Afterpay $2.7 million over underwriting failures. For BNPL lenders, favorable repayment statistics do not substitute for evidence that required affordability checks took place. Credit and compliance teams should audit how they document income, existing debt and repayment capacity, and retain records that demonstrate the required procedures were followed.",
+      "source": {
+        "name": "Banking Dive",
+        "url": "https://www.bankingdive.com/news/california-fines-afterpay-27m/875794/"
+      }
+    },
+    {
+      "title": "Zodia Custody Breach Makes Client Data Security a Counterparty Review Priority",
+      "body": "Client data leaked in a security breach at Zodia Custody, according to Finextra\u2019s report citing Reuters. Exposed client information creates phishing and impersonation risks, distinct from the question of whether custody assets were stolen. Institutional clients should review affected data, authentication controls and continuity arrangements as forensic findings emerge, rather than equating assets under custody with financial losses.",
+      "source": {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/newsarticle/48820/client-data-leaked-in-zodia-custody-security-breach---reuters"
       }
     }
   ],
-  "perspective": "Highnote seeks banking authorization while Capital One outlines payment-rail modernization, spanning charter applications and infrastructure investment.",
+  "perspective": "FinCEN\u2019s system shutdown and Afterpay\u2019s California fine put reporting continuity, underwriting evidence and financial controls at the center of today\u2019s brief.",
   "curiosity": {
-    "text": "In 1946, Flatbush National Bank of Brooklyn introduced its \u201cCharge-It\u201d plan: customers charged purchases at participating local merchants, who submitted the sales slips to the bank for payment. Unlike a modern card network, the arrangement served the bank\u2019s own customers and nearby merchants. Source: Smithsonian National Museum of American History \u2014 https://americanhistory.si.edu/collections/object-groups/credit-cards"
+    "text": "In 1985, Iceland\u2019s first electronic payment card, the Eurocard-based Kreditkort, was introduced, and Iceland later became one of the first countries where cards overtook cash for everyday purchases. The shift was helped by a distinctive local factor: banks and merchants built broad card acceptance across a small, geographically dispersed population. Source: Central Bank of Iceland, \u201cPayment Systems in Iceland\u201d \u2014 https://www.cb.is/publications/publication/"
   },
   "whats_hot": [
     {
       "flag": "\ud83c\uddf8\ud83c\uddea",
       "type": "fundraising",
       "company": "Trustly",
-      "description": "Raises approximately $60 million from existing shareholders for payment, data and AI development.",
-      "source_url": "https://www.pymnts.com/news/b2b-payments/2026/trustly-raises-60-million-for-ai-driven-financial-intel/"
-    },
-    {
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Pliant",
-      "description": "Secures over \u20ac200 million additional debt capacity through Ascory Bank and Viola Credit transactions.",
-      "source_url": "https://www.finextra.com/pressarticle/111768/pliant-secures-200m-in-debt-financing"
+      "description": "Raises $60 million for products combining payments, financial data and AI.",
+      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/trustly-raises-60-million-for-ai-driven-financial-intel/"
     },
     {
       "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "type": "M&A",
+      "company": "Family Savings Credit Union",
+      "description": "Agrees to acquire Liberty Bank\u2019s parent, adding seven Alabama branches.",
+      "source_url": "https://www.bankingdive.com/news/alabama-family-savings-credit-union-buys-liberty-bank/875745/"
+    },
+    {
+      "flag": "",
       "type": "product",
-      "company": "Deel",
-      "description": "Launches a card allowing contractors to spend their DLUSD stablecoin balance.",
-      "source_url": "https://www.finextra.com/pressarticle/111773/deel-launches-card-that-lets-contractors-spend-stablecoin-balance"
+      "company": "Maldives Islamic Bank",
+      "description": "Launches its first Visa Islamic Ujrah-based credit card with BPC.",
+      "source_url": "https://www.finextra.com/pressarticle/111791/maldives-islamic-bank-launches-its-visa-islamic-credit-card-proposition-with-bpc"
+    },
+    {
+      "flag": "",
+      "type": "product",
+      "company": "NBX",
+      "description": "Announces planned Visa Flex Card with Tieto and IDT Finance.",
+      "source_url": "https://www.finextra.com/pressarticle/111795/nbx-partners-visa-for-stablecoin-linked-card"
     }
   ]
 }
