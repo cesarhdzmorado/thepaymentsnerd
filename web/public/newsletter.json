@@ -1,71 +1,64 @@
 {
   "news": [
     {
-      "title": "FinCEN Takes Systems Offline, Making Reporting Continuity an Immediate Compliance Task",
-      "body": "FinCEN took some systems offline following a suspected cyberattack, disrupting access to regulatory infrastructure. Banks and payment firms must distinguish unavailable submission channels from obligations that remain in force. Compliance teams should map any reporting relief to specific filings, preserve failed-submission evidence and track service restoration before clearing submission backlogs.",
+      "title": "Sweden Agrees to Join the Eurosystem\u2019s T2 Settlement System",
+      "body": "The European Central Bank and Sveriges Riksbank have agreed that Sweden will join T2, the Eurosystem\u2019s real-time gross settlement system, Finextra reported on November 27. The agreement sets up a settlement-platform migration for participating banks, with testing, implementation milestones and changes to payment-processing procedures forming the practical work ahead.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48816/fincen-takes-some-systems-offline-after-suspected-cyber-attack"
+        "url": "https://www.finextra.com/newsarticle/48829/sweden-to-join-eurosystems-t2-rtgs-system"
       }
     },
     {
-      "title": "AfricaNenda Report Separates Instant-Payment System Coverage From Meaningful Access and Usage",
-      "body": "AfricaNenda Foundation released its State of Inclusive Payments in Africa 2026 report, examining payment-system reach, inclusion and trust. Its 89% adult-population coverage figure measures availability at the country level, not individual access or active usage\u2014a material distinction for banks and PSPs sizing markets. Expansion plans should pair coverage estimates with active-use data, recipient-name validation, complaint handling and refund performance.",
+      "title": "MoonPay and Highnote Apply for National Trust Bank Charters",
+      "body": "MoonPay and Highnote have filed applications for national trust bank charters, according to Finextra\u2019s November 27 report. Applications do not confer banking authority: any approval and its conditions would determine the activities each company could undertake. The distinction matters for customers and partners assessing which services the companies could provide under a charter.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48810/africanenda-foundation-launches-state-of-inclusive-payments-in-africa-2026"
+        "url": "https://www.finextra.com/newsarticle/48823/moonpay-and-highnote-file-for-national-bank-charters"
       }
     },
     {
-      "title": "CFTC Crypto Advisory Keeps Operating Resources and Liquidity Requirements Distinct",
-      "body": "CFTC staff issued an advisory on using crypto assets to satisfy financial-resource requirements, defining eligible institutions and distinguishing operating resources from liquidity requirements. Firms evaluating crypto holdings cannot treat those two requirements as interchangeable. Treasury and compliance teams should maintain separate calculations and assess issuer eligibility, reserve composition and custody arrangements before relying on crypto assets to meet requirements.",
+      "title": "TrueLayer and Papa Johns Pilot AI-Initiated Pay-by-Bank Purchases",
+      "body": "A pilot involving TrueLayer and Papa Johns combines purchases initiated by AI shopping agents with pay-by-bank payments. PYMNTS\u2019 November 27 report describes mandate controls and authorization through the customer\u2019s banking app. These controls connect an agent\u2019s purchase request to customer permission; the pilot does not establish broad production availability across banks.",
       "source": {
-        "name": "CFTC",
-        "url": "https://www.cftc.gov/PressRoom/PressReleases/9331-26"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payment-methods/2026/truelayer-and-papa-johns-pit-pay-by-bank-against-cards-in-agentic-commerce/"
       }
     },
     {
-      "title": "California\u2019s $2.7 Million Afterpay Fine Makes Underwriting Documentation a Compliance Priority",
-      "body": "California fined Afterpay $2.7 million over underwriting failures. For BNPL lenders, favorable repayment statistics do not substitute for evidence that required affordability checks took place. Credit and compliance teams should audit how they document income, existing debt and repayment capacity, and retain records that demonstrate the required procedures were followed.",
+      "title": "Lloyds Restores App and Online Banking After Outage",
+      "body": "Lloyds restored its app and online banking services after an outage, according to Bloomberg reporting cited by PYMNTS on November 27. Restoring those channels reopens customers\u2019 digital access to their accounts. For the bank\u2019s service teams, the follow-through includes resolving customer complaints and establishing whether the interruption affected payment initiation as well as account access.",
       "source": {
-        "name": "Banking Dive",
-        "url": "https://www.bankingdive.com/news/california-fines-afterpay-27m/875794/"
+        "name": "PYMNTS",
+        "url": "https://www.pymnts.com/cybersecurity/2026/hackers-hit-us-air-force-and-fifa-while-lloyds-and-uk-agency-report-outages/"
       }
     },
     {
-      "title": "Zodia Custody Breach Makes Client Data Security a Counterparty Review Priority",
-      "body": "Client data leaked in a security breach at Zodia Custody, according to Finextra\u2019s report citing Reuters. Exposed client information creates phishing and impersonation risks, distinct from the question of whether custody assets were stolen. Institutional clients should review affected data, authentication controls and continuity arrangements as forensic findings emerge, rather than equating assets under custody with financial losses.",
+      "title": "Intermex Sues to Enforce Western Union\u2019s $500 Million Merger Agreement",
+      "body": "Intermex sued Western Union to enforce their $500 million merger agreement after Western Union withdrew, Finextra reported on November 27. Intermex seeks enforcement of the transaction, not recognition of a completed combination. Banks and remittance partners therefore cannot base contracts or network arrangements on the two businesses having merged.",
       "source": {
         "name": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/48820/client-data-leaked-in-zodia-custody-security-breach---reuters"
+        "url": "https://www.finextra.com/newsarticle/48831/intermex-sues-western-union-over-merger-agreement-termination"
       }
     }
   ],
-  "perspective": "FinCEN\u2019s system shutdown and Afterpay\u2019s California fine put reporting continuity, underwriting evidence and financial controls at the center of today\u2019s brief.",
+  "perspective": "TrueLayer\u2019s payment pilot and MoonPay\u2019s charter application show fintechs pursuing bank-authorized purchases and direct regulatory permissions through distinct routes.",
   "curiosity": {
-    "text": "In 1985, Iceland\u2019s first electronic payment card, the Eurocard-based Kreditkort, was introduced, and Iceland later became one of the first countries where cards overtook cash for everyday purchases. The shift was helped by a distinctive local factor: banks and merchants built broad card acceptance across a small, geographically dispersed population. Source: Central Bank of Iceland, \u201cPayment Systems in Iceland\u201d \u2014 https://www.cb.is/publications/publication/"
+    "text": "The Luhn checksum used on many payment-card numbers detects every single-digit error, but not every adjacent-digit swap: it cannot distinguish 09 from 90. Passing the check does not establish that an account exists or that a payment is authorized. Source: Luhn algorithm \u2014 https://en.wikipedia.org/wiki/Luhn_algorithm"
   },
   "whats_hot": [
     {
-      "flag": "\ud83c\uddf8\ud83c\uddea",
-      "type": "fundraising",
-      "company": "Trustly",
-      "description": "Raises $60 million for products combining payments, financial data and AI.",
-      "source_url": "https://www.pymnts.com/news/investment-tracker/2026/trustly-raises-60-million-for-ai-driven-financial-intel/"
-    },
-    {
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "type": "M&A",
-      "company": "Family Savings Credit Union",
-      "description": "Agrees to acquire Liberty Bank\u2019s parent, adding seven Alabama branches.",
-      "source_url": "https://www.bankingdive.com/news/alabama-family-savings-credit-union-buys-liberty-bank/875745/"
-    },
-    {
-      "flag": "",
+      "flag": "\ud83c\udde8\ud83c\udde6",
       "type": "product",
-      "company": "Maldives Islamic Bank",
-      "description": "Launches its first Visa Islamic Ujrah-based credit card with BPC.",
-      "source_url": "https://www.finextra.com/pressarticle/111791/maldives-islamic-bank-launches-its-visa-islamic-credit-card-proposition-with-bpc"
+      "company": "Shopify",
+      "description": "Automatically adds delegated-payment authorization evidence to agentic-order chargeback responses.",
+      "source_url": "https://changelog.shopify.com/posts/get-more-evidence-for-chargebacks-on-agentic-orders"
+    },
+    {
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "type": "expansion",
+      "company": "Klarna",
+      "description": "Launches Canadian single-use virtual cards supporting installments beyond Klarna-integrated merchants.",
+      "source_url": "https://www.pymnts.com/bnpl/2026/klarna-expands-price-comparison-in-europe-and-launches-virtual-card-in-canada/"
     },
     {
       "flag": "",
